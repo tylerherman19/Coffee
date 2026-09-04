@@ -1,0 +1,5756 @@
+{
+ "platform": "kyoo",
+ "source_url": "https://www.kyoo.tech/order/merchants/CFBWC96K81379",
+ "shops": [
+  {
+   "id": 16,
+   "slug": null
+  },
+  {
+   "id": 68,
+   "slug": null
+  },
+  {
+   "id": 77,
+   "slug": null
+  },
+  {
+   "id": 81,
+   "slug": null
+  },
+  {
+   "id": 83,
+   "slug": null
+  },
+  {
+   "id": 84,
+   "slug": null
+  },
+  {
+   "id": 162,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "HOORBYWZ3INMXXPKVEIOGY3Q|4oz",
+   "name": "Cortado",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "4oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OP4SUTSDO3DXTCN7CW3QRJPV|2oz",
+   "name": "Espresso",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 325,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "2oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OLRYULKQJK47GZYY647XBUC5|6 oz - Traditional",
+   "name": "Cappuccino (6 oz - Traditional)",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "6 oz - Traditional"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OLRYULKQJK47GZYY647XBUC5|12 oz",
+   "name": "Cappuccino (12 oz)",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OLRYULKQJK47GZYY647XBUC5|16 oz",
+   "name": "Cappuccino (16 oz)",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OLRYULKQJK47GZYY647XBUC5|20 oz",
+   "name": "Cappuccino (20 oz)",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "36IS43B7RDTNTJCKHMFL2X23|8oz",
+   "name": "Americano (8oz)",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "36IS43B7RDTNTJCKHMFL2X23|12oz",
+   "name": "Americano (12oz)",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "36IS43B7RDTNTJCKHMFL2X23|16oz",
+   "name": "Americano (16oz)",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "36IS43B7RDTNTJCKHMFL2X23|20oz",
+   "name": "Americano (20oz)",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BIQFOSVXC5PTNLTCCVBMZ7XD|6 oz - Traditional",
+   "name": "Flat White",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "6 oz - Traditional"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QRDGCDQRWA6M2A2ZTZDBCA7P|4oz",
+   "name": "Cracked Coriander Cortado",
+   "category": "Hot Coffee/Classic Espresso",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "4oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HNFHE55PKMTID25ZO2QCSQYT|8oz",
+   "name": "Latte (8oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HNFHE55PKMTID25ZO2QCSQYT|12oz",
+   "name": "Latte (12oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HNFHE55PKMTID25ZO2QCSQYT|16oz",
+   "name": "Latte (16oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HNFHE55PKMTID25ZO2QCSQYT|20oz",
+   "name": "Latte (20oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HDFMX3CDPTS7MPMXCHS546IQ|8oz",
+   "name": "Boston Latte (8oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HDFMX3CDPTS7MPMXCHS546IQ|12oz",
+   "name": "Boston Latte (12oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HDFMX3CDPTS7MPMXCHS546IQ|16oz",
+   "name": "Boston Latte (16oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HDFMX3CDPTS7MPMXCHS546IQ|20oz",
+   "name": "Boston Latte (20oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XDYQGR4NMHXDZLJQS6XYVSQN|8oz",
+   "name": "Caramella Latte (8oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XDYQGR4NMHXDZLJQS6XYVSQN|12oz",
+   "name": "Caramella Latte (12oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XDYQGR4NMHXDZLJQS6XYVSQN|16oz",
+   "name": "Caramella Latte (16oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XDYQGR4NMHXDZLJQS6XYVSQN|20oz",
+   "name": "Caramella Latte (20oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EGFV45AABNHRK45MSCDIXZW3|8oz",
+   "name": "Lavender Latte (8oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EGFV45AABNHRK45MSCDIXZW3|12oz",
+   "name": "Lavender Latte (12oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EGFV45AABNHRK45MSCDIXZW3|16oz",
+   "name": "Lavender Latte (16oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EGFV45AABNHRK45MSCDIXZW3|20oz",
+   "name": "Lavender Latte (20oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FRHI6LW2MQQCKX7EBJSKY4QC|8oz",
+   "name": "Mocha (8oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FRHI6LW2MQQCKX7EBJSKY4QC|12oz",
+   "name": "Mocha (12oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FRHI6LW2MQQCKX7EBJSKY4QC|16oz",
+   "name": "Mocha (16oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FRHI6LW2MQQCKX7EBJSKY4QC|20oz",
+   "name": "Mocha (20oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RHP75S7GMYOVWOAD7X7HKJBX|8 oz",
+   "name": "Pistachio Cardamom Latte (8 oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RHP75S7GMYOVWOAD7X7HKJBX|12 oz",
+   "name": "Pistachio Cardamom Latte (12 oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RHP75S7GMYOVWOAD7X7HKJBX|16 oz",
+   "name": "Pistachio Cardamom Latte (16 oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RHP75S7GMYOVWOAD7X7HKJBX|20 oz",
+   "name": "Pistachio Cardamom Latte (20 oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NAIMQG5GXYQUMOAJ4KHSGEDE|8oz",
+   "name": "Vanilla Bean Latte (8oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NAIMQG5GXYQUMOAJ4KHSGEDE|12oz",
+   "name": "Vanilla Bean Latte (12oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NAIMQG5GXYQUMOAJ4KHSGEDE|16oz",
+   "name": "Vanilla Bean Latte (16oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NAIMQG5GXYQUMOAJ4KHSGEDE|20oz",
+   "name": "Vanilla Bean Latte (20oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YV3UDY4QU4YWYMM6FIUKZOAI|8oz",
+   "name": "White Chocolate Mocha (8oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YV3UDY4QU4YWYMM6FIUKZOAI|12oz",
+   "name": "White Chocolate Mocha (12oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YV3UDY4QU4YWYMM6FIUKZOAI|16oz",
+   "name": "White Chocolate Mocha (16oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YV3UDY4QU4YWYMM6FIUKZOAI|20oz",
+   "name": "White Chocolate Mocha (20oz)",
+   "category": "Hot Coffee/Signature Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ZNNR7E4LZB6KZPSVURG7TQN|8 oz Darker",
+   "name": "Caf\u00e9 Au Lait (8 oz Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8 oz Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ZNNR7E4LZB6KZPSVURG7TQN|12 oz Darker",
+   "name": "Caf\u00e9 Au Lait (12 oz Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ZNNR7E4LZB6KZPSVURG7TQN|16 oz Darker",
+   "name": "Caf\u00e9 Au Lait (16 oz Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ZNNR7E4LZB6KZPSVURG7TQN|20 oz Darker",
+   "name": "Caf\u00e9 Au Lait (20 oz Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ZNNR7E4LZB6KZPSVURG7TQN|8 oz Lighter",
+   "name": "Caf\u00e9 Au Lait (8 oz Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8 oz Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ZNNR7E4LZB6KZPSVURG7TQN|12 oz Lighter",
+   "name": "Caf\u00e9 Au Lait (12 oz Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ZNNR7E4LZB6KZPSVURG7TQN|16 oz Lighter",
+   "name": "Caf\u00e9 Au Lait (16 oz Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ZNNR7E4LZB6KZPSVURG7TQN|20 oz Lighter",
+   "name": "Caf\u00e9 Au Lait (20 oz Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4YNVZ2NKWJCR6W7MHD5WSRGR|8oz",
+   "name": "Drip-Darker (8oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 275,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4YNVZ2NKWJCR6W7MHD5WSRGR|12oz",
+   "name": "Drip-Darker (12oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 325,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4YNVZ2NKWJCR6W7MHD5WSRGR|16oz",
+   "name": "Drip-Darker (16oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4YNVZ2NKWJCR6W7MHD5WSRGR|20oz",
+   "name": "Drip-Darker (20oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2LWHWWQKJMARNJWLUIWB54SU|8oz",
+   "name": "Drip-Lighter (8oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 275,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2LWHWWQKJMARNJWLUIWB54SU|12oz",
+   "name": "Drip-Lighter (12oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 325,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2LWHWWQKJMARNJWLUIWB54SU|16oz",
+   "name": "Drip-Lighter (16oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2LWHWWQKJMARNJWLUIWB54SU|20oz",
+   "name": "Drip-Lighter (20oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TLDLU4NTJQBZL3DIDEVYUIJO|8oz",
+   "name": "Drip-Decaf (8oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 275,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TLDLU4NTJQBZL3DIDEVYUIJO|12oz",
+   "name": "Drip-Decaf (12oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 325,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TLDLU4NTJQBZL3DIDEVYUIJO|16oz",
+   "name": "Drip-Decaf (16oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TLDLU4NTJQBZL3DIDEVYUIJO|20oz",
+   "name": "Drip-Decaf (20oz)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4RBNNYV5SAHLCYXTJRBKY6KO|8oz-Darker",
+   "name": "Overdrive (8oz-Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz-Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4RBNNYV5SAHLCYXTJRBKY6KO|12oz-Darker",
+   "name": "Overdrive (12oz-Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz-Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4RBNNYV5SAHLCYXTJRBKY6KO|16oz-Darker",
+   "name": "Overdrive (16oz-Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz-Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4RBNNYV5SAHLCYXTJRBKY6KO|20oz-Darker",
+   "name": "Overdrive (20oz-Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz-Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4RBNNYV5SAHLCYXTJRBKY6KO|8oz-Lighter",
+   "name": "Overdrive (8oz-Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz-Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4RBNNYV5SAHLCYXTJRBKY6KO|12oz-Lighter",
+   "name": "Overdrive (12oz-Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz-Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4RBNNYV5SAHLCYXTJRBKY6KO|16oz-Lighter",
+   "name": "Overdrive (16oz-Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz-Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4RBNNYV5SAHLCYXTJRBKY6KO|20oz-Lighter",
+   "name": "Overdrive (20oz-Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz-Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VIKVKR3PGLFVLCHDFHWJUALV|Make with Drip - Lighter",
+   "name": "96oz Coffee for the Crew (Make with Drip - Lighter)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 2500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Make with Drip - Lighter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VIKVKR3PGLFVLCHDFHWJUALV|Make with Drip - Darker",
+   "name": "96oz Coffee for the Crew (Make with Drip - Darker)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 2500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Make with Drip - Darker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VIKVKR3PGLFVLCHDFHWJUALV|Make with Drip - Decaf",
+   "name": "96oz Coffee for the Crew (Make with Drip - Decaf)",
+   "category": "Hot Coffee/Drip Coffee",
+   "price_cents": 2500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Make with Drip - Decaf"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CWSZMBYEHYZGJ4U5DPLUWHFB|8oz",
+   "name": "Maple Ube Latte (8oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CWSZMBYEHYZGJ4U5DPLUWHFB|12oz",
+   "name": "Maple Ube Latte (12oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CWSZMBYEHYZGJ4U5DPLUWHFB|16oz",
+   "name": "Maple Ube Latte (16oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CWSZMBYEHYZGJ4U5DPLUWHFB|20oz",
+   "name": "Maple Ube Latte (20oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HZMSVPFP4DN7ECAFU777EIKX|8oz",
+   "name": "Brown Butter Apple Latte (8oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HZMSVPFP4DN7ECAFU777EIKX|12oz",
+   "name": "Brown Butter Apple Latte (12oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HZMSVPFP4DN7ECAFU777EIKX|16oz",
+   "name": "Brown Butter Apple Latte (16oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HZMSVPFP4DN7ECAFU777EIKX|20oz",
+   "name": "Brown Butter Apple Latte (20oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MDET7REJVWMPGFEBQSL3LUD7|8oz",
+   "name": "Almond Pear Latte (8oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MDET7REJVWMPGFEBQSL3LUD7|12oz",
+   "name": "Almond Pear Latte (12oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MDET7REJVWMPGFEBQSL3LUD7|16oz",
+   "name": "Almond Pear Latte (16oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MDET7REJVWMPGFEBQSL3LUD7|20oz",
+   "name": "Almond Pear Latte (20oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PV3OJZQUBHJXWN3EU7U4JUS6|8oz",
+   "name": "Miso Pecan Latte (8oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PV3OJZQUBHJXWN3EU7U4JUS6|12oz",
+   "name": "Miso Pecan Latte (12oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PV3OJZQUBHJXWN3EU7U4JUS6|16oz",
+   "name": "Miso Pecan Latte (16oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PV3OJZQUBHJXWN3EU7U4JUS6|20oz",
+   "name": "Miso Pecan Latte (20oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WXD5WD4IJFODKPO3X5J7ZFDQ|8oz",
+   "name": "Pumpkin Spice Latte (8oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WXD5WD4IJFODKPO3X5J7ZFDQ|12oz",
+   "name": "Pumpkin Spice Latte (12oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WXD5WD4IJFODKPO3X5J7ZFDQ|16oz",
+   "name": "Pumpkin Spice Latte (16oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WXD5WD4IJFODKPO3X5J7ZFDQ|20oz",
+   "name": "Pumpkin Spice Latte (20oz)",
+   "category": "Hot Coffee/Seasonal Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "42RFDIU3DXEQ2S62OIZX3AEI|12 oz",
+   "name": "Iced Pistachio Cardamom Latte (12 oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "42RFDIU3DXEQ2S62OIZX3AEI|16 oz",
+   "name": "Iced Pistachio Cardamom Latte (16 oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "42RFDIU3DXEQ2S62OIZX3AEI|20 oz",
+   "name": "Iced Pistachio Cardamom Latte (20 oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5NSQ2B7Z2PEFTUWEPRFDNFPD|12oz",
+   "name": "Iced White Chocolate Mocha (12oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5NSQ2B7Z2PEFTUWEPRFDNFPD|16oz",
+   "name": "Iced White Chocolate Mocha (16oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5NSQ2B7Z2PEFTUWEPRFDNFPD|20oz",
+   "name": "Iced White Chocolate Mocha (20oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CH56JYZKMMCDCNO5JIAXF254|12oz",
+   "name": "Iced Lavender Latte (12oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CH56JYZKMMCDCNO5JIAXF254|16oz",
+   "name": "Iced Lavender Latte (16oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CH56JYZKMMCDCNO5JIAXF254|20oz",
+   "name": "Iced Lavender Latte (20oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KFNBC3P2Q2VBH3NLBTJWDVAR|12oz",
+   "name": "Iced Boston Latte (12oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KFNBC3P2Q2VBH3NLBTJWDVAR|16oz",
+   "name": "Iced Boston Latte (16oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KFNBC3P2Q2VBH3NLBTJWDVAR|20oz",
+   "name": "Iced Boston Latte (20oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LIFG64EFO34F5KTCID2T36P6|12oz",
+   "name": "Iced Vanilla Bean Latte (12oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LIFG64EFO34F5KTCID2T36P6|16oz",
+   "name": "Iced Vanilla Bean Latte (16oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LIFG64EFO34F5KTCID2T36P6|20oz",
+   "name": "Iced Vanilla Bean Latte (20oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NS675S7ON4MF2JS6Q66UIDGX|12oz",
+   "name": "Iced Caramella Latte (12oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NS675S7ON4MF2JS6Q66UIDGX|16oz",
+   "name": "Iced Caramella Latte (16oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NS675S7ON4MF2JS6Q66UIDGX|20oz",
+   "name": "Iced Caramella Latte (20oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WFI3Q23VIYZLD4GK4274BEZR|12oz",
+   "name": "Iced Mocha (12oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WFI3Q23VIYZLD4GK4274BEZR|16oz",
+   "name": "Iced Mocha (16oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WFI3Q23VIYZLD4GK4274BEZR|20oz",
+   "name": "Iced Mocha (20oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QNDY72QQUPAJRFL3VDQDYGY2|12oz",
+   "name": "Iced Latte (12oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QNDY72QQUPAJRFL3VDQDYGY2|16oz",
+   "name": "Iced Latte (16oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QNDY72QQUPAJRFL3VDQDYGY2|20oz",
+   "name": "Iced Latte (20oz)",
+   "category": "Cold Coffee/Signature Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EH7JXHN2QZUWFFSTEI4PXBAG|8oz",
+   "name": "Iced Americano (8oz)",
+   "category": "Cold Coffee/Iced Classic Espresso",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EH7JXHN2QZUWFFSTEI4PXBAG|12oz",
+   "name": "Iced Americano (12oz)",
+   "category": "Cold Coffee/Iced Classic Espresso",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EH7JXHN2QZUWFFSTEI4PXBAG|16oz",
+   "name": "Iced Americano (16oz)",
+   "category": "Cold Coffee/Iced Classic Espresso",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EH7JXHN2QZUWFFSTEI4PXBAG|20oz",
+   "name": "Iced Americano (20oz)",
+   "category": "Cold Coffee/Iced Classic Espresso",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YGOFSFWYUHEKN6SF4PDATM4O|2oz",
+   "name": "Iced Espresso",
+   "category": "Cold Coffee/Iced Classic Espresso",
+   "price_cents": 325,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "2oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "G3PEU25ME2XVT6LYSPIX3WKO|4oz",
+   "name": "Iced Cortado",
+   "category": "Cold Coffee/Iced Classic Espresso",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "4oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZVK2JHUIJKAV25TNG3XWLR45|12oz",
+   "name": "Cola Espresso Tonic",
+   "category": "Cold Coffee/Iced Classic Espresso",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QETUMMMI4GCKVUJII32XGXN7|12oz",
+   "name": "Frozen Caramel Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QETUMMMI4GCKVUJII32XGXN7|16oz",
+   "name": "Frozen Caramel Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QETUMMMI4GCKVUJII32XGXN7|20oz",
+   "name": "Frozen Caramel Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JDQ7XVIBIEZXEUDGL2ZRMO2N|12 oz",
+   "name": "Frozen Cream City Ice Latte (12 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JDQ7XVIBIEZXEUDGL2ZRMO2N|16 oz",
+   "name": "Frozen Cream City Ice Latte (16 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JDQ7XVIBIEZXEUDGL2ZRMO2N|20 oz",
+   "name": "Frozen Cream City Ice Latte (20 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "J47GJ6EFJDFYWNL7INBYGGBQ|12oz",
+   "name": "Frozen Lavender Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "J47GJ6EFJDFYWNL7INBYGGBQ|16oz",
+   "name": "Frozen Lavender Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "J47GJ6EFJDFYWNL7INBYGGBQ|20oz",
+   "name": "Frozen Lavender Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7VK4I6ZUZDJ3JFCKTHCY6LEH|12 oz",
+   "name": "Frozen Matcha Tea Latte (12 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7VK4I6ZUZDJ3JFCKTHCY6LEH|16 oz",
+   "name": "Frozen Matcha Tea Latte (16 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7VK4I6ZUZDJ3JFCKTHCY6LEH|20 oz",
+   "name": "Frozen Matcha Tea Latte (20 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FDKLJ3RLHZTLRAIMTXFGUAUF|12oz",
+   "name": "Frozen Mocha Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FDKLJ3RLHZTLRAIMTXFGUAUF|16oz",
+   "name": "Frozen Mocha Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FDKLJ3RLHZTLRAIMTXFGUAUF|20oz",
+   "name": "Frozen Mocha Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TX5GBMYRP3PLM5WEZEGPBQ6G|12 oz",
+   "name": "Frozen Pistachio Cardamom  Latte (12 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TX5GBMYRP3PLM5WEZEGPBQ6G|16 oz",
+   "name": "Frozen Pistachio Cardamom  Latte (16 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TX5GBMYRP3PLM5WEZEGPBQ6G|20 oz",
+   "name": "Frozen Pistachio Cardamom  Latte (20 oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GCEKCIIDNKRHGMVGTQ24O354|12oz",
+   "name": "Frozen White Chocolate Mocha (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GCEKCIIDNKRHGMVGTQ24O354|16oz",
+   "name": "Frozen White Chocolate Mocha (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GCEKCIIDNKRHGMVGTQ24O354|20oz",
+   "name": "Frozen White Chocolate Mocha (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LFO2XI4SUIJCH54PSIY7DMWO|12oz",
+   "name": "Frozen Vanilla Bean Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LFO2XI4SUIJCH54PSIY7DMWO|16oz",
+   "name": "Frozen Vanilla Bean Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LFO2XI4SUIJCH54PSIY7DMWO|20oz",
+   "name": "Frozen Vanilla Bean Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OBPWMGI6VVT53UMWADQMDSF3|12oz",
+   "name": "Frozen Pumpkin Spice Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OBPWMGI6VVT53UMWADQMDSF3|16oz",
+   "name": "Frozen Pumpkin Spice Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OBPWMGI6VVT53UMWADQMDSF3|20oz",
+   "name": "Frozen Pumpkin Spice Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZBUYBG73G5XWECBFHW75DZS5|12oz",
+   "name": "Frozen Latte (no flavor added) (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZBUYBG73G5XWECBFHW75DZS5|16oz",
+   "name": "Frozen Latte (no flavor added) (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZBUYBG73G5XWECBFHW75DZS5|20oz",
+   "name": "Frozen Latte (no flavor added) (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZDMK2BZOXSXXKFM5KT7H5GWU|12oz",
+   "name": "Frozen Maple Ube Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZDMK2BZOXSXXKFM5KT7H5GWU|16oz",
+   "name": "Frozen Maple Ube Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZDMK2BZOXSXXKFM5KT7H5GWU|20oz",
+   "name": "Frozen Maple Ube Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BPR66DG5BJNAEO2ABTJUNPKF|12oz",
+   "name": "Frozen Miso Pecan Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BPR66DG5BJNAEO2ABTJUNPKF|16oz",
+   "name": "Frozen Miso Pecan Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BPR66DG5BJNAEO2ABTJUNPKF|20oz",
+   "name": "Frozen Miso Pecan Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "I7ZX7LCGUP2E5O46DWH7PS43|12oz",
+   "name": "Frozen Almond Pear Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "I7ZX7LCGUP2E5O46DWH7PS43|16oz",
+   "name": "Frozen Almond Pear Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "I7ZX7LCGUP2E5O46DWH7PS43|20oz",
+   "name": "Frozen Almond Pear Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IXMNNZLQLZALWGQQGFK4BUXW|12oz",
+   "name": "Frozen Apple Brown Butter Latte (12oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IXMNNZLQLZALWGQQGFK4BUXW|16oz",
+   "name": "Frozen Apple Brown Butter Latte (16oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IXMNNZLQLZALWGQQGFK4BUXW|20oz",
+   "name": "Frozen Apple Brown Butter Latte (20oz)",
+   "category": "Cold Coffee/Frozen Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7XRBMWQGW6O7WG55W45AEKEE|12oz",
+   "name": "Iced Brown Butter Apple Latte (12oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7XRBMWQGW6O7WG55W45AEKEE|16oz",
+   "name": "Iced Brown Butter Apple Latte (16oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7XRBMWQGW6O7WG55W45AEKEE|20oz",
+   "name": "Iced Brown Butter Apple Latte (20oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PVPGBPIUWZR3GQKOSZC2COLI|12oz",
+   "name": "Iced Pumpkin Spice Latte (12oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PVPGBPIUWZR3GQKOSZC2COLI|16oz",
+   "name": "Iced Pumpkin Spice Latte (16oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PVPGBPIUWZR3GQKOSZC2COLI|20oz",
+   "name": "Iced Pumpkin Spice Latte (20oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "T5H7QF6CPVZWHJL3MFK2XDW3|12oz",
+   "name": "Iced Almond Pear Latte (12oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "T5H7QF6CPVZWHJL3MFK2XDW3|16oz",
+   "name": "Iced Almond Pear Latte (16oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "T5H7QF6CPVZWHJL3MFK2XDW3|20oz",
+   "name": "Iced Almond Pear Latte (20oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JM5IQTXSJHINPAXTUUFRRX5I|12oz",
+   "name": "Iced Miso Pecan Latte (12oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JM5IQTXSJHINPAXTUUFRRX5I|16oz",
+   "name": "Iced Miso Pecan Latte (16oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JM5IQTXSJHINPAXTUUFRRX5I|20oz",
+   "name": "Iced Miso Pecan Latte (20oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XCXFWV4GDPZUPHGITGTAA445|12oz",
+   "name": "Iced Maple Ube Latte (12oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XCXFWV4GDPZUPHGITGTAA445|16oz",
+   "name": "Iced Maple Ube Latte (16oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XCXFWV4GDPZUPHGITGTAA445|20oz",
+   "name": "Iced Maple Ube Latte (20oz)",
+   "category": "Cold Coffee/Seasonal Iced Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WWJVZJVZ2YZY2XVTYX2XWSQG|8oz",
+   "name": "Chai Latte (8oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WWJVZJVZ2YZY2XVTYX2XWSQG|12oz",
+   "name": "Chai Latte (12oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WWJVZJVZ2YZY2XVTYX2XWSQG|16oz",
+   "name": "Chai Latte (16oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WWJVZJVZ2YZY2XVTYX2XWSQG|20oz",
+   "name": "Chai Latte (20oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6Y2QRYOP5GQXN3EY2JFN7KA2|12oz",
+   "name": "Iced Chai Latte (12oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6Y2QRYOP5GQXN3EY2JFN7KA2|16oz",
+   "name": "Iced Chai Latte (16oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6Y2QRYOP5GQXN3EY2JFN7KA2|20oz",
+   "name": "Iced Chai Latte (20oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WGY7IGCRRE6DZ3JWHA3WHQLH|12 oz",
+   "name": "Iced Lavender London Fog (12 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WGY7IGCRRE6DZ3JWHA3WHQLH|16 oz",
+   "name": "Iced Lavender London Fog (16 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WGY7IGCRRE6DZ3JWHA3WHQLH|20 oz",
+   "name": "Iced Lavender London Fog (20 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "V3GMRMWQIFKG6LFFE4QQF3WC|12 oz",
+   "name": "Iced Matcha Latte (12 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "V3GMRMWQIFKG6LFFE4QQF3WC|16 oz",
+   "name": "Iced Matcha Latte (16 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "V3GMRMWQIFKG6LFFE4QQF3WC|20 oz",
+   "name": "Iced Matcha Latte (20 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YC64ICUNSPOKNKZDTFF2LSS2|8oz",
+   "name": "Lavender London Fog (8oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YC64ICUNSPOKNKZDTFF2LSS2|12oz",
+   "name": "Lavender London Fog (12oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YC64ICUNSPOKNKZDTFF2LSS2|16oz",
+   "name": "Lavender London Fog (16oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YC64ICUNSPOKNKZDTFF2LSS2|20oz",
+   "name": "Lavender London Fog (20oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GQRJDI7GTTDDAR3L5EK2ZRJF|8 oz",
+   "name": "Matcha Latte (8 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GQRJDI7GTTDDAR3L5EK2ZRJF|12 oz",
+   "name": "Matcha Latte (12 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GQRJDI7GTTDDAR3L5EK2ZRJF|16 oz",
+   "name": "Matcha Latte (16 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GQRJDI7GTTDDAR3L5EK2ZRJF|20 oz",
+   "name": "Matcha Latte (20 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "K3WQDGGKXCP75C3BPTXRLS5J|8oz",
+   "name": "Iced Mulled Citrus Chai Latte (8oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "K3WQDGGKXCP75C3BPTXRLS5J|12oz",
+   "name": "Iced Mulled Citrus Chai Latte (12oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "K3WQDGGKXCP75C3BPTXRLS5J|16oz",
+   "name": "Iced Mulled Citrus Chai Latte (16oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "K3WQDGGKXCP75C3BPTXRLS5J|20oz",
+   "name": "Iced Mulled Citrus Chai Latte (20oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MD2CBU2DCGGROXXJIV2WUG4H|8oz",
+   "name": "Brown Butter Apple Chai Latte (8oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MD2CBU2DCGGROXXJIV2WUG4H|12oz",
+   "name": "Brown Butter Apple Chai Latte (12oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MD2CBU2DCGGROXXJIV2WUG4H|16oz",
+   "name": "Brown Butter Apple Chai Latte (16oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MD2CBU2DCGGROXXJIV2WUG4H|20oz",
+   "name": "Brown Butter Apple Chai Latte (20oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PHG2FEVCFRR3IVNSMCDGL3MB|12 oz",
+   "name": "Almond Pear Sweet Foam Iced Matcha (12 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PHG2FEVCFRR3IVNSMCDGL3MB|16 oz",
+   "name": "Almond Pear Sweet Foam Iced Matcha (16 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 675,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PHG2FEVCFRR3IVNSMCDGL3MB|20 oz",
+   "name": "Almond Pear Sweet Foam Iced Matcha (20 oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WZBKZB3OWTF377S6V43XDEUP|8oz",
+   "name": "Iced Apple Brown Butter Chai Latte (8oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WZBKZB3OWTF377S6V43XDEUP|12oz",
+   "name": "Iced Apple Brown Butter Chai Latte (12oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WZBKZB3OWTF377S6V43XDEUP|16oz",
+   "name": "Iced Apple Brown Butter Chai Latte (16oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WZBKZB3OWTF377S6V43XDEUP|20oz",
+   "name": "Iced Apple Brown Butter Chai Latte (20oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6GWFTAFAY7QCMAN5VPWKCPMS|8oz",
+   "name": "Mulled Citrus Chai (8oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6GWFTAFAY7QCMAN5VPWKCPMS|12oz",
+   "name": "Mulled Citrus Chai (12oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6GWFTAFAY7QCMAN5VPWKCPMS|16oz",
+   "name": "Mulled Citrus Chai (16oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6GWFTAFAY7QCMAN5VPWKCPMS|20oz",
+   "name": "Mulled Citrus Chai (20oz)",
+   "category": "Tea/Chai & Tea Lattes",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EXQVKYAS75N4VZA5D5ZGPCGN|12oz",
+   "name": "Iced Peach Tea (12oz)",
+   "category": "Tea/Iced Tea",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EXQVKYAS75N4VZA5D5ZGPCGN|16oz",
+   "name": "Iced Peach Tea (16oz)",
+   "category": "Tea/Iced Tea",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EXQVKYAS75N4VZA5D5ZGPCGN|20oz",
+   "name": "Iced Peach Tea (20oz)",
+   "category": "Tea/Iced Tea",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Earl Grey Supreme",
+   "name": "Brewed Tea (Earl Grey Supreme)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Earl Grey Supreme"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|English Breakfast",
+   "name": "Brewed Tea (English Breakfast)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "English Breakfast"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Peach Blossom",
+   "name": "Brewed Tea (Peach Blossom)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Peach Blossom"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Jasmine Green",
+   "name": "Brewed Tea (Jasmine Green)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Jasmine Green"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Moroccan Mint",
+   "name": "Brewed Tea (Moroccan Mint)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Moroccan Mint"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Turmeric Ginger",
+   "name": "Brewed Tea (Turmeric Ginger)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Turmeric Ginger"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Ginger Lime Rooibos",
+   "name": "Brewed Tea (Ginger Lime Rooibos)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Ginger Lime Rooibos"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Blueberry Rooibos",
+   "name": "Brewed Tea (Blueberry Rooibos)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Blueberry Rooibos"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Scarlet",
+   "name": "Brewed Tea (Scarlet)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Scarlet"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYMONOF4PYNY32BXMEZJ26MG|Cinnamon Plum",
+   "name": "Brewed Tea (Cinnamon Plum)",
+   "category": "Tea/Hot Brewed Tea",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Cinnamon Plum"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YBY3XOSZLVNSGQQD2UDQ63BE|Lime",
+   "name": "La Croix (Lime)",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 250,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Lime"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YBY3XOSZLVNSGQQD2UDQ63BE|Pamplemousse",
+   "name": "La Croix (Pamplemousse)",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 250,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Pamplemousse"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PJ6XHCLJPYTBFHEMVTIUIZRZ|",
+   "name": "Nicolet Natural Spring Water",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 275,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZH23ZAJXNO4B6YPYEQL4TPTN|Elderberry Maqui",
+   "name": "Rishi Botanicals (Elderberry Maqui)",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Elderberry Maqui"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZH23ZAJXNO4B6YPYEQL4TPTN|Grapefruit Quince",
+   "name": "Rishi Botanicals (Grapefruit Quince)",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Grapefruit Quince"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "57FBGS6FFPTWKM2QQLD5KZZN|Regular",
+   "name": "Sprecher Root Beer",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DEB3GV57P7XYMFBANHUX3W55|Soul Brew BLM Kombucha",
+   "name": "Soul Brew Kombucha (Soul Brew BLM Kombucha)",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Soul Brew BLM Kombucha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DEB3GV57P7XYMFBANHUX3W55|Soul Brew GMP Kombucha",
+   "name": "Soul Brew Kombucha (Soul Brew GMP Kombucha)",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Soul Brew GMP Kombucha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KQPMI4L2DMO3JLQVLFQ7CS56|Mango Lychee",
+   "name": "ZYN Turmeric Drinks (Mango Lychee)",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Mango Lychee"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KQPMI4L2DMO3JLQVLFQ7CS56|Lemon Ginger",
+   "name": "ZYN Turmeric Drinks (Lemon Ginger)",
+   "category": "More Beverages/Local Cans & Water",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Lemon Ginger"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HH566DRHPEAPPP3IGA2ZYJPE|12oz",
+   "name": "Strawberry Banana Smoothie (12oz)",
+   "category": "More Beverages/Fruit Smoothies",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HH566DRHPEAPPP3IGA2ZYJPE|16oz",
+   "name": "Strawberry Banana Smoothie (16oz)",
+   "category": "More Beverages/Fruit Smoothies",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HH566DRHPEAPPP3IGA2ZYJPE|20oz",
+   "name": "Strawberry Banana Smoothie (20oz)",
+   "category": "More Beverages/Fruit Smoothies",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IKALNIKJJZMCMST6O4EPRAQB|12oz",
+   "name": "Mango Smoothie (12oz)",
+   "category": "More Beverages/Fruit Smoothies",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IKALNIKJJZMCMST6O4EPRAQB|16oz",
+   "name": "Mango Smoothie (16oz)",
+   "category": "More Beverages/Fruit Smoothies",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IKALNIKJJZMCMST6O4EPRAQB|20oz",
+   "name": "Mango Smoothie (20oz)",
+   "category": "More Beverages/Fruit Smoothies",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FR6GLRKD27OGAZ4DO72NOCJW|12oz",
+   "name": "Blueberry Lavender Lemonade (12oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FR6GLRKD27OGAZ4DO72NOCJW|16oz",
+   "name": "Blueberry Lavender Lemonade (16oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FR6GLRKD27OGAZ4DO72NOCJW|20oz",
+   "name": "Blueberry Lavender Lemonade (20oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GKQIPW7YU7NDXKIV6WO2CVKS|12oz",
+   "name": "Matcha Lemonade (12oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GKQIPW7YU7NDXKIV6WO2CVKS|16oz",
+   "name": "Matcha Lemonade (16oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GKQIPW7YU7NDXKIV6WO2CVKS|20oz",
+   "name": "Matcha Lemonade (20oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Q7N7OYFJNQLC26QGDEVGJEGB|12oz",
+   "name": "Lemonade (12oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Q7N7OYFJNQLC26QGDEVGJEGB|16oz",
+   "name": "Lemonade (16oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Q7N7OYFJNQLC26QGDEVGJEGB|20oz",
+   "name": "Lemonade (20oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "C6OPCJZGEMCVLWQZNS7A3SXI|12oz",
+   "name": "Arnold Palmer (12oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "C6OPCJZGEMCVLWQZNS7A3SXI|16oz",
+   "name": "Arnold Palmer (16oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "C6OPCJZGEMCVLWQZNS7A3SXI|20oz",
+   "name": "Arnold Palmer (20oz)",
+   "category": "More Beverages/Lemonade",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "47H22JAGCQS3JSXMNN7IV2QF|8oz",
+   "name": "Hot Chocolate (8oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "47H22JAGCQS3JSXMNN7IV2QF|12oz",
+   "name": "Hot Chocolate (12oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "47H22JAGCQS3JSXMNN7IV2QF|16oz",
+   "name": "Hot Chocolate (16oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "47H22JAGCQS3JSXMNN7IV2QF|20oz",
+   "name": "Hot Chocolate (20oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BVDO4ADE36CME3B7UCWSXG7F|8oz",
+   "name": "Steamer (8oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 375,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BVDO4ADE36CME3B7UCWSXG7F|12oz",
+   "name": "Steamer (12oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BVDO4ADE36CME3B7UCWSXG7F|16oz",
+   "name": "Steamer (16oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BVDO4ADE36CME3B7UCWSXG7F|20oz",
+   "name": "Steamer (20oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XW5BE65UAJ62QDIV4BLGUKE3|8oz",
+   "name": "Milk (8oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "8oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XW5BE65UAJ62QDIV4BLGUKE3|12oz",
+   "name": "Milk (12oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XW5BE65UAJ62QDIV4BLGUKE3|16oz",
+   "name": "Milk (16oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XW5BE65UAJ62QDIV4BLGUKE3|20oz",
+   "name": "Milk (20oz)",
+   "category": "More Beverages/Milk & Cocoas",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "D6SB32OKHW5KYT4QOL2AHK2U|Eternal Life",
+   "name": "Juiced Juice (Eternal Life)",
+   "category": "More Beverages/Juice",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Eternal Life"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "D6SB32OKHW5KYT4QOL2AHK2U|Lean & Clean",
+   "name": "Juiced Juice (Lean & Clean)",
+   "category": "More Beverages/Juice",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Lean & Clean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "D6SB32OKHW5KYT4QOL2AHK2U|Trim & Tasty",
+   "name": "Juiced Juice (Trim & Tasty)",
+   "category": "More Beverages/Juice",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Trim & Tasty"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "D6SB32OKHW5KYT4QOL2AHK2U|Super Destroyer",
+   "name": "Juiced Juice (Super Destroyer)",
+   "category": "More Beverages/Juice",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Super Destroyer"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "D6SB32OKHW5KYT4QOL2AHK2U|Bionic Glow",
+   "name": "Juiced Juice (Bionic Glow)",
+   "category": "More Beverages/Juice",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Bionic Glow"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6BQ6TLKRS6T644CQLSE6YOXQ|Regular",
+   "name": "Honest Kids Juice",
+   "category": "More Beverages/Juice",
+   "price_cents": 100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "W6DUVR62GKJPZ4UETYZJP7YL|Regular",
+   "name": "Croissant - Butter",
+   "category": "Today's Bakery/Croissants & Danish",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HKQYHGFVWR5AJFPQI2MUM3ZB|Regular",
+   "name": "Croissant - Chocolate",
+   "category": "Today's Bakery/Croissants & Danish",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JQD4JCCW4HQCPK427BUK4LY4|Regular",
+   "name": "Danish - Almond Monkey",
+   "category": "Today's Bakery/Croissants & Danish",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VF27GKEXCQWFIXA5IQ6WF4DZ|Regular",
+   "name": "Danish - Maple Pecan Cream Cheese Danish",
+   "category": "Today's Bakery/Croissants & Danish",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6ELZYH6CWEJYHYAOZ2VESH2Y|Regular",
+   "name": "Danish - Raspberry Cream Cheese",
+   "category": "Today's Bakery/Croissants & Danish",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VJPW3MOLGGWGCIPZZPUVZBZ6|Regular",
+   "name": "Morning Bun",
+   "category": "Today's Bakery/Croissants & Danish",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MVYLOFBSJWKNC7NZKGIQ4YPX|Regular",
+   "name": "Pumpkin Spice Cinnamon Roll",
+   "category": "Today's Bakery/Croissants & Danish",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IO2JFLULWUMKIZ7UTO5UBYPK|Regular",
+   "name": "Sweet Potato Pecan Hand Pie",
+   "category": "Today's Bakery/Croissants & Danish",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YDLOR52ZZ2IPY6AFCCKAU5US|Regular",
+   "name": "Biscuit - Cheddar Chive Protein",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RKDXDXAPDNF6VDNFKD52NOAI|Regular",
+   "name": "Biscuit - Honey Butter",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KDEWQLNXDPYUVLZPW4AFA2FR|Regular",
+   "name": "Muffin - Caramel Apple (GF)",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GFIOL62RAZUELCHYLOSKO3KB|Regular",
+   "name": "Muffin - Cinnamon Roll (GF)",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZQTMYD7RS6J6CCNDBLUBIN5X|Regular",
+   "name": "Muffin - Wild Blueberry",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 475,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RICJI53OAKIASXGWQPCQVUH7|Regular",
+   "name": "Scone - Mocha",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UBESRDBUM255T4OOOTQDAFYS|Regular",
+   "name": "Scone - Pistachio Cardamom",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XUF4NNADSOWIZTE53SY77AOZ|Regular",
+   "name": "Scone - Pumpkin Cranberry Scone (V)",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WMBSMHGHCMAO3NS5NF7Y7KGS|Regular",
+   "name": "Scone - Raspberry Lemon (V)",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HHWPXEIMGZXXZSZ275UTCJVN|Regular",
+   "name": "Scone - Super",
+   "category": "Today's Bakery/Muffins & Scones",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DQTIPWKLPWOEMGAEYCSZ67T5|Regular",
+   "name": "Croissant - Pesto Mozzarella",
+   "category": "Savory NOMs/Stuff'd Bread",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "L6EXTTGIQVSPTN5CX5RZQU5V|Regular",
+   "name": "Croissant - Wisconsin Ham & Sharp Cheddar",
+   "category": "Savory NOMs/Stuff'd Bread",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "362FD7FJ4K3HFOAQOCWGGC77|Regular",
+   "name": "Stuff'd Bread - Sausage, Egg & Cheese",
+   "category": "Savory NOMs/Stuff'd Bread",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "M22J7JHY3UIV4OQRRUMOPMNF|Regular",
+   "name": "Quiche - Bacon & Gryuere Crustless (GF)",
+   "category": "Savory NOMs/Crustless Quiche",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Y77JAOJUUPXWU2TY2GLI2DB5|Regular",
+   "name": "Quiche - Harissa Root Veg Quiche (GF)",
+   "category": "Savory NOMs/Crustless Quiche",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JGXFBTJLCDJ5DO6BCXFQ4HV6|Regular",
+   "name": "Quiche - Sundried Tomato, Feta, and Spinach (GF)",
+   "category": "Savory NOMs/Crustless Quiche",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZZT5T6UNJMKK3NK5V2HICFPO|Regular",
+   "name": "Bar - Blueberry Coconut Protein Bar (GF)",
+   "category": "Snacks & Sweets/Bars & Oats",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XIJVBRSSD6LJETGQKFN3BKFI|Regular",
+   "name": "Bar - Breakfast Square  (GF) (V)",
+   "category": "Snacks & Sweets/Bars & Oats",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "M3UGNL66BWQE34D74N35YUZZ|Regular",
+   "name": "Bar, RX Blueberry",
+   "category": "Snacks & Sweets/Bars & Oats",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "L266YLR5ERATNIRBCXHQUBAV|Regular",
+   "name": "Bar, RX Chocolate Sea Salt",
+   "category": "Snacks & Sweets/Bars & Oats",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YK2W3JNCK6LVBJDGNAGV7F4Z|Regular",
+   "name": "Bar, That's It  Apple & Cherry",
+   "category": "Snacks & Sweets/Bars & Oats",
+   "price_cents": 275,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4K4GWO24E2T3TDJNVXONY34K|Regular",
+   "name": "Oatmeal - Pecan Date (GF) (V)",
+   "category": "Snacks & Sweets/Bars & Oats",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "35VZSM4RPYDQZRB62IVHYVOH|Regular",
+   "name": "Squeeze, GoGo Squeeze Apple Sauce",
+   "category": "Snacks & Sweets/Bars & Oats",
+   "price_cents": 175,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7JG3SLFYTKCZPT6F5X6YCE5H|Regular",
+   "name": "Chips - Jackson's Farmhouse Ranch",
+   "category": "Snacks & Sweets/Chips",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ARAFWIFEJ4EL3FQKVPFVRUDM|Regular",
+   "name": "Chips - Jackson's Cheddar Veggie Straws",
+   "category": "Snacks & Sweets/Chips",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HVSU2CTNZ32HKSYAZXT74M7O|Regular",
+   "name": "Chips - Jackson's Sea Salt",
+   "category": "Snacks & Sweets/Chips",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MBBZQJDQ6IEIYJ2OC7APRQTA|Regular",
+   "name": "Chips - Jackson's Russet Sea Salt",
+   "category": "Snacks & Sweets/Chips",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UQW4XBDTVQON7MHIC7SELEVV|Regular",
+   "name": "Chips - Jackson's Carolina BBQ",
+   "category": "Snacks & Sweets/Chips",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JGKTHU725RWYTXRXL3IZEEOK|Regular",
+   "name": "Bread Slice - Banana",
+   "category": "Snacks & Sweets/Breads & Cookies",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OHUMQPWEHG2MZQMBIW2KZG7B|Regular",
+   "name": "Bread Slice - Lemon (GF)",
+   "category": "Snacks & Sweets/Breads & Cookies",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6ZGW7KGBUFVCZP3QY76WQDLR|Regular",
+   "name": "Bread Slice - Pumpkin Chocolate Chip",
+   "category": "Snacks & Sweets/Breads & Cookies",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WYMU53PWLYH3KVZRUXKZUQMG|Regular",
+   "name": "Cookie - Chocolate Chunk",
+   "category": "Snacks & Sweets/Breads & Cookies",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UFNBOEAXWHLMZJUMOYH2VJQZ|Regular",
+   "name": "Cookie - Peanut Butter Oatmeal (GF)",
+   "category": "Snacks & Sweets/Breads & Cookies",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3437VNQJXOLE2EJ2YFSGECKW|Regular",
+   "name": "Chocolate Hazelnut Coffee Spread",
+   "category": "Snacks & Sweets/Chocolate Treats",
+   "price_cents": 2400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3EQO2FPZLMLQS5C7NHHE3HIA|Regular",
+   "name": "Tabal - Chocolate Covered Espresso Beans",
+   "category": "Snacks & Sweets/Chocolate Treats",
+   "price_cents": 950,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AMCD7YW2CZMHYDJFTQH6XS23|Regular",
+   "name": "Tabal - Colombia Salted Coffee Bar",
+   "category": "Snacks & Sweets/Chocolate Treats",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "G2PXBG6UDX4C7DVB4J2HS4UY|Regular",
+   "name": "Peanut Butter Cups, Justin's",
+   "category": "Snacks & Sweets/Chocolate Treats",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6W4GKN5PUFXNAAKRQFYEILS5|Regular",
+   "name": "12 oz - Just Vibes 0%",
+   "category": "Coffee Beans - Control Freak ",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HYIGTDZ2PQKUVFJQIL2OVGNV|Regular",
+   "name": "12 oz - Lightly Buzzed 25%",
+   "category": "Coffee Beans - Control Freak ",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2M5CEKCW64TT5MZW65NRT52J|Regular",
+   "name": "12 oz - Balanced 50%",
+   "category": "Coffee Beans - Control Freak ",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "F46KVCLB2H5OCPSWLMPH5MVC|Regular",
+   "name": "12 oz - Controlled Chaos 75%",
+   "category": "Coffee Beans - Control Freak ",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KCBWAVW62VDHXIVDGE3WAQWP|Regular",
+   "name": " 12 oz - Full Throttle 100%",
+   "category": "Coffee Beans - Control Freak ",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "J2MSZHYRAKYOM3MLGVJPE34Q|Regular",
+   "name": "Aeropress",
+   "category": "Manual Brew Merch",
+   "price_cents": 4200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ARNBPXFQLY4Y6GWJVRR5U64P|Regular",
+   "name": "Bodum French Press",
+   "category": "Manual Brew Merch",
+   "price_cents": 5000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6JGJGIQ4ABPKEVNRZJ5DW5FJ|Regular",
+   "name": "8 Cup Chemex with Glass Handle",
+   "category": "Manual Brew Merch",
+   "price_cents": 5150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PQAQPV2Y56EJG2GBSEWZK5U7|Regular",
+   "name": "Capresso Infinity Grinder",
+   "category": "Manual Brew Merch",
+   "price_cents": 12000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EL33R6NCDISQXF3TDJ4TNTG7|Regular",
+   "name": "Hario V60",
+   "category": "Manual Brew Merch",
+   "price_cents": 2900,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MXM24ICNZ77VNOG3R6IFTGKR|Regular",
+   "name": "Pixapresso Espresso Machine",
+   "category": "Manual Brew Merch",
+   "price_cents": 16000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "55CIGJ3SJWXBKMV5TTGCIRWS|Regular",
+   "name": "Aeropress Filters",
+   "category": "Filters",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "R7VPMO4RCGIMXAXNM6HHWA3Q|Regular",
+   "name": "Chemex Filters",
+   "category": "Filters",
+   "price_cents": 1100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VOSVJ6OY4VSQ3EL2DXM53RTQ|Regular",
+   "name": "Hario V60 Filters",
+   "category": "Filters",
+   "price_cents": 1100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PVSGUHEK3ORM2QL6RFJQS52O|Regular",
+   "name": "12 oz - Harvest",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QO3YETNCGVITIF5UPHUQ7BIF|Regular",
+   "name": "2 lb - Harvest",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "P3MH6VELDUTF4C33XCB26CU2|Regular",
+   "name": "5 lb - Harvest",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UAYHNAH7GBAXBX5LO7VYWB3H|Regular",
+   "name": "12 oz - Cream City",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OGXYT2TCF5CRWBIT3ZH7C45N|Regular",
+   "name": "12 oz - Green Bike",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CJWXMBC53DMOLMOANDJ25Y6Y|Regular",
+   "name": "12 oz - Voyager",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BXL7ULH27MFPVHN5X7WIKT5G|Regular",
+   "name": "2 lb - Cream City",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BBIXK3C4FVYP7XH3QODUOUUS|Regular",
+   "name": "2 lb - Green Bike",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5TE6RWUABLFRDCDQFB54FJC3|Regular",
+   "name": "2 lb - Voyager",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KOVX6LDDVPUOVS6MQ2QBUKDE|Regular",
+   "name": "5 lb - Cream City",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "M52RFEXTF3RCB6BBVYXCMQEA|Regular",
+   "name": "5 lb - Green Bike",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BO2MOHVJ3XICG5OPLJJWQCTO|Regular",
+   "name": "5 lb - Voyager",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OZHQFBKAJVPZ5FA3MGB5IKRK|Regular",
+   "name": "Cream City Escape Pods",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 2000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SNB3VXOUC5AZIJJ6OQPHK3UB|Regular",
+   "name": "1/2 lb - Do Good With Food",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 1300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OBWEFLRUT3VXR2TYTYBJQU4C|Regular",
+   "name": "1/2 lb - The Convo Cup",
+   "category": "Coffee Beans - Medium",
+   "price_cents": 1300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QGWJEOEFSZ5NQAYLCALCM7AP|Regular",
+   "name": "12 oz - Ghost Ship",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WL2XIKJUTWOOHLERE4XJ3DOH|Regular",
+   "name": "2 lb - Ghost Ship",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MEKL4TZECFZ3XID3VB2IEGCV|Regular",
+   "name": "5 lb - Ghost Ship",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LOFLK7QKWK6PI7FUWESINN5Q|Regular",
+   "name": "12 oz - Dark Dragon Costa Rica",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "B42OPATZMJA6VRTGG5RE57GG|Regular",
+   "name": "2 lb - Dark Dragon Costa Rica",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3Q4HDQWACOVJPSHZZHUBJNLX|Regular",
+   "name": "12 oz - 3 Volcanoes Dark Guatemala",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "C5OVSOVZLQIYW5IPFCV7PHUY|Regular",
+   "name": "12 oz - Black Sheep",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WGQBVPXM4KTDRY2WWEYQYGGF|Regular",
+   "name": "2 lb - 3 Volcanoes Dark Guatemala",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "F73PT23BWYIOXSKEESBXEE5Z|Regular",
+   "name": "2 lb - Black Sheep",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7TVDNQUCMFY5KLWHODRJXSLA|Regular",
+   "name": "5 lb - Black Sheep",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5P5WDE2Q457PIINOXOIILD3H|Regular",
+   "name": "5 lb - 3 Volcanoes Dark Guatemala",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TG4Y5P6NYXS6I4HO3S63TJW3|Regular",
+   "name": "3 Volcanoes Dark Guatemala Escape Pods",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 2000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OV2IKAWL6S3SB6VEVPLOOKUJ|Regular",
+   "name": "12 oz - Last Chance Coffee Tin",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 2650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LO6LDUPQTSLWBLXXVFTXKITT|Regular",
+   "name": "5 lb - Dark Dragon Costa Rica",
+   "category": "Coffee Beans - Dark",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Y33ZFYNXTEDNOWX4TGVNXP4L|Regular",
+   "name": "12 oz - Vanilla Float Decaf Colombia",
+   "category": "Coffee Beans - Decaf",
+   "price_cents": 2500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KNKIRW6RSQUNJENAGAYVPN65|Regular",
+   "name": "2 lb - Vanilla Float Decaf Colombia",
+   "category": "Coffee Beans - Decaf",
+   "price_cents": 4800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MVAZTZGHTDLKJT635VVZQFAK|Regular",
+   "name": "12 oz - Decaf Cream City",
+   "category": "Coffee Beans - Decaf",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2MT654MPLVFB4AMDM5WIE7CV|Regular",
+   "name": "2 lb - Decaf Cream City",
+   "category": "Coffee Beans - Decaf",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SRHU5FO3FN54OPZWSP4W2BQN|Regular",
+   "name": "5 lb - Decaf Cream City",
+   "category": "Coffee Beans - Decaf",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TFTXAAQ3U2Y7IWDR2OGPZBXF|Regular",
+   "name": "12 oz - Black Diamond Costa Rica",
+   "category": "Coffee Beans - Light",
+   "price_cents": 3200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DGNUWYK4JDIYO6XYNZTPCIOS|Regular",
+   "name": "12 oz - Honey Orchard Costa Rica",
+   "category": "Coffee Beans - Light",
+   "price_cents": 3200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "I4SRRTTKZZJ5GPRFP3L4U26T|Regular",
+   "name": "12 oz - Green Dragon Costa Rica",
+   "category": "Coffee Beans - Light",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ARBH3OCCUZKEKONDX2VH3NHX|Regular",
+   "name": "12 oz - Ring of Fire Guatemala",
+   "category": "Coffee Beans - Light",
+   "price_cents": 2100,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HZQ3O3HXZAH4RQECF7REZBSA|Regular",
+   "name": "2 lb - Ring of Fire Guatemala",
+   "category": "Coffee Beans - Light",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XK62VEMPT7VD64YXCWU6CELG|Regular",
+   "name": "2 lb- Boneshaker Colombia",
+   "category": "Coffee Beans - Light",
+   "price_cents": 4400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CE2RET2OOFXYECMJRLD5XZG2|Regular",
+   "name": "5 lb - Boneshaker Colombia",
+   "category": "Coffee Beans - Light",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZQO5JV7WO3NBMWCZK73KVVWT|Regular",
+   "name": "5 lb - Green Dragon Costa Rica",
+   "category": "Coffee Beans - Light",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ISOXGFYZ3AIIVR3LFPZ6BRJD|Regular",
+   "name": "5 lb - Ring of Fire Guatemala",
+   "category": "Coffee Beans - Light",
+   "price_cents": 9500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BECOGRGWGGRUBSWKIF657ARC|Regular",
+   "name": "Boneshaker Colombia Escape Pods",
+   "category": "Coffee Beans - Light",
+   "price_cents": 2000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LZKKXYOXMGNBJYR4ZD4KS3IC|Regular",
+   "name": "12 oz - Lime Shake-Up Costa Rica",
+   "category": "Coffee Beans - Light",
+   "price_cents": 2500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AVRTBG75TIPWH3JQDUSLZIKO|Regular",
+   "name": "2 lb - Hibiscus Lemonade Costa Rica",
+   "category": "Coffee Beans - Light",
+   "price_cents": 4800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FBJFNYVBUGLHOQMBWJMMVUIA|Regular",
+   "name": "12 oz - Hibiscus Lemonade Costa Rica",
+   "category": "Coffee Beans - Light",
+   "price_cents": 2500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "U23ID6PJIA7Z7WKKC7PQ22BW|Regular",
+   "name": "2 lb - Lime Shake-Up Costa Rica",
+   "category": "Coffee Beans - Light",
+   "price_cents": 4800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UETPATEGFMQFIZULXHCM4EP4|Regular",
+   "name": "12 oz - Tropical Mosaic Ecuador",
+   "category": "Coffee Beans - Light",
+   "price_cents": 3200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "U4QGPQCTSTPIHPICCAWJGQKX|Regular",
+   "name": "Electric Citrus Box",
+   "category": "Gift Box Sets",
+   "price_cents": 2000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZVOW66CMRTKKBQUTDV33W733|Regular",
+   "name": "Mango Groove Box",
+   "category": "Gift Box Sets",
+   "price_cents": 2000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6R4ZCNU5LD5V3VGYNVCQMYT7|Regular",
+   "name": "Strawberry Slow Jam Box",
+   "category": "Gift Box Sets",
+   "price_cents": 2000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7JFURWNJNJVNJX65C3M7KM6Y|Regular",
+   "name": "Intergalactic Breakfast Mission Box",
+   "category": "Gift Box Sets",
+   "price_cents": 5500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CRVDZG6MBLLEZMEKYFEW72UG|12 oz",
+   "name": "Nitro Jet Black (12 oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CRVDZG6MBLLEZMEKYFEW72UG|16 oz",
+   "name": "Nitro Jet Black (16 oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CRVDZG6MBLLEZMEKYFEW72UG|20 oz",
+   "name": "Nitro Jet Black (20 oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AEWS6S4HDB3AHIFZXNSCNRP3|12 oz",
+   "name": "Roy G Biv (12 oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AEWS6S4HDB3AHIFZXNSCNRP3|16 oz",
+   "name": "Roy G Biv (16 oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AEWS6S4HDB3AHIFZXNSCNRP3|20 oz",
+   "name": "Roy G Biv (20 oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AEWS6S4HDB3AHIFZXNSCNRP3|growler + fill",
+   "name": "Roy G Biv (growler + fill)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 2400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "growler + fill"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "C7E7YLVJQ3WTE3FICFIKU2BF|12oz",
+   "name": "Sweet Foam Cold Brew (12oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "C7E7YLVJQ3WTE3FICFIKU2BF|16oz",
+   "name": "Sweet Foam Cold Brew (16oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "C7E7YLVJQ3WTE3FICFIKU2BF|20oz",
+   "name": "Sweet Foam Cold Brew (20oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OE476P3EZGG5BN43NVMDZKEM|12oz",
+   "name": "Cold Brew Palmer (12oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OE476P3EZGG5BN43NVMDZKEM|16oz",
+   "name": "Cold Brew Palmer (16oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OE476P3EZGG5BN43NVMDZKEM|20oz",
+   "name": "Cold Brew Palmer (20oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LW2K6BY4PKKL3B2R42SOP4YK|Regular",
+   "name": "Roy G Biv Cold Brew Filter Pack Box",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 2500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OU26TRYKN7LWD432AC66GJXH|12oz",
+   "name": "Protein Cold Brew (12oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 675,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OU26TRYKN7LWD432AC66GJXH|16oz",
+   "name": "Protein Cold Brew (16oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "16oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OU26TRYKN7LWD432AC66GJXH|20oz",
+   "name": "Protein Cold Brew (20oz)",
+   "category": "Cold Coffee/Cold Brew",
+   "price_cents": 775,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ES4NUHQII4LTGI6MAWSQPNEL|Regular",
+   "name": "Taco - Barbacoa + Poblano Crema + Egg",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1175,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MJEXCHDN3BVF3ZVIK6QY3ZU5|Regular",
+   "name": "Tacos - Pumpkin Al Pastor + Pineapple Red Slaw",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1125,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FGQ7ACZXRGKETF2RLGVHOW3M|Regular",
+   "name": "Taco - Maple Bacon + Potatoes",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XGKCDORZIPB6CDXGCYL7SFJL|Regular",
+   "name": "Sandwich - Butternut Squash + Sage + Bacon",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OEUMKQ65N2QCQD2WNNWIOFSP|Regular",
+   "name": "Sandwich - Ham + Gruyere + Pretzel*",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OUEOA4RO4FVHJUHSISD45NJZ|Regular",
+   "name": "Sandwich - Apple Butter + Sage + Sausage",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HCQ4REUZCADRFYWIVTSSGYXJ|Regular",
+   "name": "Sandwich - Avocado + Spicy Egg",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LYHMJ4W5J2UPUQWUWSUNJ7JW|Regular",
+   "name": "Sandwich - Bacon + Egg + Cheese",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SKCBJARZEUR2KCX2PWZBZLCM|Regular",
+   "name": "Sandwich - Sausage + Egg + Cheese",
+   "category": "Sandwiches and Tacos",
+   "price_cents": 1150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "44C6HESAPT34B5EAI47WR3PC|Regular",
+   "name": "Bowl - Autumn Hash + Egg*",
+   "category": "Yogurt and Bowls",
+   "price_cents": 1175,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GP4MEPY4ULOFUYNFFF5CTCCG|Regular",
+   "name": "Bowl - Pumpkin Polenta + Roasted Vegetables + Egg*",
+   "category": "Yogurt and Bowls",
+   "price_cents": 1175,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IDYXWOS4O5HIW2QKFDZVAP74|Regular",
+   "name": "Bowl - Cauliflower Hash + Avocado + Egg",
+   "category": "Yogurt and Bowls",
+   "price_cents": 1125,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XFYQ5AJW6QDICGIZHJD5UZ5V|Regular",
+   "name": "Yogurt - Plum + Orange + Almond Butter Granola",
+   "category": "Yogurt and Bowls",
+   "price_cents": 1075,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OTVW4G264VTDIFKVSIZDSSIS|Regular",
+   "name": "Yogurt - Espresso + Caramel + Banana",
+   "category": "Yogurt and Bowls",
+   "price_cents": 1075,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TOXJW5RCTSFJUO47F3KN2ZR6|Regular",
+   "name": "Yogurt - Berries + Granola",
+   "category": "Yogurt and Bowls",
+   "price_cents": 1050,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LRHPJDRZ5763CUEB3EHTGRGO|Regular",
+   "name": "Waffle - Apple + Bourbon",
+   "category": "Waffles",
+   "price_cents": 1125,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4VQO7USFVYZ6WHEA4BPKV45N|Regular",
+   "name": "Waffle - Pumpkin + Candied Pecans",
+   "category": "Waffles",
+   "price_cents": 1125,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JNOCP5ISBUSTSILODPPUINBM|Regular",
+   "name": "Waffle - Maple Syrup + Butter",
+   "category": "Waffles",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2RBGF4OLE6Z7RUMJUZ4YXVMS|Regular",
+   "name": "Side - Roasted Potatoes",
+   "category": "Sides",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3FX3XIDQCPLL3XCK5PPHU2WX|Regular",
+   "name": "Side - Honey Yogurt",
+   "category": "Sides",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CCFM5RAZ4X3XQJYLBYWKRBUX|Regular",
+   "name": "Side - Seasonal Fruit",
+   "category": "Sides",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IT74QFLT7FNNXNJNDB4H75F6|Crispy",
+   "name": "Side - One Egg (Crispy)",
+   "category": "Sides",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Crispy"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IT74QFLT7FNNXNJNDB4H75F6|Over Easy",
+   "name": "Side - One Egg (Over Easy)",
+   "category": "Sides",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Over Easy"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IT74QFLT7FNNXNJNDB4H75F6|Over Medium",
+   "name": "Side - One Egg (Over Medium)",
+   "category": "Sides",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Over Medium"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IT74QFLT7FNNXNJNDB4H75F6|Sunny Side Up",
+   "name": "Side - One Egg (Sunny Side Up)",
+   "category": "Sides",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Sunny Side Up"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "K36EA2FWQEXF5JSZ3CH3CPF4|Regular",
+   "name": "Side - Buttered Toast w/ Jam",
+   "category": "Sides",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NNGPKP5L6RDGVEWBWIFXGH2X|Pork Sausage",
+   "name": "Side - Sausage",
+   "category": "Sides",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Pork Sausage"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QPJ4PMXMSVSZHNVKNN2CWNKY|Regular",
+   "name": "Side - Bacon",
+   "category": "Sides",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TOKOK2B5X7RMYHUXRC2EPUYH|Regular",
+   "name": "Side - SCC Salad",
+   "category": "Sides",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "variation": "Regular"
+   },
+   "modifiers": []
+  }
+ ]
+}
