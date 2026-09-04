@@ -29,6 +29,13 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
         run: npm run build
+      # vinext emits client assets under dist/client/Coffee/ (from assetPrefix),
+      # but the Pages artifact root is already served at /Coffee/. Flatten so
+      # /Coffee/_next/... URLs resolve to _next/... in the artifact.
+      - name: Flatten asset prefix directory
+        run: |
+          mv dist/client/Coffee/_next dist/client/_next
+          rmdir dist/client/Coffee
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
