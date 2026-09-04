@@ -77,7 +77,7 @@ function ShopDetail({ shop, items, onBack }: { shop: Shop; items: Item[]; onBack
   return <main className="detail-shell">
     <button className="back-button" onClick={onBack}><ArrowLeft aria-hidden="true" /> All shops</button>
     <p className="eyebrow">{neighborhood(shop)}</p>
-    <section className="shop-heading"><h1>{shop.name}</h1><span className="detail-actions">{shop.website && <a className="order-link" href={shop.website} target="_blank" rel="noreferrer">Visit shop</a>}{shop.lat != null && shop.lng != null && <a className="order-link ghost" href={`https://maps.apple.com/?daddr=${shop.lat},${shop.lng}`} target="_blank" rel="noreferrer">Directions</a>}</span></section>
+    <section className="shop-heading"><h1>{shop.name}</h1><span className="detail-actions">{shop.website && <a className="order-link" href={shop.website} target="_blank" rel="noreferrer">Visit shop</a>}{shop.lat != null && shop.lng != null && <a className="order-link ghost" href={`https://maps.apple.com/?q=${encodeURIComponent(`${shop.name}, ${shop.address || neighborhood(shop)}`)}`} target="_blank" rel="noreferrer">Directions</a>}</span></section>
     <div className="detail-meta"><Rating value={shop.rating} count={shop.review_count} /><span>{shop.address || 'Address unavailable'}</span><span>{shop.opening_hours || 'Hours unavailable'}</span>{checked ? <span>Menu checked {new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(new Date(checked))}{RENDERED_AT - new Date(checked).getTime() > STALE_AFTER_MS ? ' (stale)' : ''}</span> : null}</div>
     {Object.keys(groups).length === 0 ? <div className="empty"><Coffee aria-hidden="true" /><h2>Menu collection is pending</h2><p>The shop is mapped. Its direct menu source has not been collected yet.</p></div> : Object.entries(groups).map(([group, entries]) => <section className="menu-section" key={group}><h2>{group}</h2>{entries.sort((a, b) => a.name.localeCompare(b.name)).map((item) => <div className="menu-row" key={item.id}><div className="menu-item"><h3>{item.name}</h3><p>{item.size_label || (item.size_oz ? `${item.size_oz} oz` : 'Size not listed')}{item.size_confidence === 'inferred' ? ' · estimated size' : ''}</p></div><span className="leader" aria-hidden="true"></span><div className="menu-price"><strong>{formatPrice(item.current_price_cents)}</strong>{item.current_price_cents && item.size_oz ? <small>{item.size_confidence === 'inferred' ? '~' : ''}{money.format(item.current_price_cents / 100 / item.size_oz)}/oz</small> : null}</div></div>)}</section>)}
     <p className="source-note">Direct-order menu prices only. Item names are shortened when needed; descriptions are not republished.</p>
@@ -123,11 +123,16 @@ export default function Home() {
   const scrollRef = useRef(0);
   useEffect(() => {
     if (geoState === 'asking' && !coords) {
-      navigator.geolocation.getCurrentPosition(
+      // First cold fix on a phone can take well over 10s; a short timeout was
+      // reporting 'denied' on devices that just needed longer. Retry once on
+      // a genuine timeout before falling back.
+      let attempts = 0;
+      const locate = () => navigator.geolocation.getCurrentPosition(
         (position) => { setCoords({ lat: position.coords.latitude, lng: position.coords.longitude }); setGeoState('ok'); setMetro(nearestMetro(position.coords.latitude, position.coords.longitude)); },
-        () => setGeoState('denied'),
-        { timeout: 10000, maximumAge: 300000 },
+        (error) => { attempts += 1; if (error.code === error.TIMEOUT && attempts < 2) locate(); else setGeoState('denied'); },
+        { timeout: 30000, maximumAge: 300000, enableHighAccuracy: false },
       );
+      locate();
     }
   }, [geoState, coords]);
   useEffect(() => {
@@ -145,15 +150,16 @@ export default function Home() {
   const showAll = showAllKey === rankingKey;
   const pricedShopIds = useMemo(() => { const set = new Set<number>(); for (const item of data.items) if (item.current_price_cents != null) set.add(item.shop_id); return set; }, [data.items]);
   const visibleShops = useMemo(() => metroShops.filter((shop) => { const haystack = fold(`${shop.name} ${shop.neighborhood || ''} ${shop.address || ''}`); return haystack.includes(fold(query)) && (!openOnly || isOpenNow(shop.opening_hours) !== false) && (!pricedOnly || pricedShopIds.has(shop.id)) && (!activeHood || shop.neighborhood === activeHood); }), [metroShops, query, openOnly, pricedOnly, pricedShopIds, activeHood]);
+  const nearBase = useMemo(() => metroShops.filter((shop) => { const haystack = fold(`${shop.name} ${shop.neighborhood || ''} ${shop.address || ''}`); return haystack.includes(fold(query)) && (!openOnly || isOpenNow(shop.opening_hours) !== false) && (!activeHood || shop.neighborhood === activeHood); }), [metroShops, query, openOnly, activeHood]);
   const nearShops = useMemo(() => {
-    const rows = visibleShops.map((shop) => {
+    const rows = nearBase.map((shop) => {
       const open = isOpenNow(shop.opening_hours);
       const miles = coords && shop.lat != null && shop.lng != null ? distanceMiles(coords.lat, coords.lng, shop.lat, shop.lng) : null;
       return { shop, open, miles };
     });
     const openRank = (open: boolean | null) => open === true ? 0 : open == null ? 1 : 2;
     return rows.sort((a, b) => openRank(a.open) - openRank(b.open) || (a.miles ?? Infinity) - (b.miles ?? Infinity) || a.shop.name.localeCompare(b.shop.name));
-  }, [visibleShops, coords]);
+  }, [nearBase, coords]);
   const drinkTypes = useMemo(() => Array.from(new Set(data.items.filter((item) => item.is_drink && item.drink_type).map((item) => item.drink_type as string))).sort((a, b) => { const ai = drinkOrder.indexOf(a); const bi = drinkOrder.indexOf(b); return (ai < 0 ? drinkOrder.length : ai) - (bi < 0 ? drinkOrder.length : bi) || a.localeCompare(b); }), [data.items]);
   const shopsById = useMemo(() => new Map(data.shops.map((shop) => [shop.id, shop])), [data.shops]);
   const comparisons = useMemo(() => data.items.filter((item) => item.drink_type === drink && item.current_price_cents != null && item.current_price_cents > 0).map((item) => ({ item, shop: shopsById.get(item.shop_id), price: item.current_price_cents as number })).filter((entry): entry is { item: Item; shop: Shop; price: number } => Boolean(entry.shop && entry.shop.metro === metro && (!activeHood || entry.shop.neighborhood === activeHood))).sort((a, b) => a.price - b.price), [data.items, shopsById, drink, metro, activeHood]);
@@ -188,7 +194,7 @@ export default function Home() {
     {view === 'near' && <main className="content-shell">
       <section className="menu-title"><p className="eyebrow">{coords ? 'Sorted by distance from you' : 'Shops with real menu prices'}</p><div className="menu-title-row"><h1>Coffee near you</h1><span>{loading ? 'Pulling menus…' : `${nearShops.length} shops`}</span></div></section>
       <div className="controls">{geoState === 'denied' && <button className="filter-button" onClick={() => setGeoState('asking')}><MapPin aria-hidden="true" /> Use my location</button>}{geoState === 'asking' && !coords && <p className="fine-print">Finding you…</p>}{geoState === 'denied' && <p className="fine-print">Location is off, so this list is alphabetical. Turn it on for real distances.</p>}{!coords && hoods.length > 1 && <select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All neighborhoods</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select>}</div>
-      {loading ? <div className="loading-list"><LoaderCircle aria-hidden="true" /> Pulling the latest menus…</div> : error ? <div className="error-state">{error}</div> : <div className="rank-list">{nearShops.slice(0, 75).map(({ shop, open, miles }, index) => { const menu = data.items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null); const drink = shopDrink(menu); return <div className="near-row" key={shop.id}><button className="near-open" onClick={() => { scrollRef.current = window.scrollY; setSelectedShop(shop); }}><span className="rank-number">{index + 1}</span><span className="rank-main"><strong>{shop.name}</strong><small>{miles != null ? `${formatMiles(miles)} · ` : ''}{open === true ? 'Open now' : open === false ? 'Closed' : 'Hours unlisted'} · {neighborhood(shop)}</small><Rating value={shop.rating} count={shop.review_count} /></span><span className="leader" aria-hidden="true"></span><span className="rank-price"><strong>{formatPrice(drink.price)}</strong><small>{drink.price != null ? drink.label : 'no prices yet'}</small></span></button>{shop.lat != null && shop.lng != null && <a className="dir-link" href={`https://maps.apple.com/?daddr=${shop.lat},${shop.lng}`} target="_blank" rel="noreferrer" aria-label={`Directions to ${shop.name}`}><MapPin aria-hidden="true" /><span>Go</span></a>}</div>; })}</div>}
+      {loading ? <div className="loading-list"><LoaderCircle aria-hidden="true" /> Pulling the latest menus…</div> : error ? <div className="error-state">{error}</div> : <div className="rank-list">{nearShops.slice(0, 75).map(({ shop, open, miles }, index) => { const menu = data.items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null); const drink = shopDrink(menu); return <div className="near-row" key={shop.id}><button className="near-open" onClick={() => { scrollRef.current = window.scrollY; setSelectedShop(shop); }}><span className="rank-number">{index + 1}</span><span className="rank-main"><strong>{shop.name}</strong><small>{miles != null ? `${formatMiles(miles)} · ` : ''}{open === true ? 'Open now' : open === false ? 'Closed' : 'Hours unlisted'} · {neighborhood(shop)}</small><Rating value={shop.rating} count={shop.review_count} /></span><span className="leader" aria-hidden="true"></span><span className="rank-price"><strong>{formatPrice(drink.price)}</strong><small>{drink.price != null ? drink.label : 'menu pending'}</small></span></button>{shop.lat != null && shop.lng != null && <a className="dir-link" href={`https://maps.apple.com/?q=${encodeURIComponent(`${shop.name}, ${shop.address || `${neighborhood(shop)}, ${metro === 'milwaukee' ? 'Milwaukee, WI' : 'Minneapolis, MN'}`}`)}`} target="_blank" rel="noreferrer" aria-label={`Directions to ${shop.name}`}><MapPin aria-hidden="true" /><span>Go</span></a>}</div>; })}</div>}
     </main>}
     {view === 'compare' && <main className="content-shell">
       <section className="menu-title"><p className="eyebrow">Same drink, fair comparison</p><div className="menu-title-row"><h1>{drinkLabels[drink] || drink.replaceAll('_', ' ')}</h1><span>{loading ? 'Pulling menus…' : `${ranked.length} prices · ${metro === 'milwaukee' ? 'Milwaukee' : 'Twin Cities'}`}</span></div></section>

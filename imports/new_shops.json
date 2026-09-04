@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Dunn Brothers Coffee",
+    "metro": "twin_cities",
+    "address": "14525 Minnesota State Highway 7, Minnetonka, MN",
+    "neighborhood": "Minnetonka",
+    "lat": 44.9214374,
+    "lng": -93.4657481,
+    "website": null,
+    "osm_id": "n14017882001",
+    "is_chain": true,
+    "brand": "Dunn Brothers Coffee",
+    "opening_hours": null,
+    "data_source": "openstreetmap",
+    "note": "Found via Overpass diff 2026-09-04; in OSM, missed by collector"
+  },
+  {
+    "name": "Beanhaven Cafe",
+    "metro": "twin_cities",
+    "address": "18154 Minnetonka Blvd, Deephaven, MN",
+    "neighborhood": "Deephaven",
+    "lat": 44.9422228,
+    "lng": -93.5108689,
+    "website": null,
+    "osm_id": null,
+    "is_chain": false,
+    "brand": null,
+    "opening_hours": null,
+    "data_source": "manual",
+    "note": "Address confirmed via TripAdvisor/LinkedIn listings; geocoded with Nominatim"
+  },
+  {
+    "name": "Base Camp Coffee & Provisions",
+    "metro": "twin_cities",
+    "address": "14635 Excelsior Blvd, Minnetonka, MN 55345",
+    "neighborhood": "Minnetonka",
+    "lat": 44.9042171,
+    "lng": -93.4655918,
+    "website": "https://basecampmtka.com/",
+    "osm_id": null,
+    "is_chain": false,
+    "brand": null,
+    "opening_hours": null,
+    "data_source": "manual",
+    "note": "Address from shop's own site; geocoded with Nominatim"
+  }
+]

@@ -11,6 +11,7 @@ on:
           - remediate
           - sweep
           - fix-shops
+          - add-shops
 
 concurrency:
   group: coffee-maintenance
@@ -49,3 +50,9 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
         run: python scripts/fix_shops.py
+      - name: Add verified shops
+        if: inputs.task == 'add-shops'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: python scripts/add_shops.py
