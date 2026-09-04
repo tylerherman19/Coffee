@@ -158,7 +158,24 @@ export default function Home() {
       return { shop, open, miles };
     });
     const openRank = (open: boolean | null) => open === false ? 1 : 0;
-    return rows.sort((a, b) => openRank(a.open) - openRank(b.open) || (a.miles ?? Infinity) - (b.miles ?? Infinity) || a.shop.name.localeCompare(b.shop.name));
+    const sorted = rows.sort((a, b) => openRank(a.open) - openRank(b.open) || (a.miles ?? Infinity) - (b.miles ?? Infinity) || a.shop.name.localeCompare(b.shop.name));
+    // Chain cap: only the 2 closest locations of each same-named chain earn a
+    // row; the rest collapse into a "+N more" note on the chain's last row.
+    const kept: { shop: Shop; open: boolean | null; miles: number | null; extra: number }[] = [];
+    const counts = new Map<string, number>();
+    for (const row of sorted) counts.set(row.shop.name, (counts.get(row.shop.name) || 0) + 1);
+    const seen = new Map<string, number>();
+    for (const row of sorted) {
+      const n = seen.get(row.shop.name) || 0;
+      seen.set(row.shop.name, n + 1);
+      if (n >= 2) continue;
+      kept.push({ ...row, extra: 0 });
+    }
+    // assign the hidden count to the last visible row of each chain
+    const lastOf = new Map<string, number>();
+    kept.forEach((row, i) => { lastOf.set(row.shop.name, i); });
+    for (const [name, i] of lastOf) kept[i].extra = (counts.get(name) || 0) - Math.min(2, seen.get(name) || 0) > 0 ? (counts.get(name) || 0) - 2 : 0;
+    return kept;
   }, [nearBase, coords]);
   const drinkTypes = useMemo(() => Array.from(new Set(data.items.filter((item) => item.is_drink && item.drink_type).map((item) => item.drink_type as string))).sort((a, b) => { const ai = drinkOrder.indexOf(a); const bi = drinkOrder.indexOf(b); return (ai < 0 ? drinkOrder.length : ai) - (bi < 0 ? drinkOrder.length : bi) || a.localeCompare(b); }), [data.items]);
   const shopsById = useMemo(() => new Map(data.shops.map((shop) => [shop.id, shop])), [data.shops]);
@@ -194,7 +211,7 @@ export default function Home() {
     {view === 'near' && <main className="content-shell">
       <section className="menu-title"><p className="eyebrow">{coords ? 'Sorted by distance from you' : 'Shops with real menu prices'}</p><div className="menu-title-row"><h1>Coffee near you</h1><span>{loading ? 'Pulling menus…' : `${nearShops.length} shops`}</span></div></section>
       <div className="controls">{geoState === 'denied' && <button className="filter-button" onClick={() => setGeoState('asking')}><MapPin aria-hidden="true" /> Use my location</button>}{geoState === 'asking' && !coords && <p className="fine-print">Finding you…</p>}{geoState === 'denied' && <p className="fine-print">Location is off, so this list is alphabetical. Turn it on for real distances.</p>}{!coords && hoods.length > 1 && <select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All neighborhoods</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select>}</div>
-      {loading ? <div className="loading-list"><LoaderCircle aria-hidden="true" /> Pulling the latest menus…</div> : error ? <div className="error-state">{error}</div> : <div className="rank-list">{nearShops.slice(0, 75).map(({ shop, open, miles }, index) => { const menu = data.items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null); const drink = shopDrink(menu); return <div className="near-row" key={shop.id}><button className="near-open" onClick={() => { scrollRef.current = window.scrollY; setSelectedShop(shop); }}><span className="rank-number">{index + 1}</span><span className="rank-main"><strong>{shop.name}</strong><small>{miles != null ? `${formatMiles(miles)} · ` : ''}{neighborhood(shop)} · {open === true ? 'Open now' : open === false ? 'Closed' : 'Hours unlisted'}</small><Rating value={shop.rating} count={shop.review_count} /></span><span className="leader" aria-hidden="true"></span><span className="rank-price"><strong>{formatPrice(drink.price)}</strong><small>{drink.price != null ? drink.label : 'menu pending'}</small></span></button>{shop.lat != null && shop.lng != null && <a className="dir-link" href={`https://maps.apple.com/?q=${encodeURIComponent(`${shop.name}, ${shop.address || `${neighborhood(shop)}, ${metro === 'milwaukee' ? 'Milwaukee, WI' : 'Minneapolis, MN'}`}`)}`} target="_blank" rel="noreferrer" aria-label={`Directions to ${shop.name}`}><MapPin aria-hidden="true" /><span>Go</span></a>}</div>; })}</div>}
+      {loading ? <div className="loading-list"><LoaderCircle aria-hidden="true" /> Pulling the latest menus…</div> : error ? <div className="error-state">{error}</div> : <div className="rank-list">{nearShops.slice(0, 75).map(({ shop, open, miles, extra }, index) => { const menu = data.items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null); const drink = shopDrink(menu); return <div className="near-row" key={shop.id}><button className="near-open" onClick={() => { scrollRef.current = window.scrollY; setSelectedShop(shop); }}><span className="rank-number">{index + 1}</span><span className="rank-main"><strong>{shop.name}</strong><small>{miles != null ? `${formatMiles(miles)} · ` : ''}{neighborhood(shop)} · {open === true ? 'Open now' : open === false ? 'Closed' : 'Hours unlisted'}{extra > 0 ? ` · +${extra} more nearby` : ''}</small><Rating value={shop.rating} count={shop.review_count} /></span><span className="leader" aria-hidden="true"></span><span className="rank-price"><strong>{formatPrice(drink.price)}</strong><small>{drink.price != null ? drink.label : 'menu pending'}</small></span></button>{shop.lat != null && shop.lng != null && <a className="dir-link" href={`https://maps.apple.com/?q=${encodeURIComponent(`${shop.name}, ${shop.address || `${neighborhood(shop)}, ${metro === 'milwaukee' ? 'Milwaukee, WI' : 'Minneapolis, MN'}`}`)}`} target="_blank" rel="noreferrer" aria-label={`Directions to ${shop.name}`}><MapPin aria-hidden="true" /><span>Go</span></a>}</div>; })}</div>}
     </main>}
     {view === 'compare' && <main className="content-shell">
       <section className="menu-title"><p className="eyebrow">Same drink, fair comparison</p><div className="menu-title-row"><h1>{drinkLabels[drink] || drink.replaceAll('_', ' ')}</h1><span>{loading ? 'Pulling menus…' : `${ranked.length} prices · ${metro === 'milwaukee' ? 'Milwaukee' : 'Twin Cities'}`}</span></div></section>
