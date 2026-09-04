@@ -1,0 +1,1104 @@
+{
+ "platform": "ritual",
+ "source_url": "https://ritual.co/order/600-east-cafe-jackson-wisconsin-milwaukee/796d",
+ "shops": [
+  {
+   "id": 30,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "ritual-0",
+   "name": "Chipotle Chicken Sandwich",
+   "category": "Most Popular",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chicken breast, bacon, roma tomatoes, romaine & mozzarella cheese with chipotle dressing on a Sciortino's sun-dried tomato basil roll."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-1",
+   "name": "Pecan Chopped Chicken Salad",
+   "category": "Most Popular",
+   "price_cents": 1685,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chicken breast, roma tomatoes, cucumbers, red onions, pecans & feta cheese served on romaine with balsamic vinaigrette."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-2",
+   "name": "Cranberry Turkey Wrap",
+   "category": "Most Popular",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Roasted turkey breast, dried sweet cranberries, romaine, pecans & cream cheese with raspberry vinaigrette."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-3",
+   "name": "Meat Breakfast Burrito",
+   "category": "Breakfast",
+   "price_cents": 1035,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Sausage, bacon, peppers, onions, cheddar cheese, chipotle sauce & egg."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-4",
+   "name": "The Veggies Breakfast Burrito",
+   "category": "Breakfast",
+   "price_cents": 950,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Pesto, provolone cheese, sriracha sauce, peppers, mushrooms, roma tomatoes, spinach & egg."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-5",
+   "name": "Build Your Own Breakfast Sandwich",
+   "category": "Breakfast",
+   "price_cents": 1035,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Your choice of 1 meat, 1 cheese, egg & veggies."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-6",
+   "name": "Build Your Own Vegetarian Breakfast Sandwich",
+   "category": "Breakfast",
+   "price_cents": 950,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Your choice of 1 cheese, egg & unlimited veggies."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-7",
+   "name": "Quiche Lorraine",
+   "category": "Breakfast",
+   "price_cents": 1015,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Heavy cream, eggs, gruyere cheese, bacon and seasonings in a butter crust"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-8",
+   "name": "Mixed Berry Baked Oatmeal",
+   "category": "Breakfast",
+   "price_cents": 925,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Handmade baked oatmeal served with steamed milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-9",
+   "name": "Meatball Sub",
+   "category": "Signature Sandwiches",
+   "price_cents": 1435,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Meatballs & marinara with mozzarella served on a Sciortino's Italian sub roll."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-10",
+   "name": "Turkey Club Sandwich",
+   "category": "Signature Sandwiches",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Boar's Head turkey breast, bacon, cheddar, roma tomato, lettuce and mayo served cold on a Sciortino's ciabatta roll"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-11",
+   "name": "Mr. Bean Sandwich (vegetarian)",
+   "category": "Signature Sandwiches",
+   "price_cents": 1380,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Black bean paste, pepper jack, roasted red pepper, tomato, avocado and spinach with cilantro lime vinaigrette served on multi grain bread"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-12",
+   "name": "Toasted Italian Sub Sandwich",
+   "category": "Signature Sandwiches",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Boar's Head ham, Genoa salami, provolone, mozzarella, red onion, pepperoncini peppers and house made pesto on a Sciortino's Italian Sub roll"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-13",
+   "name": "Chipotle Cheesesteak Sandwich",
+   "category": "Signature Sandwiches",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Roast beef, cheddar, provolone, roasted red peppers & red onion with chipotle sauce on a Sciortino's sub roll"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-14",
+   "name": "Jacked Turkey Sandwich",
+   "category": "Signature Sandwiches",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Turkey breast, bacon, pepper jack, red pepper & red onion with triple chili ranch on a ciabatta roll"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-15",
+   "name": "Balsamic Chicken Sandwich",
+   "category": "Signature Sandwiches",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chicken breast, mozzarella, sun-dried tomatoes, red onion & spinach with balsamic on a ciabatta roll"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-16",
+   "name": "Chili Pepper Chicken Wrap",
+   "category": "Signature Wraps",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Boar's Head chicken breast, bacon, mozzarella, red onion, roma tomato, romaine, and crispy jalapenos with triple chili pepper ranch"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-17",
+   "name": "Avocado Turkey Wrap",
+   "category": "Signature Wraps",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Roasted turkey breast, avocado, roma tomatoes, cucumbers & spinach with cream cheese & honey mustard dressing."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-18",
+   "name": "Chicken Bacon Ranch Wrap",
+   "category": "Signature Wraps",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chicken breast, bacon, cheddar cheese, romaine & roma tomatoes with ranch dressing."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-19",
+   "name": "600 EAST Club Wrap",
+   "category": "Signature Wraps",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Ham, turkey, bacon, cheddar, lettuce & tomato with mayo"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-20",
+   "name": "Buffalo Chicken Wrap",
+   "category": "Signature Wraps",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chicken breast, cheddar, diced mozzarella, lettuce & tomato with blue cheese sriracha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-21",
+   "name": "Southwest Chicken Salad",
+   "category": "Signature Salads",
+   "price_cents": 1685,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chicken breast, avocado, corn, black beans, red onions & tortilla strips served on romaine with sriracha ranch dressing."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-22",
+   "name": "Grinder Salad",
+   "category": "Signature Salads",
+   "price_cents": 1685,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Boars Head turkey breast, salami, Roma tomato, cucumber, red onion, pepperoncini, diced mozzarella, parmesan & croutons served on romaine with creamy Italian dressing"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-23",
+   "name": "Cobb Salad",
+   "category": "Signature Salads",
+   "price_cents": 1685,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Roasted turkey breast, bacon, diced mozzarella cheese, avocado, hard boiled eggs, roma tomatoes, red onions & croutons served on romaine with ranch dressing."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-24",
+   "name": "Turkey Club Salad",
+   "category": "Signature Salads",
+   "price_cents": 1685,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Turkey breast, bacon, diced mozzarella, dried sweet cranberries, cucumber & tomato on romaine with raspberry vinaigrette"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-25",
+   "name": "Chicken Caesar Salad",
+   "category": "Signature Salads",
+   "price_cents": 1685,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chicken breast, tomato, red onion, parmesan & house-made croutons on romaine with Caesar dressing"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-26",
+   "name": "Coffee Of The Day",
+   "category": "Coffee of the Day",
+   "price_cents": 295,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Changes daily between Anodyne, Stone Creek and Colectivo"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-27",
+   "name": "Latte",
+   "category": "Espresso Based Drinks",
+   "price_cents": 485,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso, steamed milk & a layer of foam on top. The classic milk & espresso drink."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-28",
+   "name": "Cappuccino",
+   "category": "Espresso Based Drinks",
+   "price_cents": 485,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso with a layer of velvety steamed milk & a layer of microfoam on top. A delicate balance of light, airy foam & deep, delicious espresso."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-29",
+   "name": "Breve",
+   "category": "Espresso Based Drinks",
+   "price_cents": 565,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso with steamed half-and-half."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-30",
+   "name": "Mocha",
+   "category": "Espresso Based Drinks",
+   "price_cents": 510,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso with chocolate & steamed milk."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-31",
+   "name": "White Chocolate Mocha",
+   "category": "Espresso Based Drinks",
+   "price_cents": 510,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso with white chocolate & steamed milk."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-32",
+   "name": "Americano",
+   "category": "Espresso Based Drinks",
+   "price_cents": 385,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso with hot water."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-33",
+   "name": "Espresso",
+   "category": "Espresso Based Drinks",
+   "price_cents": 340,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Freshly prepared coffee through finely ground beans that is rich & aromatic with a natural layer of \u2018crema\u2019 on top. Perfect for coffee purists."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-34",
+   "name": "Blended J'latte",
+   "category": "Specialty Coffees",
+   "price_cents": 615,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "espresso and skim milk blended together"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-35",
+   "name": "Blended J\u2019Mocha",
+   "category": "Specialty Coffees",
+   "price_cents": 645,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso, skim milk and mocha powder blended"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-36",
+   "name": "Turtle Mocha",
+   "category": "Specialty Coffees",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso, chocolate, caramel & toffee."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-37",
+   "name": "Peppermint Patty Mocha",
+   "category": "Specialty Coffees",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso, chocolate & peppermint."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-38",
+   "name": "Creme Brulee Latte",
+   "category": "Specialty Coffees",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso, white chocolate & caramel."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-39",
+   "name": "Raspberry Bianca",
+   "category": "Specialty Coffees",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso, white chocolate & raspberry."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-40",
+   "name": "Cafe Viennese",
+   "category": "Specialty Coffees",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Coffee with cinnamon syrup topped with whipped cream."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-41",
+   "name": "Cafe au Lait",
+   "category": "Specialty Coffees",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Coffee & steamed milk."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-42",
+   "name": "Red Eye",
+   "category": "Specialty Coffees",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Coffee & espresso."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-43",
+   "name": "Steamer",
+   "category": "Hot Drinks",
+   "price_cents": 415,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Steamed milk with a flavor of your choice"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-44",
+   "name": "Hot Chocolate",
+   "category": "Hot Drinks",
+   "price_cents": 415,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-45",
+   "name": "Chai Tea",
+   "category": "Hot Drinks",
+   "price_cents": 520,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-46",
+   "name": "Rishi Organic Tea",
+   "category": "Hot Drinks",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Choose from a variety of flavors."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-47",
+   "name": "Matcha Latte",
+   "category": "Hot Drinks",
+   "price_cents": 575,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Rishi Matcha powder blended with your choice of milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-48",
+   "name": "Iced Coffee",
+   "category": "Iced Coffee",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Anodyne cold brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-49",
+   "name": "Iced Americano",
+   "category": "Iced Coffee",
+   "price_cents": 410,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso with water served over ice."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-50",
+   "name": "Iced Latte",
+   "category": "Iced Coffee",
+   "price_cents": 525,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso & milk on top, all served over ice. The classic milk & espresso drink."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-51",
+   "name": "Iced Mocha",
+   "category": "Iced Coffee",
+   "price_cents": 555,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso with chocolate & milk. Served over ice."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-52",
+   "name": "Rishi Iced Tea",
+   "category": "Cold Drinks",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Choose from a variety of flavors."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-53",
+   "name": "Iced Chai",
+   "category": "Cold Drinks",
+   "price_cents": 560,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Aromatic spiced black tea blended with milk. Served over ice."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-54",
+   "name": "Handcrafted Soda",
+   "category": "Cold Drinks",
+   "price_cents": 440,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Flavor of choice with seltzer"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-55",
+   "name": "Cremosa",
+   "category": "Cold Drinks",
+   "price_cents": 455,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Flavor of choice with seltzer and half and half"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-56",
+   "name": "Fruit Smoothie",
+   "category": "Cold Drinks",
+   "price_cents": 675,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Choose from a variety of flavors. 16 oz."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-57",
+   "name": "Matcha Green Tea Smoothie",
+   "category": "Cold Drinks",
+   "price_cents": 725,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Matcha green tea, spinach, kale, banana, pineapple, mango and apple juice"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-58",
+   "name": "Bottled Soda",
+   "category": "Cold Drinks",
+   "price_cents": 335,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Choose flavor upon arrival. Coke products 20oz."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-59",
+   "name": "Bottle Water",
+   "category": "Cold Drinks",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Bottle Water"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-60",
+   "name": "Chips",
+   "category": "Deli Sides",
+   "price_cents": 215,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-61",
+   "name": "Double Chocolate Chip Cookie",
+   "category": "Bakery/Desserts",
+   "price_cents": 285,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-62",
+   "name": "Wheat Free Double Chocolate Chip Cookie",
+   "category": "Bakery/Desserts",
+   "price_cents": 285,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-63",
+   "name": "Iced Lemon Pound Cake",
+   "category": "Bakery/Desserts",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-64",
+   "name": "Cinnamon Walnut Pound Cake",
+   "category": "Bakery/Desserts",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-65",
+   "name": "Banana Nut Pound Cake",
+   "category": "Bakery/Desserts",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-66",
+   "name": "Chocolate Chip Pound Cake",
+   "category": "Bakery/Desserts",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-67",
+   "name": "Double Chocolate Pound Cake",
+   "category": "Bakery/Desserts",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-68",
+   "name": "Wheat Free Blueberry Cream Scone",
+   "category": "Bakery/Desserts",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Individually packaged"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-69",
+   "name": "Wheat Free Craisin Orange Scone",
+   "category": "Bakery/Desserts",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Individually packaged"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-70",
+   "name": "Red Hot Latte 16 oz.",
+   "category": "Drink Specials",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Peppermint & Cinnamon with steamed milk and espresso"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-71",
+   "name": "Chocolate Covered Strawberry Mocha (16 oz.)",
+   "category": "Drink Specials",
+   "price_cents": 655,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Espresso & strawberry syrup with chocolate and steamed milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-72",
+   "name": "Peanut Butter Cup Mocha 16 oz.",
+   "category": "Drink Specials",
+   "price_cents": 655,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chocolate with peanut butter syrup, espresso and steamed milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-73",
+   "name": "Raspberry Bianca 16 oz.",
+   "category": "Drink Specials",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "White chocolate with raspberry syrup, espresso and steamed milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-74",
+   "name": "Red Hot Cocoa (16 ounce)",
+   "category": "Drink Specials",
+   "price_cents": 545,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Steamed peppermint and cinnamon with milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-75",
+   "name": "Cinnamon Cream Cold Brew 16 ounce",
+   "category": "Drink Specials",
+   "price_cents": 625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Anodyne cold brew & cinnamon syrup with half and half"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-76",
+   "name": "Build Your Own Salad",
+   "category": "Build Your Own",
+   "price_cents": 1625,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Your choice of toppings & dressing."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-77",
+   "name": "Build Your Own Vegetarian Salad",
+   "category": "Build Your Own",
+   "price_cents": 1470,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Your choice of toppings & dressing."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-78",
+   "name": "Build Your Own Sandwich",
+   "category": "Build Your Own",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Your choice of bread, premium-quality meat, artisan cheese, crisp vegetables & toppings."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-79",
+   "name": "Build Your Own Vegetarian Sandwich",
+   "category": "Build Your Own",
+   "price_cents": 1380,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Your choice of bread, artisan cheese, crisp vegetables & toppings."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-80",
+   "name": "Build Your Own Wrap",
+   "category": "Build Your Own",
+   "price_cents": 1595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Your choice of wrap, premium-quality meat, artisan cheese, crisp vegetables & toppings."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-81",
+   "name": "Build Your Own Vegetarian Wrap",
+   "category": "Build Your Own",
+   "price_cents": 1380,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Your choice of wrap, artisan cheese, crisp vegetables & toppings."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-82",
+   "name": "Indulgence Chocolate Bars",
+   "category": "Retail",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Locally made using the finest chocolate from around the world and other natural ingredients"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ritual-83",
+   "name": "Turkey Club Lunch box",
+   "category": "Catering- Lunch Boxes",
+   "price_cents": 2025,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Turkey club sandwich with chips and a double chocolate chip cookie"
+   },
+   "modifiers": []
+  }
+ ]
+}
