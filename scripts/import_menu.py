@@ -73,6 +73,12 @@ def rekey_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -> None:
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     today = dt.date.today().isoformat()
+    # A bundle captured from a stale source (e.g. an old menu PDF) can pin
+    # provenance timestamps so the site shows the true capture date.
+    captured = bundle.get("captured_at")
+    if captured:
+        now = captured
+        today = str(captured)[:10]
     items = bundle.get("items") or []
     if not items:
         raise SystemExit("bundle has no items")
