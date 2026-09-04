@@ -182,6 +182,7 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
                 for mod in entry["modifiers"]:
                     key = (mod.get("group_name"), mod["choice_name"], mod["price_delta_cents"])
                     if key not in latest:
+                        latest.add(key)  # dedupe repeated rows within the capture itself
                         mod_rows.append({"item_id": item_id, "group_name": mod.get("group_name"), "choice_name": mod["choice_name"], "price_delta_cents": mod["price_delta_cents"], "observed_at": now})
             for batch in chunked(mod_rows):
                 write(db.post, "modifiers", batch)
