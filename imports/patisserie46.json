@@ -344,7 +344,7 @@
   },
   {
    "platform_item_id": "94d73c69-625d-4acf-b52e-56a78b677032",
-   "name": "oz Brew Coffee",
+   "name": "16oz Brew Coffee",
    "category": "Coffee",
    "price_cents": 375,
    "available": true,
@@ -513,7 +513,7 @@
   },
   {
    "platform_item_id": "4e00eb8a-b53c-43cf-82f3-6c4ea4b9973d",
-   "name": "oz Americano",
+   "name": "16oz Americano",
    "category": "Coffee",
    "price_cents": 475,
    "available": true,
@@ -522,12 +522,12 @@
    },
    "modifiers": [
     {
-     "group_name": "oz Option",
+     "group_name": "16oz Option",
      "choice_name": "Hot",
      "price_delta_cents": 0
     },
     {
-     "group_name": "oz Option",
+     "group_name": "16oz Option",
      "choice_name": "Iced",
      "price_delta_cents": 0
     },
