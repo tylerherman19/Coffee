@@ -18,6 +18,10 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 .metro-toggle .active { color: white; background: var(--brown); }
 .freshness { justify-self: end; margin: 0; display: flex; align-items: center; gap: 7px; color: var(--brown-soft); font-size: .82rem; }
 .freshness svg { width: 15px; }
+.topbar-tools { justify-self: end; display: flex; align-items: center; gap: 18px; }
+.prices-toggle { min-height: 40px; display: flex; align-items: center; gap: 8px; padding: 0 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); color: var(--brown-soft); cursor: pointer; font-size: .9rem; }
+.prices-toggle svg { width: 16px; }
+.prices-toggle.active { color: white; border-color: var(--leaf); background: var(--leaf); }
 .desktop-nav { display: flex; justify-content: center; gap: 38px; border-bottom: 1px solid var(--line); background: var(--paper); }
 .desktop-nav button { padding: 16px 3px 13px; border: 0; border-bottom: 3px solid transparent; background: transparent; color: var(--brown-soft); cursor: pointer; }
 .desktop-nav button.active { border-color: var(--accent); color: var(--brown); font-weight: 700; }
@@ -91,7 +95,9 @@ h1, h2 { font-family: var(--font-heading), Georgia, serif; }
   .topbar { min-height: 118px; grid-template-columns: 1fr auto; gap: 12px; padding: 13px 16px 10px; }
   .wordmark span { font-size: 1.13rem; }
   .metro-toggle button { min-height: 36px; padding: 0 12px; font-size: .84rem; }
-  .freshness { grid-column: 1 / -1; justify-self: start; font-size: .77rem; }
+  .topbar-tools { grid-column: 1 / -1; justify-self: start; gap: 14px; }
+  .freshness { font-size: .77rem; }
+  .prices-toggle { min-height: 36px; padding: 0 13px; font-size: .82rem; }
   .desktop-nav { display: none; }
   .content-shell, .detail-shell { width: calc(100% - 28px); padding: 30px 0; }
   .section-heading { align-items: start; flex-direction: column; margin-bottom: 22px; }
@@ -122,4 +128,3 @@ h1, h2 { font-family: var(--font-heading), Georgia, serif; }
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
-
