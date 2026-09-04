@@ -7,7 +7,7 @@ on:
         description: 'Shop id to update'
         required: true
       closed_on:
-        description: 'Closed date YYYY-MM-DD (blank = today; ignored with reopen or when only address is set)'
+        description: 'Closed date YYYY-MM-DD (blank = today; ignored with reopen or when only name/address is set)'
         required: false
         default: ''
       reopen:
@@ -17,6 +17,10 @@ on:
         default: false
       address:
         description: 'New shop address (optional; when set alone, closed_at is untouched)'
+        required: false
+        default: ''
+      name:
+        description: 'New shop name (optional; when set alone, closed_at is untouched)'
         required: false
         default: ''
 
@@ -35,4 +39,4 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
-        run: python scripts/set_shop_closed.py --shop-id "${{ inputs.shop_id }}" --closed-on "${{ inputs.closed_on }}" --address "${{ inputs.address }}" ${{ inputs.reopen && '--reopen' || '' }}
+        run: python scripts/set_shop_closed.py --shop-id "${{ inputs.shop_id }}" --closed-on "${{ inputs.closed_on }}" --address "${{ inputs.address }}" --name "${{ inputs.name }}" ${{ inputs.reopen && '--reopen' || '' }}
