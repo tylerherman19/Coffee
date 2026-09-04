@@ -1,0 +1,376 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.sababamilwaukee.com/_files/ugd/106441_ae303ba67e2b4486ae647a3abcbb9353.pdf",
+ "shops": [
+  {
+   "id": 52,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "sab-coffee-day",
+   "name": "Coffee of the Day (Regular or Decaf)",
+   "category": "Coffee / Tea",
+   "price_cents": 295,
+   "price_low_cents": 295,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-iced-coffee",
+   "name": "Iced Coffee",
+   "category": "Coffee / Tea",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 395,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-red-eye",
+   "name": "Red Eye (add a shot of espresso)",
+   "category": "Coffee / Tea",
+   "price_cents": 125,
+   "price_low_cents": 125,
+   "price_high_cents": 125,
+   "available": true,
+   "raw": {
+    "description": "Add-on to coffee"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-hot-tea",
+   "name": "Hot Tea (Black, Green & Herbal)",
+   "category": "Coffee / Tea",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-chai",
+   "name": "Chai (hot or iced)",
+   "category": "Coffee / Tea",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-espresso",
+   "name": "Espresso (Single 1oz / Double 2oz)",
+   "category": "Espresso Classics",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-capp-latte",
+   "name": "Cappuccino / Lattes",
+   "category": "Espresso Classics",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-mocha",
+   "name": "Mocha (Hot or Iced)",
+   "category": "Espresso Classics",
+   "price_cents": 495,
+   "price_low_cents": 495,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-americano",
+   "name": "Americano",
+   "category": "Espresso Classics",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 395,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-frappes",
+   "name": "Frappes (White or Dark Chocolate, Whipped Cream)",
+   "category": "Espresso Classics",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-extras",
+   "name": "Extra espresso shot / flavor shot / soy milk",
+   "category": "Coffee / Tea",
+   "price_cents": 95,
+   "price_low_cents": 95,
+   "price_high_cents": 95,
+   "available": true,
+   "raw": {
+    "description": "Add-on"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-egg-sandwich",
+   "name": "Egg Sandwich",
+   "category": "Rise & Shine",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-breakfast-burrito",
+   "name": "Breakfast Burrito",
+   "category": "Rise & Shine",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-hash-browns",
+   "name": "Hash Browns",
+   "category": "Rise & Shine",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 175,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-bacon",
+   "name": "Bacon (2 strips), Ham or Sausage",
+   "category": "Rise & Shine",
+   "price_cents": 225,
+   "price_low_cents": 225,
+   "price_high_cents": 225,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-bagel",
+   "name": "Bagel, Croissant or English Muffin",
+   "category": "Rise & Shine",
+   "price_cents": 295,
+   "price_low_cents": 295,
+   "price_high_cents": 295,
+   "available": true,
+   "raw": {
+    "description": "from"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-bagel-bj",
+   "name": "Bagel w/ Butter & Jelly",
+   "category": "Rise & Shine",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-bagel-cc",
+   "name": "Bagel w/ Cream Cheese",
+   "category": "Rise & Shine",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 395,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-toast",
+   "name": "Toast w/ Butter & Jelly",
+   "category": "Rise & Shine",
+   "price_cents": 295,
+   "price_low_cents": 295,
+   "price_high_cents": 295,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-muffins",
+   "name": "Muffins & Scones",
+   "category": "Rise & Shine",
+   "price_cents": 345,
+   "price_low_cents": 345,
+   "price_high_cents": 345,
+   "available": true,
+   "raw": {
+    "description": "from"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-add-cc",
+   "name": "Add Cream Cheese",
+   "category": "Rise & Shine",
+   "price_cents": 60,
+   "price_low_cents": 60,
+   "price_high_cents": 60,
+   "available": true,
+   "raw": {
+    "description": "Add-on"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-butter-jelly",
+   "name": "Butter or Jelly",
+   "category": "Rise & Shine",
+   "price_cents": 20,
+   "price_low_cents": 20,
+   "price_high_cents": 20,
+   "available": true,
+   "raw": {
+    "description": "Add-on"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-peaches",
+   "name": "Peaches & Dreams Smoothie",
+   "category": "Fruit Smoothies",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-berry",
+   "name": "Berry Bliss Smoothie",
+   "category": "Fruit Smoothies",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-green",
+   "name": "Green Monster Smoothie",
+   "category": "Fruit Smoothies",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-spiru",
+   "name": "Add Spiru-tein",
+   "category": "Fruit Smoothies",
+   "price_cents": 150,
+   "price_low_cents": 150,
+   "price_high_cents": 150,
+   "available": true,
+   "raw": {
+    "description": "Add-on"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-flax",
+   "name": "Add Ground Flax Seeds",
+   "category": "Fruit Smoothies",
+   "price_cents": 95,
+   "price_low_cents": 95,
+   "price_high_cents": 95,
+   "available": true,
+   "raw": {
+    "description": "Add-on"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sab-yogurt",
+   "name": "Extra Yogurt",
+   "category": "Fruit Smoothies",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": "Add-on"
+   },
+   "modifiers": []
+  }
+ ]
+}
