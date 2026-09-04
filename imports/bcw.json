@@ -1,0 +1,2061 @@
+{
+ "platform": "chownow",
+ "source_url": "https://direct.chownow.com/order/23155/locations/33821",
+ "shops": [
+  {
+   "id": 306,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "3317255_3966118",
+   "name": "Build Your Own Waffle",
+   "category": "Popular Items",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Plain Belgian style waffle."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317261_3966124",
+   "name": "Strawberry Cheesecake",
+   "category": "Popular Items",
+   "price_cents": 1050,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Strawberries, graham cracker, crumbs, cheesecake spread, whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317260_3966123",
+   "name": "Naughty Waffle",
+   "category": "Popular Items",
+   "price_cents": 1050,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Bananas, almond butter, strawberries, blueberries, house-made granola, whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317257_3966120",
+   "name": "Fat Andrew",
+   "category": "Popular Items",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Bananas, peanut butter, powdered sugar, whipped cream, cinnamon."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317259_3966122",
+   "name": "S'mores",
+   "category": "Popular Items",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chocolate chips, mini marshmallows, chocolate drizzle, graham cracker crumbs."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317255_3966118",
+   "name": "Build Your Own Waffle",
+   "category": "Waffles",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Plain Belgian style waffle."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317256_3966119",
+   "name": "Apple Strudel",
+   "category": "Waffles",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Baked cinnamon clove apples, caramel, cinnamon, whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317257_3966120",
+   "name": "Fat Andrew",
+   "category": "Waffles",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Bananas, peanut butter, powdered sugar, whipped cream, cinnamon."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317258_3966121",
+   "name": "Muddsucker",
+   "category": "Waffles",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Honey, cinnamon, powdered sugar, raw sugar, whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317259_3966122",
+   "name": "S'mores",
+   "category": "Waffles",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chocolate chips, mini marshmallows, chocolate drizzle, graham cracker crumbs."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317260_3966123",
+   "name": "Naughty Waffle",
+   "category": "Waffles",
+   "price_cents": 1050,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Bananas, almond butter, strawberries, blueberries, house-made granola, whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317261_3966124",
+   "name": "Strawberry Cheesecake",
+   "category": "Waffles",
+   "price_cents": 1050,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Strawberries, graham cracker, crumbs, cheesecake spread, whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317262_3966125",
+   "name": "Fresh Fruit Cup",
+   "category": "Sides",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "8oz. Strawberries, bananas, & blueberries."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons | Fresh Fruit Cup",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Fresh Fruit Cup",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Fresh Fruit Cup",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Fresh Fruit Cup",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Fresh Fruit Cup",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Fresh Fruit Cup",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Fresh Fruit Cup",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Fresh Fruit Cup",
+     "choice_name": "Cheesecake Filling",
+     "price_delta_cents": 300
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317265_3966129",
+   "name": "Espresso",
+   "category": "Hot Drinks",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "2oz. Double shot Vitality espresso."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "1% Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317270_3966141",
+   "name": "Espresso Macchiato",
+   "category": "Hot Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "3oz. Double shot Vitality espresso & milk foam."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "1% Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317272_3966145",
+   "name": "Cappuccino (8oz)",
+   "category": "Hot Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "8oz. Vitality espresso, steamed milk, thick foam."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "1% Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  }
+ ]
+}
