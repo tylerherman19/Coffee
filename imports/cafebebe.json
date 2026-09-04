@@ -1,0 +1,403 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://3rdstmarkethall.com/locations/all-vendors/cafe-bebe",
+ "shops": [
+  {
+   "id": 132,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "bb-romeu-e-julieta",
+   "name": "Romeu e Julieta",
+   "category": "Specialty Drinks",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Milk, REAL Guava, Vanilla"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Cold Foam",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Sub Alternative Milk",
+     "choice_name": "Oat / Pistachio / Almond Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "bb-animal-frossting",
+   "name": "Animal Frossting",
+   "category": "Specialty Drinks",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Sugar Cookie Milk, Sprinkles, Animal Cookie topping"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Cold Foam",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Sub Alternative Milk",
+     "choice_name": "Oat / Pistachio / Almond Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "bb-breakfast-club",
+   "name": "Breakfast Club",
+   "category": "Specialty Drinks",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Citrus Cereal Milk, Fruity Pebbles topping"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Cold Foam",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Sub Alternative Milk",
+     "choice_name": "Oat / Pistachio / Almond Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "bb-bananas-foster",
+   "name": "Bananas Foster",
+   "category": "Specialty Drinks",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Banana, House-made Salted Caramel"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Cold Foam",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Sub Alternative Milk",
+     "choice_name": "Oat / Pistachio / Almond Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "bb-brigadeiro-mocha",
+   "name": "Brigadeiro Mocha",
+   "category": "Specialty Drinks",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Chocolate Milk, Chocolate Sprinkle topping"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Cold Foam",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Sub Alternative Milk",
+     "choice_name": "Oat / Pistachio / Almond Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "bb-strawberry-fields-matcha",
+   "name": "Strawberry Fields Matcha",
+   "category": "Specialty Drinks",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Matcha, Milk, Strawberry & Rhubarb Sauce"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Cold Foam",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Sub Alternative Milk",
+     "choice_name": "Oat / Pistachio / Almond Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "bb-hot-choc",
+   "name": "Rich Drinking Hot Chocolate",
+   "category": "Tea / Hot Chocolate / Other",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-matcha",
+   "name": "Classic Matcha Latte",
+   "category": "Tea / Hot Chocolate / Other",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-chai",
+   "name": "Chai Latte",
+   "category": "Tea / Hot Chocolate / Other",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-affogato",
+   "name": "Affogato",
+   "category": "Tea / Hot Chocolate / Other",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-egg",
+   "name": "Egg & Cheese Focaccia Sandwich",
+   "category": "Breakfast",
+   "price_cents": 894,
+   "price_low_cents": 894,
+   "price_high_cents": 894,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-bacon-egg",
+   "name": "Bacon Egg & Cheese Focaccia Sandwich",
+   "category": "Breakfast",
+   "price_cents": 1095,
+   "price_low_cents": 1095,
+   "price_high_cents": 1095,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-muffaletta",
+   "name": "Muffaletta",
+   "category": "Breakfast",
+   "price_cents": 1495,
+   "price_low_cents": 1495,
+   "price_high_cents": 1495,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-eggbites",
+   "name": "Egg Bites",
+   "category": "Breakfast",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 585,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-soup",
+   "name": "Soup (Seasonal)",
+   "category": "Breakfast",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-bbq-salad",
+   "name": "BBQ Chicken Salad",
+   "category": "Salads",
+   "price_cents": 1600,
+   "price_low_cents": 1600,
+   "price_high_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-lemon-salad",
+   "name": "Lemon Pepper Chicken Salad",
+   "category": "Salads",
+   "price_cents": 1600,
+   "price_low_cents": 1600,
+   "price_high_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-turtle",
+   "name": "Turtle Sundae Pudding",
+   "category": "Specialty Desserts",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-brownie",
+   "name": "Pecan Praline Brownie",
+   "category": "Specialty Desserts",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-birthday",
+   "name": "Birthday Cake Cup (Seasonal)",
+   "category": "Specialty Desserts",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-crunch",
+   "name": "Chocolate Crunch Cake (Seasonal)",
+   "category": "Specialty Desserts",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-rhubarb-cake",
+   "name": "Rhubarb Coffee Cake",
+   "category": "Coffee Cakes",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-lemon-slice",
+   "name": "Lemon Poppy Slice",
+   "category": "Coffee Cakes",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-muffin",
+   "name": "Muffin (Chocolate Almond, Banana Foster, Chocolate Chip, Blueberry, Snickerdoodle)",
+   "category": "Muffins",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb-cookie",
+   "name": "Cookie (Chocolate Chip, Double Chocolate, Birthday Cake, Oatmeal Butterscotch, Ginger Molasses)",
+   "category": "Cookies",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  }
+ ]
+}
