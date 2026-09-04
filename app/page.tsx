@@ -251,7 +251,6 @@ export default function Home() {
   }, [nearShops, data.items]);
   if (selectedShop) return <div className="site-shell"><ShopDetail shop={selectedShop} items={data.items} onBack={() => { setSelectedShop(null); requestAnimationFrame(() => window.scrollTo(0, scrollRef.current)); }} /></div>;
   const metroName = metro === 'milwaukee' ? 'Milwaukee' : 'Twin Cities';
-  const stamp = data.loadedAt ? `Menus read ${new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(new Date(data.loadedAt))}` : loading ? 'Reading menus' : '';
   const geoStamp = coords ? 'Location on' : geoDenied ? 'Location off' : 'Locating';
   const navCounts = { near: nearShops.length, compare: ranked.length, shops: visibleShops.length, map: visibleShops.filter((s) => s.lat != null).length };
   const columnLabels = view === 'compare' ? ['RANK', 'SHOP · ITEM · UNIT PRICE', 'PRICE / VS MEDIAN']
@@ -263,7 +262,7 @@ export default function Home() {
       <div className="masthead-top">
         <button className="wordmark" onClick={() => setView('near')} aria-label="Coffee Prices home"><span>Coffee Prices</span><span>MKE / MSP</span></button>
         <div className="metro-toggle" aria-label="Choose a metro"><button className={metro === 'milwaukee' ? 'active' : ''} onClick={() => { metroTouched.current = true; setMetro('milwaukee'); setHood(''); setShowAllKey(null); setSelectedShop(null); }}>Milwaukee</button><button className={metro === 'twin_cities' ? 'active' : ''} onClick={() => { metroTouched.current = true; setMetro('twin_cities'); setHood(''); setShowAllKey(null); setSelectedShop(null); }}>Twin Cities</button></div>
-        <div className="masthead-stamp"><div>{stamp}</div><div>{geoStamp}</div></div>
+        <button className={pricedOnly ? 'prices-toggle active' : 'prices-toggle'} onClick={() => setPricedOnly(!pricedOnly)} aria-pressed={pricedOnly}>{pricedOnly ? 'Priced only' : 'All shops'}</button><div className="masthead-stamp"><div>{geoStamp}</div></div>
       </div>
       <nav className="tab-strip" aria-label="Main navigation">
         <button className={view === 'near' ? 'active' : ''} onClick={() => setView('near')}>Near you<sup>{navCounts.near}</sup></button>
@@ -286,6 +285,7 @@ export default function Home() {
         <span>{geoDenied ? 'Location is off. Ranked alphabetically, not by distance.' : 'Locating you — the list is alphabetical until a fix lands.'}</span>
         <button onClick={() => setGeoDenied(false)}>Use location</button>
       </div>}
+      {hoods.length > 1 && <div className="controls"><select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All areas ({visibleShops.length})</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select></div>}
       {nearShops.slice(0, 75).map(({ shop, open, miles, extra }, index) => {
         const menu = data.items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null);
         const d = shopDrink(menu);

@@ -42,7 +42,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .metro-toggle button { border: 0; background: none; padding: 0; margin: 0; cursor: pointer; font-size: clamp(13px, 1.6vw, 15px); font-weight: 500; letter-spacing: -.028em; color: var(--masthead-muted); transition: color var(--dur-1) var(--ease); }
 .metro-toggle button.active { font-weight: 700; color: var(--masthead-fg); }
 .masthead-stamp { flex: 0 1 auto; font-family: var(--font-mono), monospace; font-size: 9.5px; letter-spacing: .08em; color: var(--masthead-muted); text-align: right; line-height: 1.7; text-transform: uppercase; }
-.prices-toggle { display: none; }
+.prices-toggle { flex: 0 1 auto; align-self: baseline; border: 0; background: none; padding: 0; cursor: pointer; font-size: clamp(11px, 1.3vw, 12.5px); font-weight: 500; letter-spacing: -.02em; color: var(--masthead-muted); white-space: nowrap; transition: color var(--dur-1) var(--ease); }
+.prices-toggle.active { font-weight: 700; color: var(--masthead-fg); }
 .tab-strip { display: flex; gap: clamp(16px, 3vw, 34px); overflow-x: auto; margin-top: 14px; padding: 0 var(--gutter); scrollbar-width: none; mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 26px), transparent 100%); }
 .tab-strip::-webkit-scrollbar { display: none; }
 .tab-strip button { position: relative; background: none; border: 0; padding: 0 0 9px; margin: 0; cursor: pointer; white-space: nowrap; color: var(--masthead-muted); font-weight: 500; font-size: clamp(14px, 1.7vw, 17px); letter-spacing: -.028em; box-shadow: inset 0 -3px 0 transparent; transition: color var(--dur-1) var(--ease), box-shadow var(--dur-2) var(--ease); }
