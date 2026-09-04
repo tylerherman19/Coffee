@@ -1,0 +1,891 @@
+{
+ "platform": "manual",
+ "source_url": "user-supplied menu photos (Yelp menu photos, posted ~6 months before capture)",
+ "shops": [
+  {
+   "id": 106,
+   "slug": null
+  },
+  {
+   "id": 4,
+   "slug": null
+  },
+  {
+   "id": 88,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "vnd-espresso",
+   "name": "Espresso",
+   "category": "Traditional",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milks",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Almond / Caramel / Honey / Lavender / Mint / Mocha / Simple / Vanilla",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "vnd-macchiato",
+   "name": "Macchiato",
+   "category": "Traditional",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milks",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Almond / Caramel / Honey / Lavender / Mint / Mocha / Simple / Vanilla",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "vnd-macchiatone",
+   "name": "Macchiatone",
+   "category": "Traditional",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milks",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Almond / Caramel / Honey / Lavender / Mint / Mocha / Simple / Vanilla",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "vnd-shakerato",
+   "name": "Shakerato",
+   "category": "Traditional",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Shaken espresso with sugar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-cappuccino",
+   "name": "Cappuccino",
+   "category": "Traditional",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milks",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Almond / Caramel / Honey / Lavender / Mint / Mocha / Simple / Vanilla",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "vnd-affogato",
+   "name": "Affogato",
+   "category": "Traditional",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "Espresso served w/ Italian gelato"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-americano",
+   "name": "Americano",
+   "category": "Hot",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-drip",
+   "name": "Single-Origin Drip",
+   "category": "Hot",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Brewed in Moccamaster"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-caramello",
+   "name": "Caramello",
+   "category": "Hot",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-chai",
+   "name": "Chai Latte",
+   "category": "Hot",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milks",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Almond / Caramel / Honey / Lavender / Mint / Mocha / Simple / Vanilla",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "vnd-marocchino",
+   "name": "Marocchino",
+   "category": "Hot",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Nutella, vanilla bean, milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-latte",
+   "name": "Latte",
+   "category": "Hot",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milks",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Almond / Caramel / Honey / Lavender / Mint / Mocha / Simple / Vanilla",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "vnd-iced-capp",
+   "name": "Iced Cappuccino",
+   "category": "Iced",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milks",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Almond / Caramel / Honey / Lavender / Mint / Mocha / Simple / Vanilla",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "vnd-iced-latte",
+   "name": "Iced Latte",
+   "category": "Iced",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milks",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milks",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Almond / Caramel / Honey / Lavender / Mint / Mocha / Simple / Vanilla",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "vnd-verano",
+   "name": "Verano",
+   "category": "Iced",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Espresso, half & half, honey, vanilla bean, cinnamon"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-iced-americano",
+   "name": "Iced Americano",
+   "category": "Iced",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-orange-tonic",
+   "name": "Orange Espresso Tonic",
+   "category": "Seasonal",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Top Note tonic, orange juice, iced 12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-pistachio-mocha",
+   "name": "Iced Pistachio Mocha",
+   "category": "Seasonal",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Sicilian pistachio cream, chocolate, iced 12oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-honey-bee",
+   "name": "Honey Bee",
+   "category": "Seasonal",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Espresso, homemade vanilla and lavender syrup, honey, 12oz cappuccino"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-florian",
+   "name": "Caff\u00e8 Florian (Venice)",
+   "category": "Tribute",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Iced, espresso, milk, orange blossom honey, orange bitters"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-pedrocchi",
+   "name": "Caff\u00e8 Pedrocchi (Padova)",
+   "category": "Tribute",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Espresso, mint, milk, chocolate shavings"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-sicilia",
+   "name": "Caff\u00e8 Sicilia (Sicily)",
+   "category": "Tribute",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Espresso, chocolate, almond, rosemary, milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tiramisu",
+   "name": "Shaken Tiramisu (Florence)",
+   "category": "Tribute",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Espresso, homemade tiramisu syrup, lady finger, chilled"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-cold-brew",
+   "name": "Cold Brew",
+   "category": "Cold Brew",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-cb-old-fashioned",
+   "name": "Cold Brew Old Fashioned (NA)",
+   "category": "Cold Brew",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Orange bitters, cherry"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tonica",
+   "name": "Tonica",
+   "category": "Cold Brew",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Top Note tonic, lemon, cold brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-kombucha",
+   "name": "Kombucha",
+   "category": "Other Beverages",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-sp-water",
+   "name": "San Pellegrino Water",
+   "category": "Other Beverages",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-sp-soda",
+   "name": "San Pellegrino Soda",
+   "category": "Other Beverages",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tea-blu-long",
+   "name": "Rishi Tea - Blu-Long",
+   "category": "Rishi Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tea-chamomile",
+   "name": "Rishi Tea - Chamomile",
+   "category": "Rishi Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tea-cinnamon-plum",
+   "name": "Rishi Tea - Cinnamon Plum",
+   "category": "Rishi Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tea-english-breakfast",
+   "name": "Rishi Tea - English Breakfast",
+   "category": "Rishi Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tea-earl-grey",
+   "name": "Rishi Tea - Earl Grey",
+   "category": "Rishi Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tea-jade-cloud",
+   "name": "Rishi Tea - Jade Cloud",
+   "category": "Rishi Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-tea-tumeric-ginger",
+   "name": "Rishi Tea - Tumeric Ginger",
+   "category": "Rishi Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-breakfast-sandwich",
+   "name": "Breakfast Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Available until 12pm. Rustic white, egg, prosciutto, provolone, arugula, pesto"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-caprese",
+   "name": "Caprese Panini",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Grilled, fresh mozzarella, pesto, tomato, chips"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-ham-cheese",
+   "name": "Ham & Cheese Panini",
+   "category": "Sandwiches",
+   "price_cents": 1100,
+   "price_low_cents": 1100,
+   "price_high_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Grilled, ham, provolone, chips"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-salami",
+   "name": "Salami Panini",
+   "category": "Sandwiches",
+   "price_cents": 1100,
+   "price_low_cents": 1100,
+   "price_high_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Grilled, salami, provolone, chips"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-classico",
+   "name": "Classico",
+   "category": "Pinsa Crust-Style Bread",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Pinsa Sorriso, sliced ham, burrata, pistachio pesto, basil, chips"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-special",
+   "name": "Vendetta Special",
+   "category": "Pinsa Crust-Style Bread",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Pinsa Sorriso, prosciutto, arugula, shaved parmesan, fresh mozzarella, balsamic glaze, chips"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-cornetto",
+   "name": "Cornetto (Milan)",
+   "category": "Pastries",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-bombolino",
+   "name": "B\u00f3mbolino (Milan)",
+   "category": "Pastries",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-sfogliatelle",
+   "name": "Sfogliatelle (Milan)",
+   "category": "Pastries",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-biscotti",
+   "name": "Biscotti",
+   "category": "Pastries",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-bacon-egg-croissant",
+   "name": "Bacon & Egg Croissant",
+   "category": "Pastries",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-margherita",
+   "name": "Margherita",
+   "category": "Pizza (7x12\" Pinsa Romana crust)",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Red sauce, fresh mozzarella, basil"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-diavola",
+   "name": "Diavola",
+   "category": "Pizza (7x12\" Pinsa Romana crust)",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Red sauce, pepperoni, mozzarella"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-prosciutto",
+   "name": "Prosciutto",
+   "category": "Pizza (7x12\" Pinsa Romana crust)",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Red sauce, prosciutto, mozzarella, arugula, shaved parmesan, balsamic glaze"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vnd-piccante",
+   "name": "Piccante Dolce",
+   "category": "Pizza (7x12\" Pinsa Romana crust)",
+   "price_cents": 1100,
+   "price_low_cents": 1100,
+   "price_high_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Calabrian chili oil, pepperoni, crushed red pepper, shaved parmesan, honey"
+   },
+   "modifiers": []
+  }
+ ]
+}
