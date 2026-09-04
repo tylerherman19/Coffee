@@ -1,0 +1,4822 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/yum-kitchen-and-bakery-shady-6001-shady-oak-rd (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid da6a77ff-1047-4739-8a4d-a48ceb42f284, address on page: 6001 Shady Oak Rd, Minnetonka, MN)",
+ "shops": [
+  {
+   "id": 648,
+   "slug": "yum-kitchen-and-bakery-shady-6001-shady-oak-rd"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "79a1c827-7c24-424d-87b2-729ca1a6727e",
+   "name": "chopped liver [1/2 pint]",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 1095,
+   "available": true
+  },
+  {
+   "platform_item_id": "62fcc505-877a-4d9e-9d84-ba44ad052e05",
+   "name": "round holiday challah - plain",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 795,
+   "available": true
+  },
+  {
+   "platform_item_id": "42b933ca-d2a5-4c05-bd57-906a3ef24ab9",
+   "name": "round holiday challah w/ raisins",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 895,
+   "available": true
+  },
+  {
+   "platform_item_id": "db8f5521-b799-4958-822d-39ae2f125373",
+   "name": "challah traditional",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 795,
+   "available": true
+  },
+  {
+   "platform_item_id": "c529c39e-6c62-4aab-94f1-bc7034cc8a0e",
+   "name": "challah w/ frosting & sprinkles",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 995,
+   "available": true,
+   "raw": {
+    "description": "challah w/ frosting & sprinkles"
+   }
+  },
+  {
+   "platform_item_id": "8c8538ab-4a91-4a60-9d55-2a277f1a7023",
+   "name": "apple harvest salad small (serves 4-8)",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 4895,
+   "available": true,
+   "raw": {
+    "description": "apples, jarlsberg & spicy pecans on mixed greens w/ maple vinaigrette\r\n\r\nserves 4-8 people"
+   }
+  },
+  {
+   "platform_item_id": "e8ec153b-803a-449e-b79b-b4714a1edfc4",
+   "name": "potato knishes (2)",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 650,
+   "available": true
+  },
+  {
+   "platform_item_id": "455f609e-aae2-4133-bc05-e03be624e34a",
+   "name": "roasted potatoes [feeds 8-12]",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 2995,
+   "available": true
+  },
+  {
+   "platform_item_id": "5f6db22f-8c66-41e8-94de-7a9fb1a2228a",
+   "name": "patticake whole",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 5995,
+   "available": true,
+   "raw": {
+    "description": "chocolate layer cake w/ buttercream frosting\r\n 8 inch round serves 8-16\r\n\r\ncall us to personalize!"
+   }
+  },
+  {
+   "platform_item_id": "9c06569a-0a52-4316-8710-78914df25bd4",
+   "name": "coconut cake whole",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 5995,
+   "available": true,
+   "raw": {
+    "description": "layer cake filled w/ coconut cream, covered in 7 minute frosting and coconut flakes\r\n8 inch round serves 8-16\r\ncall us to personalize!"
+   }
+  },
+  {
+   "platform_item_id": "79f068ec-e8ef-4ce2-b0fe-2dd6a2905842",
+   "name": "mini salted caramel apple pie",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 725,
+   "available": true
+  },
+  {
+   "platform_item_id": "cded8fd8-5adb-4347-8525-0b48ba66849e",
+   "name": "take & bake pan of cinnamon pull-a-parts",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 2295,
+   "available": true,
+   "raw": {
+    "description": "w/ half pint of cream cheese love"
+   }
+  },
+  {
+   "platform_item_id": "e6d698cb-af35-472e-bba7-2c4ccd848916",
+   "name": "caramel apple pull-a-part",
+   "category": "rosh hashanah & yum! kippur",
+   "price_cents": 525,
+   "available": true
+  },
+  {
+   "platform_item_id": "488199dd-196b-47b3-a882-eab2945a702a",
+   "name": "farm scramble",
+   "category": "breakfast",
+   "price_cents": 1295,
+   "available": true,
+   "raw": {
+    "description": "eggs scrambled w/ local heirloom tomatoes, corn, bacon & arugula served w/  roasted potatoes & whole grain toast\r\n*add salmon $6.00"
+   }
+  },
+  {
+   "platform_item_id": "c076c75f-c86b-49fa-bd18-12161524b657",
+   "name": "open-faced runny egg club breakfast",
+   "category": "breakfast",
+   "price_cents": 1495,
+   "available": true,
+   "raw": {
+    "description": "two over easy eggs, bacon, avocado, arugula, tomato & red pepper aioli on toasted whole grain served w/ roasted potatoes"
+   }
+  },
+  {
+   "platform_item_id": "a3d449e5-6e18-4e3b-98d9-95fdbe7a300b",
+   "name": "breakfast sandwich",
+   "category": "breakfast",
+   "price_cents": 1395,
+   "available": true,
+   "raw": {
+    "description": "english muffin w/ your choice of bacon, yum! sausage or chicken sausage, fried egg & cheddar cheese served w/ roasted potatoes\r\nadd avocado 2.00"
+   }
+  },
+  {
+   "platform_item_id": "d6054d15-c173-44fc-bc13-ad2db2b95f11",
+   "name": "breakfast burrito",
+   "category": "breakfast",
+   "price_cents": 1495,
+   "available": true,
+   "raw": {
+    "description": "scrambled eggs, yum! sausage , pepper jack cheese, avocado, roasted potatoes & sour cream wrapped in a flour tortilla served w/ pico de gallo & tortilla chips"
+   }
+  },
+  {
+   "platform_item_id": "c2fe21cb-83b2-4134-bd46-a5f647fecfb1",
+   "name": "steak & eggs",
+   "category": "breakfast",
+   "price_cents": 1895,
+   "available": true,
+   "raw": {
+    "description": "beef tenderloin, over easy eggs & crispy onions served w/ roasted potatoes &  grilled focaccia"
+   }
+  },
+  {
+   "platform_item_id": "96504456-27a4-42aa-b51f-cc560a1c3137",
+   "name": "yum! breakfast",
+   "category": "breakfast",
+   "price_cents": 1295,
+   "available": true,
+   "raw": {
+    "description": "slow scrambled eggs w/ chives, yum! sausage patties, roasted potatoes & challah toast, gluten free (please specify no toast)"
+   }
+  },
+  {
+   "platform_item_id": "5a17bd38-ad1c-4feb-9f25-ebdb248f0119",
+   "name": "avocado toast",
+   "category": "breakfast",
+   "price_cents": 895,
+   "available": true,
+   "raw": {
+    "description": "whole grain, avocado, extra virgin olive oil, sea salt & red pepper flakes \r\nadd egg $2.50, add greens $2.95"
+   }
+  },
+  {
+   "platform_item_id": "679e160e-21e1-4b9c-b606-5fe55681bde9",
+   "name": "yum! granola",
+   "category": "breakfast",
+   "price_cents": 995,
+   "available": true,
+   "raw": {
+    "description": "house made w/ yogurt, mixed berries & drizzle of honey"
+   }
+  },
+  {
+   "platform_item_id": "7e9458de-d446-4f03-9263-3aba45b163f0",
+   "name": "california scramble",
+   "category": "breakfast",
+   "price_cents": 1295,
+   "available": true,
+   "raw": {
+    "description": "scrambled eggs w/ tomato, avocado, fresh mozzarella, spinach & daikon sprouts served w/ greens & whole grain toast, gluten free (please specify no toast)"
+   }
+  },
+  {
+   "platform_item_id": "057e0fa9-7a69-4fd7-889a-8cd9225edb54",
+   "name": "crunchy french toast",
+   "category": "breakfast",
+   "price_cents": 1295,
+   "available": true,
+   "raw": {
+    "description": "thick slices of egg dipped challah w/ corn flake crunch served w/ whipped cream, blueberries & strawberries"
+   }
+  },
+  {
+   "platform_item_id": "af8e6d95-f75c-4239-bf17-bca14b530a17",
+   "name": "egg",
+   "category": "breakfast sides",
+   "price_cents": 250,
+   "available": true
+  },
+  {
+   "platform_item_id": "4712d13f-785f-4fee-abc3-80e1314344e0",
+   "name": "sausage patties",
+   "category": "breakfast sides",
+   "price_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "yum! homemade pork or chicken"
+   }
+  },
+  {
+   "platform_item_id": "b7a73f47-e267-413b-bb34-29baa97aa7b8",
+   "name": "Jones Dairy Farm bacon",
+   "category": "breakfast sides",
+   "price_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "thick cut, 3 slices"
+   }
+  },
+  {
+   "platform_item_id": "fb8b3844-ca1e-4f65-b1dc-0959fdb831fd",
+   "name": "sweet & spicy candied bacon",
+   "category": "breakfast sides",
+   "price_cents": 795,
+   "available": true,
+   "raw": {
+    "description": "Bacon glazed w/ maple syrup, brown sugar & cayenne"
+   }
+  },
+  {
+   "platform_item_id": "7fe11e8a-335a-49d5-ae7f-72e38ac4680e",
+   "name": "breakfast roasted  potatoes",
+   "category": "breakfast sides",
+   "price_cents": 625,
+   "available": true
+  },
+  {
+   "platform_item_id": "622a99d0-11c0-4730-b127-1d4644400852",
+   "name": "cup of fruit",
+   "category": "breakfast sides",
+   "price_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "the best of the season"
+   }
+  },
+  {
+   "platform_item_id": "71432719-9d0f-4ceb-98ec-05debd54eb7f",
+   "name": "house baked english muffin",
+   "category": "breakfast sides",
+   "price_cents": 495,
+   "available": true,
+   "raw": {
+    "description": "w/ raspberry jam"
+   }
+  },
+  {
+   "platform_item_id": "8cf15f74-3329-4b13-9b8c-7e56e8f61559",
+   "name": "toast",
+   "category": "breakfast sides",
+   "price_cents": 395,
+   "available": true,
+   "raw": {
+    "description": "challah, rye or whole grain w/ raspberry jam"
+   }
+  },
+  {
+   "platform_item_id": "6318ff61-97a6-4cce-8c99-57c9c4f5341a",
+   "name": "cinnamon toast",
+   "category": "breakfast sides",
+   "price_cents": 495,
+   "available": true,
+   "raw": {
+    "description": "challah cinnamon toast w/ powdered sugar drizzle"
+   }
+  },
+  {
+   "platform_item_id": "34946694-d0a3-4e82-be49-ac6fb702c053",
+   "name": "greens",
+   "category": "breakfast sides",
+   "price_cents": 295,
+   "available": true
+  },
+  {
+   "platform_item_id": "485faac2-7a77-4dfe-8988-14c1cadcfae6",
+   "name": "caraway rye",
+   "category": "bread",
+   "price_cents": 595,
+   "available": true
+  },
+  {
+   "platform_item_id": "d9029bc6-2db1-49c9-a10d-bc44aac90f59",
+   "name": "challah",
+   "category": "bread",
+   "price_cents": 795,
+   "available": true
+  },
+  {
+   "platform_item_id": "855efb4c-abc8-42f1-bf70-6b7a7d181fe4",
+   "name": "whole grain",
+   "category": "bread",
+   "price_cents": 595,
+   "available": true
+  },
+  {
+   "platform_item_id": "225f640e-77ec-4bcb-9a45-7858f832dd71",
+   "name": "4 pack english muffins",
+   "category": "bread",
+   "price_cents": 1295,
+   "available": true
+  },
+  {
+   "platform_item_id": "18a27ff5-3aef-4da7-8ecd-4d8a855721b3",
+   "name": "patticake slice",
+   "category": "bakery",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "chocolate layer cake w/ buttercream frosting"
+   }
+  },
+  {
+   "platform_item_id": "7ad87389-0ee1-4d47-a800-34705afd40af",
+   "name": "baker's man slice",
+   "category": "bakery",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "chocolate cake w/ chocolate swiss buttercream frosting"
+   }
+  },
+  {
+   "platform_item_id": "dac6c161-dff3-43f1-833c-f751225ec74d",
+   "name": "baker's man whole",
+   "category": "bakery",
+   "price_cents": 5995,
+   "available": true,
+   "raw": {
+    "description": "chocolate cake w/ chocolate swiss buttercream frosting\r\n8 inch round serves 8-16\r\n\r\ncall us to personalize!"
+   }
+  },
+  {
+   "platform_item_id": "52b46d8d-1704-433d-a28d-0ba9f466dca3",
+   "name": "coconut slice",
+   "category": "bakery",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "layer cake filled w/ coconut cream, covered in 7 minute frosting and coconut flakes"
+   }
+  },
+  {
+   "platform_item_id": "67044309-a30b-43a4-a623-ac78e401ebe4",
+   "name": "strawberry cupcake",
+   "category": "bakery",
+   "price_cents": 450,
+   "available": true
+  },
+  {
+   "platform_item_id": "bd2fd19b-9faa-4570-9ebb-6514f14737f0",
+   "name": "dot cupcake in a jar",
+   "category": "bakery",
+   "price_cents": 595,
+   "available": true
+  },
+  {
+   "platform_item_id": "128b77a7-ebdd-48a4-82e7-d9612e669883",
+   "name": "yum! cupcake",
+   "category": "bakery",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "a chocolate cupcake, filled with 7 minute frosting, and dipped in rich ganache"
+   }
+  },
+  {
+   "platform_item_id": "40ff93d6-bec0-47ce-8dee-e71e14e9eabd",
+   "name": "chocolate cupcake",
+   "category": "bakery",
+   "price_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "devil's food cupcake topped with vanilla buttercream"
+   }
+  },
+  {
+   "platform_item_id": "5346725d-9fc2-46a6-9b37-31eb4b9ea1d7",
+   "name": "vanilla cupcake",
+   "category": "bakery",
+   "price_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "classic vanilla cupcake topped with vanilla buttercream"
+   }
+  },
+  {
+   "platform_item_id": "c4d551a7-b625-4ecc-a035-7cec330514d3",
+   "name": "mini key lime pie",
+   "category": "bakery",
+   "price_cents": 725,
+   "available": true
+  },
+  {
+   "platform_item_id": "3bd9b180-6ee6-4e8c-89ad-51e379b05839",
+   "name": "nut goodley bar",
+   "category": "bakery",
+   "price_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "layers of peanut butter and chocolate butterscotch & peanuts w/ a maple nougat\r\n\r\ngluten free\r\ncontains peanuts"
+   }
+  },
+  {
+   "platform_item_id": "5b97278c-cb6b-455f-8420-54d32fe437b5",
+   "name": "special yum! bar",
+   "category": "bakery",
+   "price_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "special kay cereal & peanut butter topped w/ chocolate ganache"
+   }
+  },
+  {
+   "platform_item_id": "9633db30-f95e-4735-93e4-72741ff957c9",
+   "name": "chocolate chip cookie",
+   "category": "bakery",
+   "price_cents": 325,
+   "available": true
+  },
+  {
+   "platform_item_id": "958d8693-4bc8-481d-bae3-7115e17d6211",
+   "name": "ranger cookie",
+   "category": "bakery",
+   "price_cents": 325,
+   "available": true,
+   "raw": {
+    "description": "a yum! favorite - packed w/ rolled oats, toffee pieces, butterscotch chips and flake coconut"
+   }
+  },
+  {
+   "platform_item_id": "f0cb9edb-6170-4d65-84cf-71db7bfa759d",
+   "name": "peanut better cookie",
+   "category": "bakery",
+   "price_cents": 325,
+   "available": true,
+   "raw": {
+    "description": "gluten free & dairy free"
+   }
+  },
+  {
+   "platform_item_id": "35c2c337-fe4d-473c-8b01-3796e174d543",
+   "name": "s'more cookie",
+   "category": "bakery",
+   "price_cents": 495,
+   "available": true
+  },
+  {
+   "platform_item_id": "b89c4bab-29eb-44c3-9e27-b80b7a57e2d0",
+   "name": "blueberry kuchen",
+   "category": "bakery",
+   "price_cents": 495,
+   "available": true
+  },
+  {
+   "platform_item_id": "8219243b-098a-48ca-9aeb-5d56908010a2",
+   "name": "caramel pull-a-part",
+   "category": "bakery",
+   "price_cents": 495,
+   "available": true,
+   "raw": {
+    "description": "sweet dough, rolled in cinnamon and sugar, and baked with caramel and pecans"
+   }
+  },
+  {
+   "platform_item_id": "fed65895-feed-4fc4-967a-d05b6ddd40e1",
+   "name": "cinnamon pull-a-part",
+   "category": "bakery",
+   "price_cents": 495,
+   "available": true,
+   "raw": {
+    "description": "sweet dough, rolled in cinnamon and sugar, and topped with a dollop of cream cheese frosting"
+   }
+  },
+  {
+   "platform_item_id": "77fc581d-7665-44e1-835a-15efd11e567f",
+   "name": "mixed berry scone",
+   "category": "bakery",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "71a8c9e9-f8b5-4c39-8a9c-ca993ad74175",
+   "name": "plain scone",
+   "category": "bakery",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "a buttery scone w/ a sugar glaze"
+   }
+  },
+  {
+   "platform_item_id": "32fafd88-f71f-4352-b76b-95f88cf3576c",
+   "name": "carrot muffin",
+   "category": "bakery",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "3666a982-01e3-4458-8693-a5be6ee9e2e3",
+   "name": "blueberry muffin",
+   "category": "bakery",
+   "price_cents": 395,
+   "available": true
+  },
+  {
+   "platform_item_id": "c92f4d35-72a8-4211-862f-b917af769fec",
+   "name": "lotus candle",
+   "category": "bakery",
+   "price_cents": 825,
+   "available": true
+  },
+  {
+   "platform_item_id": "3a0a652c-3181-4c58-8171-ec6e5841b892",
+   "name": "36-mini cupcakes",
+   "category": "bakery",
+   "price_cents": 4995,
+   "available": true,
+   "raw": {
+    "description": "36 special order mini [two bite!] cupcakes. Available with 24 hour notice."
+   }
+  },
+  {
+   "platform_item_id": "bd42e486-6579-42ba-87e4-8c5aec682a1f",
+   "name": "fountain drink",
+   "category": "cold beverages",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Pepsi products"
+   },
+   "modifiers": [
+    {
+     "group_name": "fountain beverage selection",
+     "choice_name": "pepsi",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "fountain beverage selection",
+     "choice_name": "diet pepsi",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "fountain beverage selection",
+     "choice_name": "mountain dew",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "fountain beverage selection",
+     "choice_name": "diet mountain dew",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "fountain beverage selection",
+     "choice_name": "starry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "fountain beverage selection",
+     "choice_name": "dr. pepper",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "fountain beverage selection",
+     "choice_name": "diet pepper",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "fountain beverage selection",
+     "choice_name": "root beer",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b238715d-c88e-4388-a46d-9a43f0664661",
+   "name": "iced tea",
+   "category": "cold beverages",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "966e2530-bcb7-4798-86c8-943efa8d9972",
+   "name": "fresh squeezed lemonade",
+   "category": "cold beverages",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "c4ccefe9-6144-45cf-8409-f9ba472f3acd",
+   "name": "arnold  palmer",
+   "category": "cold beverages",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "0ea6e014-872a-47cc-885e-24f936ff9ef1",
+   "name": "house squeezed orange juice",
+   "category": "cold beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "95305ede-ec17-4f14-a144-8a587bbceb05",
+   "name": "apple juice",
+   "category": "cold beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "f770805b-ef6b-4236-88c6-9af36aaedc42",
+   "name": "cranberry juice",
+   "category": "cold beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "2477cc27-3f77-44e7-96fe-f294fc3f4afa",
+   "name": "aquafina",
+   "category": "cold beverages",
+   "price_cents": 200,
+   "available": true
+  },
+  {
+   "platform_item_id": "b603c595-a1d2-4163-9ebf-b3b2e357e623",
+   "name": "bubly lime",
+   "category": "cold beverages",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "ff9747d3-7165-4602-bcf0-b43f13bbdccf",
+   "name": "bubly grapefruit",
+   "category": "cold beverages",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "58d656fd-28c2-41b3-ad7b-4231aef28cde",
+   "name": "bubly blackberry",
+   "category": "cold beverages",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "326e9449-260a-4ac5-abb8-61533bf2dbc9",
+   "name": "gatorade cool blue",
+   "category": "cold beverages",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "3b2b27a6-a560-4b1d-bd24-d12a7566664d",
+   "name": "gatorade lemon lime",
+   "category": "cold beverages",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "d0cb9ab6-3a43-43fc-9963-3130d608ba96",
+   "name": "j's raspberry kombucha",
+   "category": "cold beverages",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "d8015869-1101-40b2-8612-a987ea9dc263",
+   "name": "j's lime mint ginger kombucha",
+   "category": "cold beverages",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "db98ab0e-76ef-4093-852b-c141aab61d62",
+   "name": "poppi strawberry lemon",
+   "category": "cold beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "1a18f5d9-ac5a-4354-b679-f9fea3e07faf",
+   "name": "poppi raspberry rose",
+   "category": "cold beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "33f19e6c-2f3e-4c74-a763-aacd4b59455f",
+   "name": "milk",
+   "category": "cold beverages",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "kid plastic cup",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "1d3795ee-1bf6-4469-800b-2e4136668f65",
+   "name": "chocolate milk",
+   "category": "cold beverages",
+   "price_cents": 350,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "milk modifiers",
+     "choice_name": "kid plastic cup",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a8bf189f-5a7f-427f-ae32-bc489f1fc6e8",
+   "name": "coffee",
+   "category": "hot beverages",
+   "price_cents": 325,
+   "available": true,
+   "price_low_cents": 325,
+   "price_high_cents": 375,
+   "modifiers": [
+    {
+     "group_name": "size modifier",
+     "choice_name": "medium",
+     "price_delta_cents": 325
+    },
+    {
+     "group_name": "size modifier",
+     "choice_name": "large",
+     "price_delta_cents": 375
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8e96a08d-e4f4-43ac-93ba-b8a45a732db0",
+   "name": "latte",
+   "category": "hot beverages",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "raw": {
+    "description": "espresso, steamed milk, dollop of foam"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 525
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 625
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5abaaec8-8fe4-4a38-8022-02d2d4c44941",
+   "name": "cortado",
+   "category": "hot beverages",
+   "price_cents": 325,
+   "available": true,
+   "raw": {
+    "description": "a latte with less milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d3782140-1846-4f54-919e-76049c21ffc7",
+   "name": "cappuccino",
+   "category": "hot beverages",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "raw": {
+    "description": "1/3 espresso, 1/3 steamed milk, 1/3 foam"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 525
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 625
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "95049dfd-4e2f-4fa9-9d37-81720bf14bc0",
+   "name": "americano",
+   "category": "hot beverages",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 450,
+   "raw": {
+    "description": "espresso w/ hot water"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 350
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 450
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e8674137-2815-4f8d-b595-f191ef5bb4a8",
+   "name": "breve",
+   "category": "hot beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 650,
+   "raw": {
+    "description": "espresso w/ half & half"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifier",
+     "choice_name": "medium",
+     "price_delta_cents": 550
+    },
+    {
+     "group_name": "size modifier",
+     "choice_name": "large",
+     "price_delta_cents": 650
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "adf7406f-be85-4004-be12-4173b2c03b24",
+   "name": "mocha",
+   "category": "hot beverages",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 700,
+   "raw": {
+    "description": "latte w/ yum! chocolate"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 600
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 700
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "031094c1-4722-4fbc-8f99-8d3154df88d0",
+   "name": "vanilla latte",
+   "category": "hot beverages",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 700,
+   "raw": {
+    "description": "latte w/ yum vanilla"
+   },
+   "modifiers": [
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c2349d81-7a68-4137-b0c3-96238a6cf8dd",
+   "name": "caramel mocha",
+   "category": "hot beverages",
+   "price_cents": 650,
+   "available": true,
+   "price_low_cents": 650,
+   "price_high_cents": 725,
+   "raw": {
+    "description": "latte w/ yum! caramel"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifier",
+     "choice_name": "medium",
+     "price_delta_cents": 650
+    },
+    {
+     "group_name": "size modifier",
+     "choice_name": "large",
+     "price_delta_cents": 725
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ea112a57-a491-40ea-9c3a-dd102e7039be",
+   "name": "chai latte",
+   "category": "hot beverages",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "raw": {
+    "description": "yum! chai, steamed milk, dollop of foam"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 525
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "Large",
+     "price_delta_cents": 625
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "oat milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "chocolate",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8986c4e2-c55e-4848-bd3f-1e7a82a66df5",
+   "name": "chai tea (no milk)",
+   "category": "hot beverages",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "raw": {
+    "description": "yum! chai"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 525
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 625
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "oat milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "chocolate",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "6e4d00bb-3441-4a76-ab47-7798581927c4",
+   "name": "hot cocoa",
+   "category": "hot beverages",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 500
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "867867c8-8a63-4ddb-9f5d-269e86df7615",
+   "name": "espresso",
+   "category": "hot beverages",
+   "price_cents": 300,
+   "available": true,
+   "price_low_cents": 300,
+   "price_high_cents": 400,
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3ff74466-b592-4897-97b4-82c789d7b017",
+   "name": "macchiato",
+   "category": "hot beverages",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "espresso w/ a dollop of foam"
+   },
+   "modifiers": [
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "dd5ee06a-6454-426a-a9b9-cb1af0667f2f",
+   "name": "caf\u00e9 au lait",
+   "category": "hot beverages",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 450,
+   "raw": {
+    "description": "half coffee, half milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 450
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b88609c8-bf47-49c5-9ec3-82bc5599fc99",
+   "name": "depth charge",
+   "category": "hot beverages",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 475,
+   "raw": {
+    "description": "coffee w/ a shot of espresso"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifier",
+     "choice_name": "medium",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "size modifier",
+     "choice_name": "large",
+     "price_delta_cents": 475
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "9a13f766-732d-4faa-b36b-d2c49b3147f5",
+   "name": "steamed milk",
+   "category": "hot beverages",
+   "price_cents": 325,
+   "available": true,
+   "price_low_cents": 325,
+   "price_high_cents": 375,
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 325
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 375
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b9abef58-6aac-47ab-87e0-ae4c935953d0",
+   "name": "hot tea",
+   "category": "hot beverages",
+   "price_cents": 350,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "hot tea modifiers",
+     "choice_name": "black orchid",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "hot tea modifiers",
+     "choice_name": "earl grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "hot tea modifiers",
+     "choice_name": "jasmine green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "hot tea modifiers",
+     "choice_name": "lush orchard (mango white)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "hot tea modifiers",
+     "choice_name": "soothe (chamomile)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "hot tea modifiers",
+     "choice_name": "peppermint",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "hot tea modifiers",
+     "choice_name": "royal breakfast",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "add honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "add lemon",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4dda0fd2-d5fb-418d-96e3-b67536aecbee",
+   "name": "london fog",
+   "category": "hot beverages",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "earl gray tea, steamed milk, vanilla syrup"
+   },
+   "modifiers": [
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "add honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "add lemon",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "200f05ed-462c-4f91-ac4d-0b5bff8f1ce3",
+   "name": "matcha latte",
+   "category": "hot beverages",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "matcha modifiers",
+     "choice_name": "sweetner",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "matcha modifiers",
+     "choice_name": "no sweetner",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "add honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "add lemon",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2422d7d7-e6b2-44ce-a3d3-438031bdf501",
+   "name": "miel",
+   "category": "hot beverages",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "raw": {
+    "description": "espresso, milk, honey & a sprinkle of cinnamon"
+   },
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 525
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 625
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "eb2b1bcc-66fb-4df3-86f0-7f1d7d85d2b2",
+   "name": "coffee to go 96oz w/ 8 cups",
+   "category": "hot beverages",
+   "price_cents": 2495,
+   "available": true
+  },
+  {
+   "platform_item_id": "41f75b33-9596-4c46-85cf-1e30f05cb812",
+   "name": "iced latte",
+   "category": "iced beverages",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 525
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 625
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5c87cb59-3206-429e-ae4a-8e8111de18ba",
+   "name": "iced mocha",
+   "category": "iced beverages",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 700,
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 600
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 700
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "57fa9f3b-9e5d-430e-84a9-eb5b835a066a",
+   "name": "iced vanilla latte",
+   "category": "iced beverages",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 700,
+   "modifiers": [
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b0a5820e-490e-48ac-b2e5-20f5394b34ac",
+   "name": "iced caramel mocha",
+   "category": "iced beverages",
+   "price_cents": 650,
+   "available": true,
+   "price_low_cents": 650,
+   "price_high_cents": 725,
+   "modifiers": [
+    {
+     "group_name": "size modifier",
+     "choice_name": "medium",
+     "price_delta_cents": 650
+    },
+    {
+     "group_name": "size modifier",
+     "choice_name": "large",
+     "price_delta_cents": 725
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "kid plastic cup",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0f1cede1-bfaf-4818-94f4-108798bb4015",
+   "name": "iced breve",
+   "category": "iced beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 650,
+   "modifiers": [
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "6d638270-5c8f-4872-b820-70e9a792e134",
+   "name": "iced miel",
+   "category": "iced beverages",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "modifiers": [
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "77a74ac6-6ebc-42eb-b35b-cb3aafda5cc0",
+   "name": "iced americano",
+   "category": "iced beverages",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 450,
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 350
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 450
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "518ff6fc-c542-4e94-b340-fabf4955beb9",
+   "name": "iced matcha latte",
+   "category": "iced beverages",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "matcha modifiers",
+     "choice_name": "sweetner",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "matcha modifiers",
+     "choice_name": "no sweetner",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "add honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "more tea modifers",
+     "choice_name": "add lemon",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "73240633-e8d3-4ac1-b15d-4b5ff72c1d5a",
+   "name": "matcha lemonade",
+   "category": "iced beverages",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "52427da2-01a8-41c4-a0a8-7d69c5de86ab",
+   "name": "iced chai latte",
+   "category": "iced beverages",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "modifiers": [
+    {
+     "group_name": "size modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 525
+    },
+    {
+     "group_name": "size modifiers",
+     "choice_name": "Large",
+     "price_delta_cents": 625
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "oat milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "chocolate",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "chai modifier",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a6f4dbe6-a33e-48a7-ba16-1aebcf560d81",
+   "name": "cold press",
+   "category": "iced beverages",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 500,
+   "modifiers": [
+    {
+     "group_name": "side modifiers",
+     "choice_name": "medium",
+     "price_delta_cents": 450
+    },
+    {
+     "group_name": "side modifiers",
+     "choice_name": "large",
+     "price_delta_cents": 500
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "almond milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "soy milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "oat milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "coconut milk",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "half caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "room for cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "extra hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "not too hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whipped cream",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "heavy cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "coffee modifiers",
+     "choice_name": "wet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "380a2c21-ef65-46d4-aba2-a6c9a0fda08d",
+   "name": "$10 yum! gift card",
+   "category": "yum! gift cards",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "6ecaf7d4-0ff1-47fb-a0a6-da1f2fcf4cb2",
+   "name": "$25 yum! gift card",
+   "category": "yum! gift cards",
+   "price_cents": 2500,
+   "available": true
+  },
+  {
+   "platform_item_id": "c675e4a9-c1b8-4c08-9ace-b61f6d968eaf",
+   "name": "$50 yum! gift card",
+   "category": "yum! gift cards",
+   "price_cents": 5000,
+   "available": true
+  },
+  {
+   "platform_item_id": "7b0a4e62-587e-459d-923a-6596ab32f728",
+   "name": "$100 yum! gift card",
+   "category": "yum! gift cards",
+   "price_cents": 10000,
+   "available": true
+  },
+  {
+   "platform_item_id": "8f2910c3-2fe4-4e79-b1c5-64ff8f700f13",
+   "name": "fresh fruit (80oz)",
+   "category": "yum! catering",
+   "price_cents": 3900,
+   "available": true,
+   "raw": {
+    "description": "serves 10 - 12 people"
+   }
+  },
+  {
+   "platform_item_id": "95525ab9-2ace-4409-820a-63f6e78ddeb6",
+   "name": "mac & cheese [feeds 8-10]",
+   "category": "yum! catering",
+   "price_cents": 2995,
+   "available": true,
+   "raw": {
+    "description": "as a side, serves 8 -10 people"
+   }
+  },
+  {
+   "platform_item_id": "01bf46c8-192c-4adb-b55f-b01c5e92e667",
+   "name": "potato chips (160oz)",
+   "category": "yum! catering",
+   "price_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "serves 20 - 24 people"
+   }
+  },
+  {
+   "platform_item_id": "75a0649e-ee09-4472-8c74-3c1dace7c8d3",
+   "name": "potato chips (80oz)",
+   "category": "yum! catering",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "serves 10 - 12 people"
+   }
+  },
+  {
+   "platform_item_id": "d555ff39-6ee5-4090-b59d-f3146cd7386b",
+   "name": "large platter chicken club",
+   "category": "yum! catering",
+   "price_cents": 12000,
+   "available": true,
+   "raw": {
+    "description": "15 pieces, grilled and w/ tomato, avocado, bacon, lettuce & pommeray mustard aioli on focaccia"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "849c77a6-4640-46bb-b4ba-910e66c61fd2",
+   "name": "small platter chicken club",
+   "category": "yum! catering",
+   "price_cents": 6200,
+   "available": true,
+   "raw": {
+    "description": "8 pieces, grilled and w/ tomato, avocado, bacon, lettuce & pommeray mustard aioli on focaccia"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5744296f-f79c-4f77-bd7c-18bb29c30f1c",
+   "name": "large platter turkey focaccia",
+   "category": "yum! catering",
+   "price_cents": 9500,
+   "available": true,
+   "raw": {
+    "description": "15 pieces, w/ lettuce, tomato, red pepper aioli & onion on focaccia"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "430bfbeb-7d9d-4d74-b0c0-d570eecc6cbc",
+   "name": "small platter turkey focaccia",
+   "category": "yum! catering",
+   "price_cents": 4800,
+   "available": true,
+   "raw": {
+    "description": "8 pieces, w/ lettuce, tomato, red pepper aioli & onion on focaccia"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "15a66b8c-fc1d-46c3-af62-7b78b06410da",
+   "name": "large platter beef tenderloin sandwich",
+   "category": "yum! catering",
+   "price_cents": 25500,
+   "available": true,
+   "raw": {
+    "description": "15 pieces, w/ arugula & red pepper aioli on focaccia"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "287b5640-d242-4f24-b469-1668d75ed10c",
+   "name": "small platter beef tenderloin sandwich",
+   "category": "yum! catering",
+   "price_cents": 13500,
+   "available": true,
+   "raw": {
+    "description": "8 pieces, w/ arugula & red pepper aioli on focaccia"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "32c6dd19-1e28-4446-9899-20b8ddd12584",
+   "name": "large platter yum! veggie sandwich",
+   "category": "yum! catering",
+   "price_cents": 9500,
+   "available": true,
+   "raw": {
+    "description": "16 pieces w/ avocado, cucumber, sprouts, tomato, spinach, cheddar & muenster w/ honey mustard on whole grain"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "97c627a2-0bb9-4fc7-845b-5fc731f5349b",
+   "name": "small platter yum! veggie sandwich",
+   "category": "yum! catering",
+   "price_cents": 4800,
+   "available": true,
+   "raw": {
+    "description": "8 pieces w/ avocado, cucumber, sprouts, tomato, spinach, cheddar & muenster w/ honey mustard on whole grain"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5de069dd-098e-4817-b7cc-5f134d3f676e",
+   "name": "large platter tuna salad sandwich",
+   "category": "yum! catering",
+   "price_cents": 9500,
+   "available": true,
+   "raw": {
+    "description": "15 pieces, w/ tomato & field greens on a challah bun"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "fbb965de-2b6e-453e-835e-36428c73f495",
+   "name": "small platter tuna salad sandwich",
+   "category": "yum! catering",
+   "price_cents": 4800,
+   "available": true,
+   "raw": {
+    "description": "8 pieces, w/ tomato & field greens on a challah bun"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "dbfa03b7-e70b-4274-8544-ac0f49c0a1d2",
+   "name": "large platter egg salad sandwich",
+   "category": "yum! catering",
+   "price_cents": 8000,
+   "available": true,
+   "raw": {
+    "description": "15 pieces, w/ tomato & field greens on a challah bun"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ff13e9f1-d737-4014-a429-55ec01cb64e0",
+   "name": "small platter egg salad sandwich",
+   "category": "yum! catering",
+   "price_cents": 4200,
+   "available": true,
+   "raw": {
+    "description": "8 pieces, w/ tomato & field greens on a challah bun"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c9ee0b2e-5267-4bdc-8268-dcba29e4da9b",
+   "name": "large platter chicken salad sandwich",
+   "category": "yum! catering",
+   "price_cents": 9500,
+   "available": true,
+   "raw": {
+    "description": "15 pieces, w/ tomato & field greens on a challah bun"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "db18c075-b89d-4ef7-8706-b9ee1e0cbd43",
+   "name": "small platter chicken salad sandwich",
+   "category": "yum! catering",
+   "price_cents": 4800,
+   "available": true,
+   "raw": {
+    "description": "8 pieces, w/ tomato & field greens on a challah bun"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f6805520-0bab-4ee1-bd6f-6f432b8f22c7",
+   "name": "large platter assorted salad sandwich",
+   "category": "yum! catering",
+   "price_cents": 9500,
+   "available": true,
+   "raw": {
+    "description": "15 pieces, assorted tuna, chicken and egg salad"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b14d1069-5ec1-499c-b4b3-ffc248b597e6",
+   "name": "small platter assorted salad sandwich",
+   "category": "yum! catering",
+   "price_cents": 4800,
+   "available": true,
+   "raw": {
+    "description": "8 pieces, assorted tuna, chicken and egg salad"
+   },
+   "modifiers": [
+    {
+     "group_name": "available with 24 hour notice.",
+     "choice_name": "requires 24 hr notice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "909b172d-2d9d-480b-9857-b114387e86fb",
+   "name": "grilled chicken club box lunch",
+   "category": "yum! box lunches",
+   "price_cents": 1895,
+   "available": true,
+   "raw": {
+    "description": "grilled chicken breast, lettuce, tomato, avocado, Jones Dairy Farm bacon & honey mustard aioli on toasted whole grain. all yum! box lunches include a sandwich, pickle, fruit, house made chips & a cookie!"
+   }
+  },
+  {
+   "platform_item_id": "32835288-0c77-4903-95c1-cb725f959d43",
+   "name": "turkey focaccia box lunch",
+   "category": "yum! box lunches",
+   "price_cents": 1595,
+   "available": true,
+   "raw": {
+    "description": "house roasted turkey breast w/ lettuce, tomato, red pepper aioli & onion on focaccia. all yum! box lunches include a sandwich, pickle, fruit, house made chips & a cookie!"
+   }
+  },
+  {
+   "platform_item_id": "4de4cbc1-2fdf-427b-99bd-b92b4bd76d6a",
+   "name": "tarragon chicken salad box lunch",
+   "category": "yum! box lunches",
+   "price_cents": 1595,
+   "available": true,
+   "raw": {
+    "description": "tarragon chicken salad, tomato & field greens on whole grain. all yum! box lunches include a sandwich, pickle, fruit, house made chips & a cookie!"
+   }
+  },
+  {
+   "platform_item_id": "c72ab539-7fa0-46fc-8263-9a3a1d22346e",
+   "name": "dilled egg salad box lunch",
+   "category": "yum! box lunches",
+   "price_cents": 1495,
+   "available": true,
+   "raw": {
+    "description": "dilled egg salad, tomato & field greens on whole grain. all yum! box lunches include a sandwich, pickle, fruit, house made chips & a cookie!"
+   }
+  },
+  {
+   "platform_item_id": "06028701-2bac-4294-b167-ffdedf1a794b",
+   "name": "fancy schmancy tuna salad box lunch",
+   "category": "yum! box lunches",
+   "price_cents": 1595,
+   "available": true,
+   "raw": {
+    "description": "fancy schmancy tuna salad, tomato & field greens on whole grain. all yum! box lunches include a sandwich, pickle, fruit, house made chips & a cookie!"
+   }
+  },
+  {
+   "platform_item_id": "9f9dd5ed-f16b-4095-b119-2d271999c7a5",
+   "name": "yum! veggie box lunch",
+   "category": "yum! box lunches",
+   "price_cents": 1595,
+   "available": true,
+   "raw": {
+    "description": "avocado, cucumber, sprouts, tomato, spinach, cheddar & muenster w/ honey mustard aioli on toasted whole grain. all yum! box lunches include a sandwich, pickle, fruit, house made chips & a cookie!"
+   }
+  },
+  {
+   "platform_item_id": "b0abd619-0b52-481f-9652-4fbb481ddc93",
+   "name": "steak sandwich box lunch",
+   "category": "yum! box lunches",
+   "price_cents": 2195,
+   "available": true,
+   "raw": {
+    "description": "grilled beef tenderloin, red pepper aioli & Revol arugula on herb focaccia. all yum! box lunches include a sandwich, pickle, fruit, house made chips & a cookie!"
+   }
+  }
+ ]
+}
