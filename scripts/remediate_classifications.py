@@ -17,7 +17,7 @@ from collect import Supabase, classify_name  # noqa: E402
 
 import re  # noqa: E402
 
-RETAIL_PRICE_GUARD = re.compile(r"retail|supplies|theory", re.I)
+RETAIL_PRICE_GUARD = re.compile(r"retail|supplies|theory|guest coffee", re.I)
 
 
 def all_items(db: Supabase) -> list[dict]:
@@ -25,7 +25,7 @@ def all_items(db: Supabase) -> list[dict]:
     offset = 0
     while True:
         page = db.get("items", {
-            "select": "id,name,category,is_drink,drink_type,current_price_cents,removed_at",
+            "select": "id,name,category,is_drink,drink_type,current_price_cents,size_oz,removed_at",
             "order": "id.asc", "offset": str(offset), "limit": "1000",
         })
         rows.extend(page)
@@ -43,8 +43,16 @@ def main() -> None:
     for item in items:
         is_drink, drink_type = classify_name(item["name"], item.get("category"))
         price = item.get("current_price_cents")
-        if is_drink and price is not None and price >= 1000 and item.get("category") and RETAIL_PRICE_GUARD.search(item["category"]):
+        size_oz = item.get("size_oz")
+        if is_drink and size_oz is not None and size_oz >= 32:
+            # A 32oz+ serving is a group vessel (cambro, growler, 96oz urn), not a cup.
             is_drink, drink_type = False, None
+        if is_drink and price is not None and price >= 1000:
+            if item.get("category") and RETAIL_PRICE_GUARD.search(item["category"]):
+                is_drink, drink_type = False, None
+            elif re.search(r"\d{1,3}\s?oz\b", item["name"], re.I):
+                # "$18 ... 12 oz" is a retail bean bag's naming style.
+                is_drink, drink_type = False, None
         old = (bool(item["is_drink"]), item.get("drink_type"))
         new = (is_drink, drink_type)
         if old == new:

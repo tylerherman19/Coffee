@@ -231,7 +231,9 @@ RETAIL_PACKAGING = re.compile(
     r"k.?cups?\b|\bgallons?\b|\bbox\b|traveler|\bscoop\b|liqueur|subscription|"
     r"gift ?card|\bmerch\b|\bmugs?\b|tumbler|\bfilters?\b|\bcanteen\b|"
     r"\bjoe to go\b|for the crew|\binstant\b|\bspreads?\b|\bcarafes?\b|"
-    r"\bgrinders?\b|\btotes?\b|pup ?cups?\b|"
+    r"\bgrinders?\b|\btotes?\b|pup ?cups?\b|\bplatters?\b|\btrays?\b|\bpcs?\b|"
+    r"\bcartons?\b|\bairpots?\b|\bcambros?\b|\bgrowlers?\b|\btins?\b|\bcleanse\b|"
+    r"\bblends?\b|ball cap|bandanas?|joe\s?2\s?go|\s//\s|"
     # A flight or tasting is several small pours at one price, so it is not
     # comparable to a cup and would top the drip ranking at a flight's price.
     r"\bflights?\b|\bsamplers?\b|\btastings?\b",
