@@ -1,0 +1,1092 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/babas-2220-lyndale-avenue-south (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 7713e4eb-743a-49c3-86f5-1a420d22cf3b, address on page: 2220 Lyndale Avenue South, Minneapolis, MN 55405, Minneapolis, MN)",
+ "shops": [
+  {
+   "id": 320,
+   "slug": "babas-2220-lyndale-avenue-south"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "cfe72922-6de4-4125-80ee-4c7bf87abf2c",
+   "name": "Jerusalem-Style",
+   "category": "Served with Pita Puffs",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Traditional hummus, warm chickpeas, tahini, green shutta, parsley, almonds (VN GF without pita)"
+   }
+  },
+  {
+   "platform_item_id": "e4e43d11-6613-47e4-b7ba-f4fc918e12f5",
+   "name": "Hummus bi Lahme",
+   "category": "Served with Pita Puffs",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Traditional hummus, minced beef shawarma, lemon sauce, parsley, almonds, sumac (GF without pita)"
+   }
+  },
+  {
+   "platform_item_id": "f9641ff7-a0a5-472b-9af5-3990009c4c6e",
+   "name": "Falafelicious",
+   "category": "Served with Pita Puffs",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Traditional hummus, falafel, warm chickpeas, pickled red cabbage, Arabic pickles, tahini, sumac (VN, GF without pita)"
+   }
+  },
+  {
+   "platform_item_id": "f8d9f0ea-0b5b-415d-b169-817b947fc765",
+   "name": "Beauty and the Buffalo",
+   "category": "Served with Pita Puffs",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Ranch hummus, breaded buffalo chicken, blue cheese, scallions, buffalo sauce, buffalo dust CAN NOT BE MADE GLUTEN FREE"
+   }
+  },
+  {
+   "platform_item_id": "66545953-0074-4458-8721-587f59ad20ff",
+   "name": "Super Green",
+   "category": "Served with Pita Puffs",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Green herb hummus, falafel, herb salad, edamame, pistachio, green tahini (VN, GF without pita)"
+   }
+  },
+  {
+   "platform_item_id": "1ec812a8-ed84-43ed-9abb-1aaeb2b85819",
+   "name": "Za Za Labaneh",
+   "category": "Served with Pita Puffs",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Labaneh, Palestinian Olives, Pickled Beet Cabbage, Celery, Carrots, Pickled Cauliflower, Walnuts, Mint"
+   }
+  },
+  {
+   "platform_item_id": "3064a9c0-c72d-4083-a6b9-c440fbfcb678",
+   "name": "Wagyu Shawarma Bowl",
+   "category": "Served with Pita Puffs",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "traditional hummus, wagyu beef, pickled onions, tomatoes, arabi pickles, batata hara, tahini, parsley, sumac"
+   }
+  },
+  {
+   "platform_item_id": "b1b3c6f7-6e89-4d7c-89b0-15e63dd4d1bf",
+   "name": "Za\u2019atar mana'eesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Za'atar + olive oil flatbread, labaneh, herbs (V)"
+   }
+  },
+  {
+   "platform_item_id": "d5e265cb-4444-47de-97eb-1ed288dbfc66",
+   "name": "Jibna mana'eesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Arabic cheese flatbread, herbs, nigella seeds (V)"
+   }
+  },
+  {
+   "platform_item_id": "18fb0a7d-79ed-428d-805a-fa5e7259a565",
+   "name": "Jibna + Za\u2019atar mana'eesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Arabic cheese + za'atar flatbread, herbs (V)"
+   }
+  },
+  {
+   "platform_item_id": "f8f246a1-a36a-4a7e-846c-8f87fa723b8d",
+   "name": "Jibna + Sujok mana'eesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Arabic cheese + Arabic beef sausage flatbread, herbs"
+   }
+  },
+  {
+   "platform_item_id": "d3ccb31a-5398-4be5-91eb-ab5394d4685f",
+   "name": "Lahme bi Ajeen (Sfeeha)",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Middle Eastern spiced meat pie, herbs, sumac onions"
+   }
+  },
+  {
+   "platform_item_id": "19d84f78-2a77-43ea-a883-d80df8922b27",
+   "name": "Beef pepperoni mana'eesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "harissa san marzano red sauce, arabi cheese, beef pepperoni, parmesan"
+   }
+  },
+  {
+   "platform_item_id": "78afcffd-30f2-46bd-9f4e-df59ccc6eae9",
+   "name": "Mortadella Mana'eesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Arabi cheese, beef mortadella, zhoug labaneh, pistachio, mint"
+   }
+  },
+  {
+   "platform_item_id": "023178b5-d00f-4ba4-8f7a-0241d1eaa134",
+   "name": "Musakhan",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "arabi spiced braised chicken, sumac caramelized onions, pine nuts, parsley, red shutta labaneh"
+   }
+  },
+  {
+   "platform_item_id": "74dcb973-be11-4cb1-a35f-79fca1d550eb",
+   "name": "Wagyu Shawarma Mana'eesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Wagyu Beef, Arabi Cheese, Roasted Tomatoes, Onions, Arabi Pickles, Parsley, Tahini"
+   }
+  },
+  {
+   "platform_item_id": "03f1294a-3bf1-4787-ad61-06a545d80e6f",
+   "name": "Jibna + Egg Manaeesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "72 hr fermented dough, Arabi Akkawi cheese, egg, black cumin seeds"
+   }
+  },
+  {
+   "platform_item_id": "530d3356-4ce6-40b1-bfb0-514c145e3609",
+   "name": "Jibna, Egg + Sujok Mana'eesh",
+   "category": "72 Hour Fermented Dough \"Mana'eesh\"",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "72 hr fermented dough, Arabi Akkawi cheese, egg, Arabi beef sausage (sujok), black cumin seeds"
+   }
+  },
+  {
+   "platform_item_id": "1024cd32-f9f2-49de-98dc-54793d713388",
+   "name": "Palestinian Plate",
+   "category": "Sharable Snacks",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "Hummus, labaneh, falafel, tomatoes, cucumbers, palestinian olives, arabi cheese, arabi pickles, pickled walnut eggplant (magdooz), pita puffs (V, contains walnuts in eggplant)"
+   }
+  },
+  {
+   "platform_item_id": "ce10c86b-9989-48a4-bc28-ef888a442e1a",
+   "name": "Falafel (6 pieces)",
+   "category": "Sharable Snacks",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Tahini, pickled veggies (VN,GF)"
+   }
+  },
+  {
+   "platform_item_id": "010b4f93-cd73-414e-8a3e-772876f32947",
+   "name": "Batata Hara",
+   "category": "Sharable Snacks",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Spiced fried potatoes, cilantro, aleppo pepper, toum (VN, GF)"
+   }
+  },
+  {
+   "platform_item_id": "14cced86-3130-405e-b47d-04778a133e44",
+   "name": "Arabi Pickles",
+   "category": "Sharable Snacks",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "variety of pickled vegetables (VN, GF)"
+   }
+  },
+  {
+   "platform_item_id": "94fdd3c5-bdea-485a-a663-d0eb90f5603d",
+   "name": "Pita Puffs",
+   "category": "Sharable Snacks",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "8 pieces of pita"
+   }
+  },
+  {
+   "platform_item_id": "cc4791e4-dc6c-4b19-82fa-b91e85a252ef",
+   "name": "Side Veggies",
+   "category": "Sharable Snacks",
+   "price_cents": 200,
+   "available": true
+  },
+  {
+   "platform_item_id": "26345c72-57e7-429a-a6fd-24a3c33491ac",
+   "name": "Fatoush",
+   "category": "Middle Eastern Salads",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Romaine lettuce, tomatoes, cucumbers, radish, toasted pita chips, mint, sumac (VN, GF without toasted pita)"
+   }
+  },
+  {
+   "platform_item_id": "1157d736-555a-45e4-82e0-d54136500969",
+   "name": "Tahini Caesar",
+   "category": "Middle Eastern Salads",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Romaine lettuce, tahini caesar dressing, parmesan, kanafe nest, lemon zest, nigella seeds, sesame pistachio crumble (contains nuts) (v)"
+   }
+  },
+  {
+   "platform_item_id": "012721b0-70d7-4f91-88fc-39a93a6cc961",
+   "name": "Herby",
+   "category": "Middle Eastern Salads",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Arugula, parsley, cilantro, mint, pickled cabbage, onions, feta cheese, beet vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "fc0db891-6017-4e19-9279-c975b29c25bd",
+   "name": "Sujok sandweesha (grilled cheese)",
+   "category": "Served with batata hara",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "arabi cheese, arabic beef sausage, harrisa cherry tomato jam, toum aioli, sourdough, herb salad, green shutta"
+   }
+  },
+  {
+   "platform_item_id": "99118a73-b57f-4154-9bd7-8b587e8701b0",
+   "name": "Falafel sandweesha",
+   "category": "Served with batata hara",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "falafel, pickled red cabbage, tomatoes, arabi pickles, hummus, tahini, red shutta (VN)"
+   }
+  },
+  {
+   "platform_item_id": "33e61c8d-a815-428f-b3b5-d91c94cca614",
+   "name": "Wagyu Shawarma Sandweesha",
+   "category": "Served with batata hara",
+   "price_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "wagyu beef, onions, arabi pickles, tomatoes, parsley, tahini"
+   }
+  },
+  {
+   "platform_item_id": "f6f2bebb-e62a-4685-a4e9-1c7ce084f5e9",
+   "name": "Mortadella Sandweesha",
+   "category": "Served with batata hara",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "beef mortadella, pistachios, arabi olive tapenade, red shutta aioli, sourdough, arugula (contains nuts)"
+   }
+  },
+  {
+   "platform_item_id": "bc7aabd2-cab4-44cd-ad03-6172af646562",
+   "name": "Baklava Macaron",
+   "category": "Macarons",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "contains dairy, almonds, pistachios, eggs (GF)"
+   }
+  },
+  {
+   "platform_item_id": "bf28f536-c648-453a-aae1-08d61a28c42a",
+   "name": "Rosewater Macaron",
+   "category": "Macarons",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "contains egg, dairy, and almonds (GF)"
+   }
+  },
+  {
+   "platform_item_id": "43f7d5d3-9f24-415d-a4fd-11309a91e9f2",
+   "name": "Kunafa Macaron",
+   "category": "Macarons",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "contains eggs, dairy, and almonds (GF)"
+   }
+  },
+  {
+   "platform_item_id": "966c8f36-be24-4b94-97c5-fb622cc28e4b",
+   "name": "Turkish Coffee Macaron",
+   "category": "Macarons",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "contains eggs, dairy, almonds (GF)"
+   }
+  },
+  {
+   "platform_item_id": "7e1a47cf-9ddc-4940-b185-7c4b0c5e548b",
+   "name": "Mustik-Evil Eye Macaron",
+   "category": "Macarons",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "contains eggs, dairy, almonds (GF)"
+   }
+  },
+  {
+   "platform_item_id": "ddea3290-f507-4179-ba47-12c481b6b8c3",
+   "name": "Tahini Brownie",
+   "category": "Bakery Items",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "36513209-161c-4594-8c46-d9f7b9c0d149",
+   "name": "lemon olive oil cake",
+   "category": "Bakery Items",
+   "price_cents": 600,
+   "available": false
+  },
+  {
+   "platform_item_id": "7c2f0aa8-ad84-435f-871c-ddc417da3ebb",
+   "name": "pistachio cardamon rosewater cake",
+   "category": "Bakery Items",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "05c21f73-55b8-4758-8934-de01d2bf2fee",
+   "name": "butter croissant",
+   "category": "Bakery Items",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "bdfd18c8-73fb-4473-a7dc-295558b665ad",
+   "name": "chocolate croissant",
+   "category": "Bakery Items",
+   "price_cents": 700,
+   "available": true
+  },
+  {
+   "platform_item_id": "7334bf57-506b-48de-836e-9bd03b9c2eb4",
+   "name": "Za'atar spice",
+   "category": "Treats",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "68c0336a-b0c4-423c-8133-88972cb32ade",
+   "name": "Shawarma spice",
+   "category": "Treats",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "dfc16de7-6d07-4b39-b411-ff67729d98db",
+   "name": "Chili Oil Jar",
+   "category": "Treats",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "95431b23-afda-40ec-9320-e7701ddd196d",
+   "name": "Zait o Zaatar",
+   "category": "Treats",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "291337a9-6f74-4c2c-908c-ced66b1fb929",
+   "name": "Toum Jar",
+   "category": "Treats",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "837a026d-fa22-48d3-b5f0-62fe920f079d",
+   "name": "Red Shatta Jar",
+   "category": "Treats",
+   "price_cents": 900,
+   "available": false
+  },
+  {
+   "platform_item_id": "7691651a-0289-4af1-b658-f524c7343bae",
+   "name": "Green Shatta Jar",
+   "category": "Treats",
+   "price_cents": 900,
+   "available": true
+  },
+  {
+   "platform_item_id": "9d0c5f81-7466-4b9b-9d6c-c83e029822dc",
+   "name": "Pickles",
+   "category": "Treats",
+   "price_cents": 900,
+   "available": true
+  },
+  {
+   "platform_item_id": "79aec42b-1491-4dbd-9e66-41d8a8beb508",
+   "name": "Tahini Jar",
+   "category": "Treats",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "76dd8712-a00b-4e7b-ae7b-469d8a996b1c",
+   "name": "Olipop",
+   "category": "Bottled Drinks",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "flavors",
+     "choice_name": "Root beer",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "flavors",
+     "choice_name": "orange",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "flavors",
+     "choice_name": "Ginger lemon",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b8702419-de29-4c3e-be41-495512b2d238",
+   "name": "Kin Eurphorics",
+   "category": "Bottled Drinks",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Flavors",
+     "choice_name": "Blossom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Actual Sunshine",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a0afebe2-d322-4186-8cb0-ee0161cb6b4a",
+   "name": "Ayran Original Yogurt Drink",
+   "category": "Bottled Drinks",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "e5a1ee4f-2e8f-4117-b754-1008707457f5",
+   "name": "Ayran Mint Yogurt Drink",
+   "category": "Bottled Drinks",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "10e2d988-aa65-475c-a0d4-f528ed3a05d7",
+   "name": "Botanical Tea",
+   "category": "Bottled Drinks",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "flavors",
+     "choice_name": "schisandra berry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "flavors",
+     "choice_name": "elderberry maqui",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c159af2d-a6f2-4a0c-b74f-c977d4b62cfa",
+   "name": "Water",
+   "category": "Bottled Drinks",
+   "price_cents": 300,
+   "available": false
+  },
+  {
+   "platform_item_id": "4ebcb9cc-141d-4de0-8f8e-bb47c6526c6f",
+   "name": "Ooso Sparkling Tea",
+   "category": "Bottled Drinks",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Green Tea Mint Lime"
+   }
+  },
+  {
+   "platform_item_id": "13e0c762-3886-429e-b080-b2a30b313896",
+   "name": "Recess",
+   "category": "Bottled Drinks",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "flavors",
+     "choice_name": "strawberry rose",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "flavors",
+     "choice_name": "tropical bliss",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "43d7ac6d-62b9-48e7-944b-189a47821869",
+   "name": "Wildwonder",
+   "category": "Bottled Drinks",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Flavors",
+     "choice_name": "Raspberry Lychee",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Pineapple",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Blackberry Violet",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a8758fc8-05b6-4e26-b437-a001eb6beed3",
+   "name": "Palestinian Cola",
+   "category": "Bottled Drinks",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "3de605e4-7c19-4366-a7ae-98a01f20838b",
+   "name": "Palestinian Orange",
+   "category": "Bottled Drinks",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "9215e1b0-2565-42c6-8e14-f0bbb7abdbcc",
+   "name": "Palestinian Lemon Lime",
+   "category": "Bottled Drinks",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "4a07e672-a5f4-44e6-9dde-e2dd91104591",
+   "name": "Palestinian Cola Sugar Free",
+   "category": "Bottled Drinks",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "2747559a-2b3d-4fbf-974d-ef24d79ed9e1",
+   "name": "Coconut Water",
+   "category": "Bottled Drinks",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "443e13c4-778c-43c8-9f6c-aabefb2847f8",
+   "name": "Sparkling Coconut Water",
+   "category": "Bottled Drinks",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "620efa48-5c10-4646-8f9e-0d283a0f99da",
+   "name": "Culture Pop",
+   "category": "Bottled Drinks",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "flavors",
+     "choice_name": "watermelon lime",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d52c3f45-7eee-4de4-8de3-1b862a1900a0",
+   "name": "De La Calle",
+   "category": "Bottled Drinks",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Flavor",
+     "choice_name": "Prickly Pear",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3e686be9-83af-4373-a291-6f28b6ccc977",
+   "name": "waterloo",
+   "category": "Bottled Drinks",
+   "price_cents": 200,
+   "available": true
+  },
+  {
+   "platform_item_id": "6fa43567-bc78-4538-8a26-355896f1babb",
+   "name": "Baba's Traditional",
+   "category": "Hummus",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "4f104a2c-26de-4ab4-8525-e94c3cb91af3",
+   "name": "Baba's Roasted Red Pepper",
+   "category": "Hummus",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "4b0ceb6a-f844-46da-881d-ea68aa6606dd",
+   "name": "Baba's Sriracha",
+   "category": "Hummus",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "6b3201d8-1acc-4fdd-be02-1bfd107bd0bd",
+   "name": "Baba's Olive",
+   "category": "Hummus",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "fa600765-9fc3-48e5-a0fe-2c4b8a0122aa",
+   "name": "Baba's Dilly Dill Pickle",
+   "category": "Hummus",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "2afb07c8-f1b6-46cb-9a99-34df5e85cfdb",
+   "name": "Baba's Zesty Za'atar",
+   "category": "Hummus",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "1b272041-b589-4c93-b407-390da2a58065",
+   "name": "Baba's Caramelized Garlic Onion",
+   "category": "Hummus",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "bfc3a75f-9a6f-4844-9d37-ba3b58a2300c",
+   "name": "Baba's G'noosh",
+   "category": "Hummus",
+   "price_cents": 599,
+   "available": true
+  },
+  {
+   "platform_item_id": "82681ef6-777f-454a-bd0b-88af6cd4e99b",
+   "name": "Baba's Salsasita",
+   "category": "Hummus",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "d457fc54-196e-4929-853c-9127fde5afb8",
+   "name": "Wheat Pocket Pita",
+   "category": "Pita",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "37d5c5e5-770f-415b-9102-f618ebca4cea",
+   "name": "White Pocket Pita",
+   "category": "Pita",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "da5c9aa0-ed9a-46e2-a9f2-f474c094fef1",
+   "name": "Packaged Pita Puffs",
+   "category": "Pita",
+   "price_cents": 499,
+   "available": true
+  },
+  {
+   "platform_item_id": "61e5fea5-add5-4a4c-822e-a6c647b1425b",
+   "name": "Palestinian Sofra",
+   "category": "Middle Eastern Table Spreads",
+   "price_cents": 12000,
+   "available": true,
+   "raw": {
+    "description": "Jerusalem-style hummus, za za labaneh, falafel, pickled veggies, fatoush salad, red shatta, zhoug, toum (garlic sauce), pita puffs"
+   }
+  },
+  {
+   "platform_item_id": "9465d7d9-7e79-48b5-a559-670a839a4e6e",
+   "name": "Yallah Mana\u2019eesh",
+   "category": "Middle Eastern Table Spreads",
+   "price_cents": 14500,
+   "available": true,
+   "raw": {
+    "description": "Za\u2019atar mana\u2019eesh, musakhan mana'eesh, jibna + za\u2019atar mana\u2019eesh, sujok mana\u2019esh, lahme bi ajeen, tahini caesar, pickled veggies, red shatta, zhoug, toum (garlic sauce)"
+   }
+  },
+  {
+   "platform_item_id": "9de2d6f7-aa11-4f10-b09d-df4f3c2bfbc6",
+   "name": "Habibis + Friends",
+   "category": "Middle Eastern Table Spreads",
+   "price_cents": 16500,
+   "available": true,
+   "raw": {
+    "description": "Jerusalem-style hummus, zaza labaneh, falafel, jibna + za\u2019atar mana\u2019eesh, sujok mana\u2019eesh, lahme bi ajeen, fatoush, batata hara, pickled veggies, red shatta, zhug, toum (garlic sauce), pita puffs"
+   }
+  },
+  {
+   "platform_item_id": "a0cab7ec-f96c-4203-8fc5-9bbd1b8b61e9",
+   "name": "The Arab Vegan",
+   "category": "Middle Eastern Table Spreads",
+   "price_cents": 13500,
+   "available": true,
+   "raw": {
+    "description": "Jerusalem-style hummus, za-za hummus, super green hummus, falafel, fatoush salad, za\u2019atar mana\u2019eesh, pickled veggies, red shatta, zhoug, toum (garlic sauce), pita puffs"
+   }
+  },
+  {
+   "platform_item_id": "f6a7b5a5-52fb-415e-90f7-0338d644babe",
+   "name": "3 Mana'eesh",
+   "category": "Mix and Match Mana'eesh",
+   "price_cents": 3500,
+   "available": true,
+   "raw": {
+    "description": "Pick 3 Mana'eesh"
+   }
+  },
+  {
+   "platform_item_id": "7f1fda87-1cce-436b-8f1e-9ebea2cf2869",
+   "name": "6 Mana'eesh",
+   "category": "Mix and Match Mana'eesh",
+   "price_cents": 6500,
+   "available": true,
+   "raw": {
+    "description": "Pick 6 Mana'eesh"
+   }
+  },
+  {
+   "platform_item_id": "1087f261-fd24-45df-a62a-f7ca765e1880",
+   "name": "12 Mana'eesh",
+   "category": "Mix and Match Mana'eesh",
+   "price_cents": 12000,
+   "available": true,
+   "raw": {
+    "description": "Pick 12 Mana'eesh"
+   }
+  },
+  {
+   "platform_item_id": "3ae69bed-9341-4123-831e-fe4cafc0b34c",
+   "name": "Falafel Sandweesha Platter",
+   "category": "Sandweesha Platters",
+   "price_cents": 12000,
+   "available": true,
+   "raw": {
+    "description": "pickled red cabbage, tomatoes, cucumbers, Arabi pickles, hummus, tahini, batata hara"
+   }
+  },
+  {
+   "platform_item_id": "9c6a3766-db1b-4d75-bdbc-6efd1cbdbd7d",
+   "name": "Sujok Platter",
+   "category": "Sandweesha Platters",
+   "price_cents": 13000,
+   "available": true,
+   "raw": {
+    "description": "Arabic cheese, Arabic beef sausage, herbs, toum, batata hara"
+   }
+  },
+  {
+   "platform_item_id": "ff6d645c-8de1-4126-a383-20e79a2e06d9",
+   "name": "Labaneh + Za'atar",
+   "category": "Sandweesha Platters",
+   "price_cents": 10000,
+   "available": true,
+   "raw": {
+    "description": "Feeds 10 Fermented yogurt, za'atar, tomatoes, cucumbers, herbs, pickled beets, batata hara"
+   }
+  },
+  {
+   "platform_item_id": "ce0a8d7d-d39f-47aa-abcf-ea5b0da53cdd",
+   "name": "Wagyu Shawarma",
+   "category": "Sandweesha Platters",
+   "price_cents": 17000,
+   "available": true,
+   "raw": {
+    "description": "Wagyu beef, sumac onions, arabi pickles, tomatoes, parsley, tahini, batata hara"
+   }
+  },
+  {
+   "platform_item_id": "d6edc2a8-52a3-4ade-b064-e38978de87c5",
+   "name": "Mix and Match Sandweesha",
+   "category": "Sandweesha Platters",
+   "price_cents": 14000,
+   "available": true,
+   "raw": {
+    "description": "choose up to 10 sandweeshas"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sandweesha",
+     "choice_name": "Labaneh + Zaatar",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Sandweesha",
+     "choice_name": "Sujok",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Sandweesha",
+     "choice_name": "Wagyu Shawarma",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Sandweesha",
+     "choice_name": "Falafel",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "585cf12f-3a1c-4b3b-8a36-5f5c0584a293",
+   "name": "Jerusalem-Style Catering",
+   "category": "Hummus Platters",
+   "price_cents": 8500,
+   "available": true,
+   "raw": {
+    "description": "Traditional hummus, warm chickpeas, tahini, zhug, almonds, herbs, pita puffs"
+   }
+  },
+  {
+   "platform_item_id": "db8856de-060b-4df8-9452-4c6ca7bd6a49",
+   "name": "Hummus bi Lahme Catering",
+   "category": "Hummus Platters",
+   "price_cents": 11500,
+   "available": true,
+   "raw": {
+    "description": "Traditional hummus, minced beef shawarma, lemon sauce, parsley, almonds, sumac, pita puffs"
+   }
+  },
+  {
+   "platform_item_id": "6bc46f02-471e-4ce7-8fd1-5cfbed64880c",
+   "name": "Super Green Catering",
+   "category": "Hummus Platters",
+   "price_cents": 10000,
+   "available": true,
+   "raw": {
+    "description": "Green herb hummus, falafel, herb salad, edamame, pistachio, green tahini"
+   }
+  },
+  {
+   "platform_item_id": "630c9e7f-9c33-433a-9409-88468040ca65",
+   "name": "Pita Puffs Catering",
+   "category": "Mezze Platters",
+   "price_cents": 5500,
+   "available": true,
+   "raw": {
+    "description": "60 pieces of pita puffs"
+   }
+  },
+  {
+   "platform_item_id": "d3239abc-e68b-4bc8-a556-7b0058516a03",
+   "name": "Batata Hara Catering",
+   "category": "Mezze Platters",
+   "price_cents": 4000,
+   "available": true,
+   "raw": {
+    "description": "Tray of Spiced fried potatoes, cilantro, aleppo pepper"
+   }
+  },
+  {
+   "platform_item_id": "09971b2d-ce5d-47c3-9d26-c65794188b7b",
+   "name": "Falafel Catering",
+   "category": "Mezze Platters",
+   "price_cents": 3000,
+   "available": true,
+   "raw": {
+    "description": "30 pieces of falafel"
+   }
+  },
+  {
+   "platform_item_id": "7f12fe89-917b-4cbf-98d8-ec08f3fc4737",
+   "name": "Pickled Vegetables Catering",
+   "category": "Mezze Platters",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Tray of Pickled veggies"
+   }
+  },
+  {
+   "platform_item_id": "d755cd4c-21ba-43ff-a445-3d6dc59304bb",
+   "name": "Arabi Roasted Cauliflower",
+   "category": "Mezze Platters",
+   "price_cents": 4500,
+   "available": true,
+   "raw": {
+    "description": "Tray of Middle Eastern spiced cauliflower"
+   }
+  },
+  {
+   "platform_item_id": "5f239ec5-e911-4a4c-92bc-7df04baf4772",
+   "name": "Arabi Olives",
+   "category": "Mezze Platters",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "5312cc49-5ab3-41d5-85d8-14ab4e575d28",
+   "name": "Fatoush Salata",
+   "category": "Salata Platters",
+   "price_cents": 6000,
+   "available": true,
+   "raw": {
+    "description": "Greens, tomatoes, cucumbers, radish, mint, sumac, toasted pita bread"
+   }
+  },
+  {
+   "platform_item_id": "a6ac1f07-c5b6-4158-94ef-c9080c516f05",
+   "name": "Tahini Caesar",
+   "category": "Salata Platters",
+   "price_cents": 6500,
+   "available": true,
+   "raw": {
+    "description": "Romaine lettuce, tahini caesar dressing, kanafe nest, lemon zest, black cumin seeds"
+   }
+  },
+  {
+   "platform_item_id": "ed7f411a-d551-45fb-8db5-1c38e651aa75",
+   "name": "Traditional Hummus",
+   "category": "Just Hummus Pans",
+   "price_cents": 4000,
+   "available": true,
+   "raw": {
+    "description": "Traditional hummus"
+   }
+  },
+  {
+   "platform_item_id": "d94d7b40-704e-43af-8d7f-b8db3e3c075d",
+   "name": "Green Hummus",
+   "category": "Just Hummus Pans",
+   "price_cents": 4800,
+   "available": true,
+   "raw": {
+    "description": "Green herb hummus"
+   }
+  },
+  {
+   "platform_item_id": "3d11c2b2-4518-4d6c-9e88-7dda0ac86057",
+   "name": "Ranch Hummus",
+   "category": "Just Hummus Pans",
+   "price_cents": 4500,
+   "available": true,
+   "raw": {
+    "description": "Ranch hummus"
+   }
+  },
+  {
+   "platform_item_id": "0fee0c48-de75-4f40-9920-8dd7c1ca82b8",
+   "name": "Toum Catering",
+   "category": "Make it Saucy",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "9b4a96e2-2b2c-4b7b-87e8-864cb55e4fc3",
+   "name": "Lemon Tahini",
+   "category": "Make it Saucy",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "0620433f-9a32-4d4a-b7e3-5d298fbfec0d",
+   "name": "Green Tahini Catering",
+   "category": "Make it Saucy",
+   "price_cents": 1100,
+   "available": true
+  },
+  {
+   "platform_item_id": "c87a5007-b2e4-4070-9bfa-8b716728107f",
+   "name": "Red Shatta Catering",
+   "category": "Make it Saucy",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "ecf578f7-c365-40c5-8802-b0c7e1c123da",
+   "name": "Green Shatta Catering",
+   "category": "Make it Saucy",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "171ec47a-ba58-4ff1-bac4-e5579960fd95",
+   "name": "Zhoug Catering",
+   "category": "Make it Saucy",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "0cda4c88-de14-418a-a6a1-71564d028c16",
+   "name": "Babas Hummus",
+   "category": "Make it Saucy",
+   "price_cents": 500,
+   "available": true
+  }
+ ]
+}
