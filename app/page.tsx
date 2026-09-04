@@ -4,7 +4,7 @@ export const dynamic = 'force-static';
 
 import nextDynamic from 'next/dynamic';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ChevronRight, Coffee, List, LoaderCircle, Map as MapIcon, Search, SlidersHorizontal, Star, Tag, X } from 'lucide-react';
+import { ArrowLeft, Coffee, List, LoaderCircle, Map as MapIcon, Search, SlidersHorizontal, Star, Tag, X } from 'lucide-react';
 import { drinkLabels, loadCoffeeData, platformLabel, shopDrink, type CoffeeData, type Item, type Shop } from '@/lib/coffee-data';
 
 const MapView = nextDynamic(() => import('@/components/coffee-map'), { ssr: false, loading: () => <div className="map-loading"><LoaderCircle aria-hidden="true" /> Loading the map…</div> });
@@ -96,11 +96,14 @@ export default function Home() {
   // moment the metro, drink or neighborhood changes - with no extra render.
   const [showAllKey, setShowAllKey] = useState<string | null>(null);
   const scrollRef = useRef(0);
-  useEffect(() => { loadCoffeeData().then(setData).catch(() => setError('Price data could not be loaded. Try again shortly.')).finally(() => setLoading(false)); }, []);
   useEffect(() => {
-    const id = typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('shop') : null;
-    if (id && data.shops.length && !selectedShop) { const hit = data.shops.find((shop) => String(shop.id) === id); if (hit) setSelectedShop(hit); }
-  }, [data.shops, selectedShop]);
+    loadCoffeeData().then((d) => {
+      setData(d);
+      const id = new URLSearchParams(window.location.search).get('shop');
+      const hit = id ? d.shops.find((shop) => String(shop.id) === id) : undefined;
+      if (hit) setSelectedShop(hit);
+    }).catch(() => setError('Price data could not be loaded. Try again shortly.')).finally(() => setLoading(false));
+  }, []);
   const metroShops = useMemo(() => data.shops.filter((shop) => shop.metro === metro), [data.shops, metro]);
   const hoods = useMemo(() => { const counts = new Map<string, number>(); for (const shop of metroShops) if (shop.neighborhood) counts.set(shop.neighborhood, (counts.get(shop.neighborhood) || 0) + 1); return Array.from(counts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])); }, [metroShops]);
   const activeHood = hoods.some(([name]) => name === hood) ? hood : '';
