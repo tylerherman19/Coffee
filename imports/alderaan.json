@@ -1,0 +1,441 @@
+{
+ "platform": "square",
+ "source_url": "https://alderaan-coffee.square.site/",
+ "shops": [
+  {
+   "id": 33,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "NXTNYQGB55VQI5CD74MDBOKM",
+   "name": "Coffee",
+   "category": "Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": "<p>drip coffee</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FRQM4CYXSUCEX76S62LZ6P37",
+   "name": "Cortado",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3V62DUB7F7VFJALVHRRVJMGS",
+   "name": "Iced Latte",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VWLU5XQXBT5NRDJC6WQZS5SY",
+   "name": "Pellegrino",
+   "category": "Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "E3QB75J4E2WUNBURUYIPOWX6",
+   "name": "Au Lait",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YIIB32DXAFSNVY533D5WWI5Z",
+   "name": "Soda",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VXTFK5GK47XFJBJ7JSWIFA3J",
+   "name": "Americano",
+   "category": "Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RWH6KTI2SSVCDKDE6W2WIW5G",
+   "name": "Water",
+   "category": "Menu",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 175,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AZKRBQEOZP2ZSXVXW6ZCH6BB",
+   "name": "Chai Latte",
+   "category": "Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JZNATN3OFG3D3TJIPKMJXW4K",
+   "name": "Growler",
+   "category": "Menu",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "F2TWK6LBRTU7HXPWQJZB5B2T",
+   "name": "Plain Banana Bread",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7I7QBX3AQRR2B7VH2RVERCJD",
+   "name": "Iced Mocha",
+   "category": "Menu",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "G6TUVQQKQL6IS5HNQPGQAWLD",
+   "name": "Croissant",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XQOJ2HJURRMA5ELCH6GM3CLH",
+   "name": "Cold Brew",
+   "category": "Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OVPI7M5W5FFIDP5PV66EOGHH",
+   "name": "Espresso",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GSLC3FAM2U5PKDSTTSMOGZEI",
+   "name": "Tea",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3NISB6QINEE3IJRW5ZENCVXQ",
+   "name": "Cookie",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KBNEPWA2FALPD636XKDZK662",
+   "name": "Hot Coco",
+   "category": "Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HYV6UAD5SBLW5RYDKBT65T6X",
+   "name": "Granola and Yogurt",
+   "category": "Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CQ6BUUKAFNUIXBTY6FJGQ5UX",
+   "name": "Blueberry Lemon Muffin",
+   "category": "Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "V4A4NWNUBA63V74BV4C5NIED",
+   "name": "Scone",
+   "category": "Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HTNMF6363NHTWG45VY5LUAV5",
+   "name": "XXL Iced Latte 64oz",
+   "category": "Menu",
+   "price_cents": 3500,
+   "price_low_cents": 3500,
+   "price_high_cents": 3500,
+   "available": true,
+   "raw": {
+    "description": "<p>XXL Iced Latte.  Too busy to come to Alderaan every day?  We can make a half gallon of your favorite iced latte for you to drink at home. Please allow 15 minutes or more when busy for this item.</p"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2HW2LVTEDVSMDB5BQD6YTHR7",
+   "name": "Red Eye",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "S6GCP24TNNY3MA2XGU6L6H4D",
+   "name": "Sport Tea",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "K7NFFXFUAF5LYXQOPLRI57XL",
+   "name": "Mocha",
+   "category": "Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TKZC3YV7VBR67GKTWFVTJLXA",
+   "name": "Iced Chai",
+   "category": "Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CTYW6GYUUCTXRDZU64LL5T6U",
+   "name": "Muffin",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FD4VX453LG3HQZYE425Z4YPY",
+   "name": "Peanut Butter Cup Cookie",
+   "category": "Menu",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "W37RMXLTKKFZPVWGSLL4MI6C",
+   "name": "Latte",
+   "category": "Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TFEVXMYDC6S246OP66RQ63FS",
+   "name": "Cappuccino",
+   "category": "Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "537ZID43PRJ55526ORL46PN6",
+   "name": "Rocket Fuel",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Q2AWMEEWXZC4L7NYXV4AAWAA",
+   "name": "Choc. Chip Banana Bread",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WTM4NHE2CXAATCY66RQXZKFL",
+   "name": "Morning Bun",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  }
+ ]
+}
