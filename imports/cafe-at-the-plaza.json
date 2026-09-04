@@ -1,0 +1,1960 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/cafe-at-the-plaza-1007-n-cass-st (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 26461e1b-376d-44ec-ace0-0ec445899bb1, address on page: 1007 North Cass Street, Milwaukee, WI)",
+ "shops": [
+  {
+   "id": 67,
+   "slug": "cafe-at-the-plaza-1007-n-cass-st"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "97f98279-7f64-4e6f-acf2-de2530db30c0",
+   "name": "1007 Breakfast Sandwich",
+   "category": "Signature Favorites",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Herbed goat cheese, roasted tomatoes, two eggs your style, choice of bacon, sausage, chicken sausage, vegan sausage, falafel or avocado on your choice of toast. With choice of side."
+   }
+  },
+  {
+   "platform_item_id": "1200b279-b5f9-4eb3-97e1-184d265ae768",
+   "name": "Breakfast Burrito",
+   "category": "Signature Favorites",
+   "price_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "Scrambled eggs with pork or chicken chorizo, red bell peppers, tomatoes, black beans, Wisconsin cheddar cheese, and green onions. Topped with pickled jalapenos, chili lime sour cream and pico de gallo. Includes choice of side."
+   }
+  },
+  {
+   "platform_item_id": "7dff88e4-bdb9-4478-8d2a-eb7f870751f3",
+   "name": "Elevated Avocado Toast",
+   "category": "Signature Favorites",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Sourdough toast with zesty smashed avocado, salsa criollo and rainbow radish."
+   }
+  },
+  {
+   "platform_item_id": "97f9527f-17e9-477f-913a-4a3b4590b94e",
+   "name": "Classic Breakfast",
+   "category": "Signature Favorites",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Two eggs any style served with your choice of bacon, pork sausage, chicken sausage, ham, avocado, falafel, or vegan sausage; with signature chive hashbrowns and toast choice."
+   }
+  },
+  {
+   "platform_item_id": "345d228d-a4da-4fe8-bb41-568ace137274",
+   "name": "Plaza Scramble",
+   "category": "Signature Favorites",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "Scrambled eggs, with pork sausage crumbles, sauteed mushrooms, tomatoes, caramelized onions, Wisconsin cheddar and green onions. With choice of toast or make it a burrito."
+   }
+  },
+  {
+   "platform_item_id": "4d15dce2-4e02-419e-a2b1-22fb94c9aa2d",
+   "name": "Plaza Pleaser",
+   "category": "Signature Favorites",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Two buttermilk pancakes or four pieces of French toast, two eggs any style, and choice of bacon, sausage, ham, avocado, falafel, or vegan sausage. Treat yourself and upgrade to specialty pancakes"
+   }
+  },
+  {
+   "platform_item_id": "84358b0b-e596-4950-9089-2616722f4b03",
+   "name": "Bloody Mary",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Spices and seasonings added to Sacramento Bloody Mary Juice; garnished with lemon, lime, candied bacon, smoked Gouda cheese, marinated garlic mushroom, cocktail onion, Spanish olive and kosher dill pickle spear."
+   }
+  },
+  {
+   "platform_item_id": "45ce023e-82bf-494e-a4c2-d1f16e20dfbc",
+   "name": "Bloody Mary Kit",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 5000,
+   "available": true,
+   "raw": {
+    "description": "Love our Bloody Mary? Our kit includes enough ingredients to make four.  Add 4 Chasers (mini bottled beers) for $9.00- choose from Miller High Life Shortys or Coronitas"
+   }
+  },
+  {
+   "platform_item_id": "4dc99f2a-7fdb-430d-9f20-2001d56c7c9a",
+   "name": "Mimosa",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Perfect mix of bubbly Cava champagne with fresh squeezed orange juice and an orange garnish. Add Goodland Orange Liquor for a Spiked Mimosa"
+   }
+  },
+  {
+   "platform_item_id": "776f066d-5bdd-4ac0-852c-3be763d5a3b0",
+   "name": "Mimosa Kit",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 4500,
+   "available": true,
+   "raw": {
+    "description": "Our Kit comes with a full bottle of Cava and a quart of fresh squeezed orange juice.  Add Great Lakes Distillery Orange Liquor for a Spiked Mimosa."
+   }
+  },
+  {
+   "platform_item_id": "9a1b4b9c-b8e2-4b50-abc9-4bfd94756be1",
+   "name": "Seasonal Mimosa",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Celebrate the seasons specialty flavors; the perfect twist on your favorite brunch staple!"
+   }
+  },
+  {
+   "platform_item_id": "d3b6f55a-20f8-4a7f-aee5-83764440a30e",
+   "name": "Seasonal Mimosa Kit",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 4500,
+   "available": true,
+   "raw": {
+    "description": "Looking for enough to share? Our kit has a full bottle of Cava and our seasonal featured flavor!, it's a great way to enhance your brunch"
+   }
+  },
+  {
+   "platform_item_id": "0ac31ef7-3dd1-4021-a04e-8d7b946b2cce",
+   "name": "Iced Irish Coffee",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Cold brew coffee, brown sugar simple syrup, Jameson Whiskey, Bailey's Irish Cream whipped cream"
+   }
+  },
+  {
+   "platform_item_id": "d42096af-366c-4adf-8745-ab0e0fc68ab2",
+   "name": "Single Drink or Shot",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Choice of: Rehorst vodka, Bailey's Irish Cream, Kahlua, Good Land Orange Liquor, Jameson Irish Whiskey, Jack Daniels Tennessee Whiskey, Jim Beam Bourbon, Tito's Vodka, Captain Morgan Spiced Rum, Bacardi Superior White Rum, Korbel Brandy, Jose Cuervo Tequila"
+   },
+   "modifiers": [
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Rehorst Vodka",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Kahlua",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Bailey's Irish Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Good Land Orange Liquor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Jameson Irish Whiskey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Jack Daniels Tennessee Whiskey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Jim Beam Bourbon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Tito's Vodka",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Captain Morgan Spiced Rum",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Bacardi Superior White Rum",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Korbel Brandy",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Jose Cuervo Tequila",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "CasAmigo Tequlis",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Bulliet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Kettle One",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Shot Options",
+     "choice_name": "Double",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Coke",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Diet Coke",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Sprite",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Mountain Dew",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Ginger Ale",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Squirt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Orange Juice",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Ginger Beer",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Apple Juice",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Cranberry Juice",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "Tonic",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Canned Soda Types",
+     "choice_name": "coffee",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "26adbef1-1632-489e-b770-000fe6eb5aae",
+   "name": "Tallboy Cans",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Choice of: PBR Tallboy, Miller Lite Tallboy, Guiness Tallboy, Miller Highlife Tallboy, Hinterland Luna, Spotted Cow"
+   }
+  },
+  {
+   "platform_item_id": "64c3de7e-a586-4343-94e7-85e31ea7207e",
+   "name": "Carbliss (variety of flavors)",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 700,
+   "available": true
+  },
+  {
+   "platform_item_id": "602a210f-7e1c-4074-9a57-4c7d91f6a273",
+   "name": "Spotted Cow (Bottle)",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "0ba4a227-635b-41a1-8982-696c83cc7517",
+   "name": "Stella Cider (Bottle)",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 550,
+   "available": false
+  },
+  {
+   "platform_item_id": "e589a226-cb14-4ee5-99c9-b1cd555cf909",
+   "name": "Campo Viejo Cava Bottle",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 3500,
+   "available": true
+  },
+  {
+   "platform_item_id": "e3f61bf4-3946-4921-ba92-c76863710bf6",
+   "name": "Hamilton Chardonnay Bottle",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 4500,
+   "available": true
+  },
+  {
+   "platform_item_id": "15cd7317-4348-479f-9eba-1a19461b1682",
+   "name": "Provence Rose Bottle",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 2000,
+   "available": true
+  },
+  {
+   "platform_item_id": "0d602cce-0b7e-40c2-84ce-97f9a69a0790",
+   "name": "Mount Eden Estate 2017 Pinot Noir Bottle",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 6500,
+   "available": true
+  },
+  {
+   "platform_item_id": "b7bccd52-9709-4fbb-b78d-eb1ad6030d48",
+   "name": "Bedrock 2022 Sauvignon Blanc Bottle",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 3500,
+   "available": false
+  },
+  {
+   "platform_item_id": "bac5fe4c-e979-4189-bf2a-70ac07de029b",
+   "name": "Rustenberg 2020 Bordeaux Bottle",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 4000,
+   "available": true
+  },
+  {
+   "platform_item_id": "c646da7f-bcff-47a3-ab7f-ce2675e416cd",
+   "name": "Blonde Bloody Mary",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Natural Blonde Golden Bloody Mary mix made with fresh juice from hand milled yellow tomatoes; features Twisted Path Distillery Cilantro Vodka. Garnished with fresh dill, celery, cucumber, cherry tomato, aged WI Cheddar cheese, and lemon. Our favorite Vegetarian Cocktail!"
+   }
+  },
+  {
+   "platform_item_id": "f42affbd-7b8c-4bb1-b4a5-bc78d84a8bee",
+   "name": "Spiked Coffee or Tea",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "d9339988-d448-4368-9844-14e07da32da4",
+   "name": "Verde Bloody Mary",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1200,
+   "available": false,
+   "raw": {
+    "description": "House made tomatillo juice and spices are the base of this bloody mary; featuring Twisted Path Distillery Bloody Mary Vodka, garnished with fresh cilantro, traditional panela cheese, grilled jalapeno, a sausage stick, and lime."
+   }
+  },
+  {
+   "platform_item_id": "f7668184-de3a-48b8-891d-a2f8d00f27e4",
+   "name": "Bloody Mary Flight",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1700,
+   "available": false,
+   "raw": {
+    "description": "Featuring a mini version of each of our specialty Bloody Mary's"
+   }
+  },
+  {
+   "platform_item_id": "76867c79-3df8-4263-a533-dcab3a62b33a",
+   "name": "Wine- By The Glass",
+   "category": "Cocktails/ Kits- Must be 21 or Over- Please have ID ready at pick-up",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Ask your server for our current featured list"
+   }
+  },
+  {
+   "platform_item_id": "9ced84b8-65ba-4387-a2c1-3c95259a168c",
+   "name": "Colectivo Costa Rica Blend Coffee",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "half and half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sugar",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sugar in the Raw",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sweet and Low",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "None",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "fbd66ed7-5926-483c-bfe2-5d7a63a29faa",
+   "name": "Decaf Colectivo Coffee",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "half and half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sugar",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sugar in the Raw",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sweet and Low",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "None",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "87e391f2-bf4b-4dd7-a46b-552d16289fe1",
+   "name": "Cold Brew",
+   "category": "Beverages",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Anodyne Cold Brew"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "half and half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sugar",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sugar in the Raw",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "Sweet and Low",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Mix Ins",
+     "choice_name": "None",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5beefb6a-dcdc-47ff-b9b0-6c34ac81557b",
+   "name": "Juice",
+   "category": "Beverages",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Choice of: Apple, cranberry, tomato, pineapple, lemonade, or fresh squeezed orange or grapefruit juice"
+   },
+   "modifiers": [
+    {
+     "group_name": "Juice Types",
+     "choice_name": "Apple",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Juice Types",
+     "choice_name": "Cranberry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Juice Types",
+     "choice_name": "Tomato",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Juice Types",
+     "choice_name": "Orange Juice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Juice Types",
+     "choice_name": "Grapefruit Juice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Juice Types",
+     "choice_name": "Pineapple",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Juice Types",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "45fa185c-b26a-4a43-8805-e7fd72c8ac8c",
+   "name": "Soda",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Choice of Coke, Diet Coke, Sprite, Ginger Ale, Seltzer, Mountain Dew, or Squirt"
+   },
+   "modifiers": [
+    {
+     "group_name": "To Go Soda Types",
+     "choice_name": "Coke",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Soda Types",
+     "choice_name": "Diet Coke",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Soda Types",
+     "choice_name": "Sprite",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Soda Types",
+     "choice_name": "Ginger Ale",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Soda Types",
+     "choice_name": "Seltzer",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Soda Types",
+     "choice_name": "Mountain Dew",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Soda Types",
+     "choice_name": "Squirt",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ee3b5141-fb37-429a-8d90-e7523e615069",
+   "name": "Milk",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "ccdae560-f5f9-4a98-936d-24cee361735a",
+   "name": "Chocolate Milk",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "5a3fc24c-db5d-4f53-9214-e6554bda8d90",
+   "name": "Iced Rishi Tea",
+   "category": "Beverages",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Choice of Classic Black Tea or Peach Tea"
+   },
+   "modifiers": [
+    {
+     "group_name": "To Go Iced Teas",
+     "choice_name": "Classic Black Tea",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "To Go Iced Teas",
+     "choice_name": "Peach Black Tea",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3ea28aa3-5557-49c6-b746-e09d77ea2bce",
+   "name": "Rishi Hot Chai Tea",
+   "category": "Beverages",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Rishi's Masala Chai tea served with hot milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f2cc0e58-7ae7-428b-93cd-9a62a7020d86",
+   "name": "Rishi Tea",
+   "category": "Beverages",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Choice of: Earl Grey, China Breakfast, Jasmine Green, Sencha Superior Green, Raspberry Green, Chamomile Medley, Tangerine Ginger, Maghreb Mint, Rooiboos,"
+   },
+   "modifiers": [
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Earl Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "China Breakfast",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Jasmine Green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Sencha Superior Green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Raspberry Green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Cinnamon Plum",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Chamomile Medley",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Tangerine Ginger",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Maghreb Mint",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Types of Tea",
+     "choice_name": "Rooiboos",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "dd9ac2b9-875a-4064-9f71-86716a28de0e",
+   "name": "Hot Chocolate",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Creamy hot chocolate topped with whipped cream and chocolate sauce."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5ac69720-f4cf-41ef-82bc-d5b07e3432fd",
+   "name": "Americano",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Two shots of Espresso topped with hot water"
+   },
+   "modifiers": [
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Espresso Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Garnish",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "TO GO",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d9f76621-36b5-4b91-bf5c-ab781b0d9d45",
+   "name": "Latte",
+   "category": "Beverages",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Espresso Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Garnish",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "TO GO",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4ab2b98d-afb9-4cc8-b72e-91b09986232f",
+   "name": "Mocha",
+   "category": "Beverages",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "The perfect blend of Cafe espresso, chocolate, and steamed milk, topped with whip cream and chocolate drizzle."
+   },
+   "modifiers": [
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Espresso Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Garnish",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "TO GO",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "41b43db6-3028-4f38-bc8e-4bbdd7457219",
+   "name": "Peppermint Mocha",
+   "category": "Beverages",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "A classic seasonal favorite; Cafe espresso, chocolate, peppermint, and steamed milk. Topped with whipped cream and peppermint pieces."
+   },
+   "modifiers": [
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Espresso Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Garnish",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "TO GO",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "01faeb31-6c59-43ae-8789-9512c68966c4",
+   "name": "Cinnamon Latte",
+   "category": "Beverages",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "A brisk weather favorite Latte; made with Cafe espresso, steamed milk, and cinnamon syrup, topped with whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Espresso Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Garnish",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "TO GO",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "aba68add-a501-4f33-9ee1-7d4a8cbd4125",
+   "name": "Cappuccino",
+   "category": "Beverages",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Espresso Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Add-on's",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "No Garnish",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "TO GO",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ebb24aa9-c279-4377-9a9b-fb555e570cfe",
+   "name": "Kid Bev",
+   "category": "Beverages",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "a371899b-4e65-47ab-a729-de196827ea8f",
+   "name": "Mocktail",
+   "category": "Beverages",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Our newest brunch beverages featuring Seedlip nonalcoholic spirits"
+   },
+   "modifiers": [
+    {
+     "group_name": "Selection",
+     "choice_name": "Lavendar Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Selection",
+     "choice_name": "Cherry on Top",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Selection",
+     "choice_name": "Berry Bubbly",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Selection",
+     "choice_name": "Ginger Blue Juice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5c2a677d-f7c4-40d0-adbd-a9a5d66d308c",
+   "name": "The Daily",
+   "category": "Beverages",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "An Elevated Italian Classic, our spin on the Miel. Cafe latte with local honey, lightly salted, aromatic cinnamon and perfectly extracted espresso."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "893e984f-047d-437e-815e-855f4cbd27b5",
+   "name": "The Plaza",
+   "category": "Beverages",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Cafe latte Plaza-style, featuring blueberry syrup, bacon-infused maple syrup, and served with candied bacon."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Type",
+     "choice_name": "Sub Soy Milk",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ae7c0ff2-0650-491c-aa64-5348358badef",
+   "name": "Berry and Granola Yogurt Parfait",
+   "category": "On The Lighter Side",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Vanilla Greek yogurt, with your favorite berry, choose from fresh strawberries, blueberries, or raspberries, topped with a housemade granola (contains nuts)"
+   }
+  },
+  {
+   "platform_item_id": "ef9959eb-b959-4145-af3d-45404de6db9f",
+   "name": "Blueberry Steel Cut Oats",
+   "category": "On The Lighter Side",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Steel cut oats topped with blueberry ginger compote, candied pecans, brown sugar, and cream"
+   }
+  },
+  {
+   "platform_item_id": "f3b57da5-6a12-4871-b6b0-ba0765328f04",
+   "name": "Ms. Molly's cinnamin roll",
+   "category": "On The Lighter Side",
+   "price_cents": 700,
+   "available": true
+  },
+  {
+   "platform_item_id": "5380e9e7-ede0-4826-831c-d01c38d7d09d",
+   "name": "Berry Coffee Cake",
+   "category": "On The Lighter Side",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "5e16568e-f073-4fa5-a151-a160a230a9d2",
+   "name": "Short Pancake",
+   "category": "From the Griddle",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Two of our house made buttermilk pancakes served with butter and syrup"
+   }
+  },
+  {
+   "platform_item_id": "c2d0eb87-3424-45e3-b160-4e4039f41822",
+   "name": "Full Pancake",
+   "category": "From the Griddle",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Three of our house made buttermilk pancakes served with butter and syrup"
+   }
+  },
+  {
+   "platform_item_id": "f83562fe-3baf-4ebb-b7b6-ce06cf369f6c",
+   "name": "Short Lemon Poppy Seed Pancakes",
+   "category": "From the Griddle",
+   "price_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Fresh zesty lemon, buttermilk batter; griddled to perfection, topped with toasted almonds and powdered sugar. Served with our signature blueberry ginger syrup."
+   }
+  },
+  {
+   "platform_item_id": "0bb5805e-738e-4f75-b655-499d93be2001",
+   "name": "Full Lemon Poppy Seed Pancakes",
+   "category": "From the Griddle",
+   "price_cents": 1550,
+   "available": true,
+   "raw": {
+    "description": "Stack of three fresh zesty lemon, buttermilk batter pancakes; griddled to perfection topped with toasted almonds, and powdered sugar. Served with our signature blueberry ginger syrup"
+   }
+  },
+  {
+   "platform_item_id": "23bb3fdc-c661-449c-af4c-91558f63e6ff",
+   "name": "Short Challah Bread French Toast",
+   "category": "From the Griddle",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Challah bread dipped in our house made cinnamon vanilla batter. Fluffy and tender on the inside, perfectly golden brown on the outside. Add blueberries, raspberries, strawberries, milk chocolate, or bacon crumbles"
+   }
+  },
+  {
+   "platform_item_id": "d4228df2-5d35-461c-a7cf-638395679d93",
+   "name": "Full Challah Bread French Toast",
+   "category": "From the Griddle",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Challah bread dipped in our house made cinnamon vanilla batter. Fluffy and tender on the inside, perfectly golden brown on the outside. Add blueberries, raspberries, strawberries, milk chocolate or bacon crumbles."
+   }
+  },
+  {
+   "platform_item_id": "03cb11b6-f358-40c8-b97c-a57e4397cb81",
+   "name": "Mexican Scramble",
+   "category": "Eggs and Things",
+   "price_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "Four eggs scrambled with pork or chicken chorizo, red bell peppers, tomatoes, black beans, Wisconsin cheddar cheese and green onions.  Topped with pickled jalapeno, chili lime sour cream and pico de gallo.  Choice of toast."
+   }
+  },
+  {
+   "platform_item_id": "1427e56d-eb9a-4f72-be18-2a1949c3c395",
+   "name": "Greek Chicken Egg White Scramble",
+   "category": "Eggs and Things",
+   "price_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "Four egg whites scrambled with Greek chicken, red peppers, red onion, tomatoes, spinach, feta and tzatziki. Served with choice of toast, or make it a burrito."
+   }
+  },
+  {
+   "platform_item_id": "e74c7add-9937-4582-85db-7b3df39e1fb8",
+   "name": "Plaza Benedict",
+   "category": "Eggs and Things",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "Poached eggs, sausage patties and Wisconsin cheddar cheese on toasted English muffin topped with hollandaise and chives."
+   }
+  },
+  {
+   "platform_item_id": "28b66e24-21e3-4583-9072-d009c511777f",
+   "name": "Veggie Benedict",
+   "category": "Eggs and Things",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "Poached eggs, sauteed asparagus, herbed goat cheese, and oven roasted tomatoes on a toasted English muffin topped with house hollandaise and chives."
+   }
+  },
+  {
+   "platform_item_id": "2fb4b4c2-b45b-49d6-8855-2be053c8e51e",
+   "name": "Build Your Own Omelette",
+   "category": "Eggs and Things",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Choice of three ingredients,  +1.5/ additional item.  Choice of toast and side."
+   }
+  },
+  {
+   "platform_item_id": "92dd6619-3036-4180-a20c-3d9cfd508b09",
+   "name": "Corned Beef Hash",
+   "category": "Eggs and Things",
+   "price_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "Housemade hash, with tender corned beef, onions and peppers. Served with your choice of toast. Add eggs +3"
+   }
+  },
+  {
+   "platform_item_id": "60428dc1-9442-4b78-b76c-6f21a7ad0879",
+   "name": "Classic Ham Benedict",
+   "category": "Eggs and Things",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "Poached eggs, Boar's Head sliced ham on a toasted english muffin, topped with hollandaise and chives"
+   }
+  },
+  {
+   "platform_item_id": "40578950-dab6-4775-81a7-fa355c2b5307",
+   "name": "Ruben Benedict",
+   "category": "Eggs and Things",
+   "price_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "Poached Eggs, corned beef, sauerkraut and swiss cheese, on a toasted rye with housemade thousand island, side of hollandaise and your choice of side"
+   }
+  },
+  {
+   "platform_item_id": "52d1ccd9-7c88-4a1d-83e5-65c6affa3928",
+   "name": "Salmon Benedict",
+   "category": "Eggs and Things",
+   "price_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "Poached Eggs, smoked salmon, and herbed goat cheese on a toasted english muffin, topped with hollandaise and capers"
+   }
+  },
+  {
+   "platform_item_id": "1efaca86-2bbf-41e2-909a-33ef3da20840",
+   "name": "Nicoise Salad",
+   "category": "Soups & Salads",
+   "price_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "Mixed Green, red bell peppers, marinated yellow potatoes, hard boiled egg, cherry tomatoes, herb and citrus albacore tuna, white wine vinaigrette."
+   }
+  },
+  {
+   "platform_item_id": "d808f29d-7553-4dbf-98fa-581435cc2b9e",
+   "name": "Build Your Own Salad",
+   "category": "Soups & Salads",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Mixed greens with tomatoes, cucumbers, red onions, carrots.  With choice of green goddess or white wine vinaigrette."
+   }
+  },
+  {
+   "platform_item_id": "74422483-b81e-45b2-bfca-db7814c1edb4",
+   "name": "Soup and Sandwich Combo",
+   "category": "Soups & Salads",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Selection of half Sandwich; Chicken salad, tuna melt, BLT, Rueben, or Grilled Cheese- with a cup of soup de jour"
+   }
+  },
+  {
+   "platform_item_id": "b7d18484-b050-492f-a04e-d04ef0ef69af",
+   "name": "Falafel Salad",
+   "category": "Soups & Salads",
+   "price_cents": 1700,
+   "available": false,
+   "raw": {
+    "description": "Mixed greens, cherry tomatoes, red onion, feta cheese crumbles, cucumbers, Kalamata olives, white wine vinaigrette dressing; served with falafel, tzatziki and pita bread"
+   }
+  },
+  {
+   "platform_item_id": "14d6acb4-1a0e-45a0-a87b-1d7472a1e697",
+   "name": "Cup of Creamy Potato",
+   "category": "Soups & Salads",
+   "price_cents": 450,
+   "available": true
+  },
+  {
+   "platform_item_id": "f58fd50e-8c1b-4239-9fb2-85f0047efe49",
+   "name": "Bowl of Creamy Potato",
+   "category": "Soups & Salads",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "97f98279-7f64-4e6f-acf2-de2530db30c0",
+   "name": "1007 Breakfast Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Herbed goat cheese, roasted tomatoes, two eggs your style, choice of bacon, sausage, chicken sausage, vegan sausage, falafel or avocado on your choice of toast. With choice of side."
+   }
+  },
+  {
+   "platform_item_id": "a7c09900-4d33-48f3-853f-a2d36481348b",
+   "name": "Southern Fried Chicken Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "Deep fried buttermilk brined chicken breast with mayo and house-made sweet and sour pickles on a brioche bun.  With choice of side."
+   }
+  },
+  {
+   "platform_item_id": "27ec0e4c-e187-41bc-8603-4ffc2d1cd57f",
+   "name": "Tuna Melt",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Creamy tuna salad with celery, capers and lemon with mozzarella and tomato on toasted sourdough bread."
+   }
+  },
+  {
+   "platform_item_id": "720ae432-fb7b-4a2f-936e-f13f4837b7d3",
+   "name": "Classic Cheese Burger",
+   "category": "Sandwiches",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "1/2# Certified Angus Beef burger patty with lettuce, tomato, and choice of cheese on a brioche bun.  With Choice of Side."
+   }
+  },
+  {
+   "platform_item_id": "8798f314-254f-4b5f-bc09-d99df26fed30",
+   "name": "Grilled Cheese",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "A mixture of Wisconsin cheddar, smoked gouda, and American cheeses melted on grilled sourdough.  With choice of side."
+   }
+  },
+  {
+   "platform_item_id": "b5dd9187-b2a5-4ea3-a320-af649730d7e6",
+   "name": "BLT",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Jones' Dairy Farm bacon, bibb lettuce, fresh tomato slices and mayo on your choice of toast, served with side."
+   }
+  },
+  {
+   "platform_item_id": "173c15f3-b3a4-4dc7-9066-c5367989a1b7",
+   "name": "Chicken Salad Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Shredded chicken, diced celery and onions, wholegrain mustard, mayonnaise and seasoning, with tomato and lettuce served on a croissant"
+   }
+  },
+  {
+   "platform_item_id": "799a26cd-e0c5-41b6-a784-c04506fed078",
+   "name": "Mushroom Swiss Burger",
+   "category": "Sandwiches",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "1/2# certified angus beef burger patty, melted swiss cheese and sauteed mushrooms, on a toasted brioche bun"
+   }
+  },
+  {
+   "platform_item_id": "f4bbe5e2-e2d3-4f0c-a866-59859fa5ea3c",
+   "name": "Badger Club Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Ham, swiss, bacon, lettuce, tomato and mayo- layered between 3 pieces of sourdough bread"
+   }
+  },
+  {
+   "platform_item_id": "ebbb8d42-0811-4b33-8920-25c397fc6238",
+   "name": "Ruben Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "Corned Beef, sauerkraut, and house made thousand island dressing on toasted rye"
+   }
+  },
+  {
+   "platform_item_id": "dd482e1e-6ebf-4d8d-9ff7-e7b24b56f11a",
+   "name": "Patty Melt",
+   "category": "Sandwiches",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "1/2# certified angus beef burger with caramelized onions and melted swiss cheese on grilled rye"
+   }
+  },
+  {
+   "platform_item_id": "021cb0e9-f270-4f07-bc89-d687aa841ea2",
+   "name": "Biscuits and Gravy",
+   "category": "Taste of The South",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Homestyle buttermilk biscuits smothered in housemade sausage gravy or vegetarian mushroom gravy"
+   }
+  },
+  {
+   "platform_item_id": "ed087b45-3b39-413a-8679-bb553f3b8651",
+   "name": "Creamy Buffalo Chicken Stuffed Hash Browns",
+   "category": "Taste of The South",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Our crispy hash browns stuffed with creamy buffalo chicken, blue cheese and mozzarella."
+   }
+  },
+  {
+   "platform_item_id": "0a72aaf1-3ea2-4970-84ca-0b4075d59c42",
+   "name": "Southern Style Shrimp and Grits",
+   "category": "Taste of The South",
+   "price_cents": 1800,
+   "available": false,
+   "raw": {
+    "description": "Creamy Wisconsin cheddar grits topped with cajun shrimp, bacon, and a red pepper onion medley"
+   }
+  },
+  {
+   "platform_item_id": "63dc7569-33a4-4b95-bf0b-fc31db154e7d",
+   "name": "Chicken and Waffles",
+   "category": "Taste of The South",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "Buttermilk waffle with a southern fried chicken breast and Cholula butter."
+   }
+  },
+  {
+   "platform_item_id": "76e986d7-e374-417b-a8d8-c07698293dec",
+   "name": "Spinach and Artichoke Stuffed Hash Browns",
+   "category": "Taste of The South",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Our crispy hash browns loaded with our specialty spinach and artichoke spread, and melted cheeses"
+   }
+  },
+  {
+   "platform_item_id": "425d7f0e-f901-465f-899e-4d81aa8ece58",
+   "name": "Chive Hash Browns",
+   "category": "A La Carte",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Our classic griddle cooked hash browns topped with chives"
+   }
+  },
+  {
+   "platform_item_id": "dcc8e8d9-9b0f-4b0e-bb8d-88aa8ec593c9",
+   "name": "Side Salad",
+   "category": "A La Carte",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Bibb lettuce, shaved carrots, fennel, cucumbers, tomatoes, red onion, green goddess dressing"
+   }
+  },
+  {
+   "platform_item_id": "b8c4b24d-d6ec-49ca-af49-9aeb6856194b",
+   "name": "Fruit Cup",
+   "category": "A La Carte",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "3f9fb999-172b-4bd8-adc3-e4ee4c7618dd",
+   "name": "Bacon",
+   "category": "A La Carte",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "Three slices of Jones' Dairy Farm bacon"
+   }
+  },
+  {
+   "platform_item_id": "c73b13c4-fd36-4835-b406-1e90b98fa74c",
+   "name": "Sausage",
+   "category": "A La Carte",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "2 patties of Jones' Dairy Farm pork sausage"
+   }
+  },
+  {
+   "platform_item_id": "ee46a2d8-a081-4136-9ac2-f63250828336",
+   "name": "Chicken Sausage",
+   "category": "A La Carte",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "3 links of Jones' Dairy Farm chicken sausage"
+   }
+  },
+  {
+   "platform_item_id": "98186775-252a-43c1-8662-373675e69e32",
+   "name": "Ham",
+   "category": "A La Carte",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "2 thick slices of Boar's Head sweet slice ham"
+   }
+  },
+  {
+   "platform_item_id": "6e6345e1-0c9c-4dd5-abe4-73c0c0eec9c1",
+   "name": "Two Eggs",
+   "category": "A La Carte",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "6eeb7fda-fe61-47a3-a334-a4a67c9b09c7",
+   "name": "Toast",
+   "category": "A La Carte",
+   "price_cents": 250,
+   "available": true
+  },
+  {
+   "platform_item_id": "f8d57153-0470-4564-b08d-1519e5faef3f",
+   "name": "Croissant",
+   "category": "A La Carte",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "bb9412db-d408-4df1-b64c-9b2f3ff1fe81",
+   "name": "Yogurt",
+   "category": "A La Carte",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "fc0d1c07-68cb-48b3-bffd-88690d978783",
+   "name": "Avocado",
+   "category": "A La Carte",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "653990d5-1df8-43f3-9b99-499bb7a34845",
+   "name": "Cheese",
+   "category": "A La Carte",
+   "price_cents": 150,
+   "available": true
+  },
+  {
+   "platform_item_id": "694eb2fc-330b-48d4-b67f-7cd16a6e0694",
+   "name": "French Toast",
+   "category": "A La Carte",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "1 slice of our classic Challah French Toast"
+   }
+  },
+  {
+   "platform_item_id": "6ff78ce5-9abf-46f4-b7af-eff25d32f880",
+   "name": "Buttermilk Pancake",
+   "category": "A La Carte",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "1 of our house made buttermilk pancakes"
+   }
+  },
+  {
+   "platform_item_id": "eabfd060-60c9-4fc0-96eb-b1d45831a93c",
+   "name": "3 pcs Falafel w/ tzatziki",
+   "category": "A La Carte",
+   "price_cents": 550,
+   "available": false
+  },
+  {
+   "platform_item_id": "60a1e2ab-cbb7-4f1e-a74e-b5cb365ec319",
+   "name": "Lemon Poppy Seed Pancake",
+   "category": "A La Carte",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "1 of our classic lemon poppy seed pancakes topped with toasted almonds and blueberry ginger syrup."
+   }
+  },
+  {
+   "platform_item_id": "065ceb31-a325-4ad1-9898-e1a2b13a7cf1",
+   "name": "Buttermilk Waffle",
+   "category": "A La Carte",
+   "price_cents": 700,
+   "available": true
+  },
+  {
+   "platform_item_id": "0e04f2cc-7be0-433a-95bd-bf566dfff48e",
+   "name": "French Fries",
+   "category": "A La Carte",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "151a6e23-0e00-4e6e-9d79-e87f768fb92d",
+   "name": "Cream Cheese",
+   "category": "A La Carte",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "5dce5402-4e2c-4e8d-8f59-7e5de1fe860b",
+   "name": "1 Egg",
+   "category": "A La Carte",
+   "price_cents": 175,
+   "available": true
+  },
+  {
+   "platform_item_id": "a4cf5455-aa86-4d0e-a37f-11e484fe9d20",
+   "name": "Truffle Fries",
+   "category": "A La Carte",
+   "price_cents": 600,
+   "available": false
+  },
+  {
+   "platform_item_id": "51eb0902-3afa-4357-8ea4-19f3fa407f47",
+   "name": "Side of Hollandaise",
+   "category": "A La Carte",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "081e0870-9273-4208-b959-37c7a583e4a3",
+   "name": "Chili Lime Sour Cream",
+   "category": "A La Carte",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "875d922e-e1cf-4837-abef-8f974535ce64",
+   "name": "Grits",
+   "category": "A La Carte",
+   "price_cents": 400,
+   "available": false
+  },
+  {
+   "platform_item_id": "e29f0fff-7536-424c-a934-1ee9f995a8de",
+   "name": "Vegan Sausage",
+   "category": "A La Carte",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "2b4c335f-87d0-4d71-9564-724e56eb7cf7",
+   "name": "Smoked Salmon",
+   "category": "A La Carte",
+   "price_cents": 600,
+   "available": false
+  },
+  {
+   "platform_item_id": "2d5d23d2-5025-4ac4-8156-112623a4498b",
+   "name": "City Tin",
+   "category": "Cafe SWAG",
+   "price_cents": 3000,
+   "available": false
+  },
+  {
+   "platform_item_id": "16252608-fa2e-4781-9e89-f5a672e08215",
+   "name": "Halo-Vino Glass",
+   "category": "Cafe SWAG",
+   "price_cents": 200,
+   "available": true
+  },
+  {
+   "platform_item_id": "58b3a037-6384-42a3-a7f9-02f84bdc02f1",
+   "name": "Halo-Vino Bag",
+   "category": "Cafe SWAG",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "ff8f4090-556c-482d-a1b4-8b67b2b92715",
+   "name": "Halo-Vino Bundle",
+   "category": "Cafe SWAG",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "27155875-0500-41cb-9e56-2292a54ce751",
+   "name": "Coffee Mug-Gift Box",
+   "category": "Cafe SWAG",
+   "price_cents": 1800,
+   "available": true
+  },
+  {
+   "platform_item_id": "0ab1e014-158e-4e5a-b94d-77fdf49e9e7f",
+   "name": "Plaza T-Shirt",
+   "category": "Cafe SWAG",
+   "price_cents": 2300,
+   "available": true
+  }
+ ]
+}
