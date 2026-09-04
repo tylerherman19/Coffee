@@ -1,0 +1,597 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.the-deep-groove.com/menu",
+ "shops": [
+  {
+   "id": 39,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "dg-latte",
+   "name": "Latte",
+   "category": "Caf\u00e9",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-cappuccino",
+   "name": "Cappuccino",
+   "category": "Caf\u00e9",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-macciato",
+   "name": "Macciato",
+   "category": "Caf\u00e9",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-cortado",
+   "name": "Cortado",
+   "category": "Caf\u00e9",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "3.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-americano",
+   "name": "Americano",
+   "category": "Caf\u00e9",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-mocha",
+   "name": "Mocha",
+   "category": "Caf\u00e9",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-cafe-au-lait",
+   "name": "Cafe au Lait",
+   "category": "Caf\u00e9",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-drip-coffee",
+   "name": "Drip Coffee",
+   "category": "Caf\u00e9",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-espresso",
+   "name": "Espresso",
+   "category": "Caf\u00e9",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 250,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-flat-white",
+   "name": "Flat White",
+   "category": "Caf\u00e9",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-matcha",
+   "name": "Matcha",
+   "category": "Caf\u00e9",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-hot-chocolate",
+   "name": "Hot Chocolate",
+   "category": "Caf\u00e9",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-chai",
+   "name": "Chai",
+   "category": "Caf\u00e9",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-london-fog",
+   "name": "London Fog",
+   "category": "Caf\u00e9",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-cinnamon-roll",
+   "name": "Cinnamon Roll",
+   "category": "Bakery",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-croissant",
+   "name": "Croissant",
+   "category": "Bakery",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-kouign-amann",
+   "name": "Kouign-Amann",
+   "category": "Bakery",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-coffee-cake",
+   "name": "Coffee Cake",
+   "category": "Bakery",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Topped with powdered sugar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-savory-biscuit",
+   "name": "Savory Biscuit",
+   "category": "Bakery",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Caramelized onion and cheddar cheese"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-marinated-olives",
+   "name": "Marinated Olives",
+   "category": "Light Snacks",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "A simple, olive oil marinade that combines orange zest and herbs de Provence with a touch of maple syrup. The maple syrup is made by our owners from their land in Minocqua in small batches."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-focaccia",
+   "name": "Focaccia",
+   "category": "Light Snacks",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Scratch-made focaccia baked in the tradition of Puglia: an olive-oil-rich bread topped with cherry tomatoes and finished with sea salt and herbs"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-arugula-franklin",
+   "name": "Arugula Franklin",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Prosciutto, stracciatella, and arugula, drizzled with extra virgin olive oil and balsamic glaze"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-m-rtadella-head",
+   "name": "M\u00f6rtadella-head",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Mortadella, basil pesto, stracciatella."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-hummusgarden-v",
+   "name": "Hummusgarden (v)",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Fresh Purslane hummus, cucumber, pickled carrot, and arugula, drizzled with lemon-herb EVOO and a dusting of za'atar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-beyond-the-sea",
+   "name": "Beyond The Sea",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Smokes salmon, stracciatella and zucchini marinated olive oil with mint and garlic."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-the-45",
+   "name": "The 45",
+   "category": "Boards",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "A little spin on charcuterie: House meat, house cheese, tangy cornishons and crackers"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-hummus-crudite-v",
+   "name": "Hummus Crudite (v)",
+   "category": "Boards",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Fresh hummus served with a seasonal trio of sweet carrots, peppery radishes, cucumber and pickled vegetables."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-grandma-helen-s-board",
+   "name": "Grandma Helen's Board",
+   "category": "Boards",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Summer sausage, pretzels, Merkt's cheese spread and cornishons - served with strawberry Twizzlers, Grandma's favorite!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-deep-cut-board",
+   "name": "Deep Cut Board",
+   "category": "Boards",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "Two house cheeses and two house meats, cornishons, grapes, and crackers"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-joon-salt-pepper-pistachios",
+   "name": "Joon Salt & Pepper Pistachios",
+   "category": "Bar Snacks",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "I Am Italiano Chocolate Bar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-hidden-hills-cacio-e-pepe-popcorn",
+   "name": "Hidden Hills Cacio e Pepe Popcorn",
+   "category": "Bar Snacks",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-torres-potato-chips",
+   "name": "Torres Potato Chips",
+   "category": "Bar Snacks",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Extra virgin olive oil chips from Spain"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-tomato-petty",
+   "name": "Tomato Petty",
+   "category": "Salads",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Tomatoes, cucumbers, salad greens, focaccia croutons and Mezzogiorno spice dressing"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-smoked-whitefish-in-sunflower-oil",
+   "name": "Smoked Whitefish in Sunflower Oil",
+   "category": "Conservas",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-smoked-mussels",
+   "name": "Smoked Mussels",
+   "category": "Conservas",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-trout-fillets-in-dill-pickle-sauce",
+   "name": "Trout Fillets in Dill & Pickle Sauce",
+   "category": "Conservas",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-mussels-in-spicy-chili-garlic-sauce",
+   "name": "Mussels in Spicy Chili & garlic Sauce",
+   "category": "Conservas",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-mussels-in-curry",
+   "name": "Mussels in Curry",
+   "category": "Conservas",
+   "price_cents": 1800,
+   "price_low_cents": 1800,
+   "price_high_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-trout-fillets-in-curry-sauce",
+   "name": "Trout Fillets in Curry Sauce",
+   "category": "Conservas",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-faroe-island-salmon",
+   "name": "Faroe Island Salmon",
+   "category": "Conservas",
+   "price_cents": 1800,
+   "price_low_cents": 1800,
+   "price_high_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-smoked-coho-salmon",
+   "name": "Smoked Coho Salmon",
+   "category": "Conservas",
+   "price_cents": 1600,
+   "price_low_cents": 1600,
+   "price_high_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-ramon-pena-sardine-fillets",
+   "name": "Ramon Pena Sardine Fillets",
+   "category": "Conservas",
+   "price_cents": 2800,
+   "price_low_cents": 2800,
+   "price_high_cents": 2800,
+   "available": true,
+   "raw": {
+    "description": "Served with our house-made focaccia, cornichons, Guindilla peppers, a house cheese and grapes."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-bombetta-quartet",
+   "name": "Bombetta Quartet",
+   "category": "Small Plates",
+   "price_cents": 1700,
+   "price_low_cents": 1700,
+   "price_high_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "4 bite sized skewers of pork shoulder, bacon and scarmoze served on a bed of roasted rapini and stracciatella. Served with our focaccia."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-gnocchi",
+   "name": "Gnocchi",
+   "category": "Small Plates",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Baked gnocchi in garlic tomato sauce, mozzarella and parmesan."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dg-zucchini-parmesan",
+   "name": "Zucchini Parmesan",
+   "category": "Small Plates",
+   "price_cents": 1600,
+   "price_low_cents": 1600,
+   "price_high_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Zucchini lightly breaded in flour and egg then fried in olive oil. Layered with mortadella, tomato sauce and parmesan. A family favorite from southern Italy."
+   },
+   "modifiers": []
+  }
+ ]
+}
