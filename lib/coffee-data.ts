@@ -10,6 +10,9 @@ const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_
 // Content-Range header, so a plain fetch silently truncated the menu. Page
 // through with Range until a short page arrives.
 const PAGE_SIZE = 1000;
+// A stalled request must fail loudly, not pin the loading screen: abort at
+// 20s so the retry loop (and then the error state) can do its job.
+const FETCH_TIMEOUT_MS = 20000;
 const PARALLEL = 12;
 async function fetchPage<T>(path: string, from: number): Promise<{ rows: T[]; total: number | null }> {
   // One flaky request (mobile network, edge hiccup) must not sink the whole
@@ -19,6 +22,7 @@ async function fetchPage<T>(path: string, from: number): Promise<{ rows: T[]; to
     if (attempt) await new Promise((resolve) => setTimeout(resolve, 600 * attempt));
     try {
       const response = await fetch(`${url}/rest/v1/${path}`, {
+        signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
         headers: { apikey: key, Authorization: `Bearer ${key}`, 'Accept-Profile': 'coffee', 'Range-Unit': 'items', Range: `${from}-${from + PAGE_SIZE - 1}`, Prefer: 'count=exact' },
         cache: 'no-store',
       });
