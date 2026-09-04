@@ -185,16 +185,29 @@ def parse_size(name: str) -> tuple[str | None, float | None, str]:
 def extract_square(url: str, cached_html: str | None = None) -> list[MenuItem]:
     order_url = url if "/s/order" in url else url.rstrip("/") + "/s/order"
     response = get(order_url)
-    html = cached_html or response.text
-    ids = {
-        "user": re.search(r"users/(\d+)", html),
-        "site": re.search(r"sites/(\d+)", html),
-        "location": re.search(r"store-locations/([A-Z0-9]{8,})", html),
-    }
-    if not all(ids.values()):
+    # Square Online embeds store ids as JSON in the order page (and sometimes
+    # only on the shop homepage): "site_id":<num>, "user":{"id":<num>}, and
+    # "shipping_location_ids":["<LOC>"].
+    def find_ids(html: str) -> tuple[re.Match | None, re.Match | None, re.Match | None]:
+        user = re.search(r'"user"\s*:\s*\{\s*"id"\s*:\s*(\d+)', html) or re.search(r"users/(\d+)", html)
+        site = re.search(r'"site_id"\s*:\s*(\d+)', html) or re.search(r"sites/(\d+)", html)
+        location = re.search(r'"[a-z_]*location_ids"\s*:\s*\[\s*"([A-Z0-9]{8,})"', html) or re.search(r"store-locations/([A-Z0-9]{8,})", html)
+        return user, site, location
+    user, site, location = find_ids(response.text)
+    if not (user and site) and cached_html:
+        user, site, location = find_ids(cached_html)
+    if not (user and site):
         return []
-    api = f"https://cdn5.editmysite.com/app/store/api/v28/editor/users/{ids['user'].group(1)}/sites/{ids['site'].group(1)}/store-locations/{ids['location'].group(1)}/products"
-    payload = get(api, params={"page": 1, "per_page": 200, "include": "images,options,modifiers,attributes", "fulfillments[]": "pickup"}).json()
+    api_base = f"https://cdn5.editmysite.com/app/store/api/v28/editor/users/{user.group(1)}/sites/{site.group(1)}"
+    candidate_ids = [location.group(1)] if location else []
+    if not candidate_ids:
+        candidate_ids = [loc["id"] for loc in get(f"{api_base}/store-locations", params={"per_page": 100, "valid": 1}).json().get("data", [])]
+    payload: dict[str, Any] = {}
+    for location_id in candidate_ids:
+        api = f"{api_base}/store-locations/{location_id}/products"
+        payload = get(api, params={"page": 1, "per_page": 200, "include": "images,options,modifiers,attributes", "fulfillments[]": "pickup"}).json()
+        if payload.get("data"):
+            break
     out = []
     for product in payload.get("data", []):
         price = product.get("price") or {}
