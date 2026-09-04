@@ -1,4 +1,7 @@
 export type Shop = { id: number; name: string; metro: 'milwaukee' | 'twin_cities'; address: string | null; neighborhood: string | null; lat: number | null; lng: number | null; website: string | null; platform: string | null; opening_hours: string | null; rating: number | null; review_count: number | null };
+// shops.platform holds the ordering platform's slug; these are its brand names.
+const platformNames: Record<string, string> = { square: 'Square', toast: 'Toast', spoton: 'SpotOn', chownow: 'ChowNow' };
+export const platformLabel = (platform: string) => platformNames[platform] ?? platform;
 export type Item = { id: number; shop_id: number; name: string; category: string | null; is_drink: boolean; drink_type: string | null; size_label: string | null; size_oz: number | null; size_confidence: 'explicit' | 'inferred' | 'none' | null; current_price_cents: number | null; last_checked_at: string | null };
 export type CoffeeData = { shops: Shop[]; items: Item[]; loadedAt: string | null };
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://fptyiklgiagjegufexvq.supabase.co';
@@ -65,9 +68,13 @@ export async function loadCoffeeData(): Promise<CoffeeData> {
   return { shops, items, loadedAt };
 }
 
-export const drinkLabels: Record<string, string> = { latte: 'Latte', caramel_latte: 'Caramel latte', cappuccino: 'Cappuccino', espresso: 'Espresso', macchiato: 'Macchiato', americano: 'Americano', drip: 'Drip coffee', cold_brew: 'Cold brew', mocha: 'Mocha', chai: 'Chai', tea: 'Tea', other: 'Other coffee' };
+// Keys are the drink_type values the items table allows (see the check
+// constraint in supabase/migrations). "other" is the catch-all the collector
+// gives every drink it will not rank - sodas, juice, milk, blended coolers -
+// so it is labelled as drinks rather than as coffee.
+export const drinkLabels: Record<string, string> = { latte: 'Latte', caramel_latte: 'Caramel latte', cappuccino: 'Cappuccino', espresso: 'Espresso', americano: 'Americano', drip: 'Drip coffee', cold_brew: 'Cold brew', mocha: 'Mocha', chai: 'Chai', tea: 'Tea', other: 'Other drinks' };
 
-const espressoFallbackOrder = ['cappuccino', 'cortado', 'flat_white', 'americano', 'espresso', 'macchiato', 'mocha', 'cold_brew'];
+const espressoFallbackOrder = ['cappuccino', 'americano', 'espresso', 'mocha', 'cold_brew'];
 
 // Shop-level price: a regular latte, else drip, else the closest standard
 // espresso drink - median size, never the smallest or largest.

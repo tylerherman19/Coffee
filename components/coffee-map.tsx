@@ -1,6 +1,6 @@
 'use client';
 
-import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet.markercluster';
 import { useEffect, useMemo } from 'react';

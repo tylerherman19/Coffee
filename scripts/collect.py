@@ -32,8 +32,17 @@ METROS = {
     # metro: Plymouth, Wayzata, Minnetonka and the Lake Minnetonka towns.
     "twin_cities": (44.85, -93.65, 45.10, -92.98),
 }
-DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toasttab.com", "order.spoton.com")
-BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com", "clover.com", "chownow.com")
+DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toasttab.com", "order.spoton.com", "chownow.com")
+# Delivery marketplaces, whose prices are marked up over the shop's own menu.
+# ChowNow is not one of them: it is white-label ordering that bills the shop,
+# not a marketplace with its own fleet and its own prices, so it belongs in
+# DIRECT_HOSTS above. It is served through a Cloudflare bot challenge that
+# answers 403 to every host and API path from a datacenter IP, so the runner
+# cannot read those menus - they arrive as staged captures under imports/
+# instead (see imports/README.md). Discovering the link still matters: it
+# labels the shop's ordering platform and stops the daily run from wiping
+# that label off the four shops whose menus were captured by hand.
+BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com", "clover.com")
 
 
 @dataclass
@@ -153,6 +162,8 @@ def platform_of(url: str) -> str | None:
         return "toast"
     if "order.spoton.com" in host:
         return "spoton"
+    if "chownow.com" in host:
+        return "chownow"
     return None
 
 
@@ -174,7 +185,7 @@ def rank_candidate(url: str) -> int:
 # blob at least as often as in an <a href>, so the anchor scan alone missed
 # most of them. This finds a platform URL anywhere in the markup.
 EMBEDDED_URL = re.compile(
-    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|order\.spoton\.com)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
+    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|order\.spoton\.com|chownow\.com)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
     re.I,
 )
 
@@ -227,13 +238,13 @@ def direct_link(home_url: str) -> tuple[str | None, str | None, str | None]:
 # Packaging beats every drink word: "Espresso Whole Bean" and "5 Gallon Hot
 # Coffee" are a retail bag and a catering urn, not a cup anyone can compare.
 RETAIL_PACKAGING = re.compile(
-    r"whole bean|\bbeans\b|\bground\b|\bbags?\b|\blbs?\b|\bpounds?\b|prepack|"
+    r"whole bean|\bbeans\b|\bground\b|\bbags?\b|\blbs?\b|\bpounds?\b|pre.?pack|"
     r"k.?cups?\b|\bgallons?\b|\bbox\b|traveler|\bscoop\b|liqueur|subscription|"
     r"gift ?card|\bmerch\b|\bmugs?\b|tumbler|\bfilters?\b|\bcanteen\b|"
     r"\bjoe to go\b|for the crew|\binstant\b|\bspreads?\b|\bcarafes?\b|"
     r"\bgrinders?\b|\btotes?\b|pup ?cups?\b|\bplatters?\b|\btrays?\b|\bpcs?\b|"
     r"\bcartons?\b|\bairpots?\b|\bcambros?\b|\bgrowlers?\b|\btins?\b|\bcleanse\b|"
-    r"\bblends?\b|ball cap|bandanas?|joe\s?2\s?go|\s//\s|"
+    r"\bblends?\b|ball cap|bandanas?|joe\s?2\s?go|\s//\s|\bcatering\b|\bglassware\b|"
     # A flight or tasting is several small pours at one price, so it is not
     # comparable to a cup and would top the drip ranking at a flight's price.
     r"\bflights?\b|\bsamplers?\b|\btastings?\b",
@@ -242,19 +253,43 @@ RETAIL_PACKAGING = re.compile(
 # A leading ounce size is a retail bag's naming style ("10Oz Decaf",
 # "96oz Coffee for the Crew") - drinks lead with the drink name.
 RETAIL_LEADING_SIZE = re.compile(r"^\d{1,3}\s?(?:fl\.?\s*)?oz\b", re.I)
+# Merch named after the drink it serves ("Vero Cappuccino Glass"). Matched on
+# the item name only, and only at the end, so "Glass of Milk" stays a drink.
+MERCH_TAIL = re.compile(r"\bglass(?:es)?\s*$", re.I)
 
 # Bakery words, by contrast, double as drink flavours ("Cheese Cake Cold Brew",
-# "Cinnamon Roll Latte"), so they only disqualify an item that reached no
-# named espresso or brew rule.
+# "Cinnamon Roll Latte"), so they disqualify an item only when the bakery word
+# comes after the drink word in the name (see classify_name).
 FOOD_ITEM = re.compile(
     r"\bcakes?\b|\brolls?\b|\bmuffins?\b|\bcookies?\b|\bscones?\b|croissant|"
     r"\bbagels?\b|\bdo(?:ugh)?nuts?\b|brownie|\bpastr|sandwich|\btoast\b|"
-    r"\bbars?\b|\bpies?\b|\bloaf\b|biscuit|danish|quiche|burrito|\bwraps?\b",
+    r"\bbars?\b|\bpies?\b|\bloaf\b|biscuit|danish|quiche|burrito|\bwraps?\b|"
+    r"\byogurts?\b(?! ?drinks?\b)|\bparfaits?\b|\bgranola\b",
     re.I,
 )
 # Blended drinks are drinks, but a shake is not a latte and a frappe is not
 # drip; keeping them out of the named buckets keeps the compare view honest.
 BLENDED = re.compile(r"\bshakes?\b|frapp|smoothie|\bmalt\b|\bslush", re.I)
+# The same reasoning, one step later: a frozen/blended "cooler" and an espresso
+# martini are real drinks with a real price, but they are not the cup the
+# compare view is ranking, so they land in "other" rather than a named bucket.
+# Unlike BLENDED these never promote a non-drink - "Freshly Frozen Dinner
+# Rolls" stays a bakery item.
+NOT_A_CUP = re.compile(
+    r"\bfrozen\b|\bblended\b|\bcoolers?\b|\bchillers?\b|\bblenders?\b|"
+    r"\bbeers?\b|\bwines?\b|\w*tini\b|\bcocktails?\b|\bmimosas?\b|prosecco|"
+    r"champagne|\bwhisk(?:e)?y\b|\bvodka\b|\btequila\b|\bnegroni\b|\bsangria\b|"
+    r"\bipa\b|\blagers?\b|\bstouts?\b|\bpilsner\b|\bboozy\b|\bspiked\b",
+    re.I,
+)
+# An upcharge is not a cup: "Extra Shot Espresso" at $0.75 would otherwise be
+# the cheapest espresso in the metro. Anchored to the front of the name (or a
+# parenthetical) so a real drink named "Espresso Shot" survives.
+ADD_ON = re.compile(
+    r"^(?:extra|add|additional|side of|sub|substitute|upcharge)\b|"
+    r"^shot of\b|\(add\b|\badd[- ]?ons?\b|\bflavor shot\b|\bextra\s*$",
+    re.I,
+)
 DRINK_KINDS = [
     # Caramel latte is its own bucket and must beat the generic "latte"
     # and "mocha" rules, which the same names also match.
@@ -283,13 +318,33 @@ NON_DRINK_CATEGORY = re.compile(
     r"catering|platters?|trays?|supplies|gifts?|kits|snacks|for the group)\b",
     re.I,
 )
+# A "Non-Coffee" section header contains the word "coffee", so letting it name
+# a kind turned every Italian soda under it into drip.
+NEGATED_CATEGORY = re.compile(r"non[- ]?coffee|no coffee|not coffee|caffeine[- ]?free", re.I)
+GENERIC_DRINK = re.compile(
+    r"\b(coffees?|drinks?|beverages?|iced|lemonades?|smoothies?|juices?|"
+    r"refreshers?|frappes?|sodas?|cocoa|coco|cider|hot chocolate)\b",
+    re.I,
+)
 
 
 def classify_name(name: str, category: str | None = None) -> tuple[bool, str | None]:
+    """(is a comparable drink, drink kind) for one menu item.
+
+    The item's own NAME decides the kind; the category is only consulted when
+    the name names nothing. Reading both as one string made a section header
+    outvote the item: Colectivo's "Latte" and "Mocha" sit under an "Espresso"
+    heading and were filed as espresso, Stone Creek's "Mulled Citrus Chai"
+    under "Tea/Chai & Tea Lattes" was filed as a latte, and every drink in
+    UP Cafe's "Up Coffee - Drinks" was filed as drip.
+    """
+    lowered = name.lower()
     text = f"{name} {category or ''}".lower()
     if category and NON_DRINK_CATEGORY.search(category):
         return False, None
-    if RETAIL_PACKAGING.search(text) or RETAIL_LEADING_SIZE.search(name.lower()):
+    if RETAIL_PACKAGING.search(text) or RETAIL_LEADING_SIZE.search(lowered) or MERCH_TAIL.search(name):
+        return False, None
+    if ADD_ON.search(name):
         return False, None
     if BLENDED.search(text):
         return True, "other"
@@ -298,15 +353,71 @@ def classify_name(name: str, category: str | None = None) -> tuple[bool, str | N
     # an "Espresso" category outvote the item's own name in the kind loop.
     if re.search(r"\bmacchiato\b", name, re.I):
         return True, "espresso"
+    food = FOOD_ITEM.search(lowered)
     for kind, pattern in DRINK_KINDS:
-        if re.search(pattern, text):
-            if kind in BROAD_KINDS and FOOD_ITEM.search(text):
-                return False, None
-            return True, kind
-    if FOOD_ITEM.search(text):
+        match = re.search(pattern, lowered)
+        if not match:
+            continue
+        # A flavour puts the bakery word before the drink word ("Carrot Cake
+        # Latte"); a pastry puts it after ("Mocha Chip Rawr Bar").
+        if food and food.start() > match.start():
+            return False, None
+        if kind in BROAD_KINDS and food:
+            return False, None
+        return True, "other" if NOT_A_CUP.search(text) else kind
+    # Nothing in the name: let the section header name the kind instead.
+    if category and not NEGATED_CATEGORY.search(category):
+        lowered_category = category.lower()
+        for kind, pattern in DRINK_KINDS:
+            if not re.search(pattern, lowered_category):
+                continue
+            if food:
+                # "Pecan Pie" under "Espresso Shots" is a pastry; "Frozen
+                # Cookies & Cream" under "Tea, Cocoa & More" is a blended drink.
+                return (True, "other") if NOT_A_CUP.search(text) else (False, None)
+            return True, "other" if NOT_A_CUP.search(text) else kind
+    # Nothing named a kind, so a bakery word anywhere - the name or a "Cookies"
+    # section header - is the strongest signal left.
+    if food or FOOD_ITEM.search(text):
         return False, None
-    is_drink = bool(re.search(r"\b(coffees?|drinks?|beverages?|iced|lemonades?|smoothies?|juices?|refreshers?|frappes?|sodas?|cocoa|coco|cider|hot chocolate)\b", text))
+    is_drink = bool(GENERIC_DRINK.search(text))
     return is_drink, "other" if is_drink else None
+
+
+# Prices and serving sizes reach the row after classify_name has run, and they
+# settle cases the name alone cannot: a $0.75 "drink" is a syrup pump, a $35
+# one is a catering box, a 64 oz one is a group vessel. Every writer
+# (collector, staged import, remediation sweep) goes through here so a fresh
+# collection cannot re-introduce rows a past sweep already removed.
+RETAIL_PRICE_GUARD = re.compile(r"retail|supplies|theory|guest coffee", re.I)
+GROUP_VESSEL_OZ = 32
+ADD_ON_CENTS = 100
+NOT_A_CUP_CENTS = 2000
+RETAIL_CENTS = 1000
+
+
+def refine_classification(
+    name: str,
+    category: str | None,
+    price_cents: int | None,
+    size_oz: float | None,
+) -> tuple[bool, str | None]:
+    is_drink, drink_type = classify_name(name, category)
+    if not is_drink:
+        return is_drink, drink_type
+    if size_oz is not None and size_oz >= GROUP_VESSEL_OZ:
+        return False, None
+    if price_cents is None:
+        return is_drink, drink_type
+    if price_cents < ADD_ON_CENTS or price_cents >= NOT_A_CUP_CENTS:
+        return False, None
+    if price_cents >= RETAIL_CENTS:
+        if category and RETAIL_PRICE_GUARD.search(category):
+            return False, None
+        # "$18 ... 12 oz" is a retail bean bag's naming style.
+        if re.search(r"\d{1,3}\s?oz\b", name, re.I):
+            return False, None
+    return is_drink, drink_type
 
 
 def parse_size(name: str) -> tuple[str | None, float | None, str]:
@@ -746,8 +857,29 @@ def extract_modifiers(raw: dict[str, Any] | None) -> list[tuple[str | None, str,
     return sorted((group, choice, cents) for (group, choice), cents in found.items())
 
 
+PAGE = 1000
+
+
+def get_all(db: Supabase, table: str, params: dict[str, str] | None = None) -> list[dict[str, Any]]:
+    """Every row, not the first page.
+
+    PostgREST caps an unbounded response at 1000 rows and says so only in the
+    Content-Range header, so a plain get() silently truncates. sync_shops read
+    the shop table that way: past 1000 shops the rows beyond the cap would look
+    undiscovered and every one of them would be inserted again as a duplicate.
+    """
+    rows: list[dict[str, Any]] = []
+    offset = 0
+    while True:
+        page = db.get(table, {**(params or {}), "offset": str(offset), "limit": str(PAGE)})
+        rows.extend(page)
+        if len(page) < PAGE:
+            return rows
+        offset += PAGE
+
+
 def sync_shops(db: Supabase, discovered: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    existing = db.get("shops", {"select": "*"})
+    existing = get_all(db, "shops", {"select": "*"})
     by_osm = {shop.get("osm_id"): shop for shop in existing if shop.get("osm_id")}
     for row in discovered:
         old = by_osm.get(row["osm_id"])
@@ -756,7 +888,7 @@ def sync_shops(db: Supabase, discovered: list[dict[str, Any]]) -> list[dict[str,
         else:
             created = db.post("shops", row)[0]
             by_osm[row["osm_id"]] = created
-    return db.get("shops", {"select": "*", "closed_at": "is.null"})
+    return get_all(db, "shops", {"select": "*", "closed_at": "is.null"})
 
 
 def resolve_source(shop: dict[str, Any]) -> tuple[str | None, str | None, str | None]:
@@ -815,13 +947,13 @@ def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: 
     db.patch("shops", f"id=eq.{shop['id']}", {"platform": platform, "last_checked_at": now, "scrape_status": status})
     if rating[0] is not None:
         db.post("ratings", {"shop_id": shop["id"], "source": "website", "rating": rating[0], "review_count": rating[1], "observed_at": now})
-    existing = db.get("items", {"select": "*", "shop_id": f"eq.{shop['id']}"})
+    existing = get_all(db, "items", {"select": "*", "shop_id": f"eq.{shop['id']}"})
     by_platform = {item["platform_item_id"]: item for item in existing}
     seen: set[str] = set()
     for entry in menu:
         seen.add(entry.platform_id)
-        is_drink, drink_type = classify_name(entry.name, entry.category)
         size_label, size_oz, confidence = parse_size(entry.name)
+        is_drink, drink_type = refine_classification(entry.name, entry.category, entry.price_cents, size_oz)
         values = {"name": entry.name, "category": entry.category, "is_drink": is_drink, "drink_type": drink_type, "size_label": size_label, "size_oz": size_oz, "size_confidence": confidence, "last_seen": dt.date.today().isoformat(), "removed_at": None}
         item = by_platform.get(entry.platform_id)
         if item:

@@ -30,10 +30,10 @@ def main() -> None:
     done = 0
     for hood, ids in sorted(by_hood.items()):
         for i in range(0, len(ids), 100):
-            chunk = ",".join(str(x) for x in ids[i : i + 100])
+            batch = ids[i : i + 100]
             if not dry_run:
-                sb.patch("shops", f"id=in.({chunk})", {"neighborhood": hood})
-            done += len(chunk)
+                sb.patch("shops", f"id=in.({','.join(str(x) for x in batch)})", {"neighborhood": hood})
+            done += len(batch)
     print(f"{'[dry-run] ' if dry_run else ''}set neighborhood on {done} shops across {len(by_hood)} neighborhoods")
 
 
