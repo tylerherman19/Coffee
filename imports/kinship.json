@@ -1,0 +1,492 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.kinshipmke.org/cafe",
+ "shops": [
+  {
+   "id": 129,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "kin-farmers-favorite",
+   "name": "Farmer's Favorite",
+   "category": "Hot Breakfast",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "pork sausage, fried egg, American cheese, tomato jam, English muffin"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-space-jam",
+   "name": "The Space Jam (v)",
+   "category": "Hot Breakfast",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "fried egg, American cheese, tomato jam, English muffin"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-impossible-sammy",
+   "name": "Impossible Sammy (v)",
+   "category": "Hot Breakfast",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Impossible patty, fried egg, tomato jam, American cheese, English muffin"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-fauxrizo-burrito-breakfast",
+   "name": "Faux-rizo Burrito (vg)",
+   "category": "Hot Breakfast",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "walnut chorizo, fajita veggies, sweet potatoes, black beans, avocado, cashew ranch"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-byo-bowl",
+   "name": "Build Your Own Salad/Bowl",
+   "category": "Bowls",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "base + free toppings; protein +3-6"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-parfait",
+   "name": "Berry & Granola Yogurt Parfait",
+   "category": "Grab & Go",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-tandem",
+   "name": "That Tandem Sandwich",
+   "category": "Hot Lunch",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "fried chicken, pickles, honey-sriracha aioli, brioche"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-fauxrizo-burrito-lunch",
+   "name": "Faux-rizo Burrito (vg)",
+   "category": "Hot Lunch",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-mockery-chicken",
+   "name": "Mockery Chicken (v)",
+   "category": "Hot Lunch",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-tofu-banh-mi",
+   "name": "Grilled Tofu Banh Mi (vg)",
+   "category": "Hot Lunch",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-angry-buffalo",
+   "name": "Angry Buffalo",
+   "category": "Hot Lunch",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-soup-cup",
+   "name": "Soup of the Day (cup)",
+   "category": "Soups",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-soup-bowl",
+   "name": "Soup of the Day (bowl)",
+   "category": "Soups",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-sweet-potato-fries",
+   "name": "Sweet Potato Fries (vg)",
+   "category": "Sides",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-fries",
+   "name": "French Fries (vg)",
+   "category": "Sides",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-southwest-veggie-bowl",
+   "name": "Southwest Veggie Bowl (v)",
+   "category": "Salads & Bowls",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-chicken-caesar",
+   "name": "Grilled Chicken Caesar",
+   "category": "Salads & Bowls",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-salmon-salad",
+   "name": "Mediterranean Grilled Salmon Salad",
+   "category": "Salads & Bowls",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-tofu-banh-mi-bowl",
+   "name": "Tofu Banh Mi Bowl (vg)",
+   "category": "Salads & Bowls",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-texmex-chicken-salad",
+   "name": "Tex-Mex Chicken Salad",
+   "category": "Salads & Bowls",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-latte",
+   "name": "Latte",
+   "category": "Drinks",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "hot or iced"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat or soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup flavor add",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "kin-mocha",
+   "name": "Mocha",
+   "category": "Drinks",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat or soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup flavor add",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "kin-americano",
+   "name": "Americano",
+   "category": "Drinks",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat or soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup flavor add",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "kin-cappuccino",
+   "name": "Cappuccino",
+   "category": "Drinks",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat or soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup flavor add",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "kin-chai",
+   "name": "Chai Latte",
+   "category": "Drinks",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat or soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup flavor add",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "kin-cold-brew",
+   "name": "Cold Brew",
+   "category": "Drinks",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat or soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup flavor add",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "kin-drip",
+   "name": "Drip Coffee",
+   "category": "Drinks",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat or soy milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup flavor add",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "kin-rishi",
+   "name": "Rishi Tea",
+   "category": "Drinks",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-lemonade",
+   "name": "Lemonade",
+   "category": "Drinks",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-arnold-palmer",
+   "name": "Arnold Palmer",
+   "category": "Drinks",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kin-iced-tea",
+   "name": "Iced Tea",
+   "category": "Drinks",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  }
+ ]
+}
