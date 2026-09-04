@@ -1,0 +1,291 @@
+{
+ "platform": "pdf-menu",
+ "source_url": "https://www.mezzomezzompls.com/wp-content/uploads/Mezzo-Mezzo-Cafe-Menu.pdf",
+ "shops": [
+  {
+   "id": 513,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "Drip Coffee",
+   "category": "Coffee",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup (vanilla, honey, caramel, mocha, hazelnut, sugar-free, seasonal)",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Latte",
+   "category": "Coffee",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup (vanilla, honey, caramel, mocha, hazelnut, sugar-free, seasonal)",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Americano",
+   "category": "Coffee",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup (vanilla, honey, caramel, mocha, hazelnut, sugar-free, seasonal)",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mocha",
+   "category": "Coffee",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup (vanilla, honey, caramel, mocha, hazelnut, sugar-free, seasonal)",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cold Brew",
+   "category": "Coffee",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup (vanilla, honey, caramel, mocha, hazelnut, sugar-free, seasonal)",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Espresso",
+   "category": "Coffee",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Macchiato",
+   "category": "Coffee",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cortado",
+   "category": "Coffee",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cappuccino",
+   "category": "Coffee",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup (vanilla, honey, caramel, mocha, hazelnut, sugar-free, seasonal)",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chai Latte",
+   "category": "Tea",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup (vanilla, honey, caramel, mocha, hazelnut, sugar-free, seasonal)",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Matcha Latte",
+   "category": "Tea",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Syrups",
+     "choice_name": "Syrup (vanilla, honey, caramel, mocha, hazelnut, sugar-free, seasonal)",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Black Tea",
+   "category": "Tea",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Green Tea",
+   "category": "Tea",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Herbal Tea",
+   "category": "Tea",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Fresh Croissant (Chocolate/Plain)",
+   "category": "Bakery",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Ham & Swiss Croissant",
+   "category": "Bakery",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Danish (Cream Cheese / Fruit Filled)",
+   "category": "Bakery",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Savory Lattice (Cream Cheese / Fruit Filled)",
+   "category": "Bakery",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Muffin (Blueberry / Chocolate Chip)",
+   "category": "Bakery",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bomboloni",
+   "category": "Bakery",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Parfait",
+   "category": "Bakery",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  }
+ ]
+}
