@@ -1,0 +1,767 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://brimcafe.com/brim-cafe-menu/",
+ "shops": [
+  {
+   "id": 156,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "brim-caramel-macchiato",
+   "name": "Caramel Macchiato",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "upgrade from 12 oz. to 16 oz. for $1.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size",
+     "choice_name": "Upgrade 12oz to 16oz (espresso drinks)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Coconut or almond milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "brim-cortado",
+   "name": "Cortado",
+   "category": "Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Americano"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-americano",
+   "name": "Americano",
+   "category": "Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Cappuccino"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-cappuccino",
+   "name": "Cappuccino",
+   "category": "Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "upgrade from 12 oz. to 16 oz. for $1.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size",
+     "choice_name": "Upgrade 12oz to 16oz (espresso drinks)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Coconut or almond milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "brim-mocha-latte",
+   "name": "Mocha Latte",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "upgrade from 12 oz. to 16 oz. for $1.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size",
+     "choice_name": "Upgrade 12oz to 16oz (espresso drinks)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Coconut or almond milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "brim-regular-latte",
+   "name": "Regular Latte",
+   "category": "Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "upgrade from 12 oz. to 16 oz. for $1.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size",
+     "choice_name": "Upgrade 12oz to 16oz (espresso drinks)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Coconut or almond milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "brim-coffee",
+   "name": "Coffee",
+   "category": "Menu",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "upgrade from 12 oz. to 16 oz. for $1.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size",
+     "choice_name": "Upgrade 12oz to 16oz (espresso drinks)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Coconut or almond milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "brim-hot-chocolate",
+   "name": "Hot Chocolate",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "upgrade from 12 oz. to 16 oz. for $1.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size",
+     "choice_name": "Upgrade 12oz to 16oz (espresso drinks)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Coconut or almond milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "brim-matcha-green-machine",
+   "name": "Matcha Green Machine",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "green superfood powder, Rishi Tea matcha green tea powder, avocado, spinach, green apple, banana, ginger, grapefruit juice, coconut oil, and agave."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-berry-me",
+   "name": "Berry Me",
+   "category": "Menu",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "fresh mixed berries, banana, yogurt, honey, and pineapple juice."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-chocolate-banana",
+   "name": "Chocolate Banana",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "almond milk, chocolate whey protein, banana, almond butter, and chia seeds."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-mango-tango",
+   "name": "Mango Tango",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "mango chunks, pineapple, peach, green apple, agave, chia seeds, spinach and coconut milk."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-rishi-tea",
+   "name": "Rishi Tea",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "elderberry healer, lavender mint, and chamomile."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-masala-chai",
+   "name": "Masala Chai",
+   "category": "Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "whole milk and masala chai concentrate from our friends at Rishi Tea. upgrade to 16 oz for $0.50. Try it hot or iced!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-egg-sandwich",
+   "name": "Egg Sandwich",
+   "category": "Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "two scrambled eggs, american cheese, and ham, bacon, or sausage on a croissant or bagel."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-brim-burrito",
+   "name": "Brim Burrito",
+   "category": "Menu",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "breakfast potatoes, tomato, cheddar cheese, brim sauce, and scrambled eggs."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-chorizo-burrito",
+   "name": "Chorizo Burrito",
+   "category": "Menu",
+   "price_cents": 685,
+   "price_low_cents": 685,
+   "price_high_cents": 685,
+   "available": true,
+   "raw": {
+    "description": "zesty chorizo sausage, pepper jack cheese, black beans, breakfast potatoes, scrambled eggs, and brim sauce."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-breakfast-combo",
+   "name": "Breakfast Combo",
+   "category": "Menu",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "two scrambled eggs with ham, bacon, or sausage served with breakfast potatoes, toast, butter, and jelly."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-hashbrowns",
+   "name": "Hashbrowns",
+   "category": "Menu",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 175,
+   "available": true,
+   "raw": {
+    "description": "Belgian Waffle"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-belgian-waffle",
+   "name": "Belgian Waffle",
+   "category": "Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": "baked belgian waffle with fresh berries and a side of butter and breakfast syrup with an option to add whipped cream."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-bagel",
+   "name": "Bagel",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "everything, cheddar, plain, sesame, cinnamon raisin, or whole wheat served with cream cheese."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-bacon-cheddar-potatoes",
+   "name": "Bacon Cheddar Potatoes",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "southern style breakfast potatoes topped with applewood smoked bacon bits, cheddar cheese, drizzled with the infamous Brim sauce, and topped with green onions. For regular breakfast potatoes without the fixings, it is $4.00 per person."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-sausage-or-bacon",
+   "name": "Sausage or Bacon",
+   "category": "Menu",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "one sausage patty or two strips of bacon."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-buffalo-chicken-wrap",
+   "name": "Buffalo Chicken Wrap",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "grilled chicken, lettuce, cheddar, tomatoes, and brim buffalo sauce on an herb tortilla."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-chicken-caesar",
+   "name": "Chicken Caesar",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "grilled chicken, croutons,romaine lettuce, tomato, and parmesan with creamy caesar on an herb tortilla."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-monte-cristo",
+   "name": "Monte Cristo",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "oven-roasted turkey, ham, swiss, red onion, tomato, lettuce, and honey mustard aioli on a herb tortilla."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-thai-sesame-chicken",
+   "name": "Thai Sesame Chicken",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "grilled chicken, chow mein noodles, napa cabbage, scallions, carrots, sesame thai aioli on an herb tortilla."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-tuna-wrap",
+   "name": "Tuna Wrap",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "tuna salad, cheddar, black olives, lettuce, tomato, and mayo on a spinach tortilla."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-veggie",
+   "name": "Veggie",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "cucumbers, carrots, red onions, olives, feta cheese, lettuce, tomato, spring mix, and hummus in a spinach tortilla."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-turkey-bacon-club",
+   "name": "Turkey Bacon Club",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "oven-roasted turkey, crispy bacon, cheddar, tomato, lettuce, and ranch dressing on an herb tortilla."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-italian-press",
+   "name": "Italian Press",
+   "category": "Menu",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "salami, ham, mortadella, mozzarella, roasted peppers, onions, and brim\u2019s special oil and herb blend on italian flat bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-brim-grilled-cheese",
+   "name": "Brim Grilled Cheese",
+   "category": "Menu",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": "four cheese blend with crispy bacon, tomato, and brim aioli on italian flat bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-turkey-cheddar",
+   "name": "Turkey Cheddar",
+   "category": "Menu",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "turkey, crispy bacon, cheddar, mayo, and tomato on italian flat bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-pesto-chicken",
+   "name": "Pesto Chicken",
+   "category": "Menu",
+   "price_cents": 825,
+   "price_low_cents": 825,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "description": "chicken breast, spinach, tomato, onion, mozzarella, and pesto aioli on italian bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-italian-beef",
+   "name": "Italian Beef",
+   "category": "Menu",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "tender italian style beef dipped in au jus with roasted onions and mild or hot peppers on french bread. make it cheesy for an additional $1.00."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-the-brim",
+   "name": "The Brim",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "chicken breast, pepper jack, french fries, lettuce, tomato, onion, and brim sauce on french bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-hot-club",
+   "name": "Hot Club",
+   "category": "Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "mortadella, ham, salami, provolone, onion, tomato, lettuce, mayo, and brim\u2019s special oil and spice mix on french bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-toasted-ciabatta",
+   "name": "Toasted Ciabatta",
+   "category": "Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "your choice of turkey or sliced chicken breast, pesto aioli, roasted peppers, onions, and provolone cheese."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-brim-stack",
+   "name": "Brim Stack",
+   "category": "Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "turkey, applewood smoked bacon, ham, cheddar, mayo, lettuce, tomato, onion, banana peppers, and specialty spices on french bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-crispy-chicken",
+   "name": "Crispy Chicken",
+   "category": "Menu",
+   "price_cents": 795,
+   "price_low_cents": 795,
+   "price_high_cents": 795,
+   "available": true,
+   "raw": {
+    "description": "crispy chicken breast, lettuce, tomato, cheddar, and brim sauce on a kaiser bun."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-black-bean-burger",
+   "name": "Black Bean Burger",
+   "category": "Menu",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "veggie burger with hummus, lettuce, spinach, tomato, and cheddar cheese on a kaiser bun."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-cheeseburger",
+   "name": "Cheeseburger",
+   "category": "Menu",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "quarter pound black angus burger with mayo, lettuce, tomato, onion, and American cheese on a kaiser bun."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-buffalo-chicken-sandwich",
+   "name": "Buffalo Chicken Sandwich",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "grilled or crispy chicken breast with our house bleu buffalo sauce, pepper jack, and lettuce on a kaiser bun."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-lamb-gyro",
+   "name": "Lamb Gyro",
+   "category": "Menu",
+   "price_cents": 875,
+   "price_low_cents": 875,
+   "price_high_cents": 875,
+   "available": true,
+   "raw": {
+    "description": "carved lamb gyro meat on pita bread with tomato, onion, feta cheese, and garlic yogurt sauce."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-avocado-turkey-blt",
+   "name": "Avocado Turkey BLT",
+   "category": "Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "oven roasted turkey, bacon, mayo, lettuce, and sliced avocado on focaccia bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-chicken-club",
+   "name": "Chicken Club",
+   "category": "Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "grilled chicken on a kaiser bun with bacon, cheddar, mayo, lettuce, and tomato."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-chicken-or-tuna-salad",
+   "name": "Chicken or Tuna Salad",
+   "category": "Menu",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "made fresh with mayo, lettuce, tomato, onion, and american cheese on french bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-classic-cut",
+   "name": "Classic Cut",
+   "category": "Menu",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "ham, salami, tomato, mayo, lettuce, onion, mustard, and american cheese on french bread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-seasoned-french-fries",
+   "name": "Seasoned French Fries",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Cheese Curds"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-cheese-curds",
+   "name": "Cheese Curds",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "served with our famous brim sauce."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-onion-rings",
+   "name": "Onion Rings",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Cup of Soup"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-cup-of-soup",
+   "name": "Cup of Soup",
+   "category": "Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Bowl of Soup"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brim-bowl-of-soup",
+   "name": "Bowl of Soup",
+   "category": "Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Brim Cafe & Catering,"
+   },
+   "modifiers": []
+  }
+ ]
+}
