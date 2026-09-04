@@ -1,0 +1,4835 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/discourse-coffee-downtown-1020-n-broadway (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid None, address on page: None, None, None)",
+ "shops": [
+  {
+   "id": 54,
+   "slug": "discourse-coffee-downtown-1020-n-broadway"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "6d7077f6-8647-46ba-a982-4c2ad1e1ec8c",
+   "name": "Moonwater",
+   "category": "Craft",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 950,
+   "raw": {
+    "description": "Espresso | Milk | Wildflower Honey | Ceylon Cinnamon | Tellicherry Black Pepper | Applewood Smoked Sea Salt\n\nMoonwater is our first creation, developed in Ryan's home kitchen before we even opened the doors at our original Sister Bay workshop. It's the only drink that's never left our menu for good "
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "10bb770c-5e6b-45d7-858e-92aa7fbbf616",
+   "name": "Channel Orange",
+   "category": "Craft",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 950,
+   "raw": {
+    "description": "Espresso | Milk | Smoked & Oaked Vanilla | Orange Oleo Saccharum | Bittercube Blackstrap Bitters | Candied Orange Powder | Black Lava Salt\r\n\r\nChannel Orange, a hallmark of our menu, was brought to life as part of a waste reduction initiative at the workshop. I had been looking for a way to repurpose"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "7e327d06-e563-4ffe-9dca-5ccdc34cc47c",
+   "name": "Motorhead",
+   "category": "Craft",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 950,
+   "raw": {
+    "description": "Espresso | Oat Milk | Pork Fat & Apple Caramel | Bittercube Root Beer Bitters | Granny Smith Apple Powder | Applewood Smoked Sea Salt\r\n\r\nApologies in advance to our vegan friends, but when life gives you pork fat and apple cores, you make caramel. While that\u2019s not how the saying goes, the pork fat l"
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "9ce74707-92c2-41c4-81a5-0f2ccbcd0547",
+   "name": "Flora",
+   "category": "Craft",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 950,
+   "raw": {
+    "description": "Espresso | Milk | Lavender Lemon Syrup | Wildflower Honey | Rose Water | Candied Lemon Powder | Fleur de Sel\r\n\r\nWashington Island, a picturesque getaway just a few miles north of the Door Peninsula by ferry, is widely acclaimed for producing some of the best French lavender in the world. Every July,"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0adb382f-e3fa-4da8-9c61-752c580df563",
+   "name": "Pappy",
+   "category": "Craft",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 950,
+   "raw": {
+    "description": "Espresso | Milk | Maple Syrup | Bourbon Essence | Black Lava Salt\r\n\r\nWisconsin maple syrup meets a pinch of black lava salt all the way from Hawaii and our house made, wildly aromatic bourbon essence.\r\n\r\nPappy is, simply put, a latte that hugs your soul."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d7b955e5-df4e-48e5-b151-1fa2a1308dfb",
+   "name": "Parisian",
+   "category": "Craft",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 950,
+   "raw": {
+    "description": "Matcha | Milk | Fruit Tea Syrup | Zested Lime | Blackberry\n\nYour new favorite way to drink matcha. Harney & Sons Paris, passion fruit, mango, and blueberry teas are blended in-house and transformed into an audaciously fruity, lush four-tea simple syrup that plays as a perfect compliment to vibrant m"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2bcef5f3-8e2e-418b-a98f-9f6f770faed1",
+   "name": "Lana Del Fog",
+   "category": "Craft",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 950,
+   "raw": {
+    "description": "Rishi Earl Grey | Oat Milk | Lyre's Amaretti | Vanilla Syrup | Flamed Orange\n\nAll of the names we tried to come up with for this absolute banger were super long, so we thought we'd pay homage to a house favorite who also struggles with long titles, Lana Del Rey.\n\nWe had an in house London Fog riff c"
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "911fb65a-1470-4ad6-b736-ae80188460c2",
+   "name": "Burnt Lemonade",
+   "category": "Craft",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 850,
+   "raw": {
+    "description": "*DISCLAIMER: Activated Charcoal can potentially neutralize the effectiveness of medicines and birth control. Please check in with your health care professional before excessive consumption.*\n\nSlow Drip Coffee infused with Charred Lemon Zest, Orange Zest, and Cocktail Cherries | Lemonade | Tarragon |"
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0d6a6218-5906-475f-96eb-4cac3b0e531b",
+   "name": "The Lewis",
+   "category": "Craft",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "eaca1e74-65e5-48e9-a82d-69797b3c1597",
+   "name": "Drip Coffee",
+   "category": "Coffee",
+   "price_cents": 300,
+   "available": true,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "raw": {
+    "description": "Our rotating drip coffee, featuring our favorite roasters around the world, is a great way to start your day! Quick and delicious, perfect for when you're on the go or want something easy going."
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "16a8b3de-3338-4330-b890-f58ff2382f91",
+   "name": "Cold Brew",
+   "category": "Coffee",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 600,
+   "raw": {
+    "description": "You know it, you love it, it's cold brew! "
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a1341cfe-f4da-4ba3-8b52-b77f61d61cfb",
+   "name": "Sous Vide Coffee",
+   "category": "Coffee",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 800,
+   "raw": {
+    "description": "A Discourse Coffee Workshop original, our Sous Vide coffee is one of a kind. Brewed at 145F for 16 hours, the Sous Vide brew method offers an ideal hybrid between hot and cold extraction, providing the body of a cold brew with the clarity and acidity of a pour over. Our Sous Vide coffee frequently r"
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cb189991-0bc7-4030-b040-98f926017f7b",
+   "name": "Ethiopia Guji",
+   "category": "Coffee",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "e8df7f79-88ee-4d99-9e87-3dcd1d7f0ac5",
+   "name": "Kenya Kieni",
+   "category": "Coffee",
+   "price_cents": 700,
+   "available": true
+  },
+  {
+   "platform_item_id": "2ef13f45-ddf0-433a-ba11-9663a8931a1d",
+   "name": "Colombia Elkin Guzman",
+   "category": "Coffee",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "757f10a3-c5d5-4798-a867-4f9fd0614cee",
+   "name": "Colombia Julio Madrid",
+   "category": "Coffee",
+   "price_cents": 900,
+   "available": true
+  },
+  {
+   "platform_item_id": "81d5238a-2969-4427-8dd9-4c4d0f313491",
+   "name": "House Espresso",
+   "category": "Classics",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Our first love. Our house espresso, expertly calibrated every few hours by our veteran barista team, is a Colombia/Ethiopia blend from our friends at Lawlss Coffee Roasters. We taste lemon zest, brown sugar, and cacao nib."
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "9170ab7e-55b7-4509-af6c-fed1257da1a9",
+   "name": "Americano",
+   "category": "Classics",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Espresso + Water = Americano\r\n\r\nIn Europe, where espresso reigns king, American drip coffee is almost non-existent. To satisfy thirsty swarms of American visitors, European baristas began diluting espresso to the strength of American drip coffee, and thus the Americano was born. Perfect hot or iced,"
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5d44b687-dead-4dba-a120-f79d20a6a1bf",
+   "name": "Macchiato",
+   "category": "Classics",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "A single extraction of espresso marked with rich milk foam.\r\n\r\nWe serve the traditional, Italian macchiato. Starbucks famously flipped this drink-as-old-as-time on it's head when it re-invented the macchiato as milk, marked with espresso."
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "368c34de-37cf-4c45-9a25-d0b2608c534a",
+   "name": "Cortado",
+   "category": "Classics",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "1 part Espresso + 1 part Steamed Milk = Cortado\n\nOf Spanish origin, and translating to \"cut\", the Cortado is the barista's choice. Like a few drops of water in a dram of whiskey, a cortado is many baristas' favorite way to get to the heart of an espresso."
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "52f53990-1903-4712-8c7d-d96f79e0333d",
+   "name": "Cappuccino",
+   "category": "Classics",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "1 part Espresso + 1 part Steamed Milk + 1 part Milk Microfoam = Cappuccino\r\n\r\nThe connoisseurs choice. The rich, brown shade of the OG cappuccinos appeared to match the color of the hoods worn by Capuchin monks, members of a Franciscan order dating back to the 16th century in Italy. #themoreyouknow"
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "96b8ba7d-d9c2-4251-aa46-8c6bc2ad77a1",
+   "name": "Latte",
+   "category": "Classics",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 725,
+   "raw": {
+    "description": "A single extraction of espresso with expertly steamed milk, and a thin layer of microfoam on top. Latte comes from the Italian term, caff\u00e8 e latte, which directly translates to coffee and milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "619cedb4-2652-43da-b804-4057d5678fee",
+   "name": "Mocha",
+   "category": "Classics",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 800,
+   "raw": {
+    "description": "One sip of this Velvet Dark Chocolate from our friends at Hollander Chocolate, with just a kiss of salted vanilla, will make you wave Swiss Miss goodbye for good. Rich, velvety, and not too sweet."
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "903b8493-b887-4212-93e1-3a502e8520e8",
+   "name": "Hot Chocolate",
+   "category": "Classics",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 700,
+   "raw": {
+    "description": "*THIS IS SERVED WITHOUT ESPRESSO. FOR A MOCHA, PLEASE SELECT MOCHA FROM THE CLASSICS MENU.*\r\n\r\nOne sip of this Velvet Dark Chocolate from our friends at Hollander Chocolate, with just a kiss of salted vanilla, will make you wave Swiss Miss goodbye for good. Rich, velvety, and not too sweet, this hot"
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "37f3962c-2def-4828-9ce0-609d45973d36",
+   "name": "Steamer",
+   "category": "Classics",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 700,
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cb108fa8-c62c-4b14-b600-c6a7c571684e",
+   "name": "Matcha Latte",
+   "category": "Classics",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 725,
+   "raw": {
+    "description": "An ethereal delight, our matcha latte is soft, round, and gently sweet. Simultaneously calming and energizing due to the presence of l-theanine, our matcha latte is a grand choice to juice up without the jitters."
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "408ad78a-ecf3-48a0-af2e-26a902f67a39",
+   "name": "Chai Latte",
+   "category": "Classics",
+   "price_cents": 525,
+   "available": true,
+   "price_low_cents": 525,
+   "price_high_cents": 725,
+   "raw": {
+    "description": "*THIS IS SERVED WITHOUT ESPRESSO. FOR A DIRTY CHAI LATTE, PLEASE ADD ESPRESSO VIA THE MODIFIERS BELOW.*\r\n\r\nWe LOVE chai here at Discourse, and have chai-ed just about every chai syrup on the market to bring you what we believe is the very best in the world: Metolius Artisan Teas Chai Concentrate, ha"
+   },
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4aed4fd7-aa89-419a-9195-83796c8c8c12",
+   "name": "Molly\u2019s Chai",
+   "category": "Classics",
+   "price_cents": 900,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ec1ab85a-7bd7-461b-98b4-dc955d877ec1",
+   "name": "Italian Soda",
+   "category": "Classics",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e1f24795-ec19-473d-9376-c2f91e087fb7",
+   "name": "Earl Grey",
+   "category": "Tea",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "Organic Earl Grey combines robust and fruity Thai black tea with mellow, caramel sweet Yunnan Dian Hong. This original blend perfectly complements the floral high notes of geranium and rose found in our first-pressing bergamot essential oil.\n\nFlavor Notes: Smooth and lively with the unique citrusy, "
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "12 oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "16 oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0a900605-ee6d-43ac-9817-a7af4d2643a6",
+   "name": "Golden Yunnan",
+   "category": "Tea",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "For those who love smooth and rich black teas, Golden Yunnan offers an incredible depth of flavor. An elevated tea classic hailing from Yunnan, the birthplace of tea.\n\nFlavor Notes: Malty and rich with a mellow, jammy sweetness and subtle accents of plum and raisin."
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "12 oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "16 oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3dde56c9-a206-45ff-984d-8e376dd181b9",
+   "name": "Jasmine Pearl",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Jasmine Pearls are a treasure for lovers of floral teas. Delicately sweet and refreshing with a beautiful aromatic finish.\n\nFlavor Notes: Tender tea leaves, hand-rolled and deeply infused with the sweet aroma of jasmine blossoms."
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "12 oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "16 oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ba2f1ca8-f715-4614-9df2-5dfba4d3f05d",
+   "name": "Blu-Long",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "12 oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "16 oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "144a8aa4-cfc1-4f1f-9c66-f01a57db5d16",
+   "name": "Pu'er Ginger",
+   "category": "Tea",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "Pu\u2019er Ginger blends bright, citrusy and spicy ginger with zesty orange peel and hints of lemongrass to provide balance to robust, slightly earthy and full-bodied Pu'er tea.\n\nFlavor Notes: Robust and invigorating with zesty ginger and hints of citrus."
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "12 oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "16 oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8726a9f5-da7f-46ad-ab9a-fe16efbabe26",
+   "name": "White Tea Rose Melange",
+   "category": "Tea",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "This white tea blend features a base of White Peony and presents a fresh floral bouquet with a bright minty finish.\n\nFlavor Notes: Floral with a fresh minty finish."
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "12 oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "16 oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3f4b9789-36c7-4b4a-a405-ccfb4d52e063",
+   "name": "Hibiscus Berry",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Schisandra is called Wu Wei Zi in Chinese, which literally means five-flavor berry, and references its uniquely complex flavor profile with sweet, sour, salty, bitter and spicy flavors found in different parts of the berry.\n\nFlavor Notes: Refreshingly tart and fruity with a uniquely quenching balanc"
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "12 oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "16 oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c51a7ba9-eb99-45ca-bc1f-b067be4ec070",
+   "name": "Peppermint Rooibus",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "12 oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "NO CHARGE Size Upgrade",
+     "choice_name": "16 oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3b72eca4-24da-44e8-9510-31a02e001ee7",
+   "name": "Passion of the Corn",
+   "category": "Experimental / Seasonal",
+   "price_cents": 900,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a4e2a73d-441b-46aa-b4d4-1bd4df7ac93f",
+   "name": "Kid B",
+   "category": "Experimental / Seasonal",
+   "price_cents": 900,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e8ecdefc-761a-42e8-99e1-55ba2a5a4b8f",
+   "name": "Soup Season",
+   "category": "Experimental / Seasonal",
+   "price_cents": 800,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8071bb27-e6ec-40e1-b5ab-4fac442180d8",
+   "name": "Through the Orchard",
+   "category": "Experimental / Seasonal",
+   "price_cents": 800,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced?",
+     "choice_name": "Standard Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "EZ Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced?",
+     "choice_name": "Xtra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Rotating Single Origin",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Alternate Espresso",
+     "choice_name": "julio madrid",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Corn",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "House Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dulce De Leche Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Spicy Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Dark Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Wildflower Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Salted Maple",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Apple Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "EZ Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Xtra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Temperature",
+     "choice_name": "Xtra Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "9a93d87d-2e54-4797-9a34-d8e5f741131d",
+   "name": "Butter Croissant",
+   "category": "Midwest Sad Bakery",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "d2d413ac-9328-4803-9a26-c086048f20c8",
+   "name": "Chocolate Chip Cookie",
+   "category": "Miss Molly's",
+   "price_cents": 425,
+   "available": true
+  },
+  {
+   "platform_item_id": "e0a8a039-ae48-46dd-bae7-7cd57da5b672",
+   "name": "Banana Bread",
+   "category": "Miss Molly's",
+   "price_cents": 650,
+   "available": true
+  },
+  {
+   "platform_item_id": "7cae0240-c484-443b-ae0a-32cab4a04a5e",
+   "name": "Apple Almond Galette",
+   "category": "Miss Molly's",
+   "price_cents": 700,
+   "available": false
+  },
+  {
+   "platform_item_id": "4f16b4c7-1c94-47f6-bc2d-ce3fd5112219",
+   "name": "Mushroom Onion Handpie",
+   "category": "Miss Molly's",
+   "price_cents": 650,
+   "available": true
+  },
+  {
+   "platform_item_id": "01eb41aa-3955-4af1-9842-acf6e17913df",
+   "name": "Pumpkin Muffin",
+   "category": "Miss Molly's",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "fe18a5f0-b209-4582-8d11-2e74a4ef05f1",
+   "name": "Rosemary Biscuit",
+   "category": "Miss Molly's",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "1cd2c3a2-51e6-43a5-ab51-99361e89fcc5",
+   "name": "Turkey Sandwich",
+   "category": "Miss Molly's",
+   "price_cents": 1100,
+   "available": true
+  },
+  {
+   "platform_item_id": "18c53232-f94f-4a9f-a32f-855995ab5263",
+   "name": "Strawberry Mint Salad",
+   "category": "Miss Molly's",
+   "price_cents": 1300,
+   "available": true
+  },
+  {
+   "platform_item_id": "b440ae46-7f26-4077-83d8-3abf1e3097f4",
+   "name": "Perrier",
+   "category": "Beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "041c7e76-91b4-4753-9878-314e68130d79",
+   "name": "Super Destroyer",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "f619caf9-f308-4424-aa9f-c9ef7ec5f1be",
+   "name": "Lean & Clean",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "e9ee1bca-05fa-41a7-99cc-1f03878aa515",
+   "name": "Bionic Glow",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "5e58cdeb-b474-44c9-9f4c-089987aa058e",
+   "name": "Eternal Life",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "9147f7ca-39ed-4f8e-aed8-3c32aa1d78c5",
+   "name": "BB Cinnamon Streusel Banana Bread",
+   "category": "Bunny Bites",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "d2d29557-f43e-4120-a9a2-60d73af138f1",
+   "name": "BB Choc Lavender Pistachio Cookie",
+   "category": "Bunny Bites",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "e1802f59-b6d5-4483-997b-bb7579232753",
+   "name": "Dad Hat",
+   "category": "Apparel",
+   "price_cents": 3000,
+   "available": true
+  },
+  {
+   "platform_item_id": "1407cef9-17df-4ba4-9c3b-9e4a18cfb8ad",
+   "name": "Discourse Moon-lady",
+   "category": "Apparel",
+   "price_cents": 4000,
+   "available": true
+  },
+  {
+   "platform_item_id": "a2ea8ffc-3725-4114-b478-3d38b40350df",
+   "name": "Blue Icon T-shirt",
+   "category": "Apparel",
+   "price_cents": 2500,
+   "available": true
+  },
+  {
+   "platform_item_id": "7ada5cb0-3d63-441a-8f9b-59cfe125f06e",
+   "name": "Mauve Icon T-shirt",
+   "category": "Apparel",
+   "price_cents": 2500,
+   "available": true
+  },
+  {
+   "platform_item_id": "9cc46534-37ec-46c2-a556-dfa3d6fd849e",
+   "name": "Cacao Hunters",
+   "category": "Chocolate Bars",
+   "price_cents": 699,
+   "available": true
+  },
+  {
+   "platform_item_id": "2808b6c7-ac88-4f08-ab41-129a039dcb81",
+   "name": "Original Beans",
+   "category": "Chocolate Bars",
+   "price_cents": 949,
+   "available": true
+  },
+  {
+   "platform_item_id": "03ebbecb-692a-4f3c-8b68-a8d97c1cbbb4",
+   "name": "Manoa",
+   "category": "Chocolate Bars",
+   "price_cents": 999,
+   "available": true
+  },
+  {
+   "platform_item_id": "12aa5adc-cc14-4ce3-9766-fa0d44e8ebf0",
+   "name": "Goodio",
+   "category": "Chocolate Bars",
+   "price_cents": 999,
+   "available": true
+  },
+  {
+   "platform_item_id": "9a7fd811-0419-401e-9a15-7afc23861b43",
+   "name": "Fruition",
+   "category": "Chocolate Bars",
+   "price_cents": 1199,
+   "available": true
+  },
+  {
+   "platform_item_id": "415d6f42-cdde-43a1-87bc-4cff3668a23a",
+   "name": "Dandelion",
+   "category": "Chocolate Bars",
+   "price_cents": 1199,
+   "available": true
+  },
+  {
+   "platform_item_id": "9b8cc063-6e9f-4338-94c3-536774b083dc",
+   "name": "Francois Pralus",
+   "category": "Chocolate Bars",
+   "price_cents": 1349,
+   "available": true
+  },
+  {
+   "platform_item_id": "60b01603-621c-476f-b3dc-918106eb3e1f",
+   "name": "Fossa",
+   "category": "Chocolate Bars",
+   "price_cents": 1499,
+   "available": true
+  },
+  {
+   "platform_item_id": "0143f1ea-ce3a-4d10-b33f-de3d0278eee8",
+   "name": "Qantu",
+   "category": "Chocolate Bars",
+   "price_cents": 1499,
+   "available": true
+  },
+  {
+   "platform_item_id": "82030103-f083-4b3e-8c3e-120950481830",
+   "name": "Amedei",
+   "category": "Chocolate Bars",
+   "price_cents": 1899,
+   "available": true
+  },
+  {
+   "platform_item_id": "2bf0c173-9f20-4e08-a98b-8ad1f74be76c",
+   "name": "Mexico La Yerba",
+   "category": "Theory Coffee",
+   "price_cents": 2300,
+   "available": true
+  },
+  {
+   "platform_item_id": "de367ebc-9dfc-4e91-91f8-b309885c1245",
+   "name": "Kenya Kieni",
+   "category": "Theory Coffee",
+   "price_cents": 2600,
+   "available": true
+  },
+  {
+   "platform_item_id": "8b0140c5-f1f8-43f5-b6bf-60a78e6127f2",
+   "name": "Colombia Elkin Guzman",
+   "category": "Theory Coffee",
+   "price_cents": 3600,
+   "available": true
+  },
+  {
+   "platform_item_id": "fc278815-c424-4540-a39b-e14e2c800eea",
+   "name": "Colombia Julio Madrid",
+   "category": "Theory Coffee",
+   "price_cents": 2700,
+   "available": true
+  },
+  {
+   "platform_item_id": "3c9977dd-3b0d-4b4b-8aa1-47b157dfdb6e",
+   "name": "Colombia Pink Bourbon",
+   "category": "Theory Coffee",
+   "price_cents": 2300,
+   "available": true
+  },
+  {
+   "platform_item_id": "f9ab78a3-e6a7-4ab6-add2-c27c895c8124",
+   "name": "Colombia Geisha",
+   "category": "Theory Coffee",
+   "price_cents": 2500,
+   "available": true
+  },
+  {
+   "platform_item_id": "f376e8a1-eab2-442b-b6fd-14a2f80114b5",
+   "name": "Wanderer",
+   "category": "Guest Coffee",
+   "price_cents": 2400,
+   "available": true
+  },
+  {
+   "platform_item_id": "fdb9bc37-1462-4d03-a5cf-fae2be30707f",
+   "name": "Paradigm",
+   "category": "Guest Coffee",
+   "price_cents": 2400,
+   "available": true
+  },
+  {
+   "platform_item_id": "617dd9cb-4428-4b8d-b4bf-600feabab0d0",
+   "name": "MOON WATER",
+   "category": "OFF SITE DRINKS",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "b6ac617f-1b8a-43f1-a7ff-951cf8138374",
+   "name": "CAP",
+   "category": "OFF SITE DRINKS",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "96b3f880-fdd5-49fd-8eb4-9eff693c83ed",
+   "name": "LATTE",
+   "category": "OFF SITE DRINKS",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "8ae862eb-15ec-41f4-b077-1f10ab8d8948",
+   "name": "CORT",
+   "category": "OFF SITE DRINKS",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "1e237588-6282-4765-948d-fba8124cd0b9",
+   "name": "ESP",
+   "category": "OFF SITE DRINKS",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "57d5dc96-d76d-49c3-8d8f-2e21b4d579fa",
+   "name": "Modelo",
+   "category": "BEER",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "ad199f32-e66b-4a29-8452-7246fe357f97",
+   "name": "Lakefront IPA",
+   "category": "BEER",
+   "price_cents": 700,
+   "available": true
+  },
+  {
+   "platform_item_id": "9cfe6cea-6f93-437a-9d65-d9da25f3a900",
+   "name": "NA ART SOUR",
+   "category": "BEER",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "c3a4d8be-773a-442e-84a9-58879faae6d5",
+   "name": "Wander And Ivy Wine",
+   "category": "WINE",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "656e7c69-2e93-43e9-b9e2-348ed04d86a8",
+   "name": "Ginger Martini",
+   "category": "COCKTAILS",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "82499a4c-2898-413c-8fd3-8e7ecdce158b",
+   "name": "Floral Daiquiri",
+   "category": "COCKTAILS",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "aeaf009d-137b-444f-adf2-9d3e1481abf5",
+   "name": "Soda",
+   "category": "MISC",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "334ceb8c-26b7-4eea-a7a2-46a3bb3bc879",
+   "name": "ART THC - Cosmic Orange 4mg",
+   "category": "MISC",
+   "price_cents": 700,
+   "available": true
+  }
+ ]
+}
