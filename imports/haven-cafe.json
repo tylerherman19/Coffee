@@ -1,0 +1,2618 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/haven-1201-n-van-buren-street (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 90078323-804c-4a53-b504-4d2fffac83b3, address on page: 1201 North Van Buren Street, Milwaukee, WI)",
+ "shops": [
+  {
+   "id": 148,
+   "slug": "haven-1201-n-van-buren-street"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "f4508aa7-5432-494f-9f1e-59e3a22c482a",
+   "name": "The Haven Combo",
+   "category": "Combos",
+   "price_cents": 1950,
+   "available": true,
+   "raw": {
+    "description": "The classic Haven Breakfast Sandwich with hashbrown, Banana and choice of drip coffee or soda"
+   }
+  },
+  {
+   "platform_item_id": "a57aae70-bb9e-46eb-95a1-cb806f0052fd",
+   "name": "Open Face Sourdough Combo",
+   "category": "Combos",
+   "price_cents": 1950,
+   "available": true,
+   "raw": {
+    "description": "Breakfast Sandwich with hashbrown, Banana and choice of drip coffee or soda"
+   }
+  },
+  {
+   "platform_item_id": "be306303-b431-49dc-a269-8d0370d10007",
+   "name": "Bacon Breakfast English Muffin Combo",
+   "category": "Combos",
+   "price_cents": 1450,
+   "available": true,
+   "raw": {
+    "description": "Breakfast Sandwich with Hash Brown, Banana and choice of drip coffee or soda"
+   }
+  },
+  {
+   "platform_item_id": "806f4c27-761b-4de3-a419-1f5459d9306f",
+   "name": "Sausage Breakfast English Muffin Combo",
+   "category": "Combos",
+   "price_cents": 1450,
+   "available": true,
+   "raw": {
+    "description": "Breakfast Sandwich with hashbrown, Banana and choice of drip coffee or soda"
+   }
+  },
+  {
+   "platform_item_id": "a6a3ab20-e450-4798-a877-fdabe99bbb39",
+   "name": "Egg & Cheese Breakfast English Muffin Combo",
+   "category": "Combos",
+   "price_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Egg and Cheese on an English Muffin with a Hashbrown, Banana and choice of drip coffee or soda"
+   }
+  },
+  {
+   "platform_item_id": "5fb8dad3-cd0c-4292-96bf-38b845c1846a",
+   "name": "Lox Bagel Combo",
+   "category": "Combos",
+   "price_cents": 1950,
+   "available": true,
+   "raw": {
+    "description": "Breakfast Sandwich with hashbrown, Banana and choice of drip coffee or soda"
+   }
+  },
+  {
+   "platform_item_id": "f6d07ebd-a1c8-43a6-8753-7c822afba5a8",
+   "name": "THE Haven",
+   "category": "Sandwiches and Scrambles",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Sausage, Bacon, Hash Brown Patty, Herbed Butter, Egg, Cheese, Arugula & Fancy Mayo on an English Muffin"
+   }
+  },
+  {
+   "platform_item_id": "0b0e8fa3-db01-4e84-adad-8daeb33c39ac",
+   "name": "Bacon Egg Cheese English Muffin",
+   "category": "Sandwiches and Scrambles",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Bacon, Egg, Herbed Butter and Cheese on a Bagel.\r\n\r\nDon't forget the Hash Brown on the Sandwich!"
+   }
+  },
+  {
+   "platform_item_id": "84b7ee46-b6d0-4e0e-ac4e-8a2ae7af773e",
+   "name": "Sausage Egg Cheese English Muffin",
+   "category": "Sandwiches and Scrambles",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Sausage, egg, herbed butter and cheese on an English muffin.\n\nDon't forget the hash brown ON the sandwich!"
+   }
+  },
+  {
+   "platform_item_id": "a68adc48-0b99-437e-86d2-8035271fc240",
+   "name": "Egg and Cheese  English Muffin",
+   "category": "Sandwiches and Scrambles",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Egg and Cheese  with herbed butter on an English muffin"
+   }
+  },
+  {
+   "platform_item_id": "2916d6f8-4edd-4753-82a9-d09459f8932c",
+   "name": "Lox Bagel",
+   "category": "Sandwiches and Scrambles",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Dill Cream Cheese, Smoked Salmon, Cucumber, Roma Tomato"
+   }
+  },
+  {
+   "platform_item_id": "84076767-e954-47c5-96e2-9907fc0debf0",
+   "name": "Open Face Sourdough",
+   "category": "Sandwiches and Scrambles",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Open face sourdough with bacon, ham, gruyere, over easy egg, chives"
+   }
+  },
+  {
+   "platform_item_id": "8b38e358-232b-49f1-9640-0b73df72b86b",
+   "name": "corned beef hash",
+   "category": "Sandwiches and Scrambles",
+   "price_cents": 1600,
+   "available": false
+  },
+  {
+   "platform_item_id": "3649ee20-95e5-4338-817c-b2a9d41064b1",
+   "name": "french morning omelette",
+   "category": "Sandwiches and Scrambles",
+   "price_cents": 1600,
+   "available": false
+  },
+  {
+   "platform_item_id": "36c42df9-ae1a-4b56-a0cc-95de6ef805d6",
+   "name": "Bagel w Cream Cheese",
+   "category": "Bagels and Sides",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Toasted bagel with cream cheese"
+   }
+  },
+  {
+   "platform_item_id": "b35b3219-6020-4dba-9ce3-616d32e27dbf",
+   "name": "Biscuit + Grape Jelly",
+   "category": "Bagels and Sides",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Buttery biscuit from Bakehouse 23 with butter and jelly"
+   }
+  },
+  {
+   "platform_item_id": "cf6b912c-bb55-475d-b99d-ce9c84f1755b",
+   "name": "Side Bacon",
+   "category": "Bagels and Sides",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Side of tasty thick cut bacon"
+   }
+  },
+  {
+   "platform_item_id": "c9c53bf0-ae4d-4153-a3df-18d0d8e99632",
+   "name": "Side Ham",
+   "category": "Bagels and Sides",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Grilled slice of ham"
+   }
+  },
+  {
+   "platform_item_id": "5a3723e8-2b80-433e-9993-6027adaf444c",
+   "name": "Fruit",
+   "category": "Bagels and Sides",
+   "price_cents": 100,
+   "available": true,
+   "raw": {
+    "description": "A banana"
+   }
+  },
+  {
+   "platform_item_id": "54458f50-ba66-4538-8d80-c004dd35f499",
+   "name": "Chips",
+   "category": "Bagels and Sides",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Salt and vinegar, Jalepeno, Sea Salt"
+   }
+  },
+  {
+   "platform_item_id": "101f35dc-b9db-4f6a-ac73-7ea0c0d55315",
+   "name": "Side Sausage",
+   "category": "Bagels and Sides",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Pork sausage patty"
+   }
+  },
+  {
+   "platform_item_id": "d7e66135-d348-4fcc-a9a9-b86c05798d8d",
+   "name": "Two Hash Browns",
+   "category": "Bagels and Sides",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Two crispy hash brown patties"
+   }
+  },
+  {
+   "platform_item_id": "45924812-e93b-449d-aae3-1dd3ea7ffe9c",
+   "name": "Hash Brown",
+   "category": "Bagels and Sides",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "One crispy hash brown patty"
+   }
+  },
+  {
+   "platform_item_id": "3ab5a8be-0c21-4c83-be88-3c062c870b0f",
+   "name": "English Muffin",
+   "category": "Bagels and Sides",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "English muffin with herbed butter"
+   }
+  },
+  {
+   "platform_item_id": "f9bb26e4-0120-44e4-b7a7-7e0297e02c58",
+   "name": "side sauce",
+   "category": "Bagels and Sides",
+   "price_cents": 125,
+   "available": true,
+   "raw": {
+    "description": "sauce side"
+   }
+  },
+  {
+   "platform_item_id": "ae721b12-9c7a-4ab0-a84d-fcdb1eccf9ef",
+   "name": "croissant",
+   "category": "Bagels and Sides",
+   "price_cents": 450,
+   "available": true
+  },
+  {
+   "platform_item_id": "89050814-6277-49e3-8f0c-f224bf6b4b58",
+   "name": "Cubano",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "8 in baguette with herbed butter, yellow mustard, ham,  house roasted pork, pickles and swiss."
+   }
+  },
+  {
+   "platform_item_id": "eee72d4b-995d-4c65-bc93-1b9be8a3e8c0",
+   "name": "Reuben",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "\"Melt\" prepared on marbled rye with herbed butter, Tempeh or Boar's Head Pastrami and Gruyere Cheese.  Add Kraut and Thousand Island"
+   }
+  },
+  {
+   "platform_item_id": "5c70233b-c537-4980-b405-61de146a7c7d",
+   "name": "BLT",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Sour dough with herbed butter, thick cut bacon, blistered tomatoes and arugula with fancy mayo"
+   }
+  },
+  {
+   "platform_item_id": "5e4b51ae-1566-40c2-bc54-59bd240f276c",
+   "name": "Eggplant Tomato",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Baguette with blistered tomato and battered eggplant with cheese, garlic mayo, arugula and balsamic. "
+   }
+  },
+  {
+   "platform_item_id": "20b93a89-0292-4c17-848d-f700036e8ed7",
+   "name": "Grilled cheese",
+   "category": "Sandwiches and Soups",
+   "price_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Sourdough with gruyere, american and munster cheese with herbed butter"
+   }
+  },
+  {
+   "platform_item_id": "ba40cf2c-e36a-4481-9a56-fc2d881e89a3",
+   "name": "Bombay Sandwich",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Triple Layer Texas Toast with mint & Cilantro Chutney, American, Swiss & Tofu"
+   }
+  },
+  {
+   "platform_item_id": "4de81a6e-fb71-4da6-9952-cfdae0b71e16",
+   "name": "Quesadilla",
+   "category": "Sandwiches and Soups",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Cheese quesadilla on a tortilla. you can add house roasted pork or blackened tofu. Served with crema and salsa.\n\nMake gluten free with our gluten free tortilla"
+   }
+  },
+  {
+   "platform_item_id": "483bdf7a-f568-46ed-a7ab-73508ee7ff30",
+   "name": "Jerk Chicken Sandwich",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1350,
+   "available": true
+  },
+  {
+   "platform_item_id": "a4778d35-32dd-4dc8-937a-3d9045ddcf50",
+   "name": "sando of week",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "toasted tuesday fancy grilled cheese of the day"
+   }
+  },
+  {
+   "platform_item_id": "3e519701-0469-41e5-b8dd-cf172d8c7c13",
+   "name": "tots",
+   "category": "Sandwiches and Soups",
+   "price_cents": 700,
+   "available": true
+  },
+  {
+   "platform_item_id": "1f6b4365-b016-49d5-9bbb-694ff6d2ff7a",
+   "name": "P.I.B. BEEF",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1100,
+   "available": false
+  },
+  {
+   "platform_item_id": "a5a7157b-a1a6-4355-a66f-ca4727cde440",
+   "name": "P.I.B. KIELBASA",
+   "category": "Sandwiches and Soups",
+   "price_cents": 1100,
+   "available": false
+  },
+  {
+   "platform_item_id": "5df7a70b-5ecd-4bbd-9750-2d804cb8e587",
+   "name": "Fancy Mayo",
+   "category": "Sandwiches and Soups",
+   "price_cents": 125,
+   "available": true
+  },
+  {
+   "platform_item_id": "1acf0629-c292-4e91-8450-55e58d8fe25c",
+   "name": "Chipotle Aioli",
+   "category": "Sandwiches and Soups",
+   "price_cents": 125,
+   "available": true
+  },
+  {
+   "platform_item_id": "09816373-1488-4c01-bec8-6b2fc3d4826e",
+   "name": "Chamoy Aioli",
+   "category": "Sandwiches and Soups",
+   "price_cents": 125,
+   "available": true
+  },
+  {
+   "platform_item_id": "d78454a8-dc76-4d79-a0dc-a1aa3e8e8115",
+   "name": "Cilantro Chutney Mayo",
+   "category": "Sandwiches and Soups",
+   "price_cents": 125,
+   "available": true
+  },
+  {
+   "platform_item_id": "e371c873-1b51-4403-a3aa-2a3b17f17a37",
+   "name": "Thousand Island",
+   "category": "Sandwiches and Soups",
+   "price_cents": 125,
+   "available": true
+  },
+  {
+   "platform_item_id": "92402df0-3b29-448b-a2a0-c8fbcc9e10c0",
+   "name": "Big Cookie",
+   "category": "Dessert",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Rotating Desserts"
+   }
+  },
+  {
+   "platform_item_id": "0385ba81-2aa2-4a71-8453-809219bb363a",
+   "name": "Banana Bread",
+   "category": "Dessert",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Banana Bread from Bakehouse 23"
+   }
+  },
+  {
+   "platform_item_id": "c65b2d19-80c6-4696-a38c-d64749787c25",
+   "name": "Scones",
+   "category": "Dessert",
+   "price_cents": 500,
+   "available": false,
+   "raw": {
+    "description": "Chocolate espresso scone from Bakehouse 23"
+   }
+  },
+  {
+   "platform_item_id": "f3db01a5-9b4e-4f28-827e-9a141549a1ca",
+   "name": "Peanut Butter Cup",
+   "category": "Dessert",
+   "price_cents": 500,
+   "available": false,
+   "raw": {
+    "description": "Large peanut butter cup from Bakehouse 23"
+   }
+  },
+  {
+   "platform_item_id": "322c87d0-75ef-4ae0-82e7-f1084cc65db7",
+   "name": "Pie Slice",
+   "category": "Dessert",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Rotating pie flavors from Bakehouse 23"
+   }
+  },
+  {
+   "platform_item_id": "54458f50-ba66-4538-8d80-c004dd35f499",
+   "name": "Chips",
+   "category": "Snacks",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Salt and vinegar, Jalepeno, Sea Salt"
+   }
+  },
+  {
+   "platform_item_id": "b003b2af-6067-4c05-a4a3-2df0deba097d",
+   "name": "Drip Coffee to go",
+   "category": "Coffee",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Stone Creek Drip Coffee"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drip Coffee",
+     "choice_name": "small",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drip Coffee",
+     "choice_name": "Medium",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drip Coffee",
+     "choice_name": "Large",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "xtra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "xtra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3a96bdd4-b97c-4473-9e20-0e152a10ba34",
+   "name": "Mug",
+   "category": "Coffee",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "drip coffee with 1 refill"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "xtra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "xtra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c645d19e-0856-417f-a576-b890e435471b",
+   "name": "Cold Brew",
+   "category": "Coffee",
+   "price_cents": 400,
+   "available": false,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "raw": {
+    "description": "Stone creek beans cold brewed in house 12 & 16 oz"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "xtra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "xtra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "xtras",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "43dcd9c2-22c0-4f91-92a6-a820a22a804c",
+   "name": "Espresso",
+   "category": "Espresso",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Double Shot of Stone Creek Green Bike Beans"
+   },
+   "modifiers": [
+    {
+     "group_name": "temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso",
+     "choice_name": "Tonic",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso",
+     "choice_name": "Fentiman's Grapefruit Tonic",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "cold foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "THC shot (5mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ea2dc7eb-adc4-413c-a4a5-3a3a17557e30",
+   "name": "Latte",
+   "category": "Espresso",
+   "price_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Double shot of Stone Creek's Green Bike Espresso with Steamed Milk or iced"
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "no milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "cold foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8a547f02-e0f3-4116-ac2c-6b38a8742d3a",
+   "name": "Mocha",
+   "category": "Espresso",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Double shot of espresso with steamed Milk and Chocolate"
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "no milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "cold foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f2d32839-7402-4861-b014-de08f314e748",
+   "name": "Cappuccino",
+   "category": "Espresso",
+   "price_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Double shot of espresso w/ steamed foam"
+   }
+  },
+  {
+   "platform_item_id": "3a2bcf66-0a2a-4421-8836-1f8331a941c9",
+   "name": "Americano",
+   "category": "Espresso",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Double shot of espresso with water"
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "no milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "cold foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "whole milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "add honey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "add sugar",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "add splenda",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "half and half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "oat milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "almond milk",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "af39e55d-bf96-4794-a353-500a1bf53d98",
+   "name": "Cortado",
+   "category": "Espresso",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Double shot of Stone Creek's Green Bike Espresso to equal parts steamed milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "breve",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "Sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "Brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "Lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "454f0059-1b5a-4fb4-beae-3befa6057dc1",
+   "name": "Traditional Macchiato (3oz)",
+   "category": "Espresso",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Double shot of Stone Creeks's Green Bike Espresso  with a dollop of steamed foam"
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "syrups",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrups",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrups",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrups",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrups",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrups",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrups",
+     "choice_name": "honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrups",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "cold foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "THC shot (5mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3562b039-ae47-41ce-8a65-3e925d067fe0",
+   "name": "Caramel Macchiato",
+   "category": "Espresso",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Double shot of Stone Creek's Green Bike Espresso with house made vanilla syrup, steamed milk and caramel drizzle"
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "no milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "cold foam",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "extras",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c9500f12-10bc-44b0-9c27-27433becced4",
+   "name": "Flat white",
+   "category": "Espresso",
+   "price_cents": 550,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Breve",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Sf Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "94c932e2-ecb4-4e34-8971-223ae19ec6e0",
+   "name": "Hot Tea",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Rishi Tea"
+   },
+   "modifiers": [
+    {
+     "group_name": "Tea",
+     "choice_name": "Jasmine Green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea",
+     "choice_name": "Earl Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea",
+     "choice_name": "English Breakfast",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea",
+     "choice_name": "Chamomile",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea",
+     "choice_name": "Mint",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "No milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Sf Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "London Fog",
+     "choice_name": "London Fog",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "London Fog",
+     "choice_name": "THC",
+     "price_delta_cents": 800
+    }
+   ]
+  },
+  {
+   "platform_item_id": "01e06e7a-b732-4ff3-a175-5166c2efbed4",
+   "name": "Iced Tea",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Refreshing Black  Tea"
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "no milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "305bdf6f-6816-4da1-9c74-51678b0a69ca",
+   "name": "London Fog",
+   "category": "Tea",
+   "price_cents": 525,
+   "available": true,
+   "raw": {
+    "description": "Earl grey tea with steamed milk and vanilla and honey syrup."
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "no milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "THC",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    }
+   ]
+  },
+  {
+   "platform_item_id": "6db9a295-8a30-41c5-b32f-5cb7b0df2eb7",
+   "name": "Matcha Latte",
+   "category": "Tea",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "matcha, iced or hot"
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "no milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "extra matcha",
+     "choice_name": "1 scoop",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "extra matcha",
+     "choice_name": "2 scoop",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4d56a061-7f89-4d7a-8b09-ffa84985bbb3",
+   "name": "Chai Latte",
+   "category": "Tea",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "no milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "sf vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "honey syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "syrup",
+     "choice_name": "strawberry",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "extra shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "extra double shot",
+     "price_delta_cents": 180
+    },
+    {
+     "group_name": "extra espresso",
+     "choice_name": "THC shot (5 mg)",
+     "price_delta_cents": 500
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f6637fca-105b-4bcb-994d-8537cb30e68e",
+   "name": "Iced Ube Matcha",
+   "category": "Tea",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Sf Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Brown sugar",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Lavender",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrup",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f6c8b384-8e6e-48f5-9bcf-94f02c4c25ce",
+   "name": "Hot Chocolate",
+   "category": "Hot Choc/Ice Cream/Cider",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Ghirardelli Majestic chocolate with your choice of milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "oat",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "almond",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "22cd692a-2e36-49af-ba54-6625d2734e62",
+   "name": "Ube Latte (without espresso)",
+   "category": "Hot Choc/Ice Cream/Cider",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "raw": {
+    "description": "Ube, Vanilla, Steamed Milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "milk",
+     "choice_name": "whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "oat",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "milk",
+     "choice_name": "almond",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "temp",
+     "choice_name": "iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "add espresso",
+     "choice_name": "single shot",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "add espresso",
+     "choice_name": "double shot",
+     "price_delta_cents": 180
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2c157126-8fef-41ea-a995-672a4314f138",
+   "name": "Kw'nch'rs",
+   "category": "Sodas and Refreshers",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Kw'nch'rs are our house made refreshers with electrolytes! Great way to start the day!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Flavors",
+     "choice_name": "Lavender Lemon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Strawberry Lemon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Ginger Pink Lemon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Pomegranate Lemon",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "7716e16e-ef09-4a1a-8e69-b24b2dbb25cf",
+   "name": "Jarritos Mineragua",
+   "category": "Sodas and Refreshers",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Mexican Sparkling  Water"
+   }
+  },
+  {
+   "platform_item_id": "9f7cfad9-4cc7-43a8-8a4b-70def5389623",
+   "name": "Bottled Water",
+   "category": "Sodas and Refreshers",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "Water is a clear, tasteless, and odorless liquid made of two hydrogen atoms and one oxygen atom (H\u2082O). It covers most of the Earth and is needed by all living things to survive."
+   }
+  },
+  {
+   "platform_item_id": "33b5e240-fd52-4f97-b372-54a225694acc",
+   "name": "Soda Pop",
+   "category": "Sodas and Refreshers",
+   "price_cents": 250,
+   "available": true,
+   "raw": {
+    "description": "Coke, Diet coke, Squirt, 7-Up"
+   },
+   "modifiers": [
+    {
+     "group_name": "soda",
+     "choice_name": "Coke (12 oz)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "soda",
+     "choice_name": "Diet Coke",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "soda",
+     "choice_name": "Sprite",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "soda",
+     "choice_name": "Squirt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "soda",
+     "choice_name": "Point Orange Soda",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "soda",
+     "choice_name": "Point Root Beer",
+     "price_delta_cents": 300
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f14ec8d6-eafd-4166-8273-eb43bb44b61a",
+   "name": "Refreshers",
+   "category": "Sodas and Refreshers",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Refreshers with our house made syrups"
+   },
+   "modifiers": [
+    {
+     "group_name": "Ades",
+     "choice_name": "Strawberry Limeade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Ades",
+     "choice_name": "Lavender Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Ades",
+     "choice_name": "Pomegranate Limeade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Ades",
+     "choice_name": "Pink Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Ades",
+     "choice_name": "Blackberry citrus",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "40608f10-6442-4ec9-b0a4-2f50a5292e24",
+   "name": "Root Beer",
+   "category": "Sodas and Refreshers",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Root beer is a North American beverage traditionally made using the root bark of the sassafras tree Sassafras albidum or the sarsaparilla vine Smilax ornata as the primary flavor. It started out as a type of small beer that was brewed."
+   }
+  },
+  {
+   "platform_item_id": "0121242b-8acd-4f4d-8c7d-197ede19dfb7",
+   "name": "THC Shot",
+   "category": "Sodas and Refreshers",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Elevate your mocktail experience with our Looner Spirits line - an unflavored THC mixer designed to blend into your favorite NA drinks. \n\n6.66 mg/ounce shot"
+   }
+  },
+  {
+   "platform_item_id": "46060697-9fd9-4eea-b26e-e4df400b7bab",
+   "name": "red bull",
+   "category": "Sodas and Refreshers",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Red Bull began as a Thai working-class tonic called Krating Daeng, was discovered and carbonated by Austrian entrepreneur Dietrich Mateschitz in 1982, and officially launched as a global brand in Austria on April 1, 1987."
+   }
+  },
+  {
+   "platform_item_id": "50e262b3-0059-4322-bb52-6802b1c8368e",
+   "name": "Kombucha",
+   "category": "Sodas and Refreshers",
+   "price_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Nessalla Kombucha Rotating flavors"
+   }
+  },
+  {
+   "platform_item_id": "591ff450-7a46-4062-8cdd-ae788162ac25",
+   "name": "Fentimans Pink Grapefruit Tonic Water",
+   "category": "Sodas and Refreshers",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Made with ruby red grapefruit and quinine for a tonic that is refreshingly dry and crisp. Mix with Gin or Vodka for a refreshing and zesty long drink"
+   }
+  },
+  {
+   "platform_item_id": "aa655ccb-5a77-4049-b00a-d81106cf59ad",
+   "name": "Indeed Two Good",
+   "category": "Hemp",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "ae1c3b37-e4fe-4487-a2ec-6eedd32a9497",
+   "name": "Indeed Turn Up 5mg thc 100 mg caffeine",
+   "category": "Hemp",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Energize your day with 100mg of caffeine, 5mg THC, and a tropical punch of flavor. Hydrating and refreshing, Tropical Blast Turn Up is your go-to Sparkling THC for keeping the momentum going."
+   }
+  },
+  {
+   "platform_item_id": "c6cb7dcb-d516-4066-bd65-1d64b9ac87f3",
+   "name": "Indeed Sparkling Citrus Grass 5 mg thc",
+   "category": "Hemp",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Greener pastures are a sip away. Citrus Grass High Fiver Sparkling THC has a well-rounded 5mg each of full-spectrum, hemp-derived THC and CBD. It hits just right with a twist of citrus peel and a boost of lemongrass. A zingy, sparkling gateway to where the grass is greener."
+   }
+  },
+  {
+   "platform_item_id": "86d85d99-1fa3-4142-b682-1ce8ccd69d5b",
+   "name": "Looner Root Beer 10 mg",
+   "category": "Hemp",
+   "price_cents": 1100,
+   "available": true
+  },
+  {
+   "platform_item_id": "6c9173b4-d4bb-4d6a-a616-0890f0b0be41",
+   "name": "Looner Grape",
+   "category": "Hemp",
+   "price_cents": 1100,
+   "available": true
+  },
+  {
+   "platform_item_id": "3d6c98ac-6e9a-4b51-ba84-018822bcfd1f",
+   "name": "Mary Jones Orange",
+   "category": "Hemp",
+   "price_cents": 1100,
+   "available": true
+  },
+  {
+   "platform_item_id": "4b59067c-ce27-47fc-9f47-759589822259",
+   "name": "Aura Lemon Basil 10mg",
+   "category": "Hemp",
+   "price_cents": 1100,
+   "available": true
+  },
+  {
+   "platform_item_id": "d5f8cac5-83e5-4552-811c-b9f9315f85f3",
+   "name": "Green Shirt",
+   "category": "Merch",
+   "price_cents": 2000,
+   "available": true
+  },
+  {
+   "platform_item_id": "c3e982a1-3ee9-4b12-a19d-ca403050a675",
+   "name": "Slingshot classic",
+   "category": "Merch",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "b59a79ee-bdb6-4309-8547-b6c5f084d1b6",
+   "name": "Slingshot Pocket Spiral",
+   "category": "Merch",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "a0bfcb77-fb78-4f6a-8978-a4372e4d0bd6",
+   "name": "Slingshot Spiral Desk-Size Organizer",
+   "category": "Merch",
+   "price_cents": 1400,
+   "available": true
+  }
+ ]
+}
