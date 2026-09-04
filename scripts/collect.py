@@ -19,10 +19,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
-# A bot UA gets 403s from a good share of shop sites (WordPress hosts, Wix,
-# Squarespace), which hid their platform links from discovery entirely. Fetch
-# as an ordinary browser instead.
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+USER_AGENT = "CoffeePrices/1.0 (+https://github.com/tylerherman19/Coffee; public-menu research)"
 TIMEOUT = 18
 OVERPASS = [
     "https://overpass.kumi.systems/api/interpreter",
@@ -45,12 +42,7 @@ DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toas
 # instead (see imports/README.md). Discovering the link still matters: it
 # labels the shop's ordering platform and stops the daily run from wiping
 # that label off the four shops whose menus were captured by hand.
-BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "grubhub.com", "clover.com")
-# White-label ordering with merchant-set prices (a direct channel, not a
-# marketplace) that the runner cannot read: both answer Cloudflare challenges
-# from datacenter IPs. Discovered and persisted to shops.platform_ref here;
-# menus arrive as staged browser captures under imports/.
-BROWSER_HOSTS = ("order.online", "incentivio")
+BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com", "clover.com")
 
 
 @dataclass
@@ -193,7 +185,7 @@ def rank_candidate(url: str) -> int:
 # blob at least as often as in an <a href>, so the anchor scan alone missed
 # most of them. This finds a platform URL anywhere in the markup.
 EMBEDDED_URL = re.compile(
-    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|order\.spoton\.com|chownow\.com|order\.online|incentivio)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
+    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|order\.spoton\.com|chownow\.com)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
     re.I,
 )
 
@@ -202,26 +194,18 @@ def platform_links(html: str, base: str) -> list[str]:
     found: list[str] = []
     for anchor in BeautifulSoup(html, "html.parser").find_all("a", href=True):
         href = urljoin(base, anchor.get("href"))
-        if any(host in href.lower() for host in (*DIRECT_HOSTS, *BROWSER_HOSTS)):
+        if any(host in href.lower() for host in DIRECT_HOSTS):
             found.append(href)
     for match in EMBEDDED_URL.finditer(html):
         found.append(match.group(0).rstrip("\\\"'),;."))
     return found
 
 
-def browser_link(candidates: list[str]) -> str | None:
-    """Best browser-pipeline ordering link among the candidates, if any."""
-    links = [url for url in candidates
-             if any(host in urlparse(url).netloc.lower() for host in BROWSER_HOSTS)
-             and not NON_MENU_PATHS.search(url)]
-    return sorted(links, key=rank_candidate)[0] if links else None
-
-
-def direct_link(home_url: str) -> tuple[str | None, str | None, str | None, str | None]:
+def direct_link(home_url: str) -> tuple[str | None, str | None, str | None]:
     try:
         response = get(home_url)
     except Exception:
-        return None, None, None, None
+        return None, None, None
     candidates = [response.url, *platform_links(response.text, response.url)]
     # Many shops link the ordering platform from an Order/Menu page rather than
     # the homepage, which the old single-page scan could never reach.
@@ -247,8 +231,8 @@ def direct_link(home_url: str) -> tuple[str | None, str | None, str | None, str 
         platform = platform_of(candidate)
         if platform:
             cached = response.text if candidate == response.url else None
-            return platform, candidate, cached, browser_link(candidates)
-    return None, None, None, browser_link(candidates)
+            return platform, candidate, cached
+    return None, None, None
 
 
 # Packaging beats every drink word: "Espresso Whole Bean" and "5 Gallon Hot
@@ -907,34 +891,34 @@ def sync_shops(db: Supabase, discovered: list[dict[str, Any]]) -> list[dict[str,
     return get_all(db, "shops", {"select": "*", "closed_at": "is.null"})
 
 
-def resolve_source(shop: dict[str, Any]) -> tuple[str | None, str | None, str | None, str | None]:
+def resolve_source(shop: dict[str, Any]) -> tuple[str | None, str | None, str | None]:
     website = normalize_url(shop.get("website"))
     if not website:
-        return None, None, None, None
-    platform, source, cached, capture = direct_link(website)
+        return None, None, None
+    platform, source, cached = direct_link(website)
     name = shop["name"].lower()
     if not source and "sip" in name and shop["metro"] == "twin_cities":
-        return "square", "https://sipcoffeebar.square.site/s/order", None, capture
+        return "square", "https://sipcoffeebar.square.site/s/order", None
     if not source and "mad rooster" in name and shop["metro"] == "milwaukee":
-        return "toast", "https://toast.app/r/mad-rooster-milwaukee-4401-w-greenfield-ave/order/r-2faf7892-e26a-4085-b0e1-c1f8d3bb845b", None, capture
-    return platform, source, cached, capture
+        return "toast", "https://toast.app/r/mad-rooster-milwaukee-4401-w-greenfield-ave/order/r-2faf7892-e26a-4085-b0e1-c1f8d3bb845b", None
+    return platform, source, cached
 
 
-def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, str | None, str | None, list[MenuItem], tuple[float | None, int | None]]:
-    platform, source, cached, capture = resolve_source(shop)
+def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, str | None, list[MenuItem], tuple[float | None, int | None]]:
+    platform, source, cached = resolve_source(shop)
     website = normalize_url(shop.get("website"))
     if not platform or not source:
         # No ordering platform anywhere on the site. A few shops publish the
         # menu itself as HTML, which is the only remaining way to price them.
         if not website:
-            return shop, None, None, capture, [], (None, None)
+            return shop, None, None, [], (None, None)
         try:
             menu = extract_site_menu(website)
         except Exception as exc:
             print(f"Site menu failed for {shop['name']}: {exc}", file=sys.stderr)
             menu = []
         if not menu:
-            return shop, None, None, capture, [], (None, None)
+            return shop, None, None, [], (None, None)
         try:
             rating = extract_jsonld_rating(get(website).text)
         except Exception:
@@ -943,7 +927,7 @@ def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, st
         # (see the retry in import_menu.py), and save_menu's patch is not
         # guarded, so a new label here would abort the whole run. The menu is
         # still recorded and scrape_status still becomes "collected".
-        return shop, None, website, capture, menu, rating
+        return shop, None, website, menu, rating
     try:
         if platform == "square":
             menu = extract_square(source, cached)
@@ -951,20 +935,16 @@ def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, st
             menu = extract_html_menu(source, platform)
         home_html = get(website or source).text
         rating = extract_jsonld_rating(home_html)
-        return shop, platform, source, capture, menu, rating
+        return shop, platform, source, menu, rating
     except Exception as exc:
         print(f"Collection failed for {shop['name']}: {exc}", file=sys.stderr)
-        return shop, platform, source, capture, [], (None, None)
+        return shop, platform, source, [], (None, None)
 
 
-def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: str | None, capture: str | None, menu: list[MenuItem], rating: tuple[float | None, int | None]) -> None:
+def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: str | None, menu: list[MenuItem], rating: tuple[float | None, int | None]) -> None:
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     status = "collected" if menu else ("unsupported" if not platform else "empty")
-    # platform_ref is the shop's ordering/catalogue URL: the extractable source
-    # when one exists, else the browser-capture link. Persisted so the capture
-    # pipeline and manual imports stop re-discovering it every run.
-    platform_ref = source or capture
-    db.patch("shops", f"id=eq.{shop['id']}", {"platform": platform, "platform_ref": platform_ref, "last_checked_at": now, "scrape_status": status})
+    db.patch("shops", f"id=eq.{shop['id']}", {"platform": platform, "last_checked_at": now, "scrape_status": status})
     if rating[0] is not None:
         db.post("ratings", {"shop_id": shop["id"], "source": "website", "rating": rating[0], "review_count": rating[1], "observed_at": now})
     existing = get_all(db, "items", {"select": "*", "shop_id": f"eq.{shop['id']}"})
@@ -1007,8 +987,8 @@ def main() -> None:
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         futures = [pool.submit(collect_source, shop) for shop in candidates]
         for index, future in enumerate(concurrent.futures.as_completed(futures), 1):
-            shop, platform, source, capture, menu, rating = future.result()
-            save_menu(db, shop, platform, source, capture, menu, rating)
+            shop, platform, source, menu, rating = future.result()
+            save_menu(db, shop, platform, source, menu, rating)
             if menu:
                 print(f"[{index}/{len(candidates)}] {shop['name']}: {len(menu)} items via {platform}")
     print("Collection complete")
