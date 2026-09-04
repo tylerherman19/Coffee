@@ -1,0 +1,3191 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/alma (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid e7eab8d5-4f98-44eb-bb76-f60897726b2e, address on page: 528 University Ave SE, Minneapolis, MN)",
+ "shops": [
+  {
+   "id": 600,
+   "slug": "alma"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "3b6b34ec-ff22-41de-a36a-4bc6ec4a67c8",
+   "name": "Butter Croissant",
+   "category": "Bakery",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Housemade laminated butter croissant."
+   }
+  },
+  {
+   "platform_item_id": "0ec85bd6-ae35-41de-ac9f-bbaa25200613",
+   "name": "Chocolate Croissant",
+   "category": "Bakery",
+   "price_cents": 525,
+   "available": false,
+   "raw": {
+    "description": "Housemade laminated chocolate croissant."
+   }
+  },
+  {
+   "platform_item_id": "66db0d1a-7e23-4211-b283-b18ce9ef759e",
+   "name": "Cinnamon Roll",
+   "category": "Bakery",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "Danish dough swirled with cinnamon sugar.  (contains eggs)"
+   }
+  },
+  {
+   "platform_item_id": "7c093774-7759-4b6c-8db2-fe115ad69eab",
+   "name": "Cheddar Scone",
+   "category": "Bakery",
+   "price_cents": 475,
+   "available": false,
+   "raw": {
+    "description": "Made with pimento cheese, Sriracha, and scallions."
+   }
+  },
+  {
+   "platform_item_id": "c0c0b50a-a8da-4fe3-88f9-961fb46a2145",
+   "name": "Lemon-Currant Scone",
+   "category": "Bakery",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "Tender pastry flecked with dried currants and lemon zest."
+   }
+  },
+  {
+   "platform_item_id": "309cea72-6113-4653-a20e-d4bcfaba5cb4",
+   "name": "Seasonal Galette",
+   "category": "Bakery",
+   "price_cents": 525,
+   "available": false,
+   "raw": {
+    "description": "Free-form pastry crust filled with strawberry-rhubarb filling."
+   }
+  },
+  {
+   "platform_item_id": "8477d2a2-b93e-4084-aea6-6447ac6fc04e",
+   "name": "Seasonal Danish",
+   "category": "Bakery",
+   "price_cents": 525,
+   "available": false,
+   "raw": {
+    "description": "Raspberry streusel with vanilla cream"
+   }
+  },
+  {
+   "platform_item_id": "0ee8ab68-fd20-4c96-87db-ce2258be29d0",
+   "name": "Vegan Blueberry Tea Cake",
+   "category": "Bakery",
+   "price_cents": 450,
+   "available": false,
+   "raw": {
+    "description": "Vegan blueberry muffin with an orange glaze and a tender crumb."
+   }
+  },
+  {
+   "platform_item_id": "b76da3ce-ec0a-44b7-bcdf-0d9d8df5da9f",
+   "name": "Toasted Sourdough or Biscuit & Jam",
+   "category": "Bakery",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Served with butter and seasonal jam. (veg)"
+   }
+  },
+  {
+   "platform_item_id": "46aa617d-8e69-4e81-b9ab-dfd700c779e1",
+   "name": "Alma Sourdough-Loaf",
+   "category": "Bakery",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "A country style sourdough made with a touch of creme fraiche."
+   }
+  },
+  {
+   "platform_item_id": "321b4cb3-f2dc-4a4c-a886-d9c507d134ac",
+   "name": "Monkey Bread (weekend only)",
+   "category": "Bakery",
+   "price_cents": 450,
+   "available": false,
+   "raw": {
+    "description": "Bits of croissant dough tossed in cinnamon sugar and topped with brown butter icing."
+   }
+  },
+  {
+   "platform_item_id": "c907997c-ec9f-4c38-9fee-6c2bd63bbdb5",
+   "name": "Monkey Bread",
+   "category": "Bakery",
+   "price_cents": 450,
+   "available": false
+  },
+  {
+   "platform_item_id": "66bc3465-acc2-4f16-90d8-f113f692ac23",
+   "name": "Almond Croissant",
+   "category": "Bakery",
+   "price_cents": 525,
+   "available": false
+  },
+  {
+   "platform_item_id": "13e2230f-4ffb-4a50-80e2-e7d336f64ae4",
+   "name": "Gluten-Free Almond Financier",
+   "category": "Bakery",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Mini almond cake infused with orange. (gf)"
+   }
+  },
+  {
+   "platform_item_id": "82ea48b9-f950-4f32-bd6f-fde2aeebb13b",
+   "name": "Gluten-Free Chocolate Brownie",
+   "category": "Bakery",
+   "price_cents": 550,
+   "available": false,
+   "raw": {
+    "description": "Made with Valrhona chocolate and cold press coffee. Contains eggs. (gf)"
+   }
+  },
+  {
+   "platform_item_id": "8a30046c-4517-4b00-863b-e42e5c267945",
+   "name": "Coconut Macaroon",
+   "category": "Bakery",
+   "price_cents": 250,
+   "available": true,
+   "raw": {
+    "description": "A traditional style Macaroon made with grated coconut, sugar and egg whites."
+   }
+  },
+  {
+   "platform_item_id": "f893ff78-63b4-49c6-9e54-e12c7a627037",
+   "name": "Triple Chocolate Chip Cookie",
+   "category": "Bakery",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "Valrhona milk chocolate, chocolate chips, and cocoa nibs."
+   }
+  },
+  {
+   "platform_item_id": "e6ef2c28-7401-4407-b2fc-4d700377fdac",
+   "name": "Oatmeal-Toffee Cookie",
+   "category": "Bakery",
+   "price_cents": 200,
+   "available": true
+  },
+  {
+   "platform_item_id": "d2874941-bca2-46f9-8901-7c942c8f54c4",
+   "name": "Fresh Ricotta & Toast",
+   "category": "Breakfast",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Honey, olive oil, fresh herbs and cherry mostarda. (gfo,veg)"
+   }
+  },
+  {
+   "platform_item_id": "e16dd62b-128b-41e7-b62e-e214c9673987",
+   "name": "Steel Cut Oatmeal",
+   "category": "Breakfast",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Brown butter roasted apples, cinnamon and pumpkin seeds. (veg)"
+   }
+  },
+  {
+   "platform_item_id": "39783682-cf2d-470f-b1ad-8db861a1be90",
+   "name": "Granola & Greek Yogurt",
+   "category": "Breakfast",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Seed and nut granola, with seasonal compote on Greek yogurt. *contains nuts.(veg, dfo)"
+   }
+  },
+  {
+   "platform_item_id": "e48993b2-a46f-4e36-9ebd-94261582dd9b",
+   "name": "Baked Egg Strata",
+   "category": "Breakfast",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Organic eggs, spinach, shiitake mushrooms, gruyere cheese, bread and fresh thyme. Served with tomato jam (veg)."
+   }
+  },
+  {
+   "platform_item_id": "33737cff-eda9-4395-9733-440aac71c107",
+   "name": "Ala Egg Souffle",
+   "category": "Breakfast",
+   "price_cents": 250,
+   "available": true,
+   "raw": {
+    "description": "Souffle style scrambled egg. *Contains dairy"
+   }
+  },
+  {
+   "platform_item_id": "91f59bc3-b149-4dbe-bfb2-f8868f92cde2",
+   "name": "Up South",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Buttermilk biscuit, scrambled egg souffle, pimento cheese and sweet peppers (veg, gfo)."
+   }
+  },
+  {
+   "platform_item_id": "6d554b49-9fa5-4e5e-9835-ecaebcb44b57",
+   "name": "Sunshine Helps",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Buttermilk biscuit, scrambled eggs, sharp cheddar, tomato and arugula (veg, gfo)."
+   }
+  },
+  {
+   "platform_item_id": "bca8ce15-eba1-4acb-969c-c68caf03aa19",
+   "name": "Ham Jam",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Scrambled egg souffle, smoked ham, jack cheese, caramelized onion jam and maple-roesmary syrup on a toasted, buttered roll."
+   }
+  },
+  {
+   "platform_item_id": "f93a4d85-f360-4c2b-8bb3-9b2d8cb37b54",
+   "name": "Corner Store",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Toasted buttered roll, scrambled egg souffle, American cheese and two slices Peterson's bacon (gfo)."
+   }
+  },
+  {
+   "platform_item_id": "aecb64cf-afbe-4653-a62e-7002689df486",
+   "name": "Torta Sorta",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Toasted roll, scrambled egg souffle, black bean refritos, jalape\u00f1o slaw and monterey jack (veg, gfo)."
+   }
+  },
+  {
+   "platform_item_id": "0b0eaff5-b789-48d8-8717-e2858230f448",
+   "name": "Bibb Lettuce Salad",
+   "category": "Sides & Extras",
+   "price_cents": 1100,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 1100,
+   "raw": {
+    "description": "Buttermilk-herb dressing, parmesan and rosemary toasted almonds (gf)."
+   }
+  },
+  {
+   "platform_item_id": "8799fd01-1687-4f34-b0a2-b76f840b4216",
+   "name": "*Crispy Smashed Potatoes",
+   "category": "Sides & Extras",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 800,
+   "raw": {
+    "description": "Tossed with garlic & duck fat persillade. (vego, gf)"
+   }
+  },
+  {
+   "platform_item_id": "eee6d09d-e23c-4532-b0e4-90119a9beee5",
+   "name": "Smoked Turkey & Chickpea-Farro Salad",
+   "category": "Sides & Extras",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Farro, chickpeas, mozzarella cheese, giardinieria and spicy herb vinaigrette, garnished with arugula. (vego)"
+   }
+  },
+  {
+   "platform_item_id": "d2874941-bca2-46f9-8901-7c942c8f54c4",
+   "name": "Fresh Ricotta & Toast",
+   "category": "Sides & Extras",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Honey, olive oil, fresh herbs and cherry mostarda. (gfo,veg)"
+   }
+  },
+  {
+   "platform_item_id": "61c5f586-5c03-4270-b2d1-1f9a330295ac",
+   "name": "Old Dutch Chips",
+   "category": "Sides & Extras",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "The one and only (1.5 oz)."
+   }
+  },
+  {
+   "platform_item_id": "e7a5eb81-576a-46fc-9ae4-f4a4a05e0720",
+   "name": "Side of Bacon",
+   "category": "Sides & Extras",
+   "price_cents": 200,
+   "available": true,
+   "price_low_cents": 200,
+   "price_high_cents": 400,
+   "raw": {
+    "description": "Peterson Craft Meat's thick-cut bacon."
+   }
+  },
+  {
+   "platform_item_id": "a244e6af-96a5-4221-a040-9fa2fd71eff1",
+   "name": "Side Ham",
+   "category": "Sides & Extras",
+   "price_cents": 200,
+   "available": true,
+   "price_low_cents": 200,
+   "price_high_cents": 400,
+   "raw": {
+    "description": "Peterson Craft Meat's Smoked pit ham. (gf,df)"
+   }
+  },
+  {
+   "platform_item_id": "00e46f91-ae4e-4df4-bc37-d0e77edf3363",
+   "name": "Side of Smoked Turkey",
+   "category": "Sides & Extras",
+   "price_cents": 200,
+   "available": true,
+   "price_low_cents": 200,
+   "price_high_cents": 400,
+   "raw": {
+    "description": "Wild Acres Smoked Turkey"
+   }
+  },
+  {
+   "platform_item_id": "b76da3ce-ec0a-44b7-bcdf-0d9d8df5da9f",
+   "name": "Toasted Sourdough or Biscuit & Jam",
+   "category": "Sides & Extras",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Served with butter and seasonal jam. (veg)"
+   }
+  },
+  {
+   "platform_item_id": "c601221c-bc10-4340-af28-0b2a54fcaa00",
+   "name": "Medium Roast",
+   "category": "Beverages",
+   "price_cents": 300,
+   "available": true,
+   "price_low_cents": 300,
+   "price_high_cents": 350,
+   "raw": {
+    "description": "12oz or 16oz - Backstory Legend or Wayfinder Coffee"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2be01c9e-1e9b-417f-8330-8a98fc3b42fa",
+   "name": "Latte",
+   "category": "Beverages",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600,
+   "raw": {
+    "description": "12oz (double shot) or 16oz (quad shot)"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f6b74b9e-e3e4-47e2-a4e3-1d613eb79689",
+   "name": "Cortado",
+   "category": "Beverages",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "6oz - Espresso mixed with equal amount of steamed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d764200e-dc30-4fe8-8756-a37d3c3ebd44",
+   "name": "Flat White",
+   "category": "Beverages",
+   "price_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "6oz - Double shot espresso with small amount of milk foam."
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ff298571-34d5-44a2-bf21-c0e457ce9c0b",
+   "name": "Cappuccino",
+   "category": "Beverages",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "8oz - Espresso with equal parts milk, and foam."
+   }
+  },
+  {
+   "platform_item_id": "d14e4386-953c-4b0b-b497-f21c3a6edebf",
+   "name": "Dark Roast",
+   "category": "Beverages",
+   "price_cents": 300,
+   "available": true,
+   "price_low_cents": 300,
+   "price_high_cents": 350,
+   "raw": {
+    "description": "12oz/16oz - Peace Coffee"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ab5973af-43fc-403b-ac90-2bb5fa27322a",
+   "name": "Macchiato",
+   "category": "Beverages",
+   "price_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "8oz - Espresso small drop of milk foam."
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "de76a628-0863-4c20-b2fc-723b548fc1bc",
+   "name": "Espresso Shot",
+   "category": "Beverages",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 500,
+   "raw": {
+    "description": "2 or 4 Shot Pull - Kopplin's Coffee"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cef62361-abe2-4dec-83ef-986aa76647cd",
+   "name": "Americano",
+   "category": "Beverages",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 450,
+   "raw": {
+    "description": "Espresso shot and hot water"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5832ee4b-7a57-458b-9e62-389ca71d2d3b",
+   "name": "Cold Brew",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 600,
+   "raw": {
+    "description": "The Get Down Coffee Co.\n\nTurn Tables blend: Caramelly & Smokey"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8e2deade-e866-4a41-9502-2ad1ae9a8bc1",
+   "name": "Mocha",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 625,
+   "raw": {
+    "description": "12oz/16oz - w/ Valrhona Chocolate"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8badbd53-22ae-431c-9451-012f44edb069",
+   "name": "Affogato",
+   "category": "Beverages",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Housemade vanilla ice cream and locally roasted espresso."
+   }
+  },
+  {
+   "platform_item_id": "36c25e9e-d9c6-421e-8b25-de8573705db7",
+   "name": "Decaf Espresso",
+   "category": "Beverages",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 500,
+   "raw": {
+    "description": "The Get Down Coffee Co.\n\nColumbia- Single Origin. Taste notes: Bakers Chocolate & Lemon"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2cec5f72-4fd9-4213-b72f-0180be310e13",
+   "name": "Pellegrino Sparkling Water",
+   "category": "Beverages",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "750 ml glass bottle"
+   }
+  },
+  {
+   "platform_item_id": "a5ae87ae-b212-4705-9c01-66b9f743f098",
+   "name": "La Croix - Grapefruit",
+   "category": "Beverages",
+   "price_cents": 250,
+   "available": true,
+   "raw": {
+    "description": "12oz - Can"
+   }
+  },
+  {
+   "platform_item_id": "71a218fb-8244-4295-b0fc-403de3e04c86",
+   "name": "Diet Coke",
+   "category": "Beverages",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Take a Diet Coke break with this refreshing, no-calorie soft drink"
+   }
+  },
+  {
+   "platform_item_id": "22e4cdcf-9bf5-401a-b9ba-3e4d159c24a6",
+   "name": "Sprite",
+   "category": "Beverages",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Classic, cool, crisp lemon-lime flavored taste that's caffeine free"
+   }
+  },
+  {
+   "platform_item_id": "930be570-b19c-4469-8444-91723b4f1166",
+   "name": "Mexican Coke",
+   "category": "Beverages",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Coca-Cola Original Taste \u2014 the crisp, refreshing taste you know and love"
+   }
+  },
+  {
+   "platform_item_id": "b6d07929-6fbf-4b81-8062-04efec0a36ec",
+   "name": "Blueberry Smoothie",
+   "category": "Beverages",
+   "price_cents": 950,
+   "available": true,
+   "raw": {
+    "description": "Greek yogurt, blueberry, banana, soy milk, honey, and lemon zest.(gf)"
+   }
+  },
+  {
+   "platform_item_id": "31b1dec8-3cdf-487d-b390-a72a4c14003a",
+   "name": "Lemonade",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Lemon juice, cane sugar, water."
+   },
+   "modifiers": [
+    {
+     "group_name": "Lemonade",
+     "choice_name": "Classic Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Lemonade",
+     "choice_name": "Seasonal Lemonade",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e9155cee-65ff-41a7-b4d0-62b73e334ab5",
+   "name": "Fresh Squeezed Carrot-Apple",
+   "category": "Beverages",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "12oz. Housemade with fresh carrots, apples, ginger and turmeric."
+   }
+  },
+  {
+   "platform_item_id": "ac1a28ce-9ec4-43ac-b6ba-526ca19a3833",
+   "name": "Orange Juice",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "12oz."
+   }
+  },
+  {
+   "platform_item_id": "190bf9c8-aa39-41a3-9a64-2c579c01ef83",
+   "name": "Pinneapple Ginger Ale",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true
+  },
+  {
+   "platform_item_id": "441c0427-3b66-4be0-b7e0-abc746369d7c",
+   "name": "Pompelmo - 3LECHE",
+   "category": "Beverages",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "A grapefruit kombucha with a nod to classic Italian red aperitivos. Rhubarb root, bitter orange, wormwood, cinchona bark, and gentian add strong bitter notes balanced by florals of chamomile, lemon verbena, & yarrow."
+   }
+  },
+  {
+   "platform_item_id": "66702758-1e16-4fef-9d74-861f94452936",
+   "name": "Hot Chocolate",
+   "category": "Beverages",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 525,
+   "raw": {
+    "description": "12oz/16oz"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e633db62-ef5c-41ca-90aa-9b25125a2d5a",
+   "name": "Chai Latte",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 650,
+   "raw": {
+    "description": "House brewed Chai tea"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "75b3ae92-58cb-484c-9cda-3be206831367",
+   "name": "Matcha Latte",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 650,
+   "raw": {
+    "description": "12oz/16oz"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f6410a4b-5a38-4798-9e46-bd911d11fd28",
+   "name": "Arnold Palmer",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Unsweetened black tea & seasonal lemonade"
+   }
+  },
+  {
+   "platform_item_id": "121eb3da-4961-4b11-a962-afb2d688fa7e",
+   "name": "Iced Tea",
+   "category": "Beverages",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "16oz. Unsweetened black tea from Rishi."
+   },
+   "modifiers": [
+    {
+     "group_name": "Lemon",
+     "choice_name": "Add Lemon slice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c866161b-23ac-4d04-9403-110dd5c27fc3",
+   "name": "Hot Tea",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Assorted black, green and herbal by Rishi Tea."
+   },
+   "modifiers": [
+    {
+     "group_name": "Loose Leaf Tea",
+     "choice_name": "China Breakfast Black",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Loose Leaf Tea",
+     "choice_name": "Jasmine Green Tea",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Loose Leaf Tea",
+     "choice_name": "Iron Goddess of Mercy Oolong",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Loose Leaf Tea",
+     "choice_name": "Peppermint Rooibos",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Loose Leaf Tea",
+     "choice_name": "Turmeric Ginger",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Loose Leaf Tea",
+     "choice_name": "Earl Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Loose Leaf Tea",
+     "choice_name": "Chamomile",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Loose Leaf Tea",
+     "choice_name": "Sencha",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "fe180176-7e98-44c4-8368-42a1ce828b32",
+   "name": "London Fog",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "16oz. An Earl grey and lavender tea latte. Made with whole milk unless otherwise noted."
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "6194fe3b-f067-4961-81a2-4c6c5b8f0f78",
+   "name": "Scarlet Matcha Latte",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": false,
+   "price_low_cents": 550,
+   "price_high_cents": 675,
+   "raw": {
+    "description": "Matcha latte with a house hibiscus-berry syrup."
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d93ca88a-0582-496d-be60-56bae34a252e",
+   "name": "Scarlet Matcha Fizz",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": false,
+   "price_low_cents": 500,
+   "price_high_cents": 625,
+   "raw": {
+    "description": "3LECHE Pompelmo Kombucha, housemade hibiscus syrup, and whisked green tea matcha served over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "To-Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Room For Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Breve",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Miel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vanilla Bean Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Rosemary Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Vegan Dulce de Leche",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Scarlett Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Simple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Orange Thyme",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Sugar Cube",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "In Own Mug",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifications",
+     "choice_name": "Cherry Almond",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d2e3304e-79de-49cc-bb88-601d22cda88a",
+   "name": "Sea Salt Caramel",
+   "category": "Pantry",
+   "price_cents": 100,
+   "available": true,
+   "raw": {
+    "description": "The perfect bite-sized treat with sweet caramel and flakey sea salt."
+   }
+  },
+  {
+   "platform_item_id": "61c5f586-5c03-4270-b2d1-1f9a330295ac",
+   "name": "Old Dutch Chips",
+   "category": "Pantry",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "The one and only (1.5 oz)."
+   }
+  },
+  {
+   "platform_item_id": "e9cdf16a-d033-449d-a04c-a4450527f627",
+   "name": "Seeded Maple Granola",
+   "category": "Pantry",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Rolled oats, maple syrup, almonds, brown sugar, coconut, olive oil, pumpkin seeds, sunflower seeds, salt"
+   }
+  },
+  {
+   "platform_item_id": "77df4aec-62c7-4990-9c54-89f9f5e87589",
+   "name": "Mole Chile 4oz",
+   "category": "Pantry",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Freshly ground ancho, guajillo, pasilla and chipotle chilies with dark spices, sesame & cocoa.  Great in your homemade chili recipe or seasoning steaks, salmon, or vegetables on the grill (4 oz).\r\n*Medium heat."
+   }
+  },
+  {
+   "platform_item_id": "2cdb6600-c01a-45dd-988a-8a36777d86f9",
+   "name": "Za'atar 4oz",
+   "category": "Pantry",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "A Lebanese style of Za'atar.  Wild sumac, thyme, sesame seeds, dark spices & salt. A great condiment for grilled bread, rice, soft cheese or scrambled eggs (4 oz)."
+   }
+  },
+  {
+   "platform_item_id": "32425667-1988-4e04-96d5-4f860e740b66",
+   "name": "Salt & Pepper Crackers",
+   "category": "Pantry",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Housemade crackers. Versatile and flavorful, the perfect accompaniment to hummus, cheese, or on the go snacking."
+   }
+  },
+  {
+   "platform_item_id": "955d3481-cb22-4516-a4fd-50e5839996ba",
+   "name": "Ricotta w/ Honey & Herbs",
+   "category": "Pantry",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "House-made ricotta with olive oil, honey, and fresh herbs. Serve with toasted bread, the base for a homemade tart, or a savory/sweet pancake."
+   }
+  },
+  {
+   "platform_item_id": "50326d9f-c513-4a89-8923-c311d7270c07",
+   "name": "Pantry Plain Ricotta",
+   "category": "Pantry",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Our delicious, housemade ricotta is now available to grab and go. Perfect for homemade lasagnas, pasta sauce, cheese boards, on top of toast, and more (8 oz)."
+   }
+  },
+  {
+   "platform_item_id": "d7a014cf-60c0-47dc-8e8a-f7acd417f693",
+   "name": "Spicy Pickled Red Onions",
+   "category": "Pantry",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Flavored with carrots and chipotle. An excellent compliment to sandwiches and tacos."
+   }
+  },
+  {
+   "platform_item_id": "c2ab7b38-b2c0-481f-8e5e-6b022a42d3ba",
+   "name": "Marinated Olives",
+   "category": "Pantry",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Castelvetrano & Kalamata Olives mixed with orange zest, ginger, fennel seed, garlic and thyme (4oz)."
+   }
+  },
+  {
+   "platform_item_id": "b0ac1638-b720-404e-ad5a-f49658d0d275",
+   "name": "Pimento Cheese",
+   "category": "Pantry",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "A savory spiced spread with roasted peppers, signature spices and three cheeses."
+   }
+  },
+  {
+   "platform_item_id": "7db9eab4-5cc9-4ccc-b1ef-2ec6d8a78939",
+   "name": "Chickpea & Farro Salad (No Turkey)",
+   "category": "Pantry",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Farro, mozzarella cheese, giardiniera and vinaigrette. Vegetarian. \r\n\r\nContains gluten, dairy, and eggs."
+   }
+  },
+  {
+   "platform_item_id": "07b2ea1c-84e0-45e0-9a78-a12028950697",
+   "name": "Buttermilk-Herb Dressing",
+   "category": "Pantry",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Our house vinaigrette. A light and fresh dressing for the perfect seasonal salad (8oz)."
+   }
+  },
+  {
+   "platform_item_id": "549024e0-4c7a-4afa-8dbf-1d68ba74c18b",
+   "name": "Triple Chip Cookie Dough",
+   "category": "Pantry",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Our signature triple chip cookie dough is now available to take and bake at home! Includes baking instructions."
+   }
+  },
+  {
+   "platform_item_id": "4d03d0a1-b512-4312-8c15-96b3ad2e1723",
+   "name": "Lowry Hill Assorted Salami",
+   "category": "Pantry",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Classic Italian style salami made up the street at Lowry Hill Provisions.  Our assorted varieties include; fennel, rose, garlic, sumac and hot chili. (gf,df)  \r\n6oz"
+   }
+  },
+  {
+   "platform_item_id": "c0d9897c-4963-4d30-be5b-0145712b7795",
+   "name": "Giardinieria",
+   "category": "Pantry",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Preserved carrots, peppers, cauliflower, green beans and celery with olive oil, oregano and pepper flakes. Excellent as antipasti or a condiment to sandwiches."
+   }
+  },
+  {
+   "platform_item_id": "a6295e87-f96f-4ecb-941b-057bc114559d",
+   "name": "Seasonal Jam",
+   "category": "Pantry",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Our seasonal Apple Butter. Perfect topping for our croissants or Alma Loaf (4 oz)."
+   }
+  },
+  {
+   "platform_item_id": "1523656d-952b-4123-bfb9-49b6e26f4b32",
+   "name": "Cherry Mostarda",
+   "category": "Pantry",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Housemade preserves in the Italian tradition. Excellent with cheese and charcuterie. (4 oz)"
+   }
+  },
+  {
+   "platform_item_id": "eceda4a5-7c7e-496a-a056-40554b0d150a",
+   "name": "Vanilla Bean Syrup",
+   "category": "Pantry",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "8oz Housemade Vanilla Bean Syrup"
+   }
+  },
+  {
+   "platform_item_id": "81daffdd-a5fb-4177-a011-3621343f56a2",
+   "name": "Sarvecchio Parmesan Cheese",
+   "category": "Pantry",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "5.3oz Sartori Cheese. Wisconsin "
+   }
+  }
+ ]
+}
