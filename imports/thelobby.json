@@ -1,0 +1,1229 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.thelobbycoffee.com/drinks",
+ "shops": [
+  {
+   "id": 480,
+   "slug": null
+  },
+  {
+   "id": 657,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "Blueberry Latte or Matcha",
+   "category": "Summer Drinks",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "price_text": "hot 10oz - $7.25, hot or iced 16oz - $8.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Strawberry Cheesecake Latte Matcha",
+   "category": "Summer Drinks",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "price_text": "hot 10oz - $7.25 , hot or iced 16oz - $8.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Fresh Squeezed Lemonade",
+   "category": "Summer Drinks",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "price_text": "Flavored Lemonade $6.25 , Regular Lemonade $5.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Banana Pudding Latte or Matcha",
+   "category": "Summer Drinks",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "price_text": "hot 10oz - $7.25 , hot or iced 16oz - $8.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Orange Espresso & Tonic",
+   "category": "Signature Drinks",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "iced 16oz - $6.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Iced Cappuccino",
+   "category": "Signature Drinks",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "iced 16oz - $7.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cinnamon Toast Latte",
+   "category": "Signature Drinks",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "price_text": "hot 10oz - $6.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Maple Cardamom Latte",
+   "category": "Signature Drinks",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "price_text": "hot 10oz - $6.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Lavender Iced Tea & Tonic",
+   "category": "Signature Drinks",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "iced 16oz - $5.75"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Honey Lavender Latte",
+   "category": "Signature Drinks",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "price_text": "hot 10oz - $6.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Brown Sugar Latte",
+   "category": "Signature Drinks",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "price_text": "hot 10oz - $6.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Golden Honey Latte",
+   "category": "Signature Drinks",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "price_text": "hot 10oz - $6.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Americano",
+   "category": "Coffee",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "price_text": "10oz - $3.75"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Flat White",
+   "category": "Coffee",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "8oz - $4.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Latte",
+   "category": "Coffee",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "price_text": "10oz - $6.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cortado",
+   "category": "Coffee",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "4oz - $3.95"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cappuccino",
+   "category": "Coffee",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "8oz - $4.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Espresso",
+   "category": "Coffee",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$3.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Storm Chaser",
+   "category": "Coffee",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "price_text": "10oz - $4.75"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Macchiato",
+   "category": "Coffee",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "2oz - $3.75"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cold Brew",
+   "category": "Coffee",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "16oz - $5.75"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Beach Season",
+   "category": "Smoothies",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$9.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Sun Deck",
+   "category": "Smoothies",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$9.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Snapper",
+   "category": "Smoothies",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$9.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Blue Gill",
+   "category": "Smoothies",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$9.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Skipper",
+   "category": "Smoothies",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$9.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Wake Skate",
+   "category": "Smoothies",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$9.50"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Add a Scoop of Protein",
+   "category": "Smoothies",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$2.00"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Strawberry Lemonade (Seasonal)",
+   "category": "Non-Coffee",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$5.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Arnold Palmer (Seasonal)",
+   "category": "Non-Coffee",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$5.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Lemonade (Seasonal)",
+   "category": "Non-Coffee",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$5.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Italian Soda",
+   "category": "Non-Coffee",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$4.25"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Almond Croissant",
+   "category": "Food",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$6.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chocolate Chip Banana Bread",
+   "category": "Food",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$5.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chocolate Croissant",
+   "category": "Food",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$5.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Earl Gray Infused w/ Black Currants Scone",
+   "category": "Food",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$4.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chocolate Brownie (Gluten Free)",
+   "category": "Food",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$5.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chocolate Chip Cookie",
+   "category": "Food",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$4.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Classic Croissant",
+   "category": "Food",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$5.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Coconut Rocher (Gluten Free)",
+   "category": "Food",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$3.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Everything Bagel",
+   "category": "Food",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$6.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Plain Bagel",
+   "category": "Food",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$6.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Avocado and Whip Feta on Toast",
+   "category": "Food",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$12.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Turkey Sausage Breakfast Sandwich**",
+   "category": "Food",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$8.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bagel Breakfast Sandwich**",
+   "category": "Food",
+   "price_cents": 875,
+   "price_low_cents": 875,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$8.75"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Sausage Breakfast Sandwich**",
+   "category": "Food",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$8.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bacon Breakfast Sandwich**",
+   "category": "Food",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$8.00"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Turkey & Ham Panini",
+   "category": "Food",
+   "price_cents": 1450,
+   "price_low_cents": 1450,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$14.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Turkey & Bacon Panini",
+   "category": "Food",
+   "price_cents": 1325,
+   "price_low_cents": 1325,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$13.25"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chicken Avocado Melt Panini",
+   "category": "Food",
+   "price_cents": 1325,
+   "price_low_cents": 1325,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$13.25"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Ham & Cheese Panini",
+   "category": "Food",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "price_text": "$12.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Ube Latte or Matcha",
+   "category": "Summer Drinks",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Jasmine Green Tea",
+   "category": "Teas",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Moroccan Mint Meritage",
+   "category": "Teas",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Wild Rose Honeybush Chamomile",
+   "category": "Teas",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mallorca Melon (House Iced Tea on Tap)",
+   "category": "Teas",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Earl Gray",
+   "category": "Teas",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "English Breakfast",
+   "category": "Teas",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Matcha",
+   "category": "Teas",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Rishi Chai",
+   "category": "Teas",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Add a syrup (vanilla, SF vanilla, chocolate, caramel, honey, maple, lavender, cinnamon)",
+     "price_delta_cents": 85
+    },
+    {
+     "group_name": "Add-ons",
+     "choice_name": "Sub milk alternative (oat, almond, coconut)",
+     "price_delta_cents": 100
+    }
+   ]
+  }
+ ]
+}
