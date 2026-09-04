@@ -1,0 +1,1002 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.caseramilwaukee.com/menu",
+ "shops": [
+  {
+   "id": 125,
+   "slug": "casera"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "rishi-tea-s",
+   "name": "Rishi Tea (S)",
+   "category": "Tea",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Rishi Tea (S) $6.50 - blend of natural herbs and tea",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "london-fog-s",
+   "name": "London Fog (S)",
+   "category": "Tea",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "London Fog (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "london-fog-l",
+   "name": "London Fog (L)",
+   "category": "Tea",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "London Fog (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "golden-milk-s",
+   "name": "Golden Milk (S)",
+   "category": "Tea",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Golden Milk (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "golden-milk-l",
+   "name": "Golden Milk (L)",
+   "category": "Tea",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Golden Milk (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "matcha-latte-s",
+   "name": "Matcha Latte (S)",
+   "category": "Tea",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Matcha Latte (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "matcha-latte-l",
+   "name": "Matcha Latte (L)",
+   "category": "Tea",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Matcha Latte (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "chai-latte-s",
+   "name": "Chai Latte (S)",
+   "category": "Tea",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Chai Latte (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "chai-latte-l",
+   "name": "Chai Latte (L)",
+   "category": "Tea",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Chai Latte (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "arnold-palmer-s",
+   "name": "Arnold Palmer (S)",
+   "category": "Tea",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Arnold Palmer (S)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "arnold-palmer-l",
+   "name": "Arnold Palmer (L)",
+   "category": "Tea",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Arnold Palmer (L)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "matcha-lemonade-s",
+   "name": "Matcha Lemonade (S)",
+   "category": "Tea",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Matcha Lemonade (S)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "matcha-lemonade-l",
+   "name": "Matcha Lemonade (L)",
+   "category": "Tea",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Matcha Lemonade (L)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sparkling-matcha-s",
+   "name": "Sparkling Matcha (S)",
+   "category": "Tea",
+   "price_cents": 650,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Sparkling Matcha (S) $6.50 - add flavor +$1",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Flavor",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sparkling-matcha-l",
+   "name": "Sparkling Matcha (L)",
+   "category": "Tea",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Sparkling Matcha (L) $7.50 - add flavor +$1",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Flavor",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "manila-fog",
+   "name": "Manila Fog",
+   "category": "Specialty Drinks",
+   "price_cents": 800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Manila Fog $8 - earl grey tea latte with ube syrup, dusting of coriander",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "affogato",
+   "name": "Affogato",
+   "category": "Specialty Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Affogato $5 - espresso or matcha over vanilla ice cream",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "americano-s",
+   "name": "Americano (S)",
+   "category": "Cafe",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Americano (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "americano-l",
+   "name": "Americano (L)",
+   "category": "Cafe",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Americano (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "latte-s",
+   "name": "Latte (S)",
+   "category": "Cafe",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Latte (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "latte-l",
+   "name": "Latte (L)",
+   "category": "Cafe",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Latte (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cappuccino-s",
+   "name": "Cappuccino (S)",
+   "category": "Cafe",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Cappuccino (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cappuccino-l",
+   "name": "Cappuccino (L)",
+   "category": "Cafe",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Cappuccino (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cortado",
+   "name": "Cortado",
+   "category": "Cafe",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Cortado $4 - 4oz only",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "macchiato",
+   "name": "Macchiato",
+   "category": "Cafe",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Macchiato",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "espresso-s",
+   "name": "Espresso (S)",
+   "category": "Cafe",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Espresso (S)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "espresso-l",
+   "name": "Espresso (L)",
+   "category": "Cafe",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Espresso (L)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "drip-s",
+   "name": "Drip (S)",
+   "category": "Cafe",
+   "price_cents": 325,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Drip (S)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "drip-l",
+   "name": "Drip (L)",
+   "category": "Cafe",
+   "price_cents": 425,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Drip (L)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cold-brew-s",
+   "name": "Cold Brew (S)",
+   "category": "Cafe",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Cold Brew (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cold-brew-l",
+   "name": "Cold Brew (L)",
+   "category": "Cafe",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Cold Brew (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "italian-soda-s",
+   "name": "Italian Soda (S)",
+   "category": "Other Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Italian Soda (S)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "italian-soda-l",
+   "name": "Italian Soda (L)",
+   "category": "Other Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Italian Soda (L)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lemonade-s",
+   "name": "Lemonade (S)",
+   "category": "Other Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Lemonade (S)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lemonade-l",
+   "name": "Lemonade (L)",
+   "category": "Other Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Lemonade (L)",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "steamers-s",
+   "name": "Steamers (S)",
+   "category": "Other Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Steamers (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "steamers-l",
+   "name": "Steamers (L)",
+   "category": "Other Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Steamers (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "hot-chocolate-s",
+   "name": "Hot Chocolate (S)",
+   "category": "Other Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Hot Chocolate (S)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "hot-chocolate-l",
+   "name": "Hot Chocolate (L)",
+   "category": "Other Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Hot Chocolate (L)",
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond/Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "omelet-your-way",
+   "name": "Omelet Your Way",
+   "category": "Breakfast",
+   "price_cents": 1400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Omelet Your Way",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "two-eggs-your-way",
+   "name": "Two Eggs Your Way",
+   "category": "Breakfast",
+   "price_cents": 1200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Two Eggs Your Way",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "seasonal-granola-bowl",
+   "name": "Seasonal Granola Bowl",
+   "category": "Breakfast",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Seasonal Granola Bowl",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "avocado-toast",
+   "name": "Avocado Toast",
+   "category": "Breakfast",
+   "price_cents": 1300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Avocado Toast",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "power-bowl",
+   "name": "Power Bowl",
+   "category": "Breakfast",
+   "price_cents": 1500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Power Bowl",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "hoppel-poppel",
+   "name": "Hoppel Poppel",
+   "category": "Breakfast",
+   "price_cents": 1300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Hoppel Poppel",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "morning-bun-french-toast",
+   "name": "Morning Bun French Toast",
+   "category": "Breakfast",
+   "price_cents": 1300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Morning Bun French Toast",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "papas-bravas",
+   "name": "Papas Bravas",
+   "category": "Breakfast",
+   "price_cents": 1300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Papas Bravas",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "thick-cut-blta",
+   "name": "Thick Cut BLTA",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Thick Cut BLTA",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "milly-cheesesteak",
+   "name": "Milly Cheesesteak",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Milly Cheesesteak",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "croissant-sammie",
+   "name": "Croissant Sammie",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Croissant Sammie",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "pesto-portabelle-sandwich",
+   "name": "Pesto Portabelle Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Pesto Portabelle Sandwich",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ultimate-grilled-cheese",
+   "name": "Ultimate Grilled Cheese",
+   "category": "Sandwiches",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Ultimate Grilled Cheese",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cbr-wrap",
+   "name": "CBR Wrap",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "CBR Wrap",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "buffalo-salad",
+   "name": "Buffalo Salad",
+   "category": "Salads",
+   "price_cents": 1400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Buffalo Salad",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cobb-salad",
+   "name": "Cobb Salad",
+   "category": "Salads",
+   "price_cents": 1400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Cobb Salad",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "side-salad",
+   "name": "Side Salad",
+   "category": "A La Carte",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Side Salad",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fruit-cup",
+   "name": "Fruit Cup",
+   "category": "A La Carte",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Fruit Cup",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "breakfast-potatoes",
+   "name": "Breakfast Potatoes",
+   "category": "A La Carte",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Breakfast Potatoes",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "toast",
+   "name": "Toast",
+   "category": "A La Carte",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Toast",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "chips",
+   "name": "Chips",
+   "category": "A La Carte",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Chips",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bacon---sausage",
+   "name": "Bacon / Sausage",
+   "category": "A La Carte",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Bacon / Sausage",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1-egg",
+   "name": "1 Egg",
+   "category": "A La Carte",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "1 Egg",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2-egg",
+   "name": "2 Egg",
+   "category": "A La Carte",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "2 Egg",
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "avocado",
+   "name": "Avocado",
+   "category": "A La Carte",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": "Avocado",
+   "modifiers": []
+  }
+ ]
+}
