@@ -78,7 +78,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [metro, setMetro] = useState<Metro>('milwaukee');
-  const [view, setView] = useState<View>('shops');
+  const [view, setView] = useState<View>('compare');
   const [query, setQuery] = useState('');
   const [openOnly, setOpenOnly] = useState(false);
   const [pricedOnly, setPricedOnly] = useState(true);
