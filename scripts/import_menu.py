@@ -90,9 +90,17 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
     if len(by_pid) != len(items):
         print(f"note: collapsed {len(items) - len(by_pid)} duplicate platform_item_id rows (last wins)")
         items = list(by_pid.values())
+    def entry_raw(entry: dict) -> dict:
+        raw = entry.get("raw")
+        if isinstance(raw, dict):
+            return raw
+        return {"text": raw} if raw else {}
+
     source_url = bundle.get("source_url")
     platform = bundle.get("platform")
-    bundle_raw = bundle.get("raw") or {}
+    bundle_raw = bundle.get("raw")
+    if not isinstance(bundle_raw, dict):
+        bundle_raw = {"text": bundle_raw} if bundle_raw else {}
 
     for shop in bundle["shops"]:
         shop_id = shop["id"]
@@ -135,7 +143,7 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
                 "price_channel": "direct",
                 "available": entry.get("available", True),
                 "source_url": source_url,
-                "raw": {**bundle_raw, **(entry.get("raw") or {}), "shop": label},
+                "raw": {**bundle_raw, **entry_raw(entry), "shop": label},
             }
             if item is None:
                 new_rows.append({**values, "shop_id": shop_id, "platform_item_id": pid})
@@ -218,3 +226,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
