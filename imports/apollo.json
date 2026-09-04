@@ -1,0 +1,91 @@
+{
+  "platform": "html-menu",
+  "source_url": "https://apollocafe.com/Images/Apollo Menu 2023 Sept.pdf",
+  "shops": [
+    {
+      "id": 167,
+      "slug": null
+    }
+  ],
+  "items": [
+    {
+      "platform_item_id": "ap-coffee",
+      "name": "Coffee",
+      "category": "Beverages",
+      "price_cents": 200,
+      "price_low_cents": 200,
+      "price_high_cents": 200,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "ap-greek-coffee",
+      "name": "Greek Coffee",
+      "category": "Beverages",
+      "price_cents": 300,
+      "price_low_cents": 300,
+      "price_high_cents": 300,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "ap-soda",
+      "name": "Soda",
+      "category": "Beverages",
+      "price_cents": 200,
+      "price_low_cents": 200,
+      "price_high_cents": 200,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "ap-water",
+      "name": "Bottled Water",
+      "category": "Beverages",
+      "price_cents": 200,
+      "price_low_cents": 200,
+      "price_high_cents": 200,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "ap-beer",
+      "name": "Beer (Domestic/Imported)",
+      "category": "Beverages",
+      "price_cents": 600,
+      "price_low_cents": 600,
+      "price_high_cents": 700,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "ap-wine",
+      "name": "Wine (Greek/Domestic)",
+      "category": "Beverages",
+      "price_cents": 800,
+      "price_low_cents": 800,
+      "price_high_cents": 900,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    }
+  ],
+  "captured_at": "2023-09-01T00:00:00+00:00"
+}
