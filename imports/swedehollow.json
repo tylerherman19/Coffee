@@ -1,0 +1,2313 @@
+{
+ "platform": "square",
+ "source_url": "https://swede-hollow-cafe.square.site/s/order",
+ "shops": [
+  {
+   "id": 255,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "7XCBWOO46OKHE524HO4Q3KP2",
+   "name": "Caramel Roll",
+   "category": "Online Menu",
+   "price_cents": 499,
+   "price_low_cents": 499,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "Local favorite, made with secret caramel sauce and pecans.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OD4AEDUHTQ7OFYQ6MQXA7YAY",
+   "name": "Hot Tea - Herbal",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "5 variations, choice of 1 bag or 2 bags<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AG7E7HUMUYAIKZZ7VII4KVQH",
+   "name": "Biscotti",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "<p>Italian double chocolate cookie, twice baked. Contains walnuts.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FQYQNSNU2RIMLA6E6MG2GMYV",
+   "name": "Perrier",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": "11.15 fl oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Y556QQHIGTL6PYNZMZE6BSSK",
+   "name": "Pop Can",
+   "category": "Online Menu",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "description": "Choice of Coke, Diet Coke, Sprite, Sunkist"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DBFR4Q3EFSBKNV22YOYJUIV2",
+   "name": "Juice Box",
+   "category": "Online Menu",
+   "price_cents": 99,
+   "price_low_cents": 99,
+   "price_high_cents": 99,
+   "available": true,
+   "raw": {
+    "description": "<p>6.75 fl oz Apple &amp; Eve Juice Box. Choice of Fruit Punch, Apple Juice, and Very Berry</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZTMN23GFH5RZSDV5GFMENUCA",
+   "name": "Chips (a la carte)",
+   "category": "Online Menu",
+   "price_cents": 99,
+   "price_low_cents": 99,
+   "price_high_cents": 99,
+   "available": true,
+   "raw": {
+    "description": "<p>Gourmet potato chips</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YDATIKPGTQ2PG5CSRWWXZRHE",
+   "name": "Coffee Smoothie",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "<p>Cold, sweet blended coffee. Choice of 5 flavors.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "N3VAH3TJCHLXEAKWTC2JCMO3",
+   "name": "Iced Latte",
+   "category": "Online Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with choice of milk over ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZXY6S27XKJMS4PH6FRFRA7JE",
+   "name": "Iced Chai Latte",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "<p>Big Train Chai with choice of milk over ice, topped with cinnamon.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FGI4KYIABWUF7CI74XTXVOXR",
+   "name": "Iced Miel",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso, honey, with choice of milk over ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OKHPD6QSJW7ULMDXQMVLRXRH",
+   "name": "Iced Breve",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "<p>Rich and delicious espresso with half-n-half over ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5IQUMWAL6LH7W6375U7ITS3I",
+   "name": "Iced Lavender Latte",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso, house-made lavender syrup with choice of milk</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EQ7UGPHREVBZFZ77XQN565QT",
+   "name": "Iced Turmeric Latte",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "<p>Earthy with a hint of sweetness.  Espresso, house-made turmeric mix with choice of milk over ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EAAZKNT3VXDCCIHYVRYE5OCJ",
+   "name": "Iced Americano",
+   "category": "Online Menu",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with water over ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OCSOLW7ZZ7CJAGOMHBPUI27L",
+   "name": "Iced Mocha",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with our house chocolate blend, with choice of milk over ice and optional whipped cream.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WMTODHBG2VI4NQUFDDNBWPU5",
+   "name": "Iced Cubano",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso, brown sugar, with choice of milk over ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YMXADEOD5Q566D4YPDS5OQID",
+   "name": "Arnold Palmer",
+   "category": "Online Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "description": "<p>Our own secret recipe. Perfect blend of lemonade and ice tea.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CH3T2CIJDQU2AY426YUVESBB",
+   "name": "Lemonade",
+   "category": "Online Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "description": "<p>Our own secret recipe. Not too sweet, not too sour \u2013 just refreshing.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UCQDSCZHHT7U7CNLMKFOVA5N",
+   "name": "Coffee Beans",
+   "category": "Online Menu",
+   "price_cents": 1699,
+   "price_low_cents": 1699,
+   "price_high_cents": 1699,
+   "available": true,
+   "raw": {
+    "description": "<p>$16.99 per lb. Choice of whole or ground.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LIZ7YVNWJPYYAGSVS65RDRPR",
+   "name": "Iced Espresso",
+   "category": "Online Menu",
+   "price_cents": 310,
+   "price_low_cents": 310,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "<p>Our delicious Swede Hollow Cafe espresso over ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PYR2WKQQ4RBQSDKPERRCNNBU",
+   "name": "Iced Thai Tea Latte",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "Ice drink made with shots of Thai tea and condensed milk. Topped with a splash of half and half.<br>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GKEGOLEWHCYEUY3AWPEEDL2U",
+   "name": "Scrambled Eggs",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "<p>Three eggs scrambled with butter (or olive oil for Dairy Free option)</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VJ3RB7UVC3FM2YGTYCJNWSRM",
+   "name": "Quick Bread",
+   "category": "Online Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Seasonal house baked fast bread.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QPQG3DGMUZZ4N2KLAJRSDKTB",
+   "name": "Iced Tea",
+   "category": "Online Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "description": "<p>Black Iced Tea </p><p>Berried Treasures Herbal Iced Tea (Seasonal)</p><p>Hibscius Tea (Seasonal ONLY)</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FNFR4AXP77QULUGNF6FQ7KAX",
+   "name": "Iced White Mocha",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with white chocolate and milk over ice with  whipped cream.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VRHMNZV46IXAODHAWFGEHTLG",
+   "name": "White Mocha",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with white chocolate and steamed milk, topped with whipped cream.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZEUXGBB5TDT3AFXTHAJI2ETZ",
+   "name": "Fresh OJ",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "<p>Fresh orange juice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MULIWFHY4TICTQAJ6RBNEAXX",
+   "name": "SHC  Promotional T-Shirts",
+   "category": "Online Menu",
+   "price_cents": 1399,
+   "price_low_cents": 1399,
+   "price_high_cents": 1399,
+   "available": true,
+   "raw": {
+    "description": "Swede Hollow Cafe T-Shirts. Option of colors and sleeve lengths."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3L2F225PNGH2YNAWWZRWEOM4",
+   "name": "SHC Gray Hoodie Sweatshirt",
+   "category": "Online Menu",
+   "price_cents": 4200,
+   "price_low_cents": 4200,
+   "price_high_cents": 4200,
+   "available": true,
+   "raw": {
+    "description": "Soft gray hoodie with Swede Hollow Cafe logo"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KWOJZ4TMXTVANXOIUPN7RIVS",
+   "name": "SHC Mug",
+   "category": "Online Menu",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": 1099,
+   "available": true,
+   "raw": {
+    "description": "<p>Navy, Black and White coffee mug with Swede Hollow Cafe Logo</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FOVA7M2RXTM6KO5MWPP4IVMK",
+   "name": "Iced Pumpkin Spiced White Mocha",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with white chocolate, house made pumpkin spiced syrup and milk, topped with whipped cream.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CNKTQAVIY7MQS3FTR6RYAXJO",
+   "name": "Pumpkin Spiced White Mocha",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with white chocolate, house made pumpkin spiced syrup, steamed milk, topped with whipped cream.<br/></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "N54EW6XSGA4PGZBHU7RM7DQD",
+   "name": "Breakfast Sandwich",
+   "category": "Online Menu",
+   "price_cents": 775,
+   "price_low_cents": 775,
+   "price_high_cents": 775,
+   "available": true,
+   "raw": {
+    "description": "<p>Eggs, Swiss, and cheddar on a toasted croissant.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DBD5EYWNBLUMA3PE6GZ7T4W3",
+   "name": "Dirty Green Tea Latte",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>Slightly sweet blend of house Matcha Green Tea and ESPRESSO with steamed milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "I2SNRHNZWWNATJHJ5GI45GCD",
+   "name": "Iced Dirty Green Tea Latte",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with a slightly sweet blend of Matcha Green Tea and milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FKZNSWO7X6DD5MTOK7X7Q4MO",
+   "name": "London Fog",
+   "category": "Online Menu",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "<p>Earl grey tea with a shot of vanilla and steamed milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LPK3DSQ66EBT7YMTSTJB7KBG",
+   "name": "Torani Flavored Syrup",
+   "category": "Online Menu",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": 1499,
+   "available": true,
+   "raw": {
+    "description": "<p>25.4 Fl Oz Torani flavored syrup; choice of flavors.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VUWZQLTHAZTPBN42KOWCIER3",
+   "name": "Breakfast Quesadilla",
+   "category": "Online Menu",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": 1099,
+   "available": true,
+   "raw": {
+    "description": "<p>Quesadilla with egg, spinach, onion and cheddar/ mozzarella cheese on flour tortilla. Served with salsa and sour cream.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OGQASKLVBVWSXEQEWFIYW3NK",
+   "name": "The Life of Swede Hollow, A Pictorial History By Angela DuPaul & Kari DuPaul",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Book</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TSCEX3HYXM6EL7MUGJXIVE2P",
+   "name": "House Made Granola with Milk",
+   "category": "Online Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "<p>House made granola</p><p><br/></p><p>REGULAR: Honey, butter, cinnamon, nutmeg, oats, pecan, walnut, almond, chia seed, flaxseed, craisin and raisin) with milk.</p><p><br/></p><p>VEGAN GF: Maple syrup, vegan butter, cinnamon, nutmeg, organic gluten free oats, pecan, walnut, almond, chia seed, flaxseed, pumpkin seed, sunflower seed, craisin and raisin) with milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FMHDTKAI5QDNKZU3WC6J6JPK",
+   "name": "SHC Granola",
+   "category": "Online Menu",
+   "price_cents": 499,
+   "price_low_cents": 499,
+   "price_high_cents": 1399,
+   "available": true,
+   "raw": {
+    "description": "<p>REGULAR: House made granola with honey, butter, cinnamon, nutmeg, oats, pecan, walnut, almond, chia seed and flaxseed.</p><p><br/></p><p>VEGAN GLUTEN FREE: Granola made with organic GF oats, maple syrup, vegan butter, cinnamon, nutmeg, pecan, walnut, almond, chia seed, flaxseed, pumpkin seed, and sunflower seed. </p><p><br/></p><p>ou may ADD craisin and raisin to the granola. Be GREEN, $0.50 off for future re-fill with mason jar purchase (valid with walk in orders or phone orders only, please ask for the discount)!</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VSGO46WHZEIDCAD6WLG4ZUFD",
+   "name": "Deluxe Oatmeal",
+   "category": "Online Menu",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 799,
+   "available": true,
+   "raw": {
+    "description": "<p>Oatmeal topped with house made granola, sliced bananas and steamed milk.  Served with a side of brown sugar.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "I2PUFVUQUOL4KHIM2E7VAPKX",
+   "name": "Big Train Spiced Chai",
+   "category": "Online Menu",
+   "price_cents": 2499,
+   "price_low_cents": 2499,
+   "price_high_cents": 2499,
+   "available": true,
+   "raw": {
+    "description": "<p>3.5 # bag Chai  Tea Latte</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "E7K6D2QJCQPI2IQJIBFR3VW2",
+   "name": "Pesto Mayo",
+   "category": "Online Menu",
+   "price_cents": 499,
+   "price_low_cents": 499,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "<p>16 oz container of pesto mayo</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RNYSFIGJWXPDKNNQAOWHW5E7",
+   "name": "Dirty Chai",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>Chai latte with a double shot of espresso.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EDEAI74LLPABKHUIRYGVJPOX",
+   "name": "Side of Bacon or Sausage Patty",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CBME2UHGSVL4AKHIN2Z42ZOG",
+   "name": "SHC Hot Cocoa Mix",
+   "category": "Online Menu",
+   "price_cents": 1399,
+   "price_low_cents": 1399,
+   "price_high_cents": 1399,
+   "available": true,
+   "raw": {
+    "description": "<p>16 oz pint jar of SHC&#39;s secret cocoa powder blend for hot chocolate or add to coffee.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OW7BIJMITDXYSDPV6UEHCAHX",
+   "name": "Smoked Salmon Toast",
+   "category": "Online Menu",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": 1499,
+   "available": true,
+   "raw": {
+    "description": "<p>Smoked salmon, dill caper cream cheese, red onion, sprouts, tomatoes, pesto* drizzle, and everything bagel sprinkles on toasted vienna bread. Served with a side of choice: fruit cup, spring green salad. *Pesto contains walnuts</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YX6ALSOIHHOECIIISZ34MJO4",
+   "name": "Yogurt Parfait",
+   "category": "Online Menu",
+   "price_cents": 499,
+   "price_low_cents": 499,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "description": "<p>Yogurt and seasonal fruit parfait.</p><p>Serve with a side of  house-made granola*.</p><p>*Contains walnuts, almonds and pecans</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FI5ZMEYDLYY76WM6EY36PYJ3",
+   "name": "Quiche",
+   "category": "Online Menu",
+   "price_cents": 899,
+   "price_low_cents": 899,
+   "price_high_cents": 899,
+   "available": true,
+   "raw": {
+    "description": "<p>Fan favorite! Choice of meat or veggie. <strong>Meat</strong>: Bacon, sweet potato, spinach, cheddar and mozzarella cheese. <strong>Veggie</strong>: Asparagus, potato, spinach, onion, mozzarella,  brie and parmensan cheese.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6UMAM4STSHL36JDRNBH5XGA7",
+   "name": "SHC Chocolate Sticks",
+   "category": "Online Menu",
+   "price_cents": 199,
+   "price_low_cents": 199,
+   "price_high_cents": 199,
+   "available": true,
+   "raw": {
+    "description": "<p>A five piece bag of our house chocolate sticks.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2BSW2XCEARAC2TXKIWQVQ7OD",
+   "name": "Fresh Start",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Cold press with a shot of chocolate macadamia nut and half and half over ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OCA4ASC6AXMDHBVO5STODWVE",
+   "name": "Chia & Flaxseed Pudding",
+   "category": "Online Menu",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": "Chia seed and flax seed pudding with almond milk. Topped with house made granola, shredded coconut flakes and house fruit. Served cold."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JM4PZVWLOEHGJZDVVI62ZCXQ",
+   "name": "Banana Nut Mocha",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>House cocoa powder, banana and macadamia nut syrups with espresso and steamed milk. Topped with whipped cream.<br/></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XMWWN47HVPC4T3B7H3I6HFVY",
+   "name": "Almond Delight Mocha",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>House cocoa powder, almond and coconut syrups with espresso and steamed milk. Topped with whipped cream. <br/></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7TXADP5XWFEMGUOFRLLKW6WA",
+   "name": "Coffee Flavor Shot",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NKIE5FAKD75LZRELXTJOKDRD",
+   "name": "Ham Swiss Sandwich",
+   "category": "Online Menu",
+   "price_cents": 699,
+   "price_low_cents": 699,
+   "price_high_cents": 1275,
+   "available": true,
+   "raw": {
+    "description": "<p>Ham, Swiss, romaine, tomato and our honey mustard on toasted ciabatta bread. Served with a pickle and choice of gourmet chips.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "H6OQRJ5KIAF7OLVMZ2GENIGS",
+   "name": "Grapefruit Lavender Spritzer",
+   "category": "Online Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with fresh grapefruit juice, our house-made lavender syrup and perrier sparkling water.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XAJUXOEZWMD2GU2SR4SOJP5V",
+   "name": "Bars/ Cake",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "House made bars &amp; cake.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2MIIROOT7WOSKTTS2M42KLK5",
+   "name": "Turkey Swiss Sandwich",
+   "category": "Online Menu",
+   "price_cents": 699,
+   "price_low_cents": 699,
+   "price_high_cents": 1275,
+   "available": true,
+   "raw": {
+    "description": "<p>Turkey, Swiss, romaine, tomato and our honey mustard on toasted ciabatta bread. Served with a pickle and choice of gourmet chips.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Q4OV7CK6WQKUEBBGQZIHURDM",
+   "name": "Steamer",
+   "category": "Online Menu",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "<p>Steamed milk with flavor shots.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FEFQLMIHOPUAHURJE3NFLE7B",
+   "name": "Turkey Cheddar Sandwich",
+   "category": "Online Menu",
+   "price_cents": 699,
+   "price_low_cents": 699,
+   "price_high_cents": 1275,
+   "available": true,
+   "raw": {
+    "description": "<p>Turkey, cheddar, cucumber, tomato, red onion, and our pesto* mayonnaise on house-made focaccia (*pesto contains walnuts). Served with a pickle and choice of gourmet chips. </p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DRYM73PJMUZLDSIKGA3JRQL4",
+   "name": "Iced Dirty Chai",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced chai with a double shot of espresso</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4SRHHHXLCW5J7JCSXNZGYEZT",
+   "name": "Blueberry Lavender Lemonade",
+   "category": "Online Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with SHC lemonade and house made lavender blueberry syrup.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HTJIOHNE4SQOMO3DZDAPXZ6L",
+   "name": "Matcha White Chocolate Smoothie",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Ice blend drink with matcha tea powder, white chocolate, and milk.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LNFH2NGVPY6NQ6DYVYXCRDAA",
+   "name": "Iced Vietnamese Espresso",
+   "category": "Online Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with espresso and condense milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VIWIU7JHICOWVMRNOTRUQ7A4",
+   "name": "Vietnamese Espresso",
+   "category": "Online Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with condense milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Y2YJHTZHCLIGFE2UIU4HJKX6",
+   "name": "Fresh Fruit Cup",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "<p>Seasonal fruits in a cup.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LSQ63436GDB6GAVOIBTAOXRF",
+   "name": "Boxed Lunch",
+   "category": "Online Menu",
+   "price_cents": 1425,
+   "price_low_cents": 1425,
+   "price_high_cents": 1425,
+   "available": true,
+   "raw": {
+    "description": "Sandwich option comes with a pickle spear, chips and choice of shortbread, biscotti, or mini cookie. Mini cookie require advance notice. Gluten free mini cookie option available for additional $0.75.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZCMC3LZA6Z4YLZVDQZRGMS2W",
+   "name": "Strawberry Rhubarb Chai Tea",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 685,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with house made rhubarb syrup, strawberry syrup and cold brew chai tea.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7YHW6IXHW45KOOWNPETU6CWU",
+   "name": "Cucumber Tomato Sandwich",
+   "category": "Online Menu",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 1199,
+   "available": true,
+   "raw": {
+    "description": "<p>Cucumber, tomato, red onion, sprouts, cheddar, and white bean herb spread on multigrain bread. Served with a pickle and choice of gourmet chips.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3RXKJQ3SVPG4VHJIRS5ZPVM7",
+   "name": "Iced Banana Nut Mocha",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with house cocoa powder, banana and macadamia nut syrup, espresso, and milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2O62YMGYEFPDECPA3CLW6DHA",
+   "name": "Iced Almond Delight Mocha",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with house cocoa powder, almond and coconut syrups with espresso and milk. Topped with whipped cream.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7PEOCR6LEA6SI2YBIERX7IH7",
+   "name": "Swede Hollow CD",
+   "category": "Online Menu",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YPM2HVMWTQBUG6XOMNHWGKTD",
+   "name": "Extra Shot Espresso",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DDQFTF4POTD275F5IFF7FVAX",
+   "name": "Skim Milk",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QIOQICMXDVU7XUYNVKOPLKMS",
+   "name": "Soy Milk",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GACC7OD4OLFMKQBWG6U5QPR6",
+   "name": "Oat Milk",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZM7YKTOUIE5TT5BKW4DLFLXR",
+   "name": "Cinnamon Roll",
+   "category": "Online Menu",
+   "price_cents": 499,
+   "price_low_cents": 499,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "Decadent cinnamon rolls topped with buttery frosting.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BT2MA767RNPEYR3LKNZ2HIAT",
+   "name": "Toasted 4 Cheese Sandwich",
+   "category": "Online Menu",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 1199,
+   "available": true,
+   "raw": {
+    "description": "<p>Provolone, cheddar, Swiss, Gouda, and honey mustard mayo on Vienna bread. Served with a pickle and choice of gourmet chips.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZNXXDJHDM64VAZUFX6V5OB7T",
+   "name": "SF Caramel",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IN7GL32G2EW7T7MNT2TD6H4K",
+   "name": "SF Hazelnut",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TISGPVNEMDEHMO3BGPBBRKR3",
+   "name": "SF Vanilla",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OR7Z3LXEKKG2PNPLV74JLHDE",
+   "name": "Almond Milk",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YHDUQNYQ3GGHFIR2B65CQSWR",
+   "name": "Amaretto",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WGSIA4KAJLQZ6AZMMC3YCM4J",
+   "name": "Almond",
+   "category": "Online Menu",
+   "price_cents": 85,
+   "price_low_cents": 85,
+   "price_high_cents": 85,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4GVGEASNW7ORCEGVCZKUVGVN",
+   "name": "Pumpkin Spice",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2P636HZKIL4545VDJ2OUUJCR",
+   "name": "Mango",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YG4D32Y3JGGCTWYSQX7KHCLO",
+   "name": "Chocolate Macadamia Nut",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MMISFKQBW4ZJN2DQN5XML7HT",
+   "name": "Caramel",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FUJ4OVHYE5FM5CQBRLJZSEF4",
+   "name": "Spring Greens Salad",
+   "category": "Online Menu",
+   "price_cents": 499,
+   "price_low_cents": 499,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "<p>Spring greens tossed with house-made sweet and sour vinaigrette dressing, Served with a side of bread.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HXXEDOFMRCDV2XMGX6WJAXXU",
+   "name": "Cinnamon",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "335TIE27SWTV6PCBZHJZHBCZ",
+   "name": "Hazelnut",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JEMLUJOEA4MA6BUZTGBQFESY",
+   "name": "Raspberry",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HVZTP3762JUSQDSXBRGPYJ6S",
+   "name": "Vanilla",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SJYQ7M4FDWL2QD6XCI3LLCD5",
+   "name": "Lavender",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ENNBM77E2Q6SPKPPBJZODOVE",
+   "name": "Coconut",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WF6IWLMJNICJJBJQPZRONXQE",
+   "name": "Banana",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TEFB7RUK26P6EBPPGE7XKUEK",
+   "name": "Orange",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GVY224KYT7DRSI2IU4LRSJYK",
+   "name": "Cherry",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WSMV6RKL7FUVDMGXGDFEVXLC",
+   "name": "Lime",
+   "category": "Online Menu",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KL47ITXYPIG5W2TXJCB673XX",
+   "name": "Gorgonzola Salad",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 1050,
+   "available": true,
+   "raw": {
+    "description": "<p>Romaine lettuce, tomatoes, red onions, gorgonzola, and toasted walnuts tossed with house-made creamy gorgonzola dressing. Served with a side of bread.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3UTBXMBBWVKESAWPP2XF2UVF",
+   "name": "CP Shot (5oz)",
+   "category": "Online Menu",
+   "price_cents": 150,
+   "price_low_cents": 150,
+   "price_high_cents": 150,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VSIETFV4PMNZX3PMMQBGP5SP",
+   "name": "CP Shot (3oz)",
+   "category": "Online Menu",
+   "price_cents": 100,
+   "price_low_cents": 100,
+   "price_high_cents": 100,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "P22U35KI6AIKAFLULUE34BGM",
+   "name": "Ham Brie Sandwich",
+   "category": "Online Menu",
+   "price_cents": 1399,
+   "price_low_cents": 1399,
+   "price_high_cents": 1399,
+   "available": true,
+   "raw": {
+    "description": "Toast ciabatta sandwich with ham, brie, grainy dijon and romaine. Served with pickle and chip."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XQABEFIOU26MF6C5XGARCAU7",
+   "name": "Chai Smoothie",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "<p>Blended drink with Big Train Chai, ice and milk, Topped with whip cream and cinnamon.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UAT7SSXSVZHWOIIBYIN6RMJU",
+   "name": "Carafe of Coffee",
+   "category": "Online Menu",
+   "price_cents": 1199,
+   "price_low_cents": 1199,
+   "price_high_cents": 1199,
+   "available": true,
+   "raw": {
+    "description": "<p>Brewed Coffee (6 cups, small)</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YK6YOGIYQ35V2VO7MBILXA63",
+   "name": "Mango Black Iced Tea",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Our house iced black tea with organic mango nectar juice and syrup.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2I2XDQEETK7ECKIFXZG75NHM",
+   "name": "MN Wild Rice Salad",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 1050,
+   "available": true,
+   "raw": {
+    "description": "<p>Spring greens, wild rice, shredded carrots, craisins, toasted pecans, and red onions tossed with balsamic vinaigrette dressing. Served with a side of bread.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2RHPXE5HOBWSGBC63KO7B6IR",
+   "name": "Banana Walnut Bread",
+   "category": "Online Menu",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MPB35XLPDPLAGTEVJPCUQYVR",
+   "name": "Pop",
+   "category": "Online Menu",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HWM2JRIXPJ2Q3HS4X2AHM67D",
+   "name": "Salted Caramel Latte",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Caramel and vanilla syrup with our house espresso and steamed milk. Topped with whipped cream, caramel drizzle, and a dash of sea salt.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "J5BQ6RSQZYKBD5EXOFUDVELF",
+   "name": "Bread",
+   "category": "Online Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "<p>Assorted Baked Bread.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TZGRH2KB2K2U45LTHGXARTAF",
+   "name": "Postcards",
+   "category": "Online Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6AOBNFWAHJ3YW2HUK5DJVCMZ",
+   "name": "Apple Walnut Salad",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 1050,
+   "available": true,
+   "raw": {
+    "description": "<p>Spring greens, apples, toasted walnuts, and gorgonzola tossed with creamy poppy seed dressing. Served with a side of bread.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SE7WGTVTXINYAR6RUMLEJSQZ",
+   "name": "Flat White",
+   "category": "Online Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": "Espresso with a bit of steamed milk.<br/>2  shot small<br/>4 shot medium<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NZ7O7NMIY466AWCFVKPRUUNU",
+   "name": "Scone",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "Crumbly, light, and slightly sweetened quickbread, baked fresh daily. Flavors vary daily.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BGI7MWY325WQYJ3WY7HUZSUL",
+   "name": "Mexican Mocha",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>House cocoa powder, house Mexican spice blend with espresso and steamed milk. Topped with whipped cream and a sprinkle cayenne.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YKGHUF2ALYCXQVV3YELTYZ3H",
+   "name": "Iced Mexican Mocha",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with our cocoa powder, house Mexican spice mix, espresso and milk. Topped with whip cream and a sprinkle of cayenne.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DU7TMUIHHVVCQAZ47RURYLFF",
+   "name": "Half and Half Combo (Half Sandwich, Half Salad or Half Soup)",
+   "category": "Online Menu",
+   "price_cents": 1199,
+   "price_low_cents": 1199,
+   "price_high_cents": 1199,
+   "available": true,
+   "raw": {
+    "description": "Choice of two items: half sandwich, half salad or cup of soup to create a combo. Served with pickle and choice of gourmet chips. (Combo must be two different items, cannot combine two half sandwiches, two cups of soup or two half salads)."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TNPDDR24GA75DLTZVXRWT6T5",
+   "name": "Hot Water/ Tea",
+   "category": "Online Menu",
+   "price_cents": 215,
+   "price_low_cents": 215,
+   "price_high_cents": 215,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4P3KFABYXOOKYC4FDFOP4PNG",
+   "name": "Breakfast Bread (Special Diet)",
+   "category": "Online Menu",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JDJPWUESQCE3WJWD7DEEMSCZ",
+   "name": "Green Tea Latte",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Slightly sweet blend of house Matcha Green Tea with steamed milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GPWSH7Q5HR5GWSFB5VISE4WT",
+   "name": "Iced Green Tea Latte",
+   "category": "Online Menu",
+   "price_cents": 510,
+   "price_low_cents": 510,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with slightly sweet blend of Matcha Green Tea and milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UJQTX4URJKOIX5LWITDS2JLA",
+   "name": "Cookie",
+   "category": "Online Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 250,
+   "available": true,
+   "raw": {
+    "description": "Made fresh daily. Varieties include chocolate chip, snickerdoodle, peanut butter and peanut butter chocolate chip.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GHEUMRU5EC4IMPVIGUHWXDU4",
+   "name": "Americano",
+   "category": "Online Menu",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso and hot water</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UDG5VAPWZJLMIQ32LI2CQHZN",
+   "name": "Espresso",
+   "category": "Online Menu",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "<p>Straight up energy fuel!</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4YLE6IY6ZTQYNMPESXKZIDLD",
+   "name": "Macchiato",
+   "category": "Online Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": "<p>`Steamed milk, topped with two shots of espresso, finished with a thin layer of milk foam</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5T4OHP7TIBYRPVWNIPRO5SWZ",
+   "name": "Hot Chocolate",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "<p>Our house chocolate blend with choice of steamed milk, with optional whipped cream topping.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MXFSQPEZP35YNLCJL25QY7TN",
+   "name": "Egg, A la carte",
+   "category": "Online Menu",
+   "price_cents": 150,
+   "price_low_cents": 150,
+   "price_high_cents": 150,
+   "available": true,
+   "raw": {
+    "description": "<p>Single egg: scrambled or fried</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YE6JMIKGN3NEKEVIN6SNF2QA",
+   "name": "Breve",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Rich and delicious! Espresso with steamed half-n-half.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WGSKEYXB4IFARG7GQMBN2IZP",
+   "name": "Cubano",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso, brown sugar, and choice of steamed milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "22NHFCQ3M2FBVH23A44XYUHN",
+   "name": "Iced Salted Caramel Latte",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 610,
+   "available": true,
+   "raw": {
+    "description": "<p>Caramel and vanilla syrup with our house espresso and choice of milk. Topped with whipped cream, caramel drizzle, and a dash of sea salt.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "L6M2GG37NTUQOAR53EIB35Q7",
+   "name": "Miel",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso, honey, and choice of steamed milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7EDGYE7B5BLLEHQ7LERCBGBF",
+   "name": "Mocha",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with our special chocolate blend and steamed milk, topped with whipped cream.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DDGGYGSSV4P26LN5W4YMJ3C5",
+   "name": "Cappuccino",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso with steamed milk topped with foam</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZAEBBHIZIHEEA6ROBUAZUKGW",
+   "name": "Turmeric Latte",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso, house-made turmeric mix and steamed milk. Great earthy yet sweet drink!</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EZ73VPN6Q6BV73FN6Z5FI6GP",
+   "name": "Pork Bulgogi Rice Platter",
+   "category": "Online Menu",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": 1499,
+   "available": true,
+   "raw": {
+    "description": "<p>House made red pork bolgogi skewers (2) served with rice and a side of Korean cucumber salad. </p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AX5FZJ7T2H6JDCJC5KWN7J22",
+   "name": "Lavender Latte",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Espresso, house-made lavender syrup and choice of steamed milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VVTG2CLRB3QF66BEBXS23MBB",
+   "name": "Thai Red Drink",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 585,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "P5W4ZLU4L7DNZ6H4VDVJY7EK",
+   "name": "Latte",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "description": "<p>Swede Hollow Espresso and steamed milk</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PWAYWO73GFZY2OXOKJE75PWF",
+   "name": "Fruit Platter",
+   "category": "Online Menu",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4TFU5B33CTTV5HSSXVM7JDNL",
+   "name": "Mini Cookie",
+   "category": "Online Menu",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 175,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JIFNGFRP5LD2IEIGSGFGLFBC",
+   "name": "Chai Latte",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "<p>Big Train Chai and choice of steamed milk topped with cinnamon</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PJD75ZZPGL6UW7Q3452LERRM",
+   "name": "Depth Charge",
+   "category": "Online Menu",
+   "price_cents": 310,
+   "price_low_cents": 310,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": "<p>Our house drip coffee with choice of 2 or 4 shots of espresso, light or dark roast.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PJ6U4XS74JQEISZ4Q3AQIJNS",
+   "name": "Strawberry Banana Smoothie",
+   "category": "Online Menu",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 699,
+   "available": true,
+   "raw": {
+    "description": "<p>Smoothie made with strawberry, banana, yogurt and milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4BBKOLS3M7KFT2OSBIMREACA",
+   "name": "Catering Coffee",
+   "category": "Online Menu",
+   "price_cents": 199,
+   "price_low_cents": 199,
+   "price_high_cents": 199,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OBA7PM6C5QBRJEVQ7JKEJBVO",
+   "name": "Maple Syrup Latte",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Latte with maple syrup, pumpkin spice, espresso and steamed milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "63VMKTDGDDFEGE5VS3P6FKP7",
+   "name": "Iced Maple Syrup Latte",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with maple syrup, pumpkin spice, espreeso and milk.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PAIAXUUR3LYRDHBVR4XMQMTO",
+   "name": "Au Lait",
+   "category": "Online Menu",
+   "price_cents": 310,
+   "price_low_cents": 310,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": "<p>Choose from our light, dark or decaf coffee; 2 parts coffee 1 part steamed milk</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QAHZEJNYVYCLTCXXJEIA6MYM",
+   "name": "Iced Strawberry Lavender Latte",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with strawberry syrup, house lavender syrup, espresso and milk. Perfect for Valentine&#39;s!</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GQY6K7CA3K3WVLKNKNPUEE33",
+   "name": "Bottled Water",
+   "category": "Online Menu",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PBKIM6TCJXQR7RMJIGQSFLVA",
+   "name": "Room Reservation",
+   "category": "Online Menu",
+   "price_cents": 5000,
+   "price_low_cents": 5000,
+   "price_high_cents": 5000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "34LLOLD7URSCQ5XLKRQGXISP",
+   "name": "Iced Blueberry Matcha Latte",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "Iced drink with house made blueberry syrup, milk, and matcha. .<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BHB3BV2UBMWS26OAPR3JFTNO",
+   "name": "Mini Quiche",
+   "category": "Online Menu",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 175,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "T4B6ZRVY3C7L55QPBIJ7QASX",
+   "name": "Juice Bottle",
+   "category": "Online Menu",
+   "price_cents": 199,
+   "price_low_cents": 199,
+   "price_high_cents": 199,
+   "available": true,
+   "raw": {
+    "description": "10 oz Welch&#39;s Juice."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6OKFS43KTF27D5BVCDJ3DLTD",
+   "name": "Italian Soda",
+   "category": "Online Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": "<p>A refreshing combination of flavored syrup and Perrier water mixed in a cup of ice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "X7HYQ35BLRZWK4BJWTND5GWP",
+   "name": "French Soda",
+   "category": "Online Menu",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "<p>Refreshing combination of flavored syrup, half-and-half and Perrier water mixed in a cup of ice with optional dollop of whipped cream for a creamier texture.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2C7UNCY5TZFE3JW6TREWMSN5",
+   "name": "Cold Press",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": "Smooth, strong, less acidic, slightly sweet and super refreshing. Coarsely ground fresh coffee steeped 18-24 hours.<br/>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6LSA7M46YEZWMXWU7YLKAFAC",
+   "name": "Hot Tea - White",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "<p>1 variation, choice of 1 bag or 2 bags</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BGJWVI2YNZAHZW65V5CEG4NN",
+   "name": "Hot Tea - Black",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "<p>8 flavors, choice of 1 bag or 2 bags</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OGYS7VM3RRLEMEWQNCHSPWC5",
+   "name": "Hot Tea - Green",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "<p>4 variations, choice of 1 bag or 2 bags</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RJD3D3ER2N4C7PYB66KORLSC",
+   "name": "Shortbread",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "Butter dense cookie bar. Vegan option available."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LNBWKK2KY4BNUBSFXYUNWQHZ",
+   "name": "Brewed Coffee",
+   "category": "Online Menu",
+   "price_cents": 225,
+   "price_low_cents": 225,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": "<p>Light or Dark Roast, served daily.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ATSU4TXC5AQPOSW3D5CIAEVC",
+   "name": "J's Kombucha's",
+   "category": "Online Menu",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "description": "<p>Local. Variety of flavors: Lime Mint/ Mango/ Nectarine/ Raspberry Lime Ginger/ Raspberry/ Blackberry</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BUN3WWTTIAJU4LENUMV4AGG2",
+   "name": "Chicken Pasta Primavera Soup",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "<p>House made soup with chicken, onion, carrot, celery, corn, pea, assorted color beans, kale, pasta, sun-dried tomato, house herbs / spices and cream.</p><p><br></p><p>Choice of cup or bowl. Served with bread.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "D2PSVBNX44VEVXEOGV5HSKCM",
+   "name": "Mango Chia & Flaxseed Pudding",
+   "category": "Online Menu",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Chia seed and flax seed pudding made with dried mango and coconut milk. Topped with shredded coconut, dried mango and condensed milk. </p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EL44WMZGJZJDVGPN3I4D4P3Q",
+   "name": "Iced Jasmine Honey Milk Tea",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with jasmine tea, honey and milk. </p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FVEJ3ZWQW5WRAHUW3G3ZJ2SQ",
+   "name": "Strawberry Tajin Lemonade",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Sweet, sour, salty, and spicy iced drink with house lemonade, chamoy, tajin and freeze dried strawberries. </p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KUUCSEHZQHWUY5JSR77HC6XX",
+   "name": "Jinx Tea",
+   "category": "Online Menu",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "description": "<p>Local. Variety of flavors: Raspberry Lemonade/ Ruby Punch/ Tropical Fusion</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "P2TOUOOPVFOGQCUJHZZN3FNN",
+   "name": "Chorizo Potato Breakfast Tostada",
+   "category": "Online Menu",
+   "price_cents": 1399,
+   "price_low_cents": 1399,
+   "price_high_cents": 1399,
+   "available": true,
+   "raw": {
+    "description": "<p>Mexican inspired breakfast with corn tostada, 2 fried eggs, roasted potatoes and chorizo with house made salsa rojo and salsa verde; topped with cilantro, pickled red onion and queso fresco cheese. Served with choice of fruit cup or spring green salad.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UZXDPFTLPYWZITQVU3GEJXSS",
+   "name": "Raspberry Dark Chocolate Latte",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Hot drink with raspberry syrup, espresso, steamed milk, dark chocolate syrup and topped with whipped cream. Happy Valentine&#39;s!</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "V5IIUSACQVNHHDMQS5ADTFV3",
+   "name": "Bento Box",
+   "category": "Online Menu",
+   "price_cents": 1299,
+   "price_low_cents": 1299,
+   "price_high_cents": 1299,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VGWL4TC6DCHPX3RTLGWBIG3T",
+   "name": "Jasmine Honey Milk Tea",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Hot milk tea with jasmine tea, steamed milk, and honey.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WDH7OGMVBQHNUNEHBYA2J3KJ",
+   "name": "Iced Raspberry Dark Chocolate Latte",
+   "category": "Online Menu",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "<p>Iced drink with raspberry syrup, milk, espresso, dark chocolate syrup and topped with whipped cream.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WQMYCRZJZSOW56XCLAJ4LB2A",
+   "name": "Banana Matcha Chia & Flaxseed Pudding",
+   "category": "Online Menu",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "Chia seed and flax seed pudding made with almond milk and house matcha. Topped with house shortbread, banana, blueberries, toasted almonds and honey. Served cold.<br/>"
+   },
+   "modifiers": []
+  }
+ ]
+}
