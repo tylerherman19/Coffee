@@ -38,6 +38,8 @@ h1, h2 { font-family: var(--font-heading), Georgia, serif; }
 .filter-button { min-height: 50px; display: flex; align-items: center; gap: 8px; padding: 0 17px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); cursor: pointer; }
 .filter-button svg { width: 18px; }
 .filter-button.active { color: white; border-color: var(--leaf); background: var(--leaf); }
+.hood-filter { margin-bottom: 12px; }
+.hood-select { min-height: 50px; width: 100%; padding: 0 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); color: var(--brown); font-size: 1rem; }
 .shop-list, .rank-list { border-top: 2px solid var(--brown); }
 .shop-row, .rank-row { width: 100%; min-height: 112px; display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 18px; padding: 20px 8px; border: 0; border-bottom: 1px solid var(--line); background: transparent; text-align: left; cursor: pointer; }
 .shop-row:hover, .rank-row:hover { background: rgba(255,255,255,.55); }
