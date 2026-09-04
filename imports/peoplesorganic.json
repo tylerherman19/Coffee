@@ -1,0 +1,298 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.peoplesorganic.com/menu",
+ "shops": [
+  {
+   "id": 264,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "Organic Espresso",
+   "category": "Beverages",
+   "price_cents": 380,
+   "price_low_cents": 380,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Espresso Macchiato",
+   "category": "Beverages",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Americano",
+   "category": "Beverages",
+   "price_cents": 440,
+   "price_low_cents": 440,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cappuccino",
+   "category": "Beverages",
+   "price_cents": 480,
+   "price_low_cents": 480,
+   "price_high_cents": 660,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cafe Latte",
+   "category": "Beverages",
+   "price_cents": 470,
+   "price_low_cents": 470,
+   "price_high_cents": 635,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Vanilla Latte",
+   "category": "Beverages",
+   "price_cents": 580,
+   "price_low_cents": 580,
+   "price_high_cents": 745,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cafe Mocha",
+   "category": "Beverages",
+   "price_cents": 580,
+   "price_low_cents": 580,
+   "price_high_cents": 745,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Organic Drip Coffee",
+   "category": "Beverages",
+   "price_cents": 360,
+   "price_low_cents": 360,
+   "price_high_cents": 440,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cafe au Lait",
+   "category": "Beverages",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Organic Chai",
+   "category": "Beverages",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Hot Cocoa",
+   "category": "Beverages",
+   "price_cents": 440,
+   "price_low_cents": 440,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Caramel Sea Salt Latte",
+   "category": "Specialty",
+   "price_cents": 580,
+   "price_low_cents": 580,
+   "price_high_cents": 760,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Sweet Matcha Latte",
+   "category": "Specialty",
+   "price_cents": 660,
+   "price_low_cents": 660,
+   "price_high_cents": 790,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Vanilla Steamer",
+   "category": "Specialty",
+   "price_cents": 360,
+   "price_low_cents": 360,
+   "price_high_cents": 490,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "London Fog",
+   "category": "Specialty",
+   "price_cents": 509,
+   "price_low_cents": 509,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Turmeric Ginger Tea Latte",
+   "category": "Specialty",
+   "price_cents": 509,
+   "price_low_cents": 509,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cold Press Coffee",
+   "category": "Cold",
+   "price_cents": 459,
+   "price_low_cents": 459,
+   "price_high_cents": 560,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Ginger Green Matcha",
+   "category": "Protein Shakes",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Co-Co Antioxidant",
+   "category": "Protein Shakes",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Greens",
+   "category": "Add A Boost",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Add DF vanilla or chocolate protein",
+   "category": "Add A Boost",
+   "price_cents": 229,
+   "price_low_cents": 229,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Sub DF vanilla or chocolate protein",
+   "category": "Add A Boost",
+   "price_cents": 130,
+   "price_low_cents": 130,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Apple Ginger Spritz",
+   "category": "Soda",
+   "price_cents": 670,
+   "price_low_cents": 670,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Garden Elixir",
+   "category": "Soda",
+   "price_cents": 670,
+   "price_low_cents": 670,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mango Delight",
+   "category": "Soda",
+   "price_cents": 640,
+   "price_low_cents": 640,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Green Elixir",
+   "category": "Soda",
+   "price_cents": 670,
+   "price_low_cents": 670,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  }
+ ]
+}
