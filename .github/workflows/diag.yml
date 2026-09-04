@@ -1,0 +1,24 @@
+name: Diag Supabase access
+on: workflow_dispatch
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe PostgREST with secret key
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: |
+          echo "== root (exposed schemas/paths visible to secret key) =="
+          curl -s "$SUPABASE_URL/rest/v1/" -H "apikey: $SUPABASE_SECRET_KEY" -H "Authorization: Bearer $SUPABASE_SECRET_KEY" -o /tmp/root.json -w "HTTP %{http_code}\n"
+          python3 -c "
+          import json
+          d = json.load(open('/tmp/root.json'))
+          print('definitions/schemas visible:', sorted(d.get('definitions', {}).keys())[:50] if isinstance(d, dict) else d)
+          print('paths sample:', sorted(d.get('paths', {}).keys())[:30] if isinstance(d, dict) else '')
+          "
+          for t in shops items ratings modifiers price_changes observations; do
+            printf "coffee.%s: " "$t"
+            curl -s "$SUPABASE_URL/rest/v1/$t?select=*&limit=1" -H "apikey: $SUPABASE_SECRET_KEY" -H "Authorization: Bearer $SUPABASE_SECRET_KEY" -H "Accept-Profile: coffee" -o /tmp/t.json -w "HTTP %{http_code} "
+            head -c 200 /tmp/t.json; echo
+          done
