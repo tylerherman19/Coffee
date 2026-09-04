@@ -1,0 +1,480 @@
+{
+  "platform": "square",
+  "source_url": "https://www.hawthornetogo.com/",
+  "shops": [
+    {
+      "id": 177,
+      "slug": null
+    }
+  ],
+  "items": [
+    {
+      "platform_item_id": "haw-T7BMLISGHU4G",
+      "name": "Cappuccino",
+      "category": "Cafe",
+      "price_cents": 450,
+      "price_low_cents": 450,
+      "price_high_cents": 500,
+      "available": true,
+      "raw": {
+        "description": "<p>Espresso with foamed milk</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-N3WRTQRUQ4LO",
+      "name": "Chai",
+      "category": "Cafe",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 450,
+      "available": true,
+      "raw": {
+        "description": "<p>Rishi Masala Chai with milk...served hot or iced</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-L4ETFVZDWDNK",
+      "name": "Soda",
+      "category": "Cafe",
+      "price_cents": 150,
+      "price_low_cents": 150,
+      "price_high_cents": 200,
+      "available": true,
+      "raw": {
+        "description": "<p>Canned soda...Coke, Diet Coke, Sprite, Ginger Beer</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-LFNFHQFYX4DP",
+      "name": "Juice",
+      "category": "Cafe",
+      "price_cents": 200,
+      "price_low_cents": 200,
+      "price_high_cents": 200,
+      "available": true,
+      "raw": {
+        "description": "<p>Orange  or Grapefruit juice</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-4SER3KKCUOYE",
+      "name": "Dirty Chai",
+      "category": "Cafe",
+      "price_cents": 500,
+      "price_low_cents": 500,
+      "price_high_cents": 550,
+      "available": true,
+      "raw": {
+        "description": "<p>Revival Espresso, Rishi Masala Chai and steamed milk</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-J7Z2MSN4FVY2",
+      "name": "Hot Chocolate",
+      "category": "Cafe",
+      "price_cents": 175,
+      "price_low_cents": 175,
+      "price_high_cents": 300,
+      "available": true,
+      "raw": {
+        "description": "<p>Steamed milk with chocolate</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-KPF7JTBPYEMY",
+      "name": "Macchiato",
+      "category": "Cafe",
+      "price_cents": 425,
+      "price_low_cents": 425,
+      "price_high_cents": 425,
+      "available": true,
+      "raw": {
+        "description": "<p>2 oz of Revival Espresso with a spot of foamed milk</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-6Z6ZO7LBVC55",
+      "name": "Cortado",
+      "category": "Cafe",
+      "price_cents": 450,
+      "price_low_cents": 450,
+      "price_high_cents": 450,
+      "available": true,
+      "raw": {
+        "description": "<p>2 oz of Revival Espresso with 2 oz of steamed milk</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-TYGQ6KBHXGXJ",
+      "name": "Americano",
+      "category": "Cafe",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 425,
+      "available": true,
+      "raw": {
+        "description": "<p>Espresso and water...served hot or cold</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-ASQMRDOYNKBC",
+      "name": "Pour Over Coffee",
+      "category": "Cafe",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 400,
+      "available": true,
+      "raw": {
+        "description": "<p>12 oz of fresh brewed coffee</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-P3HKQZDFDHVB",
+      "name": "Mocha",
+      "category": "Cafe",
+      "price_cents": 475,
+      "price_low_cents": 475,
+      "price_high_cents": 525,
+      "available": true,
+      "raw": {
+        "description": "<p>Espresso, steamed milk and chocolate...served hot or iced</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-HIU6ENXBPBBY",
+      "name": "Espresso and Tonic",
+      "category": "Cafe",
+      "price_cents": 550,
+      "price_low_cents": 550,
+      "price_high_cents": 550,
+      "available": true,
+      "raw": {
+        "description": "<p>Revival Espresso, Angostura Orange Bitters and Tonic</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-YRE7GYNINI2E",
+      "name": "Cold (Brew) Fashioned",
+      "category": "Cafe",
+      "price_cents": 550,
+      "price_low_cents": 550,
+      "price_high_cents": 550,
+      "available": true,
+      "raw": {
+        "description": "<p>Bourbon Barrel Cold Brew, sugar and Angostura and Cherry Bark Vanilla bitters</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-GNZMD7S76UUQ",
+      "name": "Iced Tea",
+      "category": "Cafe",
+      "price_cents": 325,
+      "price_low_cents": 325,
+      "price_high_cents": 325,
+      "available": true,
+      "raw": {
+        "description": "<p>Rishi black iced tea</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-3T42C2X7IZ5Q",
+      "name": "Kiddie Cocktail",
+      "category": "Cafe",
+      "price_cents": 300,
+      "price_low_cents": 300,
+      "price_high_cents": 300,
+      "available": true,
+      "raw": {
+        "description": "<p>Sprite and grenadine garnished with maraschino cherries</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-QLVKSNOOPI7H",
+      "name": "Cherry Limeade",
+      "category": "Cafe",
+      "price_cents": 300,
+      "price_low_cents": 300,
+      "price_high_cents": 300,
+      "available": true,
+      "raw": {
+        "description": "<p>Cherry, lime and simple syrup</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-DME4C7MBY7GB",
+      "name": "Lemonade",
+      "category": "Cafe",
+      "price_cents": 300,
+      "price_low_cents": 300,
+      "price_high_cents": 300,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh lemon juice and simple syrup</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-M3NL4LWC4W7V",
+      "name": "Latte",
+      "category": "Cafe",
+      "price_cents": 450,
+      "price_low_cents": 450,
+      "price_high_cents": 500,
+      "available": true,
+      "raw": {
+        "description": "<p>Espresso and milk...served hot or iced</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-C5MM5VTPZX22",
+      "name": "Blueberry Muffin",
+      "category": "Food",
+      "price_cents": 375,
+      "price_low_cents": 375,
+      "price_high_cents": 375,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-KYSQD4OZ2A42",
+      "name": "Brand Old Fashioned Muffin",
+      "category": "Food",
+      "price_cents": 375,
+      "price_low_cents": 375,
+      "price_high_cents": 375,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-C7KAJHG5ZVTO",
+      "name": "Egg Nog",
+      "category": "Food",
+      "price_cents": 375,
+      "price_low_cents": 375,
+      "price_high_cents": 375,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-Z22D37QA764K",
+      "name": "Cinnamon Chocolate Chip Scone",
+      "category": "Food",
+      "price_cents": 375,
+      "price_low_cents": 375,
+      "price_high_cents": 375,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-J76XSYRX34C6",
+      "name": "Sun-dried Tomato & Feta Scone",
+      "category": "Food",
+      "price_cents": 375,
+      "price_low_cents": 375,
+      "price_high_cents": 375,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-B7G5M7WTHYY4",
+      "name": "Cranberry Orange Scone",
+      "category": "Food",
+      "price_cents": 375,
+      "price_low_cents": 375,
+      "price_high_cents": 375,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-QUAYSBQIZ237",
+      "name": "Snickerdoodle Cookie",
+      "category": "Food",
+      "price_cents": 150,
+      "price_low_cents": 150,
+      "price_high_cents": 150,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-LAPIIDVXAUPC",
+      "name": "Triple Chocolate Cookie",
+      "category": "Food",
+      "price_cents": 150,
+      "price_low_cents": 150,
+      "price_high_cents": 150,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-DA7YIZXDKYXO",
+      "name": "Peanut Butter Butterscotch",
+      "category": "Food",
+      "price_cents": 150,
+      "price_low_cents": 150,
+      "price_high_cents": 150,
+      "available": true,
+      "raw": {
+        "description": "<p>Fresh baked daily in the Hawthorne Kitchen.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-PQHYLCSD4LQF",
+      "name": "Bacon, Egg & Cheddar Bagel (Grab 'n Go)",
+      "category": "Food",
+      "price_cents": 875,
+      "price_low_cents": 875,
+      "price_high_cents": 875,
+      "available": true,
+      "raw": {
+        "description": "<p>Bagel, egg, salt, pepper, bacon, cheddar cheese</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-NDSFT3XGP63Z",
+      "name": "Ham, Egg & Swiss Croissant (Grab 'n Go)",
+      "category": "Food",
+      "price_cents": 875,
+      "price_low_cents": 875,
+      "price_high_cents": 875,
+      "available": true,
+      "raw": {
+        "description": "<p>Smoked ham, scrambled egg patty and Swiss Cheese on a croissant.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-INL4RRPGB7DT",
+      "name": "Sausage, Egg & Cheddar English Muffin (Grab 'n Go)",
+      "category": "Food",
+      "price_cents": 875,
+      "price_low_cents": 875,
+      "price_high_cents": 875,
+      "available": true,
+      "raw": {
+        "description": "<p>Jones&#39; sausage, egg patty and cheddar cheese on an English Muffin.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-4JDWJEJV2GZO",
+      "name": "Lunch Special",
+      "category": "Food",
+      "price_cents": 1100,
+      "price_low_cents": 1100,
+      "price_high_cents": 1100,
+      "available": true,
+      "raw": {
+        "description": "<p>Tuna Melt</p><p>Creamy tuna salad on toasted white bread with lots of melted cheddar cheese.</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-EZ373BKDGX2H",
+      "name": "Egg & Cheese English Muffin (Grab & Go)",
+      "category": "Food",
+      "price_cents": 800,
+      "price_low_cents": 800,
+      "price_high_cents": 800,
+      "available": true,
+      "raw": {
+        "description": "English Muffin, egg, salt, pepper, Swiss and cheddar cheesesServed hot"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-AKO7VGNWWJRJ",
+      "name": "Tuscan English Muffin",
+      "category": "Food",
+      "price_cents": 1200,
+      "price_low_cents": 1200,
+      "price_high_cents": 1200,
+      "available": true,
+      "raw": {
+        "description": "<p>Two egg patty, sundried tomato spread, goat cheese, tomato and arugula on a toasted English Muffin</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-VOMZNV4UEAQT",
+      "name": "Country Biscuit",
+      "category": "Food",
+      "price_cents": 1200,
+      "price_low_cents": 1200,
+      "price_high_cents": 1200,
+      "available": true,
+      "raw": {
+        "description": "<p>Two egg patty, Hawthorne Magic Breakfast Sauce, cheddar and pepperjack cheese and bacon on a housemade biscuit</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-YQKQS4A64HDS",
+      "name": "Egg and Avocado Toast",
+      "category": "Food",
+      "price_cents": 1200,
+      "price_low_cents": 1200,
+      "price_high_cents": 1400,
+      "available": true,
+      "raw": {
+        "description": "<p>Scrambled egg patty with avacado, red onion, tomato and Sriracha mayo served on sourdough toast (make it Vegan! +$2)</p>"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "haw-T57XN7AZGJAA",
+      "name": "Espresso",
+      "category": "Cafe",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 400,
+      "available": true,
+      "raw": {
+        "description": "<p>2 oz of Revival Espresso</p>"
+      },
+      "modifiers": []
+    }
+  ]
+}
