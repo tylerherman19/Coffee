@@ -54,6 +54,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .column-header.shops { grid-template-columns: minmax(0, 1fr) clamp(96px, 12vw, 132px); }
 .column-header.compare { grid-template-columns: clamp(26px, 3vw, 40px) minmax(0, 1fr) clamp(104px, 13vw, 148px); }
 .column-header .col-a.hide { visibility: hidden; }
+.column-header span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .column-header .col-c { text-align: right; }
 
 /* ============ content ============ */
