@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Update shop fields: closed_at, address, and/or name.
+"""Update shop fields: closed_at, address, name, and/or domain.
 
 Usage:
   python scripts/set_shop_closed.py --shop-id 198 [--closed-on 2026-09-04]
   python scripts/set_shop_closed.py --shop-id 198 --reopen
   python scripts/set_shop_closed.py --shop-id 486 --address "800 LaSalle Avenue, Minneapolis, MN"
   python scripts/set_shop_closed.py --shop-id 142 --name "41Fork Exchange at Wantable Cafe"
+  python scripts/set_shop_closed.py --shop-id 125 --domain caseramilwaukee.com
 """
 
 from __future__ import annotations
@@ -23,27 +24,30 @@ def main() -> None:
     parser.add_argument("--reopen", action="store_true", help="Clear closed_at")
     parser.add_argument("--address", default="", help="Set the shop address")
     parser.add_argument("--name", default="", help="Set the shop name")
+    parser.add_argument("--domain", default="", help="Set the shop domain (bare host, e.g. caseramilwaukee.com)")
     args = parser.parse_args()
 
     values: dict = {}
     if args.reopen:
         values["closed_at"] = None
-    elif args.closed_on or (not args.address and not args.name):
+    elif args.closed_on or (not args.address and not args.name and not args.domain):
         values["closed_at"] = args.closed_on or dt.date.today().isoformat()
     if args.address:
         values["address"] = args.address
     if args.name:
         values["name"] = args.name
+    if args.domain:
+        values["domain"] = args.domain.lower().removeprefix("https://").removeprefix("http://").removeprefix("www.").strip("/")
 
     sb = Supabase()
-    rows = sb.get("shops", {"id": f"eq.{args.shop_id}", "select": "id,name,address,closed_at,scrape_status"})
+    rows = sb.get("shops", {"id": f"eq.{args.shop_id}", "select": "id,name,address,closed_at,scrape_status,domain"})
     if not rows:
         raise SystemExit(f"shop {args.shop_id} not found")
     print(f"before: {rows[0]}")
 
     sb.patch("shops", f"id=eq.{args.shop_id}", values)
 
-    rows = sb.get("shops", {"id": f"eq.{args.shop_id}", "select": "id,name,address,closed_at,scrape_status"})
+    rows = sb.get("shops", {"id": f"eq.{args.shop_id}", "select": "id,name,address,closed_at,scrape_status,domain"})
     print(f"after: {rows[0]}")
 
 
