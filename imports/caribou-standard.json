@@ -1,0 +1,3820 @@
+{
+ "platform": "caribou",
+ "source_url": "https://order.cariboucoffee.com/menu/1287-minnetonka-mn (api.caribou.network cart pricing, store 1287 Minnetonka, standard tier)",
+ "shops": [
+  {
+   "id": 134,
+   "slug": null
+  },
+  {
+   "id": 211,
+   "slug": null
+  },
+  {
+   "id": 246,
+   "slug": null
+  },
+  {
+   "id": 263,
+   "slug": null
+  },
+  {
+   "id": 244,
+   "slug": null
+  },
+  {
+   "id": 277,
+   "slug": null
+  },
+  {
+   "id": 282,
+   "slug": null
+  },
+  {
+   "id": 314,
+   "slug": null
+  },
+  {
+   "id": 366,
+   "slug": null
+  },
+  {
+   "id": 375,
+   "slug": null
+  },
+  {
+   "id": 365,
+   "slug": null
+  },
+  {
+   "id": 348,
+   "slug": null
+  },
+  {
+   "id": 379,
+   "slug": null
+  },
+  {
+   "id": 395,
+   "slug": null
+  },
+  {
+   "id": 396,
+   "slug": null
+  },
+  {
+   "id": 424,
+   "slug": null
+  },
+  {
+   "id": 427,
+   "slug": null
+  },
+  {
+   "id": 430,
+   "slug": null
+  },
+  {
+   "id": 429,
+   "slug": null
+  },
+  {
+   "id": 522,
+   "slug": null
+  },
+  {
+   "id": 529,
+   "slug": null
+  },
+  {
+   "id": 528,
+   "slug": null
+  },
+  {
+   "id": 548,
+   "slug": null
+  },
+  {
+   "id": 560,
+   "slug": null
+  },
+  {
+   "id": 556,
+   "slug": null
+  },
+  {
+   "id": 535,
+   "slug": null
+  },
+  {
+   "id": 534,
+   "slug": null
+  },
+  {
+   "id": 550,
+   "slug": null
+  },
+  {
+   "id": 554,
+   "slug": null
+  },
+  {
+   "id": 542,
+   "slug": null
+  },
+  {
+   "id": 193,
+   "slug": null
+  },
+  {
+   "id": 569,
+   "slug": null
+  },
+  {
+   "id": 622,
+   "slug": null
+  },
+  {
+   "id": 567,
+   "slug": null
+  },
+  {
+   "id": 618,
+   "slug": null
+  },
+  {
+   "id": 619,
+   "slug": null
+  },
+  {
+   "id": 295,
+   "slug": null
+  },
+  {
+   "id": 476,
+   "slug": null
+  },
+  {
+   "id": 265,
+   "slug": null
+  },
+  {
+   "id": 210,
+   "slug": null
+  },
+  {
+   "id": 205,
+   "slug": null
+  },
+  {
+   "id": 249,
+   "slug": null
+  },
+  {
+   "id": 616,
+   "slug": null
+  },
+  {
+   "id": 615,
+   "slug": null
+  },
+  {
+   "id": 620,
+   "slug": null
+  },
+  {
+   "id": 626,
+   "slug": null
+  },
+  {
+   "id": 627,
+   "slug": null
+  },
+  {
+   "id": 632,
+   "slug": null
+  },
+  {
+   "id": 636,
+   "slug": null
+  },
+  {
+   "id": 642,
+   "slug": null
+  },
+  {
+   "id": 643,
+   "slug": null
+  },
+  {
+   "id": 645,
+   "slug": null
+  },
+  {
+   "id": 650,
+   "slug": null
+  },
+  {
+   "id": 659,
+   "slug": null
+  },
+  {
+   "id": 655,
+   "slug": null
+  },
+  {
+   "id": 656,
+   "slug": null
+  },
+  {
+   "id": 665,
+   "slug": null
+  },
+  {
+   "id": 678,
+   "slug": null
+  },
+  {
+   "id": 625,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "c921b641-2896-4d9d-b661-84e038d095b5",
+   "name": "Light Roast Hot Coffee - Value",
+   "category": "Everyday Value Menu",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 379,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 2.0,
+     "Medium": 2.99,
+     "Large": 3.39,
+     "Extra-Large": 3.79
+    },
+    "default_size": "Small",
+    "product_name": "Light Roast Hot Coffee - Toast - Value"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fc8aa916-6daf-41bd-8984-0a69d38c5c08",
+   "name": "Dark Roast Hot Coffee - Value",
+   "category": "Everyday Value Menu",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 379,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 2.0,
+     "Medium": 2.99,
+     "Large": 3.39,
+     "Extra-Large": 3.79
+    },
+    "default_size": "Small",
+    "product_name": "Dark Roast Hot Coffee - Toast - Value"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6bff418b-d814-494a-8c94-d335a69726c7",
+   "name": "Decaf Hot Coffee - Value",
+   "category": "Everyday Value Menu",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 379,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 2.0,
+     "Medium": 2.99,
+     "Large": 3.39,
+     "Extra-Large": 3.79
+    },
+    "default_size": "Small",
+    "product_name": "Decaf Hot Coffee - Toast - Value"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "63c6e53f-e80b-46b9-9704-af98db6027e4",
+   "name": "Cold Brew - Value",
+   "category": "Everyday Value Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 639,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.5,
+     "Medium": 4.89,
+     "Large": 5.39,
+     "Extra-Large": 6.39
+    },
+    "default_size": "Small",
+    "product_name": "Cold Brew - Nitro Stores - Value"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7b379587-4109-4773-85f7-3b0475d16318",
+   "name": "Blueberry Muffin - Value",
+   "category": "Everyday Value Menu",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 3.0
+    },
+    "default_size": "One Size",
+    "product_name": "Blueberry Muffin - Value"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7a063737-3a08-4901-9e6b-64ffe4189f6c",
+   "name": "Bacon Breakfast Sandwich - Value",
+   "category": "All Day Breakfast",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 4.0
+    },
+    "default_size": "One Size",
+    "product_name": "Bacon Breakfast Sandwich - Value"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "117b0316-4edc-40de-9941-e693bb0430fb",
+   "name": "Pumpkin Espresso Shaker",
+   "category": "Espresso Shakers",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Espresso Shaker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e4cf0a71-db90-48bb-b599-e9e45bedce0b",
+   "name": "Honeycrisp Apple Caramel Espresso Shaker",
+   "category": "Espresso Shakers",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Honeycrisp Apple Caramel Espresso Shaker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "00f1910a-7357-475f-b283-0e4643d25d02",
+   "name": "Iced White Mocha with Pumpkin Cold Foam",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "White Mocha with Pumpkin Cold Foam"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b87c4480-5f94-45d0-9469-e03d381d47b8",
+   "name": "White Mocha with Pumpkin Cold Foam",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "White Mocha with Pumpkin Cold Foam"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b6db41b0-36ae-43b1-aef9-5ac72958a31e",
+   "name": "Iced Caramel Latte w/ Honeycrisp Apple Cold Foam",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Caramel Latte w/ Honeycrisp Apple Cold Foam"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b397b40e-2492-4dcb-b487-d413d48dc9b6",
+   "name": "Caramel Latte w/ Honeycrisp Apple Cold Foam",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Caramel Latte w/ Honeycrisp Apple Cold Foam"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "96f3bb66-365f-4f83-b0ae-1c6c87459feb",
+   "name": "Pumpkin White Mocha",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin White Mocha - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "0786d0ae-882c-4348-9073-dc04cdfa0ae7",
+   "name": "Iced Pumpkin White Mocha",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin White Mocha - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e9a096a3-55f4-45da-9e4f-bc2f7ab313e9",
+   "name": "Pumpkin White Mocha Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 649,
+   "price_low_cents": 619,
+   "price_high_cents": 799,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.19,
+     "Medium": 6.49,
+     "Large": 6.99,
+     "Extra-Large": 7.99
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin White Mocha - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "92518ff3-6464-4e5d-af8d-009fb69b8b8d",
+   "name": "Nitro Pumpkin White Mocha",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 629,
+   "price_high_cents": 629,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.29
+    },
+    "default_size": "One Size",
+    "product_name": "Pumpkin White Mocha - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "76181a1f-5e76-4afa-9fea-50d6a88eed7b",
+   "name": "Honeycrisp Apple Caramel High Rise\u00ae",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Honeycrisp Apple Caramel High Rise\u00ae"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d79d4ed3-7921-4466-912c-0de4376c62db",
+   "name": "Iced Honeycrisp Apple Caramel High Rise\u00ae",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Honeycrisp Apple Caramel High Rise\u00ae"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c0ab097d-3ec4-493a-97bb-caf828ffceec",
+   "name": "Honeycrisp Apple Caramel High Rise\u00ae Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 649,
+   "price_low_cents": 619,
+   "price_high_cents": 799,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.19,
+     "Medium": 6.49,
+     "Large": 6.99,
+     "Extra-Large": 7.99
+    },
+    "default_size": "Medium",
+    "product_name": "Honeycrisp Apple Caramel High Rise\u00ae"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "aadd52c7-d59e-4356-80ca-fdb072d61c30",
+   "name": "Honeycrisp Apple Nitro High Rise",
+   "category": "Signature",
+   "price_cents": 629,
+   "price_low_cents": 629,
+   "price_high_cents": 629,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.29
+    },
+    "default_size": "One Size",
+    "product_name": "Honeycrisp Apple Caramel High Rise\u00ae"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3d74b677-ab45-4510-b6c7-6c6f46ebff9d",
+   "name": "Pumpkin Latte",
+   "category": "Classic",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2c634857-de84-4aad-8e79-844a71e32284",
+   "name": "Iced Pumpkin Latte",
+   "category": "Classic",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "aa57f1b2-06ec-436e-9175-2b58ca361b46",
+   "name": "Nitro Pumpkin Latte",
+   "category": "Classic",
+   "price_cents": 629,
+   "price_low_cents": 629,
+   "price_high_cents": 629,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.29
+    },
+    "default_size": "One Size",
+    "product_name": "Pumpkin Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ab6f02ae-9644-4a24-bbcb-da1a43ae6f88",
+   "name": "Iced Pumpkin Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 599,
+   "price_low_cents": 569,
+   "price_high_cents": 749,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.69,
+     "Medium": 5.99,
+     "Large": 6.49,
+     "Extra-Large": 7.49
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ff214e61-d205-4e8b-85d9-4e0322d168f0",
+   "name": "Hot Pumpkin Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 599,
+   "price_low_cents": 569,
+   "price_high_cents": 749,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.69,
+     "Medium": 5.99,
+     "Large": 6.49,
+     "Extra-Large": 7.49
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f78a6033-2f3b-440b-8045-7c028d57bf17",
+   "name": "Blended Pumpkin Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 599,
+   "price_low_cents": 569,
+   "price_high_cents": 749,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.69,
+     "Medium": 5.99,
+     "Large": 6.49,
+     "Extra-Large": 7.49
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "db7fdb6a-7742-4dae-8499-f5f83339c62b",
+   "name": "Frozen Caramel Apple",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 649,
+   "price_low_cents": 619,
+   "price_high_cents": 799,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.19,
+     "Medium": 6.49,
+     "Large": 6.99,
+     "Extra-Large": 7.99
+    },
+    "default_size": "Medium",
+    "product_name": "Frozen Caramel Apple"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a01dc38b-277b-4cd6-80b6-7d79983fcb9f",
+   "name": "Pumpkin Chai Tea Latte",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Chai"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "284f7965-e7fb-4ad1-b965-fef9b3613537",
+   "name": "Iced Pumpkin Chai Tea Latte",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Chai"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5a02fb25-9fa9-4375-8579-2828423e8c74",
+   "name": "Blended Pumpkin Chai Tea Latte",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 629,
+   "price_low_cents": 599,
+   "price_high_cents": 779,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
+     "Extra-Large": 7.79
+    },
+    "default_size": "Medium",
+    "product_name": "Pumpkin Chai"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9ed802a6-99e0-4737-9808-7b52be0c77d4",
+   "name": "French Toast Sandwich",
+   "category": "All Day Breakfast",
+   "price_cents": 649,
+   "price_low_cents": 649,
+   "price_high_cents": 649,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.49
+    },
+    "default_size": "One Size",
+    "product_name": "French Toast Sandwich"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fbc4cb85-9f54-4e6e-b922-90719f0fdee0",
+   "name": "Pumpkin Cream Cheese Muffin",
+   "category": "Bakery",
+   "price_cents": 399,
+   "price_low_cents": 399,
+   "price_high_cents": 399,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 3.99
+    },
+    "default_size": "One Size",
+    "product_name": "Pumpkin Cream Cheese Muffin"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7b7bf054-d043-4f0c-a736-5d3d6440f7e4",
+   "name": "Apple Cinnamon Pastry",
+   "category": "Bakery",
+   "price_cents": 419,
+   "price_low_cents": 419,
+   "price_high_cents": 419,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 4.19
+    },
+    "default_size": "One Size",
+    "product_name": "Apple Cinnamon Pastry"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f86361bc-f6e7-4d04-b1bb-141d38671bb9",
+   "name": "Guatemala Single Origin Coffee",
+   "category": "Beans",
+   "price_cents": 1799,
+   "price_low_cents": 1799,
+   "price_high_cents": 1799,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 17.99
+    },
+    "default_size": "One Size",
+    "product_name": "Guatemala Single Origin Whole Bean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "db10a0c4-99b4-4448-b406-cb28a3e08aba",
+   "name": "La Minita Peaberry",
+   "category": "Beans",
+   "price_cents": 1999,
+   "price_low_cents": 1999,
+   "price_high_cents": 1999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 19.99
+    },
+    "default_size": "One Size",
+    "product_name": "La Minita Peaberry Whole Bean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "adbeda61-d491-4968-b3f6-24304525db0e",
+   "name": "La Minita Peaberry Cold Brew",
+   "category": "Classic",
+   "price_cents": 489,
+   "price_low_cents": 350,
+   "price_high_cents": 639,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.5,
+     "Medium": 4.89,
+     "Large": 5.39,
+     "Extra-Large": 6.39
+    },
+    "default_size": "Medium",
+    "product_name": "La Minita Peaberry Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8816da99-592b-4b0f-ae0b-399b73fc808b",
+   "name": "La Minita Peaberry Iced Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 539,
+   "price_low_cents": 509,
+   "price_high_cents": 689,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.09,
+     "Medium": 5.39,
+     "Large": 5.89,
+     "Extra-Large": 6.89
+    },
+    "default_size": "Medium",
+    "product_name": "La Minita Peaberry Oatmilk Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7509f9a8-f0fb-4baa-8bdc-4d70e8ee53cd",
+   "name": "La Minita Peaberry Hot Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 539,
+   "price_low_cents": 509,
+   "price_high_cents": 689,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.09,
+     "Medium": 5.39,
+     "Large": 5.89,
+     "Extra-Large": 6.89
+    },
+    "default_size": "Medium",
+    "product_name": "La Minita Peaberry Oatmilk Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "aacb9552-9457-485f-a2cc-b1595bcf3095",
+   "name": "La Minita Peaberry Blended Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 539,
+   "price_low_cents": 509,
+   "price_high_cents": 689,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.09,
+     "Medium": 5.39,
+     "Large": 5.89,
+     "Extra-Large": 6.89
+    },
+    "default_size": "Medium",
+    "product_name": "La Minita Peaberry Oatmilk Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d9453d4c-cdfa-453f-9e16-7dca091cd1c8",
+   "name": "La Minita Peaberry Cold Brew Shandy",
+   "category": "Classic",
+   "price_cents": 589,
+   "price_low_cents": 450,
+   "price_high_cents": 739,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.5,
+     "Medium": 5.89,
+     "Large": 6.39,
+     "Extra-Large": 7.39
+    },
+    "default_size": "Medium",
+    "product_name": "La Minita Peaberry Cold Brew Shandy"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "12416d35-3d33-4d9e-ad43-5151c1d79838",
+   "name": "Latte",
+   "category": "Classic",
+   "price_cents": 519,
+   "price_low_cents": 489,
+   "price_high_cents": 669,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.89,
+     "Medium": 5.19,
+     "Large": 5.69,
+     "Extra-Large": 6.69
+    },
+    "default_size": "Medium",
+    "product_name": "Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e99fe0fa-79c0-4f4e-9f30-47235462c74c",
+   "name": "Iced Latte",
+   "category": "Classic",
+   "price_cents": 519,
+   "price_low_cents": 489,
+   "price_high_cents": 669,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.89,
+     "Medium": 5.19,
+     "Large": 5.69,
+     "Extra-Large": 6.69
+    },
+    "default_size": "Medium",
+    "product_name": "Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "70932d0f-46bc-42cf-9b6c-a22b3112f5e0",
+   "name": "Nitro Latte",
+   "category": "Classic",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.99
+    },
+    "default_size": "One Size",
+    "product_name": "Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "82d1425f-acff-4b83-a3df-d3be174a2b00",
+   "name": "Iced Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 539,
+   "price_low_cents": 509,
+   "price_high_cents": 689,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.09,
+     "Medium": 5.39,
+     "Large": 5.89,
+     "Extra-Large": 6.89
+    },
+    "default_size": "Medium",
+    "product_name": "Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5416193a-8bcb-46f1-93f0-2a1831766278",
+   "name": "Hot Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 539,
+   "price_low_cents": 509,
+   "price_high_cents": 689,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.09,
+     "Medium": 5.39,
+     "Large": 5.89,
+     "Extra-Large": 6.89
+    },
+    "default_size": "Medium",
+    "product_name": "Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9c664e5b-b257-4a34-828b-f0d76486cde0",
+   "name": "Blended Crafted Cold Brew",
+   "category": "Classic",
+   "price_cents": 539,
+   "price_low_cents": 509,
+   "price_high_cents": 689,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.09,
+     "Medium": 5.39,
+     "Large": 5.89,
+     "Extra-Large": 6.89
+    },
+    "default_size": "Medium",
+    "product_name": "Crafted Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a0be7b1f-a63a-4688-bfc7-20dae54c19bd",
+   "name": "Iced Mocha",
+   "category": "Classic",
+   "price_cents": 589,
+   "price_low_cents": 559,
+   "price_high_cents": 739,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.59,
+     "Medium": 5.89,
+     "Large": 6.39,
+     "Extra-Large": 7.39
+    },
+    "default_size": "Medium",
+    "product_name": "Mocha - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e6f9bda3-bf04-426b-93eb-afaf9c146af5",
+   "name": "Mocha",
+   "category": "Classic",
+   "price_cents": 589,
+   "price_low_cents": 559,
+   "price_high_cents": 739,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.59,
+     "Medium": 5.89,
+     "Large": 6.39,
+     "Extra-Large": 7.39
+    },
+    "default_size": "Medium",
+    "product_name": "Mocha - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9ac9299d-3cc1-4e00-853c-d2cfb4f4313f",
+   "name": "Nitro Mocha",
+   "category": "Classic",
+   "price_cents": 589,
+   "price_low_cents": 589,
+   "price_high_cents": 589,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.89
+    },
+    "default_size": "One Size",
+    "product_name": "Mocha - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "46824ece-33f4-4fe5-97c3-7da63a772a4c",
+   "name": "Cold Brew",
+   "category": "Classic",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 639,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.5,
+     "Medium": 4.89,
+     "Large": 5.39,
+     "Extra-Large": 6.39
+    },
+    "default_size": "Small",
+    "product_name": "Cold Brew - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b6e47c4e-8fb5-4d43-a98d-19b801357539",
+   "name": "Nitro Cold Brew",
+   "category": "Classic",
+   "price_cents": 549,
+   "price_low_cents": 549,
+   "price_high_cents": 549,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.49
+    },
+    "default_size": "One Size",
+    "product_name": "Cold Brew - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d2091ee8-4674-4e34-98ab-fe7b27636486",
+   "name": "Dark Roast Hot Coffee",
+   "category": "Classic",
+   "price_cents": 299,
+   "price_low_cents": 200,
+   "price_high_cents": 379,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 2.0,
+     "Medium": 2.99,
+     "Large": 3.39,
+     "Extra-Large": 3.79
+    },
+    "default_size": "Medium",
+    "product_name": "Dark Roast Hot Coffee - Toast"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dc0f9c6f-b501-4126-a719-4643a13ef31d",
+   "name": "Light Roast Hot Coffee",
+   "category": "Classic",
+   "price_cents": 299,
+   "price_low_cents": 200,
+   "price_high_cents": 379,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 2.0,
+     "Medium": 2.99,
+     "Large": 3.39,
+     "Extra-Large": 3.79
+    },
+    "default_size": "Medium",
+    "product_name": "Light Roast Hot Coffee - Toast"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7d5d7741-dc29-409c-adf8-2cef825ec7fa",
+   "name": "Decaf Hot Coffee",
+   "category": "Classic",
+   "price_cents": 299,
+   "price_low_cents": 200,
+   "price_high_cents": 379,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 2.0,
+     "Medium": 2.99,
+     "Large": 3.39,
+     "Extra-Large": 3.79
+    },
+    "default_size": "Medium",
+    "product_name": "Decaf Hot Coffee - Toast"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "091d599c-564d-4464-a64a-39e22cf85a73",
+   "name": "Steamed Cold Brew",
+   "category": "Classic",
+   "price_cents": 489,
+   "price_low_cents": 350,
+   "price_high_cents": 639,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.5,
+     "Medium": 4.89,
+     "Large": 5.39,
+     "Extra-Large": 6.39
+    },
+    "default_size": "Medium",
+    "product_name": "Steamed Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "83e653b3-af62-4c74-be18-8d841a5a1020",
+   "name": "Americano",
+   "category": "Classic",
+   "price_cents": 429,
+   "price_low_cents": 399,
+   "price_high_cents": 579,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.99,
+     "Medium": 4.29,
+     "Large": 4.79,
+     "Extra-Large": 5.79
+    },
+    "default_size": "Medium",
+    "product_name": "Americano"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "039dba2e-9f35-4046-aa43-38d98792311e",
+   "name": "Iced Americano",
+   "category": "Classic",
+   "price_cents": 429,
+   "price_low_cents": 399,
+   "price_high_cents": 579,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.99,
+     "Medium": 4.29,
+     "Large": 4.79,
+     "Extra-Large": 5.79
+    },
+    "default_size": "Medium",
+    "product_name": "Americano"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "94a2e82f-1fa2-4d1f-8995-6eaf6f449c1e",
+   "name": "Cold Brew w/ Lemonade",
+   "category": "Classic",
+   "price_cents": 589,
+   "price_low_cents": 450,
+   "price_high_cents": 739,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.5,
+     "Medium": 5.89,
+     "Large": 6.39,
+     "Extra-Large": 7.39
+    },
+    "default_size": "Medium",
+    "product_name": "Cold Brew with Lemonade"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dd60855f-ddf9-49a8-b46c-2e872cef9ce6",
+   "name": "Cappuccino",
+   "category": "Classic",
+   "price_cents": 519,
+   "price_low_cents": 489,
+   "price_high_cents": 669,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.89,
+     "Medium": 5.19,
+     "Large": 5.69,
+     "Extra-Large": 6.69
+    },
+    "default_size": "Medium",
+    "product_name": "Cappuccino"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2e4fca0c-03c9-4bfa-a925-b8889813d712",
+   "name": "Northern Lite\u00ae Latte",
+   "category": "Classic",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Northern Lite\u00ae Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e20dcb34-5536-42cd-9595-0a7e62ebfd99",
+   "name": "Iced Northern Lite\u00ae Latte",
+   "category": "Classic",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Northern Lite\u00ae Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "704c891f-3d68-48a5-a232-962623c53c30",
+   "name": "Breve",
+   "category": "Classic",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Breve"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e14f759c-c066-4cf5-b508-b33cf6f2237d",
+   "name": "Iced Breve",
+   "category": "Classic",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Breve"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c5d39be4-2467-421b-9412-3c6570e5ec9b",
+   "name": "Campfire Mocha\u00ae",
+   "category": "Signature",
+   "price_cents": 769,
+   "price_low_cents": 769,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Campfire Mocha - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6979922d-218f-4d3d-86e0-11d39cae772a",
+   "name": "Iced Campfire Mocha\u00ae",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Campfire Mocha - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "95000203-6e84-4aaa-95fc-6269ae334ffd",
+   "name": "Nitro Campfire Mocha\u00ae",
+   "category": "Signature",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.99
+    },
+    "default_size": "One Size",
+    "product_name": "Campfire Mocha - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d201b485-507f-4467-9d5d-519dff30f512",
+   "name": "Iced Honey Lavender Latte",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Honey Lavender Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "0af12ee2-acde-49cd-b259-c5b9862af4e5",
+   "name": "Honey Lavender Latte",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Honey Lavender Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "97c58153-35f7-41fb-b88f-a6affac7fb2e",
+   "name": "Iced Oatmilk Crafted Cold Brew w/ Oatmilk Cold Foam",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Oatmilk Crafted Cold Brew with Oatmilk Cold Foam"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "0e7e54a0-f0b8-4c55-b484-7dd666da3bd6",
+   "name": "Hot Oatmilk Crafted Cold Brew w/ Oatmilk Cold Foam",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Oatmilk Crafted Cold Brew with Oatmilk Cold Foam"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dd4c2e6b-0698-47b0-be20-404aa4f56717",
+   "name": "Blended Oatmilk Crafted Cold Brew w/ Oatmilk Cold Foam",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Oatmilk Crafted Cold Brew with Oatmilk Cold Foam"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5b170d00-6b47-4f0a-88f5-5286eecbba22",
+   "name": "Caramel High Rise\u00ae Latte",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Caramel High Rise\u00ae Latte - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "51131ab6-e53c-4e6f-b617-e2bdf85780e5",
+   "name": "Iced Caramel High Rise\u00ae Latte",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Caramel High Rise\u00ae Latte - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ed9e6cce-94fe-4f20-918f-3194b6162938",
+   "name": "Nitro High Rise",
+   "category": "Signature",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.99
+    },
+    "default_size": "One Size",
+    "product_name": "Caramel High Rise\u00ae Latte - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5c686860-b8cb-4e64-a308-60c2b28cf05a",
+   "name": "Caramel High Rise\u00ae Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Caramel High Rise\u00ae Latte - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b1fde580-e151-4af6-9692-4670ceab7bd5",
+   "name": "Turtle Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Turtle Mocha - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "0318e97b-eda4-4829-b402-6cdee39c6faf",
+   "name": "Iced Turtle Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Turtle Mocha - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3242067b-ddd8-48b7-93f8-a2861f96db09",
+   "name": "Nitro Turtle Mocha",
+   "category": "Signature",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.99
+    },
+    "default_size": "One Size",
+    "product_name": "Turtle Mocha - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b01ae172-4488-4239-bc98-12233ec341af",
+   "name": "Turtle Mocha Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Turtle Mocha - Nitro Stores"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dcba91b5-b210-460a-b433-642aa4e27692",
+   "name": "Vanilla White Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Vanilla White Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8f7d7dff-175d-4e03-907a-ac26b7aae8e6",
+   "name": "Iced Vanilla White Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Vanilla White Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "649c3f79-d764-4928-b1b9-63df41739e9b",
+   "name": "Vanilla White Mocha Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Vanilla White Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "788b61a1-b1b1-44a9-94f2-5f7adc998bac",
+   "name": "Mint Condition\u00ae Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Mint Condition\u00ae Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e9cf2f47-332f-44ef-a01a-9b97bf5f0207",
+   "name": "Iced Mint Condition\u00ae Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Mint Condition\u00ae Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "df743ce9-1cbf-4ec0-8ccb-92a2eb4eb7dc",
+   "name": "Mint Condition\u00ae Mocha Cooler",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Mint Condition\u00ae Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "66e86455-ba5f-4fd3-9587-726baeabc02c",
+   "name": "Malted Mocha Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Malted Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a86207bd-bcf3-43a2-b6f6-d2797df7ccaf",
+   "name": "Malted Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Malted Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "18250ed0-a0a3-4424-802e-95e1e8d978a4",
+   "name": "Iced Malted Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Malted Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "22f72544-4924-46e4-bc03-599eb417df12",
+   "name": "Berry White Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Berry White Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3b671ec1-e649-4396-a975-1faca9002933",
+   "name": "Iced Berry White Mocha",
+   "category": "Signature",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Berry White Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1d242940-7991-4c2c-b848-2c6337cd0416",
+   "name": "Berry White Mocha Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Berry White Mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2ef6f2e3-e7d6-436e-b095-7cfbb4c9b3e6",
+   "name": "Vanilla Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Vanilla Caribou Cooler\u00ae Blended Beverage"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9f4d8400-b8c1-42a0-8d2c-9554d5dccd3f",
+   "name": "Chocolate Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Chocolate Caribou Cooler\u00ae Blended Beverage"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6fd3ec0b-6be8-4f97-954a-aacc59674d52",
+   "name": "Coffee Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Coffee Caribou Cooler\u00ae Blended Beverage"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fef22f47-8016-43db-addd-fa12b58737b3",
+   "name": "Espresso Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Espresso Caribou Cooler\u00ae Blended Beverage"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "36913aed-9967-4761-b2d5-b62ea4abd1dc",
+   "name": "Campfire Mocha\u00ae Espresso Shaker",
+   "category": "Espresso Shakers",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Campfire Mocha\u00ae Espresso Shaker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8cfa2b26-07e1-441d-89ae-5dabfc125fa0",
+   "name": "Malted Mocha Espresso Shaker",
+   "category": "Espresso Shakers",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Malted Mocha Espresso Shaker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c9264b66-f59f-480f-a910-c669af7b406f",
+   "name": "Honey Lavender Espresso Shaker",
+   "category": "Espresso Shakers",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Honey Lavender Espresso Shaker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f7e9466a-7ecb-4add-9d6c-b850f9a10b5b",
+   "name": "Caramel Espresso Shaker",
+   "category": "Espresso Shakers",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Caramel Espresso Shaker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "aa751d0c-28f1-42da-a26d-abbf96d33ec5",
+   "name": "Vanilla Espresso Shaker",
+   "category": "Espresso Shakers",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Vanilla Espresso Shaker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f887740b-6945-47ce-8d0b-30ebb17b3aa4",
+   "name": "White Chocolate Espresso Shaker",
+   "category": "Espresso Shakers",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "White Chocolate Espresso Shaker"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e2609d7e-6bb7-470d-913d-41a75e2579d7",
+   "name": "Strawberry Guava Lemonade Refresher",
+   "category": "Refreshers",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Strawberry Guava Lemonade Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a800fa11-14f5-4b1f-a602-4d05b17a692a",
+   "name": "Strawberry Guava Iced Tea Refresher",
+   "category": "Refreshers",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Strawberry Guava Iced Tea Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "abf52d7f-ef66-4d3e-9171-1599a9f1623d",
+   "name": "Mango Passionfruit Lemonade Refresher",
+   "category": "Refreshers",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Mango Passionfruit Lemonade Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8d1e4f66-52e3-4ac7-9ceb-b18d7d54b0b7",
+   "name": "Mango Passionfruit Iced Tea Refresher",
+   "category": "Refreshers",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Mango Passionfruit Iced Tea Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "da4589fe-5415-4da8-adaa-342662b2eb0e",
+   "name": "Strawberry Guava Lemonade Energy Refresher",
+   "category": "Refreshers",
+   "price_cents": 599,
+   "price_low_cents": 569,
+   "price_high_cents": 749,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.69,
+     "Medium": 5.99,
+     "Large": 6.49,
+     "Extra-Large": 7.49
+    },
+    "default_size": "Medium",
+    "product_name": "Strawberry Guava Lemonade Energy Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "025bb323-e530-4e03-ab4c-023a4ff849a0",
+   "name": "Strawberry Guava Iced Tea Energy Refresher",
+   "category": "Refreshers",
+   "price_cents": 599,
+   "price_low_cents": 569,
+   "price_high_cents": 749,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.69,
+     "Medium": 5.99,
+     "Large": 6.49,
+     "Extra-Large": 7.49
+    },
+    "default_size": "Medium",
+    "product_name": "Strawberry Guava Iced Tea Energy Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e3bbab3e-93fa-41a8-a065-4042893020e5",
+   "name": "Mango Passionfruit Lemonade Energy Refresher",
+   "category": "Refreshers",
+   "price_cents": 599,
+   "price_low_cents": 569,
+   "price_high_cents": 749,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.69,
+     "Medium": 5.99,
+     "Large": 6.49,
+     "Extra-Large": 7.49
+    },
+    "default_size": "Medium",
+    "product_name": "Mango Passionfruit Lemonade Energy Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "933aeead-5143-4efa-b317-8b9273c010c8",
+   "name": "Mango Passionfruit Iced Tea Energy Refresher",
+   "category": "Refreshers",
+   "price_cents": 599,
+   "price_low_cents": 569,
+   "price_high_cents": 749,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.69,
+     "Medium": 5.99,
+     "Large": 6.49,
+     "Extra-Large": 7.49
+    },
+    "default_size": "Medium",
+    "product_name": "Mango Passionfruit Iced Tea Energy Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "502186c4-9c07-4d08-ab3f-4af65dc41b19",
+   "name": "Iced Mint Matcha Tea Latte",
+   "category": "Matcha",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Mint Matcha Tea Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "009fd27b-58f4-4c8c-92e7-cb2d191fe780",
+   "name": "Iced Strawberry Pineapple Matcha Tea Latte",
+   "category": "Matcha",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Strawberry Pineapple Matcha Tea Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "327a848a-e8b8-4198-8681-74577855058e",
+   "name": "Iced Vanilla Matcha Tea Latte",
+   "category": "Matcha",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Vanilla Matcha Tea Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7027b009-7278-42f0-b20c-6123e4d5635b",
+   "name": "Vanilla Matcha Tea Latte",
+   "category": "Matcha",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Vanilla Matcha Tea Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "17fa7362-3873-4b4b-932e-0f7ff85d3775",
+   "name": "Iced Lavender Matcha Tea Latte",
+   "category": "Matcha",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Lavender Matcha Tea Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d5198bc9-ea85-4cc7-a03f-67ee0d5ef1b8",
+   "name": "Lavender Matcha Tea Latte",
+   "category": "Matcha",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Lavender Matcha Tea Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c52bc150-2ac8-4678-b5f0-f9a76c4af55e",
+   "name": "Frozen Vanilla Matcha",
+   "category": "Matcha",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Frozen Vanilla Matcha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a0cbf53c-ee13-4fa8-8038-e565a700bfde",
+   "name": "Frozen Lavender Matcha",
+   "category": "Matcha",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Frozen Lavender Matcha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5ba08cea-b324-446c-b986-85a3c3ac0170",
+   "name": "Honeycrisp Apple Caramel Oatmilk Steamer",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Honeycrisp Apple Caramel Oatmilk Steamer"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7d8f0ee5-b698-4c95-9f51-c186097ba379",
+   "name": "Frozen Cookies & Cream",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 639,
+   "price_low_cents": 609,
+   "price_high_cents": 789,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.09,
+     "Medium": 6.39,
+     "Large": 6.89,
+     "Extra-Large": 7.89
+    },
+    "default_size": "Medium",
+    "product_name": "Frozen Cookies & Cream"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d187e0c8-05c3-44d5-ab93-3cfd29452a82",
+   "name": "Strawberry Banana Smoothie",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Strawberry Banana Smoothie"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "da3c014c-f1ab-440e-8f05-6e8f1169b45d",
+   "name": "Classic Black Iced Tea with Lemonade",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 449,
+   "price_low_cents": 419,
+   "price_high_cents": 589,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.19,
+     "Medium": 4.49,
+     "Large": 4.89,
+     "Extra-Large": 5.89
+    },
+    "default_size": "Medium",
+    "product_name": "Classic Black Iced Tea with Lemonade"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "29f39c3e-6381-4468-be97-92c7fc85f3c6",
+   "name": "Mango Black Iced Tea with Lemonade",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 449,
+   "price_low_cents": 419,
+   "price_high_cents": 589,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.19,
+     "Medium": 4.49,
+     "Large": 4.89,
+     "Extra-Large": 5.89
+    },
+    "default_size": "Medium",
+    "product_name": "Mango Black Iced Tea with Lemonade"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c050eece-a239-40e0-8969-7f9b79e5faaa",
+   "name": "Tropical Green Iced Tea with Lemonade",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 449,
+   "price_low_cents": 419,
+   "price_high_cents": 589,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.19,
+     "Medium": 4.49,
+     "Large": 4.89,
+     "Extra-Large": 5.89
+    },
+    "default_size": "Medium",
+    "product_name": "Tropical Green Iced Tea with Lemonade"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "80d4f0fb-5cb1-4b83-bd96-c2fe67e29d67",
+   "name": "Lemonade",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 399,
+   "price_low_cents": 369,
+   "price_high_cents": 549,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.69,
+     "Medium": 3.99,
+     "Large": 4.49,
+     "Extra-Large": 5.49
+    },
+    "default_size": "Medium",
+    "product_name": "Lemonade"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fb4bd92d-bfcd-4c0e-91c5-484ea2c2d717",
+   "name": "Sparkling Peach Black Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 519,
+   "price_low_cents": 489,
+   "price_high_cents": 669,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.89,
+     "Medium": 5.19,
+     "Large": 5.69,
+     "Extra-Large": 6.69
+    },
+    "default_size": "Medium",
+    "product_name": "Peach Black Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "251b3766-571a-4261-a822-85eaa6bd96cc",
+   "name": "Blended Peach Black Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Peach Black Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9549bab1-1fef-47bd-a5d9-7675b44936b2",
+   "name": "Sparkling Green Tea Lemonade",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 519,
+   "price_low_cents": 489,
+   "price_high_cents": 669,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 4.89,
+     "Medium": 5.19,
+     "Large": 5.69,
+     "Extra-Large": 6.69
+    },
+    "default_size": "Medium",
+    "product_name": "Green Tea Lemonade"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "426f439a-7186-4dde-8616-cff2563cb620",
+   "name": "Blended Green Tea Lemonade",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 619,
+   "price_low_cents": 589,
+   "price_high_cents": 769,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.89,
+     "Medium": 6.19,
+     "Large": 6.69,
+     "Extra-Large": 7.69
+    },
+    "default_size": "Medium",
+    "product_name": "Green Tea Lemonade"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bdbb715a-ac57-44ff-acfc-3ac31be731c0",
+   "name": "Classic Black Iced Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 349,
+   "price_low_cents": 319,
+   "price_high_cents": 489,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.19,
+     "Medium": 3.49,
+     "Large": 3.89,
+     "Extra-Large": 4.89
+    },
+    "default_size": "Medium",
+    "product_name": "Classic Black Tea - Iced"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f4724dfe-8c0a-48fc-b207-d67c924bb1b3",
+   "name": "Mango Black Iced Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 349,
+   "price_low_cents": 319,
+   "price_high_cents": 489,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.19,
+     "Medium": 3.49,
+     "Large": 3.89,
+     "Extra-Large": 4.89
+    },
+    "default_size": "Medium",
+    "product_name": "Mango Black Iced Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "665c29fe-4dfe-44d9-8434-f31f076c5021",
+   "name": "Tropical Green Iced Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 349,
+   "price_low_cents": 319,
+   "price_high_cents": 489,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.19,
+     "Medium": 3.49,
+     "Large": 3.89,
+     "Extra-Large": 4.89
+    },
+    "default_size": "Medium",
+    "product_name": "Tropical Green Iced Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5bf028d2-1f25-4dd5-82e4-abdac6720eaa",
+   "name": "Classic Chai Latte",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Classic Chai Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b7c5e8a3-c8df-49a5-9592-c70564566d8a",
+   "name": "Iced Classic Chai Latte",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Classic Chai Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ebc88c5b-7e3c-45c9-ada0-c520c194a6bc",
+   "name": "Blended Chai Latte",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 569,
+   "price_low_cents": 539,
+   "price_high_cents": 719,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 5.39,
+     "Medium": 5.69,
+     "Large": 6.19,
+     "Extra-Large": 7.19
+    },
+    "default_size": "Medium",
+    "product_name": "Classic Chai Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bb0734c9-1417-46b8-a885-e2d62f0d04c6",
+   "name": "Chamomile Mint Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 349,
+   "price_low_cents": 319,
+   "price_high_cents": 429,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.19,
+     "Medium": 3.49,
+     "Large": 3.89,
+     "Extra-Large": 4.29
+    },
+    "default_size": "Medium",
+    "product_name": "Chamomile Mint Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4b4923d1-e56d-4ffd-93ec-56bbf72890a3",
+   "name": "Earl Grey Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 349,
+   "price_low_cents": 319,
+   "price_high_cents": 429,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.19,
+     "Medium": 3.49,
+     "Large": 3.89,
+     "Extra-Large": 4.29
+    },
+    "default_size": "Medium",
+    "product_name": "Earl Grey Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "63205bb3-c718-4350-bb2f-bb4b5bc93b8f",
+   "name": "Hot Cinnamon Spice Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 349,
+   "price_low_cents": 319,
+   "price_high_cents": 429,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.19,
+     "Medium": 3.49,
+     "Large": 3.89,
+     "Extra-Large": 4.29
+    },
+    "default_size": "Medium",
+    "product_name": "Hot Cinnamon Spice Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6a86e7ff-7a64-44a3-ba4e-26eb7ee0548b",
+   "name": "Raspberry Hibiscus Green Tea",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 349,
+   "price_low_cents": 319,
+   "price_high_cents": 429,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 3.19,
+     "Medium": 3.49,
+     "Large": 3.89,
+     "Extra-Large": 4.29
+    },
+    "default_size": "Medium",
+    "product_name": "Raspberry Hibiscus Green Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "16314e0a-d797-4937-a42a-abe4a27fd597",
+   "name": "Pup Cup",
+   "category": "Tea, Cocoa & More",
+   "price_cents": 0,
+   "price_low_cents": 0,
+   "price_high_cents": 0,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 0.0
+    },
+    "default_size": "One Size",
+    "product_name": "Pup Cup"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "90c073d3-8c13-4c75-8f6a-a3903fd162da",
+   "name": "Denver Breakfast Bowl",
+   "category": "All Day Breakfast",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.99
+    },
+    "default_size": "One Size",
+    "product_name": "Denver Breakfast Bowl"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "46022aed-bcd8-46a4-9ccc-f48c5534528c",
+   "name": "Lumberjack",
+   "category": "All Day Breakfast",
+   "price_cents": 699,
+   "price_low_cents": 699,
+   "price_high_cents": 699,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.99
+    },
+    "default_size": "One Size",
+    "product_name": "Lumberjack "
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6c018996-b7ca-4376-8cfe-1a56c5dd02dc",
+   "name": "Bacon, Egg, & Cheddar Bagel",
+   "category": "All Day Breakfast",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.99
+    },
+    "default_size": "One Size",
+    "product_name": "Bacon, Egg, & Cheddar Bagel"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b435cefb-8ce6-4872-a9f0-64b739d4d936",
+   "name": "Sausage Egg & Cheddar Biscuit",
+   "category": "All Day Breakfast",
+   "price_cents": 499,
+   "price_low_cents": 499,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 4.99
+    },
+    "default_size": "One Size",
+    "product_name": "Sausage Egg & Cheddar Biscuit"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ce71f7f4-c1ab-42be-9b11-bbe83559216e",
+   "name": "Turkey Bacon, Egg & Cheddar On Ciabatta",
+   "category": "All Day Breakfast",
+   "price_cents": 449,
+   "price_low_cents": 449,
+   "price_high_cents": 449,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 4.49
+    },
+    "default_size": "One Size",
+    "product_name": "Turkey Bacon, Egg & Cheddar On Ciabatta"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4fe1a341-457c-441f-922a-4226b8aa4100",
+   "name": "Maple Waffle Sandwich",
+   "category": "All Day Breakfast",
+   "price_cents": 649,
+   "price_low_cents": 649,
+   "price_high_cents": 649,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.49
+    },
+    "default_size": "One Size",
+    "product_name": "Maple Waffle Sandwich"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8e1bdcc8-bb2b-4159-8746-2046764b24b9",
+   "name": "Spicy Chicken Burrito",
+   "category": "All Day Breakfast",
+   "price_cents": 649,
+   "price_low_cents": 649,
+   "price_high_cents": 649,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.49
+    },
+    "default_size": "One Size",
+    "product_name": "Spicy Chicken Burrito"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8cdaddd0-cb56-412f-b4f8-da3bd13f6057",
+   "name": "Ham, Egg & Swiss Croissant",
+   "category": "All Day Breakfast",
+   "price_cents": 599,
+   "price_low_cents": 599,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.99
+    },
+    "default_size": "One Size",
+    "product_name": "Ham, Egg & Swiss Croissant"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d2332f81-7d31-4c63-a194-0b55da3372e2",
+   "name": "JUST Egg\u2122, Roasted Tomato & Pesto Flatbread",
+   "category": "All Day Breakfast",
+   "price_cents": 649,
+   "price_low_cents": 649,
+   "price_high_cents": 649,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.49
+    },
+    "default_size": "One Size",
+    "product_name": "JUST Egg\u2122, Roasted Tomato & Pesto Flatbread"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e27b0099-54b4-42a1-9793-d0587da0a8b5",
+   "name": "Gluten-Free Bacon & Gouda Souffle",
+   "category": "All Day Breakfast",
+   "price_cents": 499,
+   "price_low_cents": 499,
+   "price_high_cents": 499,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 4.99
+    },
+    "default_size": "One Size",
+    "product_name": "Gluten-Free Bacon & Gouda Souffle"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ae4d15cd-b73d-4724-abcb-bc22f51d6001",
+   "name": "Chicken Apple Sausage, Egg & Cheddar",
+   "category": "All Day Breakfast",
+   "price_cents": 549,
+   "price_low_cents": 549,
+   "price_high_cents": 549,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 5.49
+    },
+    "default_size": "One Size",
+    "product_name": "Chicken Apple Sausage, Egg & Cheddar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1cee1e0d-5681-43b0-831d-b8790e251eea",
+   "name": "Kids Frozen Caramel Apple",
+   "category": "Kids",
+   "price_cents": 339,
+   "price_low_cents": 339,
+   "price_high_cents": 339,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 3.39
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Frozen Caramel Apple"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7bc8aea4-1e55-4ddb-b22c-324ef57afacf",
+   "name": "Kids Mango Passionfruit Lemonade Refresher",
+   "category": "Kids",
+   "price_cents": 319,
+   "price_low_cents": 319,
+   "price_high_cents": 319,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 3.19
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Mango Passionfruit Lemonade Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fbdcd87a-ddad-4d38-8987-baa6116d6fb4",
+   "name": "Kids Strawberry Guava Lemonade Refresher",
+   "category": "Kids",
+   "price_cents": 319,
+   "price_low_cents": 319,
+   "price_high_cents": 319,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 3.19
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Strawberry Guava Lemonade Refresher"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b3dedd1d-5c27-42be-b1ba-ece11eff8186",
+   "name": "Kids Lemonade",
+   "category": "Kids",
+   "price_cents": 259,
+   "price_low_cents": 259,
+   "price_high_cents": 259,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.59
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Lemonade"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "84b0e2ed-2a20-4a60-a3b0-f028d6ef0300",
+   "name": "Kids Frozen Cookies & Cream",
+   "category": "Kids",
+   "price_cents": 319,
+   "price_low_cents": 319,
+   "price_high_cents": 319,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 3.19
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Frozen Cookies & Cream"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3d864898-2be6-4de8-a822-cf3b0c693a56",
+   "name": "Kids Hot Chocolate",
+   "category": "Kids",
+   "price_cents": 259,
+   "price_low_cents": 259,
+   "price_high_cents": 259,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.59
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Hot Chocolate"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5fa35f1e-9bd6-4503-b3b3-335230573bd0",
+   "name": "Kids Steamer - Toast",
+   "category": "Kids",
+   "price_cents": 259,
+   "price_low_cents": 259,
+   "price_high_cents": 259,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.59
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Steamer - Toast"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c2e490ef-4d66-4ca2-b602-78ddc45d805e",
+   "name": "Kids Silly Soda - Toast",
+   "category": "Kids",
+   "price_cents": 259,
+   "price_low_cents": 259,
+   "price_high_cents": 259,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.59
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Silly Soda - Toast"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "081b139b-c670-400e-abbb-fa9d3640507d",
+   "name": "Kids Strawberry Banana Yogurt Smoothie",
+   "category": "Kids",
+   "price_cents": 269,
+   "price_low_cents": 269,
+   "price_high_cents": 269,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.69
+    },
+    "default_size": "One Size",
+    "product_name": "Kids Strawberry Banana Smoothie"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5a7f2f82-360d-4a72-b7e3-ef42f001da9b",
+   "name": "Daybreak Blend Beans",
+   "category": "Beans",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": 1599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 15.99
+    },
+    "default_size": "One Size",
+    "product_name": "Daybreak Blend Whole Bean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d853e70d-cd4d-45e9-8af4-445d41e93d96",
+   "name": "Caribou Blend Beans",
+   "category": "Beans",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": 1599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 15.99
+    },
+    "default_size": "One Size",
+    "product_name": "Caribou Blend Whole Bean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "220e3c5d-2a31-45e8-92d5-c626be4eda4e",
+   "name": "Decaf Caribou Blend Beans",
+   "category": "Beans",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": 1599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 15.99
+    },
+    "default_size": "One Size",
+    "product_name": "Decaf Caribou Blend Whole Bean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3f6385d0-3a2f-4817-8fae-9208b2b14dc7",
+   "name": "Colombia Single Origin Whole Bean",
+   "category": "Beans",
+   "price_cents": 1799,
+   "price_low_cents": 1799,
+   "price_high_cents": 1799,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 17.99
+    },
+    "default_size": "One Size",
+    "product_name": "Colombia Single Origin Whole Bean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ff864d37-fb8b-4b5c-9732-fe219b76674b",
+   "name": "Cross Fox Espresso",
+   "category": "Beans",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": 1599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 15.99
+    },
+    "default_size": "One Size",
+    "product_name": "Cross Fox Espresso"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ba96c41e-adfc-481e-b56b-29d5076ca7e9",
+   "name": "Lakeshore Blend",
+   "category": "Beans",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": 1599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 15.99
+    },
+    "default_size": "One Size",
+    "product_name": "Lakeshore Blend\t"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b676eecf-d3d3-4ee0-9292-9aa620f7f811",
+   "name": "Mahogany Blend Beans",
+   "category": "Beans",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": 1599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 15.99
+    },
+    "default_size": "One Size",
+    "product_name": "Mahogany Blend \u00ae Whole Bean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "047177f0-ce41-4357-9092-63687436b946",
+   "name": "Mocha Java Whole Bean",
+   "category": "Beans",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": 1599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 15.99
+    },
+    "default_size": "One Size",
+    "product_name": "Mocha Java Whole Bean"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3d66d7e3-c70b-449d-bda0-fb9301797885",
+   "name": "Obsidian\u00ae Blend",
+   "category": "Beans",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": 1599,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 15.99
+    },
+    "default_size": "One Size",
+    "product_name": "Obsidian\u00ae Blend"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ba870233-aa85-4aa3-8d24-6084a85b9e69",
+   "name": "Shortbread Cookies",
+   "category": "Snacks & Sweets",
+   "price_cents": 229,
+   "price_low_cents": 229,
+   "price_high_cents": 229,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.29
+    },
+    "default_size": "One Size",
+    "product_name": "Shortbread Cookies"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c5841102-4e87-4ca7-a5ec-9d5c9740d1bf",
+   "name": "Almond Biscotti",
+   "category": "Snacks & Sweets",
+   "price_cents": 259,
+   "price_low_cents": 259,
+   "price_high_cents": 259,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.59
+    },
+    "default_size": "One Size",
+    "product_name": "Almond Biscotti"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ce227ad4-4914-4675-8ed1-e60116d06857",
+   "name": "Honey Barbeque Kettle Chips",
+   "category": "Snacks & Sweets",
+   "price_cents": 199,
+   "price_low_cents": 199,
+   "price_high_cents": 199,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 1.99
+    },
+    "default_size": "One Size",
+    "product_name": "Honey Barbeque Kettle Chips"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9ed5658f-ce7d-4e35-8fa5-d6aa4b3cf87e",
+   "name": "Sea Salt Kettle Chips",
+   "category": "Snacks & Sweets",
+   "price_cents": 199,
+   "price_low_cents": 199,
+   "price_high_cents": 199,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 1.99
+    },
+    "default_size": "One Size",
+    "product_name": "Sea Salt Kettle Chips"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ef43d042-c67f-409c-b0b9-4fdd6b6ca927",
+   "name": "Kodiak\u2122 Double Chocolate Chip Chewy Granola Bar",
+   "category": "Snacks & Sweets",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.99
+    },
+    "default_size": "One Size",
+    "product_name": "Kodiak\u2122 Double Chocolate Chip Chewy Granola Bar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d443e965-a34a-4b8e-b38a-152b35e78a74",
+   "name": "Kodiak\u2122 Peanut Butter Crunchy Granola Bar",
+   "category": "Snacks & Sweets",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.99
+    },
+    "default_size": "One Size",
+    "product_name": "Kodiak\u2122 Peanut Butter Crunchy Granola Bar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7f47bd95-6e8b-402a-9a8e-d14b37b12998",
+   "name": "Kodiak\u2122 S'mores Chewy Granola Bar",
+   "category": "Snacks & Sweets",
+   "price_cents": 299,
+   "price_low_cents": 299,
+   "price_high_cents": 299,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.99
+    },
+    "default_size": "One Size",
+    "product_name": "Kodiak\u2122 S'mores Chewy Granola Bar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c544ece1-c65a-4bb4-9b0b-1fbe76ae4131",
+   "name": "GIVN Sparkling Water",
+   "category": "Bottled Beverages",
+   "price_cents": 249,
+   "price_low_cents": 249,
+   "price_high_cents": 249,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.49
+    },
+    "default_size": "One Size",
+    "product_name": "GIVN Sparkling Water"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9d92a041-a1d8-45a9-b7af-7bc2c957a3d2",
+   "name": "GIVN Spring Water",
+   "category": "Bottled Beverages",
+   "price_cents": 249,
+   "price_low_cents": 249,
+   "price_high_cents": 249,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 2.49
+    },
+    "default_size": "One Size",
+    "product_name": "GIVN Spring Water"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "956ffe0e-808b-4d16-8731-e603cd0f8317",
+   "name": "Canteen Hot Coffee",
+   "category": "For the Group",
+   "price_cents": 1999,
+   "price_low_cents": 1999,
+   "price_high_cents": 1999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 19.99
+    },
+    "default_size": "One Size",
+    "product_name": "Canteen Hot Coffee"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f168205a-64a5-466a-bbef-83cac65f96f6",
+   "name": "Growler Cold Brew",
+   "category": "For the Group",
+   "price_cents": 2399,
+   "price_low_cents": 2399,
+   "price_high_cents": 2399,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 23.99
+    },
+    "default_size": "One Size",
+    "product_name": "Growler Cold Brew"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1116f464-694e-483d-95d1-347905f01f97",
+   "name": "Classic Black Iced Tea Growler",
+   "category": "For the Group",
+   "price_cents": 1999,
+   "price_low_cents": 1999,
+   "price_high_cents": 1999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 19.99
+    },
+    "default_size": "One Size",
+    "product_name": "Classic Black Iced Tea Growler"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7f99fb0f-9f23-4f09-a2f0-53746e1c736f",
+   "name": "Mango Black Iced Tea Growler",
+   "category": "For the Group",
+   "price_cents": 1999,
+   "price_low_cents": 1999,
+   "price_high_cents": 1999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 19.99
+    },
+    "default_size": "One Size",
+    "product_name": "Mango Black Iced Tea Growler"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "0cf30317-081b-4a56-bf41-7d10e5dac559",
+   "name": "Tropical Green Iced Tea Growler",
+   "category": "For the Group",
+   "price_cents": 1999,
+   "price_low_cents": 1999,
+   "price_high_cents": 1999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 19.99
+    },
+    "default_size": "One Size",
+    "product_name": "Tropical Green Iced Tea Growler"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "313ca060-4be0-4368-b803-65362e59128c",
+   "name": "Printed 18oz Stainless Steel Logo Mug - Cashmere",
+   "category": "Merchandise",
+   "price_cents": 2499,
+   "price_low_cents": 2499,
+   "price_high_cents": 2499,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 24.99
+    },
+    "default_size": "One Size",
+    "product_name": "Printed 18oz Stainless Steel Logo Mug - Cashmere"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7976b91f-e00a-4138-bc2b-1c1841c4bb06",
+   "name": "Printed 18oz Stainless Steel Logo Mug - Copper",
+   "category": "Merchandise",
+   "price_cents": 2499,
+   "price_low_cents": 2499,
+   "price_high_cents": 2499,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 24.99
+    },
+    "default_size": "One Size",
+    "product_name": "Printed 18oz Stainless Steel Logo Mug - Copper"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ee5c0b71-0768-4205-9335-87678faa55be",
+   "name": "Falling Leaves 30oz Stainless Steel Hot/Cold Handled Tumbler - Pinot",
+   "category": "Merchandise",
+   "price_cents": 2999,
+   "price_low_cents": 2999,
+   "price_high_cents": 2999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 29.99
+    },
+    "default_size": "One Size",
+    "product_name": "Falling Leaves 30oz Stainless Steel Hot/Cold Handled Tumbler - Pinot"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b1a06d8b-b559-4d26-824a-37f1bf93ca76",
+   "name": "Falling Leaves 30oz Stainless Steel Hot/Cold Handled Tumbler - Cashmere",
+   "category": "Merchandise",
+   "price_cents": 2999,
+   "price_low_cents": 2999,
+   "price_high_cents": 2999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 29.99
+    },
+    "default_size": "One Size",
+    "product_name": "Falling Leaves 30oz Stainless Steel Hot/Cold Handled Tumbler - Cashmere"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "be47f648-6979-41de-b506-68c2dfd1eb0c",
+   "name": "Fall Party 24oz Stainless Steel Multi Sip Hydration Tumbler - Pinot",
+   "category": "Merchandise",
+   "price_cents": 2999,
+   "price_low_cents": 2999,
+   "price_high_cents": 2999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 29.99
+    },
+    "default_size": "One Size",
+    "product_name": "Fall Party 24oz Stainless Steel Multi Sip Hydration Tumbler - Pinot"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d8e49732-37a6-4865-83fc-8adcc864206f",
+   "name": "Fall Party 24oz Stainless Steel Multi Sip Hydration Tumbler - Green Plaid",
+   "category": "Merchandise",
+   "price_cents": 2999,
+   "price_low_cents": 2999,
+   "price_high_cents": 2999,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 29.99
+    },
+    "default_size": "One Size",
+    "product_name": "Fall Party 24oz Stainless Steel Multi Sip Hydration Tumbler - Green Plaid"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9b4b326d-4a0a-4272-86e2-7f7719da15da",
+   "name": "Cari-Bou! 22oz Stainless Steel Glow In The Dark Tagline Straw Tumbler",
+   "category": "Merchandise",
+   "price_cents": 2699,
+   "price_low_cents": 2699,
+   "price_high_cents": 2699,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 26.99
+    },
+    "default_size": "One Size",
+    "product_name": "Cari-Bou! 22oz Stainless Steel Glow In The Dark Tagline Straw Tumbler"
+   },
+   "modifiers": []
+  }
+ ]
+}
