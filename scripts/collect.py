@@ -9,6 +9,7 @@ import hashlib
 import json
 import os
 import re
+import statistics
 import sys
 import time
 from dataclasses import dataclass
@@ -228,7 +229,10 @@ def direct_link(home_url: str) -> tuple[str | None, str | None, str | None]:
 RETAIL_PACKAGING = re.compile(
     r"whole bean|\bbeans\b|\bground\b|\bbags?\b|\blbs?\b|\bpounds?\b|prepack|"
     r"k.?cups?\b|\bgallons?\b|\bbox\b|traveler|\bscoop\b|liqueur|subscription|"
-    r"gift ?card|\bmerch\b|\bmugs?\b|tumbler|\bfilters?\b",
+    r"gift ?card|\bmerch\b|\bmugs?\b|tumbler|\bfilters?\b|"
+    # A flight or tasting is several small pours at one price, so it is not
+    # comparable to a cup and would top the drip ranking at a flight's price.
+    r"\bflights?\b|\bsamplers?\b|\btastings?\b",
     re.I,
 )
 # Bakery words, by contrast, double as drink flavours ("Cheese Cake Cold Brew",
@@ -378,6 +382,299 @@ def extract_html_menu(url: str, platform: str) -> list[MenuItem]:
     return list(out.values())
 
 
+# ---------------------------------------------------------------------------
+# A shop with no ordering platform often still prints its drink list as plain
+# HTML. Those pages are worth reading, but to a parser a roaster's storefront
+# looks exactly like a cafe menu: names beside prices in a grid. Every rule
+# below exists to tell a $5 cappuccino from a $17 bag of beans.
+SITE_MENU_LINK = re.compile(r"\bmenus?\b|\bdrinks?\b|\bcafe\b|\bcoffee\b|beverage|\bbar\b", re.I)
+SITE_PRICE = re.compile(r"\$\s*(\d{1,3}(?:\.\d{1,2})?)(?!\d)")
+# A size row writes the sign once ("$4.00 | 4.50 | 5.00"), so a bare decimal
+# counts only in a row a signed price has already anchored; otherwise every
+# phone number and street address on the page becomes a menu item.
+SITE_BARE_PRICE = re.compile(r"(?<![\d.$])(\d{1,2}\.\d{2})(?![\d])")
+SITE_JUNK = re.compile(
+    r"gift ?card|subscri|newsletter|shipping|free deliver|follow us|copyright|privacy|"
+    r"\bcart\b|sign ?up|log ?in|save \$|©|minimum|deposit|per person|catering|\bfees?\b|"
+    r"gratuity|plus tax|starting at|order online|all rights|add to|sold out|compare|"
+    r"unit price|regular price|sale price|original price|current price|\busd\b|\bper (?:lb|pound)\b",
+    re.I)
+SITE_TITLE_HINT = re.compile(r"title|item-?name|product-?name|\bname\b|heading", re.I)
+SITE_SIZE = (r"small|medium|large|reg(?:ular)?|sm|med|lg|tall|grande|kids?|single|double|hot|"
+             r"iced|ice|each|ea|[smlx]{1,2}|\d{1,2}(?:\.\d)?\s*(?:fl\.?\s*)?oz\.?|"
+             r"\d{1,2}\s*(?:pc|piece|shots?|cups?)")
+SITE_SIZE_ONLY = re.compile(rf"^(?:(?:{SITE_SIZE})\b[\s./|,\-–—]*)+$", re.I)
+# Trailing size words repeat what the price cells already say ("Latte / 8 oz /
+# 12 oz"); left in the name they defeat parse_size and split one item in two.
+SITE_SIZE_TAIL = re.compile(rf"[\s./|,\-–—]*\b(?:{SITE_SIZE})\b[\s./|,\-–—]*$", re.I)
+SITE_LETTER = re.compile(r"[A-Za-z]")
+SITE_HEADINGS = ("h1", "h2", "h3", "h4", "h5", "h6")
+SITE_MAX_ROW = 200      # longer than this the block is prose, not a menu row
+SITE_MAX_NAME = 70
+SITE_MIN_CENTS = 100    # under a dollar it is an add-on: "Extra Shot .85"
+SITE_MAX_CENTS = 2500   # over $25 it is retail: bags, whole cakes, catering boxes
+# The plausibility gates. A storefront and a menu are the same markup, so a page
+# must look like a menu on all three counts before any of its rows are believed.
+SITE_MIN_ITEMS = 8
+SITE_MEDIAN_CENTS = (250, 900)
+SITE_MIN_DRINKS = 3
+SITE_MIN_DRINK_SHARE = 0.10
+
+
+def row_text(node: Any) -> str:
+    return " ".join(node.get_text(" ", strip=True).split())
+
+
+def row_lines(node: Any) -> list[str]:
+    return [" ".join(line.split()) for line in node.get_text("\n", strip=True).split("\n") if line.strip()]
+
+
+def row_prices(text: str) -> list[int]:
+    found, seen = [], set()
+    for match in list(SITE_PRICE.finditer(text)) + list(SITE_BARE_PRICE.finditer(text)):
+        cents = int(round(float(match.group(1)) * 100))
+        if cents not in seen:
+            seen.add(cents)
+            found.append(cents)
+    return found
+
+
+def strip_prices(text: str) -> str:
+    text = SITE_BARE_PRICE.sub(" ", SITE_PRICE.sub(" ", text))
+    return re.sub(r"\s{2,}", " ", text).strip(" .-–—·|/,:*+$&")
+
+
+def is_item_name(text: str) -> bool:
+    # Three letters in total rather than three in a row: "To Go" is a real item.
+    return bool(text) and 2 < len(text) <= SITE_MAX_NAME and len(SITE_LETTER.findall(text)) >= 3 and not SITE_SIZE_ONLY.match(text)
+
+
+def row_title(row: Any) -> str | None:
+    """A title node inside the row beats the row's flattened text, which on most
+    templates also carries the item's description."""
+    for child in row.find_all(True):
+        marker = " ".join(child.get("class") or []) + " " + (child.get("itemprop") or "")
+        if child.name in SITE_HEADINGS or SITE_TITLE_HINT.search(marker):
+            text = row_text(child)
+            if not SITE_PRICE.search(text) and is_item_name(text):
+                return text
+    return None
+
+
+def paired_heading(row: Any) -> str | None:
+    """<h3>Latte</h3><p>8oz - $5.25</p> names the item. A heading followed by a
+    run of priced siblings is a section header and must not become a name."""
+    previous = row.find_previous_sibling(lambda tag: row_text(tag))
+    if previous is None or previous.name not in SITE_HEADINGS:
+        return None
+    priced = 0
+    for sibling in previous.find_next_siblings():
+        if sibling.name in SITE_HEADINGS:
+            break
+        if SITE_PRICE.search(row_text(sibling)):
+            priced += 1
+    text = row_text(previous)
+    return text if priced == 1 and is_item_name(text) else None
+
+
+def neighbour_title(cell: Any) -> str | None:
+    """Name for a price cell that carries no name of its own, as in a column of
+    "$6.50 / small" divs sitting beside their item's own title div."""
+    node = cell
+    for _ in range(3):
+        parent = node.parent
+        if parent is None:
+            return None
+        found = titled = None
+        for child in parent.find_all(True, recursive=False):
+            if child is node:
+                break
+            text = row_text(child)
+            if SITE_PRICE.search(text) or not is_item_name(text):
+                continue
+            found = text
+            # A heading or title-classed node beside the price is the item's
+            # name; a plain sibling is as often the item's description.
+            marker = " ".join(child.get("class") or [])
+            if child.name in SITE_HEADINGS or SITE_TITLE_HINT.search(marker):
+                titled = text
+            elif row_title(child):
+                titled = row_title(child)
+        if titled or found:
+            return titled or found
+        node = parent
+    return None
+
+
+def price_row(cell: Any) -> Any | None:
+    """Smallest ancestor holding both the price cell and a name."""
+    node = cell
+    for _ in range(4):
+        text = row_text(node)
+        if len(text) > SITE_MAX_ROW:
+            return None
+        if is_item_name(strip_prices(text)):
+            return node
+        parent = node.parent
+        if parent is None:
+            return None
+        # Climbing into a parent that already holds two named priced children
+        # would fuse two menu items into one row carrying both their prices.
+        named = sum(1 for child in parent.find_all(True, recursive=False)
+                    if SITE_PRICE.search(row_text(child)) and is_item_name(strip_prices(row_text(child))))
+        if named >= 2:
+            return None
+        node = parent
+    return None
+
+
+def size_prices(cells: list[Any]) -> list[tuple[int, str]]:
+    """(cents, size label) pairs read from the innermost price cells, so a row
+    that prices each size separately keeps the size the shop printed."""
+    parts, seen = [], set()
+    for cell in cells:
+        for line in row_lines(cell):
+            found = row_prices(line)
+            label = strip_prices(line)
+            if not SITE_SIZE_ONLY.match(label):
+                label = ""
+            for cents in found:
+                if cents in seen:
+                    continue
+                seen.add(cents)
+                parts.append((cents, label if len(found) == 1 else ""))
+    return sorted(parts)
+
+
+def site_menu_rows(html: str) -> list[tuple[str, list[tuple[int, str]]]]:
+    """(name, [(cents, size label)]) for every priced row on one page.
+
+    Menus put an item's name and its size prices in sibling elements at least as
+    often as in one text node, so a row is grown outwards from the innermost
+    node holding a price instead of matching a "name $price" string.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "noscript", "header", "footer", "nav", "form", "select", "button"]):
+        tag.decompose()
+    for tag in soup.find_all("br"):
+        tag.replace_with("\n")
+    cells = [node for node in soup.find_all(True)
+             if SITE_PRICE.search(row_text(node))
+             and not any(SITE_PRICE.search(row_text(kid)) for kid in node.find_all(True))]
+    rows: list[tuple[str, list[tuple[int, str]], str]] = []
+    grouped: dict[int, tuple[Any, list[Any]]] = {}
+    order: list[int] = []
+    for cell in cells:
+        priced = [line for line in row_lines(cell) if SITE_PRICE.search(line)]
+        # One cell, several priced lines that each name themselves: a whole menu
+        # section written as <br>-separated lines inside a single paragraph.
+        if len(priced) > 1 and all(is_item_name(strip_prices(line)) for line in priced):
+            for line in priced:
+                name = SITE_SIZE_TAIL.sub("", strip_prices(line)).strip(" .-–—·|/,:*+$&")
+                rows.append((name, [(cents, "") for cents in row_prices(line)], line))
+            continue
+        row = price_row(cell)
+        key = id(row) if row is not None else id(cell)
+        if key not in grouped:
+            grouped[key] = (row, [])
+            order.append(key)
+        grouped[key][1].append(cell)
+    for key in order:
+        row, priced_cells = grouped[key]
+        text = row_text(row if row is not None else priced_cells[0])
+        name = (row_title(row) or paired_heading(row)) if row is not None else None
+        name = name or strip_prices(text)
+        if not is_item_name(name):
+            name = neighbour_title(priced_cells[0]) or name
+        name = SITE_SIZE_TAIL.sub("", name).strip(" .-–—·|/,:*+$&")
+        rows.append((name, size_prices(priced_cells), text))
+    return [(name, parts) for name, parts, text in rows
+            if parts and is_item_name(name) and not SITE_JUNK.search(text) and not SITE_JUNK.search(name)]
+
+
+def site_pages(website: str, limit: int = 4) -> list[tuple[str, str]]:
+    """The homepage plus a few same-domain menu-ish pages, as (url, html)."""
+    try:
+        response = get(website)
+    except Exception:
+        return []
+    pages = [(response.url, response.text)]
+    soup = BeautifulSoup(response.text, "html.parser")
+    seen = {response.url.rstrip("/")}
+    for anchor in soup.find_all("a", href=True):
+        href = urljoin(response.url, anchor.get("href")).split("#")[0]
+        # A PDF menu is common and unreadable here; fetching it wastes the budget
+        # of pages on a shop that may also have an HTML one.
+        if urlparse(href).netloc != urlparse(response.url).netloc or href.lower().split("?")[0].endswith(".pdf"):
+            continue
+        if not SITE_MENU_LINK.search(f"{anchor.get_text(' ', strip=True)} {href}"):
+            continue
+        if href.rstrip("/") in seen or len(seen) > limit:
+            continue
+        seen.add(href.rstrip("/"))
+        try:
+            inner = get(href)
+        except Exception:
+            continue
+        pages.append((inner.url, inner.text))
+    return pages
+
+
+def site_menu_is_plausible(menu: list[MenuItem]) -> bool:
+    """True when the pages really read as a cafe menu.
+
+    The three symptoms of a storefront, in order: too few rows to be a menu at
+    all, a median price in bag territory rather than cup territory, and names
+    that never say what a drink is. The last one also wants two different kinds
+    of drink, because a shelf of "Ethiopia Coffee 12 oz" bags otherwise reads as
+    a few cups of drip.
+    """
+    if len(menu) < SITE_MIN_ITEMS:
+        return False
+    median = statistics.median(entry.price_cents for entry in menu)
+    if not SITE_MEDIAN_CENTS[0] <= median <= SITE_MEDIAN_CENTS[1]:
+        return False
+    kinds = []
+    for entry in menu:
+        is_drink, kind = classify_name(entry.name)
+        # "Vanilla Mocha Cake" is a cake: the drink words in a bakery case must
+        # not be what qualifies the page.
+        if is_drink and kind and kind != "other" and not FOOD_ITEM.search(entry.name):
+            kinds.append(kind)
+    return (len(kinds) >= SITE_MIN_DRINKS and len(kinds) >= SITE_MIN_DRINK_SHARE * len(menu)
+            and len(set(kinds)) >= 2)
+
+
+def extract_site_menu(website: str) -> list[MenuItem]:
+    """Drink prices published as plain HTML on a shop's own website.
+
+    Returns nothing unless the pages clear site_menu_is_plausible: most shops
+    with prices on their own site are roasters selling $17 bags, and a bag
+    stored as a cup of coffee is worse for the compare view than a missing shop.
+    """
+    found: dict[str, MenuItem] = {}
+    for url, html in site_pages(website):
+        for name, parts in site_menu_rows(html):
+            if RETAIL_PACKAGING.search(name):
+                continue
+            usable = [(cents, label) for cents, label in parts if SITE_MIN_CENTS <= cents <= SITE_MAX_CENTS]
+            low = min((cents for cents, _ in usable), default=None)
+            high = max((cents for cents, _ in usable), default=None)
+            for index, (cents, label) in enumerate(usable):
+                # The shop priced each size itself, so each size is its own item.
+                # Where it named the sizes the name carries them and parse_size
+                # can read them back; where it only listed prices the index keeps
+                # the id stable as that size's price moves.
+                stated = label and not re.search(rf"\b{re.escape(label)}\b", name, re.I)
+                full = f"{name} {label}".strip() if stated else name
+                stable = hashlib.sha1(full.lower().encode()).hexdigest()[:20]
+                if len(usable) > 1 and not stated:
+                    stable = f"{stable}-{index}"
+                found.setdefault(stable, MenuItem(stable, full, None, cents, low, high, {"source": url}))
+    menu = list(found.values())
+    return menu if site_menu_is_plausible(menu) else []
+
+
 def extract_jsonld_rating(html: str) -> tuple[float | None, int | None]:
     soup = BeautifulSoup(html, "html.parser")
     for script in soup.find_all("script", type="application/ld+json"):
@@ -454,14 +751,34 @@ def resolve_source(shop: dict[str, Any]) -> tuple[str | None, str | None, str | 
 
 def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, str | None, list[MenuItem], tuple[float | None, int | None]]:
     platform, source, cached = resolve_source(shop)
+    website = normalize_url(shop.get("website"))
     if not platform or not source:
-        return shop, None, None, [], (None, None)
+        # No ordering platform anywhere on the site. A few shops publish the
+        # menu itself as HTML, which is the only remaining way to price them.
+        if not website:
+            return shop, None, None, [], (None, None)
+        try:
+            menu = extract_site_menu(website)
+        except Exception as exc:
+            print(f"Site menu failed for {shop['name']}: {exc}", file=sys.stderr)
+            menu = []
+        if not menu:
+            return shop, None, None, [], (None, None)
+        try:
+            rating = extract_jsonld_rating(get(website).text)
+        except Exception:
+            rating = (None, None)
+        # shops.platform rejects values outside the known ordering platforms
+        # (see the retry in import_menu.py), and save_menu's patch is not
+        # guarded, so a new label here would abort the whole run. The menu is
+        # still recorded and scrape_status still becomes "collected".
+        return shop, None, website, menu, rating
     try:
         if platform == "square":
             menu = extract_square(source, cached)
         else:
             menu = extract_html_menu(source, platform)
-        home_html = get(normalize_url(shop.get("website")) or source).text
+        home_html = get(website or source).text
         rating = extract_jsonld_rating(home_html)
         return shop, platform, source, menu, rating
     except Exception as exc:

@@ -58,7 +58,7 @@ function ShopRow({ shop, items, onOpen }: { shop: Shop; items: Item[]; onOpen: (
   const menu = items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null);
   const from = menu.length ? Math.min(...menu.map((item) => item.current_price_cents as number)) : null;
   return <button className="shop-row" onClick={onOpen}>
-    <span className="shop-main"><span className="shop-name">{shop.name}</span><span className="shop-meta">{neighborhood(shop)} · {shop.platform ? `${shop.platform} menu` : 'menu pending'}</span><Rating value={shop.rating} count={shop.review_count} /></span>
+    <span className="shop-main"><span className="shop-name">{shop.name}</span><span className="shop-meta">{neighborhood(shop)} · {shop.platform ? `${shop.platform} menu` : menu.length ? 'direct menu' : 'menu pending'}</span><Rating value={shop.rating} count={shop.review_count} /></span>
     <span className="shop-price"><small>{from == null ? 'No menu yet' : 'From'}</small><strong>{formatPrice(from)}</strong></span><ChevronRight className="row-arrow" aria-hidden="true" />
   </button>;
 }
