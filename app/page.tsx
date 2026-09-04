@@ -358,7 +358,7 @@ export default function Home() {
         <div className="map-tint" />
         <div className="map-glow" />
       </div>
-      <div className="map-caption">Markers show each shop&apos;s representative drink price. Locations from OpenStreetMap; basemap © Esri.</div>
+      <div className="map-caption">Markers show each shop&apos;s representative drink price. Locations and basemap from OpenStreetMap.</div>
     </main>}
     </>}
   </div>;

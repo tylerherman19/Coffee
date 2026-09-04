@@ -73,7 +73,7 @@ export default function CoffeeMap({ shops, items, metro, user, onOpen }: { shops
   }, [items]);
   return <MapContainer center={centers[metro]} zoom={metro === 'milwaukee' ? 12 : 10} scrollWheelZoom className="coffee-map" zoomControl>
     <Recenter metro={metro} user={user} />
-    <TileLayer attribution='Tiles &copy; Esri &mdash; Esri, HERE, Garmin &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}" detectRetina maxZoom={19} maxNativeZoom={16} />
+    <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" detectRetina maxZoom={19} />
     {user && <Marker position={[user.lat, user.lng]} icon={youIcon} />}
     <Clusters shops={shops} drinkByShop={drinkByShop} onOpen={onOpen} />
   </MapContainer>;
