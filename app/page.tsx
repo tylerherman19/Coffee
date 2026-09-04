@@ -311,6 +311,9 @@ export default function Home() {
     </main>}
     {view === 'compare' && <main className="content-shell">
       <div className="drink-scroll" role="tablist" aria-label="Drink type">{(drinkTypes.length ? drinkTypes : ['latte', 'caramel_latte', 'cappuccino', 'espresso', 'drip', 'cold_brew']).map((type) => <button key={type} role="tab" aria-selected={drink === type} className={drink === type ? 'active' : ''} onClick={() => setDrink(type)}>{drinkLabels[type] || type.replaceAll('_', ' ')}</button>)}</div>
+      {hoods.length > 1 && <div className="controls">
+        <select className="hood-select" value={activeHood} onChange={(event) => { setHood(event.target.value); setShowAllKey(null); }} aria-label="Compare within a neighborhood"><option value="">All areas ({metroShops.length})</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select>
+      </div>}
       <div className="median-panel">
         <div className="median-figure">
           <div className="label">Median {(drinkLabels[drink] || drink.replaceAll('_', ' ')).toLowerCase()}</div>
