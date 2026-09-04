@@ -1,0 +1,3750 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/bread-chocolate-867-grand-ave (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 55c5bcb4-5f81-4982-9de3-935b04249556, address on page: 867 Grand Ave, St. Paul, MN)",
+ "shops": [
+  {
+   "id": 223,
+   "slug": "bread-chocolate-867-grand-ave"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "de2545a0-32b9-4e4c-9094-ebd2abd07d09",
+   "name": "Blueberry Vanilla Scone",
+   "category": "Friday",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking powder, baking soda,  sea salt, salted butter, low-fat buttermilk, eggs, vanilla extract, & blueberries."
+   }
+  },
+  {
+   "platform_item_id": "90cf3231-daff-4ca2-aa47-b3a30f82f5e3",
+   "name": "Mixed Berry Streusel Scone",
+   "category": "Friday",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking powder, baking soda, sea salt, salted butter, sea salt, buttermilk, eggs, vanilla extract, & mixed berries."
+   }
+  },
+  {
+   "platform_item_id": "b37daad0-ad48-473e-8667-245166bf354b",
+   "name": "GF Raspberry Wh/Choc Scone Available at 8:00AM",
+   "category": "Friday",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "GF flour, sugar, baking powder, baking soda, sea salt, salted butter, low-fat buttermilk, eggs, raspberry, white chocolate chips, & vanilla extract."
+   }
+  },
+  {
+   "platform_item_id": "6cf5b71b-6fe3-4318-832c-7b099f495a3b",
+   "name": "Raspberry Shortbread Available at 10:00AM",
+   "category": "Friday",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "Available after 10:00 AM"
+   }
+  },
+  {
+   "platform_item_id": "168c17f0-3449-4f42-a9e2-ecdddcf5124a",
+   "name": "Brownie Cookie",
+   "category": "Friday",
+   "price_cents": 300,
+   "available": false,
+   "raw": {
+    "description": "Salted butter, sweetened condensed milk, flour, chocolate chunks, & vanilla extract."
+   }
+  },
+  {
+   "platform_item_id": "f178effe-0a40-45e6-81a5-5cb8ec143615",
+   "name": "Harlequin Bar Available at 10:00AM",
+   "category": "Friday",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Chocolate chunk, dark chocolate, white chocolate, pecans, flour, salted butter, sea salt, sugar, vanilla extract, & baking soda. Available after 10:00 AM."
+   }
+  },
+  {
+   "platform_item_id": "d9c6ab7a-57d5-454c-90cf-cb16c26386f1",
+   "name": "GF Brownie Cookie w/ Macaroon",
+   "category": "Friday",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "Powdered sugar, cocoa, vanilla extract, sea salt, egg, pecans, & coconut."
+   }
+  },
+  {
+   "platform_item_id": "7c47f3af-b690-4d76-9043-28829744e351",
+   "name": "GF Brownie Cookie w/ Pecan",
+   "category": "Friday",
+   "price_cents": 375,
+   "available": false,
+   "raw": {
+    "description": "Powdered sugar, dutch cocoa, vanilla extract, pecans, sea salt, & eggs."
+   }
+  },
+  {
+   "platform_item_id": "43acad89-2bbb-4fd2-a3b9-fa16af6388c2",
+   "name": "Egg & Cheese Panini",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "1226c499-f7d0-41f6-a1d1-d00844deaef0",
+   "name": "Egg, Cheese & Spinach Panini",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 675,
+   "available": true
+  },
+  {
+   "platform_item_id": "b2398f55-30a8-4b3d-ac7f-8dd298a30c62",
+   "name": "Egg, Potato & Cheese Panini",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 675,
+   "available": true
+  },
+  {
+   "platform_item_id": "3c205e19-a481-4c4a-aa6b-b3749447d9b0",
+   "name": "Ham, Egg & Cheese Panini",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 750,
+   "available": true
+  },
+  {
+   "platform_item_id": "461400a2-ec20-4f9c-94c4-eab6d4c9b60b",
+   "name": "Ham, Egg, Potato & Cheese",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 825,
+   "available": true
+  },
+  {
+   "platform_item_id": "1b31cb07-2c4f-45bb-9c0e-4838b36311a8",
+   "name": "1 Egg Omelette",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "552bfb78-f2f3-4f06-9823-c36a691e6654",
+   "name": "2 Egg Omelette",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "809dc337-98ee-4af3-9435-4779de5796a6",
+   "name": "Baked Turkey Egg & Cheese Panini",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 950,
+   "available": true
+  },
+  {
+   "platform_item_id": "d6f12506-71d9-41f3-ba60-864306104f97",
+   "name": "Smoked Turkey, Egg & Cheese Panini",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 950,
+   "available": true
+  },
+  {
+   "platform_item_id": "671413cc-b2bf-42b4-867c-337dc27b81e1",
+   "name": "Baked Turkey, Egg, Potato & Cheese",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "fb53d278-1ae2-4fb6-96ee-e05761dcfc79",
+   "name": "Smoked Turkey, Egg, Potato & Cheese",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "b385225d-140c-4999-8d91-f5438ad7375f",
+   "name": "Toast",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "c9f42cdf-a5bf-4c15-84e4-12f52480bc2f",
+   "name": "Grilled Cheese",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Comes with chips or a side salad"
+   }
+  },
+  {
+   "platform_item_id": "bb7a8168-6a86-4dd4-b9f9-37d330c0135e",
+   "name": "Extra Cheese",
+   "category": "Breakfast Paninis and Omelettes",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "24f8076b-c58e-4f21-9430-aded0c1f5ab9",
+   "name": "Amaretto Cookie",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, brown sugar, almond extract, sea salt, coconut flakes, chocolate chunks, sliced almonds, amaretto, & baking powder."
+   }
+  },
+  {
+   "platform_item_id": "452821ec-286e-4e16-8a85-3d59b8ed4947",
+   "name": "Chocolate Chunk Cookie",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, brown sugar, chocolate  chunks, & sea salt."
+   }
+  },
+  {
+   "platform_item_id": "09bf771b-fd1a-409a-be9d-e481a78ec4b0",
+   "name": "Ginger Cookie",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, molasses, ginger, clove, & cinnamon."
+   }
+  },
+  {
+   "platform_item_id": "f51b9926-2f65-427e-94e6-83057baaad91",
+   "name": "Ginger Cookie w/Frosting Available at 10:00 AM",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, molasses, ginger, powdered sugar, clove, & cinnamon."
+   }
+  },
+  {
+   "platform_item_id": "b7b9cd56-2706-4787-a379-712889b40cb0",
+   "name": "M&M Cookie",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, M&M's, brown sugar, & sea salt."
+   }
+  },
+  {
+   "platform_item_id": "0e035f59-effa-4371-9c6f-714165656619",
+   "name": "Oatmeal Raisin Cookie",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Raisin, sherry, vanilla extract, Flour, sugar, baking soda, salted butter, egg, baking powder, oatmeal, & raisin."
+   }
+  },
+  {
+   "platform_item_id": "40caefee-7a2f-4601-9cf1-409e3f8cedb0",
+   "name": "Oatmeal Raisin Cookie w/Frosting Available at 10:00 AM",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Raisins, sherry, butter, salt, brown sugar, eggs, baking powder, baking soda, flour, & vanilla extract."
+   }
+  },
+  {
+   "platform_item_id": "0f51402e-c276-499e-9cca-a2620bd55266",
+   "name": "Oatmeal Scotchie Cookie",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, brown sugar, water, oatmeal, sea salt, baking powder, coconut, & butterscotch chip."
+   }
+  },
+  {
+   "platform_item_id": "16faf56e-f86d-4d67-970c-1b1c87aa8645",
+   "name": "Peanut Butter Cookie w/Choc & Butterscotch Chunks",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": false,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, peanut butter, butterscotch chunks, brown sugar, chocolate chunks, & sea salt."
+   }
+  },
+  {
+   "platform_item_id": "d79dc2fe-e079-457b-9674-aad3838b6d22",
+   "name": "Peanut Butter Cookie",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, brown sugar, sea salt, & peanut butter."
+   }
+  },
+  {
+   "platform_item_id": "82e3bbb5-c943-40f4-a4ed-af716a82bdbf",
+   "name": "Snickerdoodle Cookie",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Flour, cinnamon, sugar, baking powder, baking soda, salted butter, & vanilla extract."
+   }
+  },
+  {
+   "platform_item_id": "b7a92165-82d7-495e-8bef-cb6a9e191718",
+   "name": "Pumpkin Cookie Available at 10:00 AM",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 375,
+   "available": false,
+   "raw": {
+    "description": "Flour, sugar, baking soda, salted butter, egg, vanilla extract, ginger, pumpkin, clove, & cinnamon."
+   }
+  },
+  {
+   "platform_item_id": "b579536b-31f2-430a-95e0-eddda5bf8acc",
+   "name": "Dozen Cookies",
+   "category": "Cookies- Available At 9:00AM",
+   "price_cents": 3600,
+   "available": true,
+   "raw": {
+    "description": "This item must be ordered 48 hours in advance. Pickup after 10am."
+   }
+  },
+  {
+   "platform_item_id": "b00e7db1-2455-4cfd-b605-ada5841fe059",
+   "name": "Almond Croissant",
+   "category": "Croissants",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "* Contains almonds & almond extract."
+   }
+  },
+  {
+   "platform_item_id": "18e51207-c224-437a-9d1d-10937c8775ff",
+   "name": "Apple Croissant",
+   "category": "Croissants",
+   "price_cents": 475,
+   "available": false
+  },
+  {
+   "platform_item_id": "90724647-5300-4a18-a58e-48ae5045b137",
+   "name": "Apricot Croissant",
+   "category": "Croissants",
+   "price_cents": 475,
+   "available": false
+  },
+  {
+   "platform_item_id": "0a8f0c21-2cfb-40d8-b31a-8e77b30ad596",
+   "name": "Butter Croissant",
+   "category": "Croissants",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "16e534fe-999c-417a-9c2b-77977547fef9",
+   "name": "Chocolate Cream Cheese Croissant",
+   "category": "Croissants",
+   "price_cents": 475,
+   "available": false
+  },
+  {
+   "platform_item_id": "892c4163-375b-44b5-b547-d97834d7825c",
+   "name": "Chocolate Croissant",
+   "category": "Croissants",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "cf4dbda1-8dfb-4fe1-8c0b-9c3b61e99ed1",
+   "name": "Cream Cheese Croissant",
+   "category": "Croissants",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "b5447969-cfb7-4a74-9b0b-2340dae42d2d",
+   "name": "Florentine Croissant",
+   "category": "Croissants",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Butter, flour, garlic, sea salt, eggs, parmesan cheese, cheddar cheese, monterey jack cheese, green onions, & spinach."
+   }
+  },
+  {
+   "platform_item_id": "00f30d76-6592-4674-85da-4fbcbb2ef183",
+   "name": "Ham and Cheese Croissant",
+   "category": "Croissants",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "1c32074d-5fa1-4ffc-8f39-f20b7bd9baf9",
+   "name": "Raspberry Cream Cheese Croissant",
+   "category": "Croissants",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "73868651-8b58-45f6-8e36-f47d54df9021",
+   "name": "Blueberry Muffin",
+   "category": "Daily Bakery",
+   "price_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "Blueberries, flour, sugar, baking soda, salted butter, low-fat buttermilk, egg, & baking powder."
+   }
+  },
+  {
+   "platform_item_id": "bc21b0c5-700d-49d3-93f1-c448c7c86352",
+   "name": "Brownies",
+   "category": "Daily Bakery",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Available at 10:00am."
+   }
+  },
+  {
+   "platform_item_id": "96f651e9-3c2a-48d2-8dde-bd14664a5517",
+   "name": "Cinnamon Swirl Roll",
+   "category": "Daily Bakery",
+   "price_cents": 525,
+   "available": true
+  },
+  {
+   "platform_item_id": "ba12ddee-456e-4052-bc71-cbf590739b6c",
+   "name": "Pecan Caramel Roll",
+   "category": "Daily Bakery",
+   "price_cents": 525,
+   "available": false
+  },
+  {
+   "platform_item_id": "f6993f27-e84f-42da-bb5a-d48a5a94e233",
+   "name": "Fabulous Fudge Bar Available at 10:00AM",
+   "category": "Daily Bakery",
+   "price_cents": 450,
+   "available": true
+  },
+  {
+   "platform_item_id": "6a14670d-eeb1-40fa-85dd-aa3b749dd1d5",
+   "name": "Grilled Meat & Cheese",
+   "category": "Lunch Paninis",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Comes with chips or a side salad. *pictured with spinach."
+   }
+  },
+  {
+   "platform_item_id": "102d8ee1-2dc0-4620-a1ca-f9d51bc3a08d",
+   "name": "Grilled Vegetarian",
+   "category": "Lunch Paninis",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Comes with chips or a side salad"
+   }
+  },
+  {
+   "platform_item_id": "35e032a3-04e4-4777-a4a1-2dde6102ee7b",
+   "name": "Hummus Melt",
+   "category": "Lunch Paninis",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Comes with chips or side salad"
+   }
+  },
+  {
+   "platform_item_id": "6101a4ed-dd30-4af0-9958-19dfab688764",
+   "name": "Tuna Melt",
+   "category": "Lunch Paninis",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Comes with chips or a side salad"
+   }
+  },
+  {
+   "platform_item_id": "4f5ef3d2-8e59-4efc-9326-a9836e87c748",
+   "name": "Caesar Salad",
+   "category": "Salads & Sides",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Choice of Caesar or vinaigrette dressing. Includes two veggie options."
+   }
+  },
+  {
+   "platform_item_id": "152e71f4-7451-4adf-a2c1-73813859b8e4",
+   "name": "Mixed Green Salad",
+   "category": "Salads & Sides",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Choice of Caesar or vinaigrette dressing. Includes two veggie options."
+   }
+  },
+  {
+   "platform_item_id": "1883dc8d-de22-44d8-9559-e8ba3e440d70",
+   "name": "Side Salad",
+   "category": "Salads & Sides",
+   "price_cents": 250,
+   "available": true
+  },
+  {
+   "platform_item_id": "3d599a84-68f1-43c4-9fe7-c8d41c07dc57",
+   "name": "Fruit Salad",
+   "category": "Salads & Sides",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "e25e6b91-0e2b-4a78-8fe4-5290c54ce5fd",
+   "name": "Chips",
+   "category": "Salads & Sides",
+   "price_cents": 150,
+   "available": true
+  },
+  {
+   "platform_item_id": "e8fffe6f-9682-41d1-8027-0ff8b876562b",
+   "name": "Granola",
+   "category": "Salads & Sides",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "afebc434-2662-4a3a-a9ab-c8d0abbac773",
+   "name": "Rosted Red Pepper Sauce 8 oz",
+   "category": "Salads & Sides",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "027722a3-3fd6-4f7c-a398-26e211a5cc0a",
+   "name": "Extra Roasted Red Pepper Sauce or Salsa",
+   "category": "Salads & Sides",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "ad18acbb-62a0-40b9-84ce-ba422006bb02",
+   "name": "Salsa 8 oz",
+   "category": "Salads & Sides",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "08e8e315-430f-4fed-841d-d587d6ebcce3",
+   "name": "Tuna Salad 8 oz",
+   "category": "Salads & Sides",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "de66a391-d621-4a38-954e-2af5fdef525e",
+   "name": "Egg Salad 8 oz",
+   "category": "Salads & Sides",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "5acd647c-5dcc-4c96-84f5-8f3ff866aebd",
+   "name": "Meat Portion",
+   "category": "Salads & Sides",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "94237428-e6f6-4e02-b468-aa29a9f34751",
+   "name": "Extra Baguette",
+   "category": "Salads & Sides",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "608880e5-3a1d-466c-ae45-d2e70980c4a4",
+   "name": "1 Scoop Spread",
+   "category": "Salads & Sides",
+   "price_cents": 250,
+   "available": true
+  },
+  {
+   "platform_item_id": "e50c6e6c-0683-4385-8c56-b94fca46690f",
+   "name": "Egg",
+   "category": "Salads & Sides",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "709aeaab-7d91-4bb3-863b-0f85c614bbf6",
+   "name": "Baked Ham Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000,
+   "raw": {
+    "description": "Served with chips or a side salad"
+   }
+  },
+  {
+   "platform_item_id": "73269da0-01d3-4b2f-8c9b-817df29a85ac",
+   "name": "Baked Turkey Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000,
+   "raw": {
+    "description": "Comes with chips or a Side salad."
+   }
+  },
+  {
+   "platform_item_id": "a9b18440-0fc0-4a0b-9305-aab55153250b",
+   "name": "Cheese Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000,
+   "raw": {
+    "description": "Served with chips or a side salad"
+   }
+  },
+  {
+   "platform_item_id": "2b1869f8-fa46-4678-8eb5-d94a24f373f0",
+   "name": "Crab Salsa Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000,
+   "raw": {
+    "description": "Cream cheese spread with salsa, red onion, red peppers, & crab."
+   }
+  },
+  {
+   "platform_item_id": "e21f273e-60da-4ecf-ab9c-7b31fcea7a6d",
+   "name": "Egg Salad Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000,
+   "raw": {
+    "description": "Comes with chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "3da481e0-97a6-4732-a6de-393f82153b4e",
+   "name": "Hummus Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000,
+   "raw": {
+    "description": "Served with chips or a side salad"
+   }
+  },
+  {
+   "platform_item_id": "6816238d-d968-4bf4-9557-072bc4914630",
+   "name": "Peanut Butter & Jelly Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Comes with chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "87e336f9-9e61-48d9-8944-3a93feb4bb06",
+   "name": "Smoked Turkey Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000,
+   "raw": {
+    "description": "Served with chips or a side salad"
+   }
+  },
+  {
+   "platform_item_id": "0c68a27c-3b23-44f5-892a-c23e00df8d0a",
+   "name": "Tuna Salad Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000,
+   "raw": {
+    "description": "Comes with chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "dfa0cd29-75bf-4737-9b4e-8f4fcaf6c271",
+   "name": "BL Cream Cheese Veg. Spead (rotating daily)",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 1000
+  },
+  {
+   "platform_item_id": "8a6d45bd-f461-4993-bbbd-6b6c593ca2ad",
+   "name": "One Scoop Sampler",
+   "category": "Spread Samplers",
+   "price_cents": 800,
+   "available": true
+  },
+  {
+   "platform_item_id": "6cb5a089-ced4-4be8-9585-3077f20e429f",
+   "name": "Two Spread Sampler",
+   "category": "Spread Samplers",
+   "price_cents": 1000,
+   "available": true
+  },
+  {
+   "platform_item_id": "62ed1934-cb73-4d4f-9a4f-1aabacff00ac",
+   "name": "Three Spread Sampler",
+   "category": "Spread Samplers",
+   "price_cents": 1300,
+   "available": true
+  },
+  {
+   "platform_item_id": "5b4fb454-f7a1-42b2-937d-3111811e807b",
+   "name": "BL Albacore Tuna Sandwich",
+   "category": "Boxed Lunches",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Choice of bread with lettuce, tomato, and cucumbers. All box lunches include a choice of chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "aa8461cd-48f2-4955-995d-203d62339d3b",
+   "name": "BL Baked Ham Sandwich",
+   "category": "Boxed Lunches",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Choice of bread with lettuce, tomato, and cucumbers. All box lunches include a choice of chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "19817a71-1059-4ea1-a814-4a2e4166839e",
+   "name": "BL Baked Turkey Sandwich",
+   "category": "Boxed Lunches",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Choice of bread with lettuce, tomato, and cucumbers. All box lunches include a choice of chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "cb29c96a-62c8-41ff-bb89-5e17fd8c2a00",
+   "name": "BL Smoked Turkey Sandwich",
+   "category": "Boxed Lunches",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Choice of bread with lettuce, tomato, and cucumbers. All box lunches include a choice of chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "76fe7776-69ac-4f12-bcd3-d91eebff5156",
+   "name": "BL Crab Salsa Sandwich",
+   "category": "Boxed Lunches",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Choice of bread with lettuce, tomato, and cucumbers. All box lunches include a choice of chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "dbea8109-4aec-4ec3-87ba-b3ae37e3cc5d",
+   "name": "BL Egg Salad Sandwich",
+   "category": "Boxed Lunches",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Choice of bread with lettuce, tomato, and cucumbers. All box lunches include a choice of chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "835012f2-3994-4e49-ab05-221accca681c",
+   "name": "BL Hummus Sandwich",
+   "category": "Boxed Lunches",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Choice of bread with lettuce, tomato, and cucumbers. All box lunches include a choice of chips or a side salad."
+   }
+  },
+  {
+   "platform_item_id": "dfa0cd29-75bf-4737-9b4e-8f4fcaf6c271",
+   "name": "BL Cream Cheese Veg. Spead (rotating daily)",
+   "category": "Boxed Lunches",
+   "price_cents": 1300,
+   "available": true
+  },
+  {
+   "platform_item_id": "d4f0f08c-e14e-4114-a4ab-63ca44db86e6",
+   "name": "Americano",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "price_low_cents": 295,
+   "price_high_cents": 395,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a44346c8-6a50-41b4-96b4-305c9af2f890",
+   "name": "Cafe Latte",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b06b9dc4-8d0b-4b6f-83fb-d4176c7b87fc",
+   "name": "Cafe Mocha",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a3516724-6127-4c18-ac7a-7cdbc49b5e8e",
+   "name": "Cappuccino",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c8ab585a-85f1-4d3d-8410-82b879df0d5a",
+   "name": "Caramel Latte",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4eb8927a-bb7f-44b1-bd3e-0751c3f9358d",
+   "name": "Chai Latte",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Syrup",
+     "choice_name": "Almond",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Syrup",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Syrup",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Syrup",
+     "choice_name": "Caramel",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Syrup",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Syrup",
+     "choice_name": "Mint",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Syrup",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Syrup",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a48a6978-3ae6-4615-b0ec-4231ea2ef78b",
+   "name": "Coffee",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "price_low_cents": 295,
+   "price_high_cents": 395,
+   "raw": {
+    "description": "French or breakfast blend"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Roast",
+     "choice_name": "Breakfast Blend",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Roast",
+     "choice_name": "French Roast",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Roast",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e49d0557-462b-4577-9a2a-d256e89c7888",
+   "name": "Cold Brew",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "price_low_cents": 295,
+   "price_high_cents": 395,
+   "raw": {
+    "description": "Made in house. Served over ice"
+   },
+   "modifiers": [
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4d77720c-68d0-40cf-9de6-01c253a8a41a",
+   "name": "Cortado",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "9996e120-7118-49ee-8960-262719be3130",
+   "name": "Depth Charge",
+   "category": "Beverages",
+   "price_cents": 375,
+   "available": true,
+   "price_low_cents": 375,
+   "price_high_cents": 475,
+   "raw": {
+    "description": "Black coffee & espresso"
+   },
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d9984f8c-b81e-4324-8b50-e0f70f8729a0",
+   "name": "Double Shot",
+   "category": "Beverages",
+   "price_cents": 325,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a248ba62-baec-44de-9480-ffc9fb8c9d48",
+   "name": "Hot Cider",
+   "category": "Beverages",
+   "price_cents": 425,
+   "available": false,
+   "price_low_cents": 425,
+   "price_high_cents": 525
+  },
+  {
+   "platform_item_id": "9c2e42e8-cf1c-4882-87a1-2805d4d7fd3b",
+   "name": "Hot Chocolate",
+   "category": "Beverages",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b40970cc-2033-42e8-8a10-00e70b9766a6",
+   "name": "Kids Hot Chocolate",
+   "category": "Beverages",
+   "price_cents": 275,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "1287d8fa-1a2a-4fc3-a878-a4ac71789cd2",
+   "name": "London Fog",
+   "category": "Beverages",
+   "price_cents": 395,
+   "available": true,
+   "price_low_cents": 395,
+   "price_high_cents": 495,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Option",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Option",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Option",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Option",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8f4e0999-2dc7-41f9-971c-eb365821437a",
+   "name": "Matcha Latte (contains nuts)",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 600,
+   "raw": {
+    "description": "Matcha contains nuts (cashews)"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "85db6b47-ca8d-4365-be7d-0000352d4a10",
+   "name": "Meil",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 675,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4052ff4d-109e-4223-b912-eb2b339b8154",
+   "name": "Nutella Latte",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 675,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8a48611e-9318-414c-89c7-27115a54cd5c",
+   "name": "Pumpkin Spice Latte",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 675,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3d6794c0-cb28-4b54-a3db-065828486684",
+   "name": "Raspberry White Mocha",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 675,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "240a808c-56ba-462e-9602-00358511e065",
+   "name": "Salted Caramel Latte",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "52a32e17-e314-4ae4-be7d-fdb39c0fb987",
+   "name": "Single Shot",
+   "category": "Beverages",
+   "price_cents": 275,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "547c986c-47c5-459c-ac38-8b86e0816994",
+   "name": "Spice Island Latte",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 675,
+   "raw": {
+    "description": "Vanilla syrup & nutmeg"
+   },
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5c376d54-bffc-44a4-9206-9cb75dcb99f4",
+   "name": "Swedish Latte",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 675,
+   "raw": {
+    "description": "Maple syrup, cardamom and cinnamon"
+   },
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d87c5b1b-df26-4292-afaf-5b3aad01702c",
+   "name": "Swiss Almond Latte",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5b8c8c06-2f25-43a8-8c45-02f20254565d",
+   "name": "Swiss Mint Latte",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "9488a1ab-097c-4607-b651-7b4c65a5d6cf",
+   "name": "Turtle Latte",
+   "category": "Beverages",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 675,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "63b8982b-f4cc-4d8e-a78c-a8e6dd5fb545",
+   "name": "Vanilla Latte",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "817bbdae-5fb4-4840-8151-1803658cda14",
+   "name": "White Hot Chocolate",
+   "category": "Beverages",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "modifiers": [
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4bb87088-3a98-4c9a-abdc-068335797aa9",
+   "name": "White Mocha",
+   "category": "Beverages",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Extra",
+     "choice_name": "Half Flavor",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "03cf552d-15ee-4d0f-bc00-e399eb93596b",
+   "name": "Boxed Coffee Traveler",
+   "category": "Beverages",
+   "price_cents": 2395,
+   "available": true,
+   "raw": {
+    "description": "Coffee Traveler - A convenient box carrier filled with 96 fl oz of coffee:\r\n- French Roast \r\n- Breakfast Blend\r\n- DeCaf\r\nTraveler comes with 8 - 12 fl oz cups Cream & sugar available upon request"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Roast",
+     "choice_name": "Breakfast Blend",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Roast",
+     "choice_name": "French Roast",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Roast",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f569286b-2cf5-4317-9518-9bf25ccdcccd",
+   "name": "Almond Milk",
+   "category": "Beverages",
+   "price_cents": 390,
+   "available": true,
+   "price_low_cents": 390,
+   "price_high_cents": 490
+  },
+  {
+   "platform_item_id": "76c69d9a-6fe2-4dc9-bb3c-06b5cb342ec9",
+   "name": "Milk",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "price_low_cents": 295,
+   "price_high_cents": 395,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "09ab4a5d-fdbe-4dfb-9e3d-7ebec25c2d17",
+   "name": "Oat Milk",
+   "category": "Beverages",
+   "price_cents": 390,
+   "available": true,
+   "price_low_cents": 390,
+   "price_high_cents": 490
+  },
+  {
+   "platform_item_id": "48d9aacf-3213-484e-8b91-a01c858c3703",
+   "name": "Tea",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "price_low_cents": 295,
+   "price_high_cents": 395,
+   "raw": {
+    "description": "Choose from a wide variety of tea"
+   },
+   "modifiers": [
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Organic Chamomile",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Organic Peppermint",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Earl Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Lemon Ginger",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Black Raspberry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Green Tea with Jasmine",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Green Tea with Lemon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Afternoon Darjeeling",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Yorkshire Gold",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "Iced Tea",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tea Choice",
+     "choice_name": "English Breakfast",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e0c5a714-cd28-4da7-97e3-d5f1eeefb86f",
+   "name": "Iced Tea",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "price_low_cents": 295,
+   "price_high_cents": 395,
+   "modifiers": [
+    {
+     "group_name": "Raspberry Syrup",
+     "choice_name": "Raspberry Syrup",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2a1f8901-0f13-4600-b2cf-aa4b50fe3890",
+   "name": "Apple Juice",
+   "category": "Beverages",
+   "price_cents": 150,
+   "available": true
+  },
+  {
+   "platform_item_id": "bb79abbf-db64-4b42-ba42-a3bbde9c0cfc",
+   "name": "Aqua Virgo",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "All natural soda water"
+   },
+   "modifiers": [
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "1fabd96b-4304-40c0-ae41-c49da866ddd7",
+   "name": "Blackberry Izzy",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true
+  },
+  {
+   "platform_item_id": "9736edcd-1026-40c4-b322-8a21e90d13ce",
+   "name": "Coca-Cola",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "raw": {
+    "description": "Coca-Cola Original Taste \u2014 the crisp, refreshing taste you know and love"
+   }
+  },
+  {
+   "platform_item_id": "142eb35b-807f-43c3-8fe9-b783eb8acc6d",
+   "name": "Diet Coke",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "raw": {
+    "description": "Take a Diet Coke break with this refreshing, no-calorie soft drink"
+   }
+  },
+  {
+   "platform_item_id": "cadb7703-2edf-4d9b-b731-658f24d38cde",
+   "name": "Grapefruit Izzy",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": false
+  },
+  {
+   "platform_item_id": "20d72684-c99a-4130-b2f7-3488a4a4214c",
+   "name": "J's Kombucha",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2a665f60-c8c8-42d2-bab3-510b4a40f439",
+   "name": "Orange Juice",
+   "category": "Beverages",
+   "price_cents": 375,
+   "available": true,
+   "price_low_cents": 375,
+   "price_high_cents": 575
+  },
+  {
+   "platform_item_id": "5a51a54c-95f8-49a2-bf15-122283a8d397",
+   "name": "San Pellegino",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "fd5dad5c-bf71-41f5-9bb6-33d741ace44e",
+   "name": "Lemonade",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true,
+   "price_low_cents": 295,
+   "price_high_cents": 395,
+   "modifiers": [
+    {
+     "group_name": "Raspberry Syrup",
+     "choice_name": "Raspberry Syrup",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "6f25021d-cb86-46d2-aaff-feb67dec819d",
+   "name": "Matcha Lemonade (contains nuts)",
+   "category": "Beverages",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 600,
+   "raw": {
+    "description": "Matcha contains nuts (cashews)."
+   },
+   "modifiers": [
+    {
+     "group_name": "Espresso Shot Add On",
+     "choice_name": "Single Shot",
+     "price_delta_cents": 95
+    }
+   ]
+  },
+  {
+   "platform_item_id": "1976d51a-21ab-4a4d-891d-ba45bb2a4c84",
+   "name": "Almond Moo",
+   "category": "Moos",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b68d95d7-b27d-4d6b-acb3-3641bbe40ec3",
+   "name": "Caramel Moo",
+   "category": "Moos",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "231a2e17-a1a3-404b-b32e-87a4ca478fab",
+   "name": "Hot Chocolate",
+   "category": "Moos",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "00122405-16af-4649-8e46-56f7d4643003",
+   "name": "Kids Moo",
+   "category": "Moos",
+   "price_cents": 275,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ddd5fbb6-7074-481a-8dbc-f3355d1fc616",
+   "name": "Nutella Moo",
+   "category": "Moos",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "41f12bd3-1586-49b5-a852-7b0c421ecbbe",
+   "name": "Pumpkin Spice Moo",
+   "category": "Moos",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0efecfca-99d8-4855-95a3-bc668c607d02",
+   "name": "Raspberry White Mocha Moo",
+   "category": "Moos",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0741d2a4-b698-4882-a91f-c7c20bb1adbc",
+   "name": "Salted Caramel Moo",
+   "category": "Moos",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600
+  },
+  {
+   "platform_item_id": "1cd48211-de6d-4391-9a81-ffae36f7bb1a",
+   "name": "Spice Island Moo",
+   "category": "Moos",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "98436132-4745-44db-8da0-27502036b1ca",
+   "name": "Swedish Moo",
+   "category": "Moos",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f854bafd-ca81-48c0-a3f8-ed13439a9d7b",
+   "name": "Swiss Almond Moo",
+   "category": "Moos",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "74b7d098-63e4-4d32-be29-ccf5c1972614",
+   "name": "Swiss Mint Moo",
+   "category": "Moos",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "aea54c87-0792-42ee-8915-a0d70e412518",
+   "name": "Turtle Moo",
+   "category": "Moos",
+   "price_cents": 475,
+   "available": true,
+   "price_low_cents": 475,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "7839ed8e-f244-42fb-8fac-96dccf830b35",
+   "name": "Vanilla Moo",
+   "category": "Moos",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "modifiers": [
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f0b47a2e-8834-4b60-b550-faeb7caefeca",
+   "name": "White Chocolate Moo",
+   "category": "Moos",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Breve",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cafe Temp",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whipped Cream",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8fb61d63-fa99-4716-b6d6-6cd499731599",
+   "name": "Monopoly Game (In Store Pick-up Only)",
+   "category": "Merchandise",
+   "price_cents": 4000,
+   "available": true,
+   "raw": {
+    "description": "In store purchase only."
+   }
+  },
+  {
+   "platform_item_id": "2aa438ba-630b-4c0f-a2b4-ccbf9e484907",
+   "name": "Kind Lips Lip Balm",
+   "category": "Merchandise",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "3c4279b0-6cce-48ea-8291-89a27c1282e7",
+   "name": "B&C Yoga Mat",
+   "category": "Merchandise",
+   "price_cents": 9500,
+   "available": true,
+   "raw": {
+    "description": "Yoga mat made from recycled ocean materials."
+   }
+  },
+  {
+   "platform_item_id": "9d57eaba-d57c-4b8b-ba4f-d201eeb4928c",
+   "name": "Beige B&C Tumbler",
+   "category": "Merchandise",
+   "price_cents": 3500,
+   "available": true,
+   "raw": {
+    "description": "20 oz cold or hot stainless steel tumbler."
+   }
+  },
+  {
+   "platform_item_id": "f0fe1433-327b-4022-9d4b-b7a9068b170f",
+   "name": "YETI Tumbler",
+   "category": "Merchandise",
+   "price_cents": 4800,
+   "available": false
+  }
+ ]
+}
