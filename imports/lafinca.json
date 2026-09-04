@@ -1,0 +1,942 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.lafinca.cafe/_files/ugd/1cce87_6dc356d7adc742929be2fc5c653c96b6.pdf",
+ "shops": [
+  {
+   "id": 113,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "lf-tamarind-matcha-painkiller",
+   "name": "Tamarind Matcha Painkiller (monthly feature)",
+   "category": "Monthly Features",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "tamarind puree, tangerine orange syrup, club soda, cream of coconut, matcha"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-kettle-corn-cold-brew",
+   "name": "Kettle Corn Cold Brew (monthly feature)",
+   "category": "Monthly Features",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "cold brew, house kettle corn syrup, corn milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-cafe-finca",
+   "name": "Cafe Finca (house drip, Oaxaca MX)",
+   "category": "Drip & Cold Brew",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-cafe-clasico",
+   "name": "Cafe Clasico (Cafe Finca + cinnamon)",
+   "category": "Drip & Cold Brew",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-cafe-oaxaca",
+   "name": "Cafe Oaxaca (cinnamon, clove, star anise)",
+   "category": "Drip & Cold Brew",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-cold-brew",
+   "name": "Cold Brew",
+   "category": "Drip & Cold Brew",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "add cold foam +$2; 16oz n/a"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-spiced-choc-cold-brew",
+   "name": "Spiced Chocolate Cold Brew",
+   "category": "Drip & Cold Brew",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-cafe-tres-leches",
+   "name": "Cafe Tres Leches",
+   "category": "Drip & Cold Brew",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-horchata-cold-brew",
+   "name": "Horchata Cold Brew",
+   "category": "Drip & Cold Brew",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-pineapple-cold-brew",
+   "name": "Pineapple Cold Brew",
+   "category": "Drip & Cold Brew",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "cold brew, pineapple juice, ground cinnamon; 20oz only"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-spiced-latte",
+   "name": "Spiced Latte (unsweetened)",
+   "category": "House Favorites",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-mazapan-latte",
+   "name": "Mazapan Latte",
+   "category": "House Favorites",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "description": "contains peanuts; hot or blended"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-faewild-espresso-tonic",
+   "name": "Faewild Espresso Tonic",
+   "category": "House Favorites",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "espresso, tonic, vanilla, agave, lemon"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-mexican-mocha",
+   "name": "Mexican Mocha",
+   "category": "House Favorites",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-oaxaca-mocha",
+   "name": "Oaxaca Mocha",
+   "category": "House Favorites",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-horchata-latte",
+   "name": "Horchata Latte",
+   "category": "House Favorites",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "contains dairy"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-coquito-latte",
+   "name": "Coquito Latte",
+   "category": "House Favorites",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 775,
+   "available": true,
+   "raw": {
+    "description": "contains dairy"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-tres-leches-latte",
+   "name": "Tres Leches Latte",
+   "category": "House Favorites",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": "contains dairy"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-fresas-con-crema-latte",
+   "name": "Fresas con Crema Latte",
+   "category": "House Favorites",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": "contains dairy"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-salted-vanilla-shaken",
+   "name": "Salted Vanilla Shaken Espresso",
+   "category": "Shaken Espresso",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "20oz, quad shot"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-brown-sugar-horchata-shaken",
+   "name": "Brown Sugar Horchata Shaken Espresso",
+   "category": "Shaken Espresso",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "20oz, quad shot"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-chai-latte",
+   "name": "Chai Latte",
+   "category": "Tea & Refreshers",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-matcha-latte",
+   "name": "Matcha Latte (KyuTea Co.)",
+   "category": "Tea & Refreshers",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-guava-matcha-lemonade",
+   "name": "Guava Matcha Lemonade",
+   "category": "Tea & Refreshers",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-neblina",
+   "name": "Neblina",
+   "category": "Tea & Refreshers",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "chamomile, vanilla, horchata, cinnamon"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-kokomo-2",
+   "name": "Kokomo 2",
+   "category": "Tea & Refreshers",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "coconut water, monin boost, lime & coconut cold foam"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-brazilian-lemonade",
+   "name": "Brazilian Lemonade",
+   "category": "Tea & Refreshers",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "lime, condensed milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-tropical-sunrise",
+   "name": "Tropical Sunrise",
+   "category": "Tea & Refreshers",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "mango, strawberry, soda, monin boost"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-pina-colada",
+   "name": "Pi\u00f1a Colada (blended)",
+   "category": "Blended",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-peaches-cream",
+   "name": "Peaches & Cream (blended)",
+   "category": "Blended",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "20oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-torta-milanesa",
+   "name": "Torta de Milanesa",
+   "category": "Monthly Features",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "kitchen"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Dairy-free milk (oat, coconut, corn)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Cold foam",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "lf-chilaquiles",
+   "name": "Chilaquiles",
+   "category": "Kitchen",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "add chorizo +3, avocado +2"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-peach-burrata-toast",
+   "name": "Peach Burrata Toast",
+   "category": "Toast",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-spicy-avocado-toast",
+   "name": "Spicy Avocado Toast",
+   "category": "Toast",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-mushroom-tacos",
+   "name": "Mushroom Tacos",
+   "category": "Tacos",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-chorizo-tacos",
+   "name": "Chorizo Tacos",
+   "category": "Tacos",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-breakfast-croissant",
+   "name": "Breakfast Croissant",
+   "category": "Sandwiches",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-torta-huevo-chorizo",
+   "name": "Torta de Huevo con Chorizo",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-torta-jamon",
+   "name": "Torta de Jam\u00f3n",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-chicken-bts",
+   "name": "Chicken BTS",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-chorizo-potato-burrito",
+   "name": "Chorizo & Potato Burrito",
+   "category": "Burritos/Wraps",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-sesame-ginger-tofu-wrap",
+   "name": "Sesame Ginger Tofu Wrap",
+   "category": "Burritos/Wraps",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-chipotle-chicken-burrito",
+   "name": "Chipotle Chicken Burrito",
+   "category": "Burritos/Wraps",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-crunch-wrap",
+   "name": "Chilaquiles Crunch Wrap (Wed only)",
+   "category": "Burritos/Wraps",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-breakfast-quesadilla",
+   "name": "Breakfast Quesadilla",
+   "category": "Quesadillas",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-sincronizada",
+   "name": "Quesadilla Sincronizada",
+   "category": "Quesadillas",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lf-pineapple-avocado-salad",
+   "name": "Grilled Pineapple & Avocado Salad",
+   "category": "Salad",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "add chicken +4"
+   },
+   "modifiers": []
+  }
+ ]
+}
