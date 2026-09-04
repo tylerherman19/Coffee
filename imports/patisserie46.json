@@ -1,0 +1,913 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/patisserie-46-4552-grand-ave-s (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 1175bebe-24e5-45a5-8102-7d68ce1268e4, address on page: 4552 Grand Ave S, Minneapolis, MN)",
+ "shops": [
+  {
+   "id": 436,
+   "slug": "patisserie-46-4552-grand-ave-s"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "e5a459f8-b0ae-4e04-b2d2-74d6a87f1817",
+   "name": "Classic Croissant",
+   "category": "Vien",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "Our classic butter croissant - flaky & airy perfection\r\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "0a326aac-5523-4a0e-9300-6e4f12bddd62",
+   "name": "Chocolate Croissant",
+   "category": "Vien",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Croissant filled with dark chocolate batons\r\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "2a4d6590-5c26-44d1-ac80-9bc39e809dbf",
+   "name": "Almond Croissant",
+   "category": "Vien",
+   "price_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "Croissant filled with almond cream topped with sliced almonds\r\nAllergens: Gluten, Dairy, Eggs, Almonds"
+   }
+  },
+  {
+   "platform_item_id": "579e70ae-e95e-4ac5-8786-ac04f4ffb819",
+   "name": "Chocolate Almond Croissant",
+   "category": "Vien",
+   "price_cents": 600,
+   "available": false,
+   "raw": {
+    "description": "Croissant filled with almond cream and dark chocolate batons topped with sliced almonds\r\nAllergens: Gluten, Dairy, Eggs, Almonds"
+   }
+  },
+  {
+   "platform_item_id": "b5f1b215-b49a-465e-96d5-4f14eac5d644",
+   "name": "Pecan Cinnamon Pullapart",
+   "category": "Vien",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Croissant pieces rolled in cinnamon, sugar & pecans and baked to a caramelized goodness\r\nAllergens: Gluten, Dairy, Eggs, Pecans"
+   }
+  },
+  {
+   "platform_item_id": "0333a5c2-5fee-4a92-a909-5760d1132b74",
+   "name": "Kouign Amann",
+   "category": "Vien",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Laminated dough & salted butter rolled in sugar and baked to a buttery, caramelized finish\r\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "38d29d6b-1697-4a37-938c-a7b2c0f00ec2",
+   "name": "Blueberry Muffin",
+   "category": "Vien",
+   "price_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "Blueberries fill this wonderfully simple muffin\r\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "268fb14d-24c8-4d63-81d8-a27b6e5f3a83",
+   "name": "Earl Grey Currant Scone",
+   "category": "Vien",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "Scone filled with earl grey tea infused black currants\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "5e2f7a0b-fac9-48ee-ba6a-0b91e84431f5",
+   "name": "Ham and Gruyere Croissant",
+   "category": "Vien",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Croissant filled with ham, gruy\u00e8re cheese & b\u00e8chamel topped with seed mix\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "9988a61b-25ec-409a-81e8-fa532a4b5b12",
+   "name": "Spinach and Feta Pan Suisse",
+   "category": "Vien",
+   "price_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "Delicious striated croissant dough filled with spinach and feta cheese baked to perfection\r\nAllergens: Gluten, Dairy, Egg"
+   }
+  },
+  {
+   "platform_item_id": "3da7edc5-97a4-4b61-b587-751b1171e51c",
+   "name": "Pain Suisse",
+   "category": "Vien",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Crispy croissant filled with vanilla cream and mini chocolate chips.\nAllergens: Gluten, Dairy, Egg"
+   }
+  },
+  {
+   "platform_item_id": "c07a43ea-540d-4daa-a422-ab817b46ed78",
+   "name": "Vanilla Gateau Basque",
+   "category": "Vien",
+   "price_cents": 700,
+   "available": false,
+   "raw": {
+    "description": "Rich vanilla pastry cream in a soft shortbread crust\r\nAllergens: Gluten, Dairy, Eggs, Almonds"
+   }
+  },
+  {
+   "platform_item_id": "e5dda19f-278f-4f66-a4dc-bbe611c9314c",
+   "name": "Canele",
+   "category": "Vien",
+   "price_cents": 400,
+   "available": false,
+   "raw": {
+    "description": "Custard like pastry with flavors of vanilla & rum baked in a beeswax coated copper tin - has a very dark caramelized baked finish\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "11d6dbb3-191c-473b-b229-213e0bf45b76",
+   "name": "Mango Croissant",
+   "category": "Vien",
+   "price_cents": 600,
+   "available": false,
+   "raw": {
+    "description": "crispy croissant w. tropical filling of mango, lime, passionfruit & orange.\nAllergens: Gluten, Dairy, Egg"
+   }
+  },
+  {
+   "platform_item_id": "08f62cf2-270e-49fa-8e90-f2abdddc4c6a",
+   "name": "Bakers Select 1/2 Dozen",
+   "category": "Vien",
+   "price_cents": 4500,
+   "available": true,
+   "raw": {
+    "description": "Selection of our favorite breakfast pastries."
+   }
+  },
+  {
+   "platform_item_id": "c5bf5fd4-8ee3-4ebc-9ed2-7bbfa9ae9559",
+   "name": "Bakers Select Dozen",
+   "category": "Vien",
+   "price_cents": 7000,
+   "available": false
+  },
+  {
+   "platform_item_id": "7c822058-2c63-4039-b9d4-b5984740cfb1",
+   "name": "Baguette",
+   "category": "Bread",
+   "price_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "Classic French Baguette\r\nAllergen: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "0cab85b4-b27a-46bc-8cd7-bcc7f4b2b818",
+   "name": "Pain au Levain",
+   "category": "Bread",
+   "price_cents": 550,
+   "available": false,
+   "raw": {
+    "description": "Traditional French Sourdough\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "67e43b4a-61a4-4911-b365-8778633ef9c5",
+   "name": "Multigrain",
+   "category": "Bread",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Wheat loaf filled with P46 blend of flax, millet, sunflower nuts, pumpkin seeds & rolled oats\r\nAllergen: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "ed871af9-7da4-41f9-b60e-ce3d1be70f8c",
+   "name": "Olive Sourdough",
+   "category": "Bread",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "Sourdough loaf w. kalamata & picholine olives and thyme *NOTE OLIVES MAY CONTAIN PITS*\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "8a9bff77-f5cb-4fc2-9f52-390fc6681e3f",
+   "name": "Miche",
+   "category": "Bread",
+   "price_cents": 1100,
+   "available": false,
+   "raw": {
+    "description": "Old World whole wheat sourdough made with natural leavening\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "4f751f5e-6995-4c82-8401-38dae2ac6f5c",
+   "name": "Levain Sandwich Loaf",
+   "category": "Bread",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Our traditional sourdough made in a strap pan ideal for sandwiches and toast\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "d5b4f883-0ca5-4098-9a82-b1e888975086",
+   "name": "Knead the Seed",
+   "category": "Bread",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Our multigrain bread made in a strap pan ideal for sandwiches and toast\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "d9768a44-50c9-4f65-81f4-c322a4a6d5f4",
+   "name": "Challah",
+   "category": "Bread",
+   "price_cents": 800,
+   "available": false,
+   "raw": {
+    "description": "Soft, slightly sweet braided challah loaf\r\nAllergens: Gluten, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "8544dcc1-bd7f-44d4-bfd8-3a069d53a911",
+   "name": "Seasonal Focaccia",
+   "category": "Bread",
+   "price_cents": 900,
+   "available": false,
+   "raw": {
+    "description": "Rotating flavored focaccia\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "f3acb667-c9e8-43ba-8578-ef9d1ced7e32",
+   "name": "Pizza Dough",
+   "category": "Bread",
+   "price_cents": 500,
+   "available": false,
+   "raw": {
+    "description": "Frozen Pizza dough to \"take & bake\" at home!\r\nYields one large thin crust or one medium hand tossed style\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "f49d31f6-7cc3-4a4b-b8b5-47f73fb06ed3",
+   "name": "Banana Chocolate Chip Bread",
+   "category": "Cookies & Poundcakes",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Lightly sweet and dense banana bread w. mini chocolate chips\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "022a7431-f196-46b2-b74e-cfb24cddfbfd",
+   "name": "CoffeeCake for 2",
+   "category": "Cookies & Poundcakes",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Sour cream coffee cake baked with cinnamon pecan streusel. 2 - 4 servings.\r\nAllergens: Gluten, Dairy, Eggs, Pecans"
+   }
+  },
+  {
+   "platform_item_id": "2e6d5c31-0504-4b81-b09b-71aefc36b4d8",
+   "name": "Chocolate Chip Cookie",
+   "category": "Cookies & Poundcakes",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Classic cookie and customer favorite!\r\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "5974ed46-0ea5-43a4-b688-e372edc26e3a",
+   "name": "Peanut Butter Cookie",
+   "category": "Cookies & Poundcakes",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Chewy peanut butter cookie!\r\nAllergens: Gluten, Dairy, Eggs, Peanuts"
+   }
+  },
+  {
+   "platform_item_id": "f2dab25e-2ab9-419b-a49b-f873200375a2",
+   "name": "Thunder 6 PK",
+   "category": "Cookies & Poundcakes",
+   "price_cents": 1800,
+   "available": true
+  },
+  {
+   "platform_item_id": "0c366543-59f0-4fe7-9d1c-46c1d8794e9e",
+   "name": "Flourless Brownie (GF)",
+   "category": "Cookies & Poundcakes",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Rich, chewy, chocolate! * gluten friendly\r\nAllergens: Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "eb415b79-6ba6-49ae-998a-9bd7b1f359d1",
+   "name": "Coconut Rocher (GF)",
+   "category": "Cookies & Poundcakes",
+   "price_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "A gluten friendly coconut confection cookie with a nice caramelized exterior.\r\nAllergens: Eggs"
+   }
+  },
+  {
+   "platform_item_id": "0ab59284-5d6f-4fe3-b6e8-5da4dda047d5",
+   "name": "Ugly But Good (GF)",
+   "category": "Cookies & Poundcakes",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Baked meringue with toasted pecans.\r\nAllergens: Eggs, Pecans"
+   }
+  },
+  {
+   "platform_item_id": "94d73c69-625d-4acf-b52e-56a78b677032",
+   "name": "oz Brew Coffee",
+   "category": "Coffee",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "Lavazza medium roast"
+   },
+   "modifiers": [
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Caramel",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Honey",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Simple",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Coconut",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Lavender",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "Leave Room",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "None",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Fuel Option",
+     "choice_name": "Full Power",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Fuel Option",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Fuel Option",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d79788cd-7a4c-4d3b-8686-dd9df94f05ae",
+   "name": "Cold Press",
+   "category": "Coffee",
+   "price_cents": 650,
+   "available": false,
+   "raw": {
+    "description": "Served both flat or nitro pressed for a smoother finish"
+   },
+   "modifiers": [
+    {
+     "group_name": "Cold Press Options",
+     "choice_name": "Flat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cold Press Options",
+     "choice_name": "Nitro",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Caramel",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Honey",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Simple",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Coconut",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Lavender",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "Leave Room",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "None",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Shot",
+     "choice_name": "ADD Single Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Shot",
+     "choice_name": "ADD Double Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4e00eb8a-b53c-43cf-82f3-6c4ea4b9973d",
+   "name": "oz Americano",
+   "category": "Coffee",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "Espresso and hot water"
+   },
+   "modifiers": [
+    {
+     "group_name": "oz Option",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "oz Option",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Caramel",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Honey",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Simple",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Coconut",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Add",
+     "choice_name": "Lavender",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "Leave Room",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cream",
+     "choice_name": "None",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Fuel Option",
+     "choice_name": "Full Power",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Fuel Option",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Fuel Option",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Shot",
+     "choice_name": "ADD Single Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Shot",
+     "choice_name": "ADD Double Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "82c66778-e82b-4b46-882e-4a79f7fa4530",
+   "name": "Iced Tea",
+   "category": "Tea",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced Tea Type",
+     "choice_name": "Black (Litchi)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Tea Type",
+     "choice_name": "Mallorca Melon *Herbal*",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "eb44c037-896a-4ec0-850d-d6b4da116fb6",
+   "name": "Perrier Sparkling Water",
+   "category": "Other N/A Beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "b9b50539-92a3-40af-adbd-2148cab568d5",
+   "name": "Still Water",
+   "category": "Other N/A Beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "1fe442ff-8447-4be9-bf42-8e0c3b0c2383",
+   "name": "San Pelligrino Juice Can",
+   "category": "Other N/A Beverages",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Blood Orange"
+   }
+  },
+  {
+   "platform_item_id": "f1ca566b-7177-4659-ad60-5ad3fa6ba774",
+   "name": "Coke",
+   "category": "Other N/A Beverages",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "5f0670b1-05bf-4b41-a7ca-786121b9d6a9",
+   "name": "Diet Coke",
+   "category": "Other N/A Beverages",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "e5bdcf07-96a4-4f52-be6e-ecbd7574d00f",
+   "name": "Arnold Palmer",
+   "category": "Other N/A Beverages",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Half iced tea of your choice and half housemade lemonade"
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced Tea Type",
+     "choice_name": "Black (Litchi)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Tea Type",
+     "choice_name": "Mallorca Melon *Herbal*",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "9666c6fd-57f2-431d-9b96-b29cbb971c7a",
+   "name": "Lemonade",
+   "category": "Other N/A Beverages",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Housemade with 100% lemon juice"
+   }
+  },
+  {
+   "platform_item_id": "88041d62-8164-4a3b-b3d1-997cb180190a",
+   "name": "Orange Juice",
+   "category": "Other N/A Beverages",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "c036a4af-8231-46b7-a538-7e21a5aef636",
+   "name": "Lorraine Quiche",
+   "category": "Breakfast",
+   "price_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "Bacon, caramelized onion & gruy\u00e8re cheese. Served with a side salad\r\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "a2d2482d-74de-424f-8c19-428b3323269b",
+   "name": "Veggie Quiche",
+   "category": "Breakfast",
+   "price_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "Spinach Mushroom Ch\u00e8vre. Served with a side salad\r\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "9aa6000f-0da1-4e85-9476-7ff40f2ec2d1",
+   "name": "OG Breakfast Sandwich",
+   "category": "Breakfast",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Fried egg, gruy\u00e8re cheese & arugula on choice of bread\r\nAllergens: Gluten, Dairy, Eggs"
+   }
+  },
+  {
+   "platform_item_id": "b1fe2bd2-21be-4c70-8d3b-1cf4fb5c229a",
+   "name": "Avocado Toast",
+   "category": "Breakfast",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Fresh avocado, sunflower and pea shoots, drizzled with lemon vinaigarette and lemon zest served on house multigrain\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "22882b23-a4af-4108-b2e5-717a871dd54f",
+   "name": "Granola Bowl",
+   "category": "Breakfast",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "House made granola, vanilla greek yogurt, honey, chia seeds & seasonal fruit compote\r\nAllergens: Gluten, Dairy"
+   }
+  },
+  {
+   "platform_item_id": "f6d88f3f-8170-4a83-a09e-24231e53703d",
+   "name": "Kids Breakfast",
+   "category": "Breakfast",
+   "price_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "2 scrambled eggs, baguette + choice of side protein.\r\nAllergens: Gluten, Egg"
+   }
+  },
+  {
+   "platform_item_id": "af763675-2145-4459-97a0-aa4b3e4d7941",
+   "name": "BLT",
+   "category": "Sandwiches",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Classic bacon, lettuce and tomatoes with mayonnaise\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "32f40222-d193-4e56-b8bb-255e0776c3b1",
+   "name": "Ham & Gruy\u00e8re SANDWICH",
+   "category": "Sandwiches",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "With whole grain mustard and butter\r\nAllergens: Gluten, Dairy"
+   }
+  },
+  {
+   "platform_item_id": "3740f908-38a2-44b0-af61-bd4db5ec7fc3",
+   "name": "Cuban",
+   "category": "Sandwiches",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "Ham, pork, swiss cheese, mustard & pickles on baguette \r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "1946d7b6-a802-40d7-907f-14f571ace502",
+   "name": "Chicken Salad Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "A Guest favorite mayo based chicken salad \r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "46762114-6e23-4c55-9a4d-a6320c5aa71d",
+   "name": "Egg Salad Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Delightful and simple egg salad \r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "fff21c16-68cb-4008-a3bd-ecd32f976828",
+   "name": "Turkey & Havarti",
+   "category": "Sandwiches",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "With tomato, greens & mayonnaise\r\non croissant or baguette\r\nAllergens: Gluten, Dairy"
+   }
+  },
+  {
+   "platform_item_id": "b42a2ec6-83bd-492c-a943-1aec433187a3",
+   "name": "Smoked Salmon Croissant",
+   "category": "Sandwiches",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "everything croissant, salmon, avocado, cream cheese, soft boiled egg, green & dill."
+   }
+  },
+  {
+   "platform_item_id": "5d429bde-7176-4f55-bc83-470b49ac5f93",
+   "name": "Veggie Sandwich on Focaccia",
+   "category": "Sandwiches",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "focaccia, hummus, avocado, heirloom tomato, cucumber, micro greens, fresh basil, olive oil.\r\nAllergens: Gluten"
+   }
+  },
+  {
+   "platform_item_id": "cdcd6a2c-86c1-41b1-a2cf-ba08c4d5a70d",
+   "name": "Jambon Beurre",
+   "category": "Sandwiches",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "baguette, sliced ham, butter, cornichon pickles, Maldon salt.\nAllergens: Gluten, Dairy"
+   }
+  },
+  {
+   "platform_item_id": "5cb42baf-52be-4fa7-b22e-8146a1115fad",
+   "name": "Tomato Basil Soup",
+   "category": "Soup/Salads",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "cream based tomato basil soup served with side of crostini\nSoup Allergens: Dairy\nCroistini Allergen: Gluten, Dairy"
+   }
+  },
+  {
+   "platform_item_id": "ba402c11-586f-4b67-825a-c9b932644237",
+   "name": "Beet & Goat Cheese Salad",
+   "category": "Soup/Salads",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "red & gold beets, goat cheese, orange segments, pistachios, bibb lettuce, micro greens, champagne vinaigrette, croissant croutons\nAllergens: Gluten, Dairy, Pistachio"
+   }
+  },
+  {
+   "platform_item_id": "c815642a-864f-41da-9f6d-872e560bb609",
+   "name": "Mediterranean Farro Salad",
+   "category": "Soup/Salads",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "farro, hummus, grape tomatoes, kalamata olives, cucumber, pickled red onion, feta cheese, mint, lemon juice, olive oil & crackers.\nAllergens: Gluten, Dairy"
+   }
+  },
+  {
+   "platform_item_id": "5c4a986c-1c56-4ecf-8877-4f980255868b",
+   "name": "House Salad",
+   "category": "Soup/Salads",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Avocado mash, radish slices, micro greens, leafy greens, house vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "e16e40aa-7fe3-4e65-b8ac-3ee5253c46d5",
+   "name": "P46 Signature Ice Cream PT",
+   "category": "PINT",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Housemade Vanilla Custard with Chocolate Chip Cookie Chunks & Hazelnut Praline folded in."
+   }
+  }
+ ]
+}
