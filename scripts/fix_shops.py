@@ -1,7 +1,9 @@
 """Shop-row cleanup (audit finding 6):
 - rename shop 218 to SweeDee Cafe (OSM still carries the prior tenant's name)
 - retire duplicate shop rows: Spyhouse 602 (identical coords + identical
-  113-item catalog to 601) and Five Watt 523 (same street address as 253)
+  113-item catalog to 601), Five Watt 523 (same street address as 253), and
+  the two OSM node/way pairs that map one place twice at the same coordinates
+  (Angel Food Bakery 611 -> 355, Thirty-Six Cafe 589 -> 543)
 - backfill placeholder addresses from data/address_fixes.json (reverse-geocoded
   from each shop's own coordinates)
 - retire exact duplicate item rows: same shop, name, size and price on two
@@ -27,7 +29,7 @@ def main() -> None:
     db.patch("shops", "id=eq.218", {"name": "SweeDee Cafe"})
     print("shop 218 renamed to SweeDee Cafe")
 
-    for dup, keep in ((602, 601), (523, 253)):
+    for dup, keep in ((602, 601), (523, 253), (611, 355), (589, 543)):
         items = db.get("items", {"select": "id", "shop_id": f"eq.{dup}", "removed_at": "is.null", "limit": "1000"})
         if items:
             ids = ",".join(str(i["id"]) for i in items)

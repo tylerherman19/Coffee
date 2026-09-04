@@ -68,10 +68,10 @@ h1, h2 { font-family: var(--font-heading), Georgia, serif; }
 .rank-row { grid-template-columns: 42px 1fr auto; }
 .rank-number { font: 700 1.5rem/1 var(--font-heading), Georgia, serif; color: var(--accent); }
 .rank-main strong { font: 700 1.25rem/1.1 var(--font-heading), Georgia, serif; }
-.map-shell { height: calc(100vh - 133px); display: grid; grid-template-rows: auto 1fr; padding: 24px clamp(18px,4vw,64px) 30px; }
+.map-shell { height: calc(100vh - 133px); display: flex; flex-direction: column; padding: 24px clamp(18px,4vw,64px) 30px; }
 .map-caption { display: flex; align-items: end; justify-content: space-between; padding-bottom: 18px; }
 .map-caption h1 { font-size: clamp(2rem,4vw,3.5rem); }
-.coffee-map { height: 100%; min-height: 460px; border: 1px solid var(--line); z-index: 1; }
+.coffee-map { flex: 1 1 auto; min-height: 460px; border: 1px solid var(--line); z-index: 1; }
 .coffee-marker { display: grid; place-items: center; border: 2px solid var(--paper); background: var(--accent); }
 .coffee-cluster { display: grid; place-items: center; border: 2px solid var(--paper); background: var(--brown); }
 .coffee-cluster span { color: var(--paper); font: 700 .95rem/1 var(--font-heading), Georgia, serif; }
@@ -137,4 +137,7 @@ h1, h2 { font-family: var(--font-heading), Georgia, serif; }
 
 .shop-row.dimmed { opacity: .5; }
 .show-more { width: 100%; min-height: 52px; margin-top: 12px; border: 1px solid var(--line); background: var(--paper); color: var(--brown); cursor: pointer; font-size: .95rem; }
-.map-hood { margin: 0 clamp(18px,4vw,64px) 12px; }
+.map-hood { margin: 0 0 12px; }
+.map-filter-note { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--paper); color: var(--brown-soft); font-size: .9rem; }
+.map-filter-note button { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid var(--line); background: var(--cream); color: var(--brown); cursor: pointer; font-size: .85rem; }
+.map-filter-note svg { width: 14px; height: 14px; }

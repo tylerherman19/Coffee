@@ -22,7 +22,7 @@ from typing import Any
 
 import requests
 
-from collect import Supabase, classify_name, parse_size
+from collect import Supabase, get_all, parse_size, refine_classification
 
 
 def write(fn, *args):
@@ -109,7 +109,7 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
         shop_patch: dict[str, Any] = {"last_checked_at": now, "scrape_status": status}
         if platform:
             shop_patch["platform"] = platform
-        existing = db.get("items", {"select": "*", "shop_id": f"eq.{shop_id}"})
+        existing = get_all(db, "items", {"select": "*", "shop_id": f"eq.{shop_id}"})
         by_platform = {item["platform_item_id"]: item for item in existing}
 
         new_rows: list[dict[str, Any]] = []
@@ -121,8 +121,10 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
         for entry in items:
             pid = entry["platform_item_id"]
             seen.add(pid)
-            is_drink, drink_type = classify_name(entry["name"], entry.get("category"))
             size_label, size_oz, confidence = parse_size(entry["name"])
+            is_drink, drink_type = refine_classification(
+                entry["name"], entry.get("category"), entry["price_cents"], size_oz
+            )
             values = {
                 "name": entry["name"],
                 "category": entry.get("category"),
