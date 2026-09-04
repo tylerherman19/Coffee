@@ -1,0 +1,401 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://smallpiemke.com/s/SP_Menu-Spring_2026pdf.pdf",
+ "shops": [
+  {
+   "id": 73,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "sm-hot-coffee",
+   "name": "Sugar Leaf Hot Coffee",
+   "category": "Coffee & Tea",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Flavored Syrup",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sm-cold-brew",
+   "name": "Sugar Leaf Cold Brew",
+   "category": "Coffee & Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Flavored Syrup",
+     "choice_name": "Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sm-mocha",
+   "name": "Mocha",
+   "category": "Coffee & Tea",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "coffee, milk, chocolate, whip"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-nitro",
+   "name": "Pilcrow Nitro Sweet & Creamy",
+   "category": "Coffee & Tea",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 1150,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-iced-chai",
+   "name": "Rishi Iced Chai Latte",
+   "category": "Coffee & Tea",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-hot-tea",
+   "name": "Rishi Hot Tea",
+   "category": "Coffee & Tea",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-iced-tea",
+   "name": "Iced Tea",
+   "category": "Coffee & Tea",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Upgrade to Arnold Palmer +.75"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-sportea",
+   "name": "SporTea Iced Herbal Tea",
+   "category": "Coffee & Tea",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-honey-bacon",
+   "name": "Honey Bacon Biscuit",
+   "category": "Sandwiches",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-sunrise",
+   "name": "Sunrise Melt",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-gas-station",
+   "name": "Gas Station Sammie",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-sausage-egg",
+   "name": "Sausage & Egg Jam",
+   "category": "Sandwiches",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-blueberry-turkey",
+   "name": "Blueberry Turkey",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-turkey-pepper",
+   "name": "Turkey Pepper",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-cheese-apple",
+   "name": "Cheese & Apple",
+   "category": "Sandwiches",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-tomato-pesto",
+   "name": "Tomato Pesto",
+   "category": "Sandwiches",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-italian",
+   "name": "Classic Italian",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-cheddar-melt",
+   "name": "Just a Cheddar Melt",
+   "category": "Sandwiches",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-handpie",
+   "name": "Savory Handpie",
+   "category": "Savory",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Flavors rotate"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-quiche",
+   "name": "Seasonal Quiche (weekends only)",
+   "category": "Savory",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-kale-salad",
+   "name": "Hearty Kale Salad",
+   "category": "Savory",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "side / entree"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-parfait",
+   "name": "Yogurt Granola Parfait",
+   "category": "Savory",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-root-beer",
+   "name": "Boylan's Root Beer",
+   "category": "Juice, Soda & More",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-soda",
+   "name": "Canned Soda (Coke, Sprite, Diet Coke)",
+   "category": "Juice, Soda & More",
+   "price_cents": 150,
+   "price_low_cents": 150,
+   "price_high_cents": 150,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-topo",
+   "name": "Topo Chico",
+   "category": "Juice, Soda & More",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-limeade",
+   "name": "Door Co. Cherry Limeade",
+   "category": "Juice, Soda & More",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-lemonade",
+   "name": "Fresh Lemonade",
+   "category": "Juice, Soda & More",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-oj",
+   "name": "Orange Juice",
+   "category": "Juice, Soda & More",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sm-milk",
+   "name": "Sassy Cow Whole Milk",
+   "category": "Juice, Soda & More",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  }
+ ]
+}
