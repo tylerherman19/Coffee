@@ -1,0 +1,1260 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://sistersludgecoffeecafe.com/coffee-menu.html",
+ "shops": [
+  {
+   "id": 316,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "Macchiato",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with a Dollop of Foam"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Con Panna",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Whip "
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Shot in the Dark",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Vanilla and Soy Milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Pussycat",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Chocolate and Whip"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Silk Stocking",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Caramel, Cinnamon, and Foam"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Short, Dark, and Handsome",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Dark Chocolate and Cayenne"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Gem",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Peppermint, Dark Chocolate, and Whip"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Jackalope",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Almond Milk, SF Hazelnut, and Cocoa"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Pecan Pie",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Caramel, Pecan, and Whip"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Purple Rain",
+   "category": "Espresso Shots",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Lavender, Milk Chocolate, and Whip"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Coffee",
+   "category": "Classics",
+   "price_cents": 343,
+   "price_low_cents": 343,
+   "price_high_cents": 426,
+   "available": true,
+   "raw": {
+    "description": "Dark or Medium Roast"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Coffee au Lait",
+   "category": "Classics",
+   "price_cents": 442,
+   "price_low_cents": 442,
+   "price_high_cents": 546,
+   "available": true,
+   "raw": {
+    "description": "Coffee with Steamed Milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Latte",
+   "category": "Classics",
+   "price_cents": 463,
+   "price_low_cents": 463,
+   "price_high_cents": 592,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Steamed Milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Americano",
+   "category": "Classics",
+   "price_cents": 365,
+   "price_low_cents": 365,
+   "price_high_cents": 451,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Hot Water"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cappucino",
+   "category": "Classics",
+   "price_cents": 463,
+   "price_low_cents": 463,
+   "price_high_cents": 592,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Steamed Milk Froth"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mocha",
+   "category": "Classics",
+   "price_cents": 518,
+   "price_low_cents": 518,
+   "price_high_cents": 662,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Milk Chocolate"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Turtle",
+   "category": "Classics",
+   "price_cents": 578,
+   "price_low_cents": 578,
+   "price_high_cents": 687,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Steamed Milk and Caramel"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Miel",
+   "category": "Classics",
+   "price_cents": 513,
+   "price_low_cents": 513,
+   "price_high_cents": 632,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Steamed Milk and Honey"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Breve",
+   "category": "Classics",
+   "price_cents": 583,
+   "price_low_cents": 583,
+   "price_high_cents": 692,
+   "available": true,
+   "raw": {
+    "description": "Espresso with Half and Half Cream"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chai Latte",
+   "category": "Classics",
+   "price_cents": 454,
+   "price_low_cents": 454,
+   "price_high_cents": 564,
+   "available": true,
+   "raw": {
+    "description": "With Chai Tea"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Gloria",
+   "category": "Classics",
+   "price_cents": 588,
+   "price_low_cents": 588,
+   "price_high_cents": 682,
+   "available": true,
+   "raw": {
+    "description": "Espresso, Caramel and Milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Lavender London Fog",
+   "category": "Classics",
+   "price_cents": 539,
+   "price_low_cents": 539,
+   "price_high_cents": 599,
+   "available": true,
+   "raw": {
+    "description": "Latte with Earl Grey Tea and Lavender"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Tea Pot",
+   "category": "Classics",
+   "price_cents": 455,
+   "price_low_cents": 455,
+   "price_high_cents": 455,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Dark Mocha",
+   "category": "Specialty Drinks",
+   "price_cents": 603,
+   "price_low_cents": 603,
+   "price_high_cents": 742,
+   "available": true,
+   "raw": {
+    "description": "With Dark Chocolate"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Aztec Mocha",
+   "category": "Specialty Drinks",
+   "price_cents": 603,
+   "price_low_cents": 603,
+   "price_high_cents": 742,
+   "available": true,
+   "raw": {
+    "description": "With Dark Chocolate, Cinnamon, and Cayenne"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Calient\u00e9 Mocha",
+   "category": "Specialty Drinks",
+   "price_cents": 603,
+   "price_low_cents": 603,
+   "price_high_cents": 742,
+   "available": true,
+   "raw": {
+    "description": "With Cinnamon and Cloves"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Dark Turtle",
+   "category": "Specialty Drinks",
+   "price_cents": 668,
+   "price_low_cents": 668,
+   "price_high_cents": 832,
+   "available": true,
+   "raw": {
+    "description": "With Dark Chocolate and Caramel"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Salty Dog",
+   "category": "Specialty Drinks",
+   "price_cents": 668,
+   "price_low_cents": 668,
+   "price_high_cents": 832,
+   "available": true,
+   "raw": {
+    "description": "With Dark Chocolate, Caramel, and Salt"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "White Mocha",
+   "category": "Specialty Drinks",
+   "price_cents": 603,
+   "price_low_cents": 603,
+   "price_high_cents": 742,
+   "available": true,
+   "raw": {
+    "description": "With White Chocolate"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "White Turtle",
+   "category": "Specialty Drinks",
+   "price_cents": 668,
+   "price_low_cents": 668,
+   "price_high_cents": 832,
+   "available": true,
+   "raw": {
+    "description": "With White Chocolate and Caramel"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Snickerdoodle",
+   "category": "Specialty Drinks",
+   "price_cents": 668,
+   "price_low_cents": 668,
+   "price_high_cents": 832,
+   "available": true,
+   "raw": {
+    "description": "With White Chocolate and Brown Sugar Spice"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Paisley Park",
+   "category": "Specialty Drinks",
+   "price_cents": 668,
+   "price_low_cents": 668,
+   "price_high_cents": 832,
+   "available": true,
+   "raw": {
+    "description": "With White Chocolate and Lavender"
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra shot",
+     "price_delta_cents": 170
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "House flavor syrup",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Spices",
+     "price_delta_cents": 60
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Soy, oat or almond milk",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Honey",
+     "price_delta_cents": 200
+    }
+   ]
+  }
+ ]
+}
