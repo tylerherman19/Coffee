@@ -23,6 +23,10 @@ on:
         description: 'New shop name (optional; when set alone, closed_at is untouched)'
         required: false
         default: ''
+      domain:
+        description: 'New shop domain (optional; when set alone, closed_at is untouched)'
+        required: false
+        default: ''
 
 jobs:
   update:
@@ -39,4 +43,5 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
-        run: python scripts/set_shop_closed.py --shop-id "${{ inputs.shop_id }}" --closed-on "${{ inputs.closed_on }}" --address "${{ inputs.address }}" --name "${{ inputs.name }}" ${{ inputs.reopen && '--reopen' || '' }}
+        run: python scripts/set_shop_closed.py --shop-id "${{ inputs.shop_id }}" --closed-on "${{ inputs.closed_on }}" --address "${{ inputs.address }}" --name "${{ inputs.name }}" --domain "${{ inputs.domain }}" ${{ inputs.reopen && '--reopen' || '' }}
+
