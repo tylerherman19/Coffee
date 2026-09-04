@@ -26,6 +26,8 @@ function distanceMiles(aLat: number, aLng: number, bLat: number, bLng: number) {
   const h = Math.sin(dLat / 2) ** 2 + Math.cos(aLat * rad) * Math.cos(bLat * rad) * Math.sin(dLng / 2) ** 2;
   return 2 * 6371 * Math.asin(Math.sqrt(h)) * MILES_PER_KM;
 }
+const METRO_CENTERS: Record<Metro, { lat: number; lng: number }> = { milwaukee: { lat: 43.0389, lng: -87.9065 }, twin_cities: { lat: 44.9778, lng: -93.265 } };
+const nearestMetro = (lat: number, lng: number): Metro => distanceMiles(lat, lng, METRO_CENTERS.milwaukee.lat, METRO_CENTERS.milwaukee.lng) <= distanceMiles(lat, lng, METRO_CENTERS.twin_cities.lat, METRO_CENTERS.twin_cities.lng) ? 'milwaukee' : 'twin_cities';
 const formatMiles = (miles: number) => miles < 0.1 ? `${Math.round(miles * 5280 / 100) * 100} ft` : `${miles.toFixed(1)} mi`;
 
 
@@ -86,7 +88,12 @@ export default function Home() {
   const [data, setData] = useState<CoffeeData>({ shops: [], items: [], loadedAt: null });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [metro, setMetro] = useState<Metro>('milwaukee');
+  const [metro, setMetro] = useState<Metro>(() => {
+    if (typeof window === 'undefined') return 'milwaukee';
+    const ll = new URLSearchParams(window.location.search).get('ll');
+    if (ll) { const [lat, lng] = ll.split(',').map(Number); if (Number.isFinite(lat) && Number.isFinite(lng)) return nearestMetro(lat, lng); }
+    return 'milwaukee';
+  });
   const [view, setView] = useState<View>(() => {
     if (typeof window === 'undefined') return 'near';
     const v = new URLSearchParams(window.location.search).get('view');
@@ -117,7 +124,7 @@ export default function Home() {
   useEffect(() => {
     if (geoState === 'asking' && !coords) {
       navigator.geolocation.getCurrentPosition(
-        (position) => { setCoords({ lat: position.coords.latitude, lng: position.coords.longitude }); setGeoState('ok'); },
+        (position) => { setCoords({ lat: position.coords.latitude, lng: position.coords.longitude }); setGeoState('ok'); setMetro(nearestMetro(position.coords.latitude, position.coords.longitude)); },
         () => setGeoState('denied'),
         { timeout: 10000, maximumAge: 300000 },
       );
