@@ -1,0 +1,441 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://3rdstmarkethall.com/locations/all-vendors/craft-boba",
+ "shops": [
+  {
+   "id": 133,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "cb-mango-tea",
+   "name": "Mango Tea",
+   "category": "Fruit Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-peach-tea",
+   "name": "Peach Tea",
+   "category": "Fruit Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-passion-fruit-tea",
+   "name": "Passion Fruit Tea",
+   "category": "Fruit Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-watermelon-tea",
+   "name": "Watermelon Tea",
+   "category": "Fruit Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-raspberry-tea",
+   "name": "Raspberry Tea",
+   "category": "Fruit Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-pineapple-tea",
+   "name": "Pineapple Tea",
+   "category": "Fruit Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-classic-milk-tea",
+   "name": "Classic Milk Tea",
+   "category": "Milk Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-jasmine-milk-tea",
+   "name": "Jasmine Milk Tea",
+   "category": "Milk Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-thai-milk-tea",
+   "name": "Thai Milk Tea",
+   "category": "Milk Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-tiger-sugar-milk-tea",
+   "name": "Tiger Sugar Milk Tea",
+   "category": "Milk Teas",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-milky-strawberry",
+   "name": "Milky Strawberry",
+   "category": "Milk Teas",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-chilling-oreo",
+   "name": "Chilling Oreo",
+   "category": "Milk Teas",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-taro-magic",
+   "name": "Taro Magic",
+   "category": "Milk Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-black-rose",
+   "name": "Black Rose",
+   "category": "Milk Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mystic-matcha",
+   "name": "Mystic Matcha",
+   "category": "Milk Teas",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-strawberry-matcha",
+   "name": "Strawberry Matcha",
+   "category": "Milk Teas",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-strawberry-shake",
+   "name": "Strawberry Shake",
+   "category": "Milkshakes",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mango-shake",
+   "name": "Mango Shake",
+   "category": "Milkshakes",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-pi\u00f1a-coco-shake",
+   "name": "Pi\u00f1a Coco Shake",
+   "category": "Milkshakes",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-snowflake-caramel-shake",
+   "name": "Snowflake Caramel Shake",
+   "category": "Milkshakes",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-strawberry-yogurt",
+   "name": "Strawberry Yogurt",
+   "category": "Yogurt Sips",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mango-bliss",
+   "name": "Mango Bliss",
+   "category": "Yogurt Sips",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-banana-yogurt",
+   "name": "Banana Yogurt",
+   "category": "Yogurt Sips",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-silky-rose",
+   "name": "Silky Rose",
+   "category": "Yogurt Sips",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mochi-strawberry",
+   "name": "Mochi Ice Cream - Strawberry",
+   "category": "Mochi Ice Cream",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Single $3 / Twin $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mochi-matcha",
+   "name": "Mochi Ice Cream - Matcha",
+   "category": "Mochi Ice Cream",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Single $3 / Twin $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mochi-cake batter",
+   "name": "Mochi Ice Cream - Cake Batter",
+   "category": "Mochi Ice Cream",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Single $3 / Twin $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mochi-vanilla chip",
+   "name": "Mochi Ice Cream - Vanilla Chip",
+   "category": "Mochi Ice Cream",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Single $3 / Twin $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mochi-chocolate",
+   "name": "Mochi Ice Cream - Chocolate",
+   "category": "Mochi Ice Cream",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Single $3 / Twin $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mochi-espresso",
+   "name": "Mochi Ice Cream - Espresso",
+   "category": "Mochi Ice Cream",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Single $3 / Twin $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mochi-coconut",
+   "name": "Mochi Ice Cream - Coconut",
+   "category": "Mochi Ice Cream",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Single $3 / Twin $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-mochi-mango",
+   "name": "Mochi Ice Cream - Mango",
+   "category": "Mochi Ice Cream",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Single $3 / Twin $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb-topping",
+   "name": "Topping (Boba, Popping Boba, Rainbow Jelly, Milk Pudding)",
+   "category": "Toppings",
+   "price_cents": 50,
+   "price_low_cents": 50,
+   "price_high_cents": 50,
+   "available": true,
+   "raw": {
+    "description": "Add-on"
+   },
+   "modifiers": []
+  }
+ ]
+}
