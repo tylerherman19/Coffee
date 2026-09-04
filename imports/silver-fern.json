@@ -1,0 +1,6984 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/silver-fern-ne (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 5ca8eb42-b7f7-435b-9c53-747284940c24, address on page: 114 E Hennepin Ave,, Minneapolis, MN)",
+ "shops": [
+  {
+   "id": 414,
+   "slug": "silver-fern-ne"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "88aa0884-9368-4351-8e72-28ed82a855e8",
+   "name": "Sweet Corn Latte (Iced)",
+   "category": "Seasonal Drink Specials (Group)",
+   "price_cents": 800,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Almond Biscotti",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "S'mores",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Bananas Foster",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "bd811b25-6751-4b60-8b3d-bf3fbfd2468a",
+   "name": "Sweet Mikey's Cookie Latte",
+   "category": "Seasonal Drink Specials (Group)",
+   "price_cents": 735,
+   "available": true,
+   "price_low_cents": 735,
+   "price_high_cents": 795,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d25fa105-aec1-4b71-a890-d662e595dd5c",
+   "name": "Frozen Cotton Candy Matcha",
+   "category": "Seasonal Drink Specials (Group)",
+   "price_cents": 790,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "24cd5225-dfd6-45e0-9d19-9f48eec577ac",
+   "name": "Mini Cinnamon Donut Latte",
+   "category": "Seasonal Drink Specials (Group)",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 785,
+   "modifiers": [
+    {
+     "group_name": "Latte Type",
+     "choice_name": "Espresso Base",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Latte Type",
+     "choice_name": "Matcha Base",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Almond Biscotti",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "S'mores",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Bananas Foster",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "89c68a78-dd30-4342-aa24-dd22d25f88cd",
+   "name": "Wild Wild Blueberry Latte",
+   "category": "Seasonal Drink Specials (Group)",
+   "price_cents": 735,
+   "available": true,
+   "price_low_cents": 735,
+   "price_high_cents": 795,
+   "modifiers": [
+    {
+     "group_name": "Latte Type",
+     "choice_name": "Espresso Base",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Latte Type",
+     "choice_name": "Matcha Base",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e378f0a0-c65e-44b3-85d7-80d0b52a7a78",
+   "name": "Cookie Butter Latte",
+   "category": "Seasonal Drink Specials (Group)",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 785,
+   "modifiers": [
+    {
+     "group_name": "Latte Type",
+     "choice_name": "Espresso Base",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Latte Type",
+     "choice_name": "Matcha Base",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c6c2ddab-3bab-44a2-9c74-6e62432adc08",
+   "name": "Frozen Strawberry Lemonade",
+   "category": "Seasonal Drink Specials (Group)",
+   "price_cents": 790,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5779c5ee-94cf-4cae-a07d-d57e55de9cbd",
+   "name": "Strawberry Matcha Latte (Iced)",
+   "category": "Seasonal Drink Specials (Group)",
+   "price_cents": 785,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    }
+   ]
+  },
+  {
+   "platform_item_id": "9ce9a297-28f3-4672-8641-648863bd21f9",
+   "name": "Espresso",
+   "category": "Espresso (Group)",
+   "price_cents": 325,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Lavender",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Maple",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Honey",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 30
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c01d940d-b208-442d-8eb8-7d98ff3f1770",
+   "name": "Macchiato",
+   "category": "Espresso (Group)",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Lavender",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Maple",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Honey",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 30
+    }
+   ]
+  },
+  {
+   "platform_item_id": "6d0afc60-3072-49a6-b915-d64fdd59a5fa",
+   "name": "Cortado",
+   "category": "Espresso (Group)",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Lavender",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Maple",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Honey",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 30
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5e8a18b1-8fd3-4ee8-accb-1efb63a3354d",
+   "name": "Cappuccino",
+   "category": "Espresso (Group)",
+   "price_cents": 550,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Lavender",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Maple",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Honey",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "60193c79-5e61-44d7-8c59-7990d276c6f7",
+   "name": "Flat White",
+   "category": "Espresso (Group)",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Lavender",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Maple",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Honey",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cafc484f-c1dd-4708-8f8f-576c1b2c29fa",
+   "name": "Shaken Espresso",
+   "category": "Espresso (Group)",
+   "price_cents": 725,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3959038d-c044-464e-b42d-1e96068ced1b",
+   "name": "Espresso Tonic",
+   "category": "Espresso (Group)",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "79315cf6-be32-499b-a343-8c7c54643337",
+   "name": "Latte",
+   "category": "Espresso (Group)",
+   "price_cents": 660,
+   "available": true,
+   "price_low_cents": 660,
+   "price_high_cents": 720,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "70a2f3bf-8a25-4c25-8223-d14088ab6fb5",
+   "name": "Mocha",
+   "category": "Espresso (Group)",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 785,
+   "modifiers": [
+    {
+     "group_name": "Mocha Type",
+     "choice_name": "Mocha",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Mocha Type",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Mocha Type",
+     "choice_name": "Peppermint Mocha",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d571cfe0-1756-4e9f-b5ae-99dea0cc4f05",
+   "name": "Miel",
+   "category": "Espresso (Group)",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 785,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "fafd4e2c-2253-4dff-b921-df5f23c8e0e4",
+   "name": "Americano",
+   "category": "Espresso (Group)",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 600,
+   "modifiers": [
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "049b024e-513a-407a-b144-0c24ce470cbd",
+   "name": "Chai Latte",
+   "category": "Matcha, Chai & Tea (Group)",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 750,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3a73387f-0b85-4744-b035-0bb5b81c91bb",
+   "name": "Matcha Latte",
+   "category": "Matcha, Chai & Tea (Group)",
+   "price_cents": 660,
+   "available": true,
+   "price_low_cents": 660,
+   "price_high_cents": 720,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "57e14fda-b06e-4ce4-bd29-135805970d5a",
+   "name": "Hot Tea",
+   "category": "Matcha, Chai & Tea (Group)",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Hot Teas",
+     "choice_name": "Earl Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Teas",
+     "choice_name": "English Breakfast",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Teas",
+     "choice_name": "Jasmine Reserve",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Teas",
+     "choice_name": "Citrus Mint",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Teas",
+     "choice_name": "Chamomile Citron",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "238994cd-23c1-4c44-8ecd-232416a320df",
+   "name": "Iced Tea",
+   "category": "Matcha, Chai & Tea (Group)",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced Teas",
+     "choice_name": "Golden Triangle",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Teas",
+     "choice_name": "Citrus Green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Teas",
+     "choice_name": "Elderberry Hibiscus",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Lavender",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Maple",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Honey",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 30
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 45
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026 (Small Drink)",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 30
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2e47912f-8072-49dc-921c-c6b58394e3b5",
+   "name": "London Fog",
+   "category": "Matcha, Chai & Tea (Group)",
+   "price_cents": 625,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b47b8465-1b53-4799-b99a-cfac788b6975",
+   "name": "Cold Brew",
+   "category": "Brewed Coffee (Group)",
+   "price_cents": 625,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0ed79b69-58e9-4e75-9c43-699956ce3470",
+   "name": "Nitro Cold Brew",
+   "category": "Brewed Coffee (Group)",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4e838f04-f4db-4ffc-9e70-d33f9ef86514",
+   "name": "Drip Coffee",
+   "category": "Brewed Coffee (Group)",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 500,
+   "modifiers": [
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Splash of Milk/Cream",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "922abba5-ccfe-4986-8134-33ca94f5e129",
+   "name": "Cafe au Lait",
+   "category": "Brewed Coffee (Group)",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "17d01abb-ba4f-4936-9150-8e010e64c219",
+   "name": "Hot Chocolate",
+   "category": "Other Cafe Beverages (Group)",
+   "price_cents": 650,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Single",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Extra Espresso",
+     "choice_name": "Extra Double",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "452241b4-795d-4ed5-bb3e-743395189909",
+   "name": "Steamer",
+   "category": "Other Cafe Beverages (Group)",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "1%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "YES Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "NO Dairy Toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Choice",
+     "choice_name": "Lemonade",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "25670920-921a-4663-9f88-ad6be535050c",
+   "name": "Shaken Lemonade",
+   "category": "Other Cafe Beverages (Group)",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "248e6f01-27a8-4d56-825c-3e6ec1bee643",
+   "name": "Frozen Lemonade",
+   "category": "Other Cafe Beverages (Group)",
+   "price_cents": 700,
+   "available": true,
+   "price_low_cents": 700,
+   "price_high_cents": 800,
+   "modifiers": [
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate Chip Cookie",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Mini Donut",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 35
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Vanilla Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cotton Candy Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Toppings Summer 2026",
+     "choice_name": "Cookie Whipped Cream",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "42952f26-702b-4b9f-8843-b88cc9c2a23a",
+   "name": "Green Machine Smoothie",
+   "category": "Other Cafe Beverages (Group)",
+   "price_cents": 1000,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Smoothie Add Ons",
+     "choice_name": "Plant Protein",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Smoothie Add Ons",
+     "choice_name": "Collagen",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "6206d921-fa05-4163-854c-bc293374629f",
+   "name": "Strawberry Banana Smoothie",
+   "category": "Other Cafe Beverages (Group)",
+   "price_cents": 1000,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Smoothie Add Ons",
+     "choice_name": "Plant Protein",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Smoothie Add Ons",
+     "choice_name": "Collagen",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "89b34874-f6cd-4657-8c01-cfef8f542d04",
+   "name": "Mango Peach Smoothie",
+   "category": "Other Cafe Beverages (Group)",
+   "price_cents": 1000,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Smoothie Add Ons",
+     "choice_name": "Plant Protein",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Smoothie Add Ons",
+     "choice_name": "Collagen",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2f01a006-a69d-4266-9dd7-3c3636fbd519",
+   "name": "Arnold Palmer",
+   "category": "Other Cafe Beverages (Group)",
+   "price_cents": 550,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Iced Teas",
+     "choice_name": "Golden Triangle",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Teas",
+     "choice_name": "Citrus Green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Teas",
+     "choice_name": "Elderberry Hibiscus",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Lavender",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Maple",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Honey",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Miso Caramel",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cookie Butter",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Almond Biscotti",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Strawberry (Iced)",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Blueberry",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "S'mores",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Bananas Foster",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Salt",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cardamom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Syrups Summer 2026",
+     "choice_name": "Split Flavors",
+     "price_delta_cents": 65
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Less Hot/Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Decaf Espresso",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Garnish (ALLERGY)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifiers",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "bec44e64-32fd-4c55-a888-550fa98ce5f2",
+   "name": "Butter Croissant",
+   "category": "Bakery Case (Group)",
+   "price_cents": 525,
+   "available": true
+  },
+  {
+   "platform_item_id": "91ca0221-2cb2-462d-b0a0-c743b8807a56",
+   "name": "Chocolate Croissant",
+   "category": "Bakery Case (Group)",
+   "price_cents": 575,
+   "available": false
+  },
+  {
+   "platform_item_id": "b1aec51f-fbf3-446f-924e-df4ecd5494d0",
+   "name": "Almond Croissant",
+   "category": "Bakery Case (Group)",
+   "price_cents": 625,
+   "available": true
+  },
+  {
+   "platform_item_id": "d72b665c-e533-4a14-9b59-34f94d2de5a5",
+   "name": "Buttermilk Biscuit",
+   "category": "Bakery Case (Group)",
+   "price_cents": 450,
+   "available": true
+  },
+  {
+   "platform_item_id": "bf52173b-72ef-401c-bbd7-72330e1eab07",
+   "name": "Coffee Crumb Cake",
+   "category": "Bakery Case (Group)",
+   "price_cents": 500,
+   "available": false
+  },
+  {
+   "platform_item_id": "30666e67-f609-4ef9-8f03-f2e416bf1071",
+   "name": "Banana Chocolate Chip Muffin",
+   "category": "Bakery Case (Group)",
+   "price_cents": 500,
+   "available": false
+  },
+  {
+   "platform_item_id": "c6296c91-1e88-457e-9d35-cbf4ec8b470a",
+   "name": "Brown Butter Chocolate Chip Cookie",
+   "category": "Bakery Case (Group)",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "de3a435d-655f-4a93-b409-6110e2a243a5",
+   "name": "Brown Sugar Cookie",
+   "category": "Bakery Case (Group)",
+   "price_cents": 350,
+   "available": false
+  },
+  {
+   "platform_item_id": "2ddee3a9-a8c8-4d8c-93e2-272b8414c8e6",
+   "name": "Apricot Rosemary Pistachio Scone [VG]",
+   "category": "Bakery Case (Group)",
+   "price_cents": 500,
+   "available": false
+  },
+  {
+   "platform_item_id": "690a9f92-1af3-4bde-a3d8-d14bf1466bd8",
+   "name": "Pumpkin Bread [VG]",
+   "category": "Bakery Case (Group)",
+   "price_cents": 500,
+   "available": false
+  },
+  {
+   "platform_item_id": "4e49b12e-2cae-4d08-a77e-deea0ff0e9f0",
+   "name": "Apple Allspice Bread [GF]",
+   "category": "Bakery Case (Group)",
+   "price_cents": 500,
+   "available": false
+  },
+  {
+   "platform_item_id": "33271b5b-44c8-4ea7-82a6-8c0b0f25baea",
+   "name": "Chocolate Dipped Macaroon [GF]",
+   "category": "Bakery Case (Group)",
+   "price_cents": 350,
+   "available": false
+  },
+  {
+   "platform_item_id": "732ae7d9-02f7-4ab1-a19e-2d98e3fd4b52",
+   "name": "Pickled Jalape\u00f1o & Cheddar Scone [GF]",
+   "category": "Bakery Case (Group)",
+   "price_cents": 500,
+   "available": true
+  },
+  {
+   "platform_item_id": "c644c546-1439-40be-b4c7-f1b5c7d73168",
+   "name": "Chocolate Dipped Biscotti",
+   "category": "Bakery Case (Group)",
+   "price_cents": 400,
+   "available": false
+  },
+  {
+   "platform_item_id": "d261d45f-dc2d-4503-8010-778ede78d506",
+   "name": "Chai Spiced Sandwich Cookie",
+   "category": "Bakery Case (Group)",
+   "price_cents": 425,
+   "available": false
+  },
+  {
+   "platform_item_id": "ef7a09db-44fc-4f4c-a00e-01e4ca0d3ad0",
+   "name": "Avocado Toast",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1300,
+   "available": true
+  },
+  {
+   "platform_item_id": "7dbbfcbe-f9db-419d-947a-f5ddb7ee71f5",
+   "name": "Avocado Toast VEGAN",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1300,
+   "available": true
+  },
+  {
+   "platform_item_id": "efbf74e7-cf9a-4a5f-bc0c-c9bbe5b82cf2",
+   "name": "Breakfast Sandwich",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1300,
+   "available": true
+  },
+  {
+   "platform_item_id": "1753df43-4ed5-43bb-9356-8a939e87afc0",
+   "name": "Breakfast Sandwich VEGAN",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1300,
+   "available": true
+  },
+  {
+   "platform_item_id": "022e330b-c1df-47b1-8f05-d446c59672bb",
+   "name": "Breakfast Flatbread",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1675,
+   "available": true
+  },
+  {
+   "platform_item_id": "d9acb7b7-3b42-4ef2-a332-83f6d7af8180",
+   "name": "Yogurt & Granola",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1100,
+   "available": true
+  },
+  {
+   "platform_item_id": "7ac29af7-d29d-4b6b-b562-8e340fafebce",
+   "name": "Southern Style Buiscuit",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 650,
+   "available": true
+  },
+  {
+   "platform_item_id": "47dd205d-c42d-4c27-b12d-2e23e1bccd3c",
+   "name": "Berrylicious Waffle",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "A housemade malt-style waffle topped with roasted berries, mascarpone whipped cream, and served with maple miso butter, berry syrup, and pure maple syrup."
+   }
+  },
+  {
+   "platform_item_id": "b3d71b4f-2b40-441c-ac47-342ebe05bf57",
+   "name": "Nutella Waffle",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "A housemade malt-style waffle topped with mascarpone whipped cream, drizzles of Nutella and dark chocolate, and served with pure maple syrup."
+   }
+  },
+  {
+   "platform_item_id": "7500b1ad-518c-413d-888a-ef60526b063e",
+   "name": "Bagel & Lox",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "New York-style bagel layered high with flaky smoked salmon, scallion cream cheese, confit tomatoes, red onion, capers, and dill."
+   }
+  },
+  {
+   "platform_item_id": "256fef50-62f2-4e0e-a237-51d42ae98fe7",
+   "name": "Bagel & Cream Cheese",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 550,
+   "available": true
+  },
+  {
+   "platform_item_id": "537f5355-203d-4809-b8cc-29f2a473e46d",
+   "name": "Seasonal Quiche",
+   "category": "Breakfast Fall 2026 (Group)",
+   "price_cents": 1100,
+   "available": true
+  },
+  {
+   "platform_item_id": "ee3e6669-b148-4822-a966-5e9268ea3d1b",
+   "name": "Fiji Water",
+   "category": "Water",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "523555e6-867a-41bd-b02c-cecb2ddc144c",
+   "name": "San Pellegrino Sparkling Water",
+   "category": "Water",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "2700381e-fb32-4b47-b5fd-8cf679ccd1a2",
+   "name": "Spindrift",
+   "category": "Water",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "6df1b3ed-7cec-402c-9917-02857190d5c4",
+   "name": "Ginger Kevita Kombucha",
+   "category": "Kombucha",
+   "price_cents": 550,
+   "available": true
+  },
+  {
+   "platform_item_id": "724484cd-4130-401a-9ff7-f7b2afa9c798",
+   "name": "Pineapple Peach Kevita Kombucha",
+   "category": "Kombucha",
+   "price_cents": 550,
+   "available": true
+  },
+  {
+   "platform_item_id": "c546ff35-24c5-40c8-a4e6-14e59e9393ee",
+   "name": "Orange Juice",
+   "category": "Juice",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "b3d3e826-502f-4b17-b74c-075ac4b6041a",
+   "name": "San Pellegrino Aranciata",
+   "category": "Soda",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "62a8b958-1a5b-4cba-951c-862664288cd8",
+   "name": "Coke",
+   "category": "Soda",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "7c7922f6-3ff1-445e-81ed-5b5d5ffd8b12",
+   "name": "Diet Coke",
+   "category": "Soda",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "0002c9ac-b93a-4512-81c5-ff44f84c9def",
+   "name": "Sprite",
+   "category": "Soda",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "65313545-4646-4a87-9073-346bcc0935d3",
+   "name": "Root Beer",
+   "category": "Soda",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "32ef2d4e-88de-4370-a30f-66115ef931cd",
+   "name": "Aplos Mandora Negroni",
+   "category": "NA Bevs",
+   "price_cents": 900,
+   "available": true
+  },
+  {
+   "platform_item_id": "dc348e2c-f009-4a1a-b203-b4696533212e",
+   "name": "Aplos Ume Spritz",
+   "category": "NA Bevs",
+   "price_cents": 900,
+   "available": true
+  }
+ ]
+}
