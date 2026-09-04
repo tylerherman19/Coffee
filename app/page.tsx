@@ -4,12 +4,12 @@ export const dynamic = 'force-static';
 
 import nextDynamic from 'next/dynamic';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, Coffee, List, LoaderCircle, Map as MapIcon, Search, SlidersHorizontal, Star, Tag, X } from 'lucide-react';
+import { ArrowLeft, Coffee, List, MapPin, LoaderCircle, Map as MapIcon, Search, SlidersHorizontal, Star, Tag, X } from 'lucide-react';
 import { drinkLabels, loadCoffeeData, platformLabel, shopDrink, type CoffeeData, type Item, type Shop } from '@/lib/coffee-data';
 
 const MapView = nextDynamic(() => import('@/components/coffee-map'), { ssr: false, loading: () => <div className="map-loading"><LoaderCircle aria-hidden="true" /> Loading the map…</div> });
 type Metro = 'milwaukee' | 'twin_cities';
-type View = 'shops' | 'compare' | 'map';
+type View = 'near' | 'shops' | 'compare' | 'map';
 // Chip order for the compare view. Anything the collector produces that is
 // not listed here still appears, after these.
 const drinkOrder = ['latte', 'caramel_latte', 'cold_brew', 'drip', 'cappuccino', 'americano', 'espresso', 'mocha', 'chai', 'tea', 'other'];
@@ -20,6 +20,13 @@ const RENDERED_AT = Date.now();
 const STALE_AFTER_MS = 60 * 864e5;
 const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 const formatPrice = (cents: number | null) => cents == null ? '—' : money.format(cents / 100);
+const MILES_PER_KM = 0.621371;
+function distanceMiles(aLat: number, aLng: number, bLat: number, bLng: number) {
+  const rad = Math.PI / 180; const dLat = (bLat - aLat) * rad; const dLng = (bLng - aLng) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(aLat * rad) * Math.cos(bLat * rad) * Math.sin(dLng / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h)) * MILES_PER_KM;
+}
+const formatMiles = (miles: number) => miles < 0.1 ? `${Math.round(miles * 5280 / 100) * 100} ft` : `${miles.toFixed(1)} mi`;
 
 
 const fold = (value: string) => value.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
@@ -68,7 +75,7 @@ function ShopDetail({ shop, items, onBack }: { shop: Shop; items: Item[]; onBack
   return <main className="detail-shell">
     <button className="back-button" onClick={onBack}><ArrowLeft aria-hidden="true" /> All shops</button>
     <p className="eyebrow">{neighborhood(shop)}</p>
-    <section className="shop-heading"><h1>{shop.name}</h1>{shop.website && <a className="order-link" href={shop.website} target="_blank" rel="noreferrer">Visit shop</a>}</section>
+    <section className="shop-heading"><h1>{shop.name}</h1><span className="detail-actions">{shop.website && <a className="order-link" href={shop.website} target="_blank" rel="noreferrer">Visit shop</a>}{shop.lat != null && shop.lng != null && <a className="order-link ghost" href={`https://maps.apple.com/?daddr=${shop.lat},${shop.lng}`} target="_blank" rel="noreferrer">Directions</a>}</span></section>
     <div className="detail-meta"><Rating value={shop.rating} count={shop.review_count} /><span>{shop.address || 'Address unavailable'}</span><span>{shop.opening_hours || 'Hours unavailable'}</span>{checked ? <span>Menu checked {new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(new Date(checked))}{RENDERED_AT - new Date(checked).getTime() > STALE_AFTER_MS ? ' (stale)' : ''}</span> : null}</div>
     {Object.keys(groups).length === 0 ? <div className="empty"><Coffee aria-hidden="true" /><h2>Menu collection is pending</h2><p>The shop is mapped. Its direct menu source has not been collected yet.</p></div> : Object.entries(groups).map(([group, entries]) => <section className="menu-section" key={group}><h2>{group}</h2>{entries.sort((a, b) => a.name.localeCompare(b.name)).map((item) => <div className="menu-row" key={item.id}><div className="menu-item"><h3>{item.name}</h3><p>{item.size_label || (item.size_oz ? `${item.size_oz} oz` : 'Size not listed')}{item.size_confidence === 'inferred' ? ' · estimated size' : ''}</p></div><span className="leader" aria-hidden="true"></span><div className="menu-price"><strong>{formatPrice(item.current_price_cents)}</strong>{item.current_price_cents && item.size_oz ? <small>{item.size_confidence === 'inferred' ? '~' : ''}{money.format(item.current_price_cents / 100 / item.size_oz)}/oz</small> : null}</div></div>)}</section>)}
     <p className="source-note">Direct-order menu prices only. Item names are shortened when needed; descriptions are not republished.</p>
@@ -81,9 +88,20 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   const [metro, setMetro] = useState<Metro>('milwaukee');
   const [view, setView] = useState<View>(() => {
-    if (typeof window === 'undefined') return 'compare';
+    if (typeof window === 'undefined') return 'near';
     const v = new URLSearchParams(window.location.search).get('view');
-    return v === 'shops' || v === 'map' ? v : 'compare';
+    return v === 'shops' || v === 'map' || v === 'compare' ? v : 'near';
+  });
+  const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(() => {
+    if (typeof window === 'undefined') return null;
+    const ll = new URLSearchParams(window.location.search).get('ll');
+    if (!ll) return null;
+    const [lat, lng] = ll.split(',').map(Number);
+    return Number.isFinite(lat) && Number.isFinite(lng) ? { lat, lng } : null;
+  });
+  const [geoState, setGeoState] = useState<'asking' | 'ok' | 'denied'>(() => {
+    if (typeof window === 'undefined' || !('geolocation' in navigator)) return 'denied';
+    return new URLSearchParams(window.location.search).get('ll') ? 'ok' : 'asking';
   });
   const [query, setQuery] = useState('');
   const [openOnly, setOpenOnly] = useState(false);
@@ -96,6 +114,15 @@ export default function Home() {
   // moment the metro, drink or neighborhood changes - with no extra render.
   const [showAllKey, setShowAllKey] = useState<string | null>(null);
   const scrollRef = useRef(0);
+  useEffect(() => {
+    if (geoState === 'asking' && !coords) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => { setCoords({ lat: position.coords.latitude, lng: position.coords.longitude }); setGeoState('ok'); },
+        () => setGeoState('denied'),
+        { timeout: 10000, maximumAge: 300000 },
+      );
+    }
+  }, [geoState, coords]);
   useEffect(() => {
     loadCoffeeData().then((d) => {
       setData(d);
@@ -111,6 +138,15 @@ export default function Home() {
   const showAll = showAllKey === rankingKey;
   const pricedShopIds = useMemo(() => { const set = new Set<number>(); for (const item of data.items) if (item.current_price_cents != null) set.add(item.shop_id); return set; }, [data.items]);
   const visibleShops = useMemo(() => metroShops.filter((shop) => { const haystack = fold(`${shop.name} ${shop.neighborhood || ''} ${shop.address || ''}`); return haystack.includes(fold(query)) && (!openOnly || isOpenNow(shop.opening_hours) !== false) && (!pricedOnly || pricedShopIds.has(shop.id)) && (!activeHood || shop.neighborhood === activeHood); }), [metroShops, query, openOnly, pricedOnly, pricedShopIds, activeHood]);
+  const nearShops = useMemo(() => {
+    const rows = visibleShops.map((shop) => {
+      const open = isOpenNow(shop.opening_hours);
+      const miles = coords && shop.lat != null && shop.lng != null ? distanceMiles(coords.lat, coords.lng, shop.lat, shop.lng) : null;
+      return { shop, open, miles };
+    });
+    const openRank = (open: boolean | null) => open === true ? 0 : open == null ? 1 : 2;
+    return rows.sort((a, b) => openRank(a.open) - openRank(b.open) || (a.miles ?? Infinity) - (b.miles ?? Infinity) || a.shop.name.localeCompare(b.shop.name));
+  }, [visibleShops, coords]);
   const drinkTypes = useMemo(() => Array.from(new Set(data.items.filter((item) => item.is_drink && item.drink_type).map((item) => item.drink_type as string))).sort((a, b) => { const ai = drinkOrder.indexOf(a); const bi = drinkOrder.indexOf(b); return (ai < 0 ? drinkOrder.length : ai) - (bi < 0 ? drinkOrder.length : bi) || a.localeCompare(b); }), [data.items]);
   const shopsById = useMemo(() => new Map(data.shops.map((shop) => [shop.id, shop])), [data.shops]);
   const comparisons = useMemo(() => data.items.filter((item) => item.drink_type === drink && item.current_price_cents != null && item.current_price_cents > 0).map((item) => ({ item, shop: shopsById.get(item.shop_id), price: item.current_price_cents as number })).filter((entry): entry is { item: Item; shop: Shop; price: number } => Boolean(entry.shop && entry.shop.metro === metro && (!activeHood || entry.shop.neighborhood === activeHood))).sort((a, b) => a.price - b.price), [data.items, shopsById, drink, metro, activeHood]);
@@ -129,18 +165,24 @@ export default function Home() {
   return <div className="site-shell">
     <header className="masthead">
       <div className="masthead-top">
-        <button className="wordmark" onClick={() => setView('compare')} aria-label="Coffee Prices home"><Coffee aria-hidden="true" /><span>Coffee Prices</span></button>
+        <button className="wordmark" onClick={() => setView('near')} aria-label="Coffee Prices home"><Coffee aria-hidden="true" /><span>Coffee Prices</span></button>
         <div className="masthead-tools">
           <div className="metro-toggle" aria-label="Choose a metro"><button className={metro === 'milwaukee' ? 'active' : ''} onClick={() => setMetro('milwaukee')}>Milwaukee</button><button className={metro === 'twin_cities' ? 'active' : ''} onClick={() => setMetro('twin_cities')}>Twin Cities</button></div>
           <button className={pricedOnly ? 'prices-toggle active' : 'prices-toggle'} aria-pressed={pricedOnly} onClick={() => setPricedOnly(!pricedOnly)}><Tag aria-hidden="true" /> Has prices</button>
         </div>
       </div>
       <nav className="tab-strip" aria-label="Main navigation">
+        <button className={view === 'near' ? 'active' : ''} onClick={() => setView('near')}>Near you</button>
         <button className={view === 'compare' ? 'active' : ''} onClick={() => setView('compare')}>Compare</button>
         <button className={view === 'shops' ? 'active' : ''} onClick={() => setView('shops')}>Shops</button>
         <button className={view === 'map' ? 'active' : ''} onClick={() => setView('map')}>Map</button>
       </nav>
     </header>
+    {view === 'near' && <main className="content-shell">
+      <section className="menu-title"><p className="eyebrow">{coords ? 'Sorted by distance from you' : 'Shops with real menu prices'}</p><div className="menu-title-row"><h1>Coffee near you</h1><span>{loading ? 'Pulling menus…' : `${nearShops.length} shops`}</span></div></section>
+      <div className="controls">{geoState === 'denied' && <button className="filter-button" onClick={() => setGeoState('asking')}><MapPin aria-hidden="true" /> Use my location</button>}{geoState === 'asking' && !coords && <p className="fine-print">Finding you…</p>}{geoState === 'denied' && <p className="fine-print">Location is off, so this list is alphabetical. Turn it on for real distances.</p>}{!coords && hoods.length > 1 && <select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All neighborhoods</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select>}</div>
+      {loading ? <div className="loading-list"><LoaderCircle aria-hidden="true" /> Pulling the latest menus…</div> : error ? <div className="error-state">{error}</div> : <div className="rank-list">{nearShops.slice(0, 75).map(({ shop, open, miles }, index) => { const menu = data.items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null); const drink = shopDrink(menu); return <div className="near-row" key={shop.id}><button className="near-open" onClick={() => { scrollRef.current = window.scrollY; setSelectedShop(shop); }}><span className="rank-number">{index + 1}</span><span className="rank-main"><strong>{shop.name}</strong><small>{miles != null ? `${formatMiles(miles)} · ` : ''}{open === true ? 'Open now' : open === false ? 'Closed' : 'Hours unlisted'} · {neighborhood(shop)}</small><Rating value={shop.rating} count={shop.review_count} /></span><span className="leader" aria-hidden="true"></span><span className="rank-price"><strong>{formatPrice(drink.price)}</strong><small>{drink.price != null ? drink.label : 'no prices yet'}</small></span></button>{shop.lat != null && shop.lng != null && <a className="dir-link" href={`https://maps.apple.com/?daddr=${shop.lat},${shop.lng}`} target="_blank" rel="noreferrer" aria-label={`Directions to ${shop.name}`}><MapPin aria-hidden="true" /><span>Go</span></a>}</div>; })}</div>}
+    </main>}
     {view === 'compare' && <main className="content-shell">
       <section className="menu-title"><p className="eyebrow">Same drink, fair comparison</p><div className="menu-title-row"><h1>{drinkLabels[drink] || drink.replaceAll('_', ' ')}</h1><span>{loading ? 'Pulling menus…' : `${ranked.length} prices · ${metro === 'milwaukee' ? 'Milwaukee' : 'Twin Cities'}`}</span></div></section>
       <div className="drink-scroll" aria-label="Drink type">{(drinkTypes.length ? drinkTypes : ['latte', 'caramel_latte', 'cappuccino', 'espresso', 'drip', 'cold_brew']).map((type) => <button key={type} className={drink === type ? 'active' : ''} onClick={() => setDrink(type)}>{drinkLabels[type] || type.replaceAll('_', ' ')}</button>)}</div>
@@ -158,6 +200,6 @@ export default function Home() {
       {hoods.length > 1 && <select className="hood-select map-hood" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All neighborhoods</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select>}
       <MapView shops={visibleShops} items={data.items} metro={metro} onOpen={setSelectedShop} />
     </main>}
-    <nav className="mobile-nav" aria-label="Main navigation"><button className={view === 'compare' ? 'active' : ''} onClick={() => setView('compare')}><Coffee aria-hidden="true" /><span>Compare</span></button><button className={view === 'shops' ? 'active' : ''} onClick={() => setView('shops')}><List aria-hidden="true" /><span>Shops</span></button><button className={view === 'map' ? 'active' : ''} onClick={() => setView('map')}><MapIcon aria-hidden="true" /><span>Map</span></button></nav>
+    <nav className="mobile-nav" aria-label="Main navigation"><button className={view === 'near' ? 'active' : ''} onClick={() => setView('near')}><MapPin aria-hidden="true" /><span>Near</span></button><button className={view === 'compare' ? 'active' : ''} onClick={() => setView('compare')}><Coffee aria-hidden="true" /><span>Compare</span></button><button className={view === 'shops' ? 'active' : ''} onClick={() => setView('shops')}><List aria-hidden="true" /><span>Shops</span></button><button className={view === 'map' ? 'active' : ''} onClick={() => setView('map')}><MapIcon aria-hidden="true" /><span>Map</span></button></nav>
   </div>;
 }
