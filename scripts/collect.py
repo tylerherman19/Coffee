@@ -269,8 +269,19 @@ DRINK_KINDS = [
 BROAD_KINDS = {"drip"}
 
 
+# Food/retail categories are never drinks, whatever the item name contains
+# (e.g. "Vanilla Mocha Cake" in Bakery is not a mocha).
+NON_DRINK_CATEGORY = re.compile(
+    r"\b(bakery|pastry|pastries|food|breakfast|sandwich|sandwiches|salad|salads|"
+    r"cake|cakes|dessert|desserts|pizza|soup|wrap|wraps|kitchen|retail|beans|merch|merchandise)\b",
+    re.I,
+)
+
+
 def classify_name(name: str, category: str | None = None) -> tuple[bool, str | None]:
     text = f"{name} {category or ''}".lower()
+    if category and NON_DRINK_CATEGORY.search(category):
+        return False, None
     if RETAIL_PACKAGING.search(text):
         return False, None
     if BLENDED.search(text):
@@ -282,7 +293,7 @@ def classify_name(name: str, category: str | None = None) -> tuple[bool, str | N
             return True, kind
     if FOOD_ITEM.search(text):
         return False, None
-    is_drink = bool(re.search(r"coffee|drink|beverage|iced|hot|lemonade|smoothie", text))
+    is_drink = bool(re.search(r"\b(coffees?|drinks?|beverages?|iced|lemonades?|smoothies?|juices?|refreshers?|frappes?|sodas?|cocoa|coco|cider|hot chocolate)\b", text))
     return is_drink, "other" if is_drink else None
 
 
