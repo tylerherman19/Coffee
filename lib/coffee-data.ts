@@ -9,18 +9,39 @@ const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_
 // Content-Range header, so a plain fetch silently truncated the menu. Page
 // through with Range until a short page arrives.
 const PAGE_SIZE = 1000;
+const PARALLEL = 12;
+async function fetchPage<T>(path: string, from: number): Promise<{ rows: T[]; total: number | null }> {
+  const response = await fetch(`${url}/rest/v1/${path}`, {
+    headers: { apikey: key, Authorization: `Bearer ${key}`, 'Accept-Profile': 'coffee', 'Range-Unit': 'items', Range: `${from}-${from + PAGE_SIZE - 1}`, Prefer: 'count=exact' },
+    cache: 'no-store',
+  });
+  if (!response.ok) throw new Error(`Coffee data request failed: ${response.status}`);
+  const rows = (await response.json()) as T[];
+  const range = response.headers.get('content-range') || '';
+  const total = range.includes('/') && !range.endsWith('/*') ? Number(range.split('/')[1]) : null;
+  return { rows, total };
+}
 async function table<T>(path: string): Promise<T[]> {
-  const rows: T[] = [];
-  for (let from = 0; ; from += PAGE_SIZE) {
-    const response = await fetch(`${url}/rest/v1/${path}`, {
-      headers: { apikey: key, Authorization: `Bearer ${key}`, 'Accept-Profile': 'coffee', 'Range-Unit': 'items', Range: `${from}-${from + PAGE_SIZE - 1}` },
-      cache: 'no-store',
-    });
-    if (!response.ok) throw new Error(`Coffee data request failed: ${response.status}`);
-    const page = (await response.json()) as T[];
-    rows.push(...page);
-    if (page.length < PAGE_SIZE) return rows;
+  const first = await fetchPage<T>(path, 0);
+  if (first.rows.length < PAGE_SIZE) return first.rows;
+  if (first.total === null) {
+    // No total advertised: fall back to sequential paging until a short page.
+    const rows = [...first.rows];
+    for (let from = PAGE_SIZE; ; from += PAGE_SIZE) {
+      const page = await fetchPage<T>(path, from);
+      rows.push(...page.rows);
+      if (page.rows.length < PAGE_SIZE) return rows;
+    }
   }
+  const pages = Math.ceil(first.total / PAGE_SIZE);
+  const rows = [...first.rows];
+  for (let start = 1; start < pages; start += PARALLEL) {
+    const batch = await Promise.all(
+      Array.from({ length: Math.min(PARALLEL, pages - start) }, (_, i) => fetchPage<T>(path, (start + i) * PAGE_SIZE)),
+    );
+    for (const page of batch) rows.push(...page.rows);
+  }
+  return rows;
 }
 export async function loadCoffeeData(): Promise<CoffeeData> {
   const [shopsRaw, items, ratings, modifiers, changes] = await Promise.all([
