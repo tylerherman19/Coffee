@@ -83,7 +83,7 @@ export default function Home() {
   const visibleShops = metroShops.filter((shop) => { const haystack = `${shop.name} ${shop.neighborhood || ''} ${shop.address || ''}`.toLowerCase(); return haystack.includes(query.toLowerCase()) && (!openOnly || isOpenNow(shop.opening_hours) === true); });
   const drinkTypes = Array.from(new Set(data.items.filter((item) => item.is_drink && item.drink_type).map((item) => item.drink_type as string)));
   const oatByItem = new Map<number, number>();
-  for (const modifier of data.modifiers) if (/oat/i.test(modifier.name) && !oatByItem.has(modifier.item_id)) oatByItem.set(modifier.item_id, modifier.price_delta_cents);
+  for (const modifier of data.modifiers) if (/oat/i.test(modifier.choice_name || '') && !oatByItem.has(modifier.item_id)) oatByItem.set(modifier.item_id, modifier.price_delta_cents);
   const baseDrink = drink === 'oat_latte' ? 'latte' : drink;
   const comparisons = data.items.filter((item) => item.drink_type === baseDrink && item.current_price_cents != null && (drink !== 'oat_latte' || oatByItem.has(item.id))).map((item) => ({ item, shop: data.shops.find((shop) => shop.id === item.shop_id), price: (item.current_price_cents as number) + (drink === 'oat_latte' ? oatByItem.get(item.id) || 0 : 0) })).filter((entry): entry is { item: Item; shop: Shop; price: number } => Boolean(entry.shop && entry.shop.metro === metro)).sort((a, b) => a.price - b.price);
   if (selectedShop) return <ShopDetail shop={selectedShop} items={data.items} onBack={() => setSelectedShop(null)} />;

@@ -348,9 +348,9 @@ def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: 
         else:
             db.patch("items", f"id=eq.{item['id']}", {"last_checked_at": now, "last_seen": dt.date.today().isoformat()})
         if platform == "square":
-            prior = db.get("modifiers", {"select": "name,price_delta_cents", "item_id": f"eq.{item['id']}", "order": "observed_at.desc", "limit": "100"})
-            latest = {(row["name"], row["price_delta_cents"]) for row in prior}
-            additions = [{"item_id": item["id"], "name": name, "price_delta_cents": cents, "observed_at": now} for name, cents in square_modifiers(entry.raw) if (name, cents) not in latest]
+            prior = db.get("modifiers", {"select": "group_name,choice_name,price_delta_cents", "item_id": f"eq.{item['id']}", "order": "observed_at.desc", "limit": "100"})
+            latest = {(row["choice_name"], row["price_delta_cents"]) for row in prior}
+            additions = [{"item_id": item["id"], "choice_name": name, "price_delta_cents": cents, "observed_at": now} for name, cents in square_modifiers(entry.raw) if (name, cents) not in latest]
             if additions:
                 db.post("modifiers", additions)
     for item in existing:

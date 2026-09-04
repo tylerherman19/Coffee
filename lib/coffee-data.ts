@@ -1,6 +1,6 @@
 export type Shop = { id: number; name: string; metro: 'milwaukee' | 'twin_cities'; address: string | null; neighborhood: string | null; lat: number | null; lng: number | null; website: string | null; platform: string | null; opening_hours: string | null; rating: number | null; review_count: number | null };
 export type Item = { id: number; shop_id: number; name: string; category: string | null; is_drink: boolean; drink_type: string | null; size_label: string | null; size_oz: number | null; size_confidence: 'explicit' | 'inferred' | 'none' | null; current_price_cents: number | null; last_checked_at: string | null };
-export type Modifier = { id: number; item_id: number; name: string; price_delta_cents: number; observed_at: string };
+export type Modifier = { id: number; item_id: number; choice_name: string | null; price_delta_cents: number; observed_at: string };
 export type PriceChange = { id: number; item_id: number; changed_at: string; old_price_cents: number | null; new_price_cents: number; pct_change: number | null; change_type: string };
 export type CoffeeData = { shops: Shop[]; items: Item[]; modifiers: Modifier[]; changes: PriceChange[]; loadedAt: string | null };
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://fptyiklgiagjegufexvq.supabase.co';
@@ -11,7 +11,7 @@ export async function loadCoffeeData(): Promise<CoffeeData> {
     table<Omit<Shop, 'rating' | 'review_count'>>('shops?select=id,name,metro,address,neighborhood,lat,lng,website,platform,opening_hours&closed_at=is.null&order=name'),
     table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=name'),
     table<{ shop_id: number; rating: number | null; review_count: number | null; observed_at: string }>('ratings?select=shop_id,rating,review_count,observed_at&order=observed_at.desc'),
-    table<Modifier>('modifiers?select=id,item_id,name,price_delta_cents,observed_at&order=observed_at.desc&limit=2000'),
+    table<Modifier>('modifiers?select=id,item_id,choice_name,price_delta_cents,observed_at&order=observed_at.desc&limit=2000'),
     table<PriceChange>('price_changes?select=id,item_id,changed_at,old_price_cents,new_price_cents,pct_change,change_type&order=changed_at.desc&limit=250'),
   ]);
   const latestRating = new Map<number, { rating: number | null; review_count: number | null }>();
