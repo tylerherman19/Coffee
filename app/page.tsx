@@ -112,7 +112,7 @@ export default function Home() {
   });
   const [query, setQuery] = useState('');
   const [openOnly, setOpenOnly] = useState(false);
-  const [pricedOnly, setPricedOnly] = useState(true);
+  const [pricedOnly, setPricedOnly] = useState(() => !(typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('prices') === 'off'));
   const [hood, setHood] = useState('');
   const [selectedShop, setSelectedShop] = useState<Shop | null>(null);
   const [drink, setDrink] = useState('latte');
