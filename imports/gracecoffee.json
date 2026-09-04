@@ -1,0 +1,7077 @@
+{
+ "platform": "dripos",
+ "source_url": "https://order.dripos.com/Grace-Coffee-Co./",
+ "shops": [
+  {
+   "id": 114,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "520629",
+   "name": "Ube Latte",
+   "category": "Summer Specials",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": "A creamy latte with subtle ube sweetness and warm vanilla notes for a smooth, cozy drink. Served hot or iced! \n(pronounced ooh-bay)"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz.  | 24oz. (iced only)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "520630",
+   "name": "Guava Matcha Lemonade",
+   "category": "Summer Specials",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": "Earthy matcha and tart lemonade combined with sweet tropical guava for a smooth, refreshing summer sip."
+   },
+   "modifiers": [
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "520631",
+   "name": "Reese's PB Cup Overnight Oats",
+   "category": "Summer Specials",
+   "price_cents": 825,
+   "price_low_cents": 825,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "description": "Creamy peanut butter overnight oats topped with rich chocolate mousse and Reese's bits. \n\n*contains egg, milk, peanut*"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "520632",
+   "name": "Summer Lemon Parfait",
+   "category": "Summer Specials",
+   "price_cents": 825,
+   "price_low_cents": 825,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "description": "A zesty lemon treat with a graham cracker crust, layers of vanilla Greek yogurt and lemon curd, topped with our house-made granola. \n*contains egg, milk, wheat*"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "520633",
+   "name": "Pistachio Sweet Cream Cold Brew",
+   "category": "Summer Specials",
+   "price_cents": 625,
+   "price_low_cents": 625,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "Cold brew infused with pistachio and a touch of hazelnut, finished with a velvety sweet cream topping. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "12oz. | 16oz. | 24oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "520634",
+   "name": "Prickly Pear Sparkling Lemonade",
+   "category": "Summer Specials",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Sparkling lemonade infused with sweet prickly pear for a crisp, fruity, summertime refreshment. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "520635",
+   "name": "Dirty Cola",
+   "category": "Summer Specials",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "Your choice of Coke or Diet Coke with a touch of vanilla and a splash of cream. Tastes like nostalgia! \nAdd sweet cream $1. \nMake it \"Filthy\" by adding espresso! $1"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "12oz.  | 16oz. | 24oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Make it Filthy! (2 shots of espresso)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204973",
+   "name": "Mocha",
+   "category": "Espresso",
+   "price_cents": 470,
+   "price_low_cents": 470,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Two shots of espresso mixed with delicious Monin chocolate and topped with creamy steamed milk. Available iced and in various mocha flavor combinations.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Black and White Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Caramel White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Raspberry Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Raspberry White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Hazelnut Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Hazelnut White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Strawberry Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Strawberry White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Lavender White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Peppermint Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Peppermint White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204972",
+   "name": "Miel Latte",
+   "category": "Espresso",
+   "price_cents": 455,
+   "price_low_cents": 455,
+   "price_high_cents": 585,
+   "available": true,
+   "raw": {
+    "description": "Two shots of espresso mixed with honey and cinnamon and topped with creamy steamed milk. Try it iced. \u201cMiel\u201d means honey in Spanish, Italian, and French!\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204963",
+   "name": "Americano",
+   "category": "Espresso",
+   "price_cents": 385,
+   "price_low_cents": 385,
+   "price_high_cents": 385,
+   "available": true,
+   "raw": {
+    "description": "Two shots of espresso topped with hot water. Try it iced, with milk, or with a flavor."
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204964",
+   "name": "Au Lait",
+   "category": "Espresso",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Our house-roasted coffee topped with creamy steamed milk. Au Lait means \u201cwith milk\u201d in French."
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204965",
+   "name": "Cappuccino (6oz)",
+   "category": "Espresso",
+   "price_cents": 435,
+   "price_low_cents": 435,
+   "price_high_cents": 435,
+   "available": true,
+   "raw": {
+    "description": "Two shots of espresso topped with 4oz. of creamy, foamy steamed milk. This 6oz. beverage is a nod to traditional-style cappuccinos that originated in Italy."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Breve (1/2 & 1/2)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204968",
+   "name": "Drip Coffee",
+   "category": "Espresso",
+   "price_cents": 320,
+   "price_low_cents": 320,
+   "price_high_cents": 420,
+   "available": true,
+   "raw": {
+    "description": "Our freshly brewed house-roasted coffee. Try it black or with milk.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz.  | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204967",
+   "name": "Cortado",
+   "category": "Espresso",
+   "price_cents": 415,
+   "price_low_cents": 415,
+   "price_high_cents": 415,
+   "available": true,
+   "raw": {
+    "description": "Two shots of espresso topped with 2oz. of creamy steamed milk. Cortados are Spanish in origin and roughly translates to \u201ccut\u201d \u2013 espresso that is cut with milk.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Breve (1/2 & 1/2)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204966",
+   "name": "Cold Brew",
+   "category": "Espresso",
+   "price_cents": 465,
+   "price_low_cents": 465,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Our award-winning cold brew is made in house using a 24-hour steeping method and served over ice. Try it black or with milk.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204970",
+   "name": "Latte",
+   "category": "Espresso",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": "Two shots of espresso topped with creamy steamed milk. Try it iced or with flavor."
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205059",
+   "name": "XL Iced Latte",
+   "category": "24oz. Iced Drinks",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "4 shots of espresso over ice and mixed with milk. Try it with a flavor.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Shot (5 total)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Double Shot (6 total)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205060",
+   "name": "XL Iced Chai",
+   "category": "24oz. Iced Drinks",
+   "price_cents": 685,
+   "price_low_cents": 685,
+   "price_high_cents": 685,
+   "available": true,
+   "raw": {
+    "description": "24 oz. of masala chai mixed with milk and served over ice.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205061",
+   "name": "XL Cold Brew",
+   "category": "24oz. Iced Drinks",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "24 oz. of our award-winning cold brew served over ice. Try it black or with milk.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205062",
+   "name": "XL Iced Matcha",
+   "category": "24oz. Iced Drinks",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Art of Tea green tea matcha powder mixed with house-made vanilla flavoring and milk, served over ice. \n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205063",
+   "name": "XL Iced Americano",
+   "category": "24oz. Iced Drinks",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "4 shots of espresso with water and served over ice. Try it black or with milk.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Shot (5 total)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Double Shot (6 total)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205064",
+   "name": "XL Iced Mocha",
+   "category": "24oz. Iced Drinks",
+   "price_cents": 685,
+   "price_low_cents": 685,
+   "price_high_cents": 685,
+   "available": true,
+   "raw": {
+    "description": "4 shots of espresso with Monin dark chocolate and milk, served over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Shot (5 total)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Double Shot (6 total)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Black and White Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Caramel White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Raspberry Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Raspberry White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Hazelnut Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Hazelnut White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Strawberry Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Strawberry White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Lavender White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Peppermint Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Peppermint White Choc. Mocha",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205065",
+   "name": "XL Iced Miel",
+   "category": "24oz. Iced Drinks",
+   "price_cents": 655,
+   "price_low_cents": 655,
+   "price_high_cents": 655,
+   "available": true,
+   "raw": {
+    "description": "4 shots of espresso with honey, cinnamon, and milk served over ice. \n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Shot (5 total)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Double Shot (6 total)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205751",
+   "name": "Boxed Water",
+   "category": "Other Cafe Drinks",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205752",
+   "name": "Peace Tea",
+   "category": "Other Cafe Drinks",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205733",
+   "name": "Matcha Latte",
+   "category": "Other Cafe Drinks",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "Art of Tea green tea matcha powder topped with house-made vanilla flavoring and creamy steamed milk. Try it iced.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205734",
+   "name": "Chai Tea Latte",
+   "category": "Other Cafe Drinks",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 585,
+   "available": true,
+   "raw": {
+    "description": "Masala chai (a black tea infused with sugar, spices, and herbs) topped with creamy steamed milk. Try it iced. Masala chai originates from India. \n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Caramel White Chocolate Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "French Vanilla (Hazelnut Vanilla)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Honey Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "Pistachio (w/ hazelnut)",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "SF Vanilla & SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Combos",
+     "choice_name": "White Chocolate Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205735",
+   "name": "London Fog",
+   "category": "Other Cafe Drinks",
+   "price_cents": 590,
+   "price_low_cents": 590,
+   "price_high_cents": 590,
+   "available": true,
+   "raw": {
+    "description": "Art of Tea Earl Grey Cr\u00e9me tea infused with house-made vanilla flavoring and creamy steamed milk. The London Fog does not originate from the UK, as most people assume, but instead hails from Canada. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205736",
+   "name": "Hot Chocolate",
+   "category": "Other Cafe Drinks",
+   "price_cents": 415,
+   "price_low_cents": 415,
+   "price_high_cents": 515,
+   "available": true,
+   "raw": {
+    "description": "Rich and delicious Monin chocolate topped with creamy steamed milk. Try it with whipped cream. Let us know if this is for a kiddo (or a sensitive palate) and we will prepare it at a kid-friendly tempe"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Black and White Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Caramel Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Caramel White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Raspberry Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Raspberry White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Hazelnut Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Hazelnut White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Strawberry Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Strawberry White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Lavender Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Lavender White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Peppermint Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Mocha Flavor Combinations",
+     "choice_name": "Peppermint White Choc. Mocha",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205737",
+   "name": "Organic Loose Leaf Tea",
+   "category": "Other Cafe Drinks",
+   "price_cents": 435,
+   "price_low_cents": 435,
+   "price_high_cents": 435,
+   "available": true,
+   "raw": {
+    "description": "Art of Tea hails from California and is some of the best out there. Try it hot or iced and with honey. \n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Tea Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Honey",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Lavender",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 80
+    },
+    {
+     "group_name": "Flavor Options",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 80
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205739",
+   "name": "Italian Soda",
+   "category": "Other Cafe Drinks",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "A delicious take on a homemade soda; syrup flavor of choice topped with soda water. A popular treat for all ages. Try it with cream.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Cream",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Cream & Whipped Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205740",
+   "name": "Red Bull Italian Soda",
+   "category": "Other Cafe Drinks",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "A take on the classic Italian soda with a Redbull twist. For those of us that need a little extra boost for the day. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Cream",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Cream & Whipped Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205742",
+   "name": "Kids Milk (12oz.)",
+   "category": "Other Cafe Drinks",
+   "price_cents": 340,
+   "price_low_cents": 340,
+   "price_high_cents": 340,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Kid Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Kid Milk Options",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Kid Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Kid Milk Options",
+     "choice_name": "Chocolate Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "205744",
+   "name": "Red Bull",
+   "category": "Other Cafe Drinks",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205749",
+   "name": "Bubbl'r",
+   "category": "Other Cafe Drinks",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 395,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205754",
+   "name": "Calypso Lemonade (variety of flavors)",
+   "category": "Other Cafe Drinks",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205755",
+   "name": "Fountain Soda",
+   "category": "Other Cafe Drinks",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "12oz. | 16oz. | 24oz. ",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "380264",
+   "name": "RMBR Kombucha",
+   "category": "Other Cafe Drinks",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "409864",
+   "name": "Lil' Fizz",
+   "category": "Other Cafe Drinks",
+   "price_cents": 415,
+   "price_low_cents": 415,
+   "price_high_cents": 415,
+   "available": true,
+   "raw": {
+    "description": "Our classic Italian Soda, but mini-sized for the littles! Comes with your flavor of choice with the option of adding cream. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Cream",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Cream & Whipped Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Italian Cream Soda Modifiers",
+     "choice_name": "Add Almond Milk",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "409866",
+   "name": "Celsius",
+   "category": "Other Cafe Drinks",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "425442",
+   "name": "Humankind Juice (Apple & Orange)",
+   "category": "Other Cafe Drinks",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "10oz. glass bottle - 100% pure orange and apple juices, meaning no added sugar, artificial flavors, colors, or preservatives. For every bottle sold, Humankind helps to provide 50 gallons of clean drin"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "475923",
+   "name": "Steamer",
+   "category": "Other Cafe Drinks",
+   "price_cents": 340,
+   "price_low_cents": 340,
+   "price_high_cents": 440,
+   "available": true,
+   "raw": {
+    "description": "Creamy steamed milk infused with your syrup flavor of choice. A wonderful alternative for those non-caffeinated drinkers out there. Let us know if this is for a kiddo (or a sensitive palate) and we wi"
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz.  | 12oz. | 16oz.",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "204999",
+   "name": "Plain Butter Croissant",
+   "category": "Bakery",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "204996",
+   "name": "Chocolate Croissant",
+   "category": "Bakery",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "204998",
+   "name": "Ham & Cheese Croissant",
+   "category": "Bakery",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "204997",
+   "name": "Everything Croissant",
+   "category": "Bakery",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "204994",
+   "name": "Almond Croissant",
+   "category": "Bakery",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205005",
+   "name": "Mixed Berry Danish",
+   "category": "Bakery",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205006",
+   "name": "Raspberry Danish",
+   "category": "Bakery",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205007",
+   "name": "Blueberry Scone",
+   "category": "Bakery",
+   "price_cents": 535,
+   "price_low_cents": 535,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205008",
+   "name": "Chocolate Chip Espresso Scone",
+   "category": "Bakery",
+   "price_cents": 535,
+   "price_low_cents": 535,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205017",
+   "name": "Banana Bread",
+   "category": "Bakery",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205010",
+   "name": "Black Bottom Muffin",
+   "category": "Bakery",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205011",
+   "name": "Blueberry Muffin",
+   "category": "Bakery",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205013",
+   "name": "Chocolate Chip Cookie",
+   "category": "Bakery",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205014",
+   "name": "M&M Cookie",
+   "category": "Bakery",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205021",
+   "name": "Giant Rice Krispie (Rotating Varieties)",
+   "category": "Bakery",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "204995",
+   "name": "Chocolate Almond Croissant",
+   "category": "Bakery",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "205026",
+   "name": "Regular Cinnamon Roll",
+   "category": "Bakery",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "289507",
+   "name": "Macaron - Single (Assorted Flavors)",
+   "category": "Bakery",
+   "price_cents": 295,
+   "price_low_cents": 295,
+   "price_high_cents": 295,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "406785",
+   "name": "Glazed Lemon Loaf",
+   "category": "Bakery",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "484311",
+   "name": "Cinnamon Apple Danish",
+   "category": "Bakery",
+   "price_cents": 535,
+   "price_low_cents": 535,
+   "price_high_cents": 535,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "405496",
+   "name": "Breakfast Sandwich",
+   "category": "Brunch Menu",
+   "price_cents": 1325,
+   "price_low_cents": 1325,
+   "price_high_cents": 1325,
+   "available": true,
+   "raw": {
+    "description": "Scrambled eggs, provolone cheese, garlic aioli, and arugula on a brioche bun. Choice of bacon, sausage, smoked ham, or veggie medley. Served with a side of fresh greens, roasted red potatoes, or chees"
+   },
+   "modifiers": [
+    {
+     "group_name": "Side of Chipotle Aioli",
+     "choice_name": "Add Side of Chipotle Aioli",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Bacon (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Sausage (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Oven Roasted Turkey (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Vegetable Medley (+$1.50)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405497",
+   "name": "Breakfast Wrap",
+   "category": "Brunch Menu",
+   "price_cents": 1350,
+   "price_low_cents": 1350,
+   "price_high_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "Eggs, shredded cheddar cheese, hashbrowns, and sour cream tucked in a flour tortilla - with your choice of bacon, chorizo, or veggie medley. Served with a side of fresh greens, roasted red potatoes, o"
+   },
+   "modifiers": [
+    {
+     "group_name": "Side of Chipotle Aioli",
+     "choice_name": "Add Side of Chipotle Aioli",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Bacon (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Chorizo (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Veggie Medley (+$1.50)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405498",
+   "name": "Everything Croissant Sandwich",
+   "category": "Brunch Menu",
+   "price_cents": 1450,
+   "price_low_cents": 1450,
+   "price_high_cents": 1450,
+   "available": true,
+   "raw": {
+    "description": "Scrambled eggs, provolone cheese, garlic aioli, and arugula on an everything croissant. Choice of bacon, sausage, oven roasted turkey, or veggie medley. Served with a side of fresh greens, roasted red"
+   },
+   "modifiers": [
+    {
+     "group_name": "Side of Chipotle Aioli",
+     "choice_name": "Add Side of Chipotle Aioli",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Bacon (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Sausage (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Oven Roasted Turkey (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Veggie Medley (+$1.50)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405499",
+   "name": "Bagel Breakfast Sandwich",
+   "category": "Brunch Menu",
+   "price_cents": 1350,
+   "price_low_cents": 1350,
+   "price_high_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "Scrambled eggs, garlic aioli, and provolone cheese on a warm, toasty plain bagel. Choice of bacon, sausage, oven roasted turkey, or veggie medley. Served with your choice of fresh greens, roasted red "
+   },
+   "modifiers": [
+    {
+     "group_name": "Side of Chipotle Aioli",
+     "choice_name": "Add Side of Chipotle Aioli",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Bacon (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Sausage (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Oven Roasted Turkey (+$2.50)",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Additional Protein",
+     "choice_name": "Add Veggie Medley (+$1.50)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405500",
+   "name": "Avocado Toast",
+   "category": "Brunch Menu",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Thick-cut sourdough, avocado (contains onion & tomato), balsamic glaze, sesame seeds, and microgreens. Served with a side of fresh greens. Try it with eggs! "
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Easy",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Scrambled",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Hard",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Red Potatoes",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Cheesy Hashbrown Bites",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405501",
+   "name": "Everything Avocado Toast",
+   "category": "Brunch Menu",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Thick-cut sourdough, cream cheese, avocado (contains onion & tomato), everything bagel seasoning, and microgreens served with a side of fresh greens. Try it with eggs! "
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Easy",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Scrambled",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Hard",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Red Potatoes",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Cheesy Hashbrown Bites",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405502",
+   "name": "Street Corn Avocado Toast",
+   "category": "Brunch Menu",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Thick-cut sourdough, avocado (contains onion & tomato), grilled sweet corn, queso fresco, tajin, and microgreens. Served with a side of fresh greens. Try it with eggs! "
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Easy",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Scrambled",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Hard",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Red Potatoes",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Cheesy Hashbrown Bites",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405503",
+   "name": "Smoked Salmon Avocado Toast",
+   "category": "Brunch Menu",
+   "price_cents": 1450,
+   "price_low_cents": 1450,
+   "price_high_cents": 1450,
+   "available": true,
+   "raw": {
+    "description": "Thick-cut sourdough, cream cheese, avocado (contains onion & tomato), smoked salmon, sesame seeds, and microgreens. Served with a side of fresh greens. Try it with eggs!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Easy",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Scrambled",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Hard",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Red Potatoes",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Cheesy Hashbrown Bites",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405504",
+   "name": "Bacon & Feta Avocado Toast",
+   "category": "Brunch Menu",
+   "price_cents": 1350,
+   "price_low_cents": 1350,
+   "price_high_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "Thick-cut sourdough, whipped feta, avocado (contains onion and tomato), crumbled bacon, and microgreens. Served with a side of fresh greens. Try it with eggs!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Easy",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Scrambled",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Hard",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Red Potatoes",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Cheesy Hashbrown Bites",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405505",
+   "name": "Lox Bagel",
+   "category": "Brunch Menu",
+   "price_cents": 1450,
+   "price_low_cents": 1450,
+   "price_high_cents": 1450,
+   "available": true,
+   "raw": {
+    "description": "Smoked salmon, cream cheese, pickled red onion, capers, and microgreens on a warm toasty bagel. Served with a side of fresh greens."
+   },
+   "modifiers": [
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Red Potatoes",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Cheesy Hashbrown Bites",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Easy",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Scrambled",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Hard",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405506",
+   "name": "Birria Breakfast Tacos",
+   "category": "Brunch Menu",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Two corn tortillas filled with scrambled eggs, shredded birria beef, guacamole, and pickled red onions. Served with a side of fresh greens. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Red Potatoes",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Brunch Side Substitutes",
+     "choice_name": "Cheesy Hashbrown Bites",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405507",
+   "name": "American Breakfast",
+   "category": "Brunch Menu",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Two eggs (scrambled or over-easy), bacon or sausage links, sourdough toast, and a choice of roasted red potatoes or cheesy hashbrown bites. Substitute toast for buttermilk pancake for $1.00!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Eggs",
+     "choice_name": "Scrambled w/ Cheese",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Substitute Toast for Pancake",
+     "choice_name": "Substitute Toast for 1 Buttermilk Pancake",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405508",
+   "name": "Berry French Toast",
+   "category": "Brunch Menu",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Thick-cut house-made brioche, fresh berries, powdered sugar, and maple syrup. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Side of Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405509",
+   "name": "Peanut Butter & Jelly French Toast",
+   "category": "Brunch Menu",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Thick-cut house made brioche, peanut butter, berry compote, maple syrup, and powdered sugar."
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Side of Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405510",
+   "name": "Buttermilk Pancakes",
+   "category": "Brunch Menu",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Three fluffy pancakes served with maple syrup, butter, and powdered sugar. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Side of Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405511",
+   "name": "Peanut Butter & Banana Pancakes",
+   "category": "Brunch Menu",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Three fluffy pancakes topped with banana and drizzled with creamy peanut butter. Served with a side of maple syrup."
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Side of Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405512",
+   "name": "Strawberry Nutella Pancakes",
+   "category": "Brunch Menu",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Three fluffy pancakes topped with Nutella drizzle and fresh strawberries. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Nutella (on the side)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Side of Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405513",
+   "name": "Acai Bowl",
+   "category": "Brunch Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 1275,
+   "available": true,
+   "raw": {
+    "description": "Topped with fresh berries, banana, our house-made granola, coconut, sweetened condensed milk, and honey. Try it traditional (as is) or add a drizzle of peanut butter or Nutella."
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "Cup | Bowl",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Acai Toppings",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Acai Toppings",
+     "choice_name": "Nutella",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Acai Additional Modifiers ",
+     "choice_name": "Non-Dairy",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Acai Additional Modifiers ",
+     "choice_name": "Additional Peanut Butter",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Acai Additional Modifiers ",
+     "choice_name": "Additional Nutella",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405514",
+   "name": "Fresh Berry Parfait",
+   "category": "Brunch Menu",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": "Berry compote, vanilla Greek yogurt, Grace signature granola, and fresh berries all deliciously layered in an easy grab-and-go container. Modifications cannot be made to this item."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "405515",
+   "name": "Overnight Oats",
+   "category": "Brunch Menu",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": "Old-fashioned oats, honey, peanut butter, oat milk, and fresh berries all deliciously layered in an easy grab-and-go container. Modifications cannot be made to this item. "
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "405516",
+   "name": "Beef Birria Breakfast Wrap",
+   "category": "Brunch Menu",
+   "price_cents": 1425,
+   "price_low_cents": 1425,
+   "price_high_cents": 1425,
+   "available": true,
+   "raw": {
+    "description": "Birria beef, scrambled eggs, hashbrown, shredded cheddar cheese, pickled red onions and sour cream wrapped in a flour tortilla. Served with your choice of fresh greens, roasted red potatoes, or cheesy"
+   },
+   "modifiers": [
+    {
+     "group_name": "Side of Chipotle Aioli",
+     "choice_name": "Add Side of Chipotle Aioli",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405517",
+   "name": "Loaded Cheesy Hashbrown Bites",
+   "category": "Brunch Menu",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Our signature cheesy hashbrown bites deep fried and topped with your choice of bacon, chorizo, beef birria, or veggie medley; cheddar cheese; chipotle aioli; sour cream; and pickled red onions. Add ov"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Easy",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Scrambled",
+     "price_delta_cents": 250
+    },
+    {
+     "group_name": "Add Fresh Eggs",
+     "choice_name": "Add 2 Eggs Over Hard",
+     "price_delta_cents": 250
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405518",
+   "name": "Biscoff Cookie Butter Pancakes",
+   "category": "Brunch Menu",
+   "price_cents": 1450,
+   "price_low_cents": 1450,
+   "price_high_cents": 1450,
+   "available": true,
+   "raw": {
+    "description": "Three fluffy pancakes drizzled with a creamy biscoff cookie butter and topped with biscoff cookie crumbles. Served with a side of maple syrup."
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Biscoff Cookie Butter (on the side)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Side of Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405519",
+   "name": "Chicken Salad Croissant Sandwich",
+   "category": "More Eats",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "House-made chicken salad made with mayo, raisins, and celery on a butter croissant. Served with your choice of fresh greens, pasta salad, or potato dippers. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405520",
+   "name": "Sandwich, Spicy Turkey",
+   "category": "More Eats",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Smoked turkey, spicy pepper jack cheese, sriracha aioli, roasted red peppers, and arugula on house-made focaccia. Served with your choice of fresh greens, pasta salad, or potato dippers. Try it as a w"
+   },
+   "modifiers": [
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405521",
+   "name": "Wrap, Spicy Turkey",
+   "category": "More Eats",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Smoked turkey, spicy pepper jack cheese, sriracha aioli, roasted red peppers, and arugula all tucked into a wrap. Served with your choice of fresh greens, pasta salad, or potato dippers."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "405522",
+   "name": "Caprese Sandwich",
+   "category": "More Eats",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Thick-cut mozzarella cheese, fresh sliced tomato, basil pesto, balsamic glaze, and arugula on house-made focaccia. Served with your side of fresh greens, pasta salad, or potato dippers. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405523",
+   "name": "Bacon Apple Brie Grilled Cheese",
+   "category": "More Eats",
+   "price_cents": 1400,
+   "price_low_cents": 1400,
+   "price_high_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Sliced green apples, bacon, spreadable brie, and provolone cheese on a warm toasted baguette. Served with your choice of fresh greens, pasta salad, or potato dippers. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405524",
+   "name": "Chicken Caesar Wrap",
+   "category": "More Eats",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Grilled or crispy chicken, romaine lettuce, shaved parmesan cheese, and caesar dressing all tucked into a wrap. Served with your choice of fresh greens, pasta salad, or potato dippers. "
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "405525",
+   "name": "Harvest Salad",
+   "category": "More Eats",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Mixed greens, fresh strawberries, green apples, candied pecans, red onion, queso fresco, and served with a side of balsamic vinaigrette. Try it with grilled or crispy chicken!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Protein Options",
+     "choice_name": "Add Grilled Chicken",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Protein Options",
+     "choice_name": "Add Crispy Chicken",
+     "price_delta_cents": 400
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405526",
+   "name": "Grilled Peach & Blackberry Salad",
+   "category": "More Eats",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Mixed greens, grilled peach, blackberries, parmesan cheese, dried cranberries, candied pecans, and served with a side of apple cider vinaigrette. Try it with grilled or crispy chicken!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Protein Options",
+     "choice_name": "Add Grilled Chicken",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Protein Options",
+     "choice_name": "Add Crispy Chicken",
+     "price_delta_cents": 400
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405527",
+   "name": "Mediterranean Quinoa Bowl",
+   "category": "More Eats",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Fresh greens, quinoa & chickpea blend, cucumber, cherry tomatoes, kalamata olives, red onion, whipped feta, roasted red pepper hummus, and fresh lemon wedges."
+   },
+   "modifiers": [
+    {
+     "group_name": "Protein Options",
+     "choice_name": "Add Grilled Chicken",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Protein Options",
+     "choice_name": "Add Crispy Chicken",
+     "price_delta_cents": 400
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405528",
+   "name": "Caesar Salad",
+   "category": "More Eats",
+   "price_cents": 1100,
+   "price_low_cents": 1100,
+   "price_high_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Romaine lettuce, shaved parmesan cheese, croutons, and served with a side of caesar dressing. Try it with grilled or crispy chicken!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Protein Options",
+     "choice_name": "Add Grilled Chicken",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Protein Options",
+     "choice_name": "Add Crispy Chicken",
+     "price_delta_cents": 400
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405529",
+   "name": "Beef Birria Quesadilla",
+   "category": "More Eats",
+   "price_cents": 1350,
+   "price_low_cents": 1350,
+   "price_high_cents": 1350,
+   "available": true,
+   "raw": {
+    "description": "Shredded beef birria, melted cheddar cheese, and pickled onions grilled inside of a flour tortilla. Served with a side of fresh greens & side of sour cream. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Add Side of Guacamole",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Sour Cream",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405530",
+   "name": "Chicken Tenders",
+   "category": "More Eats",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Three crispy chicken tenders served with a side of potato dippers. Your choice of ranch or chipotle aioli."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "405531",
+   "name": "Chipotle BLT",
+   "category": "More Eats",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Crispy bacon, fresh sliced tomato, crisp romaine lettuce, and our signature chipotle aioli served on warm sourdough. Served with your choice of fresh greens, pasta salad, or potato dippers. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Add Avocado Spread (contains onion & tomato)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405532",
+   "name": "Mediterranean Veggie Wrap",
+   "category": "More Eats",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Mixed greens, fresh sliced tomato, cucumber, red onion, whipped feta, and roasted red pepper hummus wrapped in a flour tortilla. Add grilled or crispy chicken for added protein! Served with your choic"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Chicken",
+     "choice_name": "Add Grilled Chicken",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Chicken",
+     "choice_name": "Add Crispy Chicken",
+     "price_delta_cents": 300
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405533",
+   "name": "Turkey & Brie Melt",
+   "category": "More Eats",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Oven roasted turkey, spreadable brie cheese, caramelized balsamic onion jam, and arugula served on a warm toasted baguette. Served with your choice of fresh greens, pasta salad, or potato dippers."
+   },
+   "modifiers": [
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405534",
+   "name": "Southwest Quinoa Bowl",
+   "category": "More Eats",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "Fresh greens topped with a brown rice quinoa blend, pickled red onion, guacamole, shredded cheddar cheese, and drizzled with sour cream and chipotle sauce. Includes your choice of beef birria, grilled"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "405535",
+   "name": "Kids Mini Breakfast",
+   "category": "Kids Menu",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": 950,
+   "available": true,
+   "raw": {
+    "description": "Scrambled eggs and a mini pancake served with your choice of bacon or sausage links."
+   },
+   "modifiers": [
+    {
+     "group_name": "Kids Breakfast Protein",
+     "choice_name": "Substitute Protein for Side of Fresh Berries",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Side Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405536",
+   "name": "Kids Mini Pancakes",
+   "category": "Kids Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "3 mini buttermilk pancakes topped with whipped cream and sprinkles, and served with a side of maple syrup."
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Additional Side of Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405537",
+   "name": "Kids French Toast",
+   "category": "Kids Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Two pieces of thick-cut brioche, topped with powdered sugar and maple syrup."
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Add Berries",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Extra Side of Maple Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405538",
+   "name": "Kids Chicken Tenders",
+   "category": "Kids Menu",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": 950,
+   "available": true,
+   "raw": {
+    "description": "Two chicken tenders served with a side of potato dippers and ranch."
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Substitute Potato Dippers for Side of Fresh Berries",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "405539",
+   "name": "Kids Cheese Quesadilla",
+   "category": "Kids Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Cheddar cheese melted inside of a flour tortilla, served with a side of potato dippers. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Substitute Potato Dippers for Side of Fresh Fruit",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Add Side of Ranch",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Modifiers",
+     "choice_name": "Add Side of Chipotle Aioli",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "262307",
+   "name": "Side Cheesy Hashbrowns",
+   "category": "Sides & Sauces",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Chipotle Aioli",
+     "choice_name": "Side Chipotle Aioli",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "262308",
+   "name": "Side Red Potatoes",
+   "category": "Sides & Sauces",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262309",
+   "name": "Side of Fresh Greens",
+   "category": "Sides & Sauces",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262310",
+   "name": "Side of Pasta Salad",
+   "category": "Sides & Sauces",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262311",
+   "name": "2 Eggs",
+   "category": "Sides & Sauces",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 395,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262312",
+   "name": "Side of Bacon (3 pieces)",
+   "category": "Sides & Sauces",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 395,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262313",
+   "name": "Side Chipotle Aioli",
+   "category": "Sides & Sauces",
+   "price_cents": 50,
+   "price_low_cents": 50,
+   "price_high_cents": 50,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262314",
+   "name": "Side of Potato Dippers",
+   "category": "Sides & Sauces",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262315",
+   "name": "Side of Fresh Fruit",
+   "category": "Sides & Sauces",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262316",
+   "name": "Side of Ranch",
+   "category": "Sides & Sauces",
+   "price_cents": 50,
+   "price_low_cents": 50,
+   "price_high_cents": 50,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262317",
+   "name": "Side Caesar Dressing",
+   "category": "Sides & Sauces",
+   "price_cents": 50,
+   "price_low_cents": 50,
+   "price_high_cents": 50,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262318",
+   "name": "Side Balsamic Vinaigrette",
+   "category": "Sides & Sauces",
+   "price_cents": 50,
+   "price_low_cents": 50,
+   "price_high_cents": 50,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262319",
+   "name": "Sourdough Toast (1)",
+   "category": "Sides & Sauces",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 250,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Gluten Free Option",
+     "choice_name": "Gluten Free Bread (note: may change size/appearance of item)",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "262320",
+   "name": "Side Sausage Links (2)",
+   "category": "Sides & Sauces",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262321",
+   "name": "Side Maple Syrup",
+   "category": "Sides & Sauces",
+   "price_cents": 50,
+   "price_low_cents": 50,
+   "price_high_cents": 50,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "262322",
+   "name": "Side Bagel",
+   "category": "Sides & Sauces",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "Plain bagel served warm with your choice of butter, cream cheese, or jelly. "
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "289062",
+   "name": "Pumpkin Mousse Parfait",
+   "category": "Fall Specials",
+   "price_cents": 825,
+   "price_low_cents": 825,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "description": "Vanilla greek yogurt layered with a creamy pumpkin mousse, topped with our seasonal pumpkin spice granola. *Contains: egg, milk, tree nuts (pecans)*"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "289063",
+   "name": "Salted Caramel Apple Overnight Oats",
+   "category": "Fall Specials",
+   "price_cents": 825,
+   "price_low_cents": 825,
+   "price_high_cents": 825,
+   "available": true,
+   "raw": {
+    "description": "Overnight oats layered with stewed apples, cinnamon, and a drizzle of salted caramel, topped with cinnamon streusel. *Contains: milk, wheat*"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "289065",
+   "name": "Pumpkin Spice Latte",
+   "category": "Fall Specials",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "Made with house-made pumpkin pur\u00e9e & topped with our seasonal spice blend. Enjoy hot or iced! "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz (hot only) | 12oz  | 16oz | 24oz (iced only)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "289066",
+   "name": "Pumpkin Sweet Cream Cold Brew",
+   "category": "Fall Specials",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 775,
+   "available": true,
+   "raw": {
+    "description": "House-made pumpkin pur\u00e9e tossed with cold brew, topped with sweet cream and pumpkin spice seasoning. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "12oz | 16oz | 24oz",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Additional Modifiers ",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers ",
+     "choice_name": "Add Whip",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers ",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers ",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers ",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "417859",
+   "name": "Banana Bread Latte",
+   "category": "Fall Specials",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "Caramelized banana blended with warm cozy spices pairs perfectly with espresso and milk! Enjoy hot or iced. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz.  | 16oz. | 24oz. (iced only)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "417860",
+   "name": "Spiced Banana Chai",
+   "category": "Fall Specials",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "Because why not add spiced banana to a chai latte? It's a match made in heaven. Enjoy hot or iced. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz.  | 16oz. | 24oz. (iced only)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "417861",
+   "name": "Hot Apple Cider",
+   "category": "Fall Specials",
+   "price_cents": 585,
+   "price_low_cents": 585,
+   "price_high_cents": 585,
+   "available": true,
+   "raw": {
+    "description": "Warm, spiced, and perfectly autumn! Warm up with a cup of hot apple cider."
+   },
+   "modifiers": [
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "418233",
+   "name": "Pumpkin Bread",
+   "category": "Fall Specials",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "418240",
+   "name": "Pumpkin Muffin",
+   "category": "Fall Specials",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "451840",
+   "name": "Gingerbread Latte",
+   "category": "Winter Specials",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "Our signature house-made gingerbread syrup paired with festive spices for a warm, cozy treat! Try it hot or iced. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz. | 24oz. (iced only)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Breve (1/2 & 1/2)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Shot (5 total)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Double Shot (6 total)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "451847",
+   "name": "Gingerbread Chai",
+   "category": "Winter Specials",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "Our signature house-made gingerbread syrup paired with festive spices and Rishi Chai for a warm, cozy treat! Try it hot or iced. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz. | 24oz. (iced only)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Breve (1/2 & 1/2)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Single Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Double Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Triple Shot",
+     "price_delta_cents": 150
+    },
+    {
+     "group_name": "Add Espresso",
+     "choice_name": "+ Quad Shot",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "451843",
+   "name": "Mexican Mocha",
+   "category": "Winter Specials",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "A crowd-favorite twist on our classic mocha - with a touch of cinnamon, cayenne & chili pepper to bring the heat! Try it hot or iced. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz. | 24oz. (iced only)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Breve (1/2 & 1/2)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Shot (5 total)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Double Shot (6 total)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "451842",
+   "name": "Peppermint Mocha",
+   "category": "Winter Specials",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "Chocolate, peppermint, & espresso? This drink will surely warm your soul this season! Try it hot or iced. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Sizes",
+     "choice_name": "8oz. (hot only) | 12oz. | 16oz. | 24oz. (iced only)",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Substitutes (Small Beverages)",
+     "choice_name": "Breve (1/2 & 1/2)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Triple Shot",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers",
+     "choice_name": "Quad Shot",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Shot (5 total)",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Espresso Modifiers (24oz.)",
+     "choice_name": "Add Double Shot (6 total)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers",
+     "choice_name": "No Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Additional Modifiers (Small Beverages)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "451844",
+   "name": "Candy Cane Italian Cream Soda",
+   "category": "Winter Specials",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "A festive blend of peppermint and vanilla with sparkling water and a splash of cream, topped with whipped cream and crushed candy cane for a minty fresh holiday treat!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Whipped Cream",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Add Sweet Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "No Ice ",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Additional Modifiers (24oz.)",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Make it a Redbull Italian Soda!",
+     "choice_name": "Add Redbull",
+     "price_delta_cents": 100
+    }
+   ]
+  }
+ ]
+}
