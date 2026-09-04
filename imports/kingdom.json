@@ -1,0 +1,5825 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/kingdom-coffee-7899-main-st (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 5622630f-f69b-49b6-b8b0-69adc79c97d8, address on page: 7899 Main St, Maple Grove, MN)",
+ "shops": [
+  {
+   "id": 649,
+   "slug": "kingdom-coffee-7899-main-st"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "6bededb5-43d2-425a-aede-d0f492f0d083",
+   "name": "Pumpkin Spice Latte",
+   "category": "Specialty",
+   "price_cents": 625,
+   "available": true,
+   "price_low_cents": 625,
+   "price_high_cents": 700,
+   "raw": {
+    "description": "House Made Pumpkin Syrup + Espresso + Whole Milk\u200b"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e556cb9d-2a1d-49ff-b4bd-883a2995cdbb",
+   "name": "Pumpkin Cheesecake Cold Brew",
+   "category": "Specialty",
+   "price_cents": 625,
+   "available": true,
+   "price_low_cents": 625,
+   "price_high_cents": 700,
+   "raw": {
+    "description": "House-made Pumpkin Spice Syrup + Cold Press + Cream Cheese Cold Foam + Graham Crumbs (GF)"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "7f97f8fd-213a-4768-b023-20ef035aa997",
+   "name": "Golden Hour Chai",
+   "category": "Specialty",
+   "price_cents": 625,
+   "available": true,
+   "price_low_cents": 625,
+   "price_high_cents": 700,
+   "raw": {
+    "description": "Golden Chai + Honey + Oat Milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0fbc4246-e51f-4974-be0b-57e0d35426dd",
+   "name": "Autumn Joy's Latte",
+   "category": "Specialty",
+   "price_cents": 625,
+   "available": true,
+   "price_low_cents": 625,
+   "price_high_cents": 700,
+   "raw": {
+    "description": "Sea Salt Maple Syrup + Espresso + Whole Milk + Salted Cold Foam + Cinnamon"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "fe844bb8-eca2-4eb6-be76-fc51ab07aea9",
+   "name": "Sweet Heather",
+   "category": "Specialty",
+   "price_cents": 550,
+   "available": true,
+   "price_low_cents": 550,
+   "price_high_cents": 625,
+   "raw": {
+    "description": "Cold press, cream, vanilla, and white chocolate"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d2d15534-e1b2-4630-8d62-2218de6c5141",
+   "name": "Sandy's Latte",
+   "category": "Specialty",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 675,
+   "raw": {
+    "description": "Salted caramel and house made vanilla syrup latte"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e969bd68-5c6c-4125-9d63-60a73cefe919",
+   "name": "Liv's Latte",
+   "category": "Specialty",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 675,
+   "raw": {
+    "description": "Honey and cinnamon latte"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "02c75287-cca4-405d-b728-6c2d30b66ea1",
+   "name": "Mocha Latte",
+   "category": "Specialty",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 675,
+   "raw": {
+    "description": "Chocolate Latte"
+   },
+   "modifiers": [
+    {
+     "group_name": "Mocha Choice",
+     "choice_name": "White Mocha",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Mocha Choice",
+     "choice_name": "Chocolate Mocha",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3c39da2b-bf7e-4396-8a92-1444436a4134",
+   "name": "Kyle's Macchiato",
+   "category": "Specialty",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 675,
+   "raw": {
+    "description": "Espresso, Oat milk, 100% Organic Maple Syrup and house made vanilla syrup"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a0af8e8b-f260-4770-b734-6020f1cc7a10",
+   "name": "JENNA'S FAVORITE",
+   "category": "Specialty",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 675,
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cadd1949-fe42-47f7-bc16-c6aa005d55cb",
+   "name": "Red Eye",
+   "category": "Brewed",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 425,
+   "raw": {
+    "description": "Drip Coffee and Double Espresso"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drip Coffee Roasts",
+     "choice_name": "Light/Medium",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drip Coffee Roasts",
+     "choice_name": "Dark",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2e6c4800-66b5-497c-876f-8692ff06c519",
+   "name": "Cafe au Lait",
+   "category": "Brewed",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 425,
+   "raw": {
+    "description": "Drip Coffee and Steamed Milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drip Coffee Roasts",
+     "choice_name": "Light/Medium",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drip Coffee Roasts",
+     "choice_name": "Dark",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "54b52596-3b2c-4e56-b686-b53f07bf2b19",
+   "name": "Drip Coffee",
+   "category": "Brewed",
+   "price_cents": 300,
+   "available": true,
+   "price_low_cents": 300,
+   "price_high_cents": 375,
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Maple",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Mocha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d2e0ed50-af7d-4909-bf2a-bd8dae3a5f20",
+   "name": "Cold Press",
+   "category": "Brewed",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 575,
+   "raw": {
+    "description": "House Toddy Blend Steeped For 20 Hrs"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Maple",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Mocha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "455cafdb-7113-41cf-83c6-a636bdfdd813",
+   "name": "96 oz Coffee Box",
+   "category": "Brewed",
+   "price_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "8-10 Servings of Brewed Coffee."
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d9958058-be0c-4a02-8cdf-8d7cf84af2c9",
+   "name": "Blended Cold Press",
+   "category": "Brewed",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 675,
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Extra Espresso",
+     "choice_name": "Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "No Coffee",
+     "choice_name": "No Coffee",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "34668ad9-698a-4f74-889c-3751f327a00f",
+   "name": "Espresso",
+   "category": "Espresso",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Medium Roast Double Espresso"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Maple",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Mocha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Reno Syrups",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "1504aefa-f754-47bf-a5e3-ab56f1e626fc",
+   "name": "Long Black",
+   "category": "Espresso",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Traditional 8 oz Long Black. Made with Hot water and Espresso on top."
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "590dbd3d-75cc-46cb-aa9f-fb64e7444af9",
+   "name": "Americano",
+   "category": "Espresso",
+   "price_cents": 425,
+   "available": true,
+   "price_low_cents": 425,
+   "price_high_cents": 475,
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f39623eb-de2e-4cda-bc1d-cfca0ee89615",
+   "name": "Cortado",
+   "category": "Espresso",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Equal parts espresso and milk. 4 oz"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d1beab8e-5809-4040-83a4-968d19a9bc7c",
+   "name": "Cappuccino",
+   "category": "Espresso",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Aussie cappuccino. Double espresso, deeply textured milk topped with cacao. 6 oz"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Cappuccino WET/DRY",
+     "choice_name": "Wet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Cappuccino WET/DRY",
+     "choice_name": "Dry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Almond milk",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk Options #2",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f1d0a1b1-2d1a-44a3-8db2-fc22f0b33afe",
+   "name": "Flat White",
+   "category": "Espresso",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Double Espresso and thinly textured milk. 6 oz"
+   }
+  },
+  {
+   "platform_item_id": "ffb87616-fb4a-40dc-913d-fbbe1cd74492",
+   "name": "Latte",
+   "category": "Espresso",
+   "price_cents": 500,
+   "available": true,
+   "price_low_cents": 500,
+   "price_high_cents": 575,
+   "raw": {
+    "description": "Espresso and Steamed Milk"
+   }
+  },
+  {
+   "platform_item_id": "f2368e93-68ae-469c-b173-029ebe77679d",
+   "name": "Vanilla Spirulina Latte",
+   "category": "Noncoffee",
+   "price_cents": 340,
+   "available": true,
+   "price_low_cents": 340,
+   "price_high_cents": 675,
+   "raw": {
+    "description": "Blue Spirulina, whole milk and house made vanilla syrup."
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Sizes",
+     "choice_name": "12 oz Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Sizes",
+     "choice_name": "16 oz Hot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Sizes",
+     "choice_name": "16 oz Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Sizes",
+     "choice_name": "24 oz Iced",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "7b0b6627-20b1-41bb-b203-92439ecd8a71",
+   "name": "Kid's Hot Cocoa",
+   "category": "Noncoffee",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Chocolate Sauce, Steamed Milk, and Whip Cream"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "0a012be1-450d-45fd-8109-26dd39edf3a7",
+   "name": "Cold Milk",
+   "category": "Noncoffee",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5a27761b-275b-4aaa-af42-1d8ef64c0037",
+   "name": "Lemonade",
+   "category": "Noncoffee",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Housemade Lemonade (sweetened only with honey)"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c6d6482c-0683-466c-a319-d14c3febf072",
+   "name": "Steamer",
+   "category": "Noncoffee",
+   "price_cents": 300,
+   "available": true,
+   "price_low_cents": 300,
+   "price_high_cents": 375,
+   "raw": {
+    "description": "Steamed Milk (add your favorite syrup!)"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c937a421-4c95-454e-a709-6aef1fc2864a",
+   "name": "Hot Cocoa",
+   "category": "Noncoffee",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 525,
+   "raw": {
+    "description": "Chocolate Sauce, Steamed Milk, and Whip Cream"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ca878c47-5d98-4208-abab-ec8a6d1bdd35",
+   "name": "Berry Protein Smoothie",
+   "category": "Noncoffee",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Banana + Berries + Macadamia Milk + Whey Protein "
+   },
+   "modifiers": [
+    {
+     "group_name": "Protein Option",
+     "choice_name": "Whey Protein",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Protein Option",
+     "choice_name": "Plant Protein",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b920d2e6-192a-4ef2-84b4-4e51b423257c",
+   "name": "Tea Lemonade",
+   "category": "Tea",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 525,
+   "raw": {
+    "description": "Hibiscus Berry, Passion Fruit, Or Green Tea with our House Made Lemonade (Sweetened only with Honey)"
+   },
+   "modifiers": [
+    {
+     "group_name": "Iced Tea",
+     "choice_name": "Green Tea",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Tea",
+     "choice_name": "Black Tea",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Tea",
+     "choice_name": "Passion Fruit",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ca3c1717-bcea-4a37-9e7c-90e184d9eefa",
+   "name": "Matcha Latte",
+   "category": "Tea",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Matcha, milk and house made vanilla syrup"
+   },
+   "modifiers": [
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ab6e00e4-813f-46a0-a04b-5b7eb99732ca",
+   "name": "Chai Latte",
+   "category": "Tea",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 675,
+   "modifiers": [
+    {
+     "group_name": "Chai",
+     "choice_name": "Spicy",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Chai",
+     "choice_name": "Traditional",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Chai",
+     "choice_name": "Matcha",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Heavy Cream",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk Options",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "becc597c-4523-49be-811d-d53b48795551",
+   "name": "Hot Tea",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 425,
+   "modifiers": [
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Jasmine Pearls",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Earl Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Mount Lu & Cloud",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Misala Chai",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Evershine Sibbari",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Golden Monkey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Northern Lights",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Sunny Citrus Mint",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea",
+     "choice_name": "Chamomile Lemongrass",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "7d0bee47-e04d-4cb8-a23b-dd9183a11fbe",
+   "name": "Iced Tea",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 475,
+   "modifiers": [
+    {
+     "group_name": "Iced Tea",
+     "choice_name": "Green Tea",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Tea",
+     "choice_name": "Black Tea",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced Tea",
+     "choice_name": "Passion Fruit",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Less Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Sweet",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Sweet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "No Ice",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Cinnamon Powder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Half Caf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Extra matcha",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Drink Modifications",
+     "choice_name": "Salted Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Caramel",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 90
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Coconut",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Maple Syrup",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "337de44b-f877-47be-ad6d-3b243d863a09",
+   "name": "Egg Bites",
+   "category": "AM Foods",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "2 Egg Bites with Bacon + Gruyere  (Gluten Free) "
+   }
+  },
+  {
+   "platform_item_id": "25ae834a-890c-42c5-bd9a-d3794ce56d8a",
+   "name": "Bacon Breakfast Sandwich",
+   "category": "AM Foods",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Bacon + Provolone + Fried Egg + House Made Chipotle Aioli +  English Muffin"
+   }
+  },
+  {
+   "platform_item_id": "6c174b0a-8339-48dc-9187-ca6eb109086b",
+   "name": "Sausage Breakfast Sandwich",
+   "category": "AM Foods",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Chicken Sausage + Cheddar Cheese + Fried Egg + House Made Garlic Aioli + English Muffin"
+   }
+  },
+  {
+   "platform_item_id": "4f617f40-c7d5-466f-948b-6bce92cd1c09",
+   "name": "Cream Cheese Bagel Sandwich",
+   "category": "AM Foods",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Everything Bagel + Egg + Bacon + Cream Cheese"
+   }
+  },
+  {
+   "platform_item_id": "ad01128b-85d2-4378-8722-60efff13d58e",
+   "name": "Two Fried Eggs",
+   "category": "AM Foods",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "191c2672-d274-4b6d-be05-ab52ebc081bc",
+   "name": "Pumpkin Cream Cheese Bagel",
+   "category": "AM Foods",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "House-Made Pumpkin Butter + Cream Cheese + Bagel (GF)"
+   }
+  },
+  {
+   "platform_item_id": "92e405b8-62d6-4136-aa80-ed4e8d32566d",
+   "name": "Chicken Avocado Melt",
+   "category": "PM Foods",
+   "price_cents": 1200,
+   "available": false,
+   "raw": {
+    "description": "CHICKEN MASH + PROVOLONE + DIJION +\nAVOCADO + PICKLED RED ONION + CIABATTA\nGluten Free"
+   }
+  },
+  {
+   "platform_item_id": "52b21db6-26ed-4b3c-b190-b380444aab45",
+   "name": "Chicken Cheddar Melt",
+   "category": "PM Foods",
+   "price_cents": 1000,
+   "available": false,
+   "raw": {
+    "description": "CHICKEN MASH + CHEDDAR + PICKLED  RED ONION + CIABATTA\nGluten Free"
+   }
+  },
+  {
+   "platform_item_id": "4e1d5f83-35de-42a6-93b0-4647cbbbcb89",
+   "name": "Chocolate Chip Banana Bread (GF)",
+   "category": "Bakery",
+   "price_cents": 600,
+   "available": false,
+   "raw": {
+    "description": "Gluten Free"
+   }
+  },
+  {
+   "platform_item_id": "df8b6d73-80f9-4d78-964b-26dc1c942005",
+   "name": "Pumpkin Bread (GF)",
+   "category": "Bakery",
+   "price_cents": 650,
+   "available": true
+  },
+  {
+   "platform_item_id": "570243ee-f24d-4c4f-81b5-5d76d1314096",
+   "name": "Cake Pop (GF)",
+   "category": "Bakery",
+   "price_cents": 300,
+   "available": false,
+   "raw": {
+    "description": "Gluten Free"
+   }
+  },
+  {
+   "platform_item_id": "ee52f9c9-d04f-42fc-bd00-af00b3189f24",
+   "name": "Cardamom Pear Oat Bat (GF/V)",
+   "category": "Bakery",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Gluten Free & Vegan"
+   }
+  },
+  {
+   "platform_item_id": "babb9dbd-c00b-4f60-b672-20c0cfe9be41",
+   "name": "Chocolate Croissant",
+   "category": "Bakery",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "5d4bace5-d040-4ccb-8aec-2032cae527d1",
+   "name": "Coffee Cake Muffin (GF)",
+   "category": "Bakery",
+   "price_cents": 500,
+   "available": false
+  },
+  {
+   "platform_item_id": "e99df8d8-b110-4784-b0ae-bf6262c87879",
+   "name": "Scotchie Cookie (GF)",
+   "category": "Bakery",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Gluten Free\n"
+   }
+  },
+  {
+   "platform_item_id": "40e15013-12e6-40af-a443-7372fdde2ea6",
+   "name": "Cinnamon Apple Pecan Scone",
+   "category": "Bakery",
+   "price_cents": 550,
+   "available": false
+  },
+  {
+   "platform_item_id": "b659c0a4-497a-4f54-a4aa-dc5985a9b0ab",
+   "name": "Toasted Everything Bagel",
+   "category": "Bakery",
+   "price_cents": 275,
+   "available": true
+  },
+  {
+   "platform_item_id": "c06bc656-10cd-477e-a09f-f66b6565c279",
+   "name": "Toasted English Muffin",
+   "category": "Bakery",
+   "price_cents": 275,
+   "available": true
+  },
+  {
+   "platform_item_id": "b14a488b-2259-4add-80b4-49d941baf1be",
+   "name": "Toasted Sourdough (2 Slices)",
+   "category": "Bakery",
+   "price_cents": 275,
+   "available": true
+  },
+  {
+   "platform_item_id": "d616a3b6-f075-472a-9a92-53c3268fc9ab",
+   "name": "Toasted GF Bagel",
+   "category": "Bakery",
+   "price_cents": 325,
+   "available": true
+  },
+  {
+   "platform_item_id": "da448762-7123-4ffb-852c-a71b4779a0d3",
+   "name": "Blueberry scone",
+   "category": "Bakery",
+   "price_cents": 400,
+   "available": false
+  },
+  {
+   "platform_item_id": "6b097352-508f-4e2c-af67-df80d2989b95",
+   "name": "WC Rasp. Sprinkle Cookie",
+   "category": "Bakery",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "cfd57bb3-9ac1-49fd-b952-cae9d87cd867",
+   "name": "Canned Cold brew",
+   "category": "Grab & Go",
+   "price_cents": 450,
+   "available": true
+  },
+  {
+   "platform_item_id": "517007f0-8831-4861-b3f2-bf395f85c1cd",
+   "name": "Bottle Water",
+   "category": "Grab & Go",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "426e15e2-23ad-4722-957c-fa3f4f8e9671",
+   "name": "Juice Box",
+   "category": "Grab & Go",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "0a5f6d63-062c-4fb6-b2f0-3fa7f839898c",
+   "name": "Oli Pop",
+   "category": "Grab & Go",
+   "price_cents": 350,
+   "available": true
+  },
+  {
+   "platform_item_id": "a21129f7-b183-4a65-82c5-ac45b2262dea",
+   "name": "Fresh Steeps",
+   "category": "Grab & Go",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "979e3503-b5f6-4f20-a05b-a46101cb531a",
+   "name": "Banana",
+   "category": "Grab & Go",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "c5533025-f69b-49aa-851d-ef99a2026732",
+   "name": "P&TY Bar",
+   "category": "Grab & Go",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "52f5aef8-71cf-4dab-9683-a84bc4a3295f",
+   "name": "Dark Chocolate + Almond Butter Rawr Bar",
+   "category": "Rawr Bars",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "4a6534e4-7ca3-41a6-8cb4-16a0c01e4892",
+   "name": "Dark Chocolate + Raspberry  Rawr Bar",
+   "category": "Rawr Bars",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "6d121b32-4a51-41f0-942b-c91e958ed4cb",
+   "name": "Birthday Cake Rawr Bar",
+   "category": "Rawr Bars",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "ce0cfb39-e568-4fc6-9836-44620a38e514",
+   "name": "Blueberry Muffin Rawr Bar",
+   "category": "Rawr Bars",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "c2225274-c397-46de-9f30-b8b812fd71a2",
+   "name": "Dark Chocolate + Peanut Butter Rawr Bar",
+   "category": "Rawr Bars",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "ddea8eb1-e6dd-4cac-9c17-1298c36c36ee",
+   "name": "Mocha Chip Rawr Bar",
+   "category": "Rawr Bars",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "c73d9f16-b245-4869-9cd1-df264afe55e0",
+   "name": "PRIMA bar",
+   "category": "Rawr Bars",
+   "price_cents": 400,
+   "available": true
+  },
+  {
+   "platform_item_id": "7140d878-f5eb-4b16-8351-abc0cd9f8cf5",
+   "name": "Sweet Potato Chips",
+   "category": "Chips",
+   "price_cents": 250,
+   "available": false
+  },
+  {
+   "platform_item_id": "562a3ba7-fafc-475b-b99c-4611e88c1c31",
+   "name": "Vanity Chips",
+   "category": "Chips",
+   "price_cents": 1600,
+   "available": true
+  },
+  {
+   "platform_item_id": "b5322042-94ff-4060-8332-6b75b3216cc9",
+   "name": "MASA Chips",
+   "category": "Chips",
+   "price_cents": 1600,
+   "available": true
+  },
+  {
+   "platform_item_id": "5f2fb27f-b99b-4b2a-bb93-7d1ba284b6f6",
+   "name": "Cafe Press \"U\" Coffee and Tea Press",
+   "category": "Coffee Supplies",
+   "price_cents": 4200,
+   "available": true
+  },
+  {
+   "platform_item_id": "089138f0-151f-4b4c-9898-e049f3dbaaa2",
+   "name": "V60 Coffee Dripper Ceramic",
+   "category": "Coffee Supplies",
+   "price_cents": 3000,
+   "available": true
+  },
+  {
+   "platform_item_id": "391fbdfc-a4f1-4f98-b5c4-0da329564bd8",
+   "name": "V60 Paper Filters",
+   "category": "Coffee Supplies",
+   "price_cents": 600,
+   "available": true
+  },
+  {
+   "platform_item_id": "af352bac-1222-4519-9a6b-afc3a6261224",
+   "name": "Zebrang Outdoor Coffee Grinder with Stainless Burrs",
+   "category": "Coffee Supplies",
+   "price_cents": 6800,
+   "available": true
+  },
+  {
+   "platform_item_id": "09b46672-9206-444b-af0c-01635ef3cdef",
+   "name": "Filter in a Coffee Bottle",
+   "category": "Coffee Supplies",
+   "price_cents": 17000,
+   "available": true
+  },
+  {
+   "platform_item_id": "ae3a44d0-32c8-415a-9934-28eb84ba8041",
+   "name": "Filter in a Coffee Bottle",
+   "category": "Coffee Supplies",
+   "price_cents": 17000,
+   "available": true
+  }
+ ]
+}
