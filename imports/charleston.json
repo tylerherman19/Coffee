@@ -1,0 +1,415 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://charlestoncafemke.com/cudahy-charleston-cafe-drink-menu",
+ "shops": [
+  {
+   "id": 104,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "cc-bees-knees-latte",
+   "name": "Bee's Knees Latte",
+   "category": "Coffee & Tea",
+   "price_cents": 495,
+   "price_low_cents": 495,
+   "price_high_cents": 495,
+   "available": true,
+   "raw": {
+    "description": "honey, cinnamon"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-nutella-mocha",
+   "name": "Nutella Mocha",
+   "category": "Coffee & Tea",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-caramel-toffee-macchiato",
+   "name": "Caramel Toffee Macchiato",
+   "category": "Coffee & Tea",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-spring-honey-oat-latte",
+   "name": "Spring Honey Oat Latte",
+   "category": "Coffee & Tea",
+   "price_cents": 555,
+   "price_low_cents": 555,
+   "price_high_cents": 555,
+   "available": true,
+   "raw": {
+    "description": "lavender, honey, oat milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-blueberry-muffin-latte",
+   "name": "Blueberry Muffin Latte",
+   "category": "Coffee & Tea",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-biscoff-latte",
+   "name": "Biscoff Cookie Butter Latte",
+   "category": "Coffee & Tea",
+   "price_cents": 495,
+   "price_low_cents": 495,
+   "price_high_cents": 495,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-latte",
+   "name": "Latte",
+   "category": "Coffee & Tea",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-mocha",
+   "name": "Mocha",
+   "category": "Coffee & Tea",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 485,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-caramel-macchiato",
+   "name": "Caramel Macchiato",
+   "category": "Coffee & Tea",
+   "price_cents": 485,
+   "price_low_cents": 485,
+   "price_high_cents": 485,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-jitterbug",
+   "name": "Jitterbug (4-shot medium latte)",
+   "category": "Coffee & Tea",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "16 oz"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-cappuccino",
+   "name": "Cappuccino",
+   "category": "Coffee & Tea",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-americano",
+   "name": "Americano",
+   "category": "Coffee & Tea",
+   "price_cents": 295,
+   "price_low_cents": 295,
+   "price_high_cents": 295,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-drip",
+   "name": "House Drip Coffee",
+   "category": "Coffee & Tea",
+   "price_cents": 225,
+   "price_low_cents": 225,
+   "price_high_cents": 225,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-au-lait",
+   "name": "Caf\u00e9 Au Lait",
+   "category": "Coffee & Tea",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-red-eye",
+   "name": "Red Eye",
+   "category": "Coffee & Tea",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "20oz, 1 shot"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-cortado",
+   "name": "Cortado",
+   "category": "Coffee & Tea",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-iced-coffee",
+   "name": "Iced Coffee",
+   "category": "Coffee & Tea",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-frozen-latte",
+   "name": "Frozen Latte",
+   "category": "Coffee & Tea",
+   "price_cents": 445,
+   "price_low_cents": 445,
+   "price_high_cents": 445,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-frozen-mocha",
+   "name": "Frozen Mocha",
+   "category": "Coffee & Tea",
+   "price_cents": 495,
+   "price_low_cents": 495,
+   "price_high_cents": 495,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-cold-brew",
+   "name": "Cold Brew",
+   "category": "Coffee & Tea",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-traveler",
+   "name": "96 oz Coffee Traveler",
+   "category": "Coffee & Tea",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-italian-soda",
+   "name": "Italian Soda",
+   "category": "Non-Coffee",
+   "price_cents": 150,
+   "price_low_cents": 150,
+   "price_high_cents": 150,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-italian-cream-soda",
+   "name": "Italian Cream Soda",
+   "category": "Non-Coffee",
+   "price_cents": 165,
+   "price_low_cents": 165,
+   "price_high_cents": 165,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-hot-chocolate",
+   "name": "Hot Chocolate",
+   "category": "Non-Coffee",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-steamer",
+   "name": "Steamer",
+   "category": "Non-Coffee",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-london-fog",
+   "name": "London Fog",
+   "category": "Tea",
+   "price_cents": 435,
+   "price_low_cents": 435,
+   "price_high_cents": 435,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-raspberry-sunrise",
+   "name": "Raspberry Sunrise",
+   "category": "Tea",
+   "price_cents": 435,
+   "price_low_cents": 435,
+   "price_high_cents": 435,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-crazy-berry-energizer",
+   "name": "Crazy Berry Energizer",
+   "category": "Tea",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-strawberry-melon-energizer",
+   "name": "Strawberry Melon Energizer",
+   "category": "Tea",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-tea",
+   "name": "Tea (Earl Grey, Green, Fruit Passion)",
+   "category": "Tea",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cc-pistachio-latte",
+   "name": "Pistachio Latte (monthly special)",
+   "category": "Drink Specials",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  }
+ ]
+}
