@@ -1,0 +1,166 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://brewinggroundsmke.wixsite.com/brewinggrounds/food_menu",
+ "shops": [
+  {
+   "id": 179,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "Shot of Espresso",
+   "category": "Menu",
+   "price_cents": 150,
+   "price_low_cents": 150,
+   "price_high_cents": 200,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Americano",
+   "category": "Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cubano",
+   "category": "Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cappuccino",
+   "category": "Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Latte",
+   "category": "Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mocha",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Red Eye",
+   "category": "Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cafe Con Leche",
+   "category": "Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Coffee",
+   "category": "Menu",
+   "price_cents": 225,
+   "price_low_cents": 225,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Latte",
+   "category": "Menu",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chai",
+   "category": "Menu",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Arabic/Green Tea",
+   "category": "Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Drip Coffee",
+   "category": "Menu",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 200,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "French Press",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  }
+ ]
+}
