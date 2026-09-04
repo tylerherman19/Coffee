@@ -1,0 +1,72 @@
+{
+  "platform": null,
+  "source_url": "https://tasteoflindsayheights.square.site/",
+  "shops": [
+    {
+      "id": 135,
+      "slug": null
+    }
+  ],
+  "items": [
+    {
+      "name": "Apple Ginger Tea",
+      "price_cents": 350,
+      "category": null,
+      "platform_item_id": "3OMQT7V26YQNAL5BHLK5DINJ"
+    },
+    {
+      "name": "Build Your Own Pizza",
+      "price_cents": 350,
+      "category": null,
+      "platform_item_id": "JDBNYXRBZFB2PL7DF3TGXXIG"
+    },
+    {
+      "name": "Build Your Own Salad",
+      "price_cents": 550,
+      "category": null,
+      "platform_item_id": "XYW2ISMHHR2XHEYLAZZTHDSD"
+    },
+    {
+      "name": "Build-Your-Own Smoothie",
+      "price_cents": 750,
+      "category": null,
+      "platform_item_id": "GCKN2JSV7BPXXEVDFZL55R5P"
+    },
+    {
+      "name": "Chicken Wraps",
+      "price_cents": 750,
+      "category": null,
+      "platform_item_id": "P6WAESTLBEDU4YPR2ZDXPXI3"
+    },
+    {
+      "name": "Fresh Pressed Juice",
+      "price_cents": 700,
+      "category": null,
+      "platform_item_id": "NPIIMLQ6KAD2X6I7OUV56NY2"
+    },
+    {
+      "name": "Funky Fresh Spring rolls",
+      "price_cents": 750,
+      "category": null,
+      "platform_item_id": "PAPONI7UKFOZEZ6DWDAEPJVM"
+    },
+    {
+      "name": "Green Bucks Smoothie",
+      "price_cents": 650,
+      "category": null,
+      "platform_item_id": "IC4E7SBTNV4ECPJ4XJ23LWOC"
+    },
+    {
+      "name": "Sante Fe Wraps",
+      "price_cents": 750,
+      "category": null,
+      "platform_item_id": "DWDD6MF2PAXHNY25BZPWB4ZA"
+    },
+    {
+      "name": "Soup of the Day",
+      "price_cents": 600,
+      "category": null,
+      "platform_item_id": "MBG7FIMWBPFEUW3S7GJDRHQT"
+    }
+  ]
+}
