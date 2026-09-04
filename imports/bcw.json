@@ -11,589 +11,13 @@
   {
    "platform_item_id": "3317255_3966118",
    "name": "Build Your Own Waffle",
-   "category": "Popular Items",
+   "category": "Waffles",
    "price_cents": 700,
    "price_low_cents": null,
    "price_high_cents": null,
    "available": true,
    "raw": {
     "description": "Plain Belgian style waffle."
-   },
-   "modifiers": [
-    {
-     "group_name": "Substitutions | Waffles",
-     "choice_name": "Sub Gluten Friendly Batter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Substitutions | Waffles",
-     "choice_name": "Sub Vegan Batter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Chocolate Drizzle",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Chocolate Chips",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Side of Butter",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Pure Maple Syrup",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Whipped Cream",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Honey",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Raw Sugar",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Powdered Sugar",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Mini Marshmallows",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Graham Cracker Crumbs",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Cinnamon",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "1/4 lb Oven-Baked Ham",
-     "price_delta_cents": 400
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Swiss Cheese",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Baked Cinnamon Clove Apples",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Blueberries",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Strawberries",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Bananas",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "House Made Granola",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Walnuts",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Cheesecake Spread",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Nutella",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Peanut Butter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Almond Butter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Caramel Drizzle",
-     "price_delta_cents": 200
-    }
-   ]
-  },
-  {
-   "platform_item_id": "3317261_3966124",
-   "name": "Strawberry Cheesecake",
-   "category": "Popular Items",
-   "price_cents": 1050,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "Strawberries, graham cracker, crumbs, cheesecake spread, whipped cream."
-   },
-   "modifiers": [
-    {
-     "group_name": "Substitutions | Waffles",
-     "choice_name": "Sub Gluten Friendly Batter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Substitutions | Waffles",
-     "choice_name": "Sub Vegan Batter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Chocolate Drizzle",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Chocolate Chips",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Side of Butter",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Pure Maple Syrup",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Whipped Cream",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Honey",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Raw Sugar",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Powdered Sugar",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Mini Marshmallows",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Graham Cracker Crumbs",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Cinnamon",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "1/4 lb Oven-Baked Ham",
-     "price_delta_cents": 400
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Swiss Cheese",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Baked Cinnamon Clove Apples",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Blueberries",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Strawberries",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Bananas",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "House Made Granola",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Walnuts",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Cheesecake Spread",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Nutella",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Peanut Butter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Almond Butter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Caramel Drizzle",
-     "price_delta_cents": 200
-    }
-   ]
-  },
-  {
-   "platform_item_id": "3317260_3966123",
-   "name": "Naughty Waffle",
-   "category": "Popular Items",
-   "price_cents": 1050,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "Bananas, almond butter, strawberries, blueberries, house-made granola, whipped cream."
-   },
-   "modifiers": [
-    {
-     "group_name": "Substitutions | Waffles",
-     "choice_name": "Sub Gluten Friendly Batter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Substitutions | Waffles",
-     "choice_name": "Sub Vegan Batter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Chocolate Drizzle",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Chocolate Chips",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Side of Butter",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Pure Maple Syrup",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Whipped Cream",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Honey",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Raw Sugar",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Powdered Sugar",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Mini Marshmallows",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Graham Cracker Crumbs",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Cinnamon",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "1/4 lb Oven-Baked Ham",
-     "price_delta_cents": 400
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Swiss Cheese",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Baked Cinnamon Clove Apples",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Blueberries",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Strawberries",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Bananas",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "House Made Granola",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Walnuts",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Cheesecake Spread",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Nutella",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Peanut Butter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Almond Butter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Caramel Drizzle",
-     "price_delta_cents": 200
-    }
-   ]
-  },
-  {
-   "platform_item_id": "3317257_3966120",
-   "name": "Fat Andrew",
-   "category": "Popular Items",
-   "price_cents": 1000,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "Bananas, peanut butter, powdered sugar, whipped cream, cinnamon."
-   },
-   "modifiers": [
-    {
-     "group_name": "Substitutions | Waffles",
-     "choice_name": "Sub Gluten Friendly Batter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Substitutions | Waffles",
-     "choice_name": "Sub Vegan Batter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Chocolate Drizzle",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Chocolate Chips",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Side of Butter",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Pure Maple Syrup",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Whipped Cream",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Honey",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Raw Sugar",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Powdered Sugar",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Mini Marshmallows",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Graham Cracker Crumbs",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Cinnamon",
-     "price_delta_cents": 50
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "1/4 lb Oven-Baked Ham",
-     "price_delta_cents": 400
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Swiss Cheese",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Baked Cinnamon Clove Apples",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Blueberries",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Strawberries",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Bananas",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "House Made Granola",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Walnuts",
-     "price_delta_cents": 100
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Cheesecake Spread",
-     "price_delta_cents": 300
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Nutella",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Peanut Butter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Almond Butter",
-     "price_delta_cents": 200
-    },
-    {
-     "group_name": "Add Ons | Waffles",
-     "choice_name": "Caramel Drizzle",
-     "price_delta_cents": 200
-    }
-   ]
-  },
-  {
-   "platform_item_id": "3317259_3966122",
-   "name": "S'mores",
-   "category": "Popular Items",
-   "price_cents": 1000,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "Chocolate chips, mini marshmallows, chocolate drizzle, graham cracker crumbs."
    },
    "modifiers": [
     {
@@ -873,6 +297,150 @@
    ]
   },
   {
+   "platform_item_id": "3317257_3966120",
+   "name": "Fat Andrew",
+   "category": "Waffles",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Bananas, peanut butter, powdered sugar, whipped cream, cinnamon."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
    "platform_item_id": "3317258_3966121",
    "name": "Muddsucker",
    "category": "Waffles",
@@ -882,6 +450,438 @@
    "available": true,
    "raw": {
     "description": "Honey, cinnamon, powdered sugar, raw sugar, whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317259_3966122",
+   "name": "S'mores",
+   "category": "Waffles",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chocolate chips, mini marshmallows, chocolate drizzle, graham cracker crumbs."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317260_3966123",
+   "name": "Naughty Waffle",
+   "category": "Waffles",
+   "price_cents": 1050,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Bananas, almond butter, strawberries, blueberries, house-made granola, whipped cream."
+   },
+   "modifiers": [
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Gluten Friendly Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Substitutions | Waffles",
+     "choice_name": "Sub Vegan Batter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Drizzle",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Chocolate Chips",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Side of Butter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Pure Maple Syrup",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Whipped Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Raw Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Powdered Sugar",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Mini Marshmallows",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Graham Cracker Crumbs",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "1/4 lb Oven-Baked Ham",
+     "price_delta_cents": 400
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Swiss Cheese",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Baked Cinnamon Clove Apples",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Blueberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Strawberries",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Bananas",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "House Made Granola",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Cheesecake Spread",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Nutella",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Peanut Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Almond Butter",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Add Ons | Waffles",
+     "choice_name": "Caramel Drizzle",
+     "price_delta_cents": 200
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317261_3966124",
+   "name": "Strawberry Cheesecake",
+   "category": "Waffles",
+   "price_cents": 1050,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Strawberries, graham cracker, crumbs, cheesecake spread, whipped cream."
    },
    "modifiers": [
     {
@@ -1071,6 +1071,164 @@
    ]
   },
   {
+   "platform_item_id": "3317264_3966127",
+   "name": "Coffee (10oz)",
+   "category": "Hot Drinks",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality drip brew."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317264_3966128",
+   "name": "Coffee (16oz)",
+   "category": "Hot Drinks",
+   "price_cents": 350,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality drip brew."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
    "platform_item_id": "3317265_3966129",
    "name": "Espresso",
    "category": "Hot Drinks",
@@ -1114,13 +1272,635 @@
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
-     "choice_name": "1% Milk",
-     "price_delta_cents": 0
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
-     "choice_name": "Whole Milk",
-     "price_delta_cents": 0
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317266_3966130",
+   "name": "Americano (10oz)",
+   "category": "Hot Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso & hot water."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317266_3966131",
+   "name": "Americano (16oz)",
+   "category": "Hot Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso & hot water."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317267_3966133",
+   "name": "Latte (10oz)",
+   "category": "Hot Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso & steamed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317267_3966134",
+   "name": "Latte (16oz)",
+   "category": "Hot Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso & steamed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317268_3966136",
+   "name": "Caramel Macchiato (10oz)",
+   "category": "Hot Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, steamed milk, vanilla syrup, Ghirardelli caramel sauce."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317268_3966137",
+   "name": "Caramel Macchiato (16oz)",
+   "category": "Hot Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, steamed milk, vanilla syrup, Ghirardelli caramel sauce."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317269_3966139",
+   "name": "Mocha (10oz)",
+   "category": "Hot Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, steamed milk, vanilla syrup, Ghirardelli chocolate sauce."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317269_3966140",
+   "name": "Mocha (16oz)",
+   "category": "Hot Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, steamed milk, vanilla syrup, Ghirardelli chocolate sauce."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
@@ -1203,13 +1983,161 @@
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
-     "choice_name": "1% Milk",
-     "price_delta_cents": 0
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
-     "choice_name": "Whole Milk",
-     "price_delta_cents": 0
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317271_3966143",
+   "name": "Miel (10oz)",
+   "category": "Hot Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, steamed milk, honey, cinnamon."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317271_3966144",
+   "name": "Miel (16oz)",
+   "category": "Hot Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, steamed milk, honey, cinnamon."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
@@ -1292,13 +2220,1899 @@
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
-     "choice_name": "1% Milk",
-     "price_delta_cents": 0
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
-     "choice_name": "Whole Milk",
-     "price_delta_cents": 0
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317274_3966150",
+   "name": "Hot Chocolate (10oz)",
+   "category": "Hot Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Steamed milk, vanilla syrup, Ghirardelli chocolate sauce."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317274_3966151",
+   "name": "Hot Chocolate (16oz)",
+   "category": "Hot Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Steamed milk, vanilla syrup, Ghirardelli chocolate sauce."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317275_3966153",
+   "name": "Matcha Latte (10oz)",
+   "category": "Hot Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Unsweetened matcha powder & steamed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317275_3966154",
+   "name": "Matcha Latte (16oz)",
+   "category": "Hot Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Unsweetened matcha powder & steamed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317276_3966155",
+   "name": "Iced Coffee (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality drip brew, chilled."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317276_3966156",
+   "name": "Iced Coffee (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality drip brew, chilled."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317277_3966157",
+   "name": "Iced Americano (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso & water over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317277_3966158",
+   "name": "Iced Americano (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso & water over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317278_3966159",
+   "name": "Iced Latte (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso & milk over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317278_3966160",
+   "name": "Iced Latte (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso & milk over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317280_3966163",
+   "name": "Iced Mocha (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, milk, vanilla syrup, Ghirardelli chocolate sauce over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317280_3966164",
+   "name": "Iced Mocha (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, milk, vanilla syrup, Ghirardelli chocolate sauce over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317281_3966165",
+   "name": "Iced Miel (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, milk, honey, cinnamon over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317281_3966166",
+   "name": "Iced Miel (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Vitality espresso, milk, honey, cinnamon over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317283_3966169",
+   "name": "Iced Matcha (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Unsweetened matcha powder & milk over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317283_3966170",
+   "name": "Iced Matcha (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Unsweetened matcha powder & milk over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317284_3966171",
+   "name": "Apple Juice (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317284_3966172",
+   "name": "Apple Juice (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317285_3966173",
+   "name": "Orange Juice (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317285_3966174",
+   "name": "Orange Juice (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317286_3966175",
+   "name": "Milk (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317286_3966176",
+   "name": "Milk (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317294_3966191",
+   "name": "Black Cow Iced Coffee (12oz)",
+   "category": "Cold Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Iced coffee, chocolate milk, hazelnut syrup over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli White Chocolate Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Ghirardelli Caramel Sauce",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Coconut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Hazelnut Syrup",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3317294_3966192",
+   "name": "Black Cow Iced Coffee (16oz)",
+   "category": "Cold Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Iced coffee, chocolate milk, hazelnut syrup over ice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Double Shot Espresso",
+     "price_delta_cents": 175
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "UNAVAILABLE - Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Ons & Modifications | Drinks",
+     "choice_name": "Half & Half",
+     "price_delta_cents": 100
     },
     {
      "group_name": "Add Ons & Modifications | Drinks",
