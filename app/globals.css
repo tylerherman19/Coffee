@@ -77,7 +77,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rank-row:hover, .shop-row:hover, .near-row:hover .near-open, .near-row:hover { background: var(--wash); }
 .rank-row:hover .rank-price strong, .shop-row:hover .shop-price strong, .near-row:hover .rank-price strong { color: var(--accent); }
 .rank-number { flex: 0 0 30px; color: var(--muted); font-size: .8rem; font-variant-numeric: tabular-nums; text-align: right; }
-.rank-main { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.rank-main { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
 .rank-main strong { font: 600 1.06rem/1.2 var(--font-heading), Georgia, serif; letter-spacing: -.01em; }
 .rank-main small { color: var(--muted); font-size: .8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
 .rank-price, .shop-price { flex: 0 0 auto; width: 88px; display: flex; flex-direction: column; align-items: flex-end; gap: 1px; }
