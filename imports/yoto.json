@@ -1,0 +1,1052 @@
+{
+ "platform": "spoton",
+ "source_url": "https://order.spoton.com/so-cafe-yoto-20313/minneapolis-mn/66a13621c2bcb0c08acba14c",
+ "shops": [
+  {
+   "id": 499,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "jmrivmemb3fx3abk5gyq2ciui2",
+   "name": "Miso Caramel Cold Brew",
+   "category": "Limited Time Features",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Umami, Rich, Smooth (df)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "qziw3kolxbepfax2qkmpw0go3y",
+   "name": "Yakisoba Udon",
+   "category": "Limited Time Features",
+   "price_cents": 1795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Stir Fried Udon, Seasonal Veggies, Ribeye, Beni Shoga, Ao Nori, Bonito Flake, Green Onion. (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "soiugxjipzdwnkwgwvsgg3mhoq",
+   "name": "The Yuzu Palmer",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "A Refreshing Citrus Delight (df)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5m55kdjlg3dv3h2lmrcdwmh1pq",
+   "name": "The  Iced Yoto Coffee ",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Smooth, Creamy, Just Sweet Enough (Contains Dairy)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "jgljp14423egla3gqs2t3tyrdm",
+   "name": "Strawberry Matcha",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Silky, Berry, Sweet (df)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "rqrjp4z0rjbbdkpr3buywzlioy",
+   "name": "Classic Matcha",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Silky, Herbaceous, Rich (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3q0qz1ggybgxxh0pnhufbldsju",
+   "name": "Sakura Matcha",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Silky, Floral, Rich (df)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1getu20d3jarliu1leyzexmvf2",
+   "name": "Yuzu Shiso Spritz",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Refreshing, Fruity, Citrus (df)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "hhrh3c1bkre3dii5tp5um1n5tq",
+   "name": "Cherry Yuzu Shiso Spritz ",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Refreshing, Fruity, Citrus (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ki1twu4n2jcovjhnxybok1lj0y",
+   "name": "Kokoro Latte",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Floral, Silky, Berry (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "us5pknnb43c2xbiu1waskjla1a",
+   "name": "Osaka Fog",
+   "category": "Hand Crafted Lattes +  \u624b\u4f5c\u308a\u30c9\u30ea\u30f3\u30af",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Nutty, Balanced, Smooth (df)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1l4vwjdwlbgzne5xrenzwspbpq",
+   "name": "Avocado Cuke Temaki",
+   "category": "Temaki \u624b\u5dfb\u304d",
+   "price_cents": 595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Avocado, Cucumber, Hokkaido Rice & Ginger. (GF / DF / V)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "basn4riptjg11bwynkvns3ocyu",
+   "name": "Ebi Ten Temaki",
+   "category": "Temaki \u624b\u5dfb\u304d",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Shrimp Tempura, Avocado, Cucumber, Spicy Kewpie Mayo, Hokkaido Rice & Ginger. (DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c41z2ey2xng3hjyl2ax0zlubgu",
+   "name": "Eel Cucumber Temaki",
+   "category": "Temaki \u624b\u5dfb\u304d",
+   "price_cents": 895,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Grilled Japanese Eel, Shrimp Tempura, Avocado, Cucumber, Spicy Kewpie Mayo, Hokkaido Rice & Ginger. (DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ped0bujqojgptoiaov4rqy0zsi",
+   "name": "Mentaiko Scallop Temaki",
+   "category": "Temaki \u624b\u5dfb\u304d",
+   "price_cents": 995,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Scallop, Mentaiko, Avocado, Cucumber, Hokkaido Rice & Ginger. (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "zkwssiakkrcq3gqpca4vyfbgva",
+   "name": "Salmon Avocado Temaki ",
+   "category": "Temaki \u624b\u5dfb\u304d",
+   "price_cents": 695,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Salmon (Atlantic), Avocado, Hokkaido Rice & Ginger. (GF / DF / P)\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vlcch0eskvaonckuwi4bodqd3e",
+   "name": "Spicy Salmon Temaki",
+   "category": "Temaki \u624b\u5dfb\u304d",
+   "price_cents": 695,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Spicy Salmon (Atlantic) Avocado, Cucumber, Hokkaido Rice & Ginger. (GF / DF / P)\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "u1xa0nut5zdltn4c3cmiaxnxeu",
+   "name": "Spicy Tuna Temaki",
+   "category": "Temaki \u624b\u5dfb\u304d",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Spicy Tuna (Bluefin & Yellowfin), Avocado, Cucumber, Hokkaido Rice & Ginger. (GF / DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "xgpn3kxy0vbr1attdferkfetue",
+   "name": "Tuna Avocado Temaki",
+   "category": "Temaki \u624b\u5dfb\u304d",
+   "price_cents": 895,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Tuna (Bluefin), Avocado, Hokkaido Rice & Ginger. (GF / DF / P)\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "66a3a82d0abad294ecfe9209",
+   "name": "Karaage Appetizer",
+   "category": "Karaage ",
+   "price_cents": 895,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Japanese Fried Chicken, Spicy Kewpie Mayo, Dipping Salt & Lemon Wedge. (GF / DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cxlbtamli3fkre4damrgnag0ne",
+   "name": "Ebi Shiso",
+   "category": "Karaage ",
+   "price_cents": 0,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Fried Shrimp, Shiso Leaf in a Wonton Wrap. (DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "dr1zpxsykvgo1evcbuyqvxivj2",
+   "name": "Chicken Gyoza",
+   "category": "Karaage ",
+   "price_cents": 1195,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Fried Gyoza Filled With Chicken, Cabbage, & Shiitake. (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "mq3sbngnqbeunaxmcxtf34sfba",
+   "name": "Fried Tofu Appetizer",
+   "category": "Karaage ",
+   "price_cents": 895,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Fried Tofu, Togarashi Flake, Cilantro, Nanban Sauce. (GF / DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "oy53djjxbja1zdncn2xejnyrwe",
+   "name": "Tsukune",
+   "category": "Karaage ",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Chicken, Green Onion, Garlic, Ginger, Temari, Shichimi, Lemon Wedge. (DF / GF)\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bl3tubaw2jawlg2ra1fhzspsx2",
+   "name": "Wakame Kyuri",
+   "category": "Karaage ",
+   "price_cents": 695,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Cucumber, Wakame, Sesame Seeds, Microgreens & Miso Dressing. (GF / DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "i5jlovk0pfcj1dmbl3wl1kaq3e",
+   "name": "Miso Soup",
+   "category": "Karaage ",
+   "price_cents": 495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Miso, Tofu, Wakame, Scallions. (GF / DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "j3kxspzufncyhp0a4aukcthwku",
+   "name": "Karaage Donburi",
+   "category": "Donburi \u4e3c",
+   "price_cents": 1695,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Japanese Fried Chicken, Nanban sauce, Yuzu Kewpie Mayo. Served Over a  Bed of  Hokkaido Rice, Topped With Pickled Cucumbers, Scallion & Sesame Seeds. (GF / DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3xlx5qf5mbfelhcm3pcq1e1hva",
+   "name": "Kinoko Donburi",
+   "category": "Donburi \u4e3c",
+   "price_cents": 1495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Sauteed Japanese Mushrooms (Honshimeji & Maitake ) Served Over a Bed of  Hokkaido Rice and Seasonal Vegetables. Topped with Pickled Cucumbers & Sesame Seeds. (GF / DF / V)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "z3usq03x4fbthaxanpdbg4one2",
+   "name": "Miso Katsu Donburi ",
+   "category": "Donburi \u4e3c",
+   "price_cents": 1795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Breaded Pork cutlet, Broccoli, Miso Glaze, Kewpie Mayo Over a Bed of  Hokkaido Rice. (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "w4dabezqavhjlmqhtrw3dghe2e",
+   "name": "Spicy Tuna Donburi",
+   "category": "Donburi \u4e3c",
+   "price_cents": 2095,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Spicy Tuna (Bluefin & Yellowfin), Avocado, Ginger, Spicy Kewpie Mayo, Pickled Cucumbers, Pickled Jalapenos, Tare & Tempura Flakes Served Over a Bed of  Hokkaido Rice. (DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fkqrfpymu3ddrdul14th5ewycy",
+   "name": "Spicy Salmon Donburi ",
+   "category": "Donburi \u4e3c",
+   "price_cents": 1995,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Spicy Salmon (Atlantic), Avocado, Ginger, Spicy Kewpie Mayo, Pickled Jalapenos, Tare & Tempura Flakes Served Over a Bed of  Hokkaido Rice. (DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fgxu5vidnvbx5cslitpikazvju",
+   "name": "Tofu Donburi",
+   "category": "Donburi \u4e3c",
+   "price_cents": 1195,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Choice of Fresh or Fried Tofu, Served Over a bed of  Hokkaido Rice and Seasonal Vegetables. Topped With Pickled Cucumbers, Scallion & Sesame Seeds. (GF / DF / V)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "n1qzdrzvynhfzg42wlr511aere",
+   "name": "Unajyu Donburi",
+   "category": "Donburi \u4e3c",
+   "price_cents": 1995,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Grilled Japanese Eel Served Over a  Bed of Hokkaido Rice With Pickled Radish. (DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ggdieagfjbhalifote3rka4lgi",
+   "name": "Yakiniku Donburi",
+   "category": "Donburi \u4e3c",
+   "price_cents": 1995,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Seared Ribeye Served over a Bed of Hokkaido Rice & Seasonal Vegetables. Topped With Pickled Cucumbers, Pickled Ginger & Sesame Seeds. (GF / DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kth2vwtzircfrova3i1nbznkwy",
+   "name": "Kake Udon",
+   "category": "Udon \u3046\u3069\u3093",
+   "price_cents": 1295,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Fresh Noodles Made in House with Dashi or Japanese Curry Broth, Scallion & Wakame. (DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "enju0ocapjaordesr5krxvbhya",
+   "name": "Sansai Udon",
+   "category": "Udon \u3046\u3069\u3093",
+   "price_cents": 1495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Mountain Vegetables (Japanese Celery, Cloud Ear Mushrooms, Nameko Mushrooms, Bamboo Shoots). Fresh Noodles Made in House with Dashi or Japanese Curry Broth, Scallion & Wakame. \n(DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kxxjlwbq0rhrda4qvfby4ynexe",
+   "name": "Karaage Udon",
+   "category": "Udon \u3046\u3069\u3093",
+   "price_cents": 1695,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Japanese Fried chicken, Fresh Noodles Made in House with Dashi or Japanese Curry Broth, Scallion & Wakame. (DF)\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "rnyg1sruknbxvj2zwukcyp4fcy",
+   "name": "Ebi Ten Udon",
+   "category": "Udon \u3046\u3069\u3093",
+   "price_cents": 1795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Shrimp Tempura, Fresh Noodles Made in House With Dashi or Japanese Curry Broth, Scallion & Wakame. (DF / P)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bas1lkoxerhovki2qneu2q4z5e",
+   "name": "Niku Udon",
+   "category": "Udon \u3046\u3069\u3093",
+   "price_cents": 1895,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Thin Sliced Ribeye, Fresh Noodles Made in House with Dashi or Japanese Curry Broth, Scallion & Wakame. (DF)\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "xnm2hxntj3ejrljqzdtvziblua",
+   "name": "Kinoko Udon",
+   "category": "Udon \u3046\u3069\u3093",
+   "price_cents": 1495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Japanese Mushrooms (Honshimeji & Maitake & Shitake), Fresh Noodles Made in House with Dashi or Japanese Curry Broth, Scallion & Wakame. (DF / P)\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "66a3a82d0abad294ecfe9200",
+   "name": " Kakiage Udon",
+   "category": "Udon \u3046\u3069\u3093",
+   "price_cents": 1495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Tempura Fried Vegetables, Fresh Noodles Made in House with Dashi or Japanese Curry Broth, Scallion & Wakame. (DF / P)\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "nhtb3rmutvfu3ixeufsbfqgeu2",
+   "name": "Kid's Ebi Ten",
+   "category": " Okosama \u304a\u5b50\u69d8 ",
+   "price_cents": 995,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Shrimp Tempura Served With Choice of Rice, Tempura Broccoli & Tare, Or Udon Noodles, Dashi Broth, Wakame & Scallions. (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "orzak0ksxnchpnoj1sxh2atimu",
+   "name": "Kid's Karaage",
+   "category": " Okosama \u304a\u5b50\u69d8 ",
+   "price_cents": 995,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Japanese Fried Chicken Served With Choice of Rice, Steamed Broccoli & Yuzu Kewpie Mayo, Or Udon Noodles, Dashi Broth, Wakame & Scallions. (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "pw5upoh1i3fdhim0buqlrxlfju",
+   "name": "Kid's Avocado Don",
+   "category": " Okosama \u304a\u5b50\u69d8 ",
+   "price_cents": 995,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "Avocado, Tempura Flakes, Yuzu Kewpie mayo, Steamed Broccoli, Tare, Served on a Bed of Hokkaido Rice (DF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "wsoe4vczyzc4flbyfob5isoqsy",
+   "name": "Calpico 80ML",
+   "category": " Okosama \u304a\u5b50\u69d8 ",
+   "price_cents": 150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ebho2xjgijdfbactjtvehictoe",
+   "name": "Fork",
+   "category": "Okashi  \u30c7\u30b6\u30fc\u30c8 ",
+   "price_cents": 0,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "pkfmtsddyvaxdpj3m2q2ncwr0m",
+   "name": "Cream Puff",
+   "category": "Okashi  \u30c7\u30b6\u30fc\u30c8 ",
+   "price_cents": 495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ysaxdd5ksjaa5ndmnw5zkjfo02",
+   "name": "Scratch Matcha Roll Cake ",
+   "category": "Okashi  \u30c7\u30b6\u30fc\u30c8 ",
+   "price_cents": 695,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fxt0xowtynbrnafhkg3ydlntam",
+   "name": "Tofu 3 Piece",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "gegbcihw3bfyfpntnwpgnpiol2",
+   "name": "Spicy Tuna",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "mu0dxz1mwfdmjoevts23lgm0ie",
+   "name": "Spicy Salmon ",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lbc0ukm4lrddlnpjddz2kpb01i",
+   "name": "Seasonal Vegetables ",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 349,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "301wivbwgjc43hgwhf2x5ryja2",
+   "name": "Rice",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ddib1nomgvdjrhcnj2mmrsdwte",
+   "name": "Japanese Mushrooms",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 449,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "zoypgd2x4jcmnnyfmskwtwpnnq",
+   "name": "Udon Noodles",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "nugo5jxffbalbmtycpeymnmczy",
+   "name": "Dashi  Broth",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": "(gf)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5fmpdktqw3hfrikrxvih35lvue",
+   "name": "Curry Broth ",
+   "category": "Sides & Add-Ons ",
+   "price_cents": 595,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "gwaww4zbovevvpnfwk3okafsmy",
+   "name": "Pickled Cucumbers",
+   "category": "Accompaniments  ",
+   "price_cents": 125,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "hkucodmdbzfujh2muzulllk2s2",
+   "name": "Avocado",
+   "category": "Accompaniments  ",
+   "price_cents": 225,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4cafsnwxwve43dlq3fkba4rlvy",
+   "name": " Poached Egg",
+   "category": "Accompaniments  ",
+   "price_cents": 195,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "uopuhugc2bhwtdpkl2wc3sdff2",
+   "name": "Pickled Jalapenos",
+   "category": "Accompaniments  ",
+   "price_cents": 79,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "0yuaaliqy3f5jgb4nl3cfxadky",
+   "name": "Chili Crisp",
+   "category": "Accompaniments  ",
+   "price_cents": 95,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "tgxkk1jigrcwfmlqcopngmmunu",
+   "name": "Spicy Kewpie Mayo",
+   "category": "Accompaniments  ",
+   "price_cents": 59,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "lyf4is4jo3emrpqnk3rldof5da",
+   "name": "Yuzu Kewpie Mayo",
+   "category": "Accompaniments  ",
+   "price_cents": 59,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "kv55n3cypvholnf22bdwvnwara",
+   "name": "Spicy Miso Paste",
+   "category": "Accompaniments  ",
+   "price_cents": 0,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "zve20lrzk3gn1knwtwsuagvdr2",
+   "name": "Tamari Packet",
+   "category": "Accompaniments  ",
+   "price_cents": 0,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bovaaf0oefauxlvh3hblr2cs0y",
+   "name": "Wasabi",
+   "category": "Accompaniments  ",
+   "price_cents": 0,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "xzjq3jtepvealos5bhun5bqbiu",
+   "name": "Boba Peach",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 795,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "xpppeuy5sbcsvdx0alygpzz0le",
+   "name": "Ramune Original",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 395,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "qqewag4q1zfmfmysdco4gkizdy",
+   "name": "Ramune Melon",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 395,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "tprnmbjq1jc4tmghojfmurvdii",
+   "name": "Ramune Strawberry",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 395,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4pu4rx140fbqhhgay0va2lpg52",
+   "name": "Sanzo Calamansi",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "66a3a82d0abad294ecfe9230",
+   "name": "Sanzo Lychee",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "pdbx2f5yubhxfpfkea1y2qlmsq",
+   "name": "Sanzo Mango",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 495,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "vcytvw2tv3g1leuyadjedwozpy",
+   "name": "La Croix Pure ",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "jpytwnjzyjavhf2owtxncx1ffy",
+   "name": "Diet Coke (12oz can)",
+   "category": "Nomimono \u98f2\u307f\u7269 ",
+   "price_cents": 295,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fld12znvafhrxmwvbvrgyjfnki",
+   "name": "Black Orchid - Black Tea",
+   "category": "Hot Tea \u8336",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "w43m2yg0fjbpbgxmvaeu5k1sii",
+   "name": "Genmaicha - Green Tea",
+   "category": "Hot Tea \u8336",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "jhl5wlti1vdv1dxzx5b0jar3bi",
+   "name": "Hojicha - Green Tea",
+   "category": "Hot Tea \u8336",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ph3gz2ozyzernms52xe05ajezq",
+   "name": "Nectar Sun (Decaf)",
+   "category": "Hot Tea \u8336",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  }
+ ]
+}
