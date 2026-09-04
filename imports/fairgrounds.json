@@ -1,0 +1,679 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://fairgrounds.cafe/menu/",
+ "shops": [
+  {
+   "id": 69,
+   "slug": null
+  },
+  {
+   "id": 418,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "fg-drip",
+   "name": "Drip",
+   "category": "Coffee",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-cold-flash",
+   "name": "Cold Flash",
+   "category": "Coffee",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-cold-brew",
+   "name": "Cold Brew",
+   "category": "Coffee",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-pour-over",
+   "name": "Pour-Over",
+   "category": "Coffee",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-latte",
+   "name": "Latte",
+   "category": "Coffee",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-mocha",
+   "name": "Mocha",
+   "category": "Coffee",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-cappuccino",
+   "name": "Cappuccino",
+   "category": "Coffee",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-double-shot",
+   "name": "Double Shot",
+   "category": "Coffee",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-cortado",
+   "name": "Cortado",
+   "category": "Coffee",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-americano",
+   "name": "Americano",
+   "category": "Coffee",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-organic-looseleaf",
+   "name": "Organic Looseleaf",
+   "category": "Teas",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-matcha-latte",
+   "name": "Matcha Latte",
+   "category": "Teas",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-chai-latte",
+   "name": "Chai Latte",
+   "category": "Teas",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-turmeric-ginger-chai-latte",
+   "name": "Turmeric Ginger Chai Latte",
+   "category": "Teas",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-shaken-iced-tea",
+   "name": "Shaken Iced Tea",
+   "category": "Teas",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-shaken-iced-arnold-palmer",
+   "name": "Shaken Iced Arnold Palmer",
+   "category": "Teas",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-kombucha",
+   "name": "Kombucha",
+   "category": "Teas",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "Seasonal on tap"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-vietnamese-cold-brew",
+   "name": "Vietnamese Cold Brew",
+   "category": "Signatures",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Cold brew shaken with sweetened condensed milk, cinnamon, fresh mint garnish"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-tahini-caramel-latte",
+   "name": "Tahini Caramel Latte",
+   "category": "Signatures",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Espresso, tahini, caramel, milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-matcha-miel-latte",
+   "name": "Matcha Miel Latte",
+   "category": "Signatures",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Rishi organic unsweetened matcha, milk, honey, cinnamon"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-cafe-miel-latte",
+   "name": "Cafe Miel Latte",
+   "category": "Signatures",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Espresso, milk, honey, cinnamon"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-honey-lavender-latte",
+   "name": "Honey Lavender Latte",
+   "category": "Signatures",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Espresso, milk, honey, lavender syrup"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-shaken-espresso",
+   "name": "Shaken Espresso",
+   "category": "Signatures",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Vanilla, triple espresso, choice of milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-espresso-soda",
+   "name": "Espresso Soda",
+   "category": "Signatures",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": "Simple syrup, espresso, topo chico, lemon"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-strawberry-banana",
+   "name": "Strawberry Banana",
+   "category": "Smoothies",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Strawberry, banana, oat milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-mango-more",
+   "name": "Mango & More",
+   "category": "Smoothies",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Peach, mango, pineapple, banana, oat milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-kale-medley",
+   "name": "Kale Medley",
+   "category": "Smoothies",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Kale, cherry, pineapple, banana, greek yogurt, honey, oat milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-rainforest-remedy",
+   "name": "Rainforest Remedy",
+   "category": "Smoothies",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Matcha, pineapple juice, coconut milk, pineapple"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-sbj",
+   "name": "SBJ",
+   "category": "Smoothies",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Cold brew, sun butter, cinnamon, blueberry jam, fresh mint, banana, oat milk"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-blended-cold-brew",
+   "name": "Blended Cold Brew",
+   "category": "Blended",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "cold brew, oat milk, frappe base"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-blended-caramel-cold-brew",
+   "name": "Blended Caramel Cold Brew",
+   "category": "Blended",
+   "price_cents": 750,
+   "price_low_cents": 750,
+   "price_high_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "Cold brew, oat milk, frappe base, caramel syrup"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-breakfast-sandwich",
+   "name": "Breakfast Sandwich",
+   "category": "Breakfast",
+   "price_cents": 1100,
+   "price_low_cents": 1100,
+   "price_high_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Egg, bacon/sausage/impossible sausage, cheddar, pepper relish, brioche or everything bagel"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-breakfast-wrap",
+   "name": "Breakfast Wrap",
+   "category": "Breakfast",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Egg, bacon/sausage/impossible sausage, monterey jack, crispy potato, black bean & corn relish, avacado crema, roasted peppers"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-breakfast-bowl-gf",
+   "name": "Breakfast Bowl (GF)",
+   "category": "Breakfast",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Egg, cheese, tots, bacon, roasted tomato, pepper relish, giardiniera aioli"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-breakfast-burito",
+   "name": "Breakfast Burito",
+   "category": "Breakfast",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Egg, sausage, monterey jack, crispy potato, black bean & corn relish, avacado crema, roasted peppers"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-breakfast-tacos",
+   "name": "Breakfast Tacos",
+   "category": "Breakfast",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Egg, bacon, monterey jack, crispy potato, black bean & corn relish, avocado crema, pepitas"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-acai-bowl",
+   "name": "Acai Bowl",
+   "category": "Breakfast",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Acai, fresh berries, shaved coconut, granola"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-greek-yogurt",
+   "name": "Greek Yogurt",
+   "category": "Breakfast",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Greek yogurt, fresh fruit, granola, matcha honey"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-avocado-toast",
+   "name": "Avocado Toast",
+   "category": "Veggie Breakfast",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Avocado smash, radish, pickled shallot, tomato, everything seasoning, sourdough"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-veggie-breakfast-sandwich",
+   "name": "Veggie Breakfast Sandwich",
+   "category": "Veggie Breakfast",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Egg, spinach, tomato, havarti, pepper relish"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-vegan-breakfast-wrap",
+   "name": "Vegan Breakfast Wrap",
+   "category": "Veggie Breakfast",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Tofu scramble, impossible sausage, crispy potato, roasted peppers, black bean & corn relish, lemon avocado, tahini dressing"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-chicken-kale-caesar-salad",
+   "name": "Chicken Kale Caesar Salad",
+   "category": "Salads & Bowls",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Baby kale, chicken, red cabbage, parmesan, croutons, harissa caesar dressing"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-southwest-salad",
+   "name": "Southwest Salad",
+   "category": "Salads & Bowls",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Romaine, red cabbage, tomato, black bean, corn, monterey jack, avocado, chipotle ranch, tortilla chips"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-sweet-potato-bowl-vegan",
+   "name": "Sweet Potato Bowl (Vegan)",
+   "category": "Salads & Bowls",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Farro, quinoa, sweet potato, kale, cranberry, pepitas, pumpkin vinaigrette, lemon tahini dressing"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-fire-roasted-chicken-melt",
+   "name": "Fire Roasted Chicken Melt",
+   "category": "Lunch",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Fire roasted chicken, peppers, onions, havarti, cheddar, giardiniera aioli"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-turkey-club",
+   "name": "Turkey Club",
+   "category": "Lunch",
+   "price_cents": 1300,
+   "price_low_cents": 1300,
+   "price_high_cents": 1300,
+   "available": true,
+   "raw": {
+    "description": "Turkey, bacon, havarti, tomato, red onion, spring mix, giardiniera aioli"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-chicken-kale-caesar-wrap",
+   "name": "Chicken Kale Caesar Wrap",
+   "category": "Lunch",
+   "price_cents": 1250,
+   "price_low_cents": 1250,
+   "price_high_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "Chicken, baby kale, red cabbage, parmesan, harissa caesar dressing"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-tuna-avocado-melt",
+   "name": "Tuna Avocado Melt",
+   "category": "Lunch",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Tuna salad, avocado, roasted tomato, cheddar, baby kale"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-bgt-a",
+   "name": "BGT&A",
+   "category": "Lunch",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Bacon, greens, tomato, avocado, giardiniera aioli"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-grilled-cheese-tomato-soup",
+   "name": "Grilled Cheese & Tomato Soup",
+   "category": "Lunch",
+   "price_cents": 1100,
+   "price_low_cents": 1100,
+   "price_high_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Havarti and cheddar, classic tomato soup"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fg-sunbutter-jam",
+   "name": "Sunbutter & Jam",
+   "category": "Lunch",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Sunbutter, wild blueberry jam"
+   },
+   "modifiers": []
+  }
+ ]
+}
