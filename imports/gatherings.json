@@ -1,0 +1,519 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.maicnet.org/gatherings-cafe/",
+ "shops": [
+  {
+   "id": 438,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "The Ave",
+   "category": "Breakfast",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "The Ave \u2013 Egg Scramble, Wild Rice, Onion, Feta, Fresh Dill, Served with Wild Rice Toast \u2013 $10"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Root Veggie Hash",
+   "category": "Breakfast",
+   "price_cents": 1400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Root Veggie Hash \u2013 Two Eggs Any Way, Roasted Red Pepper Aioli, Sweet Potato, Root Veggies, Poblano, Side of Wild Rice Toast \u2013 $14"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Breakfast Burrito",
+   "category": "Breakfast",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Breakfast Burrito \u2013 Scrambled Eggs, Black Beans, Seared Queso Fresco, Fire Roasted Salsa, Side of Fruit and Wild Rice Toast \u2013 $10"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "The Corridor",
+   "category": "Breakfast",
+   "price_cents": 1000,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "The Corridor \u2013 Eggs, Hominy Cake, Black Beans, Side of Fruit and Wild Rice Toast \u2013 $10"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Breakfast Sandwich",
+   "category": "Breakfast",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Breakfast Sandwich \u2013 Fried Egg, Roasted Red Pepper Aioli, White Cheddar, Caramelized Pepper and Onion \u2013 $7"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cranberry French Toast",
+   "category": "Breakfast",
+   "price_cents": 800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Cranberry French Toast \u2013 Two Slices, Maple Syrup \u2013 $8"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Blueberry Blue Corn Pancakes",
+   "category": "Breakfast",
+   "price_cents": 800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Blueberry Blue Corn Pancakes \u2013 Two Cakes, Maple Syrup \u2013 $8"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Woodlands Hot Cereal",
+   "category": "Breakfast",
+   "price_cents": 800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Woodlands Hot Cereal \u2013 Sonora Wheat Berries, Spirit Lake Wild Rice, Organic Oats, Oat Milk, Cinnamon Maple Sugar, Dried Cranberries \u2013 $8"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Two Eggs",
+   "category": "Breakfast Sides",
+   "price_cents": 300,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Two Eggs \u2013 $3"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Wild Rice Toast",
+   "category": "Breakfast Sides",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Wild Rice Toast \u2013 $4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Turkey Sausage",
+   "category": "Breakfast Sides",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Turkey Sausage \u2013 $4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Side Veggie Hash",
+   "category": "Breakfast Sides",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Side Veggie Hash \u2013 $4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Wojapi",
+   "category": "Breakfast Sides",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Wojapi \u2013 $2"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Maple Syrup",
+   "category": "Breakfast Sides",
+   "price_cents": 200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Maple Syrup \u2013 $2"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Coffee",
+   "category": "Drinks",
+   "price_cents": 250,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Coffee \u2013 $2.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Small Coffee",
+   "category": "Drinks",
+   "price_cents": 150,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Small Coffee \u2013 $1.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cold Brew Coffee",
+   "category": "Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Cold Brew Coffee \u2013 $4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Selection of Iced or Hot Tea",
+   "category": "Drinks",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Selection of Iced or Hot Tea \u2013 $4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Miinikaa (Many Blueberries)",
+   "category": "Drinks",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Miinikaa (Many Blueberries) \u2013 $7"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Miskomin (Red Raspberry)",
+   "category": "Drinks",
+   "price_cents": 700,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Miskomin (Red Raspberry) \u2013 $7"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Headwaters Non-Alcoholic Seltzer",
+   "category": "Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Headwaters Non-Alcoholic Seltzer \u2013 $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Prickly Pear Lemonades",
+   "category": "Drinks",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Prickly Pear Lemonades \u2013 $6"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Organic Orange Juice",
+   "category": "Drinks",
+   "price_cents": 500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Organic Orange Juice \u2013 $5"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bison Melt",
+   "category": "Sandwiches",
+   "price_cents": 1800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Bison Melt \u2013 Blueberry Horseradish Aioli, Smoked Gouda, Caramelized Peppers & Onions \u2013 $18"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Fish Melt",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Fish Melt \u2013 Red Cliff White Fish, Red Pepper Aioli, Smoked Gouda, Caramelized Peppers & Onions \u2013 $15"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Smoked Turkey Melt",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Smoked Turkey Melt \u2013 Cranberry Aioli, Smoked Gouda, Caramelized Peppers & Onions \u2013 $15"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Veggie Melt",
+   "category": "Sandwiches",
+   "price_cents": 1500,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Veggie Melt \u2013 Roasted Red Pepper Aioli, Grilled Mushroom, Squash, Caramelized Peppers & Onions, Smoked Gouda \u2013 $15"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bison",
+   "category": "Tacos",
+   "price_cents": 1200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Bison \u2013 Bison Chuck, Guajillo, Ancho, Lime Wedge \u2013 $12"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Grilled Veggie",
+   "category": "Tacos",
+   "price_cents": 800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Grilled Veggie \u2013 Marinated Mushroom, Zucchini, Butternut Squash, Lime Wedge \u2013 $8"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Walleye",
+   "category": "Tacos",
+   "price_cents": 800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Walleye \u2013 Blackened Cornmeal Red Lake Walleye, Cabbage Jalapeno Slaw, Roasted Red Pepper Aioli, Pickled Red Onions \u2013 $8"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Wild Harvest",
+   "category": "Tacos",
+   "price_cents": 800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Wild Harvest \u2013 Marinated Mushrooms, Onions, Fresh Cilantro, Vegan Aioli (Vegan) \u2013 $8"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Apple Pear Manoomin Salad",
+   "category": "Salads",
+   "price_cents": 1200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Apple Pear Manoomin Salad \u2013 Apple, Pear, Wild Rice, Cranberries, Bleu Cheese, Maple Vinaigrette \u2013 $12"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "3 Sisters Kale Salad",
+   "category": "Salads",
+   "price_cents": 1200,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "3 Sisters Kale Salad \u2013 Squash, Hominy, Beans, Maple Vinaigrette, Kale, Onion \u2013 $12"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Seasonal Garden Salad",
+   "category": "Salads",
+   "price_cents": 800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Seasonal Garden Salad \u2013 Rotating Seasonal Veggies, Maple Vinaigrette, Wild Rice Croutons \u2013 $8"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Potato Salad",
+   "category": "Sides",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Potato Salad \u2013 $6"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Turkey Salad",
+   "category": "Sides",
+   "price_cents": 600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Turkey Salad \u2013 $6"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Greens",
+   "category": "Sides",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Greens \u2013 Seeds \u2013 $4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Fruit",
+   "category": "Sides",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Fruit \u2013 $4"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Blue Corn Chips & Salsa",
+   "category": "Sides",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {
+    "full_line": "Blue Corn Chips & Salsa \u2013 $4"
+   },
+   "modifiers": []
+  }
+ ]
+}
