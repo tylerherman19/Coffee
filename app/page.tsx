@@ -1,11 +1,13 @@
 'use client';
 
-import dynamic from 'next/dynamic';
+export const dynamic = 'force-static';
+
+import nextDynamic from 'next/dynamic';
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, ChevronRight, Clock3, Coffee, List, LoaderCircle, Map as MapIcon, Search, SlidersHorizontal, Star } from 'lucide-react';
 import { loadCoffeeData, type CoffeeData, type Item, type Shop } from '@/lib/coffee-data';
 
-const MapView = dynamic(() => import('@/components/coffee-map'), { ssr: false, loading: () => <div className="map-loading"><LoaderCircle aria-hidden="true" /> Loading the map…</div> });
+const MapView = nextDynamic(() => import('@/components/coffee-map'), { ssr: false, loading: () => <div className="map-loading"><LoaderCircle aria-hidden="true" /> Loading the map…</div> });
 type Metro = 'milwaukee' | 'twin_cities';
 type View = 'shops' | 'compare' | 'map';
 const drinkLabels: Record<string, string> = { latte: 'Latte', cappuccino: 'Cappuccino', espresso: 'Espresso', americano: 'Americano', drip: 'Drip coffee', cold_brew: 'Cold brew', mocha: 'Mocha', chai: 'Chai', tea: 'Tea', other: 'Other coffee' };
