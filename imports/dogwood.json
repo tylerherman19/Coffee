@@ -1,0 +1,2525 @@
+{
+ "platform": "square",
+ "source_url": "https://my-site-106034-105963.square.site/s/order",
+ "shops": [
+  {
+   "id": 301,
+   "slug": null
+  },
+  {
+   "id": 399,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "56D6XFQZ7ZTKIS2GWTPBUICP",
+   "name": "Mocha",
+   "category": "Online Menu",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "K37TNMPHLH6T6D7RIWACMTY4",
+   "name": "Sweet Potato Maple Bourbon Latte",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "A5FMDEHFXTR6BSFKMBQSPSPM",
+   "name": "Brown Sugar Cardamom Latte",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SOSWBRT75CRQJLJW4UERRIQO",
+   "name": "Coffee for Others Ball Cap",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6LYLV3BMODHPYCGCYYD72OMW",
+   "name": "Depth Charge",
+   "category": "Online Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KPGUDCYGBYU5MV2TIHJXR6PC",
+   "name": "Mexican Coke",
+   "category": "Online Menu",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 250,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VX3SOSZSHEWOZKPZD37XQ7U5",
+   "name": "RX Bars",
+   "category": "Online Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "STNYTQWZD4MNG23NCLER3S5G",
+   "name": "Spumoni Latte",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>A honey pistachio flavored latte with pistachio sugar crumble.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YVLPD2Q4ASCVMMMR6POIVE25",
+   "name": "Topo Chico Glass",
+   "category": "Online Menu",
+   "price_cents": 225,
+   "price_low_cents": 225,
+   "price_high_cents": 225,
+   "available": true,
+   "raw": {
+    "description": "<p>12oz</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "436MXLPG4DOAWS4RRSP4PIZ4",
+   "name": "Latte",
+   "category": "Online Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HXGKX32A73QG63EYM4TA5YYA",
+   "name": "Matcha Latte",
+   "category": "Online Menu",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "74ZGLJ6GZYGBBPFA42EY4UUH",
+   "name": "Swoffles",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HJBD4Q5S3V2BER5G5SOJHZF3",
+   "name": "San Pellegrino Soda",
+   "category": "Online Menu",
+   "price_cents": 225,
+   "price_low_cents": 225,
+   "price_high_cents": 225,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DJFFZPU2CNID7REQ6FVMNCY6",
+   "name": "San Pellegrino Essenza Sparkling Water, Blood Orange & Black Raspberry",
+   "category": "Online Menu",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TMOPKWQSRNQYR67CPCOFWOS2",
+   "name": "Martinelli's Apple Juice",
+   "category": "Online Menu",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "K4TL7ES77QB4W4Y6MPS6SWFN",
+   "name": "Cold Brew",
+   "category": "Online Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "F76G5L3Z53NZAPV54TX3SB4W",
+   "name": "Chemex",
+   "category": "Online Menu",
+   "price_cents": 4200,
+   "price_low_cents": 4200,
+   "price_high_cents": 4200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IH3E3TGEYYGMC5SY4EWSL25B",
+   "name": "Aeropress",
+   "category": "Online Menu",
+   "price_cents": 4000,
+   "price_low_cents": 4000,
+   "price_high_cents": 4000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OK23I53FMDLFYBNECNQ23S6F",
+   "name": "Cappuccino",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XPPNOAAGIDX2S2SUXGNFWLXT",
+   "name": "Aeropress Filters",
+   "category": "Online Menu",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Z4YEOGC2JJ7ZVT5IP332VKZW",
+   "name": "Hario V60 02 Filters",
+   "category": "Online Menu",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "22RFCQOP5EZ47NR54N5VGJ6H",
+   "name": "Festive Fizz - Ginger Spice Tonic",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>Served with a speared slice of candied ginger</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Y5XHKNDTF7TTHRFLHBSWOFZN",
+   "name": "Macchiato",
+   "category": "Online Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XN642BQLD7XCMGJZUV2JDJI5",
+   "name": "Rishi Tea",
+   "category": "Online Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "<p>Prepared hot or iced</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UVR7G46FOC2YJZPCZXYMVXBN",
+   "name": "Espresso Tonic",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "<p>Neon espresso poured over 3leche Tonic with a dash of orange bitters and topped with a dried orange slice.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YTZEFT3WO7TIAJWQTOI56ECC",
+   "name": "Dogwood Coffee Co. Bandana",
+   "category": "Online Menu",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WGS25Z2LHXQJQRIFE3FYUSFO",
+   "name": "Milk (12 oz.)",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "D24G72WKHJPUD5CE3NU3YFI4",
+   "name": "MiiR Pink Camp Cup",
+   "category": "Online Menu",
+   "price_cents": 3000,
+   "price_low_cents": 3000,
+   "price_high_cents": 3000,
+   "available": true,
+   "raw": {
+    "description": "<p>3 color print travel mug</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "QT4C6VQZC6SUPQWQIM3RCF62",
+   "name": "Chaider",
+   "category": "Online Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "Apple Cider and Rishi&#39;s Chai are blended together for a perfect fall drink. Sweet, tart, and spicy!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5TB7AKEEQRE7LQEGY2SKDYCG",
+   "name": "Hot Chocolate",
+   "category": "Online Menu",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Z5JULEAQRCN5FEZFRIIWQCM5",
+   "name": "Topo Chico Plastic",
+   "category": "Online Menu",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "<p>16.9 oz</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GWQQPIC7Z2A4AGDRCZGNRCMM",
+   "name": "Oatly",
+   "category": "Online Menu",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CW5WN5AT6CJGYK7J34FNH52Y",
+   "name": "Americano",
+   "category": "Online Menu",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 495,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NJXWG7NIY7ACA2CGLCSM3SNE",
+   "name": "Vero Cappuccino Glass",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Not Neutral 6 ounce cappuccino glasses in Amethyst.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZOYOV2VVKWMUGRMRL7PBAD4C",
+   "name": "Fellow Ode Brew Grinder",
+   "category": "Online Menu",
+   "price_cents": 17500,
+   "price_low_cents": 17500,
+   "price_high_cents": 17500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XQITZUXPT45URP4AZC4PPKOV",
+   "name": "Fellow Stagg EKG Electric Kettle",
+   "category": "Online Menu",
+   "price_cents": 19500,
+   "price_low_cents": 19500,
+   "price_high_cents": 19500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PCSMLYU5EB5TM72UKELGQA6F",
+   "name": "MiiR Grey Camp Cup",
+   "category": "Online Menu",
+   "price_cents": 3000,
+   "price_low_cents": 3000,
+   "price_high_cents": 3000,
+   "available": true,
+   "raw": {
+    "description": "<p>3 color print travel mug</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FSAZNDYSENJUKFUBDKFRRB7I",
+   "name": "Peru // Edwar Guivin Fernandez",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>Tasting notes: Chocolate &amp; Orange</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TVJJIB4A2TRTNBO3BMKJUE25",
+   "name": "Rwanda // Vunga",
+   "category": "Online Menu",
+   "price_cents": 2100,
+   "price_low_cents": 2100,
+   "price_high_cents": 2100,
+   "available": true,
+   "raw": {
+    "description": "<p>Pomegranate/Vanilla</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WW5G5MMC5YHNK7KZWEBDI2OR",
+   "name": "Masala Chai Latte",
+   "category": "Online Menu",
+   "price_cents": 495,
+   "price_low_cents": 495,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "H3FFVB4EIWLL4IQU72YYUYUN",
+   "name": "Special Special T-Shirt",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GHZPS5EVERUP3QXN5BDHJMDH",
+   "name": "Dogwood Sticker - Steam Logo",
+   "category": "Online Menu",
+   "price_cents": 100,
+   "price_low_cents": 100,
+   "price_high_cents": 100,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JJONCLKDYVFM55RAV7EPYQR7",
+   "name": "The Camper",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>Smoked Maple Latte</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JXXTCSGWA7IJGKG4ELYSZZQL",
+   "name": "Yemen // Mocha Harazi, Special Special",
+   "category": "Online Menu",
+   "price_cents": 2600,
+   "price_low_cents": 2600,
+   "price_high_cents": 2600,
+   "available": true,
+   "raw": {
+    "description": "<p>DARK CHOCOLATE &amp; BLACKBERRY</p><p>It\u2019s been awhile since we have offered coffee from Yemen. The country has been devastated by a civil war and coffee production has obviously greatly diminished. Amidst the turmoil, Fatoum Muslot, daughter of long time Yemeni exporter Ali Hebah Muslot, has set out to improve the standard of living for her coffee growing community and to restore Yemeni coffee cultivation. We have two small microlots of their coffee. The first we are offering is Mocha Harazi from the Sana\u2019a region which includes and supports 141 coffee-growing families. This lot is a sun-dried natural process of Dawaeri &amp; Jadi varieties. These are rare, delicious coffees and we love the dark chocolate, blackberry, and warm spice flavors we are tasting.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VLAQIIH7URQOMHEDGJ2U5UIB",
+   "name": "Dogwood Tin Tacker",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "XOD764JZGBDNGZ7JVWBP7AZE",
+   "name": "Yemen // Mocha Khulani Special Special",
+   "category": "Online Menu",
+   "price_cents": 2600,
+   "price_low_cents": 2600,
+   "price_high_cents": 2600,
+   "available": true,
+   "raw": {
+    "description": "<p>FLAVOR NOTES</p><p>It\u2019s been awhile since we have offered coffee from Yemen. The country has been devastated by a civil war and coffee production has obviously greatly diminished. Amidst the turmoil, Fatoum Muslot, daughter of long-time Yemeni exporter Ali Hebah Muslot, has set out to improve the standard of living for her coffee growing community and to restore Yemeni coffee cultivation. We have two small microlots of their coffee. Mocha Khulani is the second and last of these microdots. Mocha Khulani is grown in the Sa\u2019ada region on steep mountainside terraces and supports 222 coffee-growing families. This lot is a sun-dried natural process of Audaini, Dawaeri &amp; Tuffahi varieties.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YAKDNYSWENU6UKXKO4YSOGYH",
+   "name": "Dogwood Sticker - Doodle Dog",
+   "category": "Online Menu",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5HJLMYBFRR2IJ2OQAQKU4UQN",
+   "name": "MiiR White Camp Cup",
+   "category": "Online Menu",
+   "price_cents": 3000,
+   "price_low_cents": 3000,
+   "price_high_cents": 3000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZGQGZXANTO42WGOURUPX3QWY",
+   "name": "Poodle Diner Mug",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CORYOI3TBUCUYUR3N5WCAKQD",
+   "name": "Kenya // Kagumoini Special Special",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HLF7DQID4IH4BKMTPK24KRB5",
+   "name": "Mexico // La Concordia",
+   "category": "Online Menu",
+   "price_cents": 1900,
+   "price_low_cents": 1900,
+   "price_high_cents": 1900,
+   "available": true,
+   "raw": {
+    "description": "<p>CHOCOLATE &amp; PECAN</p><p><br/></p><p>Cafeco is a new cooperative based in La Concordia, Chiapas. Nestled up to the \u201cEl Triunfo\u201d Biosphere Reserve, this certified organic cooperative has brought together many young farmers who are driven by both cup quality and environmental stewardship. Each family within the coop picks, processes and dries their own coffee. These family farms all grow coffee under the native shade tree canopy of the buffer zone surrounding the protected forest.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2ZZYTVJSQBXFO4HVKYHVQNC5",
+   "name": "Bear Hug Crew Neck Sweatshirt (maroon)",
+   "category": "Online Menu",
+   "price_cents": 4500,
+   "price_low_cents": 4500,
+   "price_high_cents": 4500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4PUVMADSR6ZZEYTY5UKHYSK2",
+   "name": "Pressed Juice SHOTS",
+   "category": "Online Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4ELYPACRRRGAT35EMVDJPAJD",
+   "name": "Gingerbread Chocolate Bar",
+   "category": "Online Menu",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "<p>Askinosie Dark Chocolate Bar. Warm, cozy, and rich with a hint of spice. Handcrafted by infusing single origin dark chocolate with a unique blend of five savory spices and unrefined cane sugar.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IFNYULHGDOF5OCVPMVAU755Z",
+   "name": "Espresso",
+   "category": "Online Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TFCZPUGK5NDF4UWYBXUBGHOS",
+   "name": "Colombia // Tio Conejo, Chami Natural Process",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "<p>Raspberry &amp; Brown Sugar</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UOS2NN4M3KVBWECM2WDUPQBG",
+   "name": "Colombia // Tio Conejo, Maca Anaerobic Process",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "<p>Lemon Meringue Pie &amp; Gin + Tonic</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MBHRR7BX7MTGE5AY432YJGLE",
+   "name": "Dogwood Sticker - Futurist",
+   "category": "Online Menu",
+   "price_cents": 100,
+   "price_low_cents": 100,
+   "price_high_cents": 100,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UKWFFGA6RBMEQ7CJRRTTD2SG",
+   "name": "Dogwood Sticker - Tardif Sheet Large",
+   "category": "Online Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2VSLUGRSOYAWVQM5AMYBCXEA",
+   "name": "Dogwood Sticker - Tardif Sheet Small",
+   "category": "Online Menu",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZZ4NDPXGQURSNUDZEBWQRUNS",
+   "name": "Dogwood Sticker - Dogstars",
+   "category": "Online Menu",
+   "price_cents": 100,
+   "price_low_cents": 100,
+   "price_high_cents": 100,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IHT57T2MZH3HF5XWRKJFR5EC",
+   "name": "Dogwood Sticker - DW Logo",
+   "category": "Online Menu",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IISUJPIQZWYJRTBGPBI27WVB",
+   "name": "Dogwood Bumper Sticker - Lake Street",
+   "category": "Online Menu",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Q7LJORUGKAY6C6DYZVB67QUV",
+   "name": "Tote Bag 2.0",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "F6C3MARHNPJAQD6WSFEOKPY6",
+   "name": "Dogwood Water Bottles",
+   "category": "Online Menu",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "<p>why not</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "C2YQENCPRHJGZPFQ5IUSZXMB",
+   "name": "Papua New Guinea // Kindeng Natural Special Special",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>Raspberry &amp; Orange. Special Special.</p><p><br/></p><p>This fresh new offering from Papua New Guinea hits your palate upfront with flavors of clean raspberry and finishes off with tart orange notes. It&#39;s grown on a collection of small farms in the Kindeng Municipality in the Jawaka Province - which is within the very fertile Wahgi Valley. The cherries are first sent to the Kindeng wet mill where they are thoroughly dried, and then they are sent off to the Kagamuga Mill where they are hulled, sorted and bagged. Final destination: your kitchen. Enjoy!</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MVUKGULANBUSBI5AGYXPMPCB",
+   "name": "Rwanda // Shyira",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>\u00a0raisin &amp; cantaloupe</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BFYHS6XD2UVBH666WNU7LJ4T",
+   "name": "Sift - Chocolate Donut",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "<p>Gluten Free, VEGAN, Dairy Free, Egg-Free, and Peanut Free</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "F4QUIFVHPF7Z3ABHGFP643QA",
+   "name": "Sift - Vanilla Donut",
+   "category": "Online Menu",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "<p>Gluten Free, Dairy Free, and Peanut Free</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6F4MRD3VBF4JK4UKFYKHEUCJ",
+   "name": "Sift - Sweet Muffin",
+   "category": "Online Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": "<p>Gluten Free, Dairy Free, Soy Free, and Peanut Free.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2E7WXT3H5Y75FJ22JPOK6EC6",
+   "name": "Everyday Matcha Tin",
+   "category": "Online Menu",
+   "price_cents": 1500,
+   "price_low_cents": 1500,
+   "price_high_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "64RLWFOJ3KMQJTHS7JIE6GNI",
+   "name": "Fellow Travel Tumblers",
+   "category": "Online Menu",
+   "price_cents": 4000,
+   "price_low_cents": 4000,
+   "price_high_cents": 4500,
+   "available": true,
+   "raw": {
+    "description": "<p>Materials: 18/8 stainless steel, BPA-free plastic lid, inner ceramic coating</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2BLNCMFMOQI23VPLSVMNQW6D",
+   "name": "Kenya // Kiambu Handege Special Special",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "<p>Flavor Notes: Arnold Palmer and Baking Spice</p><p>This coffee comes from a washing station located at the base of Mount Kenya called the Kangunu Coffee Factory where a collective of farmers gather to process their coffees. The farmers are encouraged to become members of a cooperative, which markets and sells coffee on the whole communities behalf.</p><p>This region is known for their 72 hour fermentation process that continually utilizes fresh water to remove any lingering fruit. The water is sourced from the nearby Kangunu stream and placed into reservoir tanks by electrical pumps. For this wet-processing method, the factory uses a disc pulper with three sets of discs to remove the skin and fruit from the inner parchment layer that is protecting the green coffee bean. After pulping, the coffee is fermented overnight to break down the sugars, before it is cleaned, soaked and spread out on the raised drying tables and can take anywhere from 7-15 days to dry.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MZCWONIZDBDBDOPTANV76UAA",
+   "name": "Colombia / Manos Juntas Micromill Natural",
+   "category": "Online Menu",
+   "price_cents": 2100,
+   "price_low_cents": 2100,
+   "price_high_cents": 2100,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5SK4X33UAOYNZRIENS24LMXR",
+   "name": "Costa Rica // Finca San Calletano Honey",
+   "category": "Online Menu",
+   "price_cents": 2300,
+   "price_low_cents": 2300,
+   "price_high_cents": 2300,
+   "available": true,
+   "raw": {
+    "description": "<p>The Alto San Juan Micromill is a family farm that has been brought to life by its current young owner, Diego Abarca, as he turns it into a thriving business. As Alto San Juan continues to grow, they have been able to experiment with coffees while having better control over their product. This allows them to not only concentrate on washed coffees but experiment with honey and natural processes, as well. We are excited to join them on this journey by offering their Honey process, grown at 1600 masl, and look out for a Natural process from the San Juan Micromill in the near future.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "X5U7G6J43PRWB7RHPYCDC2O5",
+   "name": "SMALL Chocolate Chip Cookie",
+   "category": "Online Menu",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "E4RCZBNJTSL5UROHB4C72EUG",
+   "name": "Mayana - Bear Hug Bar",
+   "category": "Online Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "<p>Mayana x Dogwood Collab! A full-size candy bar with a graham cracker base, Bear Hug infused caramel and nougat, smothered in dark chocolate and topped with the most adorable little teddy graham.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "O2MSASOTRX5PE2W6VNR3ICOZ",
+   "name": "Instant Coffee - Kenya",
+   "category": "Online Menu",
+   "price_cents": 2300,
+   "price_low_cents": 2300,
+   "price_high_cents": 2300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZAAJMJZOXHV5NTBZI5KFC2OV",
+   "name": "Vietnam // Dung K'no",
+   "category": "Online Menu",
+   "price_cents": 2100,
+   "price_low_cents": 2100,
+   "price_high_cents": 2100,
+   "available": true,
+   "raw": {
+    "description": "<p>Chocolate &amp; Hazelnut</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KPUVB74MQKNJ5KDWZG2HNVG3",
+   "name": "Uganda Okeyu Natural",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Berry Cereal + White Chocolate</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZO4WZ65FBYHUDWYFZFFJ3QGN",
+   "name": "Red Wolf Chai Latte",
+   "category": "Online Menu",
+   "price_cents": 495,
+   "price_low_cents": 495,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "<p>This East African Chai is a Kenyan black tea base spiced with cloves, cinnamon and cardamom.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GRBTCOHSAWJJ3VUFJN2UFADP",
+   "name": "Apple Cider",
+   "category": "Online Menu",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 495,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZSNLBPC325VDSJUKNAIBTHAD",
+   "name": "Wildflyer",
+   "category": "Online Menu",
+   "price_cents": 1600,
+   "price_low_cents": 1600,
+   "price_high_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NBR2GPI7G7QGY46GS4SBYID4",
+   "name": "12oz Northstar Kombucha Bottle",
+   "category": "Online Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6VAJDE75U52LL3GCFMWZHKK3",
+   "name": "Costa Rica Finca San Calletano Natural",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p><em>cranberry + kiwi + sweet candies</em></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JRKCRXRZY7FS6AQAYPTGKC2C",
+   "name": "Mexico Roberto Pedro Perez Vasquez Special Special",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "<p>Almond &amp; Limoncello</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CFI5B5XUK3EDHR7XPPYD5PVR",
+   "name": "Lakota Tea",
+   "category": "Online Menu",
+   "price_cents": 395,
+   "price_low_cents": 395,
+   "price_high_cents": 395,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YG4LPN4EFPEWXDSCRMFAXSIU",
+   "name": "Dripping Root Dreams Blend",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Tropical, Juicy, Chocolate</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LWWHZXETAGU5QWXACYODHRH5",
+   "name": "Poodle Hat",
+   "category": "Online Menu",
+   "price_cents": 6500,
+   "price_low_cents": 6500,
+   "price_high_cents": 6500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JBZYK333IIDTCR4F2XY57PC4",
+   "name": "Barista Warrior Kettle",
+   "category": "Online Menu",
+   "price_cents": 3000,
+   "price_low_cents": 3000,
+   "price_high_cents": 4000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BREF7KYUQEIDIM5BWANH4VQN",
+   "name": "Fellow Filters",
+   "category": "Online Menu",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "IV7PJLYJCOCLQSGG2D2LBQQ4",
+   "name": "Colombia Verano Tropical",
+   "category": "Online Menu",
+   "price_cents": 2600,
+   "price_low_cents": 2600,
+   "price_high_cents": 2600,
+   "available": true,
+   "raw": {
+    "description": "<p>Peach Rings + Fruit Cake</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "VDKQELT3R26ZLIJV3DAMYXRT",
+   "name": "Ivory Pocket Tee",
+   "category": "Online Menu",
+   "price_cents": 3200,
+   "price_low_cents": 3200,
+   "price_high_cents": 3200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MVLUITKQEVPRFJD3HJJB6ARO",
+   "name": "A.O.L.",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>Almond Orange Latte topped with Cinnamon</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZNKQUTHZSYQ4KDO2HGZ2SMID",
+   "name": "Kenya Kagumoini",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "<p><em>caramel, brown sugar</em></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RU2MPRPVWRJAEAYRKBQP7BJJ",
+   "name": "Coffee For Others Tote",
+   "category": "Online Menu",
+   "price_cents": 4000,
+   "price_low_cents": 4000,
+   "price_high_cents": 4000,
+   "available": true,
+   "raw": {
+    "description": "<p><em>Made from a unique blend of recycled scraps and sustainably sourced cotton, developed in partnership with a family factory in Colombia that supports a fair-wage workforce and closed-loop supply chain.</em></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "AHCITMCK4GQTPUSNS5ZMI336",
+   "name": "Makwa Wool Beanies",
+   "category": "Online Menu",
+   "price_cents": 5500,
+   "price_low_cents": 5500,
+   "price_high_cents": 5500,
+   "available": true,
+   "raw": {
+    "description": "<p><em>Handmade in Minnesota | 100% wool</em></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "55Z6IBWAT7ZK4XN4AQNGN4IE",
+   "name": "Caw-Caw Cawfee Blend",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Notes: Caramel + Fruity</p><p>Coffee For Other Shelf running the month of March! In partnership with Minneapolis City Soccer Club.\u00a0</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3YP6TSSYK36YBYIP6O3NV25R",
+   "name": "Colombia // Isidro Silva Special Special",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "<p><em>pecan + wild berry</em></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HXVRFPCOXB3WLATMAMRIDQHN",
+   "name": "Rwanda Gisheke",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>Apple blossom/Grape Jelly</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "N3JXV7T47K763AXYGAKPNMWG",
+   "name": "You're So Golden",
+   "category": "Online Menu",
+   "price_cents": 495,
+   "price_low_cents": 495,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "<p>Sparkling Water, Turmeric Ginger Concentrate, Lemonade Syrup and Rose Petals</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6QBFS7IM3TKVHYNJ4KMXNCHK",
+   "name": "Colombia Flor Venegas",
+   "category": "Online Menu",
+   "price_cents": 2600,
+   "price_low_cents": 2600,
+   "price_high_cents": 2600,
+   "available": true,
+   "raw": {
+    "description": "<p>Clementine Marmalade, Puff pastry</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5JMRP4KYONQXNSKZHKRWQTX7",
+   "name": "Brazil Fazenda Passeio",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Hazelnut &amp; Cherry</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CU4EJOAWZKU6SSB4JBRSY5L6",
+   "name": "Green Embroidered Tee",
+   "category": "Online Menu",
+   "price_cents": 3200,
+   "price_low_cents": 3200,
+   "price_high_cents": 3200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GWLAILXGC5MYVDYV2VZ3MPAU",
+   "name": "Character Crewneck",
+   "category": "Online Menu",
+   "price_cents": 6000,
+   "price_low_cents": 6000,
+   "price_high_cents": 6000,
+   "available": true,
+   "raw": {
+    "description": "<p>Original artwork in navy blue on dusty pink\u00a0crewneck sweatshirt.\u00a0Soft, medium weight,\u00a0cotton and polyester blend.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BU4NNQRH75MLHE2L36HSM3WC",
+   "name": "Chia Pudding",
+   "category": "Online Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UAFWD46XHTPD3J6X7B6YYLR7",
+   "name": "Ethiopia Kayon Mt.",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>Grape + Acacia</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SNYI7SJ26WOLOR67VRNJ7THG",
+   "name": "Kenya Karindundu",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "<p>fudge brownie + apricot</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "U3L6E7K4ACIGCLPK77J4QWYJ",
+   "name": "Strawberry Feta Salad",
+   "category": "Online Menu",
+   "price_cents": 725,
+   "price_low_cents": 725,
+   "price_high_cents": 725,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "R5U7DZVUAYDCU434Q2ZBMT3M",
+   "name": "Tulip Glass, 13 oz",
+   "category": "Online Menu",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RQWDVNLKKNTPGN4KRIY3ZTD2",
+   "name": "Sol of the Cities Blend",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Milk Chocolate, Stone Fruit and Almond Notes</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "Z32U2YNAUJFUR24JM53XVFFN",
+   "name": "Instant Coffee - Ethiopia Reko",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>Blackberry &amp; Molasses</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "PAHQZV32M6ZDMNWCRWP6FESR",
+   "name": "Mexico Alejandro Martinez",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>plum and turbinado sugar</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "CPOUOE7WU566E6YPUA3FWQJQ",
+   "name": "Nicaragua La Llamarada",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>Black Raspberry Jelly Donut</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SIRHBO4WG5NAICS37WJNWDU7",
+   "name": "Synch Tec DW Hat",
+   "category": "Online Menu",
+   "price_cents": 3000,
+   "price_low_cents": 3000,
+   "price_high_cents": 3000,
+   "available": true,
+   "raw": {
+    "description": "<p>Synch Tec X Dogwood! A beanie and a neck gator in one!</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MMHRPSIVRXHYKQFXGHI3BBI6",
+   "name": "Dogtown Mug",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "P2XITOH6DZEUJTI2GBMFB2SM",
+   "name": "Sweet Ren Crew Neck",
+   "category": "Online Menu",
+   "price_cents": 5500,
+   "price_low_cents": 5500,
+   "price_high_cents": 5500,
+   "available": true,
+   "raw": {
+    "description": "<p>All proceeds go towards Sweet Ren!!</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7QLKXQYIGHXHA2URJ7XX4YEN",
+   "name": "Biocaf Cleaning Powder Packets",
+   "category": "Online Menu",
+   "price_cents": 1200,
+   "price_low_cents": 1200,
+   "price_high_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "TSTILXOBQCXW26N3JQEFRQCD",
+   "name": "Bolivia Illimani",
+   "category": "Online Menu",
+   "price_cents": 2100,
+   "price_low_cents": 2100,
+   "price_high_cents": 2100,
+   "available": true,
+   "raw": {
+    "description": "<p>molasses &amp; walnut</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UGSO36RM4URNA5S2U7QV6KC6",
+   "name": "Burundi Nyagishiru Natural",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>Raspberry &amp; Pink Lemonade</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MT7OV2IP2TZBGM2DZBXRBZMI",
+   "name": "Dogwood Nalgene",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YIIQAVZI2Q7JT2RFRHJ2COS3",
+   "name": "Grey Bear Hug Crewneck",
+   "category": "Online Menu",
+   "price_cents": 4500,
+   "price_low_cents": 4500,
+   "price_high_cents": 4500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5YSA2M444M66XPJ22HHNFGVI",
+   "name": "Miseducation Blend - Sweet Ren",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ESPWTOITPWIAOHM5JQACGZKB",
+   "name": "Brazil Das Almas",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>Raspberry &amp; Candy Hearts</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "67G6QU5DZFHHZFBPCYRBL4MJ",
+   "name": "Burundi Businde Masau",
+   "category": "Online Menu",
+   "price_cents": 2100,
+   "price_low_cents": 2100,
+   "price_high_cents": 2100,
+   "available": true,
+   "raw": {
+    "description": "<p>Mandarin Orange &amp; Clove</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "U6D6XZ7OEBVFY7SR443B7BCO",
+   "name": "AAA Colombia Andrade",
+   "category": "Online Menu",
+   "price_cents": 2700,
+   "price_low_cents": 2700,
+   "price_high_cents": 2700,
+   "available": true,
+   "raw": {
+    "description": "<p>Plum + Molasses</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DVQVB6TMO7ELPLTHKIWJCJ2D",
+   "name": "Dogwood Canoe Tee",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HRWVUPTCU4U5KV3B7TMXP2BN",
+   "name": "Ethiopia Reko",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>Lemon + Jasmine</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4DCWVGTWEEBTY7N3LL3ZBBMV",
+   "name": "Flores Tuang",
+   "category": "Online Menu",
+   "price_cents": 2300,
+   "price_low_cents": 2300,
+   "price_high_cents": 2300,
+   "available": true,
+   "raw": {
+    "description": "<p>Toffee &amp; Chocolate</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "WGH72QVRORSS2236IPSHMZST",
+   "name": "Park Pass Blend",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7BNETZUSGGJTT4IO6MOHWTJJ",
+   "name": "Ethiopia Naga Singage",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>sweet tea &amp; burnt sugar</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "RYSBJGQJJAZFOIN5UIPEDWUU",
+   "name": "MiiR Navy Camp Cup",
+   "category": "Online Menu",
+   "price_cents": 3500,
+   "price_low_cents": 3500,
+   "price_high_cents": 3500,
+   "available": true,
+   "raw": {
+    "description": "<p>travel mug with canoe illustration</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UPSGDKEIDUJIAUVJSW3MDXN3",
+   "name": "Burundi Masha",
+   "category": "Online Menu",
+   "price_cents": 2100,
+   "price_low_cents": 2100,
+   "price_high_cents": 2100,
+   "available": true,
+   "raw": {
+    "description": "<p>grapefruit &amp; burnt sugar</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NWBNVC36SLNRZGOKOFFTPOVE",
+   "name": "Rec League",
+   "category": "Online Menu",
+   "price_cents": 1950,
+   "price_low_cents": 1950,
+   "price_high_cents": 1950,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7GBZ6CCE7CG62FPKTJJWJ5TY",
+   "name": "Dogwood Logo Cap",
+   "category": "Online Menu",
+   "price_cents": 3000,
+   "price_low_cents": 3000,
+   "price_high_cents": 3000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OMCBYCG4XI7KEKPQTDEDRYRU",
+   "name": "El Salvador Mauricio Salaverria",
+   "category": "Online Menu",
+   "price_cents": 2700,
+   "price_low_cents": 2700,
+   "price_high_cents": 2700,
+   "available": true,
+   "raw": {
+    "description": "<p>blackberry &amp; red wine</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NXLH5DJRYJ57OFKPWRVCLU6R",
+   "name": "Niko Niko Boba Tea",
+   "category": "Online Menu",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "<p>Niko NIko Hawaiian Fruit Tea with Mango Popping Pearls</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "H2S76PSEMBOFTZ4QSLEGJI4D",
+   "name": "Instant Coffee - Panorama",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZD6NXUOZKWTKEZIXBJKXAVPY",
+   "name": "Tap 3 Leche",
+   "category": "Online Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5PI74544V5DRS73IQ6EFNLAB",
+   "name": "Decaf Peru",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SD7CLCOS4W26YLRY6N7BU7NA",
+   "name": "Rec League TAP",
+   "category": "Online Menu",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MMOKU7SGLHQYJ5OII6TA52IJ",
+   "name": "Ethiopia Gora Kone",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LG6NQ7GEFE2P26EUMF42ESUR",
+   "name": "Chomps",
+   "category": "Online Menu",
+   "price_cents": 295,
+   "price_low_cents": 295,
+   "price_high_cents": 295,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DJ763XV6UAR4PYEX5DUWYT3Y",
+   "name": "Kenya Kamwangi Special",
+   "category": "Online Menu",
+   "price_cents": 2500,
+   "price_low_cents": 2500,
+   "price_high_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "<p>papaya &amp; grapefruit</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HCZSJGPMJ2ML5BD3M7J45GRP",
+   "name": "Guatemala Cafe Palmira",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Cocoa + Lime</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MKIPVPAH4XVCNI4ELCMWURQD",
+   "name": "Reclaim Blend",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Colombia + Mexico. Notes: Snickers</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EXSZ2V6OB7Z4LIMIBHZZ3WZR",
+   "name": "Opus Fellow Grinder",
+   "category": "Online Menu",
+   "price_cents": 19500,
+   "price_low_cents": 19500,
+   "price_high_cents": 19500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2AW3MKKR72JB6ISD7NCCZTOJ",
+   "name": "3leche",
+   "category": "Online Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JUGWQGOZ4GPWD23CIQHMQAM5",
+   "name": "El Salvador Amate Honey",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>black current &amp; berry tart</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ALWMAUWDKHXL5PLWCW2NRHVT",
+   "name": "El Salvador Mano Del Puma Natural",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>strawberry &amp; rhubarb</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "37YRZ6OQVW3CSWRPTKSVGTQA",
+   "name": "Dogwood Dogsled Tee",
+   "category": "Online Menu",
+   "price_cents": 3500,
+   "price_low_cents": 3500,
+   "price_high_cents": 3500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BUPGREB2AXEUY4SE2O4RMPS2",
+   "name": "DAP Blend",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Caramel &amp; Blueberry Pie</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4SIKIR6BH6UN6CV5UA63AUG3",
+   "name": "Ethiopia Sasaba Natural",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "<p>Meyer Lemon &amp; Blueberry</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UQJXSDSPVYM7NX2V43T76MJC",
+   "name": "Nicaragua La Llamarada Natural",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>Black Raspberry Jelly Donut</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SGDSKULC4CIGJE5KQM6MQRG5",
+   "name": "Nicaragua La Llamarada Washed",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>Concord Grape &amp; Sweet Cream</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "GSHIRSL27QP5ASDJUKTSTX7L",
+   "name": "Dogwood Trucker Hat",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "JAGUD63MGUC5L4TLDBUPIXQV",
+   "name": "Aiden Fellow Brewer",
+   "category": "Online Menu",
+   "price_cents": 36500,
+   "price_low_cents": 36500,
+   "price_high_cents": 36500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "SXFG3XQRBZIALMYETF2LPQMV",
+   "name": "Canned Rec League",
+   "category": "Online Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5HUVFDZASKOUXO5IKBJU3XDJ",
+   "name": "UGANDA RWENZORI - NATURAL",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>&#34;Crunch Berries &amp; Cherry Pie&#34;</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "P2CEJJOVEWI6NLZML66AVV6A",
+   "name": "Instant Coffee - Snow Emergency",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FXHY7SQ7BK7KAQWJPOH6SNNY",
+   "name": "Dry Wit 6oz Tap",
+   "category": "Online Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "<p>Bruce: The red one. Peppery ripe fruit has a lingering dry finish</p><p>Salinger: Generous acidity to stimulate the appetite and cleanse the palate.</p><p>Pippi: Light, effervescent &amp; bright with acidity.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "UJ4VY6GQTZ625RZU66TQR4I6",
+   "name": "Dry Wit Bottle 750ml",
+   "category": "Online Menu",
+   "price_cents": 3000,
+   "price_low_cents": 3000,
+   "price_high_cents": 3000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7UUVJGMXD7LBLXRD7DHKMCIV",
+   "name": "Puffy Logo Hoodie (Black)",
+   "category": "Online Menu",
+   "price_cents": 5000,
+   "price_low_cents": 5000,
+   "price_high_cents": 5000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "W4INYWPLPLTZCGL6CH7Q7K45",
+   "name": "Brazil Sitio Santa Catarina - Special Special",
+   "category": "Online Menu",
+   "price_cents": 2600,
+   "price_low_cents": 2600,
+   "price_high_cents": 2600,
+   "available": true,
+   "raw": {
+    "description": "<p><strong>Anaerobic Natural</strong></p><p><em>Notes: Chocolate Mousse &amp; Key Lime Pie</em></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "OHLQ64TLFCBCJT2K6NKAW4JT",
+   "name": "Colombia Red Sun - Semi Washed",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>Chocolate Malt &amp; Red Velvet</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "KOYID2II7D2AKQHR3ITXQPH6",
+   "name": "Rwanda Kilimbi",
+   "category": "Online Menu",
+   "price_cents": 2000,
+   "price_low_cents": 2000,
+   "price_high_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "<p>Oolong Tea &amp; Oatmeal Raisin</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ZB2O4NYYEXOPNL7H3BQGRHGH",
+   "name": "Decaf Ethiopia",
+   "category": "Online Menu",
+   "price_cents": 2200,
+   "price_low_cents": 2200,
+   "price_high_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "M5LRQ3SKCBOT5FTHYGOSQ5XH",
+   "name": "DW Logo Tote",
+   "category": "Online Menu",
+   "price_cents": 3800,
+   "price_low_cents": 3800,
+   "price_high_cents": 3800,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2KUTBEV2FTZPCO3JE7IU34BK",
+   "name": "Add Flavor",
+   "category": "Online Menu",
+   "price_cents": 0,
+   "price_low_cents": 0,
+   "price_high_cents": 55,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EBW5PXE3GGTJHZ2EKL5VARJS",
+   "name": "Bali Karana - Washed",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>&#34;<em>Cardamom + Orange&#34;</em></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "X72KR3AGACZZ7MBTZLHG4UZV",
+   "name": "Bali Karana - Natural",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>&#34;<em>Hot Chocolate + Cranberry&#34;</em></p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EQSCBORZJC2PCTOKIVRDEIIR",
+   "name": "Honduras Roger Dominguez Washed Gesha",
+   "category": "Online Menu",
+   "price_cents": 3200,
+   "price_low_cents": 3200,
+   "price_high_cents": 3200,
+   "available": true,
+   "raw": {
+    "description": "<p>Notes: Clementine + Chocolate Truffles</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6HLXKS74H7HSNNR7HJBWZOSM",
+   "name": "Diet Coke 12oz. Can",
+   "category": "Online Menu",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 175,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "YS6IU2E2WSKZ5ZLTEL7JO6EP",
+   "name": "Burundi Hafi Natural",
+   "category": "Online Menu",
+   "price_cents": 2400,
+   "price_low_cents": 2400,
+   "price_high_cents": 2400,
+   "available": true,
+   "raw": {
+    "description": "<p>Cherry Cordial + Limeade</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "FSR3CV6VJSPCQWN7KKRKWLHA",
+   "name": "Loonar Eclipse",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6RYGP4Y3DW3K6M5NLUYSUAZ2",
+   "name": "Colombia Ivan Giraldo - Extended Fermentation - Washed",
+   "category": "Online Menu",
+   "price_cents": 2300,
+   "price_low_cents": 2300,
+   "price_high_cents": 2300,
+   "available": true,
+   "raw": {
+    "description": "<p>Lemon Lime Soda + Grapefruit</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6YP7TXMJPKMXSTAV23QWOHOL",
+   "name": "Corduroy Cap",
+   "category": "Online Menu",
+   "price_cents": 3000,
+   "price_low_cents": 3000,
+   "price_high_cents": 3000,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HEIOB3HKHCWZ6DKBTAMTGED7",
+   "name": "Kenya Gondo Washed",
+   "category": "Online Menu",
+   "price_cents": 2300,
+   "price_low_cents": 2300,
+   "price_high_cents": 2300,
+   "available": true,
+   "raw": {
+    "description": "<p>Medjool Date + Tomatillo</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "HUUSXCEE43YDZVZJBEZD54L4",
+   "name": "Ecuador Finca Terrazas Del Pisque Washed - Special Special",
+   "category": "Online Menu",
+   "price_cents": 2600,
+   "price_low_cents": 2600,
+   "price_high_cents": 2600,
+   "available": true,
+   "raw": {
+    "description": "<p>Papaya + Sweet Tea</p><p>6 oz retail can</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "DFGK7OOPC2W3QQWH7RXFFL7R",
+   "name": "Ethiopia Bishan Dimo Washed",
+   "category": "Online Menu",
+   "price_cents": 2300,
+   "price_low_cents": 2300,
+   "price_high_cents": 2300,
+   "available": true,
+   "raw": {
+    "description": "<p>Jasmine + Honeysuckle</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MEMQOWH45N2Q7OMCJFPOUHHR",
+   "name": "Peru - Oscar Abad - Gesha Washed Special Special - 6oz",
+   "category": "Online Menu",
+   "price_cents": 1700,
+   "price_low_cents": 1700,
+   "price_high_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "<p>Fruity Pebbles + Strawberries</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MV6UDJGLRIKCS5QP65XVUAVH",
+   "name": "Golden Milk",
+   "category": "Online Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6BK3ZDQG5KHE4LCAGKPKHBLN",
+   "name": "Short Stack (contains dairy)",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>Brown butter syrup with pancake oat cold foam. \u00a0(contains dairy)</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "MWQC2WDSQDNNSBXNWFOLPREO",
+   "name": "Gibraltar / Cortado",
+   "category": "Online Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7G2VF6OVTVAV3N6VHDOHO3IC",
+   "name": "Yuzu Sparkling Matcha (16oz)",
+   "category": "Online Menu",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>LARGE - One size</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7IZUYBUUNQYZA236VADNQ4OF",
+   "name": "BluZuAde",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "BOS4RFK775CAJMQUAUOKSI3V",
+   "name": "Cherry Limeade Cold Brew",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "EWO2JUQ5KPVZFKXDNGMTXVGY",
+   "name": "Diablesse",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>Fig, cherry, ginger, and chicory root cold brew topped with inferno bitters.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LLNZS4RSMZGZQD7KCRCBBBU2",
+   "name": "Sparkling Peach White Tea",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>Kegged white tea with Basil-Vanilla Syrup</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LQCX5MB3ASNSQUC2DOJ3VEN7",
+   "name": "Amber's Drink",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "<p>Homestyle Cornbread Matcha</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "LRHVE46PB6AXGXELAAXUCLSS",
+   "name": "Matcha in Bloom",
+   "category": "Online Menu",
+   "price_cents": 695,
+   "price_low_cents": 695,
+   "price_high_cents": 695,
+   "available": true,
+   "raw": {
+    "description": "<p>Hibiscus Matcha with Jasmine mist for a garnish</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "M4CPHPL7DPYPMOW6YFYMHZF6",
+   "name": "Darioush - Persian Chai",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "<p>&#34;DAR-yoosh&#34;</p><p>Served in 12oz clear glass mug.</p><p>Garnished with rose petals and crystalline sugar.</p>"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "NC4CVTYQUM3UZOVRROAMZI2D",
+   "name": "Miso Butterscotch Latte (9oz) *contains dairy",
+   "category": "Online Menu",
+   "price_cents": 595,
+   "price_low_cents": 595,
+   "price_high_cents": 595,
+   "available": true,
+   "raw": {
+    "description": "<p>Served in 9oz Black cupping bowls on saucer</p>"
+   },
+   "modifiers": []
+  }
+ ]
+}
