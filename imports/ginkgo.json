@@ -148,58 +148,6 @@
    ]
   },
   {
-   "platform_item_id": "30506831_32441496",
-   "name": "Anne Hills, Sept 11",
-   "category": "Concerts",
-   "price_cents": 2399,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "Anne Hills Live \n7:30 pm\nFriday, Sept 11"
-   },
-   "modifiers": []
-  },
-  {
-   "platform_item_id": "30704172_32639896",
-   "name": "Michelle Shocked, Sept 22",
-   "category": "Concerts",
-   "price_cents": 3499,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "LIve.  7 pm, Tuesday, Sept 22"
-   },
-   "modifiers": []
-  },
-  {
-   "platform_item_id": "30704387_32640111",
-   "name": "Eclectics/Triple Fiddle, Oct. 4, 7:30 pm",
-   "category": "Concerts",
-   "price_cents": 2399,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "A great night with two talented musical groups!"
-   },
-   "modifiers": []
-  },
-  {
-   "platform_item_id": "30870805_32807671",
-   "name": "Cary Morin Duo, Oct 3 (Ticket)",
-   "category": "Concerts",
-   "price_cents": 2899,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "Don't miss this CD release show!\n7:30 pm.\nThis show is part of the Midway Music & Arts Fest"
-   },
-   "modifiers": []
-  },
-  {
    "platform_item_id": "4691071_5617172",
    "name": "2 Egg Scrambler with Cheese",
    "category": "Breakfast",
@@ -310,145 +258,6 @@
      "group_name": "Cheese Selection | Breakfast",
      "choice_name": "No Cheese",
      "price_delta_cents": 0
-    }
-   ]
-  },
-  {
-   "platform_item_id": "4691096_5617200",
-   "name": "Breakfast Sandwich",
-   "category": "Breakfast",
-   "price_cents": 799,
-   "price_low_cents": null,
-   "price_high_cents": null,
-   "available": true,
-   "raw": {
-    "description": "Fresh egg and cheese on your choice of bread."
-   },
-   "modifiers": [
-    {
-     "group_name": "Bread Selection | Breakfast Sandwich",
-     "choice_name": "Bagel",
-     "price_delta_cents": 0
-    },
-    {
-     "group_name": "Bread Selection | Breakfast Sandwich",
-     "choice_name": "English Muffin",
-     "price_delta_cents": 0
-    },
-    {
-     "group_name": "Bread Selection | Breakfast Sandwich",
-     "choice_name": "Toast",
-     "price_delta_cents": 0
-    },
-    {
-     "group_name": "Bread Selection | Breakfast Sandwich",
-     "choice_name": "Croissant",
-     "price_delta_cents": 145
-    },
-    {
-     "group_name": "Bread Selection | Breakfast Sandwich",
-     "choice_name": "Gluten- Free Toast",
-     "price_delta_cents": 160
-    },
-    {
-     "group_name": "Cheese Selection | Breakfast",
-     "choice_name": "Swiss",
-     "price_delta_cents": 0
-    },
-    {
-     "group_name": "Cheese Selection | Breakfast",
-     "choice_name": "Cheddar",
-     "price_delta_cents": 0
-    },
-    {
-     "group_name": "Cheese Selection | Breakfast",
-     "choice_name": "Provolone",
-     "price_delta_cents": 0
-    },
-    {
-     "group_name": "Cheese Selection | Breakfast",
-     "choice_name": "No Cheese",
-     "price_delta_cents": 0
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Avocado",
-     "price_delta_cents": 105
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Bacon",
-     "price_delta_cents": 110
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Sausage",
-     "price_delta_cents": 110
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Turkey Sasuage",
-     "price_delta_cents": 130
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Ham",
-     "price_delta_cents": 90
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Turkey",
-     "price_delta_cents": 90
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Extra Egg",
-     "price_delta_cents": 90
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Extra Cheese",
-     "price_delta_cents": 70
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Salsa",
-     "price_delta_cents": 60
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Sour Cream",
-     "price_delta_cents": 60
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Onions",
-     "price_delta_cents": 35
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Green Peppers",
-     "price_delta_cents": 35
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Tomato",
-     "price_delta_cents": 35
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Mushrooms",
-     "price_delta_cents": 35
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Spinach",
-     "price_delta_cents": 35
-    },
-    {
-     "group_name": "Add-Ons | Breakfast",
-     "choice_name": "Cream Cheese",
-     "price_delta_cents": 105
     }
    ]
   },
@@ -686,7 +495,7 @@
   },
   {
    "platform_item_id": "4691191_5617299",
-   "name": "Toast | Gluten-Free",
+   "name": "Toast",
    "category": "Breakfast",
    "price_cents": 599,
    "price_low_cents": null,
@@ -1766,7 +1575,7 @@
   },
   {
    "platform_item_id": "4691574_5617849",
-   "name": "Latte | Smoothies",
+   "name": "Latte",
    "category": "Smoothies",
    "price_cents": 899,
    "price_low_cents": null,
@@ -1915,7 +1724,7 @@
   },
   {
    "platform_item_id": "4691577_5617852",
-   "name": "Mocha | Smoothies",
+   "name": "Mocha",
    "category": "Smoothies",
    "price_cents": 899,
    "price_low_cents": null,
@@ -1928,7 +1737,7 @@
   },
   {
    "platform_item_id": "4691579_5617854",
-   "name": "Chai | Smoothies",
+   "name": "Chai",
    "category": "Smoothies",
    "price_cents": 899,
    "price_low_cents": null,
