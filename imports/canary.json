@@ -1,0 +1,221 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://canarycoffeebar.com/coffee-menu",
+ "shops": [
+  {
+   "id": 31,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "House Coffee (To Stay)",
+   "category": "House Coffee",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "House Coffee (To Go)",
+   "category": "House Coffee",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Espresso / Americano",
+   "category": "Coffee Drinks",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cappuccino / Cortado",
+   "category": "Coffee Drinks",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Pour Over",
+   "category": "Coffee Drinks",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Coffee Flight (see barista for list)",
+   "category": "Coffee Drinks",
+   "price_cents": 1600,
+   "price_low_cents": 1600,
+   "price_high_cents": 1600,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Latte",
+   "category": "Latte",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Add flavoring",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Substitute almond or oat milk",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chai",
+   "category": "Not Coffee",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Hot Chocolate",
+   "category": "Not Coffee",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Steamer",
+   "category": "Not Coffee",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Hand Pie",
+   "category": "Bakery",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Savory Hand Pie",
+   "category": "Bakery",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Savory Scone",
+   "category": "Bakery",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Muffin / Scone / Cookie",
+   "category": "Bakery",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Brownie Corner",
+   "category": "Bakery",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Avocado Tartine",
+   "category": "Tartines",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Ham Tartine",
+   "category": "Tartines",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Trout Tartine",
+   "category": "Tartines",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  }
+ ]
+}
