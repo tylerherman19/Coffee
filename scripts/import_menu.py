@@ -19,7 +19,19 @@ import sys
 from pathlib import Path
 from typing import Any
 
+import requests
+
 from collect import Supabase, classify_name, parse_size
+
+
+def write(fn, *args):
+    # Run a Supabase write, surfacing the response body on failure.
+    try:
+        return fn(*args)
+    except requests.HTTPError as exc:
+        status = exc.response.status_code if exc.response is not None else "?"
+        body = exc.response.text[:500] if exc.response is not None else "<no response>"
+        raise RuntimeError(f"Supabase write failed ({status}): {body}") from exc
 
 BATCH = 400
 
@@ -87,29 +99,37 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
             elif item.get("current_price_cents") != entry["price_cents"]:
                 changed_obs.append({**obs, "item_id": item["id"], "_entry": entry})
                 if not dry_run:
-                    db.patch("items", f"id=eq.{item['id']}", values)
+                    write(db.patch, "items", f"id=eq.{item['id']}", values)
             else:
                 unchanged_ids.append(item["id"])
 
         id_by_pid: dict[str, int] = {}
         if not dry_run:
-            db.patch("shops", f"id=eq.{shop_id}", shop_patch)
+            try:
+                write(db.patch, "shops", f"id=eq.{shop_id}", shop_patch)
+            except RuntimeError as exc:
+                if "platform" in shop_patch:
+                    print(f"shop {shop_id}: platform value rejected ({exc}); retrying without platform")
+                    shop_patch.pop("platform", None)
+                    write(db.patch, "shops", f"id=eq.{shop_id}", shop_patch)
+                else:
+                    raise
             for batch in chunked(new_rows):
-                for created in db.post("items", batch):
+                for created in write(db.post, "items", batch):
                     id_by_pid[created["platform_item_id"]] = created["id"]
             def clean(obs: dict[str, Any]) -> dict[str, Any]:
                 return {k: v for k, v in obs.items() if not k.startswith("_")}
             obs_rows = [{**clean(obs), "item_id": id_by_pid[obs["_pid"]]} for obs in new_entries]
             obs_rows += [clean(obs) for obs in changed_obs]
             for batch in chunked(obs_rows):
-                db.post("observations", batch)
+                write(db.post, "observations", batch)
             if unchanged_ids:
                 ids = ",".join(str(i) for i in unchanged_ids)
-                db.patch("items", f"id=in.({ids})", {"last_checked_at": now, "last_seen": today})
+                write(db.patch, "items", f"id=in.({ids})", {"last_checked_at": now, "last_seen": today})
             removed = [item["id"] for item in existing if item["platform_item_id"] not in seen and not item.get("removed_at")]
             if removed:
                 ids = ",".join(str(i) for i in removed)
-                db.patch("items", f"id=in.({ids})", {"removed_at": today})
+                write(db.patch, "items", f"id=in.({ids})", {"removed_at": today})
 
             # Modifiers: keep only rows not already latest for the item.
             mod_rows: list[dict[str, Any]] = []
@@ -126,7 +146,7 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
                     if key not in latest:
                         mod_rows.append({"item_id": item_id, "group_name": mod.get("group_name"), "choice_name": mod["choice_name"], "price_delta_cents": mod["price_delta_cents"], "observed_at": now})
             for batch in chunked(mod_rows):
-                db.post("modifiers", batch)
+                write(db.post, "modifiers", batch)
             print(f"shop {shop_id} ({label}): {len(new_rows)} new, {len(changed_obs)} price changes, {len(unchanged_ids)} unchanged, {len(mod_rows)} modifiers, {len(removed) if not dry_run else 0} removed")
         else:
             removed = [item for item in existing if item["platform_item_id"] not in seen and not item.get("removed_at")]
