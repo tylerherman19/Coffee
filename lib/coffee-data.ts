@@ -11,15 +11,26 @@ const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_
 const PAGE_SIZE = 1000;
 const PARALLEL = 12;
 async function fetchPage<T>(path: string, from: number): Promise<{ rows: T[]; total: number | null }> {
-  const response = await fetch(`${url}/rest/v1/${path}`, {
-    headers: { apikey: key, Authorization: `Bearer ${key}`, 'Accept-Profile': 'coffee', 'Range-Unit': 'items', Range: `${from}-${from + PAGE_SIZE - 1}`, Prefer: 'count=exact' },
-    cache: 'no-store',
-  });
-  if (!response.ok) throw new Error(`Coffee data request failed: ${response.status}`);
-  const rows = (await response.json()) as T[];
-  const range = response.headers.get('content-range') || '';
-  const total = range.includes('/') && !range.endsWith('/*') ? Number(range.split('/')[1]) : null;
-  return { rows, total };
+  // One flaky request (mobile network, edge hiccup) must not sink the whole
+  // load: retry a page twice before giving up.
+  let lastError: unknown = null;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    if (attempt) await new Promise((resolve) => setTimeout(resolve, 600 * attempt));
+    try {
+      const response = await fetch(`${url}/rest/v1/${path}`, {
+        headers: { apikey: key, Authorization: `Bearer ${key}`, 'Accept-Profile': 'coffee', 'Range-Unit': 'items', Range: `${from}-${from + PAGE_SIZE - 1}`, Prefer: 'count=exact' },
+        cache: 'no-store',
+      });
+      if (!response.ok) throw new Error(`Coffee data request failed: ${response.status}`);
+      const rows = (await response.json()) as T[];
+      const range = response.headers.get('content-range') || '';
+      const total = range.includes('/') && !range.endsWith('/*') ? Number(range.split('/')[1]) : null;
+      return { rows, total };
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError;
 }
 async function table<T>(path: string): Promise<T[]> {
   const first = await fetchPage<T>(path, 0);
