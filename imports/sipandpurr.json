@@ -1,0 +1,479 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.sipandpurr.com/_files/ugd/1f1825_4c5bef97c3d04d96b88a099a616c03e8.pdf",
+ "shops": [
+  {
+   "id": 143,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "sp-drip",
+   "name": "Drip",
+   "category": "Coffee",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Alternative Milk (Almond, Oat, Soy)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Syrup (Almond, Caramel, Vanilla, Mocha, White Mocha, Hazelnut, Rose, Pumpkin, Lavender)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "CBD Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sp-latte",
+   "name": "Latte",
+   "category": "Coffee",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Alternative Milk (Almond, Oat, Soy)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Syrup (Almond, Caramel, Vanilla, Mocha, White Mocha, Hazelnut, Rose, Pumpkin, Lavender)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "CBD Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sp-au-lait",
+   "name": "Cafe au Lait",
+   "category": "Coffee",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Alternative Milk (Almond, Oat, Soy)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Syrup (Almond, Caramel, Vanilla, Mocha, White Mocha, Hazelnut, Rose, Pumpkin, Lavender)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "CBD Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sp-americano",
+   "name": "Americano",
+   "category": "Coffee",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Alternative Milk (Almond, Oat, Soy)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Syrup (Almond, Caramel, Vanilla, Mocha, White Mocha, Hazelnut, Rose, Pumpkin, Lavender)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "CBD Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sp-red-eye",
+   "name": "Red Eye",
+   "category": "Coffee",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Alternative Milk (Almond, Oat, Soy)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Syrup (Almond, Caramel, Vanilla, Mocha, White Mocha, Hazelnut, Rose, Pumpkin, Lavender)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "CBD Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sp-chai",
+   "name": "Chai",
+   "category": "Coffee",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Alternative Milk (Almond, Oat, Soy)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Syrup (Almond, Caramel, Vanilla, Mocha, White Mocha, Hazelnut, Rose, Pumpkin, Lavender)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "CBD Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sp-steamer",
+   "name": "Steamer",
+   "category": "Coffee",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-hot-choc",
+   "name": "Hot Chocolate",
+   "category": "Coffee",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-espresso",
+   "name": "Espresso",
+   "category": "Coffee",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-macchiato",
+   "name": "Macchiato",
+   "category": "Coffee",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-cortado",
+   "name": "Cortado",
+   "category": "Coffee",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-cappuccino",
+   "name": "Cappuccino",
+   "category": "Coffee",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Alternative Milk (Almond, Oat, Soy)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Syrup (Almond, Caramel, Vanilla, Mocha, White Mocha, Hazelnut, Rose, Pumpkin, Lavender)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "CBD Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sp-iced-coffee",
+   "name": "Iced Coffee",
+   "category": "Coffee",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-iced-latte",
+   "name": "Iced Latte",
+   "category": "Coffee",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": [
+    {
+     "group_name": "Extras",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Alternative Milk (Almond, Oat, Soy)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "Syrup (Almond, Caramel, Vanilla, Mocha, White Mocha, Hazelnut, Rose, Pumpkin, Lavender)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Extras",
+     "choice_name": "CBD Shot",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "sp-hot-tea",
+   "name": "Hot Tea",
+   "category": "Tea",
+   "price_cents": 225,
+   "price_low_cents": 225,
+   "price_high_cents": 225,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-iced-tea",
+   "name": "Iced Tea (Seasonal)",
+   "category": "Tea",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-apple-cider",
+   "name": "Apple Cider",
+   "category": "Seasonal",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-smores",
+   "name": "S'Mores Hot Chocolate",
+   "category": "Seasonal",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-rose-cardamom",
+   "name": "Rose Cardamom Latte",
+   "category": "Seasonal",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-maple-brown-sugar",
+   "name": "Maple Brown Sugar Latte",
+   "category": "Seasonal",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-lemonade",
+   "name": "Lemonade",
+   "category": "More",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Berry, Lavender +.50"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-oj",
+   "name": "Orange Juice",
+   "category": "More",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "sp-milk",
+   "name": "Milk",
+   "category": "More",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  }
+ ]
+}
