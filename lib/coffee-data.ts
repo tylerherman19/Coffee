@@ -65,14 +65,14 @@ export async function loadCoffeeData(): Promise<CoffeeData> {
   return { shops, items, loadedAt };
 }
 
-export const drinkLabels: Record<string, string> = { latte: 'Latte', caramel_latte: 'Caramel latte', cappuccino: 'Cappuccino', espresso: 'Espresso', americano: 'Americano', drip: 'Drip coffee', cold_brew: 'Cold brew', mocha: 'Mocha', chai: 'Chai', tea: 'Tea', other: 'Other coffee' };
+export const drinkLabels: Record<string, string> = { latte: 'Latte', caramel_latte: 'Caramel latte', cappuccino: 'Cappuccino', espresso: 'Espresso', macchiato: 'Macchiato', americano: 'Americano', drip: 'Drip coffee', cold_brew: 'Cold brew', mocha: 'Mocha', chai: 'Chai', tea: 'Tea', other: 'Other coffee' };
 
 const espressoFallbackOrder = ['cappuccino', 'cortado', 'flat_white', 'americano', 'espresso', 'macchiato', 'mocha', 'cold_brew'];
 
 // Shop-level price: a regular latte, else drip, else the closest standard
 // espresso drink - median size, never the smallest or largest.
 export function shopDrink(menu: Item[]): { price: number | null; label: string; fallback: boolean } {
-  const drinks = menu.filter((item) => item.is_drink && item.current_price_cents != null);
+  const drinks = menu.filter((item) => item.is_drink && item.current_price_cents != null && item.current_price_cents > 0);
   if (!drinks.length) return { price: null, label: menu.length ? 'No coffee price' : 'No menu yet', fallback: false };
   const medianPick = (cands: Item[]): Item => {
     const sized = cands.filter((c) => c.size_oz != null).sort((a, b) => (a.size_oz as number) - (b.size_oz as number) || (a.current_price_cents as number) - (b.current_price_cents as number));
