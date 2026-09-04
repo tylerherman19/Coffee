@@ -1,17 +1,33 @@
 export type Shop = { id: number; name: string; metro: 'milwaukee' | 'twin_cities'; address: string | null; neighborhood: string | null; lat: number | null; lng: number | null; website: string | null; platform: string | null; opening_hours: string | null; rating: number | null; review_count: number | null };
 export type Item = { id: number; shop_id: number; name: string; category: string | null; is_drink: boolean; drink_type: string | null; size_label: string | null; size_oz: number | null; size_confidence: 'explicit' | 'inferred' | 'none' | null; current_price_cents: number | null; last_checked_at: string | null };
-export type Modifier = { id: number; item_id: number; choice_name: string | null; price_delta_cents: number; observed_at: string };
+export type Modifier = { id: number; item_id: number; group_name: string | null; choice_name: string | null; price_delta_cents: number; observed_at: string };
 export type PriceChange = { id: number; item_id: number; changed_at: string; old_price_cents: number | null; new_price_cents: number; pct_change: number | null; change_type: string };
 export type CoffeeData = { shops: Shop[]; items: Item[]; modifiers: Modifier[]; changes: PriceChange[]; loadedAt: string | null };
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://fptyiklgiagjegufexvq.supabase.co';
 const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_I4PlipLTVnuRS3DRmUyWzA_rB5rp0qJ';
-async function table<T>(path: string): Promise<T[]> { const response = await fetch(`${url}/rest/v1/${path}`, { headers: { apikey: key, Authorization: `Bearer ${key}`, 'Accept-Profile': 'coffee' }, cache: 'no-store' }); if (!response.ok) throw new Error(`Coffee data request failed: ${response.status}`); return response.json(); }
+// PostgREST caps an unbounded response at 1000 rows and says so only in the
+// Content-Range header, so a plain fetch silently truncated the menu. Page
+// through with Range until a short page arrives.
+const PAGE_SIZE = 1000;
+async function table<T>(path: string): Promise<T[]> {
+  const rows: T[] = [];
+  for (let from = 0; ; from += PAGE_SIZE) {
+    const response = await fetch(`${url}/rest/v1/${path}`, {
+      headers: { apikey: key, Authorization: `Bearer ${key}`, 'Accept-Profile': 'coffee', 'Range-Unit': 'items', Range: `${from}-${from + PAGE_SIZE - 1}` },
+      cache: 'no-store',
+    });
+    if (!response.ok) throw new Error(`Coffee data request failed: ${response.status}`);
+    const page = (await response.json()) as T[];
+    rows.push(...page);
+    if (page.length < PAGE_SIZE) return rows;
+  }
+}
 export async function loadCoffeeData(): Promise<CoffeeData> {
   const [shopsRaw, items, ratings, modifiers, changes] = await Promise.all([
     table<Omit<Shop, 'rating' | 'review_count'>>('shops?select=id,name,metro,address,neighborhood,lat,lng,website,platform,opening_hours&closed_at=is.null&order=name'),
     table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=name'),
     table<{ shop_id: number; rating: number | null; review_count: number | null; observed_at: string }>('ratings?select=shop_id,rating,review_count,observed_at&order=observed_at.desc'),
-    table<Modifier>('modifiers?select=id,item_id,choice_name,price_delta_cents,observed_at&order=observed_at.desc&limit=2000'),
+    table<Modifier>('modifiers?select=id,item_id,group_name,choice_name,price_delta_cents,observed_at&order=observed_at.desc'),
     table<PriceChange>('price_changes?select=id,item_id,changed_at,old_price_cents,new_price_cents,pct_change,change_type&order=changed_at.desc&limit=250'),
   ]);
   const latestRating = new Map<number, { rating: number | null; review_count: number | null }>();
