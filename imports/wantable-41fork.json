@@ -1,0 +1,3766 @@
+{
+ "platform": "toast",
+ "source_url": "https://41forkexchange.com/order (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid fcf2dc44-8f4b-4bc4-b347-1877087846d8, address on page: 123 East Walker Street, Milwaukee, WI)",
+ "shops": [
+  {
+   "id": 142,
+   "slug": "41fork-exchange-at-wantable-cafe"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "323148aa-0b8e-4db3-8434-0a35e0fab290",
+   "name": "Coffee (12 Oz)",
+   "category": "Coffee",
+   "price_cents": 250,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b91445b2-0e23-4cc3-ad61-164215a552e0",
+   "name": "Coffee (16 Oz)",
+   "category": "Coffee",
+   "price_cents": 350,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4f5be1a8-96dd-4335-a822-fa16ac97a6a9",
+   "name": "Cold Brew (12 Oz)",
+   "category": "Coffee",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3906c493-59f6-4229-bef0-f3c3e03e4952",
+   "name": "Cold Brew (16 Oz)",
+   "category": "Coffee",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "166f7712-65b8-4ffd-9079-c371e115dbde",
+   "name": "Cappuccino (12 Oz)",
+   "category": "Coffee",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Mocha Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Mocha Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5553ed85-2262-4304-9085-beaec2e69b1f",
+   "name": "Cappuccino (16 Oz)",
+   "category": "Coffee",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Mocha Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Mocha Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "1cdf429b-28ac-45f6-a0af-fefb4e0aae25",
+   "name": "Latte (12 Oz)",
+   "category": "Coffee",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Mocha Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Mocha Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e5d96040-b5ec-4dfd-ae8b-12bbdd948a93",
+   "name": "Latte (16 Oz)",
+   "category": "Coffee",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Mocha Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Mocha Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry syrup",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "46948618-2b5d-4802-8797-294fb52f141b",
+   "name": "Americano (12 Oz)",
+   "category": "Coffee",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e18056d4-9a71-48b9-92d6-dc5ac56d4ab8",
+   "name": "Americano (16 Oz)",
+   "category": "Coffee",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "66d870c2-302c-4f62-ba02-3d79493812f6",
+   "name": "Macchiato (Traditional)",
+   "category": "Coffee",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8f555d18-166f-4910-bac4-289b589bda0f",
+   "name": "Espresso Shot (Double)",
+   "category": "Coffee",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "00257a6a-e7f0-4051-a7fb-af2838963716",
+   "name": "Chai Latte (12 Oz)",
+   "category": "Tea",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Dirty Chai",
+     "choice_name": "Add Espresso Shot 2oz",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "37459360-12b8-44f0-b33a-0939af2ef191",
+   "name": "Chai Latte (16 Oz)",
+   "category": "Tea",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Dirty Chai",
+     "choice_name": "Add Espresso Shot 2oz",
+     "price_delta_cents": 300
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3672c16d-5045-4db1-a9f0-9932be195967",
+   "name": "Matcha Latte (12 Oz)",
+   "category": "Tea",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2d13848a-64fe-4d28-8ead-51b8c9f1defa",
+   "name": "Matcha Latte (16 Oz)",
+   "category": "Tea",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "34cb1da7-6880-44d7-97ec-404dcd83668f",
+   "name": "Dirty Matcha Latte (12 Oz)",
+   "category": "Tea",
+   "price_cents": 800,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c88017b5-4d35-4c1f-ac22-5afbb6b2d857",
+   "name": "Dirty Matcha Latte (16 Oz)",
+   "category": "Tea",
+   "price_cents": 900,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d1fd9ada-b2bf-40aa-995f-19f27e2e3419",
+   "name": "Rishi Tea (16 Oz)",
+   "category": "Tea",
+   "price_cents": 350,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Flavors",
+     "choice_name": "Earl Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "English Breakfast",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Chamomile",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Jasmine",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Tumeric Ginger",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavors",
+     "choice_name": "Blueberry Hibiscus",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ec026013-4aef-4f2d-9814-a4042dfa6230",
+   "name": "Strawberry Black Tea Refresher",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Batched black tea.\nStrawberry syrup (1 oz)."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "74258194-fa03-4a45-9502-309a4dd4a8e1",
+   "name": "Blueberry Lemon Hibiscus Refresher",
+   "category": "Tea",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Batched blueberry hibiscus.\nLemon syrup (1 oz)."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Chocolate Sauce",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Strawberry Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Carrot Cake Syrup",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "26fc7e1b-811b-44de-a83b-7bd16322b57c",
+   "name": "Hot Chocolate (12 Oz)",
+   "category": "Hot Chocolate",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "fd032253-a64e-4767-932b-4b678e5658b5",
+   "name": "Carrot Cake Latte",
+   "category": "Seasonal Drinks",
+   "price_cents": 650,
+   "available": true,
+   "price_low_cents": 650,
+   "price_high_cents": 750,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Mocha Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Mocha Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4133d029-bc19-499b-820c-4b357ba1571c",
+   "name": "Lavender London Fog Latte",
+   "category": "Seasonal Drinks",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 750,
+   "raw": {
+    "description": "Espresso (2 oz).\nEarl grey syrup (1 oz).\nLavender syrup (1 oz).\nChoice of milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Mocha Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Mocha Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5ed8b8c9-ac7e-4af2-b731-ef3f0df142fa",
+   "name": "Strawberry Cheesecake Matcha",
+   "category": "Seasonal Drinks",
+   "price_cents": 650,
+   "available": true,
+   "price_low_cents": 650,
+   "price_high_cents": 750,
+   "raw": {
+    "description": "Matcha (2 oz).\nStrawberry syrup (1 oz).\nStrawberry cream cheese cold foam.\nChoice of milk.\n"
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Mocha Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Mocha Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "31160dbd-25df-4672-b16a-86052c72b9c0",
+   "name": "Wild Berry Palmer Smoothie",
+   "category": "Seasonal Drinks",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Black tea (9 oz).\nWild berry (6 oz).\nLemon syrup (2 oz)."
+   },
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Mocha Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "White Mocha Sauce",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Sugar Free Vanilla",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Caramel Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Vanilla Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Earl Grey Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lemon Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Honey Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Syrups",
+     "choice_name": "Lavender Syrup",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Iced/Hot",
+     "choice_name": "Hot",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "724ecd7b-9bb5-487b-91cf-5088c75a440e",
+   "name": "Bruv Blueberry and Vanilla Ale",
+   "category": "Beer & Wine",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f8cfdf1b-3519-4ad2-b7a8-94ac913730cf",
+   "name": "North Ave Hazy Pale Ale",
+   "category": "Beer & Wine",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b97859cd-8a09-4053-a076-90729a100445",
+   "name": "Jeelly Filled Pastry Sour",
+   "category": "Beer & Wine",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b86abffe-02d7-4193-a093-3544ba42cfbe",
+   "name": "Glass of wine",
+   "category": "Beer & Wine",
+   "price_cents": 800,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2d09164e-08d3-4dc0-9744-0bbabb16d20f",
+   "name": "High Noon",
+   "category": "Beer & Wine",
+   "price_cents": 800,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9028376b-2fde-4b5a-9416-e57fe03348d8",
+   "name": "Domestic Beer",
+   "category": "Beer & Wine",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d62d61eb-282c-4abe-90e6-a15bfe1445c2",
+   "name": "Cocktail",
+   "category": "Beer & Wine",
+   "price_cents": 1100,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2cbd429b-c822-4953-825f-e33df22b6900",
+   "name": "Green Machine",
+   "category": "Smoothies",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Avocado, kale, matcha, banana, mango, almond milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e158ea6c-740d-4b92-833d-beb0b5079e8f",
+   "name": "Purple Dragon / Beet The Dragon",
+   "category": "Smoothies",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Dragon fruit, beet root powder, mixed berries, orange juice, almond milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "918dde79-da8a-4bd6-bada-f7ed753a3281",
+   "name": "Elvis And Berries",
+   "category": "Smoothies",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Mixed berries, peanut butter, bananas, oat milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "114df245-6e81-4d4f-b082-e941d7c7724b",
+   "name": "Rising Sun",
+   "category": "Smoothies",
+   "price_cents": 800,
+   "available": false,
+   "raw": {
+    "description": "Pineapple, mango, orange juice, banana, almond milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "96c7467a-e1b7-42b2-b712-a9efc1f0e2f0",
+   "name": "All Mixed Up",
+   "category": "Smoothies",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Mixed berries, mango, pineapple, orange juice, almond milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Choice of Milk",
+     "choice_name": "Oat",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ad0a581b-226a-4f94-a5bc-6495d528a8c6",
+   "name": "Buttercream And Cheese Filled Croissant",
+   "category": "Breakfast Pastries",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5f793b03-6322-4db4-8aa4-1eadbcf75c21",
+   "name": "Mini Croissant Beignets",
+   "category": "Breakfast Pastries",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3a850307-bc98-4af1-a946-7dc1f81ada83",
+   "name": "Side Caramel",
+   "category": "Breakfast Pastries",
+   "price_cents": 100,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "583a71aa-fa43-4e56-827c-98f8394cdaf3",
+   "name": "Assorted Cookies",
+   "category": "Breakfast Pastries",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "102e46c4-895a-4c9c-b339-168b55002592",
+   "name": "Muffin",
+   "category": "Breakfast Pastries",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d49a5c66-88c3-4645-94c3-6eeccfece50f",
+   "name": "Cinnamon Bun",
+   "category": "Breakfast Pastries",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ebd80cd1-8a47-4132-abbd-62d44b9cb39d",
+   "name": "Three Cheese Egg Bites (2 Pc)",
+   "category": "Breakfast",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Two each, made with cage-free eggs (gluten free, nut free, vegetarian)."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "227d817a-0866-4e6d-8b93-1339764da0ee",
+   "name": "Bacon And Cheddar Jack Cheese Egg Bites (2 Pc)",
+   "category": "Breakfast",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Two each, made with cage-free eggs (gluten free, nut free)."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e0bce327-ee7d-4e71-b6a9-f31e9aac2ee6",
+   "name": "Prosciutto Breakfast Sandwich",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Croissant bun, egg, sliced prosciutto, kale pesto, calabrian chilis, gruyere cheese."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "42fc27de-f59d-434f-afbc-49c89bf73078",
+   "name": "Bacon Breakfast Sandwich",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Croissant bun, double smoked bacon, cheddar cheese, egg, tomato jam."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ef272fcf-07a2-4c67-820f-93b63c57f769",
+   "name": "Avocado & Egg Sandwich",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Croissant bun, avocado, egg, red peppers, kale pesto, gruyere cheese."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ff07ca31-f916-4b71-b44f-0a30aa009f9c",
+   "name": "Sausage Egg & Cheese",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Sausage patty, cheddar cheese, and egg on a bun."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5cba0b22-1c41-40b7-bcc7-89801aa67841",
+   "name": "Breakfast Burrito",
+   "category": "Breakfast Sandwiches",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Egg, cheddar, bacon, roasted corn, black bean, avocado, salsa verde."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1a40dfc1-1696-4c7e-a426-d20ae77fd78f",
+   "name": "Thai Bowl",
+   "category": "Bowls",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Brown rice, red quinoa, edamame, carrots, roasted peppers, pickled red onion, shredded vegetables, cucumbers, peanut sauce, soy nuts and sesame. (GF, DF, VN; contains sesame; contains soy)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "10ec2efe-ae80-4bf9-be45-33af7b5309b9",
+   "name": "Ancient Grains Bowl",
+   "category": "Bowls",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "A blend of black barley, rice & quinoa with kale pesto, roasted tomatoes, peppers, arugula, balsamic drizzle. (V)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "0bd4c24a-2982-4d56-94b8-dfb6ede2de71",
+   "name": "Burrata Bowl",
+   "category": "Bowls",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Burrata, balsamic, roasted tomatoes, arugula, olive oil, flatbread crackers. (V)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "42e7ad9a-548f-4544-897f-58538802f00a",
+   "name": "Chicken Caesar Wrap",
+   "category": "Wraps",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Parmesan, romaine, oven roasted pulled chicken, creamy caesar dressing. (NF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ae85425d-3cf0-452b-ba79-81ef2ec56ccd",
+   "name": "Veggie Wrap",
+   "category": "Wraps",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Sweet chili hummus, romaine, arugula, shredded vegetables, pickled red onions, tomato confit, cucumbers, roasted peppers. (NF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "adebdda4-97f6-4762-a043-d91792728acd",
+   "name": "Thai Chicken Wrap",
+   "category": "Wraps",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Oven roasted pulled chicken, shredded vegetables, pickled red onions, lettuce, sesame seeds, peanut sauce, cucumbers."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2c80fd1b-dd8c-4a85-a8f7-a730eef751e8",
+   "name": "Chicken Bacon Ranch Wrap",
+   "category": "Wraps",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Chicken, bacon, ranch, romaine, and tomato."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fa10f5c3-f911-4195-b2e1-375bdfb2dab1",
+   "name": "Turkey Southwest Wrap",
+   "category": "Wraps",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Pulled chicken, roasted corn, black bean, and red pepper blend, lettuce, chipotle aioli, cheddar cheese, and salsa verde (2oz cup)."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cb8bb53e-44ba-4aa1-bd93-b1147bf0353e",
+   "name": "Chimichurri Beef Wrap",
+   "category": "Wraps",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Chimichurri marinated deli sliced beef, garlic aioli, tomatoes, roasted red peppers, and arugula."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "af8b75cb-c215-43eb-8501-bd4f3bc042b8",
+   "name": "B.A.L.T. Croissant",
+   "category": "Sandwiches",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "Avocado, double smoked bacon, tomato jam, lettuce, garlic aioli. (NF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bcaa13e0-2e01-4c5a-bb3a-fe4826353abc",
+   "name": "Three Little Pigs",
+   "category": "Sandwiches",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Pepperoni, soppressata, prosciutto, swiss cheese, garlic aioli, tomatoes, lettuce, roasted peppers, calabrian chilis, vinaigrette."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "eeabe70e-3948-4112-a9a8-03c76e30fe21",
+   "name": "Horseradish Hustle",
+   "category": "Sandwiches",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Hot shaved beef and cheddar, horseradish sauce, arugula, tomato."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "98e0baae-a1df-4378-a494-f04aa294a85c",
+   "name": "Everything Salmon",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Cream cheese, cucumbers, pickled onion, tomato, arugula, everything bagel seasoning, salmon."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8b3f12d9-23fa-414f-ae20-dc0826f0ae22",
+   "name": "Pesto Turkey Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Sliced turkey, kale pesto, roasted tomato, burrata cheese, arugula, balsamic glaze. "
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "57b44c7e-b5f6-4411-b703-899c968c5079",
+   "name": "Salmon Club",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "Tomato jam, chipotle aioli, arugula, roasted salmon, pickled onions, bacon. (NF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "22c524f6-dc9e-43d6-b70e-c6575f63124c",
+   "name": "Burrata Caprese Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "Tomato, burrata cheese, kale pesto, balsamic glaze, olive oil, arugula."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5cdef079-dade-4efd-b841-5101fa9d2298",
+   "name": "Chicken Salad Sandwich",
+   "category": "Sandwiches",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Oven roasted pulled chicken, mayo, pistachio, Door County cherries, arugula. "
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4077ee4a-5d80-4ae5-b0cb-3126b80c26d6",
+   "name": "Club Supreme",
+   "category": "Sandwiches",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "Turkey, roast beef, bacon, tomato, arugula, mayo."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "368ef9f8-bb07-471e-bf32-573757a006a7",
+   "name": "Soup Of The Day",
+   "category": "Soups",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Daily rotating soup selection (see schedule)."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3a0a70c6-fc4a-4342-a22c-951dd0f5d912",
+   "name": "Side Salad",
+   "category": "Salads",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Romaine, arugula, shredded carrots, red cabbage, kohlrabi, cucumbers, champagne vinaigrette. (V, GF, NF)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cbfd4090-aee0-485a-ac5d-68c294bce907",
+   "name": "Side Caesar Salad",
+   "category": "Salads",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Chopped romaine, parmesan cheese, caesar dressing, croutons."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f1b79e6d-6d95-40b9-a59a-b530f938365b",
+   "name": "Pasta Salad",
+   "category": "Salads",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "593ac392-d1f2-434b-a90a-df8c2afabd35",
+   "name": "Southwest Salad",
+   "category": "Salads",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Chopped romaine, roasted corn, black bean, and pepper blend, pickled onions, cheddar cheese, ranch. "
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1e379910-c285-47a7-93d9-367e1d8892ec",
+   "name": "Cherry Goat Salad",
+   "category": "Salads",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Arugula, romaine, goat cheese, balsamic vinaigrette, dried Door County cherries, honey roasted pecans."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c3f9798b-79fe-44b9-902a-d7e4d784ae36",
+   "name": "Chopped Salad",
+   "category": "Salads",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Arugula, romaine, peppers, pickled onions, cucumbers, olives, tomato, hard boiled egg, champagne vinaigrette."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "01fba1a3-085f-4b34-825a-2ccf1af25481",
+   "name": "Caesar Salad",
+   "category": "Salads",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "Chopped romaine, parmesan cheese, caesar dressing, croutons."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "75d2bf12-0888-4d02-9fe9-009e6ec5ddf3",
+   "name": "Parma Verde (Kale Pesto, Mozzarella, Prosciutto, Parmesan)",
+   "category": "Roman Style Pizzas",
+   "price_cents": 125,
+   "available": true,
+   "raw": {
+    "description": "Served by the ounce."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "50839466-2ad0-4abc-8087-c7caa385bb07",
+   "name": "Burrata Caprese (Burrata, Crushed Tomatoes, Basil, Olive Oil, Balsamic)",
+   "category": "Roman Style Pizzas",
+   "price_cents": 125,
+   "available": true,
+   "raw": {
+    "description": "Served by the ounce."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "28ce6f27-00d5-480c-a084-47c0eb492abf",
+   "name": "Sweet Heat (Pepperoni, Crushed Tomatoes, Parmesan, Mozzarella)",
+   "category": "Roman Style Pizzas",
+   "price_cents": 125,
+   "available": true,
+   "raw": {
+    "description": "Served by the ounce."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "28d95aae-5e27-43f7-9ce7-2f9c6a9f7046",
+   "name": "Hot Italian (Sopressata, Mozzarella, Calabrian Chili, Crushed Tomatoes, Parmesan)",
+   "category": "Roman Style Pizzas",
+   "price_cents": 125,
+   "available": true,
+   "raw": {
+    "description": "Served by the ounce."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8b9d8e1e-00f7-440c-a854-dfe55a24552e",
+   "name": "Buffalo Chicken (Buffalo Tossed Chicken, Cream Cheese Spread, Mozzarella)",
+   "category": "Roman Style Pizzas",
+   "price_cents": 125,
+   "available": true,
+   "raw": {
+    "description": "Served by the ounce."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5f5aa7ef-0ca3-4c03-8a8f-998199c1a36b",
+   "name": "Buffalo Cream Cheese Pizza",
+   "category": "Roman Style Pizzas",
+   "price_cents": 125,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "07ecef97-83d3-4701-b997-ce1f7db4f192",
+   "name": "Pepperoni Pizza",
+   "category": "Roman Style Pizzas",
+   "price_cents": 600,
+   "available": false,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e8dab08a-45e9-477b-a040-c5ad4a57efbe",
+   "name": "Burrata Pizza",
+   "category": "Roman Style Pizzas",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ce2f74d3-5420-4ff1-b698-7b7fed0cdead",
+   "name": "Prosciutto Pizza",
+   "category": "Roman Style Pizzas",
+   "price_cents": 600,
+   "available": false,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3bb6302a-fe47-468a-b629-2af45346c5be",
+   "name": "Pick Two",
+   "category": "Combos",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "Pick two: soup/salad/half caesar, Thai or veggie wrap."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1f4c49e9-bae3-4f00-b031-94c705e6574d",
+   "name": "Bob's Red Mill Peanut Butter Banana Oats Bar",
+   "category": "Grab & Go - Dry",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fa50a49c-dba7-4c2f-8411-3697d2ead2e0",
+   "name": "Chocolate Covered Almonds (Clamshell)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "767db0b2-d87f-4ff4-961e-594eeb59859a",
+   "name": "Chocolate Covered Cashews (Clamshell)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 700,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2c121ff1-d8b8-4f14-954e-8cfb00801276",
+   "name": "Community Chips",
+   "category": "Grab & Go - Dry",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "96621d2d-4280-4d6e-8e39-a125132ec69a",
+   "name": "Croissant Beignets (3x)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a190767a-3d56-4787-9c91-d0e2a4ecc979",
+   "name": "Defender Bar (Cinnamon Churro Oatmeal)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "331edd2f-1a20-43d7-888e-97226ba62d50",
+   "name": "Defender Bar (Coconut Almond Chocolate Chip)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5f7e6001-897b-4670-8af7-e62516007deb",
+   "name": "Defender Bar (Peanut Butter Chocolate)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9bbc1dba-4bdf-4d4c-94fd-00b0bf621c88",
+   "name": "Field Trip Beef Stick (Buffalo Style)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b3af71e0-4787-4634-a6f5-214bc92a4b52",
+   "name": "Field Trip Beef Stick (Cracked Pepper Turkey)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b49f964a-eed6-40b8-8758-a5dbe66e1647",
+   "name": "Field Trip Beef Stick (Original)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3423328d-76fb-4c95-8eb9-dbe8500a3e15",
+   "name": "Field Trip Jerky (Carne Asada)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 1200,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "7c535d28-5d97-4e62-8e9d-efba615a3236",
+   "name": "Field Trip Jerky (Cracked Pepper Turkey Jerky)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 1200,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cd5387a2-a497-49d6-a2be-30b3871c5ea7",
+   "name": "Field Trip Jerky (Korean BBQ)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 1200,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "461776f3-6e4b-4ab9-bb8a-73d411a4fa19",
+   "name": "Gummy Worms (Clamshell)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a810fa28-fa39-4664-ab14-bdc62a9616b1",
+   "name": "Hershey Bar",
+   "category": "Grab & Go - Dry",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "14ec3d59-fdc7-499e-a65e-124787459cff",
+   "name": "Lemon Cake",
+   "category": "Grab & Go - Dry",
+   "price_cents": 800,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "71b8801e-7de4-49f3-94c9-ed261043dc59",
+   "name": "Metro Deli Snack Mix (Dill Pickle Ranch)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "900fc4f3-86d3-4ff1-be03-048b16bc727f",
+   "name": "Metro Deli Snack Mix (Trail Mix)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5a42f437-7c31-46af-b3bb-7f7334c0b966",
+   "name": "Peanut Butter Cups",
+   "category": "Grab & Go - Dry",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d60e544a-d2e8-4a59-8cac-ba9977a3f7b8",
+   "name": "Peanut Butter Toffee (Clamshell)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c21a214c-caba-49ca-9d44-27f887233439",
+   "name": "Peanuts, Honey Roasted (Clamshell)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6a055b6e-49a8-45de-afcd-cebc419022dc",
+   "name": "Pistachios",
+   "category": "Grab & Go - Dry",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9c30f758-484a-46fe-ae37-251306225278",
+   "name": "Snickers",
+   "category": "Grab & Go - Dry",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "0ea22dd1-488e-4a75-bf8e-153ce9162591",
+   "name": "Sour Gummy Worms (Clamshell)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "de24336a-634e-4858-88a1-5ac5238a57e1",
+   "name": "Dry Roasted Edamame",
+   "category": "Grab & Go - Dry",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a81e6ec4-0b77-46fb-b7cb-7d0a0dc26557",
+   "name": "Starburst",
+   "category": "Grab & Go - Dry",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "47298000-6164-42b1-85ba-826ed195cd75",
+   "name": "Yogurt Covered Raisins (Clamshell)",
+   "category": "Grab & Go - Dry",
+   "price_cents": 800,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "916fb3c4-c9fa-44d6-9aa3-cf81f5057bad",
+   "name": "Fresh Fruit Cup",
+   "category": "Grab & Go - Cold",
+   "price_cents": 300,
+   "available": false,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8db6de81-cb53-441b-95da-1e0bd07fb645",
+   "name": "Hummus And Pretzels Roasted Red Pepper (gf)",
+   "category": "Grab & Go - Cold",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "46cbf7bf-9f4a-43c9-8923-b9cf60f2d7fe",
+   "name": "Hummus And Pretzels Regular (gf)",
+   "category": "Grab & Go - Cold",
+   "price_cents": 450,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e7c292f0-78f8-4f6e-aa8f-e866b8f59a04",
+   "name": "Pickle Pouch (Kosher Dill)",
+   "category": "Grab & Go - Cold",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Boar's Head Pickle Snacks: Kosher Dill"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ee5b9690-6672-4c6e-8957-0cc6b85404cf",
+   "name": "Genoa Salami And Mozzarella Snack Tray",
+   "category": "Grab & Go - Cold",
+   "price_cents": 650,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2c176ab6-1dac-410c-b34e-4c3a231901a1",
+   "name": "Pepperoni And Cheddar Snack Tray",
+   "category": "Grab & Go - Cold",
+   "price_cents": 650,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "26d14e69-f533-4394-9ec3-32fe5dcefe38",
+   "name": "Lemonade",
+   "category": "Grab & Go - Cold",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "fe23e16d-f11d-4b4d-9654-1d8ac7d58569",
+   "name": "Berry LaCroix Water",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "4bd91da8-a629-43c5-92d7-b4133f2466b6",
+   "name": "Lime Lacroix Water",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c6acbd00-849e-42fa-9afc-3fdcb05cf573",
+   "name": "Lotus Energy Can (Pink, 12 Oz)",
+   "category": "Grab & Go - Cold",
+   "price_cents": 600,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "20014c65-947b-4716-847a-37877eff70af",
+   "name": "Coke",
+   "category": "Grab & Go - Cold",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3ffe7918-3374-4501-8a53-0df29271dae1",
+   "name": "Diet Coke",
+   "category": "Grab & Go - Cold",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f0928cb4-f211-459b-a3f9-5dc5dda3dd15",
+   "name": "Coke Zero",
+   "category": "Grab & Go - Cold",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "970fe73f-bfe8-47a0-a53e-9c92285059eb",
+   "name": "Sprite",
+   "category": "Grab & Go - Cold",
+   "price_cents": 300,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "03868069-64d3-41fa-8e06-bddc60e8d705",
+   "name": "Open Water - Still",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "31a8a58e-79f8-49d3-ad0c-ed4bfe45661f",
+   "name": "Open Water - Sparkling",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f043e87a-5367-4e04-ba6e-fadc7c0b10a0",
+   "name": "San Pellegrino - Limonata",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3a1959f2-e8a7-43b0-be71-4895dec01a17",
+   "name": "San Pellegrino - Pomegranate Orange",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1e0d97a7-9324-4511-89f3-c2baa11d5373",
+   "name": "San Pellegrino",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "1f5284ae-0533-491d-8a46-2595c4df2e96",
+   "name": "Spindrift - Raspberry Lime",
+   "category": "Grab & Go - Cold",
+   "price_cents": 350,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "89c6c9c0-9ede-474e-b0eb-336d45aef28c",
+   "name": "Bottled Water",
+   "category": "Grab & Go - Cold",
+   "price_cents": 250,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8e5b8035-6ee5-430e-ad89-236609a31aa0",
+   "name": "Orange Juice",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "748246be-d19a-469d-9768-9e065221f9cc",
+   "name": "Nessalla Kombucha Lemongrass Ginger",
+   "category": "Grab & Go - Cold",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "9b3dda74-ec34-473d-87ff-0520dded6bcd",
+   "name": "Caesar Salad",
+   "category": "Grab & Go - Cold",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "631b6f02-6089-46b1-b72a-32dc07481488",
+   "name": "Garden Salad",
+   "category": "Grab & Go - Cold",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "67e7b500-f324-4914-bd67-749decb30a1a",
+   "name": "Chicken Salad",
+   "category": "Grab & Go - Cold",
+   "price_cents": 500,
+   "available": true,
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a2e09a88-e050-45c1-9f7c-d4880d26b5f5",
+   "name": "Pasta Salad",
+   "category": "Grab & Go - Cold",
+   "price_cents": 400,
+   "available": true,
+   "modifiers": []
+  }
+ ]
+}
