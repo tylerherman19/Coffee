@@ -27,7 +27,9 @@ OVERPASS = [
 ]
 METROS = {
     "milwaukee": (42.92, -88.07, 43.20, -87.86),
-    "twin_cities": (44.85, -93.35, 45.10, -92.98),
+    # (south, west, north, east). West edge reaches -93.65 to cover the western
+    # metro: Plymouth, Wayzata, Minnetonka and the Lake Minnetonka towns.
+    "twin_cities": (44.85, -93.65, 45.10, -92.98),
 }
 DIRECT_HOSTS = ("square.site", "toast.app", "toasttab.com", "order.spoton.com")
 BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com", "clover.com", "chownow.com")
