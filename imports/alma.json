@@ -314,16 +314,6 @@
    }
   },
   {
-   "platform_item_id": "d2874941-bca2-46f9-8901-7c942c8f54c4",
-   "name": "Fresh Ricotta & Toast",
-   "category": "Sides & Extras",
-   "price_cents": 1300,
-   "available": true,
-   "raw": {
-    "description": "Honey, olive oil, fresh herbs and cherry mostarda. (gfo,veg)"
-   }
-  },
-  {
    "platform_item_id": "61c5f586-5c03-4270-b2d1-1f9a330295ac",
    "name": "Old Dutch Chips",
    "category": "Sides & Extras",
@@ -367,16 +357,6 @@
    "price_high_cents": 400,
    "raw": {
     "description": "Wild Acres Smoked Turkey"
-   }
-  },
-  {
-   "platform_item_id": "b76da3ce-ec0a-44b7-bcdf-0d9d8df5da9f",
-   "name": "Toasted Sourdough or Biscuit & Jam",
-   "category": "Sides & Extras",
-   "price_cents": 400,
-   "available": true,
-   "raw": {
-    "description": "Served with butter and seasonal jam. (veg)"
    }
   },
   {
@@ -2995,16 +2975,6 @@
    "available": true,
    "raw": {
     "description": "The perfect bite-sized treat with sweet caramel and flakey sea salt."
-   }
-  },
-  {
-   "platform_item_id": "61c5f586-5c03-4270-b2d1-1f9a330295ac",
-   "name": "Old Dutch Chips",
-   "category": "Pantry",
-   "price_cents": 200,
-   "available": true,
-   "raw": {
-    "description": "The one and only (1.5 oz)."
    }
   },
   {
