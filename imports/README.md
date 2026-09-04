@@ -1,5 +1,9 @@
 # Staged manual menu captures
 
+Used for menus the collector cannot read itself: a shop on an ordering
+platform with no reachable catalogue (ChowNow answers 403 to the runner), a
+PDF-only menu, or a chain whose prices are not published per location.
+
 Each `imports/<name>.json` is one manually captured menu bundle, imported into
 Supabase by the **Import staged menu** workflow (`.github/workflows/import.yml`,
 workflow_dispatch, input: path to the bundle). The importer

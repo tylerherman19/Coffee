@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Regression cases for the menu-item classifier.
+"""Regression cases for the collector's classifier and its source detection.
 
-Every case below is a real row from the live items table that the classifier
-once got wrong. Run with: python scripts/test_classify.py
+The classifier cases are real rows from the live items table that were once
+classified wrong. The platform cases pin which ordering hosts count as a
+direct menu. Run with: python scripts/test_classify.py
 """
 from __future__ import annotations
 
@@ -10,7 +11,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from collect import classify_name, refine_classification  # noqa: E402
+from collect import classify_name, platform_of, refine_classification  # noqa: E402
 
 # (name, category, expected is_drink, expected drink_type)
 NAME_CASES = [
@@ -83,8 +84,32 @@ PRICE_CASES = [
 ]
 
 
+# (url, expected platform). None means "not a direct menu we collect".
+PLATFORM_CASES = [
+    # ChowNow bills the shop rather than marking its menu up, so it is a
+    # direct platform. All three host shapes appear in the wild.
+    ("https://www.chownow.com/order/30815/locations/45570", "chownow"),
+    ("https://direct.chownow.com/order/21463/locations/31082", "chownow"),
+    ("https://order.chownow.com/order/4638/locations", "chownow"),
+    # Delivery marketplaces mark the menu up and stay blocked.
+    ("https://www.doordash.com/store/patricks-12345", None),
+    ("https://www.ubereats.com/store/ginkgo", None),
+    ("https://www.grubhub.com/restaurant/cuppa-java", None),
+    ("https://order.online/store/x", None),
+    ("https://www.clover.com/online-ordering/x", None),
+    ("https://shop.square.site/s/order", "square"),
+    ("https://order.toasttab.com/online/x", "toast"),
+    ("https://order.spoton.com/x", "spoton"),
+    ("https://example.com/menu", None),
+]
+
+
 def main() -> None:
     failures: list[str] = []
+    for url, platform in PLATFORM_CASES:
+        got = platform_of(url)
+        if got != platform:
+            failures.append(f"platform_of({url!r}) = {got!r}, want {platform!r}")
     for name, category, is_drink, drink_type in NAME_CASES:
         got = classify_name(name, category)
         if got != (is_drink, drink_type):
@@ -95,7 +120,7 @@ def main() -> None:
             failures.append(f"refine_classification({name!r}, {category!r}, {price}, {size}) = {got}, want {(is_drink, drink_type)}")
     for line in failures:
         print(f"FAIL {line}")
-    total = len(NAME_CASES) + len(PRICE_CASES)
+    total = len(NAME_CASES) + len(PRICE_CASES) + len(PLATFORM_CASES)
     print(f"{total - len(failures)}/{total} cases pass")
     raise SystemExit(1 if failures else 0)
 

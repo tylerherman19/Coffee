@@ -32,8 +32,17 @@ METROS = {
     # metro: Plymouth, Wayzata, Minnetonka and the Lake Minnetonka towns.
     "twin_cities": (44.85, -93.65, 45.10, -92.98),
 }
-DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toasttab.com", "order.spoton.com")
-BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com", "clover.com", "chownow.com")
+DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toasttab.com", "order.spoton.com", "chownow.com")
+# Delivery marketplaces, whose prices are marked up over the shop's own menu.
+# ChowNow is not one of them: it is white-label ordering that bills the shop,
+# not a marketplace with its own fleet and its own prices, so it belongs in
+# DIRECT_HOSTS above. It is served through a Cloudflare bot challenge that
+# answers 403 to every host and API path from a datacenter IP, so the runner
+# cannot read those menus - they arrive as staged captures under imports/
+# instead (see imports/README.md). Discovering the link still matters: it
+# labels the shop's ordering platform and stops the daily run from wiping
+# that label off the four shops whose menus were captured by hand.
+BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com", "clover.com")
 
 
 @dataclass
@@ -153,6 +162,8 @@ def platform_of(url: str) -> str | None:
         return "toast"
     if "order.spoton.com" in host:
         return "spoton"
+    if "chownow.com" in host:
+        return "chownow"
     return None
 
 
@@ -174,7 +185,7 @@ def rank_candidate(url: str) -> int:
 # blob at least as often as in an <a href>, so the anchor scan alone missed
 # most of them. This finds a platform URL anywhere in the markup.
 EMBEDDED_URL = re.compile(
-    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|order\.spoton\.com)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
+    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|order\.spoton\.com|chownow\.com)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
     re.I,
 )
 
