@@ -1,0 +1,2099 @@
+{
+ "platform": "toast",
+ "source_url": "https://order.toasttab.com/online/the-city-market-cafe-shorewood (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 88265d9e-c452-437c-b6a9-7a9a199ddf56, address on page: 2205 East Capitol Drive, Shorewood, WI)",
+ "shops": [
+  {
+   "id": 95,
+   "slug": "the-city-market-cafe-shorewood"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "2f52f614-9281-4c0b-b569-5be6c07e8240",
+   "name": "French Toast",
+   "category": "French Toast",
+   "price_cents": 1150,
+   "available": true
+  },
+  {
+   "platform_item_id": "abea159f-2c92-4a1e-b782-9a07a579c3c6",
+   "name": "Buttermilk Pancakes",
+   "category": "Buttermilk Pancakes",
+   "price_cents": 925,
+   "available": true,
+   "raw": {
+    "description": "3 pancakes griddled using our house made batter.  Served with a side of maple syrup.  Add fresh blueberries or strawberries for only $2.20 more."
+   }
+  },
+  {
+   "platform_item_id": "6b2d1e5b-7799-4b0b-b6f2-65812ddd77e1",
+   "name": "Ancient Grain Power Oat Bowl",
+   "category": "Ancient Grain Power Oat Bowl",
+   "price_cents": 795,
+   "available": true,
+   "raw": {
+    "description": "Organic Grains and rolled oats, served with a side strawberries and agave nectar"
+   }
+  },
+  {
+   "platform_item_id": "71e30a36-b486-4cf8-8552-8cb8b8966381",
+   "name": "Traditional Hot Oatmeal",
+   "category": "Traditional Hot Oatmeal",
+   "price_cents": 685,
+   "available": true,
+   "raw": {
+    "description": "Rolled Oats served with dried cranberries and brown sugar."
+   },
+   "modifiers": [
+    {
+     "group_name": "Oatmeal Toppings",
+     "choice_name": "Brown Sugar",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Oatmeal Toppings",
+     "choice_name": "Cranberries",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Oatmeal Toppings",
+     "choice_name": "No toppings",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Oatmeal Toppings",
+     "choice_name": "Raisins",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Oatmeal Toppings",
+     "choice_name": "Walnuts",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Oatmeal Toppings",
+     "choice_name": "No Cranberries, sub Raisins",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "ef30c101-2b12-4699-8fc5-418ddc2cb447",
+   "name": "Kids Pancake",
+   "category": "Kids Pancake",
+   "price_cents": 295,
+   "available": true
+  },
+  {
+   "platform_item_id": "a2781002-2e82-4564-b349-1ba3f6eab008",
+   "name": "Create Your Own Scrambler",
+   "category": "Breakfast",
+   "price_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "2 eggs, wiht choice of City Market toast, and your choice of any 2 ingredients: broccoli, spinach, onion, green pepper, mushrooms, tomato, quinoa, cheese, bacon, or Black forest ham.  \r\neach additional ingredient $.70"
+   }
+  },
+  {
+   "platform_item_id": "fd6b2f22-49ac-45b0-b2f0-fa0e67a717b8",
+   "name": "Egg Classic",
+   "category": "Breakfast",
+   "price_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "2 Eggs any style, with your choice of Wisconsin pork sausage, chicken sausage, applewood smoked bacon. Served with fresh fruit, and City Market Toast."
+   }
+  },
+  {
+   "platform_item_id": "4b76b55f-048c-4644-9206-df49fd111673",
+   "name": "Morning Wrap",
+   "category": "Breakfast",
+   "price_cents": 1275,
+   "available": true,
+   "raw": {
+    "description": "2 eggs scrambled, with salsa, guacamole, pepper jack cheese, brown rice, sweet potato, red pepper, black beans, topped with sweet jalapeno dressing, served in a multigrain wrap or in a bowl with fresh fruit."
+   }
+  },
+  {
+   "platform_item_id": "f3afd0c2-7dd2-4b82-8185-c664afa5bdd9",
+   "name": "Fried Egg Sandwich",
+   "category": "Breakfast",
+   "price_cents": 1295,
+   "available": true,
+   "raw": {
+    "description": "2 Fried eggs, choice of Black forest ham, applewood smoked bacon, chicken sausage, or Wisconsin pork sausage.  Served with wakeup sauce, white cheddar cheese, homemade everything bun, and fresh fruit or sub 3 Potato blend"
+   }
+  },
+  {
+   "platform_item_id": "650886c0-6d6e-4487-aac8-6bb76daa2d9a",
+   "name": "Scramble Sandwich",
+   "category": "Breakfast",
+   "price_cents": 1225,
+   "available": true,
+   "raw": {
+    "description": "2 eggs, red pepper, green onion, cheddar cheese, choice of Wisconsin pork sausage, applewood smoked bacon, or chicken sausage. Served on grilled francese bread, seasonal fresh fruit."
+   }
+  },
+  {
+   "platform_item_id": "d61e2a4a-efd0-424e-af04-a0f3c216ef2d",
+   "name": "Market Frittata",
+   "category": "Breakfast",
+   "price_cents": 1225,
+   "available": true,
+   "raw": {
+    "description": "baked eggs, fresh spinach, swiss cheese, mixed greens, champagne vinaigrette, served with cantaloupe slices."
+   }
+  },
+  {
+   "platform_item_id": "a9df0480-72b8-4c17-be9e-9959fd54f869",
+   "name": "Fresh Seasonal Fruit Bowl",
+   "category": "Breakfast",
+   "price_cents": 835,
+   "available": true,
+   "raw": {
+    "description": "Medley of seasonal fruits"
+   }
+  },
+  {
+   "platform_item_id": "6e02bd2e-7d5f-40f7-a9a3-4f3055969a82",
+   "name": "Avocado Toast",
+   "category": "Breakfast",
+   "price_cents": 975,
+   "available": true,
+   "raw": {
+    "description": "Thick cut whole wheat sourdough, sliced avocados, spicy honey, pickled hot finger peppers."
+   }
+  },
+  {
+   "platform_item_id": "50138646-18cd-4956-b042-3243c8b5cf8a",
+   "name": "Granola & Yogurt Bowl",
+   "category": "Breakfast",
+   "price_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "Original housemade City Market granola, vanilla greek yogurt, fresh berries."
+   }
+  },
+  {
+   "platform_item_id": "c887739c-0f7f-44cd-a7aa-5f9f714b3c3f",
+   "name": "Yogurt Cup",
+   "category": "Breakfast",
+   "price_cents": 330,
+   "available": true,
+   "raw": {
+    "description": "Cup of greek vanilla yogurt"
+   }
+  },
+  {
+   "platform_item_id": "f4e209ef-bebe-4058-80f4-daa3dcae1148",
+   "name": "1 Egg",
+   "category": "Breakfast",
+   "price_cents": 210,
+   "available": true,
+   "raw": {
+    "description": "1 egg style"
+   }
+  },
+  {
+   "platform_item_id": "ba94d27b-95f2-42a1-9eea-0598549a7cc6",
+   "name": "2 Eggs",
+   "category": "Breakfast",
+   "price_cents": 375,
+   "available": true,
+   "raw": {
+    "description": "2 eggs any style"
+   }
+  },
+  {
+   "platform_item_id": "95510416-c189-4037-a594-bcf16ce8a027",
+   "name": "Market Toast",
+   "category": "Breakfast",
+   "price_cents": 240,
+   "available": true
+  },
+  {
+   "platform_item_id": "6fc5aef7-a2ce-4491-8c1e-0162d7b3ce2a",
+   "name": "Housemade Granola Bowl",
+   "category": "Breakfast",
+   "price_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Bowl of our home made granola"
+   }
+  },
+  {
+   "platform_item_id": "35dc69b6-ae5d-495f-8b35-d286cbce2948",
+   "name": "Granola & Oatmilk Bowl",
+   "category": "Breakfast",
+   "price_cents": 850,
+   "available": true
+  },
+  {
+   "platform_item_id": "9205b4e7-7dd1-49f8-beb4-e87e997eb6e9",
+   "name": "Classic Mac & Cheese",
+   "category": "Market Bowls",
+   "price_cents": 1050,
+   "available": true,
+   "raw": {
+    "description": "Traditional cheese sauce, cavatappi noodles"
+   }
+  },
+  {
+   "platform_item_id": "f416a136-efd8-4b46-8713-f19a36f28cef",
+   "name": "Two Bean Brown Rice Bowl",
+   "category": "Market Bowls",
+   "price_cents": 1050,
+   "available": true,
+   "raw": {
+    "description": "Black-eyed peas, black beans, sweet corn, green onion, celery, parsley, brown rice, mixed greens, topped with sweet garlic vinaigrette."
+   }
+  },
+  {
+   "platform_item_id": "53bdbb55-f13c-4b0b-9fad-6942911ecf85",
+   "name": "Tomato Artichoke & Basil Noodle Bowl",
+   "category": "Market Bowls",
+   "price_cents": 1095,
+   "available": true,
+   "raw": {
+    "description": "Housemade roma tomato, artichoke, & red bell pepper sauce, cavatappi noodles, topped with spinach bail pesto"
+   }
+  },
+  {
+   "platform_item_id": "d4d3783e-eab5-43bd-8f8a-641b35c453ab",
+   "name": "Portabella & Vegetable Quinoa Bowl",
+   "category": "Market Bowls",
+   "price_cents": 1225,
+   "available": true,
+   "raw": {
+    "description": "Organic tri-color quinoa, kalamata olives, spinach basil pesto, mushrooms, roasted red bell pepper, zucchini, red onion, balsamic glaze"
+   }
+  },
+  {
+   "platform_item_id": "8a52cb38-4cc1-49e5-8067-92c59eda68c5",
+   "name": "Three Bean Vegetable Chili",
+   "category": "Housemade Soups",
+   "price_cents": 725,
+   "available": true
+  },
+  {
+   "platform_item_id": "d853fd76-a878-4ab4-aa2a-efe8c32c60cd",
+   "name": "Soup & Cafe Salad Sampler",
+   "category": "Housemade Soups",
+   "price_cents": 1150,
+   "available": true,
+   "raw": {
+    "description": "A cup of either our homemade soup of the day or 3 Bean vegetable chili, served with our caf\u00e9 salad."
+   }
+  },
+  {
+   "platform_item_id": "51ec0c2d-a325-4bfe-8125-0d70206c7a82",
+   "name": "Santa Fe Salad",
+   "category": "Organic Greens",
+   "price_cents": 1225,
+   "available": true,
+   "raw": {
+    "description": "Avocado, tomato, red onion, red bell pepper, black beans, sweet potato, chopped romaine hearts, sweet Jalapeno dressing (contains Walnuts), topped with crisp tortilla confetti"
+   }
+  },
+  {
+   "platform_item_id": "fdf1fc99-ab3e-4ed2-ac79-925fdb243ee9",
+   "name": "Strawberry Gorgonzola Salad",
+   "category": "Organic Greens",
+   "price_cents": 1225,
+   "available": true,
+   "raw": {
+    "description": "Fresh berries, gorgonzola cheese, toasted walnuts, spring greens, chopped romaine hearts, berry balsamic vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "20963777-d3af-4163-93d5-44a1bf0557bc",
+   "name": "Market Cobb Salad",
+   "category": "Organic Greens",
+   "price_cents": 1240,
+   "available": true,
+   "raw": {
+    "description": "Swiss Cheese, hard cooked egg, roma tomato, fresh strawberries, spring greens, chopped romaine hearts, Dijon vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "df54aa93-8387-47f2-a54a-2cbf7001f24e",
+   "name": "Quinoa Salad",
+   "category": "Organic Greens",
+   "price_cents": 1225,
+   "available": true,
+   "raw": {
+    "description": "Grilled asparagus, caramelized pears, organic tri-colored quinoa, goat cheese, toasted hazelnuts, fresh raspberries, spring greens, citrus vinaigrette, sweet raisin walnut crostini side"
+   }
+  },
+  {
+   "platform_item_id": "e8adfe9b-0116-4448-b4a3-8d737137d44f",
+   "name": "Caesar Salad",
+   "category": "Organic Greens",
+   "price_cents": 995,
+   "available": true,
+   "raw": {
+    "description": "Shredded parmesan, garlic croutons, chopped romaine hearts, Caesar dressing"
+   }
+  },
+  {
+   "platform_item_id": "913515de-3588-4ec4-abba-1fec93739bed",
+   "name": "Balsamic Salad",
+   "category": "Organic Greens",
+   "price_cents": 1225,
+   "available": true,
+   "raw": {
+    "description": "Red onion, kalamata olives, roma tomato, red bell pepper, mixed greens, balsamic vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "1d74f499-672a-47ef-ae9b-6e69e4072d81",
+   "name": "Grilled Cranberry Turkey",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1420,
+   "available": true,
+   "raw": {
+    "description": "Roasted turkey, housemade cranberry chutney, swiss cheese, gorgonzola cheese, tomato, spring greens, toasted walnuts, roasted garlic aioli, country french bread, served with fresh fruit"
+   }
+  },
+  {
+   "platform_item_id": "08497d34-c1a7-48e7-ad44-d1490975260f",
+   "name": "Market Masterpiece",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1315,
+   "available": true,
+   "raw": {
+    "description": "Black forest ham, roasted turkey, Applewood smoked bacon, Colby cheese, swiss cheese, leaf lettuce, tomato, green bell pepper, market sauce, french baguette, housemade cookie or chips"
+   }
+  },
+  {
+   "platform_item_id": "f5d26ba4-f897-41e8-8e18-a4b96e404204",
+   "name": "Fresh Veggie Stack",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1055,
+   "available": true,
+   "raw": {
+    "description": "Cucumber, alfalfa sprouts, green bell pepper, leaf lettuce, tomato, white cheddar cheese, swiss cheese, market sauce, multigrain quinoa bread,  housemade cookie or chips"
+   }
+  },
+  {
+   "platform_item_id": "6c6ff4f9-1563-42a3-b9b3-feaf54d2607c",
+   "name": "Chicken Fajita Wrap",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1420,
+   "available": true,
+   "raw": {
+    "description": "Seasoned white meat chicken, pepperjack cheese, red & green bell peppers, white onion, grilled multigrain wrap, served with housemade tortilla chips"
+   }
+  },
+  {
+   "platform_item_id": "06d545e1-a3ab-468f-9e80-e94bce62bffc",
+   "name": "Grilled Portabella & Veggies",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1315,
+   "available": true,
+   "raw": {
+    "description": "Roasted mushroom cap, red bell peppers, zucchini, red onion, spinach basil pesto, balsamic glaze, grilled francese bread, two bean salad\r\nAdd Cheese $1.75"
+   }
+  },
+  {
+   "platform_item_id": "d1608578-554e-4e5b-87de-593238dd9703",
+   "name": "Grilled Chili Tofu Wrap",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1315,
+   "available": true,
+   "raw": {
+    "description": "marinated Simple Soyman Tofu, pickled ginger carrots, chopped romaine, fresh cilantro, cucumbers, sweet chili sauce, grilled multigrain wrap, served with fresh fruit"
+   }
+  },
+  {
+   "platform_item_id": "d4da356d-96b7-4b9e-b0c7-39398d6a0b03",
+   "name": "Lime Cilantro Chicken",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1420,
+   "available": true,
+   "raw": {
+    "description": "Grilled white meat chicken, pepper jack cheese, tomato, green bell pepper, leaf lettuce, housemade lime cilantro pesto, chipotle mayo, roasted corn baguette, served with housemade tortilla chips & salsa"
+   }
+  },
+  {
+   "platform_item_id": "9e10f68f-ec64-4e7a-b1f6-ebca1b8e2a7d",
+   "name": "Grilled Basil Chicken",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1445,
+   "available": true,
+   "raw": {
+    "description": "Basil marinated white meat chicken,  leaf lettuce, tomato, green bell pepper, market sauce, francese bread, served with fresh fruit.\r\nSub Three potato blend $1.60"
+   }
+  },
+  {
+   "platform_item_id": "df36e44e-812d-4e0d-914c-4e7e8f7f3455",
+   "name": "Grilled Market Melt",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1315,
+   "available": true,
+   "raw": {
+    "description": "Pepper jack cheese,, colby cheese, applewood smoked bacon, guacamole, roma tomato, chipotle mayo, buttered and grilled whole wheat sourdough, served with housemade tortilla chips & salsa"
+   }
+  },
+  {
+   "platform_item_id": "02b634d2-9217-48e4-98fa-9b4381ce214d",
+   "name": "BBQ Chicken",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1420,
+   "available": true,
+   "raw": {
+    "description": "Barbecue white meat chicken, cabbage slaw, tomato, chipotle mayo, pepper jack cheese, on a fresh corn baguette, served with choice of fruit or french fries"
+   }
+  },
+  {
+   "platform_item_id": "aaddedcb-489d-4ca3-a99f-e63b88677abb",
+   "name": "Mini Veggie Stack",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "Cucumber, alfalfa sprouts, green bell pepper, leaf lettuce, tomato, white cheddar cheese, swiss cheese, market sauce, multigrain quinoa bread,  housemade cookie or chips"
+   }
+  },
+  {
+   "platform_item_id": "50340bc4-3206-4288-ad0c-0b5a91441b03",
+   "name": "Buffalo Chicken Wrap",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1315,
+   "available": true,
+   "raw": {
+    "description": "Grilled white meat chicken, pepper jack cheese, lettuce, tomato, buffalo sauce on a jalape\u00f1o cheddar wrap, served with French fries. \n"
+   }
+  },
+  {
+   "platform_item_id": "0ca5d72f-50d0-4e75-882d-7f892049780b",
+   "name": "Greek Wrap",
+   "category": "Sandwiches & Wraps",
+   "price_cents": 1315,
+   "available": true,
+   "raw": {
+    "description": "Grilled white meat chicken, greens, tomato, feta cheese and tzatziki sauce in a grilled wrap. Served with a side of fresh fruit."
+   }
+  },
+  {
+   "platform_item_id": "cb05e10c-b25d-4d6e-b3be-ca0e02057f7b",
+   "name": "CYO Full",
+   "category": "Create Your Own",
+   "price_cents": 1050,
+   "available": true,
+   "raw": {
+    "description": "Housemade bread, choice of black forest ham, roasted turkey, herbed chicken salad, lemon parsley tuna, cheese, veggies, and sauce.  Served with housemade cookie or chips.  Additional charge for extra meat."
+   }
+  },
+  {
+   "platform_item_id": "14daecce-0251-4035-8a12-ab2c6f2726ae",
+   "name": "CYO Half",
+   "category": "Create Your Own",
+   "price_cents": 760,
+   "available": true,
+   "raw": {
+    "description": "Housemade bread, choice of black forest ham, roasted turkey, herbed chicken salad, lemon parsley tuna, cheese, veggies, and sauce.  Served with housemade cookie or chips.  Additional charge for extra meat."
+   }
+  },
+  {
+   "platform_item_id": "01092fb4-e103-4d12-8d8d-f4e7aa6ec1a5",
+   "name": "City Sampler",
+   "category": "Create Your Own",
+   "price_cents": 1355,
+   "available": true,
+   "raw": {
+    "description": "Housemade bread, choice of black forest ham, roasted turkey, herbed chicken salad, lemon parsley tuna, cheese, veggies, and sauce.  Served with housemade cookie or chips, and your choice of a cup of the soup of the day, Vegetable chili, or a house cafe salad"
+   }
+  },
+  {
+   "platform_item_id": "702fbf62-8e51-453d-8345-40d0c7aa74f2",
+   "name": "CYO Grilled Cheese",
+   "category": "Create Your Own",
+   "price_cents": 925,
+   "available": true,
+   "raw": {
+    "description": "Housemade bread, grilled, choice of black forest ham, roasted turkey, herbed chicken salad, lemon parsley tuna, cheese, veggies, and sauce.  Served with housemade cookie or chips. Additional cost for extra meat."
+   }
+  },
+  {
+   "platform_item_id": "a8fe7a32-cc71-4f5c-8fb6-9115be94eb21",
+   "name": "1/2 Veggie Stack Sampler",
+   "category": "Create Your Own",
+   "price_cents": 1355,
+   "available": true
+  },
+  {
+   "platform_item_id": "025ab77b-153f-4ea8-90b0-9144e51d1614",
+   "name": "CYO 1/2 & Salad",
+   "category": "Create Your Own",
+   "price_cents": 1200,
+   "available": true
+  },
+  {
+   "platform_item_id": "bad14e77-1a89-4fba-9a46-99754de92245",
+   "name": "Market Burger",
+   "category": "Burgers",
+   "price_cents": 1395,
+   "available": true,
+   "raw": {
+    "description": "1/3 pound beef burger, leaf lettuce, tomato, grilled housemade everything bun, served with french fries\r\nAdd Cheese $1.75"
+   }
+  },
+  {
+   "platform_item_id": "8f8ddc9d-9a4c-4cce-bc1a-59fafc0689b3",
+   "name": "Plant Based Burger",
+   "category": "Burgers",
+   "price_cents": 1375,
+   "available": true,
+   "raw": {
+    "description": "Plant based burger patty, served on a housemade vegan everything bun with lettuce, tomato, topped with avocado and served with a side of french fried potatoes."
+   }
+  },
+  {
+   "platform_item_id": "e72e183f-6a73-45ac-b1b4-82145a697f9f",
+   "name": "Kids Noodles",
+   "category": "Market Kids",
+   "price_cents": 755,
+   "available": true,
+   "raw": {
+    "description": "Cavatappi noodles, butter, shredded cheese"
+   }
+  },
+  {
+   "platform_item_id": "78092dfa-32da-4893-8c7b-cbdba3c8d1ae",
+   "name": "Kids Grilled Cheese",
+   "category": "Market Kids",
+   "price_cents": 785,
+   "available": true,
+   "raw": {
+    "description": "Colby cheese, choice of bread, served with either housemade cookie or chips"
+   }
+  },
+  {
+   "platform_item_id": "35c2ac2f-40e6-43de-993f-3262cc8fcf6a",
+   "name": "Mac & Cheese",
+   "category": "Market Kids",
+   "price_cents": 1050,
+   "available": true,
+   "raw": {
+    "description": "Cavatappi noodles in traditional cheese sauce"
+   }
+  },
+  {
+   "platform_item_id": "46f38ca0-037f-40c0-96ec-89e4f5ee4992",
+   "name": "PB&J",
+   "category": "Market Kids",
+   "price_cents": 755,
+   "available": true,
+   "raw": {
+    "description": "Peanut butter, grape jelly, choice of bread, served with either a housemade cookie or chips"
+   }
+  },
+  {
+   "platform_item_id": "b169d835-daad-47a6-b675-de7b6a37a3fd",
+   "name": "Kids Turkey Sandwich",
+   "category": "Market Kids",
+   "price_cents": 775,
+   "available": true
+  },
+  {
+   "platform_item_id": "445f1b0f-3dd4-47c0-a4dd-f1e0bf00a32f",
+   "name": "Kids Ham Sandwich",
+   "category": "Market Kids",
+   "price_cents": 775,
+   "available": true
+  },
+  {
+   "platform_item_id": "139b3bdc-15c6-4626-8b2e-725303cec1e0",
+   "name": "Whole Sliced Avocado",
+   "category": "Sides",
+   "price_cents": 425,
+   "available": true
+  },
+  {
+   "platform_item_id": "9d60345d-f5d5-4858-96e6-30fb6a414ae8",
+   "name": "Raisin Walnut Toast",
+   "category": "Sides",
+   "price_cents": 340,
+   "available": true
+  },
+  {
+   "platform_item_id": "e88f1ac2-63c1-4ec5-a8d1-4004c52313e6",
+   "name": "Three Potato Blend",
+   "category": "Sides",
+   "price_cents": 495,
+   "available": true
+  },
+  {
+   "platform_item_id": "b3cb23f3-a767-47df-a1a0-74964599c59e",
+   "name": "Vanilla Yogurt",
+   "category": "Sides",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "4079be38-f65b-496f-9d5a-e9fd28b794ca",
+   "name": "Side Seasonal Fruit",
+   "category": "Sides",
+   "price_cents": 365,
+   "available": true
+  },
+  {
+   "platform_item_id": "ace08b3e-e9cd-4d34-8184-9764c7784194",
+   "name": "Two Bean Salad",
+   "category": "Sides",
+   "price_cents": 355,
+   "available": true
+  },
+  {
+   "platform_item_id": "b31334f9-e1c6-4638-babb-d9a10458a6a2",
+   "name": "Guac, Salsa & Chips",
+   "category": "Sides",
+   "price_cents": 835,
+   "available": true
+  },
+  {
+   "platform_item_id": "7ab36be2-cf9b-4ff5-a641-0062afa68e83",
+   "name": "French Fries",
+   "category": "Sides",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "fc6be6a2-2b4b-4980-814a-0e7201a35c63",
+   "name": "Dressings",
+   "category": "Sides",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "88ccc232-68d4-4ce1-8e03-03bb0f9df4d1",
+   "name": "Sea Salt Chips",
+   "category": "Sides",
+   "price_cents": 200,
+   "available": true
+  },
+  {
+   "platform_item_id": "0cbf0acf-4ba4-4abb-9810-9ad948189ae3",
+   "name": "Side of Peanut butter",
+   "category": "Sides",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "95b84df4-28d9-4820-92ad-5b08954ca31e",
+   "name": "Side of Strawberries",
+   "category": "Sides",
+   "price_cents": 375,
+   "available": true
+  },
+  {
+   "platform_item_id": "0940bd32-eb1d-4186-93f1-a4c6ced0d0d2",
+   "name": "Side of Guacamole",
+   "category": "Sides",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "a5388268-af39-4493-9b6f-f1ee30ddafd5",
+   "name": "Double Chocolate Cupcake",
+   "category": "Cupcakes",
+   "price_cents": 460,
+   "available": true
+  },
+  {
+   "platform_item_id": "507a72a1-8535-475d-b7c2-ebacb5e55dbe",
+   "name": "Carrot Cupcake",
+   "category": "Cupcakes",
+   "price_cents": 460,
+   "available": true
+  },
+  {
+   "platform_item_id": "353a2ebb-e0cf-4913-8e3c-48b54ce5bd25",
+   "name": "Flourless Cupcake",
+   "category": "Cupcakes",
+   "price_cents": 460,
+   "available": true
+  },
+  {
+   "platform_item_id": "8a1dd008-c974-43ae-a311-038316a4e4e8",
+   "name": "Tollhouse",
+   "category": "Cookies",
+   "price_cents": 395,
+   "available": true
+  },
+  {
+   "platform_item_id": "3eee8bf4-0256-4eba-8071-29c33117d93a",
+   "name": "M&M",
+   "category": "Cookies",
+   "price_cents": 395,
+   "available": false
+  },
+  {
+   "platform_item_id": "b0fefec1-faa8-4ed7-bfd1-e50f00d3e0dc",
+   "name": "Oatmeal",
+   "category": "Cookies",
+   "price_cents": 395,
+   "available": true
+  },
+  {
+   "platform_item_id": "7f825bb8-45cf-492f-8863-82711cead0d3",
+   "name": "Iced Seasonal",
+   "category": "Cookies",
+   "price_cents": 495,
+   "available": true
+  },
+  {
+   "platform_item_id": "ba8d8bb2-f0f7-4993-8f0f-6cbffbeebf9c",
+   "name": "Wrapped Iced Seasonal",
+   "category": "Cookies",
+   "price_cents": 525,
+   "available": true
+  },
+  {
+   "platform_item_id": "80267b3e-fa4a-408f-892c-54eb778db5f3",
+   "name": "Lemonade",
+   "category": "Cookies",
+   "price_cents": 395,
+   "available": true
+  },
+  {
+   "platform_item_id": "c13d9aa1-cccf-4ad4-b220-77ad9e2e55cf",
+   "name": "Peanut Butter",
+   "category": "Cookies",
+   "price_cents": 395,
+   "available": false
+  },
+  {
+   "platform_item_id": "59111d86-7f59-437d-8fcf-3b2d6009ca00",
+   "name": "Cookie Dough Brownie",
+   "category": "Dessert Bars",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "89668c12-da99-4e7e-ad59-a5b70ccec82c",
+   "name": "7-Layer Bar",
+   "category": "Dessert Bars",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "0d349500-112b-4c64-b385-7cf437690a59",
+   "name": "Turtle Brownie",
+   "category": "Dessert Bars",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "f04db1f1-ea84-4a88-ba35-4015dd3c9543",
+   "name": "Ultimate Brownie",
+   "category": "Dessert Bars",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "944a5af4-94f1-4571-b904-37482f274b80",
+   "name": "Mint Brownie",
+   "category": "Dessert Bars",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "c18eb100-9b65-45bf-95d9-753fd067c98e",
+   "name": "Key Lime Bar",
+   "category": "Dessert Bars",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "be7896d0-1332-4299-a81c-d5561821eced",
+   "name": "Wheat Free Brownie",
+   "category": "Dessert Bars",
+   "price_cents": 475,
+   "available": true
+  },
+  {
+   "platform_item_id": "117952fd-4206-486b-91de-ade7a6cdf018",
+   "name": "Americano",
+   "category": "Coffee",
+   "price_cents": 325,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Pumpkin Spice",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Toasted Marshmellow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cinnamon Bun",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Chocolate Chip Cookie Dough",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Lavendar",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Irish Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "No Foam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Foam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "To Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "16oz Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Americano",
+     "choice_name": "16oz",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c6643b7b-5f7d-4c69-955f-b30eb1a9bb86",
+   "name": "Cortado",
+   "category": "Coffee",
+   "price_cents": 375,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "164266e5-a8c6-4c44-ad03-88976ad0bb18",
+   "name": "London Fog",
+   "category": "Coffee",
+   "price_cents": 475,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Pumpkin Spice",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Toasted Marshmellow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cinnamon Bun",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Chocolate Chip Cookie Dough",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Lavendar",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Irish Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "No Foam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Foam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "To Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "16oz Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "fa3bb3c1-f6c5-44a9-8045-1afc008287d6",
+   "name": "Cold Brew",
+   "category": "Coffee",
+   "price_cents": 350,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Pumpkin Spice",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Toasted Marshmellow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cinnamon Bun",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Chocolate Chip Cookie Dough",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Lavendar",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Irish Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Options",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Options",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Drink Options",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Options",
+     "choice_name": "20 oz",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Whip Cream",
+     "choice_name": "Add Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whip Cream",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d96697ff-9ced-45cb-8c2d-3d792950b527",
+   "name": "Super Golden Latte",
+   "category": "Coffee",
+   "price_cents": 650,
+   "available": false,
+   "modifiers": [
+    {
+     "group_name": "Milk",
+     "choice_name": "1/2 & 1/2",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Skim Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Whole Milk",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Kids Temp",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Peppermint",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "SF Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Pumpkin Spice",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Toasted Marshmellow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Cinnamon Bun",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Chocolate Chip Cookie Dough",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Lavendar",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Flavor Shots",
+     "choice_name": "Irish Cream",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Drink Options",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Options",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "Drink Options",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Drink Options",
+     "choice_name": "20 oz",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Whip Cream",
+     "choice_name": "Add Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Whip Cream",
+     "choice_name": "No Whip",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Milk",
+     "choice_name": "Almond Milk",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "No Foam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Foam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "To Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "16oz Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2821c341-600d-4cd1-b5f9-b250f6d94eb6",
+   "name": "House Iced Tea",
+   "category": "Beverages",
+   "price_cents": 300,
+   "available": true
+  },
+  {
+   "platform_item_id": "08b89618-6769-43c3-95cc-12a2e2d92ffb",
+   "name": "Rishi Tea",
+   "category": "Beverages",
+   "price_cents": 350,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Rishi",
+     "choice_name": "Jasmine Green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Green Mint",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "China Breakfast",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Earl Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Cinnamon Plum",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Peach Blossom",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Blueberry Rooibos",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Tangerine Ginger",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Chamomile Medley",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Turmeric Ginger",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "White Peony",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Jade Cloud",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Rishi",
+     "choice_name": "Blackberry Bellini",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "No Foam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Foam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "To Go Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Hot",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Iced",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Room for Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Extra Shot",
+     "price_delta_cents": 95
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Decaf",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "16oz Cup",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "All Coffee",
+     "choice_name": "Light Ice",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "1d648609-1b32-4dcb-8a71-56fc48923e8d",
+   "name": "Tiesta Tea",
+   "category": "Beverages",
+   "price_cents": 350,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Maui Mango",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Pumpkin Spice",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Blueberry Wild Child",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Lavendar Chamomile",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Ginger Sweet Peach",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Lemon Ginger Turmeric",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Nutty Almond Cream",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "South African Roobios",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Fruity Paradise",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Chinese Gunpowder",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Chai Love",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Ceylon Orange Pekoe",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Tiesta",
+     "choice_name": "Royal Breakfast",
+     "price_delta_cents": 0
+    }
+   ]
+  },
+  {
+   "platform_item_id": "3dc7e59d-05cc-4629-8a45-307eb35cde92",
+   "name": "Fresh Fruit  Smoothie",
+   "category": "Beverages",
+   "price_cents": 575,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Smoothie Flavors",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Smoothie Flavors",
+     "choice_name": "Tropical",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Smoothie Flavors",
+     "choice_name": "Mango",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Smoothie Flavors",
+     "choice_name": "Wildberry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Protein Powder",
+     "choice_name": "Protein Powder",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Smoothie",
+     "choice_name": "Add Yogurt",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Smoothie",
+     "choice_name": "Add Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Smoothie",
+     "choice_name": "Add Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Smoothie",
+     "choice_name": "Add Spinach",
+     "price_delta_cents": 125
+    },
+    {
+     "group_name": "Smoothie",
+     "choice_name": "Add Sprouts",
+     "price_delta_cents": 200
+    },
+    {
+     "group_name": "Smoothie",
+     "choice_name": "Add Chia Seeds",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Smoothie",
+     "choice_name": "Add Peanubutter",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Smoothie",
+     "choice_name": "Add Honey Health Bar",
+     "price_delta_cents": 125
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b7dfd7c0-b653-4e40-87a7-d33212f82ab7",
+   "name": "Nestle",
+   "category": "Beverages",
+   "price_cents": 395,
+   "available": true
+  },
+  {
+   "platform_item_id": "698721ea-a597-4e40-b206-d781e4f0cb31",
+   "name": "Peach Blossom Lemonade",
+   "category": "Beverages",
+   "price_cents": 325,
+   "available": true
+  },
+  {
+   "platform_item_id": "0f75bb8b-cc1a-4ec1-9cdd-796c1cd4a37a",
+   "name": "Calypso",
+   "category": "Beverages",
+   "price_cents": 275,
+   "available": true
+  },
+  {
+   "platform_item_id": "20f5c641-9353-4e85-b85d-810967b27f40",
+   "name": "Can Soda",
+   "category": "Beverages",
+   "price_cents": 195,
+   "available": true
+  },
+  {
+   "platform_item_id": "7e26fbf3-24d2-474f-85bf-85826238de9e",
+   "name": "Jarritos",
+   "category": "Beverages",
+   "price_cents": 275,
+   "available": true
+  },
+  {
+   "platform_item_id": "4bbd2847-703f-4dd0-b3ee-c46057335b87",
+   "name": "San Pellegrino",
+   "category": "Beverages",
+   "price_cents": 250,
+   "available": true
+  },
+  {
+   "platform_item_id": "f7c725af-ffef-42f3-ae01-d99f7916b0e3",
+   "name": "Bai",
+   "category": "Beverages",
+   "price_cents": 325,
+   "available": true
+  },
+  {
+   "platform_item_id": "91b5c5db-b1f3-46af-a006-45af8191cc19",
+   "name": "Rishi Botanicals",
+   "category": "Beverages",
+   "price_cents": 385,
+   "available": true
+  },
+  {
+   "platform_item_id": "ea82113e-52de-4225-bb1a-54bc4642965a",
+   "name": "Bubbler",
+   "category": "Beverages",
+   "price_cents": 395,
+   "available": true
+  },
+  {
+   "platform_item_id": "be1a8570-e858-464a-89c6-59d05dbe92e6",
+   "name": "Celcius",
+   "category": "Beverages",
+   "price_cents": 395,
+   "available": true
+  },
+  {
+   "platform_item_id": "a2da5aa4-b38c-4765-be9b-ca79929978e3",
+   "name": "Saint James",
+   "category": "Beverages",
+   "price_cents": 275,
+   "available": true
+  },
+  {
+   "platform_item_id": "e320cea5-df90-4e3f-a8f7-f4e453597a78",
+   "name": "Rain",
+   "category": "Beverages",
+   "price_cents": 275,
+   "available": true
+  },
+  {
+   "platform_item_id": "eb9465fd-0e8b-4aad-9016-194ce6449a80",
+   "name": "Spindrift",
+   "category": "Beverages",
+   "price_cents": 195,
+   "available": true
+  },
+  {
+   "platform_item_id": "e86faff2-cc09-4e3c-93ee-7fc4ccc997f8",
+   "name": "Sprecher",
+   "category": "Beverages",
+   "price_cents": 395,
+   "available": true
+  },
+  {
+   "platform_item_id": "00155827-bc0b-49bf-a76d-fc8fb46dd94e",
+   "name": "Glass of Milk",
+   "category": "Beverages",
+   "price_cents": 175,
+   "available": true,
+   "modifiers": [
+    {
+     "group_name": "Glass of Milk",
+     "choice_name": "Skim",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Glass of Milk",
+     "choice_name": "2%",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Glass of Milk",
+     "choice_name": "Whole",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Glass of Milk",
+     "choice_name": "Almond",
+     "price_delta_cents": 75
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cebb7fe4-a9c1-459e-9fd1-47b07a324b10",
+   "name": "Ice Mountain",
+   "category": "Beverages",
+   "price_cents": 150,
+   "available": true
+  },
+  {
+   "platform_item_id": "06b51da5-bb10-4817-b259-a21e5bdb4cfd",
+   "name": "Wisco Pop",
+   "category": "Beverages",
+   "price_cents": 295,
+   "available": true
+  },
+  {
+   "platform_item_id": "6930215f-5952-42e9-ba05-8e36ab819b98",
+   "name": "Orange Juice",
+   "category": "Juices",
+   "price_cents": 265,
+   "available": true
+  }
+ ]
+}
