@@ -1,0 +1,232 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.rebeccasbakery.com/menu",
+ "shops": [
+  {
+   "id": 471,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "Tiramisu Cake Slice",
+   "category": "Bakery",
+   "price_cents": 450,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Vanilla Mocha Cake Slice",
+   "category": "Bakery",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Red Velvet Cake Slice",
+   "category": "Bakery",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chocolate Cake Slice",
+   "category": "Bakery",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cannoli",
+   "category": "Bakery",
+   "price_cents": 245,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Russian Tea Cookie",
+   "category": "Bakery",
+   "price_cents": 135,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Fruit Tart",
+   "category": "Bakery",
+   "price_cents": 750,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Ricotta Pie",
+   "category": "Bakery",
+   "price_cents": 699,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Apple Tart",
+   "category": "Bakery",
+   "price_cents": 699,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Almond Pasticciotto",
+   "category": "Bakery",
+   "price_cents": 699,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cherry Pasticciotto",
+   "category": "Bakery",
+   "price_cents": 699,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mille-Feuille Slice",
+   "category": "Bakery",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Assorted Short Bread Cookies",
+   "category": "Bakery",
+   "price_cents": 550,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Almond Biscotti",
+   "category": "Bakery",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Baklava",
+   "category": "Bakery",
+   "price_cents": 400,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Apple or Strawberry Turnover",
+   "category": "Bakery",
+   "price_cents": 269,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Vanilla Mocha Cake",
+   "category": "Bakery",
+   "price_cents": 3800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Vanilla Alla Cream Cake",
+   "category": "Bakery",
+   "price_cents": 3800,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Tiramisu Cake",
+   "category": "Bakery",
+   "price_cents": 4600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chocolate Mocha Cake",
+   "category": "Bakery",
+   "price_cents": 4600,
+   "price_low_cents": null,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  }
+ ]
+}
