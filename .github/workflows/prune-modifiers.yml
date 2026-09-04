@@ -1,0 +1,31 @@
+name: Prune modifiers
+
+on:
+  workflow_dispatch:
+    inputs:
+      shop_id:
+        description: 'Shop id whose modifiers to prune'
+        required: true
+      group_name:
+        description: 'Modifier group_name'
+        required: true
+      choices:
+        description: 'Comma-separated choice_name values to delete'
+        required: true
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Prune modifier rows
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: python scripts/prune_modifiers.py --shop-id "${{ inputs.shop_id }}" --group "${{ inputs.group_name }}" --choices "${{ inputs.choices }}"
