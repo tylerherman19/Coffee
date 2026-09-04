@@ -1,0 +1,1799 @@
+{
+ "platform": "toast",
+ "source_url": "https://frenchhencafe.com/order (captured via cloud browser from Toast online ordering page, __OO_STATE__ + item pages; restaurant guid 641c45a5-d8c6-4060-8205-f1e1184aa859, address on page: 518 Selby Ave, Saint Paul, MN)",
+ "shops": [
+  {
+   "id": 278,
+   "slug": "the-french-hen-cafe-518-selby-ave"
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "1ba4aacd-d5f0-4c57-b594-cbb9ec11b921",
+   "name": "Creole Market Hash",
+   "category": "Eggs",
+   "price_cents": 1950,
+   "available": true,
+   "raw": {
+    "description": "roasted root veg, broccoli, brussel sprouts, caramelized onion, bell pepper, arugula, poached eggs*, hollandaise"
+   }
+  },
+  {
+   "platform_item_id": "96fb7412-589a-4094-9fbd-1e6377f4659e",
+   "name": "Catfish Benedict",
+   "category": "Eggs",
+   "price_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "blackened heartland catfish, fried green tomatoes, poached eggs*, hollandaise, collard greens made with smoked turkey"
+   }
+  },
+  {
+   "platform_item_id": "2facd0c6-d25c-4dd0-9fa0-9293b1171007",
+   "name": "Savory Crepe",
+   "category": "Eggs",
+   "price_cents": 1650,
+   "available": true,
+   "raw": {
+    "description": "oyster mushroom, broccoli, swiss chard, herbs, micro greens, caramelized onion, gruyere, sunny side egg*"
+   }
+  },
+  {
+   "platform_item_id": "f986c38a-4b2c-4243-a6e2-56e1771bc5f2",
+   "name": "Biscuits and Gravy",
+   "category": "Eggs",
+   "price_cents": 1850,
+   "available": true,
+   "raw": {
+    "description": "andouille sausage gravy, cheddar chive biscuits, two eggs*"
+   }
+  },
+  {
+   "platform_item_id": "f8aeb59f-cd56-42a1-94e6-0dcd6647a236",
+   "name": "Quiche Lorraine",
+   "category": "Eggs",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "bacon, gruyere, chives, parsley, puff pastry crust"
+   }
+  },
+  {
+   "platform_item_id": "75a34dbf-6aa5-47ef-801d-252c0a5d325d",
+   "name": "Salmon Scramble",
+   "category": "Eggs",
+   "price_cents": 2000,
+   "available": true,
+   "raw": {
+    "description": "three soft scrambled eggs*, cold smoked salmon, sour cream, chives, simple salad"
+   }
+  },
+  {
+   "platform_item_id": "f130b613-88b6-4f78-b4c5-89cfe527fe15",
+   "name": "Breakfast Sandwich",
+   "category": "Eggs",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "choice of meat, over medium egg, cheddar cheese, balsamic onion jam, arugula, sourdough"
+   }
+  },
+  {
+   "platform_item_id": "f0b00070-40fe-42f3-8aba-a31ba916ed59",
+   "name": "Poutine",
+   "category": "Eggs",
+   "price_cents": 1700,
+   "available": true,
+   "raw": {
+    "description": "hash browns, gruyere, sausage gravy, poached eggs"
+   }
+  },
+  {
+   "platform_item_id": "9f639bbe-cd79-4678-bc35-1fa2f6da6889",
+   "name": "Basic Benedict",
+   "category": "Eggs",
+   "price_cents": 1750,
+   "available": true,
+   "raw": {
+    "description": "choice of meat, poached eggs*, hollandaise, Trung Nam french bread"
+   }
+  },
+  {
+   "platform_item_id": "aa2a5bed-c4d7-4e26-a636-866605a0b897",
+   "name": "Banh Mi Benedict",
+   "category": "Eggs",
+   "price_cents": 2200,
+   "available": true,
+   "raw": {
+    "description": "soy glazed local pork, poached eggs*, fresh veggie relish, cilantro, sriracha hollandaise, Trung Nam french bread"
+   }
+  },
+  {
+   "platform_item_id": "645228b5-a248-496e-92dc-d8faa70f5b7d",
+   "name": "Coffee Cake Muffin",
+   "category": "Sweet Beginnings",
+   "price_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "raspberry and strusel filling, served warm with butter"
+   }
+  },
+  {
+   "platform_item_id": "0d8c8d8b-528a-464d-ba85-63e394ae0634",
+   "name": "Coconut Lime French Toast",
+   "category": "Sweet Beginnings",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "french bread, fresh berries, local maple syrup, butter, powdered sugar"
+   }
+  },
+  {
+   "platform_item_id": "a8e26a7b-2bb5-4dc4-8cae-a04cb5fea798",
+   "name": "Gluten Free French Toast",
+   "category": "Sweet Beginnings",
+   "price_cents": 2100,
+   "available": true,
+   "raw": {
+    "description": "udi's gluten free bread, fresh berries, local maple syrup, butter, powdered sugar"
+   }
+  },
+  {
+   "platform_item_id": "3d9d6455-02b5-4046-bcb9-710bef1f856d",
+   "name": "Sweet Crepe",
+   "category": "Sweet Beginnings",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "seasonal peach preparation *may contain pecans*"
+   }
+  },
+  {
+   "platform_item_id": "4e4491df-6076-45b7-90a4-5ef9040022a3",
+   "name": "Plain PANcake",
+   "category": "Sweet Beginnings",
+   "price_cents": 1450,
+   "available": true,
+   "raw": {
+    "description": "8\u201d pan crisped & oven finished, served with local syrup & butter"
+   }
+  },
+  {
+   "platform_item_id": "43dc354f-0522-44ef-ad3d-1565be26fc31",
+   "name": "Blueberry PANcake",
+   "category": "Sweet Beginnings",
+   "price_cents": 1750,
+   "available": true,
+   "raw": {
+    "description": "8\u201d pan crisped & oven finished- made with fresh blueberries, served with local syrup & butter"
+   }
+  },
+  {
+   "platform_item_id": "43825be1-94ac-4f6f-a229-8622224f40be",
+   "name": "Salty-Sweet PANcake",
+   "category": "Sweet Beginnings",
+   "price_cents": 1850,
+   "available": true,
+   "raw": {
+    "description": "8\u201d pan crisped & oven finished- made with bacon, cheddar, and chives, served with local syrup & honey butter"
+   }
+  },
+  {
+   "platform_item_id": "5bdae419-ce7d-4c7d-b4f3-4d8f95806f83",
+   "name": "Plain Flapjacks",
+   "category": "Sweet Beginnings",
+   "price_cents": 1250,
+   "available": true,
+   "raw": {
+    "description": "three diner-style griddle cakes, served with local syrup & butter"
+   }
+  },
+  {
+   "platform_item_id": "70bb7341-537d-44d9-a649-4454e7aa3994",
+   "name": "Blueberry Flapjacks",
+   "category": "Sweet Beginnings",
+   "price_cents": 1550,
+   "available": true,
+   "raw": {
+    "description": "three diner-style griddle cakes- made with fresh blueberries, served with local syrup & butter"
+   }
+  },
+  {
+   "platform_item_id": "4b1fe256-e0ed-4178-98f3-e03ce74923d8",
+   "name": "Salty-Sweet Flapjacks",
+   "category": "Sweet Beginnings",
+   "price_cents": 1650,
+   "available": true,
+   "raw": {
+    "description": "three diner-style griddle cakes- made with bacon, cheddar, and chives, served with local syrup & honey butter"
+   }
+  },
+  {
+   "platform_item_id": "3c5d95f6-a27f-4d0e-8557-45284118a804",
+   "name": "One Plain Flapjack",
+   "category": "Sweet Beginnings",
+   "price_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "diner-style griddle cake, served with local syrup & butter"
+   }
+  },
+  {
+   "platform_item_id": "32fb3788-a066-40b3-9e54-0d1d9928b6b5",
+   "name": "One Blueberry Flapjack",
+   "category": "Sweet Beginnings",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "diner-style griddle cake- made with fresh blueberries, served with local syrup & butter"
+   }
+  },
+  {
+   "platform_item_id": "58ecdd94-8972-438a-bce7-abc48c082f38",
+   "name": "One Salty-Sweet Flapjack",
+   "category": "Sweet Beginnings",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "diner-style griddle cake- made with bacon, cheddar, and chives, served with local syrup & honey butter"
+   }
+  },
+  {
+   "platform_item_id": "f19d5821-19e5-4cf0-beb2-debe4df5100e",
+   "name": "Gluten Free Half Order French Toast",
+   "category": "Sweet Beginnings",
+   "price_cents": 1150,
+   "available": true,
+   "raw": {
+    "description": "two peices french bread, fresh berries, local maple syrup, butter, powdered sugar"
+   }
+  },
+  {
+   "platform_item_id": "04b3b5ca-fb39-44ff-b31b-f47ce59caa94",
+   "name": "Half Order French Toast",
+   "category": "Sweet Beginnings",
+   "price_cents": 950,
+   "available": true,
+   "raw": {
+    "description": "two peices french bread, fresh berries, local maple syrup, butter, powdered sugar"
+   }
+  },
+  {
+   "platform_item_id": "a43f434c-8eb6-4f45-aa4f-8f5fdf6660d2",
+   "name": "Chia Jam Parfait",
+   "category": "Sweet Beginnings",
+   "price_cents": 725,
+   "available": true,
+   "price_low_cents": 725,
+   "price_high_cents": 1050,
+   "raw": {
+    "description": "Raspberry chia seed jam , greek yogurt, fresh berries , pecan granola, honey *contains nuts*"
+   }
+  },
+  {
+   "platform_item_id": "d1bac976-06c1-4a68-aaf7-2c008687ab53",
+   "name": "One Egg",
+   "category": "Breakfast Sides",
+   "price_cents": 325,
+   "available": true,
+   "raw": {
+    "description": "one Larry Shultz organic egg* your way"
+   }
+  },
+  {
+   "platform_item_id": "9f41bfa6-cbec-47b2-b663-0b42aca993ea",
+   "name": "Bacon",
+   "category": "Breakfast Sides",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "three peices of thick cut bacon, applewood smoked"
+   }
+  },
+  {
+   "platform_item_id": "c68a09c1-a32f-4354-8ab2-e11c0522530d",
+   "name": "Andouille Sausage",
+   "category": "Breakfast Sides",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "house made andouille patty made with peterson craft meats pork"
+   }
+  },
+  {
+   "platform_item_id": "66a61a81-8b9c-4d99-b830-d1765801dde9",
+   "name": "Turkey Sausage",
+   "category": "Breakfast Sides",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "house maple-herb sausage patty made with ferndale farms turkey"
+   }
+  },
+  {
+   "platform_item_id": "20d4f887-29aa-4d1d-9bc6-a6a78711d0d1",
+   "name": "Fruit Salad",
+   "category": "Breakfast Sides",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "daily berries and fruit mix, mint lemon syrup"
+   }
+  },
+  {
+   "platform_item_id": "26b63528-e1b8-4388-b194-3b79b4ee9385",
+   "name": "Roasted Root Veg",
+   "category": "Breakfast Sides",
+   "price_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "sweet potato, carrot, and red potatoes oven roasted with cajun seasoning"
+   }
+  },
+  {
+   "platform_item_id": "42212708-f136-4c57-a880-d52513481711",
+   "name": "Andouille Gravy",
+   "category": "Breakfast Sides",
+   "price_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "cup of house made andouille sausage gravy"
+   }
+  },
+  {
+   "platform_item_id": "dd902d50-70d0-4058-a861-2b277aa1b295",
+   "name": "Hollandaise",
+   "category": "Breakfast Sides",
+   "price_cents": 250,
+   "available": true,
+   "raw": {
+    "description": "scratch made"
+   }
+  },
+  {
+   "platform_item_id": "adccc4a0-4733-4a24-9fe0-1a929eb3b42f",
+   "name": "Sriracha Hollandasie",
+   "category": "Breakfast Sides",
+   "price_cents": 250,
+   "available": true,
+   "raw": {
+    "description": "scratch made"
+   }
+  },
+  {
+   "platform_item_id": "78b7485a-9353-43fd-99f1-cee640dc8a3f",
+   "name": "Local Maple Syrup",
+   "category": "Breakfast Sides",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "from redding's sugar bush"
+   }
+  },
+  {
+   "platform_item_id": "19874a42-2213-468a-b4c2-2ec01911cf04",
+   "name": "Cheddar Chive Biscuits",
+   "category": "Breakfast Sides",
+   "price_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "house made, served with honey butter"
+   }
+  },
+  {
+   "platform_item_id": "b8dd7268-e2e9-40bb-be3c-e7435c938ef2",
+   "name": "Griddled French Bread",
+   "category": "Breakfast Sides",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "from trung nam bakery, served with house jam"
+   }
+  },
+  {
+   "platform_item_id": "5c69a909-85cd-4dd4-9e05-011223ed7646",
+   "name": "Gluten Free Toast",
+   "category": "Breakfast Sides",
+   "price_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "udi's, served with house jam"
+   }
+  },
+  {
+   "platform_item_id": "51e64f15-16f3-47ee-8fc9-70b5585aa8fb",
+   "name": "Sourdough Toast",
+   "category": "Breakfast Sides",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "from la boulangerie marguerite, served with house jam"
+   }
+  },
+  {
+   "platform_item_id": "569e61d4-7f36-4b7c-80b3-28e022c383bc",
+   "name": "Wheat Toast",
+   "category": "Breakfast Sides",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "from la boulangerie marguerite, served with house jam"
+   }
+  },
+  {
+   "platform_item_id": "505dcf60-b91e-4eae-9406-3315f3cc9bdd",
+   "name": "Jam",
+   "category": "Breakfast Sides",
+   "price_cents": 100,
+   "available": true,
+   "raw": {
+    "description": "blueberry"
+   }
+  },
+  {
+   "platform_item_id": "31e5ccbb-0419-47ea-b7bf-d001a09bc6c6",
+   "name": "Small Collard Greens",
+   "category": "Lunch Sides",
+   "price_cents": 750,
+   "available": true,
+   "raw": {
+    "description": "made with smoked turkey"
+   }
+  },
+  {
+   "platform_item_id": "3d351e0a-8bd4-4a9e-a22b-3609a010d114",
+   "name": "Large Collard Greens",
+   "category": "Lunch Sides",
+   "price_cents": 1400,
+   "available": true,
+   "raw": {
+    "description": "made with smoked turkey"
+   }
+  },
+  {
+   "platform_item_id": "83ebe358-8939-424b-8e01-50891aa5adea",
+   "name": "Fried Green Tomatoes",
+   "category": "Lunch Sides",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "served with creole-cane remoulade"
+   }
+  },
+  {
+   "platform_item_id": "678b6854-f1df-4dd0-94e0-a5e484846872",
+   "name": "Two Fried Green Tomatoes",
+   "category": "Lunch Sides",
+   "price_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "served with creole-cane remoulade"
+   }
+  },
+  {
+   "platform_item_id": "5107e038-d131-444c-a792-7bd82a0e86da",
+   "name": "Side Blackened Catfish",
+   "category": "Lunch Sides",
+   "price_cents": 1200,
+   "available": true,
+   "raw": {
+    "description": "heartland catfish"
+   }
+  },
+  {
+   "platform_item_id": "af2b46c1-135f-49b7-b669-a44e09da1942",
+   "name": "Side Smoked Salmon",
+   "category": "Lunch Sides",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "cold smoked"
+   }
+  },
+  {
+   "platform_item_id": "ceb27e16-b0aa-4a65-b527-a07a0dd5e15e",
+   "name": "Kettle Chips",
+   "category": "Lunch Sides",
+   "price_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "seasoned"
+   }
+  },
+  {
+   "platform_item_id": "37b319f3-984e-46b3-95db-158266dbef25",
+   "name": "Kosher Pickle Spear",
+   "category": "Lunch Sides",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "815becc7-ee9d-4aaa-a38d-cf166408ce07",
+   "name": "Side of Vinaigrette",
+   "category": "Lunch Sides",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "ac8e749a-ff8e-472a-be67-73b414ac1c6d",
+   "name": "Side of Remoulade",
+   "category": "Lunch Sides",
+   "price_cents": 100,
+   "available": true
+  },
+  {
+   "platform_item_id": "a579231e-1093-487b-805c-dc47e3bdeb43",
+   "name": "Side of Onion Jam",
+   "category": "Lunch Sides",
+   "price_cents": 150,
+   "available": true
+  },
+  {
+   "platform_item_id": "7336f33f-5b5a-45ef-9374-3ec83f16a3cb",
+   "name": "Side of Duke's Mayo",
+   "category": "Lunch Sides",
+   "price_cents": 50,
+   "available": true
+  },
+  {
+   "platform_item_id": "28c94063-f6dd-4359-ba7c-d0b9a2661b92",
+   "name": "Side of Sour Cream",
+   "category": "Lunch Sides",
+   "price_cents": 50,
+   "available": true
+  },
+  {
+   "platform_item_id": "94a6eea3-d521-429a-8b38-3a3591596867",
+   "name": "Side of Creole Mustard",
+   "category": "Lunch Sides",
+   "price_cents": 50,
+   "available": true
+  },
+  {
+   "platform_item_id": "d76e53c6-0fff-4ce7-bf80-92cbce9cdeed",
+   "name": "Blackened Salmon Fillet",
+   "category": "Lunch Sides",
+   "price_cents": 1050,
+   "available": true,
+   "raw": {
+    "description": "heartland catfish"
+   }
+  },
+  {
+   "platform_item_id": "1c279d73-3bb3-4eae-aac1-de3913ad6960",
+   "name": "Veggie Melt",
+   "category": "Sandwiches",
+   "price_cents": 1450,
+   "available": true,
+   "raw": {
+    "description": "wheat, oyster mushrooms, chard, broccoli, tomato, balsamic onion jam, gruyere"
+   }
+  },
+  {
+   "platform_item_id": "9ed659e8-65b6-447e-b761-818183ca60a5",
+   "name": "Grilled Cheese",
+   "category": "Sandwiches",
+   "price_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "sourdough, cheddar, gruyere"
+   }
+  },
+  {
+   "platform_item_id": "7ebc2eff-7c1d-42dc-bf5f-98e12318d49d",
+   "name": "Parm BLT",
+   "category": "Sandwiches",
+   "price_cents": 1600,
+   "available": true,
+   "raw": {
+    "description": "parmesan crusted sourdough, bacon, tomato, herbs, arugula, mayo"
+   }
+  },
+  {
+   "platform_item_id": "03263317-3021-4fcd-b7aa-513a9f6f7655",
+   "name": "Catfish Po Boy",
+   "category": "Sandwiches",
+   "price_cents": 1800,
+   "available": true,
+   "raw": {
+    "description": "french bread, blackened catfish, remoulade, pickled shallot, tomato, gem lettuce"
+   }
+  },
+  {
+   "platform_item_id": "710fcd08-4e1a-4ce4-b0a4-dfd7801c494c",
+   "name": "Focaccia Caprese",
+   "category": "Sandwiches",
+   "price_cents": 1400,
+   "available": false,
+   "raw": {
+    "description": "wheat, oyster mushrooms, chard, broccoli, tomato, balsamic onion jam, gruyere"
+   }
+  },
+  {
+   "platform_item_id": "caac7915-9e9f-4b08-be3a-77df4079be53",
+   "name": "Soup du Jour",
+   "category": "Salad & Soup",
+   "price_cents": 600,
+   "available": true,
+   "price_low_cents": 600,
+   "price_high_cents": 1100,
+   "raw": {
+    "description": "daily selection"
+   }
+  },
+  {
+   "platform_item_id": "240235db-268d-4439-b412-5a2326515e1f",
+   "name": "Small Simple Salad",
+   "category": "Salad & Soup",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "local gem lettuce, pepitas, lemon-maple vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "62c2c671-d60e-4a38-ab7b-dac40ccfc8a4",
+   "name": "Large Simple Salad",
+   "category": "Salad & Soup",
+   "price_cents": 1100,
+   "available": true,
+   "raw": {
+    "description": "local gem lettuce, pepitas, lemon-maple vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "07334045-5aa2-426e-9806-846f390ae883",
+   "name": "Herb Salad HALF",
+   "category": "Salad & Soup",
+   "price_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "snap pea, green bean, watermelon radish, shallot, herbs, micro greens, arugula, kale, lemon-maple vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "ff5d3a21-27b6-4025-8264-62925d223182",
+   "name": "Herb Salad FULL",
+   "category": "Salad & Soup",
+   "price_cents": 1500,
+   "available": true,
+   "raw": {
+    "description": "snap pea, green bean, watermelon radish, shallot, herbs, micro greens, arugula, kale, lemon-maple vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "b1c7c639-96cc-4adf-9e23-685c9b72843c",
+   "name": "Slaw Salad",
+   "category": "Salad & Soup",
+   "price_cents": 625,
+   "available": true,
+   "raw": {
+    "description": "shredded broccoli, carrot, red cabbage, kale, lemon-maple vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "3cb5e04b-cee7-4828-80ca-0ec6dc2757da",
+   "name": "Tarik's Nicoise",
+   "category": "Salad & Soup",
+   "price_cents": 2500,
+   "available": true,
+   "raw": {
+    "description": "sumac blackened salmon filet, \r\npoached egg, za\u2019atar potatoes, green\r\nbeans, tomato, olives, sumac shallots, pomegranate molasses vinaigrette"
+   }
+  },
+  {
+   "platform_item_id": "975f92e3-42f3-44d5-9d3f-8412d5516868",
+   "name": "Cold Press",
+   "category": "Coffee+",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Truestone Cold Press"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5c397197-7c94-4029-862e-9b1af80c039e",
+   "name": "Espresso",
+   "category": "Coffee+",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "2oz French Hen Blend Espresso"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "e46e4628-ba8d-480c-adaa-122062c9ef99",
+   "name": "Espresso + Steamed Milk",
+   "category": "Coffee+",
+   "price_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "12oz hot | 16oz iced"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2088cc47-e1ab-4725-8b15-08268cd2f360",
+   "name": "Espresso + Hot Water",
+   "category": "Coffee+",
+   "price_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "12oz hot | 16oz iced"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f3d18135-e9ce-4ed0-8145-842dd3b260af",
+   "name": "House Chai",
+   "category": "Coffee+",
+   "price_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "house made chai syrup, black Assam tea, steamed milk.  12oz hot | 16oz iced"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "b8f5be15-cd7c-4629-8e00-90a993a465a2",
+   "name": "Hot Chocolate",
+   "category": "Coffee+",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "chocolate syrup and steamed milk"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "97d44351-c4db-4050-9cb4-89e7e887bc48",
+   "name": "Hot Tea",
+   "category": "Coffee+",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "choice of Two Leaves and a Bud teas"
+   },
+   "modifiers": [
+    {
+     "group_name": "Hot Tea Choice",
+     "choice_name": "Black Assam",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea Choice",
+     "choice_name": "Early Grey",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea Choice",
+     "choice_name": "Jasmine Green",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea Choice",
+     "choice_name": "Alpine Berry",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Hot Tea Choice",
+     "choice_name": "Chamomile",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "d71552fa-b248-4676-a3e6-bd7b15386c27",
+   "name": "Iced Tea",
+   "category": "Coffee+",
+   "price_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "unsweetened black Assam"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a7e6e634-42d5-4afa-84c1-76241b2e31b2",
+   "name": "Coffee To Go",
+   "category": "Coffee+",
+   "price_cents": 300,
+   "available": true,
+   "price_low_cents": 300,
+   "price_high_cents": 400,
+   "raw": {
+    "description": "French Hen Blend Drip from Truestone Coffee Roasters"
+   },
+   "modifiers": [
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "DECAF",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "ICED",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Oatmilk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Half and Half",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Sub Heavy Cream",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 275
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chai",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Maple Syrup",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add Caramel",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cinnamon",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "16oz (no xtra shot)",
+     "price_delta_cents": 75
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add sugar in raw packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add granulated sugar packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Add stevia packet",
+     "price_delta_cents": 0
+    },
+    {
+     "group_name": "Coffee Modifiers",
+     "choice_name": "Cold Foam",
+     "price_delta_cents": 150
+    }
+   ]
+  },
+  {
+   "platform_item_id": "35631938-86a9-42d1-ad72-e885910d50a6",
+   "name": "Orange Juice",
+   "category": "Juice & Soda",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 650,
+   "raw": {
+    "description": "7oz | 14oz "
+   }
+  },
+  {
+   "platform_item_id": "18be6851-5215-4b33-827c-a6e1bc68aa1d",
+   "name": "Blood Orange Juice",
+   "category": "Juice & Soda",
+   "price_cents": 450,
+   "available": true,
+   "price_low_cents": 450,
+   "price_high_cents": 850,
+   "raw": {
+    "description": "7oz | 14oz "
+   }
+  },
+  {
+   "platform_item_id": "035c3e51-82ec-4bf3-96e4-7eefa4929409",
+   "name": "Apple Juice",
+   "category": "Juice & Soda",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 650,
+   "raw": {
+    "description": "7oz | 14oz "
+   }
+  },
+  {
+   "platform_item_id": "1c97ce22-0b57-4e30-8b82-d17dd3e4f5da",
+   "name": "Apple Blast",
+   "category": "Juice & Soda",
+   "price_cents": 400,
+   "available": true,
+   "price_low_cents": 400,
+   "price_high_cents": 750,
+   "raw": {
+    "description": "7oz | 14oz"
+   }
+  },
+  {
+   "platform_item_id": "0caa71f1-749d-4ebf-b04e-99e97626e5b6",
+   "name": "Whole Milk",
+   "category": "Juice & Soda",
+   "price_cents": 250,
+   "available": true,
+   "price_low_cents": 250,
+   "price_high_cents": 500,
+   "raw": {
+    "description": "7oz | 14oz "
+   }
+  },
+  {
+   "platform_item_id": "df11fa60-591b-49a0-a1fe-9cfc6263010e",
+   "name": "Chocolate Milk",
+   "category": "Juice & Soda",
+   "price_cents": 350,
+   "available": true,
+   "price_low_cents": 350,
+   "price_high_cents": 650,
+   "raw": {
+    "description": "7oz | 14oz "
+   }
+  },
+  {
+   "platform_item_id": "7f431f8c-4ce1-49d4-a54a-2d9d8988bd1c",
+   "name": "Coke",
+   "category": "Juice & Soda",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "12oz can"
+   }
+  },
+  {
+   "platform_item_id": "6447f73d-07ee-4056-9b7e-d20a78ec525c",
+   "name": "Diet Coke",
+   "category": "Juice & Soda",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "12oz can"
+   }
+  },
+  {
+   "platform_item_id": "95a6deb0-3d6b-4e63-9d48-8a395c159ee8",
+   "name": "Sprite",
+   "category": "Juice & Soda",
+   "price_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "12oz can"
+   }
+  },
+  {
+   "platform_item_id": "ce12948d-ebbd-415f-bfa0-1a4783b4ac68",
+   "name": "La Croix Can",
+   "category": "Juice & Soda",
+   "price_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "12oz can"
+   }
+  },
+  {
+   "platform_item_id": "33e7e17f-293f-4bb0-9c29-f75dbac14ffc",
+   "name": "San Pellegrino Bottle",
+   "category": "Juice & Soda",
+   "price_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "17oz bottle"
+   }
+  },
+  {
+   "platform_item_id": "47dc2a51-bf76-4dda-9c1b-249b53c4aaea",
+   "name": "Shirley Temple",
+   "category": "Juice & Soda",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "sprite and grenadine with maraschino cherries"
+   }
+  },
+  {
+   "platform_item_id": "90ff924a-9250-49f1-8cdd-614dc6b18ce0",
+   "name": "Jones Soda",
+   "category": "Juice & Soda",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "sprite and grenadine with maraschino cherries"
+   }
+  },
+  {
+   "platform_item_id": "a1a898fa-189c-4482-abaf-06e06b3d26ca",
+   "name": "White Lotus Plant Energy",
+   "category": "Juice & Soda",
+   "price_cents": 650,
+   "available": true
+  },
+  {
+   "platform_item_id": "0818e238-6f11-4826-b828-bdf9bafe6c87",
+   "name": "Goslings Ginger Beer",
+   "category": "Juice & Soda",
+   "price_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "sprite and grenadine with maraschino cherries"
+   }
+  },
+  {
+   "platform_item_id": "179cd29e-f9e9-495b-bf44-de3402122480",
+   "name": "Arnie Palmer",
+   "category": "Juice & Soda",
+   "price_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "sprite and grenadine with maraschino cherries"
+   }
+  }
+ ]
+}
