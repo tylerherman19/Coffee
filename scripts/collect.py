@@ -256,10 +256,6 @@ FOOD_ITEM = re.compile(
 # drip; keeping them out of the named buckets keeps the compare view honest.
 BLENDED = re.compile(r"\bshakes?\b|frapp|smoothie|\bmalt\b|\bslush", re.I)
 DRINK_KINDS = [
-    # Macchiato sits in the espresso bucket and must beat caramel_latte:
-    # a "Caramel Macchiato" is a macchiato, not a caramel latte. (drink_type
-    # has a fixed value set in the database, so macchiato cannot be its own.)
-    ("espresso", r"espresso|cortado|macchiato|\bristretto\b|\bdoppio\b"),
     # Caramel latte is its own bucket and must beat the generic "latte"
     # and "mocha" rules, which the same names also match.
     ("caramel_latte", r"(?:caramel|carmel)\W+(?:\w+\W+){0,3}?latte|"
@@ -267,6 +263,7 @@ DRINK_KINDS = [
     ("cold_brew", r"cold brew|nitro"),
     ("cappuccino", r"cappuccino"),
     ("americano", r"americano"),
+    ("espresso", r"espresso|cortado|\bristretto\b|\bdoppio\b"),
     ("mocha", r"mocha"),
     ("latte", r"latte|cafe au lait|café au lait"),
     # A bare "Coffee", "Hot Coffee" or "Coffee of the Day" is the drip cup on
@@ -296,6 +293,11 @@ def classify_name(name: str, category: str | None = None) -> tuple[bool, str | N
         return False, None
     if BLENDED.search(text):
         return True, "other"
+    # Macchiato is checked on the NAME alone so a "Caramel Macchiato" is a
+    # macchiato (espresso bucket) rather than a caramel latte, without letting
+    # an "Espresso" category outvote the item's own name in the kind loop.
+    if re.search(r"\bmacchiato\b", name, re.I):
+        return True, "espresso"
     for kind, pattern in DRINK_KINDS:
         if re.search(pattern, text):
             if kind in BROAD_KINDS and FOOD_ITEM.search(text):
