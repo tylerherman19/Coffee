@@ -1,15 +1,22 @@
 import type { Metadata } from 'next';
-import { DM_Sans, Fraunces } from 'next/font/google';
+import { Bricolage_Grotesque, IBM_Plex_Mono } from 'next/font/google';
 import './globals.css';
 
-const bodyFont = DM_Sans({
+const bodyFont = Bricolage_Grotesque({
   variable: '--font-sans',
   subsets: ['latin'],
 });
 
-const headingFont = Fraunces({
+const headingFont = Bricolage_Grotesque({
   variable: '--font-heading',
   subsets: ['latin'],
+  weight: ['600', '700', '800'],
+});
+
+const monoFont = IBM_Plex_Mono({
+  variable: '--font-mono',
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
 });
 
 export const metadata: Metadata = {
@@ -25,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bodyFont.variable} ${headingFont.variable} antialiased`}
+        className={`${bodyFont.variable} ${headingFont.variable} ${monoFont.variable} antialiased`}
       >
         {children}
       </body>

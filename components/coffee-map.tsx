@@ -8,13 +8,12 @@ import { shopDrink, type Item, type Shop } from '@/lib/coffee-data';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 
-const cupSvg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fffdf8" stroke-width="2.4" stroke-linecap="square"><path d="M4 9h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9z"/><path d="M17 10h2a2.5 2.5 0 0 1 0 5h-2"/><path d="M7 5.5c0-1 .8-1 .8-2M11 5.5c0-1 .8-1 .8-2M15 5.5c0-1 .8-1 .8-2"/></svg>';
-const markerPriced = L.divIcon({ className: 'coffee-marker', html: cupSvg, iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -10] });
-const markerUnpriced = L.divIcon({ className: 'coffee-marker unpriced', html: cupSvg, iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -10] });
-const clusterIcon = (cluster: L.MarkerCluster) => L.divIcon({ className: 'coffee-cluster', html: `<span>${cluster.getChildCount()}</span>`, iconSize: [30, 30], iconAnchor: [15, 15] });
-const youIcon = L.divIcon({ className: 'you-marker', html: '', iconSize: [16, 16], iconAnchor: [8, 8] });
-const centers = { milwaukee: [43.0389, -87.9065] as [number, number], twin_cities: [44.9537, -93.09] as [number, number] };
 const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
+const priceIcon = (price: number) => L.divIcon({ className: 'coffee-marker pmk', html: money.format(price / 100), iconSize: [40, 19], iconAnchor: [20, 10], popupAnchor: [0, -12] });
+const unpricedIcon = L.divIcon({ className: 'coffee-marker pmk no', html: '', iconSize: [9, 9], iconAnchor: [4, 4], popupAnchor: [0, -12] });
+const clusterIcon = (cluster: L.MarkerCluster) => L.divIcon({ className: 'coffee-cluster pcl', html: `<span>${cluster.getChildCount()}</span>`, iconSize: [28, 28], iconAnchor: [14, 14] });
+const youIcon = L.divIcon({ className: 'you-marker pyou', html: '', iconSize: [13, 13], iconAnchor: [6, 6] });
+const centers = { milwaukee: [43.0389, -87.9065] as [number, number], twin_cities: [44.9537, -93.09] as [number, number] };
 
 function Recenter({ metro, user }: { metro: keyof typeof centers; user: { lat: number; lng: number } | null }) {
   const map = useMap();
@@ -41,8 +40,9 @@ function Clusters({ shops, drinkByShop, onOpen }: { shops: Shop[]; drinkByShop: 
     for (const shop of shops) {
       if (shop.lat == null || shop.lng == null) continue;
       const drink = drinkByShop.get(shop.id);
-      const m = L.marker([shop.lat, shop.lng], { icon: drink && drink.price != null ? markerPriced : markerUnpriced });
-      const price = drink && drink.price != null ? `<span class="popup-price">${drink.label} <strong>${money.format(drink.price / 100)}</strong></span>` : '';
+      const priced = drink && drink.price != null;
+      const m = L.marker([shop.lat, shop.lng], { icon: priced ? priceIcon(drink!.price as number) : unpricedIcon, zIndexOffset: priced ? 400 : 0 });
+      const price = priced ? `<span class="popup-price">${drink!.label} <strong>${money.format((drink!.price as number) / 100)}</strong></span>` : '';
       const el = document.createElement('div');
       el.className = 'map-popup';
       el.innerHTML = `<strong></strong><span></span>${price}<button type="button">See menu</button>`;
@@ -71,5 +71,10 @@ export default function CoffeeMap({ shops, items, metro, user, onOpen }: { shops
     for (const [id, menu] of menuByShop) { const drink = shopDrink(menu); map.set(id, { price: drink.price, label: drink.label }); }
     return map;
   }, [items]);
-  return <MapContainer center={centers[metro]} zoom={metro === 'milwaukee' ? 12 : 10} scrollWheelZoom className="coffee-map" zoomControl><Recenter metro={metro} user={user} /><TileLayer attribution='Tiles &copy; Esri &mdash; Esri, HERE, Garmin &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}" detectRetina maxZoom={19} />{user && <Marker position={[user.lat, user.lng]} icon={youIcon} />}<Clusters shops={shops} drinkByShop={drinkByShop} onOpen={onOpen} /></MapContainer>;
+  return <MapContainer center={centers[metro]} zoom={metro === 'milwaukee' ? 12 : 10} scrollWheelZoom className="coffee-map" zoomControl>
+    <Recenter metro={metro} user={user} />
+    <TileLayer attribution='Tiles &copy; Esri &mdash; Esri, HERE, Garmin &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}" detectRetina maxZoom={19} />
+    {user && <Marker position={[user.lat, user.lng]} icon={youIcon} />}
+    <Clusters shops={shops} drinkByShop={drinkByShop} onOpen={onOpen} />
+  </MapContainer>;
 }
