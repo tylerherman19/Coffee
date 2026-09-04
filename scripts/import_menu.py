@@ -46,6 +46,13 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
     items = bundle.get("items") or []
     if not items:
         raise SystemExit("bundle has no items")
+    # A menu can list the same platform item under two categories; the
+    # (shop_id, platform_item_id) key is unique, so collapse duplicates
+    # (last wins, matching the collector's html extractor).
+    by_pid = {entry["platform_item_id"]: entry for entry in items}
+    if len(by_pid) != len(items):
+        print(f"note: collapsed {len(items) - len(by_pid)} duplicate platform_item_id rows (last wins)")
+        items = list(by_pid.values())
     source_url = bundle.get("source_url")
     platform = bundle.get("platform")
     bundle_raw = bundle.get("raw") or {}
