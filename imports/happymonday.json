@@ -1,0 +1,324 @@
+{
+  "platform": "html-menu",
+  "source_url": "https://www.happymonday.company/pages/cafe-menu",
+  "shops": [
+    {
+      "id": 453,
+      "slug": null
+    }
+  ],
+  "items": [
+    {
+      "platform_item_id": null,
+      "name": "Drip",
+      "category": "Menu",
+      "price_cents": 350,
+      "price_low_cents": 350,
+      "price_high_cents": 450,
+      "available": true,
+      "raw": {
+        "price_text": "$3.50 / $4.50"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Flash Brew",
+      "category": "Menu",
+      "price_cents": 600,
+      "price_low_cents": 600,
+      "price_high_cents": 600,
+      "available": true,
+      "raw": {
+        "price_text": "$6.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Espresso",
+      "category": "Menu",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 400,
+      "available": true,
+      "raw": {
+        "price_text": "$4.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Americano",
+      "category": "Menu",
+      "price_cents": 425,
+      "price_low_cents": 425,
+      "price_high_cents": 525,
+      "available": true,
+      "raw": {
+        "price_text": "$4.25 / $5.25"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Cortado",
+      "category": "Menu",
+      "price_cents": 475,
+      "price_low_cents": 475,
+      "price_high_cents": 475,
+      "available": true,
+      "raw": {
+        "price_text": "$4.75"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Cappuccino",
+      "category": "Menu",
+      "price_cents": 500,
+      "price_low_cents": 500,
+      "price_high_cents": 500,
+      "available": true,
+      "raw": {
+        "price_text": "$5.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Latte",
+      "category": "Menu",
+      "price_cents": 550,
+      "price_low_cents": 550,
+      "price_high_cents": 650,
+      "available": true,
+      "raw": {
+        "price_text": "$5.50 / $6.50"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Mocha",
+      "category": "Menu",
+      "price_cents": 635,
+      "price_low_cents": 635,
+      "price_high_cents": 735,
+      "available": true,
+      "raw": {
+        "price_text": "$6.35 / $7.35"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Miel",
+      "category": "Menu",
+      "price_cents": 635,
+      "price_low_cents": 635,
+      "price_high_cents": 735,
+      "available": true,
+      "raw": {
+        "price_text": "$6.35 / $7.35"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Espresso Tonic",
+      "category": "Menu",
+      "price_cents": 600,
+      "price_low_cents": 600,
+      "price_high_cents": 600,
+      "available": true,
+      "raw": {
+        "price_text": "$6.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Spro'la",
+      "category": "Menu",
+      "price_cents": 600,
+      "price_low_cents": 600,
+      "price_high_cents": 600,
+      "available": true,
+      "raw": {
+        "price_text": "$6.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Grandma's House",
+      "category": "Menu",
+      "price_cents": 635,
+      "price_low_cents": 635,
+      "price_high_cents": 735,
+      "available": true,
+      "raw": {
+        "price_text": "$6.35 / $7.35"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Hug in a Mug",
+      "category": "Menu",
+      "price_cents": 635,
+      "price_low_cents": 635,
+      "price_high_cents": 735,
+      "available": true,
+      "raw": {
+        "price_text": "$6.35 / $7.35"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Matcha Latte",
+      "category": "Menu",
+      "price_cents": 550,
+      "price_low_cents": 550,
+      "price_high_cents": 650,
+      "available": true,
+      "raw": {
+        "price_text": "$5.50 / $6.50"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Chai Latte",
+      "category": "Menu",
+      "price_cents": 600,
+      "price_low_cents": 600,
+      "price_high_cents": 700,
+      "available": true,
+      "raw": {
+        "price_text": "$6.00 / $7.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Golden Milk",
+      "category": "Menu",
+      "price_cents": 550,
+      "price_low_cents": 550,
+      "price_high_cents": 650,
+      "available": true,
+      "raw": {
+        "price_text": "$5.50 / $6.50"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Hot Cocoa",
+      "category": "Menu",
+      "price_cents": 500,
+      "price_low_cents": 500,
+      "price_high_cents": 600,
+      "available": true,
+      "raw": {
+        "price_text": "$5.00 / $6.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Steamer",
+      "category": "Menu",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 500,
+      "available": true,
+      "raw": {
+        "price_text": "$4.00 / $5.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Tea",
+      "category": "Menu",
+      "price_cents": 475,
+      "price_low_cents": 475,
+      "price_high_cents": 575,
+      "available": true,
+      "raw": {
+        "price_text": "$4.75 / $5.75"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Bagels",
+      "category": "Menu",
+      "price_cents": 500,
+      "price_low_cents": 500,
+      "price_high_cents": 500,
+      "available": true,
+      "raw": {
+        "price_text": "$5.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Pizza",
+      "category": "Menu",
+      "price_cents": 750,
+      "price_low_cents": 750,
+      "price_high_cents": 1400,
+      "available": true,
+      "raw": {
+        "price_text": "$7.50 / $14.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Arnold Paz - Honduras",
+      "category": "Menu",
+      "price_cents": 2200,
+      "price_low_cents": 2200,
+      "price_high_cents": 2200,
+      "available": true,
+      "raw": {
+        "price_text": "$22.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Cruise Control (Decaf)",
+      "category": "Menu",
+      "price_cents": 2000,
+      "price_low_cents": 2000,
+      "price_high_cents": 2000,
+      "available": true,
+      "raw": {
+        "price_text": "$20.00"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": null,
+      "name": "Daily Driver",
+      "category": "Menu",
+      "price_cents": 2000,
+      "price_low_cents": 2000,
+      "price_high_cents": 2000,
+      "available": true,
+      "raw": {
+        "price_text": "$20.00"
+      },
+      "modifiers": []
+    }
+  ]
+}
