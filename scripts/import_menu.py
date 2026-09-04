@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -40,12 +41,42 @@ def chunked(rows: list[dict[str, Any]], size: int = BATCH) -> list[list[dict[str
     return [rows[i : i + size] for i in range(0, len(rows), size)]
 
 
+
+def slugify(name: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return slug or "item"
+
+
+def rekey_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Ensure every item has a unique, stable platform_item_id.
+
+    Some staged captures only carry size-bucket ids (e.g. "None|10oz"),
+    which are not per-item keys. When the provided ids are missing or not
+    unique across the bundle, rekey every row by slugified item name
+    (numeric suffix on name collisions) so the (shop_id, platform_item_id)
+    upsert key stays unique and re-imports remain idempotent.
+    """
+    pids = [str(entry.get("platform_item_id") or "") for entry in items]
+    if all(p and p != "None" for p in pids) and len(set(pids)) == len(pids):
+        return items
+    counts: dict[str, int] = {}
+    rekeyed = []
+    for entry in items:
+        base = slugify(str(entry.get("name") or ""))
+        counts[base] = counts.get(base, 0) + 1
+        pid = base if counts[base] == 1 else f"{base}-{counts[base]}"
+        rekeyed.append({**entry, "platform_item_id": pid})
+    print(f"note: platform_item_id values missing or not unique ({len(set(pids))} distinct for {len(items)} rows); rekeyed by item name")
+    return rekeyed
+
+
 def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -> None:
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     today = dt.date.today().isoformat()
     items = bundle.get("items") or []
     if not items:
         raise SystemExit("bundle has no items")
+    items = rekey_items(items)
     # A menu can list the same platform item under two categories; the
     # (shop_id, platform_item_id) key is unique, so collapse duplicates
     # (last wins, matching the collector's html extractor).
