@@ -229,12 +229,18 @@ def direct_link(home_url: str) -> tuple[str | None, str | None, str | None]:
 RETAIL_PACKAGING = re.compile(
     r"whole bean|\bbeans\b|\bground\b|\bbags?\b|\blbs?\b|\bpounds?\b|prepack|"
     r"k.?cups?\b|\bgallons?\b|\bbox\b|traveler|\bscoop\b|liqueur|subscription|"
-    r"gift ?card|\bmerch\b|\bmugs?\b|tumbler|\bfilters?\b|"
+    r"gift ?card|\bmerch\b|\bmugs?\b|tumbler|\bfilters?\b|\bcanteen\b|"
+    r"\bjoe to go\b|for the crew|\binstant\b|\bspreads?\b|\bcarafes?\b|"
+    r"\bgrinders?\b|\btotes?\b|pup ?cups?\b|"
     # A flight or tasting is several small pours at one price, so it is not
     # comparable to a cup and would top the drip ranking at a flight's price.
     r"\bflights?\b|\bsamplers?\b|\btastings?\b",
     re.I,
 )
+# A leading ounce size is a retail bag's naming style ("10Oz Decaf",
+# "96oz Coffee for the Crew") - drinks lead with the drink name.
+RETAIL_LEADING_SIZE = re.compile(r"^\d{1,3}\s?(?:fl\.?\s*)?oz\b", re.I)
+
 # Bakery words, by contrast, double as drink flavours ("Cheese Cake Cold Brew",
 # "Cinnamon Roll Latte"), so they only disqualify an item that reached no
 # named espresso or brew rule.
@@ -248,16 +254,19 @@ FOOD_ITEM = re.compile(
 # drip; keeping them out of the named buckets keeps the compare view honest.
 BLENDED = re.compile(r"\bshakes?\b|frapp|smoothie|\bmalt\b|\bslush", re.I)
 DRINK_KINDS = [
-    # Caramel latte is its own bucket and must beat the generic "latte",
-    # "macchiato" and "mocha" rules, which the same names also match.
-    ("caramel_latte", r"(?:caramel|carmel)\W+(?:\w+\W+){0,3}?(?:latte|macchiato)|"
-                      r"(?:latte|macchiato)\W+(?:\w+\W+){0,3}?(?:caramel|carmel)"),
+    # Macchiato is its own bucket and must beat caramel_latte: a "Caramel
+    # Macchiato" is a macchiato, not a caramel latte.
+    ("macchiato", r"\bmacchiato\b"),
+    # Caramel latte is its own bucket and must beat the generic "latte"
+    # and "mocha" rules, which the same names also match.
+    ("caramel_latte", r"(?:caramel|carmel)\W+(?:\w+\W+){0,3}?latte|"
+                      r"latte\W+(?:\w+\W+){0,3}?(?:caramel|carmel)"),
     ("cold_brew", r"cold brew|nitro"),
     ("cappuccino", r"cappuccino"),
     ("americano", r"americano"),
-    # Macchiato and cortado are espresso drinks. Without them a plain
-    # "Macchiato" matched no rule at all and was stored as not-a-drink.
-    ("espresso", r"espresso|cortado|macchiato|\bristretto\b|\bdoppio\b"),
+    # Cortado is an espresso drink. Without it a plain "Cortado"
+    # matched no rule at all and was stored as not-a-drink.
+    ("espresso", r"espresso|cortado|\bristretto\b|\bdoppio\b"),
     ("mocha", r"mocha"),
     ("latte", r"latte|cafe au lait|café au lait"),
     # A bare "Coffee", "Hot Coffee" or "Coffee of the Day" is the drip cup on
@@ -273,7 +282,8 @@ BROAD_KINDS = {"drip"}
 # (e.g. "Vanilla Mocha Cake" in Bakery is not a mocha).
 NON_DRINK_CATEGORY = re.compile(
     r"\b(bakery|pastry|pastries|food|breakfast|sandwich|sandwiches|salad|salads|"
-    r"cake|cakes|dessert|desserts|pizza|soup|wrap|wraps|kitchen|retail|beans|merch|merchandise)\b",
+    r"cake|cakes|dessert|desserts|pizza|soup|wrap|wraps|kitchen|retail|beans|merch|merchandise|"
+    r"catering|platters?|trays?|supplies|gifts?|kits|snacks|for the group)\b",
     re.I,
 )
 
@@ -282,7 +292,7 @@ def classify_name(name: str, category: str | None = None) -> tuple[bool, str | N
     text = f"{name} {category or ''}".lower()
     if category and NON_DRINK_CATEGORY.search(category):
         return False, None
-    if RETAIL_PACKAGING.search(text):
+    if RETAIL_PACKAGING.search(text) or RETAIL_LEADING_SIZE.search(name.lower()):
         return False, None
     if BLENDED.search(text):
         return True, "other"

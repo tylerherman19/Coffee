@@ -132,6 +132,7 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
                 "size_oz": size_oz,
                 "size_confidence": confidence,
                 "last_seen": today,
+                "last_checked_at": now,
                 "removed_at": None,
             }
             item = by_platform.get(pid)
@@ -180,7 +181,10 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
                 write(db.post, "observations", batch)
             if unchanged_ids:
                 ids = ",".join(str(i) for i in unchanged_ids)
-                write(db.patch, "items", f"id=in.({ids})", {"last_checked_at": now, "last_seen": today})
+                patch = {"last_seen": today}
+                if captured:
+                    patch["last_checked_at"] = now
+                write(db.patch, "items", f"id=in.({ids})", patch)
             removed = [item["id"] for item in existing if item["platform_item_id"] not in seen and not item.get("removed_at")]
             if removed:
                 ids = ",".join(str(i) for i in removed)
