@@ -21,6 +21,33 @@ const isOatMilk = (modifier: Modifier) => /\boat(\s?milk)?\b/i.test(modifier.cho
 const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 const formatPrice = (cents: number | null) => cents == null ? '—' : money.format(cents / 100);
 
+const espressoFallbackOrder = ['cappuccino', 'cortado', 'flat_white', 'americano', 'espresso', 'macchiato', 'mocha', 'cold_brew'];
+// Shop-level price: a regular latte, else drip, else the closest standard
+// espresso drink - median size, never the smallest or largest.
+function shopDrink(menu: Item[]): { price: number | null; label: string; fallback: boolean } {
+  const drinks = menu.filter((item) => item.is_drink && item.current_price_cents != null);
+  if (!drinks.length) return { price: null, label: menu.length ? 'No coffee price' : 'No menu yet', fallback: false };
+  const medianPick = (cands: Item[]): Item => {
+    const sized = cands.filter((c) => c.size_oz != null).sort((a, b) => (a.size_oz as number) - (b.size_oz as number) || (a.current_price_cents as number) - (b.current_price_cents as number));
+    const pool = sized.length ? sized : cands.slice().sort((a, b) => (a.current_price_cents as number) - (b.current_price_cents as number));
+    return pool[Math.ceil((pool.length - 1) / 2)];
+  };
+  const named = (re: RegExp) => drinks.filter((item) => re.test(item.name));
+  const latteExact = named(/^caff?[eé]?\s+latte$/i).concat(named(/^latte$/i));
+  const lattePool = latteExact.length ? latteExact : drinks.filter((item) => item.drink_type === 'latte');
+  if (lattePool.length) { const pick = medianPick(lattePool); return { price: pick.current_price_cents, label: 'Latte', fallback: false }; }
+  const dripExact = named(/^(drip|brewed|filter|house)\b/i).concat(named(/^coffee$/i));
+  const dripPool = dripExact.length ? dripExact : drinks.filter((item) => item.drink_type === 'drip');
+  if (dripPool.length) { const pick = medianPick(dripPool); return { price: pick.current_price_cents, label: 'Drip', fallback: false }; }
+  for (const type of espressoFallbackOrder) {
+    const cands = drinks.filter((item) => item.drink_type === type);
+    if (cands.length) { const pick = medianPick(cands); return { price: pick.current_price_cents, label: drinkLabels[type] || type.replaceAll('_', ' '), fallback: true }; }
+  }
+  const pick = medianPick(drinks);
+  return { price: pick.current_price_cents, label: pick.name, fallback: true };
+}
+
+
 function freshLabel(value: string | null) {
   if (!value) return 'No price pull yet';
   return `Prices as of ${new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' }).format(new Date(value))}`;
@@ -56,10 +83,10 @@ function Rating({ value, count }: { value: number | null; count?: number | null 
 
 function ShopRow({ shop, items, onOpen }: { shop: Shop; items: Item[]; onOpen: () => void }) {
   const menu = items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null);
-  const from = menu.length ? Math.min(...menu.map((item) => item.current_price_cents as number)) : null;
+  const drink = shopDrink(menu);
   return <button className="shop-row" onClick={onOpen}>
     <span className="shop-main"><span className="shop-name">{shop.name}</span><span className="shop-meta">{neighborhood(shop)} · {shop.platform ? `${shop.platform} menu` : menu.length ? 'direct menu' : 'menu pending'}</span><Rating value={shop.rating} count={shop.review_count} /></span>
-    <span className="shop-price"><small>{from == null ? 'No menu yet' : 'From'}</small><strong>{formatPrice(from)}</strong></span><ChevronRight className="row-arrow" aria-hidden="true" />
+    <span className="shop-price"><small>{drink.label}</small><strong>{formatPrice(drink.price)}</strong></span><ChevronRight className="row-arrow" aria-hidden="true" />
   </button>;
 }
 
