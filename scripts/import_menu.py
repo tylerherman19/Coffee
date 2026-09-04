@@ -139,6 +139,9 @@ def import_bundle(db: Supabase, bundle: dict[str, Any], dry_run: bool = False) -
                 if not dry_run:
                     write(db.patch, "items", f"id=eq.{item['id']}", values)
             else:
+                if not dry_run:
+                    # Name/category/size corrections land even when price is unchanged.
+                    write(db.patch, "items", f"id=eq.{item['id']}", values)
                 unchanged_ids.append(item["id"])
 
         id_by_pid: dict[str, int] = {}
