@@ -123,21 +123,3 @@ h1, h2 { font-family: var(--font-heading), Georgia, serif; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
 
-/* price rung chart (lieflat tick rows) */
-.rung-chart { margin: 18px 0 26px; }
-.rung-note { margin: 0 0 6px; color: var(--brown-soft); font-size: .82rem; }
-.rung-rows { border-top: 2px solid var(--brown); }
-.rung-row { width: 100%; display: grid; grid-template-columns: minmax(120px, 190px) 1fr auto; align-items: center; gap: 16px; padding: 12px 8px; border: 0; border-bottom: 1px solid var(--line); background: transparent; text-align: left; cursor: pointer; }
-.rung-row:hover { background: rgba(255,255,255,.55); }
-.rung-label strong { display: block; font-size: .95rem; }
-.rung-label small { color: var(--brown-soft); }
-.rung-floor { stroke: var(--brown); stroke-width: 1.4; }
-.rung-tick { fill: var(--brown); }
-.rung-tick.tall { fill: var(--brown); }
-.rung-row.lead .rung-tick { fill: var(--accent); }
-.rung-row.lead .rung-price strong { color: var(--accent); }
-.rung-price strong { font: 700 1.05rem/1 var(--font-heading), Georgia, serif; }
-@media (max-width: 720px) {
-  .rung-row { grid-template-columns: 1fr auto; gap: 8px; padding: 12px 14px; }
-  .rung-ladder { grid-column: 1 / -1; order: 3; }
-}
