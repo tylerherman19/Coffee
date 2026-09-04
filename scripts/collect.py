@@ -31,7 +31,7 @@ METROS = {
     # metro: Plymouth, Wayzata, Minnetonka and the Lake Minnetonka towns.
     "twin_cities": (44.85, -93.65, 45.10, -92.98),
 }
-DIRECT_HOSTS = ("square.site", "toast.app", "toasttab.com", "order.spoton.com")
+DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toasttab.com", "order.spoton.com")
 BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com", "clover.com", "chownow.com")
 
 
@@ -134,42 +134,150 @@ def normalize_url(value: str | None) -> str | None:
     return value if value.startswith(("http://", "https://")) else f"https://{value}"
 
 
+# A gift-card or loyalty page sits on the same host as the menu and often
+# appears first in the markup, so the old "first matching link wins" picked it
+# and every one of those shops collected nothing.
+NON_MENU_PATHS = re.compile(r"egiftcard|giftcard|gift-card|/gift/|/gift$|rewardssignup|/loyalty|/donate|/careers|/rewards", re.I)
+# Link text or href that suggests the ordering page, used to crawl one level in.
+ORDER_HINT = re.compile(r"\border\b|\bmenu\b|shop online|order online|buy|store", re.I)
+
+
+def platform_of(url: str) -> str | None:
+    host = urlparse(url).netloc.lower()
+    if any(blocked in host for blocked in BLOCKED_HOSTS):
+        return None
+    if "square.site" in host or "squareup.com" in host or "square.link" in host:
+        return "square"
+    if "toast.app" in host or "toasttab.com" in host:
+        return "toast"
+    if "order.spoton.com" in host:
+        return "spoton"
+    return None
+
+
+def rank_candidate(url: str) -> int:
+    """Lower sorts first. Prefers a real ordering path over a bare host."""
+    path = urlparse(url).path.strip("/")
+    if NON_MENU_PATHS.search(url):
+        return 90
+    if not path:
+        return 50  # bare "toast.app/" style link, usually a powered-by badge
+    if "/s/order" in url or re.search(r"\border\b", path, re.I):
+        return 0
+    if re.search(r"\bmenu\b", path, re.I):
+        return 10
+    return 20
+
+
+# Shops embed the ordering link in an iframe, a button's JS handler or a JSON
+# blob at least as often as in an <a href>, so the anchor scan alone missed
+# most of them. This finds a platform URL anywhere in the markup.
+EMBEDDED_URL = re.compile(
+    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|order\.spoton\.com)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
+    re.I,
+)
+
+
+def platform_links(html: str, base: str) -> list[str]:
+    found: list[str] = []
+    for anchor in BeautifulSoup(html, "html.parser").find_all("a", href=True):
+        href = urljoin(base, anchor.get("href"))
+        if any(host in href.lower() for host in DIRECT_HOSTS):
+            found.append(href)
+    for match in EMBEDDED_URL.finditer(html):
+        found.append(match.group(0).rstrip("\\\"'),;."))
+    return found
+
+
 def direct_link(home_url: str) -> tuple[str | None, str | None, str | None]:
     try:
         response = get(home_url)
     except Exception:
         return None, None, None
-    candidates = [response.url]
-    soup = BeautifulSoup(response.text, "html.parser")
-    for anchor in soup.find_all("a", href=True):
-        href = urljoin(response.url, anchor.get("href"))
-        if any(host in href.lower() for host in DIRECT_HOSTS):
-            candidates.append(href)
-    for candidate in candidates:
-        host = urlparse(candidate).netloc.lower()
-        if any(blocked in host for blocked in BLOCKED_HOSTS):
-            continue
-        if "square.site" in host:
-            return "square", candidate, response.text if candidate == response.url else None
-        if "toast.app" in host or "toasttab.com" in host:
-            return "toast", candidate, None
-        if "order.spoton.com" in host:
-            return "spoton", candidate, None
+    candidates = [response.url, *platform_links(response.text, response.url)]
+    # Many shops link the ordering platform from an Order/Menu page rather than
+    # the homepage, which the old single-page scan could never reach.
+    if not any(platform_of(url) for url in candidates):
+        soup = BeautifulSoup(response.text, "html.parser")
+        seen: set[str] = set()
+        for anchor in soup.find_all("a", href=True):
+            href = urljoin(response.url, anchor.get("href"))
+            if urlparse(href).netloc != urlparse(response.url).netloc:
+                continue
+            if not ORDER_HINT.search(f"{anchor.get_text(' ', strip=True)} {href}"):
+                continue
+            if href in seen or len(seen) >= 4:
+                continue
+            seen.add(href)
+            try:
+                inner = get(href)
+            except Exception:
+                continue
+            candidates.extend([inner.url, *platform_links(inner.text, inner.url)])
+    best = sorted((url for url in candidates if platform_of(url) and not NON_MENU_PATHS.search(url)), key=rank_candidate)
+    for candidate in best:
+        platform = platform_of(candidate)
+        if platform:
+            cached = response.text if candidate == response.url else None
+            return platform, candidate, cached
     return None, None, None
+
+
+# Packaging beats every drink word: "Espresso Whole Bean" and "5 Gallon Hot
+# Coffee" are a retail bag and a catering urn, not a cup anyone can compare.
+RETAIL_PACKAGING = re.compile(
+    r"whole bean|\bbeans\b|\bground\b|\bbags?\b|\blbs?\b|\bpounds?\b|prepack|"
+    r"k.?cups?\b|\bgallons?\b|\bbox\b|traveler|\bscoop\b|liqueur|subscription|"
+    r"gift ?card|\bmerch\b|\bmugs?\b|tumbler|\bfilters?\b",
+    re.I,
+)
+# Bakery words, by contrast, double as drink flavours ("Cheese Cake Cold Brew",
+# "Cinnamon Roll Latte"), so they only disqualify an item that reached no
+# named espresso or brew rule.
+FOOD_ITEM = re.compile(
+    r"\bcakes?\b|\brolls?\b|\bmuffins?\b|\bcookies?\b|\bscones?\b|croissant|"
+    r"\bbagels?\b|\bdo(?:ugh)?nuts?\b|brownie|\bpastr|sandwich|\btoast\b|"
+    r"\bbars?\b|\bpies?\b|\bloaf\b|biscuit|danish|quiche|burrito|\bwraps?\b",
+    re.I,
+)
+# Blended drinks are drinks, but a shake is not a latte and a frappe is not
+# drip; keeping them out of the named buckets keeps the compare view honest.
+BLENDED = re.compile(r"\bshakes?\b|frapp|smoothie|\bmalt\b|\bslush", re.I)
+DRINK_KINDS = [
+    # Caramel latte is its own bucket and must beat the generic "latte",
+    # "macchiato" and "mocha" rules, which the same names also match.
+    ("caramel_latte", r"(?:caramel|carmel)\W+(?:\w+\W+){0,3}?(?:latte|macchiato)|"
+                      r"(?:latte|macchiato)\W+(?:\w+\W+){0,3}?(?:caramel|carmel)"),
+    ("cold_brew", r"cold brew|nitro"),
+    ("cappuccino", r"cappuccino"),
+    ("americano", r"americano"),
+    # Macchiato and cortado are espresso drinks. Without them a plain
+    # "Macchiato" matched no rule at all and was stored as not-a-drink.
+    ("espresso", r"espresso|cortado|macchiato|\bristretto\b|\bdoppio\b"),
+    ("mocha", r"mocha"),
+    ("latte", r"latte|cafe au lait|café au lait"),
+    # A bare "Coffee", "Hot Coffee" or "Coffee of the Day" is the drip cup on
+    # most menus. This rule is broad, so it is the one the bakery guard covers.
+    ("drip", r"drip|pour.?over|brewed coffee|batch brew|\bcoffee\b"),
+    ("chai", r"chai"),
+    ("tea", r"\btea\b|matcha"),
+]
+BROAD_KINDS = {"drip"}
 
 
 def classify_name(name: str, category: str | None = None) -> tuple[bool, str | None]:
     text = f"{name} {category or ''}".lower()
-    kinds = [
-        ("cold_brew", r"cold brew|nitro"), ("cappuccino", r"cappuccino"),
-        ("americano", r"americano"), ("espresso", r"espresso|cortado"),
-        ("mocha", r"mocha"), ("latte", r"latte|cafe au lait|café au lait"),
-        ("drip", r"drip|pour.?over|brewed coffee|batch brew"),
-        ("chai", r"chai"), ("tea", r"\btea\b|matcha"),
-    ]
-    for kind, pattern in kinds:
+    if RETAIL_PACKAGING.search(text):
+        return False, None
+    if BLENDED.search(text):
+        return True, "other"
+    for kind, pattern in DRINK_KINDS:
         if re.search(pattern, text):
+            if kind in BROAD_KINDS and FOOD_ITEM.search(text):
+                return False, None
             return True, kind
+    if FOOD_ITEM.search(text):
+        return False, None
     is_drink = bool(re.search(r"coffee|drink|beverage|iced|hot|lemonade|smoothie", text))
     return is_drink, "other" if is_drink else None
 
@@ -185,8 +293,20 @@ def parse_size(name: str) -> tuple[str | None, float | None, str]:
 
 
 def extract_square(url: str, cached_html: str | None = None) -> list[MenuItem]:
-    order_url = url if "/s/order" in url else url.rstrip("/") + "/s/order"
-    response = get(order_url)
+    # The discovered link can point anywhere on the store ("/delivery",
+    # "/menu"), and the ordering page always lives at the site root, so build
+    # it from the origin rather than appending to whatever path we landed on.
+    parsed = urlparse(url)
+    origin = f"{parsed.scheme}://{parsed.netloc}"
+    response = None
+    for order_url in ([url] if "/s/order" in url else []) + [f"{origin}/s/order", origin]:
+        try:
+            response = get(order_url)
+            break
+        except Exception:
+            continue
+    if response is None:
+        return []
     # Square Online embeds store ids as JSON in the order page (and sometimes
     # only on the shop homepage): "site_id":<num>, "user":{"id":<num>}, and
     # "shipping_location_ids":["<LOC>"].
@@ -204,10 +324,24 @@ def extract_square(url: str, cached_html: str | None = None) -> list[MenuItem]:
     candidate_ids = [location.group(1)] if location else []
     if not candidate_ids:
         candidate_ids = [loc["id"] for loc in get(f"{api_base}/store-locations", params={"per_page": 100, "valid": 1}).json().get("data", [])]
+    if location and len(candidate_ids) == 1:
+        # The id embedded in the page is often only one of several locations,
+        # and not always the one holding the catalogue.
+        try:
+            candidate_ids += [loc["id"] for loc in get(f"{api_base}/store-locations", params={"per_page": 100, "valid": 1}).json().get("data", []) if loc.get("id") != candidate_ids[0]]
+        except Exception:
+            pass
     payload: dict[str, Any] = {}
     for location_id in candidate_ids:
         api = f"{api_base}/store-locations/{location_id}/products"
-        payload = get(api, params={"page": 1, "per_page": 200, "include": "images,options,modifiers,attributes", "fulfillments[]": "pickup"}).json()
+        base_params = {"page": 1, "per_page": 200, "include": "images,options,modifiers,attributes"}
+        # Prefer pickup-fulfillable items, but a shop that never tagged its
+        # catalogue for pickup returns an empty list rather than an error, so
+        # fall back to the unfiltered catalogue instead of recording no menu.
+        for params in ({**base_params, "fulfillments[]": "pickup"}, base_params):
+            payload = get(api, params=params).json()
+            if payload.get("data"):
+                break
         if payload.get("data"):
             break
     out = []
@@ -262,25 +396,34 @@ def extract_jsonld_rating(html: str) -> tuple[float | None, int | None]:
     return None, None
 
 
-def square_modifiers(raw: dict[str, Any] | None) -> list[tuple[str, int]]:
-    """Extract priced choices from Square's nested public product response."""
-    found: dict[str, int] = {}
-    def walk(value: Any) -> None:
-        if isinstance(value, dict):
-            name = value.get("name") or value.get("title")
-            price = value.get("price") or value.get("price_delta") or value.get("price_money")
-            cents = None
-            if isinstance(price, dict):
-                cents = price.get("amount") or price.get("subunits") or price.get("low_subunits")
-            elif isinstance(price, int):
-                cents = price
-            if isinstance(name, str) and isinstance(cents, int) and 0 <= cents <= 1000:
-                found[name.strip()] = cents
-            for child in value.values(): walk(child)
-        elif isinstance(value, list):
-            for child in value: walk(child)
-    walk(raw)
-    return sorted(found.items())
+def extract_modifiers(raw: dict[str, Any] | None) -> list[tuple[str | None, str, int]]:
+    """Priced modifier choices, as (group, choice, cents).
+
+    Square reports a product's own price in cents (``price.low_subunits``) but
+    a modifier choice's upcharge in dollars (``0.75`` is 75 cents, ``1`` is a
+    dollar), so the two cannot share a conversion. Only the declared modifier
+    sets are read: walking the payload freely also collects cross-sell
+    products and nested menu items, which then get stored as if a pastry were
+    a milk option on a latte.
+    """
+    groups = ((raw or {}).get("modifiers") or {}).get("data") or []
+    found: dict[tuple[str | None, str], int] = {}
+    for group in groups:
+        if not isinstance(group, dict):
+            continue
+        group_name = str(group.get("name") or "").strip() or None
+        for choice in group.get("choices") or []:
+            if not isinstance(choice, dict):
+                continue
+            name = choice.get("name") or choice.get("label") or choice.get("display_name")
+            price = choice.get("price")
+            # bool is an int in Python, and a sold-out flag must not become a price.
+            if not isinstance(name, str) or isinstance(price, bool) or not isinstance(price, (int, float)):
+                continue
+            cents = int(round(float(price) * 100))
+            if 0 <= cents <= 5000:
+                found[(group_name, name.strip())] = cents
+    return sorted((group, choice, cents) for (group, choice), cents in found.items())
 
 
 def sync_shops(db: Supabase, discovered: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -349,10 +492,13 @@ def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: 
             db.post("observations", {"item_id": item["id"], "observed_at": now, "price_cents": entry.price_cents, "price_low_cents": entry.low_cents, "price_high_cents": entry.high_cents, "price_channel": "direct", "available": True, "source_url": source, "raw": entry.raw})
         else:
             db.patch("items", f"id=eq.{item['id']}", {"last_checked_at": now, "last_seen": dt.date.today().isoformat()})
-        if platform == "square":
-            prior = db.get("modifiers", {"select": "group_name,choice_name,price_delta_cents", "item_id": f"eq.{item['id']}", "order": "observed_at.desc", "limit": "100"})
-            latest = {(row["choice_name"], row["price_delta_cents"]) for row in prior}
-            additions = [{"item_id": item["id"], "choice_name": name, "price_delta_cents": cents, "observed_at": now} for name, cents in square_modifiers(entry.raw) if (name, cents) not in latest]
+        # Any platform whose payload carries modifier sets, not just Square:
+        # the compare view's oat-milk maths needs these wherever they exist.
+        choices = extract_modifiers(entry.raw)
+        if choices:
+            prior = db.get("modifiers", {"select": "group_name,choice_name,price_delta_cents", "item_id": f"eq.{item['id']}", "order": "observed_at.desc", "limit": "500"})
+            latest = {(row["group_name"], row["choice_name"], row["price_delta_cents"]) for row in prior}
+            additions = [{"item_id": item["id"], "group_name": group, "choice_name": name, "price_delta_cents": cents, "observed_at": now} for group, name, cents in choices if (group, name, cents) not in latest]
             if additions:
                 db.post("modifiers", additions)
     for item in existing:
