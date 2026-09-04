@@ -1,0 +1,506 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://brimcafe.com/schlitz-park-cafe-menu/",
+ "shops": [
+  {
+   "id": 20,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "brimsp-caramel-macchiato",
+   "name": "Caramel Macchiato",
+   "category": "Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Cappuccino"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-cappuccino",
+   "name": "Cappuccino",
+   "category": "Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Mocha Latte"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-mocha-latte",
+   "name": "Mocha Latte",
+   "category": "Menu",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Cortado"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-cortado",
+   "name": "Cortado",
+   "category": "Menu",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Americano"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-americano",
+   "name": "Americano",
+   "category": "Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Flavor shot"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-classic-latte",
+   "name": "Classic Latte",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "Latte of the Month\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0$5.00/$5.75"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-drip-coffee",
+   "name": "Drip Coffee",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "Frappuccino"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-frappuccino",
+   "name": "Frappuccino",
+   "category": "Menu",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "vanilla or mocha"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-green-matcha-machine",
+   "name": "Green Matcha Machine",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "green superfood powder, matcha tea powder, avocado, spinach, green apple, banana, ginger, pineapple juice, coconut oil, and agave."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-berry-blend",
+   "name": "Berry Blend",
+   "category": "Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "mixed berries, banana, vanilla yogurt, agave, and pineapple juice."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-mango-tango",
+   "name": "Mango Tango",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "mango, pineapple, peach, green apple, agave, chia seeds, spinach, coconut milk, and mango puree."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-chocolate-banana",
+   "name": "Chocolate Banana",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "almond milk, plant-based chocolate protein powder, banana, almond butter, and chia seeds."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-avo-banana-blend",
+   "name": "Avo Banana Blend",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "fresh kale, banana, avocado, vanilla yogurt, agave, banana puree, and oat milk."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-hot-chocolate",
+   "name": "Hot Chocolate",
+   "category": "Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "Rishi Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-rishi-tea",
+   "name": "Rishi Tea",
+   "category": "Menu",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "english breakfast, jade cloud, and lavender mint"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-masala-chai",
+   "name": "Masala Chai",
+   "category": "Menu",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Elderberry Hibiscus Iced Tea"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-elderberry-hibiscus-iced-tea",
+   "name": "Elderberry Hibiscus Iced Tea",
+   "category": "Menu",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Breakfast Sandwich"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-breakfast-sandwich",
+   "name": "Breakfast Sandwich",
+   "category": "Menu",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "egg, American cheese, choice of ham, bacon, or sausage on a croissant or bagel."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-brim-burrito",
+   "name": "Brim Burrito",
+   "category": "Menu",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": 800,
+   "available": true,
+   "raw": {
+    "description": "scrambled egg patty with breakfast potatoes, tomato, spinach, cheddar cheese, and brim sauce on a grilled herb tortilla."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-chorizo-burrito",
+   "name": "Chorizo Burrito",
+   "category": "Menu",
+   "price_cents": 850,
+   "price_low_cents": 850,
+   "price_high_cents": 850,
+   "available": true,
+   "raw": {
+    "description": "scrambled eggs with chorizo, potatoes, American cheese, black beans, and green onions in a grilled tortilla. served with a side of salsa."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-avocado-egg-sandwich",
+   "name": "Avocado Egg Sandwich",
+   "category": "Menu",
+   "price_cents": 700,
+   "price_low_cents": 700,
+   "price_high_cents": 700,
+   "available": true,
+   "raw": {
+    "description": "egg, cheddar cheese, avocado, spinach, and brim sauce on a croissant or bagel."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-bacon-cheddar-potatoes",
+   "name": "Bacon Cheddar Potatoes",
+   "category": "Menu",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "southern style seasoned potatoes topped with bacon, cheddar cheese, and a drizzle of brim sauce. plain potatoes available for $4.50."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-bagel-cream-cheese",
+   "name": "Bagel & Cream Cheese",
+   "category": "Menu",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "choice of cheddar, plain, cinnamon raisin, or whole wheat. toasted, served with garden veggie or plain cream cheese or butter."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-chicken-caesar",
+   "name": "Chicken Caesar",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "grilled chicken, croutons, romaine lettuce, tomato, parmesan cheese and Caesar dressing."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-sesame-chicken",
+   "name": "Sesame Chicken",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "grilled chicken, chow mein noodles, napa cabbage, scallions, carrots, sesame thai aioli."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-tuna-wrap",
+   "name": "Tuna Wrap",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "tuna salad, cheddar cheese, black olives, lettuce, tomato, and mayo."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-veggie-wrap",
+   "name": "Veggie Wrap",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "cucumbers, carrots, red onions, black olives, feta cheese, lettuce, tomato, spinach, and hummus."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-turkey-bacon-club",
+   "name": "Turkey Bacon Club",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "oven-roasted turkey, bacon, cheddar cheese, tomato, lettuce, and ranch dressing."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-the-brim",
+   "name": "The Brim",
+   "category": "Menu",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "chicken breast, cheddar cheese, lettuce, tomato, onion, and our house lemon-garlic aioli, served on a sub roll."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-brim-grilled-cheese",
+   "name": "Brim Grilled Cheese",
+   "category": "Menu",
+   "price_cents": 900,
+   "price_low_cents": 900,
+   "price_high_cents": 900,
+   "available": true,
+   "raw": {
+    "description": "four cheese blend, crispy bacon, tomato, and our house lemon-garlic aioli, served on Italian flatbread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-avocado-turkey-blt",
+   "name": "Avocado Turkey BLT",
+   "category": "Menu",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "sliced turkey breast, avocado, and bacon, toasted and topped with our house lemon-garlic aioli, lettuce, tomato, and provolone cheese, served on Italian flatbread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-turkey-cheddar",
+   "name": "Turkey Cheddar",
+   "category": "Menu",
+   "price_cents": 950,
+   "price_low_cents": 950,
+   "price_high_cents": 950,
+   "available": true,
+   "raw": {
+    "description": "oven-roasted turkey, cheddar, bacon, cheddar, tomato, and mayo, served on Italian flatbread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-pesto-chicken",
+   "name": "Pesto Chicken",
+   "category": "Menu",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "chicken breast, spinach, tomato, onion, provolone, and our house pesto aioli, served on Italian flatbread."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-hot-club",
+   "name": "Hot Club",
+   "category": "Menu",
+   "price_cents": 1000,
+   "price_low_cents": 1000,
+   "price_high_cents": 1000,
+   "available": true,
+   "raw": {
+    "description": "turkey, ham, bacon, provolone, lettuce, tomato, onion, banana peppers, mayo, and our house oil and vinegar, served on a sub roll."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-large-cookie",
+   "name": "Large Cookie",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "chocolate chip or peanut butter"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-brownie",
+   "name": "Brownie",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "chocolate, blondie, or cheesecake"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-muffins",
+   "name": "Muffins",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "blueberry cobbler, double chocolate, and apple cinnamon"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "brimsp-chocolate-peanut-butter-rice-crispie",
+   "name": "Chocolate Peanut Butter Rice Crispie",
+   "category": "Menu",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "blueberry cobbler, double chocolate, and apple cinnamon"
+   },
+   "modifiers": []
+  }
+ ]
+}
