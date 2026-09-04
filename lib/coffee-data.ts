@@ -24,10 +24,10 @@ async function table<T>(path: string): Promise<T[]> {
 }
 export async function loadCoffeeData(): Promise<CoffeeData> {
   const [shopsRaw, items, ratings, modifiers, changes] = await Promise.all([
-    table<Omit<Shop, 'rating' | 'review_count'>>('shops?select=id,name,metro,address,neighborhood,lat,lng,website,platform,opening_hours&closed_at=is.null&order=name'),
-    table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=name'),
-    table<{ shop_id: number; rating: number | null; review_count: number | null; observed_at: string }>('ratings?select=shop_id,rating,review_count,observed_at&order=observed_at.desc'),
-    table<Modifier>('modifiers?select=id,item_id,group_name,choice_name,price_delta_cents,observed_at&order=observed_at.desc'),
+    table<Omit<Shop, 'rating' | 'review_count'>>('shops?select=id,name,metro,address,neighborhood,lat,lng,website,platform,opening_hours&closed_at=is.null&order=name,id.asc'),
+    table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=name,id.asc'),
+    table<{ shop_id: number; rating: number | null; review_count: number | null; observed_at: string }>('ratings?select=shop_id,rating,review_count,observed_at&order=observed_at.desc,shop_id.asc'),
+    table<Modifier>('modifiers?select=id,item_id,group_name,choice_name,price_delta_cents,observed_at&order=observed_at.desc,id.asc'),
     table<PriceChange>('price_changes?select=id,item_id,changed_at,old_price_cents,new_price_cents,pct_change,change_type&order=changed_at.desc&limit=250'),
   ]);
   const latestRating = new Map<number, { rating: number | null; review_count: number | null }>();
