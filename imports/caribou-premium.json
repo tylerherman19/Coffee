@@ -1285,15 +1285,38 @@
    "modifiers": []
   },
   {
+   "platform_item_id": "d7fbdc8b-42b2-4a22-8926-48b6af208569",
+   "name": "Campfire Mocha\u00ae Caribou Cooler\u00ae Blended Beverage",
+   "category": "Signature",
+   "price_cents": 649,
+   "price_low_cents": 619,
+   "price_high_cents": 799,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "Small": 6.19,
+     "Medium": 6.49,
+     "Large": 6.99,
+     "Extra-Large": 7.99
+    },
+    "default_size": "Medium",
+    "product_name": "Campfire Mocha - Nitro Store"
+   },
+   "modifiers": []
+  },
+  {
    "platform_item_id": "c5d39be4-2467-421b-9412-3c6570e5ec9b",
    "name": "Campfire Mocha\u00ae",
    "category": "Signature",
-   "price_cents": 779,
-   "price_low_cents": 779,
+   "price_cents": 629,
+   "price_low_cents": 599,
    "price_high_cents": 779,
    "available": true,
    "raw": {
     "sizes": {
+     "Small": 5.99,
+     "Medium": 6.29,
+     "Large": 6.79,
      "Extra-Large": 7.79
     },
     "default_size": "Medium",
@@ -1724,6 +1747,7 @@
     "sizes": {
      "Small": 6.19,
      "Medium": 6.49,
+     "Large": 6.99,
      "Extra-Large": 7.99
     },
     "default_size": "Medium",
@@ -2938,6 +2962,91 @@
     },
     "default_size": "One Size",
     "product_name": "Chicken Apple Sausage, Egg & Cheddar"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5a491a30-8ce3-4206-9b64-fd4424e926ac",
+   "name": "Chocolate Cake Pop",
+   "category": "Bakery",
+   "price_cents": 329,
+   "price_low_cents": 329,
+   "price_high_cents": 329,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 3.29
+    },
+    "default_size": "One Size",
+    "product_name": "Chocolate Cake Pop"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c5898f8f-bed3-4eeb-8ad2-761bf6e43a66",
+   "name": "Cinnamon Sugar Caramel Cream Donut",
+   "category": "Bakery",
+   "price_cents": 349,
+   "price_low_cents": 349,
+   "price_high_cents": 349,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 3.49
+    },
+    "default_size": "One Size",
+    "product_name": "Cinnamon Sugar Caramel Cream Donut"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "5f28149b-ce42-4c9c-bf55-98655834846f",
+   "name": "Classic Oatmeal",
+   "category": "Oatmeal",
+   "price_cents": 409,
+   "price_low_cents": 409,
+   "price_high_cents": 409,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 4.09
+    },
+    "default_size": "One Size",
+    "product_name": "Classic Oatmeal"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8d404839-4058-446a-a705-c4da7c3bf129",
+   "name": "Maple Brown Sugar Oatmeal",
+   "category": "Oatmeal",
+   "price_cents": 409,
+   "price_low_cents": 409,
+   "price_high_cents": 409,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 4.09
+    },
+    "default_size": "One Size",
+    "product_name": "Maple Brown Sugar Oatmeal"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "66486849-47e9-41f1-a6e9-b5fd1b60c1a9",
+   "name": "Grilled Cheese",
+   "category": "Lunch",
+   "price_cents": 659,
+   "price_low_cents": 659,
+   "price_high_cents": 659,
+   "available": true,
+   "raw": {
+    "sizes": {
+     "One Size": 6.59
+    },
+    "default_size": "One Size",
+    "product_name": "Grilled Cheese on Sourdough"
    },
    "modifiers": []
   },
