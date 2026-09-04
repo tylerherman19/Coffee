@@ -1,0 +1,3785 @@
+{
+ "platform": "upserve",
+ "source_url": "https://app.upserve.com/s/lupi-and-iris-milwaukee",
+ "shops": [
+  {
+   "id": 98,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "3fe1ce58-46a5-44c4-8355-eb7c8ed03d82",
+   "name": "Juiced! - Bonus Shot",
+   "category": "Grab & Go Beverages",
+   "price_cents": 490,
+   "price_low_cents": 490,
+   "price_high_cents": 490,
+   "available": true,
+   "raw": {
+    "description": "Supports endurance and helps detoxify, with energy that\u2019s fast-acting and long-lasting. (4oz)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "749572d8-b613-4340-96f7-185a6ac3d5f6",
+   "name": "Red Bull",
+   "category": "Grab & Go Beverages",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "8.4oz (250ml)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c23c99c7-a8fe-4bfc-8dcf-938812ede668",
+   "name": "San Pellegrino",
+   "category": "Grab & Go Beverages",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "11.15oz (330mL)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "afc2a32e-5e46-4651-aa65-f299bac8707c",
+   "name": "Coke",
+   "category": "Grab & Go Beverages",
+   "price_cents": 170,
+   "price_low_cents": 170,
+   "price_high_cents": 170,
+   "available": true,
+   "raw": {
+    "description": "12oz (355mL)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "6f1664ae-0cea-4159-bf3a-ab0684e1949f",
+   "name": "Niagara 296mL",
+   "category": "Grab & Go Beverages",
+   "price_cents": 75,
+   "price_low_cents": 75,
+   "price_high_cents": 75,
+   "available": true,
+   "raw": {
+    "description": "10oz (296mL)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "bc2c5a2b-dfea-4178-852d-b6fc8e1380c2",
+   "name": "Fiji 330mL",
+   "category": "Grab & Go Beverages",
+   "price_cents": 125,
+   "price_low_cents": 125,
+   "price_high_cents": 125,
+   "available": true,
+   "raw": {
+    "description": "11.15 fl oz (330mL)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a299be25-0cb9-49b3-9cce-ef7dbdb585e1",
+   "name": "Acqua Panna 500mL",
+   "category": "Grab & Go Beverages",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 275,
+   "available": true,
+   "raw": {
+    "description": "16.9oz (500mL)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "d79ebdd1-f5aa-45a4-8b88-a5f3e5812b46",
+   "name": "Acqua Panna 750mL",
+   "category": "Grab & Go Beverages",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "25.4oz (750ml)"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "b92a0b22-1261-407c-b382-4c2934001986",
+   "name": "Lesser Evil Popcorn - Himalayan Gold",
+   "category": "Grab & Go Food",
+   "price_cents": 130,
+   "price_low_cents": 130,
+   "price_high_cents": 130,
+   "available": true,
+   "raw": {
+    "description": "You really won\u2019t believe it\u2019s not butter. We blend our plant-based butter alternative with organic coconut oil, making it the perfect movie night staple."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "a97af384-4b66-4cbb-a2ac-7dd5d5c117a9",
+   "name": "Wonderful Pistachios - Roasted & Salted",
+   "category": "Grab & Go Food",
+   "price_cents": 175,
+   "price_low_cents": 175,
+   "price_high_cents": 175,
+   "available": true,
+   "raw": {
+    "description": "Wonderful Pistachios No Shells Roasted & Salted have literally come out of their shells. Same delicious taste, but with a little less work for you. Still great for snacking, they\u2019re also a protein-pow"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ac6b2c43-172e-4a44-b443-f4b3c3e242fe",
+   "name": "KIND Bar Mini - Dark Choc. Cherry Cashew",
+   "category": "Grab & Go Food",
+   "price_cents": 100,
+   "price_low_cents": 100,
+   "price_high_cents": 100,
+   "available": true,
+   "raw": {
+    "description": "These are bite-sized versions of a classic KIND flavor. The mini, gluten free bars offer the indulgent taste of dark chocolate, but in a portion-controlled treat format. With cashews as the #1 ingredi"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "050f67cd-cbb3-4e43-a6c5-321aebe219e8",
+   "name": "Gogo Squeez Applesauce - Strawberry",
+   "category": "Grab & Go Food",
+   "price_cents": 130,
+   "price_low_cents": 130,
+   "price_high_cents": 130,
+   "available": true,
+   "raw": {
+    "description": "Enjoy this convenient snack that offers a 1/2 serving of organic fruit* in Apple Strawberry flavor!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "15bdf34f-37f4-488a-8106-90ab0a24f213",
+   "name": "PHAT Banana Bread",
+   "category": "Grab & Go Food",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Baked and packaged in the SCC Bakery, these slices are moist and delicious. Made with real bananas, this house-made bread is perfect to pair with your caffeinated beverage. Contains: wheat, milk, eggs"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "03542c15-3ade-4287-9637-bda9bb61e517",
+   "name": "PHAT Pumpkin Chocolate Chip Bread",
+   "category": "Grab & Go Food",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "Mixed, baked, sliced, and wrapped by our bakers all year round, this moist and rich bread is made with real pumpkin puree, spices, and chocolate chips and topped with a crunchy sugary crust. Contains:"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c33ed121-e79b-4924-90df-7a26cd1ea8a9",
+   "name": "Pots De Creme Au Caramel",
+   "category": "Lupi & Iris",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Dig-in to this decadent French dessert that combines the creamy texture of a custard with the rich, sweet flavor of caramel. Topped with chocolate Royaltine and Chantilly cream! Crafted by Lupi & Iris"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "2ecceff6-94cc-48a0-9f73-3838c05464fa",
+   "name": "Tiramisu",
+   "category": "Lupi & Iris",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "A limited time, one of a kind hand-made tiramisu from Lupi & Iris. Try it before it's gone!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e04d6a70-ccda-4635-8555-3ebf46103522",
+   "name": "Almond & Walnut Cookies (12pk)",
+   "category": "Lupi & Iris",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Enjoy a dozen of Lupi & Iris' Chef Adam's Grandma's famous cookies. Almond and walnut bite sized cookies, topped with powdered sugar."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "03461bba-a542-4267-8c9b-2d6fadcccb1b",
+   "name": "(GF) Flourless Brownie",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "db2ca1de-b9f1-4399-a3d1-c3c4a3648be2",
+   "name": "Monkey Bread",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 575,
+   "price_low_cents": 575,
+   "price_high_cents": 575,
+   "available": true,
+   "raw": {
+    "description": "A gooey pull-apart cinnamon bread delight topped with icing from Matilda Bakehouse!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e8414415-8ee5-41a8-a960-3318faa4167e",
+   "name": "Croissant - Plain",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "A classically crafted croissant from Matilda Bakehouse!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c3f5bcaa-cecf-4138-9418-9f518ef2d830",
+   "name": "Croissant - Chocolate",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "A chocolate-filled croissant from Matilda Bakehouse!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "e45e3783-7d9d-4536-923d-ebc84953c6db",
+   "name": "Croissant - Almond",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "An aromatic, almond-covered croissant from Matilda Bakehouse!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "87c081eb-c4dc-4ab6-b1c4-7dd6f1b61a59",
+   "name": "Danish - Everything",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "A hearty, long croissant with cream cheese and heaps of everything topping from Matilda Bakehouse!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "c1104e54-c68d-4e37-89ad-d8414340d012",
+   "name": "Danish - Seasonal Fruit",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "A sweet danish with croissant-style crust. Flavor changes daily!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "f169a01f-6a26-44bb-8c31-2ae1847e46df",
+   "name": "Muffin - Banana Chocolate Oat (GF & Vegan)",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "A banana and oat muffin with chocolate chips. Vegan & Gluten-Friendly!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "ef43311f-9e26-4049-aa90-a9e257e52e96",
+   "name": "Cinnamon Knot",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "A delightful twist on traditional cinnamon rolls, offering a similar sweet and buttery flavor with a unique knot shape."
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8d983ae4-193a-4753-809a-ae65e2688f92",
+   "name": "Big Bottom Bar",
+   "category": "Pastry by Matilda Bakehouse",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "A densely rich bar of folded oats, caramel, butter, and chocolate chips from Matilda Bakehouse!"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "23fadccc-0554-4bbc-b2e0-30247acedd3d",
+   "name": "RISHI - Earl Grey Sachets",
+   "category": "Rishi Tea & Botanicals",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Our organic Earl Grey combines robust and fruity Thai black tea with mellow, caramel sweet Yunnan Dian Hong. This original blend perfectly complements the floral high notes of geranium and rose found "
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "8534528d-76d6-4d2b-83f9-1fad40b2bf98",
+   "name": "RISHI - English Breakfast Sachets",
+   "category": "Rishi Tea & Botanicals",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": "Our English Breakfast is malty and robust with sweet, chocolatey undertones and a brisk body that can stand up to milk and sugar. Organic Black Tea Sachets (15-pack).\r\n"
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "3b801308-dde6-4c0d-837d-e7113760514f",
+   "name": "Espresso",
+   "category": "Traditional Espresso",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Double-shot of espresso. It's that simple!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Decaf Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "987c5288-3fb5-4725-a9d0-0e005509ea1f",
+   "name": "Macchiato",
+   "category": "Traditional Espresso",
+   "price_cents": 450,
+   "price_low_cents": 450,
+   "price_high_cents": 450,
+   "available": true,
+   "raw": {
+    "description": "A double shot of espresso with a dollop of foam on top."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "959f4c80-cc2c-4a83-aa00-c11043e04512",
+   "name": "Cortado",
+   "category": "Traditional Espresso",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "A traditional drink with equal parts espresso & steamed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c744a94d-62ca-4d20-a522-10f687579d4b",
+   "name": "Traditional Cappuccino",
+   "category": "Traditional Espresso",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "Espresso topped with a lot of foam!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "181e6768-1f09-49f5-a891-4b45d34d3b14",
+   "name": "Cafe Au Lait",
+   "category": "Handcrafted Espresso",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "Coffee with steamed milk!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "a7fcd9ea-0263-4018-a3f1-70074201ac4b",
+   "name": "Americano",
+   "category": "Handcrafted Espresso",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "A bold cup of espresso with water."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Decaf Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5c8c81d1-51c2-433c-b044-7e08ac78259f",
+   "name": "Latte",
+   "category": "Handcrafted Espresso",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "A classic medley of espresso & steamed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "63b03cae-a8af-49dd-985d-d396687a4f8c",
+   "name": "Cappuccino",
+   "category": "Handcrafted Espresso",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 550,
+   "available": true,
+   "raw": {
+    "description": "A light & airy espresso drink made with heavily frothed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "79da1106-0bc7-4eca-a2a6-4500f5b227bf",
+   "name": "Mocha",
+   "category": "Handcrafted Espresso",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "A decadent blend of dark chocolate sauce, steamed milk, and espresso!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "2a973664-64e1-4d73-8272-36beca020b82",
+   "name": "White Mocha",
+   "category": "Handcrafted Espresso",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "A sweet blend of white chocolate sauce, steamed milk and espresso!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "77a67817-abd8-42a7-8245-096081632c2a",
+   "name": "Caramel Macchiato",
+   "category": "Handcrafted Espresso",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "A fan-favorite vanilla & caramel latte!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "f0fc4b56-4a6e-406a-8db1-372ed951bbef",
+   "name": "Cafe Miel",
+   "category": "Handcrafted Espresso",
+   "price_cents": 650,
+   "price_low_cents": 650,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {
+    "description": "A cozy latte that balances sweet honey & aromatic cinnamon."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4fd78f39-ad79-415d-a8f8-a7feced84e4b",
+   "name": "Hot Tea",
+   "category": "Handcrafted Tea",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Select teas from Rishi Tea & Botanicals!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Lemonade",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "404195e5-fdf7-4811-86a0-c526a154761b",
+   "name": "Iced Tea",
+   "category": "Handcrafted Tea",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Select teas from Rishi Tea & Botanicals!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Lemonade",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "686d2baa-6a31-40a9-8a69-ce4a87f9c4e2",
+   "name": "Tea Latte",
+   "category": "Handcrafted Tea",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {
+    "description": "A hot tea of your choice served with steamed milk."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "c53790d7-410f-4efd-a277-c151e4989dc1",
+   "name": "Matcha Latte",
+   "category": "Handcrafted Tea",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "A vibrant, high-quality green tea bloomed into creamy, steamed milk for a smooth and earthy delight."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "40736b1b-ce77-4877-aa04-a997800e8227",
+   "name": "Masala Chai Latte",
+   "category": "Handcrafted Tea",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "A lovely pairing of steamed milk & Rishi masala chai."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "4a0a263f-6c50-4f2d-8c6d-b752f783348d",
+   "name": "Turmeric Ginger Chai Latte",
+   "category": "Handcrafted Tea",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {
+    "description": "An innovative adaptation from a classic Ayurvedic elixir. Expertly combined golden turmeric root with zesty ginger, lemongrass and a crack of black pepper creates a replenishing tonic."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "28c43706-2a09-482f-81e4-d91240ce13bf",
+   "name": "London Fog",
+   "category": "Handcrafted Tea",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {
+    "description": "A cozy combo of Earl Grey tea, lavender & vanilla syrup, and steamed milk!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "8dd354d6-165c-4302-9e64-04e5e3c0cd26",
+   "name": "Hot Cocoa",
+   "category": "Other Drinks",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": "A comforting blend crafted with perfectly steamed milk and rich chocolate sauce for a velvety smooth finish. Add some whipped cream at no cost!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "65d26e3f-3d20-49b8-bf74-b8c219fe807c",
+   "name": "Steamer",
+   "category": "Other Drinks",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {
+    "description": "Steamed milk, served best with a flavor of your choice."
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Modifications?",
+     "choice_name": "Extra Flavor",
+     "price_delta_cents": 50
+    }
+   ]
+  },
+  {
+   "platform_item_id": "5659b3d9-c621-4db0-9b31-eac9d778978a",
+   "name": "Cup of Milk",
+   "category": "Other Drinks",
+   "price_cents": 200,
+   "price_low_cents": 200,
+   "price_high_cents": 200,
+   "available": true,
+   "raw": {
+    "description": "Cup of milk of your choice!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 25
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Cream (Breve)",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Coconut Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Oat Milk",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Milk?",
+     "choice_name": "Soy Milk",
+     "price_delta_cents": 100
+    }
+   ]
+  },
+  {
+   "platform_item_id": "7371c03e-9a1b-40ee-90cc-b6e8c277a6c9",
+   "name": "Lemonade",
+   "category": "Other Drinks",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {
+    "description": "Bright, refreshing lemonade over ice, ready to quench your thirst with every sip. Want a flavored lemonade? Add one of our many fruit syrups!"
+   },
+   "modifiers": [
+    {
+     "group_name": "Size?",
+     "choice_name": "16oz",
+     "price_delta_cents": 50
+    },
+    {
+     "group_name": "Size?",
+     "choice_name": "20oz",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Almond",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Amaretto",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Banana",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Cherry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Coconut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Hibiscus",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Lavender",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Madeleine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Mango",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pandan",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Pistachio",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Raspberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Rose",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Strawberry",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Hazelnut",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Sugar-Free Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Tangerine",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toasted Marshmallow",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Toffee Crunch",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Ume Plum",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Vanilla",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "Warm Spices",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add Flavors?",
+     "choice_name": "White Chocolate",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    }
+   ]
+  },
+  {
+   "platform_item_id": "cb248040-4f40-4e18-8824-5ddc244fb242",
+   "name": "Italian Soda",
+   "category": "Other Drinks",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": "A fizzy, customizable iced beverage made from carbonated water and flavored syrups of your choice. "
+   },
+   "modifiers": [
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Decaf Espresso",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Cold Foam",
+     "price_delta_cents": 100
+    },
+    {
+     "group_name": "Add-Ons?",
+     "choice_name": "Add Honey",
+     "price_delta_cents": 25
+    }
+   ]
+  }
+ ]
+}
