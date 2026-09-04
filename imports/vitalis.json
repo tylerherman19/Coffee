@@ -1,0 +1,353 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://vitalisbistro.com/menu/25292841",
+ "shops": [
+  {
+   "id": 555,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "Breakfast Burrito",
+   "category": "Breakfast",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bagel with Lox & Cream Cheese",
+   "category": "Breakfast",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bagel with Cream Cheese",
+   "category": "Breakfast",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bagel",
+   "category": "Breakfast",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Bagel with Butter",
+   "category": "Breakfast",
+   "price_cents": 800,
+   "price_low_cents": 800,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Greek Salad",
+   "category": "Salads",
+   "price_cents": 1299,
+   "price_low_cents": 1299,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Caesar Salad",
+   "category": "Salads",
+   "price_cents": 1299,
+   "price_low_cents": 1299,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Tomato Avocado & Onion Salad",
+   "category": "Salads",
+   "price_cents": 1299,
+   "price_low_cents": 1299,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Garden Salad",
+   "category": "Salads",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chevre Salad",
+   "category": "Salads",
+   "price_cents": 1299,
+   "price_low_cents": 1299,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Portobello Sandwich",
+   "category": "Signature Sandwiches",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Baked Falafel Sandwich",
+   "category": "Signature Sandwiches",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Salmon & Veggie Sandwich",
+   "category": "Signature Sandwiches",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mixed Berry Crepe",
+   "category": "Sweet Crepes",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Apple & Feta Crepe",
+   "category": "Sweet Crepes",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Nutella Crepe",
+   "category": "Sweet Crepes",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chocolate Crepe",
+   "category": "Sweet Crepes",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cheese Cake Style Crepe",
+   "category": "Sweet Crepes",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Pizza-Style Crepe",
+   "category": "Savory Crepes",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Greek-Style Crepe",
+   "category": "Savory Crepes",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Lox & Cream Cheese Crepe",
+   "category": "Savory Crepes",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Salmon & Veggies Crepe",
+   "category": "Savory Crepes",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Omelette in a Crepe",
+   "category": "Savory Crepes",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Build Your Own Pizza",
+   "category": "Pizza",
+   "price_cents": 1999,
+   "price_low_cents": 1999,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Falafel Platter",
+   "category": "House Favorites",
+   "price_cents": 2299,
+   "price_low_cents": 2299,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Tuna Melt",
+   "category": "House Favorites",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Soft Fish Tacos",
+   "category": "House Favorites",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Egg Melt",
+   "category": "House Favorites",
+   "price_cents": 1499,
+   "price_low_cents": 1499,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Eggplant Melt",
+   "category": "House Favorites",
+   "price_cents": 1599,
+   "price_low_cents": 1599,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cheese Melt",
+   "category": "House Favorites",
+   "price_cents": 1299,
+   "price_low_cents": 1299,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Israeli Salad",
+   "category": "Sides",
+   "price_cents": 1099,
+   "price_low_cents": 1099,
+   "price_high_cents": null,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  }
+ ]
+}
