@@ -1,0 +1,77 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://www.thecometcafe.com/drinks-menu",
+ "shops": [
+  {
+   "id": 43,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": "cm-hot-coffee",
+   "name": "Hot Coffee (bottomless)",
+   "category": "Cafe",
+   "price_cents": 375,
+   "price_low_cents": 375,
+   "price_high_cents": 375,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cm-au-lait",
+   "name": "Caf\u00e9 au Lait (hot or iced, dairy or oat)",
+   "category": "Cafe",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cm-cold-brew",
+   "name": "Cold Brew",
+   "category": "Cafe",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cm-iced-coffee",
+   "name": "Iced Coffee",
+   "category": "Cafe",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  },
+  {
+   "platform_item_id": "cm-sport-tea",
+   "name": "Sport Tea",
+   "category": "Cafe",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {
+    "description": ""
+   },
+   "modifiers": []
+  }
+ ]
+}
