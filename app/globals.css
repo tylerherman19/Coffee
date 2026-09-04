@@ -103,7 +103,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .coffee-map { flex: 1 1 auto; min-height: 420px; border: 2px solid var(--brown); z-index: 1; }
 .coffee-marker { display: grid; place-items: center; border: 2px solid var(--paper); background: var(--accent); }
 .coffee-cluster { display: grid; place-items: center; border: 2px solid var(--paper); background: var(--brown); }
-.coffee-cluster span { color: var(--paper); font: 700 .95rem/1 var(--font-heading), Georgia, serif; }
+.coffee-cluster span { color: var(--paper); font: 700 .8rem/1 var(--font-heading), Georgia, serif; }
+.you-marker { width: 14px; height: 14px; background: var(--brown); border: 3px solid var(--paper); outline: 2px solid var(--brown); }
 .coffee-marker svg { display: block; }
 .map-popup { min-width: 170px; display: flex; flex-direction: column; gap: 7px; color: var(--brown); }
 .map-popup strong { font: 700 1.05rem var(--font-heading), Georgia, serif; }
