@@ -1,0 +1,168 @@
+{
+  "platform": "html-menu",
+  "source_url": "https://sunbeancoffeemn.com/menu (captured via cloud browser from the shop's own menu page)",
+  "shops": [
+    {
+      "id": 452,
+      "slug": null
+    }
+  ],
+  "items": [
+    {
+      "platform_item_id": "sb-latte",
+      "name": "Latte",
+      "category": "Espresso",
+      "price_cents": 350,
+      "price_low_cents": 350,
+      "price_high_cents": 450,
+      "available": true,
+      "raw": {
+        "description": "Espresso with steamed milk"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-mocha",
+      "name": "Mocha",
+      "category": "Espresso",
+      "price_cents": 500,
+      "price_low_cents": 500,
+      "price_high_cents": 600,
+      "available": true,
+      "raw": {
+        "description": "Espresso, chocolate and steamed milk"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-macchiato",
+      "name": "Macchiato",
+      "category": "Espresso",
+      "price_cents": 500,
+      "price_low_cents": 500,
+      "price_high_cents": 600,
+      "available": true,
+      "raw": {
+        "description": "Steamed milk with espresso topped with foam"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-cappuccino",
+      "name": "Cappuccino",
+      "category": "Espresso",
+      "price_cents": 450,
+      "price_low_cents": 450,
+      "price_high_cents": 550,
+      "available": true,
+      "raw": {
+        "description": "Espresso with steamed milk and foam"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-americano",
+      "name": "Americano",
+      "category": "Espresso",
+      "price_cents": 350,
+      "price_low_cents": 350,
+      "price_high_cents": 450,
+      "available": true,
+      "raw": {
+        "description": "Espresso hot water"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-drip-coffee",
+      "name": "Drip Coffee",
+      "category": "Espresso",
+      "price_cents": 300,
+      "price_low_cents": 300,
+      "price_high_cents": 400,
+      "available": true,
+      "raw": {
+        "description": "Black coffee"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-hot-tea",
+      "name": "Hot Tea",
+      "category": "Tea",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 400,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-iced-tea",
+      "name": "Iced Tea",
+      "category": "Tea",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 400,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-chai",
+      "name": "Chai Tea Latte",
+      "category": "Tea",
+      "price_cents": 500,
+      "price_low_cents": 500,
+      "price_high_cents": 600,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-hot-chocolate",
+      "name": "Hot Chocolate",
+      "category": "Tea",
+      "price_cents": 350,
+      "price_low_cents": 350,
+      "price_high_cents": 450,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-blueberry-muffin",
+      "name": "Blueberry Muffin",
+      "category": "Light Bites",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 400,
+      "available": true,
+      "raw": {
+        "description": "Made fresh each day by our friends over at a local bakery"
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "sb-croissant",
+      "name": "Croissant",
+      "category": "Light Bites",
+      "price_cents": 400,
+      "price_low_cents": 400,
+      "price_high_cents": 400,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    }
+  ]
+}
