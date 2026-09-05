@@ -1,4 +1,4 @@
-export type Shop = { id: number; name: string; metro: 'milwaukee' | 'twin_cities'; address: string | null; neighborhood: string | null; lat: number | null; lng: number | null; website: string | null; platform: string | null; opening_hours: string | null; rating: number | null; review_count: number | null };
+export type Shop = { id: number; name: string; metro: 'milwaukee' | 'twin_cities'; address: string | null; neighborhood: string | null; subdistrict: string | null; lat: number | null; lng: number | null; website: string | null; platform: string | null; opening_hours: string | null; rating: number | null; review_count: number | null };
 // shops.platform holds the ordering platform's slug; these are its brand names.
 const platformNames: Record<string, string> = { square: 'Square', toast: 'Toast', spoton: 'SpotOn', chownow: 'ChowNow' };
 export const platformLabel = (platform: string) => platformNames[platform] ?? platform;
@@ -65,9 +65,17 @@ export async function loadCoffeeData(): Promise<CoffeeData> {
     table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=name,id.asc'),
     table<{ shop_id: number; rating: number | null; review_count: number | null; observed_at: string }>('ratings?select=shop_id,rating,review_count,observed_at&order=observed_at.desc,shop_id.asc'),
   ]);
+  // Fine-grained districts inside a neighborhood (e.g. Historic Third Ward
+  // inside Downtown), staged as a static file so the split ships with the
+  // site - no schema change, no runtime geocoding. Fail open: no file, no split.
+  let subdistricts: Record<string, string> = {};
+  try {
+    const response = await fetch('subdistricts.json', { cache: 'no-store', signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+    if (response.ok) subdistricts = ((await response.json()) as { subdistricts: Record<string, string> }).subdistricts || {};
+  } catch { /* no split available */ }
   const latestRating = new Map<number, { rating: number | null; review_count: number | null }>();
   for (const row of ratings) if (!latestRating.has(row.shop_id)) latestRating.set(row.shop_id, row);
-  const shops = shopsRaw.map((shop) => ({ ...shop, rating: latestRating.get(shop.id)?.rating ?? null, review_count: latestRating.get(shop.id)?.review_count ?? null }));
+  const shops = shopsRaw.map((shop) => ({ ...shop, subdistrict: subdistricts[String(shop.id)] ?? null, rating: latestRating.get(shop.id)?.rating ?? null, review_count: latestRating.get(shop.id)?.review_count ?? null }));
   const loadedAt = items.reduce<string | null>((latest, item) => !item.last_checked_at ? latest : !latest || item.last_checked_at > latest ? item.last_checked_at : latest, null);
   return { shops, items, loadedAt };
 }

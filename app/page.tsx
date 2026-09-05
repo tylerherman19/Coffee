@@ -175,11 +175,21 @@ export default function Home() {
   }, []);
   const metroShops = useMemo(() => data.shops.filter((shop) => shop.metro === metro), [data.shops, metro]);
   const hoods = useMemo(() => { const counts = new Map<string, number>(); for (const shop of metroShops) if (shop.neighborhood) counts.set(shop.neighborhood, (counts.get(shop.neighborhood) || 0) + 1); return Array.from(counts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])); }, [metroShops]);
-  const activeHood = hoods.some(([name]) => name === hood) ? hood : '';
+  const subDistricts = useMemo(() => { const counts = new Map<string, number>(); for (const shop of metroShops) if (shop.subdistrict) counts.set(shop.subdistrict, (counts.get(shop.subdistrict) || 0) + 1); return Array.from(counts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])); }, [metroShops]);
+  const hoodOptions = useMemo(() => {
+    const flat = hoods.filter(([name]) => name !== 'Downtown').map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>);
+    const downtown = hoods.find(([name]) => name === 'Downtown');
+    if (!downtown && !subDistricts.length) return flat;
+    const withSubs = subDistricts.length
+      ? <optgroup key="dt-sub" label="Downtown districts">{subDistricts.map(([name, count]) => <option key={name} value={`sub:${name}`}>{name} ({count})</option>)}</optgroup>
+      : null;
+    return [...flat, downtown ? <option key="Downtown" value="Downtown">Downtown - all ({downtown[1]})</option> : null, withSubs];
+  }, [hoods, subDistricts]);
+  const activeHood = hoods.some(([name]) => name === hood) || (hood.startsWith('sub:') && subDistricts.some(([name]) => `sub:${name}` === hood)) ? hood : '';
   const rankingKey = `${metro}|${drink}|${activeHood}`;
   const showAll = showAllKey === rankingKey;
   const pricedShopIds = useMemo(() => { const set = new Set<number>(); for (const item of data.items) if (item.current_price_cents != null) set.add(item.shop_id); return set; }, [data.items]);
-  const visibleShops = useMemo(() => metroShops.filter((shop) => { const haystack = fold(`${shop.name} ${shop.neighborhood || ''} ${shop.address || ''}`); return haystack.includes(fold(query)) && (!openOnly || isOpenNow(shop.opening_hours) !== false) && (!pricedOnly || pricedShopIds.has(shop.id)) && (!activeHood || shop.neighborhood === activeHood); }), [metroShops, query, openOnly, pricedOnly, pricedShopIds, activeHood]);
+  const visibleShops = useMemo(() => metroShops.filter((shop) => { const haystack = fold(`${shop.name} ${shop.neighborhood || ''} ${shop.address || ''}`); return haystack.includes(fold(query)) && (!openOnly || isOpenNow(shop.opening_hours) !== false) && (!pricedOnly || pricedShopIds.has(shop.id)) && (!activeHood || (activeHood.startsWith('sub:') ? shop.subdistrict === activeHood.slice(4) : shop.neighborhood === activeHood)); }), [metroShops, query, openOnly, pricedOnly, pricedShopIds, activeHood]);
   const nearBase = visibleShops;
   const nearShops = useMemo(() => {
     const rows = nearBase.map((shop) => {
@@ -212,7 +222,7 @@ export default function Home() {
   }, [nearBase, coords]);
   const drinkTypes = useMemo(() => Array.from(new Set(data.items.filter((item) => item.is_drink && item.drink_type).map((item) => item.drink_type as string))).sort((a, b) => { const ai = drinkOrder.indexOf(a); const bi = drinkOrder.indexOf(b); return (ai < 0 ? drinkOrder.length : ai) - (bi < 0 ? drinkOrder.length : bi) || a.localeCompare(b); }), [data.items]);
   const shopsById = useMemo(() => new Map(data.shops.map((shop) => [shop.id, shop])), [data.shops]);
-  const comparisons = useMemo(() => data.items.filter((item) => item.drink_type === drink && item.current_price_cents != null && item.current_price_cents > 0).map((item) => ({ item, shop: shopsById.get(item.shop_id), price: item.current_price_cents as number })).filter((entry): entry is { item: Item; shop: Shop; price: number } => Boolean(entry.shop && entry.shop.metro === metro && (!activeHood || entry.shop.neighborhood === activeHood))).sort((a, b) => a.price - b.price), [data.items, shopsById, drink, metro, activeHood]);
+  const comparisons = useMemo(() => data.items.filter((item) => item.drink_type === drink && item.current_price_cents != null && item.current_price_cents > 0).map((item) => ({ item, shop: shopsById.get(item.shop_id), price: item.current_price_cents as number })).filter((entry): entry is { item: Item; shop: Shop; price: number } => Boolean(entry.shop && entry.shop.metro === metro && (!activeHood || (activeHood.startsWith('sub:') ? entry.shop.subdistrict === activeHood.slice(4) : entry.shop.neighborhood === activeHood)))).sort((a, b) => a.price - b.price), [data.items, shopsById, drink, metro, activeHood]);
   // Chain fan-out: identical item at identically-named shops (Caribou x87,
   // Stone Creek x5, ...) collapses to one annotated row; source data is untouched.
   const ranked = useMemo(() => {
@@ -285,7 +295,7 @@ export default function Home() {
         <span>{geoDenied ? 'Location is off. Ranked alphabetically, not by distance.' : 'Locating you — the list is alphabetical until a fix lands.'}</span>
         <button onClick={() => setGeoDenied(false)}>Use location</button>
       </div>}
-      {hoods.length > 1 && <div className="controls"><select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All areas ({visibleShops.length})</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select></div>}
+      {hoods.length > 1 && <div className="controls"><select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All areas ({visibleShops.length})</option>{hoodOptions}</select></div>}
       {nearShops.slice(0, 75).map(({ shop, open, miles, extra }, index) => {
         const menu = data.items.filter((item) => item.shop_id === shop.id && item.current_price_cents != null);
         const d = shopDrink(menu);
@@ -312,7 +322,7 @@ export default function Home() {
     {view === 'compare' && <main className="content-shell">
       <div className="drink-scroll" role="tablist" aria-label="Drink type">{(drinkTypes.length ? drinkTypes : ['latte', 'caramel_latte', 'cappuccino', 'espresso', 'drip', 'cold_brew']).map((type) => <button key={type} role="tab" aria-selected={drink === type} className={drink === type ? 'active' : ''} onClick={() => setDrink(type)}>{drinkLabels[type] || type.replaceAll('_', ' ')}</button>)}</div>
       {hoods.length > 1 && <div className="controls">
-        <select className="hood-select" value={activeHood} onChange={(event) => { setHood(event.target.value); setShowAllKey(null); }} aria-label="Compare within a neighborhood"><option value="">All areas ({metroShops.length})</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select>
+        <select className="hood-select" value={activeHood} onChange={(event) => { setHood(event.target.value); setShowAllKey(null); }} aria-label="Compare within a neighborhood"><option value="">All areas ({metroShops.length})</option>{hoodOptions}</select>
       </div>}
       <div className="median-panel">
         <div className="median-figure">
@@ -343,14 +353,14 @@ export default function Home() {
         <label className="search"><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Shop or neighborhood" />{query && <button aria-label="Clear search" onClick={() => setQuery('')}>✕</button>}</label>
         <button className={openOnly ? 'filter-button active' : 'filter-button'} onClick={() => setOpenOnly(!openOnly)}>Open now</button>
         <button className={pricedOnly ? 'filter-button active' : 'filter-button'} onClick={() => setPricedOnly(!pricedOnly)}>{pricedOnly ? 'Priced only' : 'All shops'}</button>
-        {hoods.length > 1 && <select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All areas ({visibleShops.length})</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select>}
+        {hoods.length > 1 && <select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All areas ({visibleShops.length})</option>{hoodOptions}</select>}
       </div>
       {visibleShops.length ? visibleShops.map((shop, index) => { const letter = (fold(shop.name).trimStart().charAt(0) || '#').replace(/[0-9]/, '#').toUpperCase(); const prev = index > 0 ? (fold(visibleShops[index - 1].name).trimStart().charAt(0) || '#').replace(/[0-9]/, '#').toUpperCase() : ''; const groupCount = visibleShops.filter((s) => (fold(s.name).trimStart().charAt(0) || '#').replace(/[0-9]/, '#').toUpperCase() === letter).length; return <div key={shop.id}>{letter !== prev && <div className="letter-head"><span className="letter">{letter}</span><span className="rule" /><span className="count">{String(groupCount).padStart(2, '0')}</span></div>}<ShopRow shop={shop} items={data.items} dimmed={openOnly && isOpenNow(shop.opening_hours) == null} onOpen={() => { scrollRef.current = window.scrollY; setSelectedShop(shop); }} /></div>; }) : <div className="empty"><h2>Nothing matches</h2><p>Clear a filter, or check back after the next menu pull.</p></div>}
     </main>}
     {view === 'map' && <main className="content-shell">
       <div className="map-panel">
         <div className="map-panel-title">{navCounts.map} mapped · {metroName}{pricedOnly ? ' · priced menus only' : ''}{activeHood ? ` · ${activeHood}` : ''}</div>
-        {hoods.length > 1 && <select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All areas ({visibleShops.length})</option>{hoods.map(([name, count]) => <option key={name} value={name}>{name} ({count})</option>)}</select>}
+        {hoods.length > 1 && <select className="hood-select" value={activeHood} onChange={(event) => setHood(event.target.value)} aria-label="Filter by neighborhood"><option value="">All areas ({visibleShops.length})</option>{hoodOptions}</select>}
       </div>
       {(query || openOnly) && <div className="map-filter-note"><span>Filtered by {[query && `"${query}"`, openOnly && 'open now'].filter(Boolean).join(' · ')}</span><button onClick={() => { setQuery(''); setOpenOnly(false); }}>✕ Clear</button></div>}
       <div className="map-shell">
