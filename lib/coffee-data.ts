@@ -1,6 +1,6 @@
 export type Shop = { id: number; name: string; metro: 'milwaukee' | 'twin_cities'; address: string | null; neighborhood: string | null; subdistrict: string | null; lat: number | null; lng: number | null; website: string | null; platform: string | null; opening_hours: string | null; rating: number | null; review_count: number | null };
 // shops.platform holds the ordering platform's slug; these are its brand names.
-const platformNames: Record<string, string> = { square: 'Square', toast: 'Toast', spoton: 'SpotOn', chownow: 'ChowNow' };
+const platformNames: Record<string, string> = { square: 'Square', toast: 'Toast', spoton: 'SpotOn', chownow: 'ChowNow', clover: 'Clover' };
 export const platformLabel = (platform: string) => platformNames[platform] ?? platform;
 export type Item = { id: number; shop_id: number; name: string; category: string | null; is_drink: boolean; drink_type: string | null; size_label: string | null; size_oz: number | null; size_confidence: 'explicit' | 'inferred' | 'none' | null; current_price_cents: number | null; last_checked_at: string | null };
 export type CoffeeData = { shops: Shop[]; items: Item[]; loadedAt: string | null };
