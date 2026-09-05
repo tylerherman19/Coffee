@@ -925,6 +925,10 @@ def resolve_source(shop: dict[str, Any]) -> tuple[str | None, str | None, str | 
     name = shop["name"].lower()
     if not source and "sip" in name and shop["metro"] == "twin_cities":
         return "square", "https://sipcoffeebar.square.site/s/order", None
+    if not source and "davians" in name and shop["metro"] == "milwaukee":
+        # 411.davians.com is dead, so the site scan finds nothing; the cafe's
+        # ordering page lives on Square.
+        return "square", "https://davians-at-411-cafe.square.site/s/order", None
     if not source and "mad rooster" in name and shop["metro"] == "milwaukee":
         return "toast", "https://toast.app/r/mad-rooster-milwaukee-4401-w-greenfield-ave/order/r-2faf7892-e26a-4085-b0e1-c1f8d3bb845b", None
     if not source:
