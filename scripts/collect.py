@@ -33,7 +33,8 @@ METROS = {
     "twin_cities": (44.85, -93.65, 45.10, -92.98),
 }
 DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toasttab.com",
-                "order.spoton.com", "chownow.com", "order.incentivio.com", "kyoo.tech")
+                "order.spoton.com", "chownow.com", "order.incentivio.com", "kyoo.tech",
+                "clover.com")
 # Delivery marketplaces, whose prices are marked up over the shop's own menu.
 # ChowNow is not one of them: it is white-label ordering that bills the shop,
 # not a marketplace with its own fleet and its own prices, so it belongs in
@@ -43,7 +44,11 @@ DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toas
 # instead (see imports/README.md). Discovering the link still matters: it
 # labels the shop's ordering platform and stops the daily run from wiping
 # that label off the four shops whose menus were captured by hand.
-BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com", "clover.com")
+# Clover was blocked here once by association with order.online (DoorDash's
+# marked-up white-label host), but Clover online ordering is white-label too:
+# merchant's own prices, public menu JSON, no auth, no bot wall - retested
+# 2026-09-05 against /oloservice/v1/merchants/<slug|uuid>.
+BLOCKED_HOSTS = ("ubereats.com", "doordash.com", "order.online", "grubhub.com")
 
 
 @dataclass
@@ -169,6 +174,8 @@ def platform_of(url: str) -> str | None:
         return "incentivio"
     if "kyoo.tech" in host:
         return "kyoo"
+    if "clover.com" in host:
+        return "clover"
     return None
 
 
@@ -191,7 +198,7 @@ def rank_candidate(url: str) -> int:
 # most of them. This finds a platform URL anywhere in the markup.
 EMBEDDED_URL = re.compile(
     r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|"
-    r"order\.spoton\.com|chownow\.com|order\.incentivio\.com|kyoo\.tech)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
+    r"order\.spoton\.com|chownow\.com|order\.incentivio\.com|kyoo\.tech|clover\.com)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
     re.I,
 )
 

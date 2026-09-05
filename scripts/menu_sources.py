@@ -513,6 +513,39 @@ def extract_kyoo(merchant_id: str, location_id: str | None = None,
 
 
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Clover online ordering: white-label, merchant's own prices. The ordering app
+# reads a public JSON API; no auth and no bot wall (retested 2026-09-05).
+
+CLOVER_API = "https://www.clover.com/oloservice/v1/merchants"
+
+
+def clover_slug(url: str) -> str | None:
+    m = re.search(r"clover\.com/online-ordering/([A-Za-z0-9._~-]+)", url or "")
+    return m.group(1) if m else None
+
+
+def extract_clover(slug: str) -> list[MenuItem]:
+    merchant = get(f"{CLOVER_API}/{slug}", params={"slug": "true"}).json()
+    uuid = merchant.get("merchantUuid")
+    if not uuid:
+        return []
+    menu = get(f"{CLOVER_API}/{uuid}/menu").json()
+    items = menu.get("items") or []
+    categories = menu.get("categories") or {}
+    out: dict[str, MenuItem] = {}
+    for node in items:
+        name = str(node.get("name") or "").strip()
+        price = node.get("price")
+        if not name or not isinstance(price, (int, float)) or price <= 0:
+            continue
+        cats = node.get("categoryIds") or []
+        cat = categories.get(cats[0], {}).get("name") if cats else None
+        entry = MenuItem(str(node.get("id")), name, cat, int(price), int(price), None, node)
+        out[entry.platform_id] = entry
+    return list(out.values())
+
+
 # Matching a shop row to a platform's own directory.
 #
 # Two thirds of the shops in these metros never link their ordering page, and a
@@ -671,6 +704,7 @@ EXTRACTORS = {
     "spoton": lambda source, location, shop: extract_spoton(source),
     "incentivio": lambda source, location, shop: extract_incentivio(incentivio_slug(source) or source, location, shop),
     "kyoo": lambda source, location, shop: extract_kyoo(kyoo_merchant(source) or source, location, shop),
+    "clover": lambda source, location, shop: extract_clover(clover_slug(source) or source),
 }
 
 
