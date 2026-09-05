@@ -1,0 +1,1935 @@
+{
+  "platform": "olo",
+  "source_url": "https://order.cornerbakerycafe.com/menu/corner-bakery-cafe-shorewood (Corner Bakery's own Olo ordering site, Shorewood WI store 44080; captured via cloud browser)",
+  "shops": [
+    {
+      "id": 169,
+      "slug": null
+    }
+  ],
+  "items": [
+    {
+      "platform_item_id": "cb-espresso",
+      "name": "Espresso",
+      "category": "Drinks",
+      "price_cents": 269,
+      "price_low_cents": 269,
+      "price_high_cents": 269,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-hot-chai-latte",
+      "name": "Hot Chai Latte",
+      "category": "Drinks",
+      "price_cents": 479,
+      "price_low_cents": 479,
+      "price_high_cents": 579,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": [
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Oat Milk",
+          "price_delta_cents": 89
+        },
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Almond Milk",
+          "price_delta_cents": 89
+        }
+      ]
+    },
+    {
+      "platform_item_id": "cb-truffle-hot-chocolate",
+      "name": "Truffle Hot Chocolate",
+      "category": "Drinks",
+      "price_cents": 409,
+      "price_low_cents": 409,
+      "price_high_cents": 509,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": [
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Oat Milk",
+          "price_delta_cents": 89
+        },
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Almond Milk",
+          "price_delta_cents": 89
+        }
+      ]
+    },
+    {
+      "platform_item_id": "cb-cold-brew-coffee-black",
+      "name": "Cold Brew Coffee - Black",
+      "category": "Drinks",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 509,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cold-brew-coffee-vanilla-sweet-cream",
+      "name": "Cold Brew Coffee - Vanilla Sweet Cream",
+      "category": "Drinks",
+      "price_cents": 459,
+      "price_low_cents": 459,
+      "price_high_cents": 579,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-iced-americano",
+      "name": "Iced Americano",
+      "category": "Drinks",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 429,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": [
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Oat Milk",
+          "price_delta_cents": 89
+        },
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Almond Milk",
+          "price_delta_cents": 89
+        }
+      ]
+    },
+    {
+      "platform_item_id": "cb-iced-latte",
+      "name": "Iced Latte",
+      "category": "Drinks",
+      "price_cents": 499,
+      "price_low_cents": 499,
+      "price_high_cents": 549,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": [
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Oat Milk",
+          "price_delta_cents": 89
+        },
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Almond Milk",
+          "price_delta_cents": 89
+        }
+      ]
+    },
+    {
+      "platform_item_id": "cb-iced-caramel-macchiato",
+      "name": "Iced Caramel Macchiato",
+      "category": "Drinks",
+      "price_cents": 529,
+      "price_low_cents": 529,
+      "price_high_cents": 579,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": [
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Oat Milk",
+          "price_delta_cents": 89
+        },
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Almond Milk",
+          "price_delta_cents": 89
+        }
+      ]
+    },
+    {
+      "platform_item_id": "cb-iced-chai-latte",
+      "name": "Iced Chai Latte",
+      "category": "Drinks",
+      "price_cents": 529,
+      "price_low_cents": 529,
+      "price_high_cents": 579,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": [
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Oat Milk",
+          "price_delta_cents": 89
+        },
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Almond Milk",
+          "price_delta_cents": 89
+        }
+      ]
+    },
+    {
+      "platform_item_id": "cb-iced-truffle-mocha",
+      "name": "Iced Truffle Mocha",
+      "category": "Drinks",
+      "price_cents": 529,
+      "price_low_cents": 529,
+      "price_high_cents": 579,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": [
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Oat Milk",
+          "price_delta_cents": 89
+        },
+        {
+          "group_name": "Milk Choice",
+          "choice_name": "Almond Milk",
+          "price_delta_cents": 89
+        }
+      ]
+    },
+    {
+      "platform_item_id": "cb-berry-berry-lemonade",
+      "name": "Berry Berry Lemonade",
+      "category": "For a Limited Time Only!",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 569,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-old-fashioned-lemonade",
+      "name": "Old Fashioned Lemonade",
+      "category": "For a Limited Time Only!",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 499,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-dragonfruit-lemonade",
+      "name": "Dragonfruit Lemonade",
+      "category": "For a Limited Time Only!",
+      "price_cents": 459,
+      "price_low_cents": 459,
+      "price_high_cents": 559,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-berry-berry-lemonade",
+      "name": "Berry Berry Lemonade",
+      "category": "Drinks",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 569,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-berry-sweet-crisp",
+      "name": "Berry Sweet Crisp",
+      "category": "For a Limited Time Only!",
+      "price_cents": 959,
+      "price_low_cents": 959,
+      "price_high_cents": 1199,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-berry-sweet-crisp",
+      "name": "Berry Sweet Crisp",
+      "category": "Fresh Salads",
+      "price_cents": 959,
+      "price_low_cents": 959,
+      "price_high_cents": 1199,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-lemon-orzo-soup",
+      "name": "Lemon Orzo Soup",
+      "category": "Soups",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 739,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-veggie-or-sausage-farmers-scrambler",
+      "name": "Veggie or Sausage Farmers Scrambler",
+      "category": "For a Limited Time Only!",
+      "price_cents": 959,
+      "price_low_cents": 959,
+      "price_high_cents": 1059,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-veggie-or-sausage-farmers-scrambler",
+      "name": "Veggie or Sausage Farmers Scrambler",
+      "category": "Morning Favorites",
+      "price_cents": 959,
+      "price_low_cents": 959,
+      "price_high_cents": 1059,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chicken-caesar",
+      "name": "Chicken Caesar",
+      "category": "Fresh Salads",
+      "price_cents": 968,
+      "price_low_cents": 968,
+      "price_high_cents": 1348,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-dragonfruit-lemonade",
+      "name": "Dragonfruit Lemonade",
+      "category": "Drinks",
+      "price_cents": 459,
+      "price_low_cents": 459,
+      "price_high_cents": 559,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-pumpkin-spice-latte",
+      "name": "Pumpkin Spice Latte",
+      "category": "Drinks",
+      "price_cents": 559,
+      "price_low_cents": 559,
+      "price_high_cents": 649,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-decaf-pumpkin-spice-latte",
+      "name": "Decaf Pumpkin Spice Latte",
+      "category": "Drinks",
+      "price_cents": 559,
+      "price_low_cents": 559,
+      "price_high_cents": 649,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-iced-pumpkin-spice-latte",
+      "name": "Iced Pumpkin Spice Latte",
+      "category": "Drinks",
+      "price_cents": 629,
+      "price_low_cents": 629,
+      "price_high_cents": 669,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cold-brew-pumpkin-spice",
+      "name": "Cold Brew Pumpkin Spice",
+      "category": "Drinks",
+      "price_cents": 579,
+      "price_low_cents": 579,
+      "price_high_cents": 699,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-pumpkin-spice-latte",
+      "name": "Pumpkin Spice Latte",
+      "category": "For a Limited Time Only!",
+      "price_cents": 559,
+      "price_low_cents": 559,
+      "price_high_cents": 649,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-decaf-pumpkin-spice-latte",
+      "name": "Decaf Pumpkin Spice Latte",
+      "category": "For a Limited Time Only!",
+      "price_cents": 559,
+      "price_low_cents": 559,
+      "price_high_cents": 649,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-iced-pumpkin-spice-latte",
+      "name": "Iced Pumpkin Spice Latte",
+      "category": "For a Limited Time Only!",
+      "price_cents": 629,
+      "price_low_cents": 629,
+      "price_high_cents": 669,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cold-brew-pumpkin-spice",
+      "name": "Cold Brew Pumpkin Spice",
+      "category": "For a Limited Time Only!",
+      "price_cents": 579,
+      "price_low_cents": 579,
+      "price_high_cents": 699,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-pumpkin-muffin",
+      "name": "Pumpkin Muffin",
+      "category": "For a Limited Time Only!",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 399,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-confetti-baby-bundt",
+      "name": "Confetti Baby Bundt",
+      "category": "For a Limited Time Only!",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-salted-brown-butter-crispy-bar",
+      "name": "Salted Brown Butter Crispy Bar",
+      "category": "For a Limited Time Only!",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-pecan-chocolate-chunk-bar",
+      "name": "Pecan Chocolate Chunk Bar",
+      "category": "For a Limited Time Only!",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-morning-rush",
+      "name": "Morning Rush",
+      "category": "Breakfast Bakery",
+      "price_cents": 599,
+      "price_low_cents": 599,
+      "price_high_cents": 599,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-muffins",
+      "name": "Muffins",
+      "category": "Breakfast Bakery",
+      "price_cents": 379,
+      "price_low_cents": 379,
+      "price_high_cents": 3809,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bagels",
+      "name": "Bagels",
+      "category": "Breakfast Bakery",
+      "price_cents": 259,
+      "price_low_cents": 259,
+      "price_high_cents": 259,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chocolate-croissant",
+      "name": "Chocolate Croissant",
+      "category": "Breakfast Bakery",
+      "price_cents": 429,
+      "price_low_cents": 429,
+      "price_high_cents": 429,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cinnamon-roll",
+      "name": "Cinnamon Roll",
+      "category": "Breakfast Bakery",
+      "price_cents": 429,
+      "price_low_cents": 429,
+      "price_high_cents": 429,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-round-croissant",
+      "name": "Round Croissant",
+      "category": "Breakfast Bakery",
+      "price_cents": 369,
+      "price_low_cents": 369,
+      "price_high_cents": 369,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-morning-rush",
+      "name": "Morning Rush",
+      "category": "Morning Favorites",
+      "price_cents": 599,
+      "price_low_cents": 599,
+      "price_high_cents": 599,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-anaheim-scrambler",
+      "name": "Anaheim Scrambler",
+      "category": "Morning Favorites",
+      "price_cents": 1099,
+      "price_low_cents": 1099,
+      "price_high_cents": 1099,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-all-american-scrambler",
+      "name": "All American Scrambler",
+      "category": "Morning Favorites",
+      "price_cents": 1029,
+      "price_low_cents": 1029,
+      "price_high_cents": 1029,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-buttermilk-pancakes",
+      "name": "Buttermilk Pancakes",
+      "category": "Morning Favorites",
+      "price_cents": 899,
+      "price_low_cents": 899,
+      "price_high_cents": 899,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-turkey-on-croissant",
+      "name": "Turkey on Croissant",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 799,
+      "price_low_cents": 799,
+      "price_high_cents": 799,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-ham-on-croissant",
+      "name": "Ham on Croissant",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 799,
+      "price_low_cents": 799,
+      "price_high_cents": 799,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bblt-egg-sandwich",
+      "name": "BBLT & Egg Sandwich",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 1039,
+      "price_low_cents": 1039,
+      "price_high_cents": 1039,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bacon-cheddar-panini",
+      "name": "Bacon & Cheddar Panini",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 839,
+      "price_low_cents": 839,
+      "price_high_cents": 839,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-anaheim-panini",
+      "name": "Anaheim Panini",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 839,
+      "price_low_cents": 839,
+      "price_high_cents": 839,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bacon-egg-croissant",
+      "name": "Bacon & Egg Croissant",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 899,
+      "price_low_cents": 899,
+      "price_high_cents": 899,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-avocado-spinach-breakfast-wrap-v",
+      "name": "Avocado & Spinach Breakfast Wrap (V)",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 729,
+      "price_low_cents": 729,
+      "price_high_cents": 729,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bacon-egg-cheddar-breakfast-wrap",
+      "name": "Bacon, Egg & Cheddar Breakfast Wrap",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 849,
+      "price_low_cents": 849,
+      "price_high_cents": 849,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-sausage-egg-cheddar-breakfast-wrap",
+      "name": "Sausage, Egg & Cheddar Breakfast Wrap",
+      "category": "Breakfast Sandwiches",
+      "price_cents": 849,
+      "price_low_cents": 849,
+      "price_high_cents": 849,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-honey-banana-parfait",
+      "name": "Honey Banana Parfait",
+      "category": "Oatmeals & Yogurt",
+      "price_cents": 689,
+      "price_low_cents": 689,
+      "price_high_cents": 689,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-fresh-berry-yogurt-parfait",
+      "name": "Fresh Berry & Yogurt Parfait",
+      "category": "Oatmeals & Yogurt",
+      "price_cents": 689,
+      "price_low_cents": 689,
+      "price_high_cents": 689,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-steel-cut-oatmeal",
+      "name": "Steel-Cut Oatmeal",
+      "category": "Oatmeals & Yogurt",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 619,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-apple-banana-overnight-oats",
+      "name": "Apple & Banana Overnight Oats",
+      "category": "Oatmeals & Yogurt",
+      "price_cents": 699,
+      "price_low_cents": 699,
+      "price_high_cents": 699,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-berry-almond-overnight-oats",
+      "name": "Berry & Almond Overnight Oats",
+      "category": "Oatmeals & Yogurt",
+      "price_cents": 909,
+      "price_low_cents": 909,
+      "price_high_cents": 909,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-side-of-bacon",
+      "name": "Side of Bacon",
+      "category": "Breakfast Sides",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 399,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-side-of-eggs",
+      "name": "Side of Eggs",
+      "category": "Breakfast Sides",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 399,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-side-of-buttermilk-pancakes",
+      "name": " Side of Buttermilk Pancakes",
+      "category": "Breakfast Sides",
+      "price_cents": 519,
+      "price_low_cents": 519,
+      "price_high_cents": 519,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-side-fruit-medley",
+      "name": "Side Fruit Medley",
+      "category": "Breakfast Sides",
+      "price_cents": 369,
+      "price_low_cents": 369,
+      "price_high_cents": 369,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-side-chicken-apple-sausage",
+      "name": "Side Chicken Apple Sausage",
+      "category": "Breakfast Sides",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 399,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-side-of-toast",
+      "name": "Side of Toast",
+      "category": "Breakfast Sides",
+      "price_cents": 79,
+      "price_low_cents": 79,
+      "price_high_cents": 79,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-choose-two",
+      "name": "Choose Two",
+      "category": "Choose Any Two",
+      "price_cents": 1229,
+      "price_low_cents": 1229,
+      "price_high_cents": 1229,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-family-meals",
+      "name": "Family Meals",
+      "category": "Family Meal",
+      "price_cents": 4079,
+      "price_low_cents": 4079,
+      "price_high_cents": 4079,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-turkey-avocado-cobb",
+      "name": "Turkey Avocado Cobb",
+      "category": "Fresh Salads",
+      "price_cents": 1009,
+      "price_low_cents": 1009,
+      "price_high_cents": 1279,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chopped",
+      "name": "Chopped",
+      "category": "Fresh Salads",
+      "price_cents": 1009,
+      "price_low_cents": 1009,
+      "price_high_cents": 1219,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-harvest",
+      "name": "Harvest",
+      "category": "Fresh Salads",
+      "price_cents": 989,
+      "price_low_cents": 989,
+      "price_high_cents": 1199,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-caesar",
+      "name": "Caesar",
+      "category": "Fresh Salads",
+      "price_cents": 759,
+      "price_low_cents": 759,
+      "price_high_cents": 929,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-mixed-greens",
+      "name": "Mixed Greens",
+      "category": "Fresh Salads",
+      "price_cents": 599,
+      "price_low_cents": 599,
+      "price_high_cents": 749,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-the-trio-limited-time",
+      "name": "The Trio - Limited Time!",
+      "category": "Fresh Salads",
+      "price_cents": 1099,
+      "price_low_cents": 1099,
+      "price_high_cents": 1099,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-dc-chicken-salad-on-croissant",
+      "name": "DC Chicken Salad on Croissant",
+      "category": "Signature Sandwiches",
+      "price_cents": 999,
+      "price_low_cents": 999,
+      "price_high_cents": 999,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-ham-on-pretzel",
+      "name": "Ham on Pretzel ",
+      "category": "Signature Sandwiches",
+      "price_cents": 1199,
+      "price_low_cents": 1199,
+      "price_high_cents": 1199,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-turkey-on-pretzel",
+      "name": "Turkey on Pretzel",
+      "category": "Signature Sandwiches",
+      "price_cents": 1199,
+      "price_low_cents": 1199,
+      "price_high_cents": 1199,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-crispy-cheddar-beef",
+      "name": "Crispy Cheddar Beef",
+      "category": "Signature Sandwiches",
+      "price_cents": 1299,
+      "price_low_cents": 1299,
+      "price_high_cents": 1299,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-uptown-turkey-avocado",
+      "name": "Uptown Turkey Avocado",
+      "category": "Signature Sandwiches",
+      "price_cents": 1139,
+      "price_low_cents": 1139,
+      "price_high_cents": 1139,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chicken-pesto",
+      "name": "Chicken Pesto",
+      "category": "Signature Sandwiches",
+      "price_cents": 1119,
+      "price_low_cents": 1119,
+      "price_high_cents": 1119,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-albacore-tuna-salad-sandwich",
+      "name": "Albacore Tuna Salad Sandwich",
+      "category": "Signature Sandwiches",
+      "price_cents": 929,
+      "price_low_cents": 929,
+      "price_high_cents": 929,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-tomato-mozzarella",
+      "name": "Tomato Mozzarella",
+      "category": "Signature Sandwiches",
+      "price_cents": 1029,
+      "price_low_cents": 1029,
+      "price_high_cents": 1029,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bblt",
+      "name": "BBLT",
+      "category": "Signature Sandwiches",
+      "price_cents": 1079,
+      "price_low_cents": 1079,
+      "price_high_cents": 1079,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-shrimp-scampi-linguine",
+      "name": "Shrimp Scampi Linguine",
+      "category": "Handcrafted Pastas",
+      "price_cents": 1089,
+      "price_low_cents": 1089,
+      "price_high_cents": 1289,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chicken-rosa-pasta",
+      "name": "Chicken Rosa Pasta",
+      "category": "Handcrafted Pastas",
+      "price_cents": 1049,
+      "price_low_cents": 1049,
+      "price_high_cents": 1249,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-pesto-cavatappi",
+      "name": "Pesto Cavatappi",
+      "category": "Handcrafted Pastas",
+      "price_cents": 1029,
+      "price_low_cents": 1029,
+      "price_high_cents": 1239,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chicken-carbonara",
+      "name": "Chicken Carbonara",
+      "category": "Handcrafted Pastas",
+      "price_cents": 1039,
+      "price_low_cents": 1039,
+      "price_high_cents": 1249,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-mac-cheese",
+      "name": "Mac & Cheese",
+      "category": "Handcrafted Pastas",
+      "price_cents": 849,
+      "price_low_cents": 849,
+      "price_high_cents": 1009,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bacon-tomato-mac-cheese",
+      "name": "Bacon Tomato Mac & Cheese",
+      "category": "Handcrafted Pastas",
+      "price_cents": 949,
+      "price_low_cents": 949,
+      "price_high_cents": 1149,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-side-of-toasted-garlic-bread",
+      "name": "Side of Toasted Garlic Bread",
+      "category": "Handcrafted Pastas",
+      "price_cents": 79,
+      "price_low_cents": 79,
+      "price_high_cents": 79,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-green-chile-chicken-panini",
+      "name": "Green Chile Chicken Panini ",
+      "category": "Paninis & Hot Sandwiches",
+      "price_cents": 1109,
+      "price_low_cents": 1109,
+      "price_high_cents": 1109,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chicken-pomodori",
+      "name": "Chicken Pomodori",
+      "category": "Paninis & Hot Sandwiches",
+      "price_cents": 1119,
+      "price_low_cents": 1119,
+      "price_high_cents": 1119,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-club",
+      "name": "Club",
+      "category": "Paninis & Hot Sandwiches",
+      "price_cents": 1119,
+      "price_low_cents": 1119,
+      "price_high_cents": 1119,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-rustic-italian",
+      "name": "Rustic Italian",
+      "category": "Paninis & Hot Sandwiches",
+      "price_cents": 1119,
+      "price_low_cents": 1119,
+      "price_high_cents": 1119,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-classic-grilled-cheese-limited-time",
+      "name": "Classic Grilled Cheese - Limited Time!",
+      "category": "Paninis & Hot Sandwiches",
+      "price_cents": 929,
+      "price_low_cents": 929,
+      "price_high_cents": 929,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-tomato-bacon-grilled-cheese-limited-time",
+      "name": "Tomato Bacon Grilled Cheese - Limited Time!",
+      "category": "Paninis & Hot Sandwiches",
+      "price_cents": 1029,
+      "price_low_cents": 1029,
+      "price_high_cents": 1029,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-homestyle-chicken-noodle-soup",
+      "name": "Homestyle Chicken Noodle Soup",
+      "category": "Soups",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 739,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-roasted-tomato-basil-soup-v",
+      "name": "Roasted Tomato Basil Soup - (V)",
+      "category": "Soups",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 739,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cheddar-broccoli-soup-v",
+      "name": "Cheddar Broccoli Soup (V)",
+      "category": "Soups",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 739,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-loaded-baked-potato-soup",
+      "name": "Loaded Baked Potato Soup",
+      "category": "Soups",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 739,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-signature-sides",
+      "name": "Signature Sides",
+      "category": "Lunch Sides",
+      "price_cents": 99,
+      "price_low_cents": 99,
+      "price_high_cents": 499,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-the-trio",
+      "name": "The Trio",
+      "category": "Lunch Sides",
+      "price_cents": 1099,
+      "price_low_cents": 1099,
+      "price_high_cents": 1099,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-hand-roasted-coffee",
+      "name": "Hand-Roasted Coffee",
+      "category": "Drinks",
+      "price_cents": 299,
+      "price_low_cents": 299,
+      "price_high_cents": 349,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-hand-roasted-coffee-group-size",
+      "name": "Hand-Roasted Coffee (Group Size)",
+      "category": "Drinks",
+      "price_cents": 1949,
+      "price_low_cents": 1949,
+      "price_high_cents": 1949,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-arnold-palmer",
+      "name": "Arnold Palmer",
+      "category": "Drinks",
+      "price_cents": 369,
+      "price_low_cents": 369,
+      "price_high_cents": 429,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-old-fashioned-lemonade",
+      "name": "Old-Fashioned Lemonade",
+      "category": "Drinks",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 499,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-fountain-soda",
+      "name": "Fountain Soda",
+      "category": "Drinks",
+      "price_cents": 319,
+      "price_low_cents": 319,
+      "price_high_cents": 369,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bottled-orange-juice",
+      "name": "Bottled Orange Juice",
+      "category": "Drinks",
+      "price_cents": 389,
+      "price_low_cents": 389,
+      "price_high_cents": 389,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-bottled-water",
+      "name": "Bottled Water",
+      "category": "Drinks",
+      "price_cents": 269,
+      "price_low_cents": 269,
+      "price_high_cents": 269,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-kids-breakfast",
+      "name": "Kids Breakfast",
+      "category": "Kids",
+      "price_cents": 599,
+      "price_low_cents": 599,
+      "price_high_cents": 599,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-kids-combo",
+      "name": "Kids Combo",
+      "category": "Kids",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 619,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-kids-pasta",
+      "name": "Kids Pasta",
+      "category": "Kids",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 619,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-kids-sandwich",
+      "name": "Kids Sandwich",
+      "category": "Kids",
+      "price_cents": 619,
+      "price_low_cents": 619,
+      "price_high_cents": 619,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-red-velvet-baby-bundt",
+      "name": "Red Velvet Baby Bundt",
+      "category": "Bakery",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-fudge-brownie",
+      "name": "Fudge Brownie",
+      "category": "Bakery",
+      "price_cents": 449,
+      "price_low_cents": 449,
+      "price_high_cents": 449,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-sweet-tangy-lemon-bar",
+      "name": "Sweet & Tangy Lemon Bar",
+      "category": "Bakery",
+      "price_cents": 449,
+      "price_low_cents": 449,
+      "price_high_cents": 449,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chocolate-baby-bundt-cake",
+      "name": "Chocolate Baby Bundt Cake",
+      "category": "Bakery",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-confetti-baby-bundt",
+      "name": "Confetti Baby Bundt",
+      "category": "Bakery",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-lemon-baby-bundt",
+      "name": "Lemon Baby Bundt",
+      "category": "Bakery",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chocolate-chip-cookie",
+      "name": "Chocolate Chip Cookie",
+      "category": "Bakery",
+      "price_cents": 269,
+      "price_low_cents": 269,
+      "price_high_cents": 269,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-monster-cookie",
+      "name": "Monster Cookie",
+      "category": "Bakery",
+      "price_cents": 269,
+      "price_low_cents": 269,
+      "price_high_cents": 269,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-sugar-cookie",
+      "name": "Sugar Cookie",
+      "category": "Bakery",
+      "price_cents": 269,
+      "price_low_cents": 269,
+      "price_high_cents": 269,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-oatmeal-raisin-cookie",
+      "name": "Oatmeal Raisin Cookie",
+      "category": "Bakery",
+      "price_cents": 269,
+      "price_low_cents": 269,
+      "price_high_cents": 269,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-english-toffee-cookie",
+      "name": "English Toffee Cookie",
+      "category": "Bakery",
+      "price_cents": 269,
+      "price_low_cents": 269,
+      "price_high_cents": 269,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cinnamon-creme-cake-slice",
+      "name": "Cinnamon Creme Cake Slice",
+      "category": "Bakery",
+      "price_cents": 459,
+      "price_low_cents": 459,
+      "price_high_cents": 459,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cinnamon-creme-cake",
+      "name": "Cinnamon Creme Cake",
+      "category": "Bakery",
+      "price_cents": 2199,
+      "price_low_cents": 2199,
+      "price_high_cents": 2199,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-1-2-cinnamon-creme-cake",
+      "name": "1/2 Cinnamon Creme Cake",
+      "category": "Bakery",
+      "price_cents": 1499,
+      "price_low_cents": 1499,
+      "price_high_cents": 1499,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-mix-match-sweets",
+      "name": "Mix & Match Sweets",
+      "category": "Bakery",
+      "price_cents": 2649,
+      "price_low_cents": 2649,
+      "price_high_cents": 3699,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-individual-sweet-crisp",
+      "name": "Individual Sweet Crisp",
+      "category": "Bakery",
+      "price_cents": 119,
+      "price_low_cents": 119,
+      "price_high_cents": 119,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-salted-brown-butter-crispy-bar",
+      "name": "Salted Brown Butter Crispy Bar",
+      "category": "Bakery",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-pecan-chocolate-chunk-bar",
+      "name": "Pecan Chocolate Chunk Bar",
+      "category": "Bakery",
+      "price_cents": 469,
+      "price_low_cents": 469,
+      "price_high_cents": 469,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-sweet-crisps-9",
+      "name": "Sweet Crisps (9)",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 829,
+      "price_low_cents": 829,
+      "price_high_cents": 829,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-chocolate-chip-cookie-bites-18",
+      "name": "Chocolate Chip Cookie Bites (18)",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 699,
+      "price_low_cents": 699,
+      "price_high_cents": 699,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-monster-cookie-bites-18",
+      "name": "Monster Cookie Bites (18)",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 799,
+      "price_low_cents": 799,
+      "price_high_cents": 799,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-sugar-cookie-bites-18",
+      "name": "Sugar Cookie Bites (18)",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 599,
+      "price_low_cents": 599,
+      "price_high_cents": 599,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-toffee-cookie-bites-18",
+      "name": "Toffee Cookie Bites (18)",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 599,
+      "price_low_cents": 599,
+      "price_high_cents": 599,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-spicy-croutons",
+      "name": "Spicy Croutons",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 499,
+      "price_low_cents": 499,
+      "price_high_cents": 499,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-harvest-croutons",
+      "name": "Harvest Croutons",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 549,
+      "price_low_cents": 549,
+      "price_high_cents": 549,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cinnamon-creme-cake",
+      "name": "Cinnamon Creme Cake",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 2199,
+      "price_low_cents": 2199,
+      "price_high_cents": 2199,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-1-2-cinnamon-creme-cake",
+      "name": "1/2 Cinnamon Creme Cake",
+      "category": "Packaged Sweets and Gifts",
+      "price_cents": 1499,
+      "price_low_cents": 1499,
+      "price_high_cents": 1499,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cappuccino",
+      "name": "Cappuccino",
+      "category": "Drinks",
+      "price_cents": 399,
+      "price_low_cents": 399,
+      "price_high_cents": 499,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-cafe-latte",
+      "name": "Cafe Latte",
+      "category": "Drinks",
+      "price_cents": 439,
+      "price_low_cents": 439,
+      "price_high_cents": 529,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-caramel-macchiato",
+      "name": "Caramel Macchiato",
+      "category": "Drinks",
+      "price_cents": 479,
+      "price_low_cents": 479,
+      "price_high_cents": 579,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-truffle-mocha-latte",
+      "name": "Truffle Mocha Latte",
+      "category": "Drinks",
+      "price_cents": 489,
+      "price_low_cents": 489,
+      "price_high_cents": 599,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "cb-americano",
+      "name": "Americano",
+      "category": "Drinks",
+      "price_cents": 299,
+      "price_low_cents": 299,
+      "price_high_cents": 399,
+      "available": true,
+      "raw": {
+        "description": ""
+      },
+      "modifiers": []
+    }
+  ]
+}

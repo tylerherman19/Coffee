@@ -1,0 +1,51 @@
+{
+  "platform": "html-menu",
+  "source_url": "https://cafebenelux.com/lux-domes (captured via cloud browser; seasonal rooftop dome experience at Cafe Benelux)",
+  "shops": [
+    {
+      "id": 56,
+      "slug": null
+    }
+  ],
+  "items": [
+    {
+      "platform_item_id": "lux-dome-reservation",
+      "name": "Lux Dome Reservation",
+      "category": "Experience",
+      "price_cents": 7500,
+      "price_low_cents": 7500,
+      "price_high_cents": 10000,
+      "available": true,
+      "raw": {
+        "description": "Mon-Wed $75, Thu-Sun $100. 90-minute private heated rooftop dome for up to 8 guests, includes two complimentary 4-person beverage packages and keepsake camp mugs."
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "lux-bev-package-premium",
+      "name": "Beverage Package (additional, premium)",
+      "category": "Beverage Packages",
+      "price_cents": 5500,
+      "price_low_cents": 5500,
+      "price_high_cents": 5500,
+      "available": true,
+      "raw": {
+        "description": "Martini-tree and Old Fashioned packages added beyond the two included: +$55 each; +$20 when swapped into the included two."
+      },
+      "modifiers": []
+    },
+    {
+      "platform_item_id": "lux-bev-package-standard",
+      "name": "Beverage Package (additional, standard)",
+      "category": "Beverage Packages",
+      "price_cents": 2500,
+      "price_low_cents": 2500,
+      "price_high_cents": 3000,
+      "available": true,
+      "raw": {
+        "description": "Sangria and mule packages +$25; hot cocoa and mimosa packages +$30 when added beyond the two included."
+      },
+      "modifiers": []
+    }
+  ]
+}
