@@ -1,0 +1,452 @@
+{
+ "platform": "html-menu",
+ "source_url": "https://pilcrowcoffee.com/pages/the-tasting-room",
+ "shops": [
+  {
+   "id": 100,
+   "slug": null
+  }
+ ],
+ "items": [
+  {
+   "platform_item_id": null,
+   "name": "Storyteller Espresso",
+   "category": "Espresso Bar",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Single Origin Espresso",
+   "category": "Espresso Bar",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Macchiato",
+   "category": "Espresso Bar",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cortado",
+   "category": "Espresso Bar",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 350,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cappuccino",
+   "category": "Espresso Bar",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 400,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Americano",
+   "category": "Espresso Bar",
+   "price_cents": 325,
+   "price_low_cents": 325,
+   "price_high_cents": 425,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Latte",
+   "category": "Espresso Bar",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mocha",
+   "category": "Flavored Lattes",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Sweet Latte",
+   "category": "Flavored Lattes",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Almond Cookie Latte",
+   "category": "Flavored Lattes",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Vanilla Bean Latte",
+   "category": "Flavored Lattes",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Salted Caramel Latte",
+   "category": "Flavored Lattes",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Lavender Latte",
+   "category": "Flavored Lattes",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cinnamon Latte",
+   "category": "Flavored Lattes",
+   "price_cents": 500,
+   "price_low_cents": 500,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Storyteller Cold Brew",
+   "category": "Nitro Tap",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 475,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cold Fashioned",
+   "category": "Nitro Tap",
+   "price_cents": 550,
+   "price_low_cents": 550,
+   "price_high_cents": 650,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Sweet & Creamy",
+   "category": "Creamy Cold Brew",
+   "price_cents": 475,
+   "price_low_cents": 475,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Almond Cookie Creamy",
+   "category": "Creamy Cold Brew",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Vanilla Bean Creamy",
+   "category": "Creamy Cold Brew",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Mocha Creamy",
+   "category": "Creamy Cold Brew",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Salted Caramel Creamy",
+   "category": "Creamy Cold Brew",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Lavender Creamy",
+   "category": "Creamy Cold Brew",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cinnamon Creamy",
+   "category": "Creamy Cold Brew",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 625,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Storyteller Drip",
+   "category": "Hot Coffee",
+   "price_cents": 250,
+   "price_low_cents": 250,
+   "price_high_cents": 300,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Coffee OTD Drip",
+   "category": "Hot Coffee",
+   "price_cents": 275,
+   "price_low_cents": 275,
+   "price_high_cents": 325,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Hot Chocolate",
+   "category": "Not Coffee",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Steamer",
+   "category": "Not Coffee",
+   "price_cents": 350,
+   "price_low_cents": 350,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Flavored Iced Milk",
+   "category": "Not Coffee",
+   "price_cents": 425,
+   "price_low_cents": 425,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Brewed Rishi Tea",
+   "category": "Tea",
+   "price_cents": 300,
+   "price_low_cents": 300,
+   "price_high_cents": 500,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Chai Latte",
+   "category": "Tea Lattes",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Matcha Latte",
+   "category": "Tea Lattes",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "London Fog",
+   "category": "Tea Lattes",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Lavender Fog",
+   "category": "Tea Lattes",
+   "price_cents": 400,
+   "price_low_cents": 400,
+   "price_high_cents": 525,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cold Brew Flight (Full)",
+   "category": "Specials",
+   "price_cents": 1600,
+   "price_low_cents": 1600,
+   "price_high_cents": 1600,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cold Brew (12oz)",
+   "category": "Specials",
+   "price_cents": 600,
+   "price_low_cents": 600,
+   "price_high_cents": 600,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Cold Brew (16oz)",
+   "category": "Specials",
+   "price_cents": 675,
+   "price_low_cents": 675,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Pumpkin Spice",
+   "category": "Specials",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Caramel Apple Matcha Latte",
+   "category": "Specials",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Oatmeal Raisin Cookie Latte",
+   "category": "Specials",
+   "price_cents": 525,
+   "price_low_cents": 525,
+   "price_high_cents": 675,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  },
+  {
+   "platform_item_id": null,
+   "name": "Salted Maple and Oak",
+   "category": "Specials",
+   "price_cents": 1100,
+   "price_low_cents": 1100,
+   "price_high_cents": 1100,
+   "available": true,
+   "raw": {},
+   "modifiers": []
+  }
+ ]
+}
