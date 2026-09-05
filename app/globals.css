@@ -172,7 +172,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .you-marker, .pyou { background: var(--accent); border-radius: 50%; box-shadow: 0 0 0 4px rgba(180, 85, 47, .28); }
 .leaflet-container { font-family: var(--font-mono), monospace; background: #EADCC8; }
 .leaflet-bar, .leaflet-bar a { border-radius: 0 !important; border-color: var(--ink) !important; color: var(--ink) !important; }
-.leaflet-popup-content-wrapper, .leaflet-popup-tip { border-radius: 0 !important; box-shadow: none !important; background: var(--ink); color: var(--masthead-fg); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { border-radius: 0 !important; box-shadow: none !important; background: var(--ink) !important; color: var(--masthead-fg) !important; }
 .leaflet-popup-content { margin: 13px 15px !important; }
 .leaflet-popup-close-button { color: var(--masthead-muted) !important; }
 .leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 80%, transparent) !important; color: var(--muted) !important; font-size: 10px !important; }
