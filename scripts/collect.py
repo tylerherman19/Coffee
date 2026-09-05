@@ -1057,7 +1057,7 @@ def main() -> None:
     # still be found in a platform's location directory, which is the only way
     # the third of the metro that publishes nothing of its own gets priced.
     candidates = [shop for shop in shops if shop.get("website") or (shop.get("lat") and shop.get("lng"))]
-    if os.environ.get("MISSING_ONLY") == "1":
+    if os.environ.get("MISSING_ONLY") in ("1", "true"):
         # Only shops with nothing priced yet. The nightly run stays a full
         # re-check; this mode answers "what does a new platform add?" without
         # re-reading every menu that is already on file.
