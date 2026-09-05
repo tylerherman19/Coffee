@@ -1,0 +1,69 @@
+name: Collect platform menus
+
+on:
+  workflow_dispatch:
+    inputs:
+      metro:
+        description: 'Limit to one metro'
+        required: false
+        type: choice
+        default: 'both'
+        options:
+          - both
+          - milwaukee
+          - twin_cities
+      platform:
+        description: 'Limit to one ordering platform (toast, square, spoton, incentivio, kyoo)'
+        required: false
+        default: ''
+      shop_id:
+        description: 'Single shop id to collect (overrides the unpriced-shop filter)'
+        required: false
+        default: ''
+      limit:
+        description: 'Stop after this many shops (0 = no limit)'
+        required: false
+        default: '0'
+      all:
+        description: 'Collect every shop, not just the unpriced and stale ones'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Collect and report without writing to Supabase'
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    # Weekly, after a daily collection has settled. The platform readers are
+    # slower than the daily pass (a Toast directory sweep per metro), so they
+    # run on their own schedule rather than inside it.
+    - cron: '30 4 * * 1'
+
+concurrency:
+  group: coffee-price-collection
+  cancel-in-progress: false
+
+jobs:
+  menus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Collect menus for unpriced shops
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: |
+          python scripts/collect_menus.py \
+            ${{ (inputs.metro != 'both' && inputs.metro != '') && format('--metro {0}', inputs.metro) || '' }} \
+            ${{ inputs.platform && format('--platform {0}', inputs.platform) || '' }} \
+            ${{ inputs.shop_id && format('--shop-id {0}', inputs.shop_id) || '' }} \
+            ${{ (inputs.limit != '' && inputs.limit != '0') && format('--limit {0}', inputs.limit) || '' }} \
+            ${{ inputs.all && '--all' || '' }} \
+            ${{ inputs.dry_run && '--dry-run' || '' }}

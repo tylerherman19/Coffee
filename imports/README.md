@@ -4,6 +4,12 @@ Used for menus the collector cannot read itself: a shop on an ordering
 platform with no reachable catalogue (ChowNow answers 403 to the runner), a
 PDF-only menu, or a chain whose prices are not published per location.
 
+Toast, SpotOn, Incentivio and Kyoo bundles are no longer captured by hand -
+`scripts/menu_sources.py` reads all four through their own public APIs, and
+`python scripts/collect_menus.py --url <ordering url> --emit imports/<name>.json`
+writes a bundle in this schema straight from one of them when a menu is worth
+freezing rather than re-collecting.
+
 Each `imports/<name>.json` is one manually captured menu bundle, imported into
 Supabase by the **Import staged menu** workflow (`.github/workflows/import.yml`,
 workflow_dispatch, input: path to the bundle). The importer

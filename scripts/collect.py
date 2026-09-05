@@ -32,7 +32,8 @@ METROS = {
     # metro: Plymouth, Wayzata, Minnetonka and the Lake Minnetonka towns.
     "twin_cities": (44.85, -93.65, 45.10, -92.98),
 }
-DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toasttab.com", "order.spoton.com", "chownow.com")
+DIRECT_HOSTS = ("square.site", "squareup.com", "square.link", "toast.app", "toasttab.com",
+                "order.spoton.com", "chownow.com", "order.incentivio.com", "kyoo.tech")
 # Delivery marketplaces, whose prices are marked up over the shop's own menu.
 # ChowNow is not one of them: it is white-label ordering that bills the shop,
 # not a marketplace with its own fleet and its own prices, so it belongs in
@@ -164,6 +165,10 @@ def platform_of(url: str) -> str | None:
         return "spoton"
     if "chownow.com" in host:
         return "chownow"
+    if "order.incentivio.com" in host:
+        return "incentivio"
+    if "kyoo.tech" in host:
+        return "kyoo"
     return None
 
 
@@ -185,7 +190,8 @@ def rank_candidate(url: str) -> int:
 # blob at least as often as in an <a href>, so the anchor scan alone missed
 # most of them. This finds a platform URL anywhere in the markup.
 EMBEDDED_URL = re.compile(
-    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|order\.spoton\.com|chownow\.com)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
+    r"https?://[A-Za-z0-9._~%-]*(?:square\.site|squareup\.com|square\.link|toasttab\.com|toast\.app|"
+    r"order\.spoton\.com|chownow\.com|order\.incentivio\.com|kyoo\.tech)[A-Za-z0-9._~%!$&'()*+,;=:@/?#-]*",
     re.I,
 )
 
@@ -726,31 +732,51 @@ def site_menu_rows(html: str) -> list[tuple[str, list[tuple[int, str]]]]:
             if parts and is_item_name(name) and not SITE_JUNK.search(text) and not SITE_JUNK.search(name)]
 
 
-def site_pages(website: str, limit: int = 4) -> list[tuple[str, str]]:
-    """The homepage plus a few same-domain menu-ish pages, as (url, html)."""
+def menu_links(html: str, base: str, seen: set[str]) -> list[str]:
+    """Unvisited same-domain links whose text or path suggests a menu."""
+    found = []
+    for anchor in BeautifulSoup(html, "html.parser").find_all("a", href=True):
+        href = urljoin(base, anchor.get("href")).split("#")[0]
+        # A PDF menu is common and unreadable here; fetching it wastes the budget
+        # of pages on a shop that may also have an HTML one.
+        if urlparse(href).netloc != urlparse(base).netloc or href.lower().split("?")[0].endswith(".pdf"):
+            continue
+        if not SITE_MENU_LINK.search(f"{anchor.get_text(' ', strip=True)} {href}"):
+            continue
+        if href.rstrip("/") in seen:
+            continue
+        seen.add(href.rstrip("/"))
+        found.append(href)
+    return found
+
+
+def site_pages(website: str, limit: int = 6, depth: int = 2) -> list[tuple[str, str]]:
+    """The homepage plus a few same-domain menu-ish pages, as (url, html).
+
+    Crawled two levels rather than one: a shop with more than one cafe puts its
+    menus behind a locations page, so the menu itself is never linked from the
+    homepage. Brim's two cafe menus and The Lobby's drinks page are both a level
+    below the link the homepage offers.
+    """
     try:
         response = get(website)
     except Exception:
         return []
     pages = [(response.url, response.text)]
-    soup = BeautifulSoup(response.text, "html.parser")
     seen = {response.url.rstrip("/")}
-    for anchor in soup.find_all("a", href=True):
-        href = urljoin(response.url, anchor.get("href")).split("#")[0]
-        # A PDF menu is common and unreadable here; fetching it wastes the budget
-        # of pages on a shop that may also have an HTML one.
-        if urlparse(href).netloc != urlparse(response.url).netloc or href.lower().split("?")[0].endswith(".pdf"):
-            continue
-        if not SITE_MENU_LINK.search(f"{anchor.get_text(' ', strip=True)} {href}"):
-            continue
-        if href.rstrip("/") in seen or len(seen) > limit:
-            continue
-        seen.add(href.rstrip("/"))
-        try:
-            inner = get(href)
-        except Exception:
-            continue
-        pages.append((inner.url, inner.text))
+    frontier = menu_links(response.text, response.url, seen)
+    for _ in range(depth):
+        deeper: list[str] = []
+        for href in frontier:
+            if len(pages) > limit:
+                return pages
+            try:
+                inner = get(href)
+            except Exception:
+                continue
+            pages.append((inner.url, inner.text))
+            deeper.extend(menu_links(inner.text, inner.url, seen))
+        frontier = deeper
     return pages
 
 
@@ -893,23 +919,36 @@ def sync_shops(db: Supabase, discovered: list[dict[str, Any]]) -> list[dict[str,
 
 def resolve_source(shop: dict[str, Any]) -> tuple[str | None, str | None, str | None]:
     website = normalize_url(shop.get("website"))
-    if not website:
-        return None, None, None
-    platform, source, cached = direct_link(website)
+    platform = source = cached = None
+    if website:
+        platform, source, cached = direct_link(website)
     name = shop["name"].lower()
     if not source and "sip" in name and shop["metro"] == "twin_cities":
         return "square", "https://sipcoffeebar.square.site/s/order", None
     if not source and "mad rooster" in name and shop["metro"] == "milwaukee":
         return "toast", "https://toast.app/r/mad-rooster-milwaukee-4401-w-greenfield-ave/order/r-2faf7892-e26a-4085-b0e1-c1f8d3bb845b", None
+    if not source:
+        # Most shops never link their ordering page, and a third of them have no
+        # website at all, so the last resort is the platform's own location
+        # directory. menu_sources imports this module, so it is imported here
+        # rather than at the top.
+        from menu_sources import directory_source
+        match = directory_source(shop)
+        if match:
+            return match[0], match[1], None
     return platform, source, cached
 
 
 def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, str | None, list[MenuItem], tuple[float | None, int | None]]:
+    # menu_sources imports this module, so it is imported here rather than at
+    # the top.
+    import menu_sources
     platform, source, cached = resolve_source(shop)
     website = normalize_url(shop.get("website"))
     if not platform or not source:
-        # No ordering platform anywhere on the site. A few shops publish the
-        # menu itself as HTML, which is the only remaining way to price them.
+        # No ordering platform anywhere on the site or in the directories. A few
+        # shops publish the menu itself as HTML, the only remaining way to
+        # price them.
         if not website:
             return shop, None, None, [], (None, None)
         try:
@@ -931,20 +970,40 @@ def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, st
     try:
         if platform == "square":
             menu = extract_square(source, cached)
+        elif platform in menu_sources.EXTRACTORS:
+            # Toast, SpotOn, Incentivio and Kyoo render their menus from
+            # JavaScript or refuse a datacenter IP outright, so their prices
+            # come from the platform's own read API rather than the markup.
+            menu = menu_sources.extract(platform, source, shop=shop)
         else:
             menu = extract_html_menu(source, platform)
-        home_html = get(website or source).text
-        rating = extract_jsonld_rating(home_html)
-        return shop, platform, source, menu, rating
     except Exception as exc:
         print(f"Collection failed for {shop['name']}: {exc}", file=sys.stderr)
         return shop, platform, source, [], (None, None)
+    # The rating is a bonus and its page is often the one that refuses a
+    # datacenter IP, so it is fetched after the menu is safely in hand rather
+    # than inside the same try, where it would throw a collected menu away.
+    rating: tuple[float | None, int | None] = (None, None)
+    if website:
+        try:
+            rating = extract_jsonld_rating(get(website).text)
+        except Exception:
+            pass
+    return shop, platform, source, menu, rating
 
 
 def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: str | None, menu: list[MenuItem], rating: tuple[float | None, int | None]) -> None:
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     status = "collected" if menu else ("unsupported" if not platform else "empty")
-    db.patch("shops", f"id=eq.{shop['id']}", {"platform": platform, "last_checked_at": now, "scrape_status": status})
+    values = {"platform": platform, "last_checked_at": now, "scrape_status": status}
+    try:
+        db.patch("shops", f"id=eq.{shop['id']}", values)
+    except requests.HTTPError:
+        # shops.platform only accepts the ordering platforms the column knows
+        # about, and an unguarded patch would abort this shop's whole write
+        # over a label. import_menu.py retries the same way.
+        print(f"shop {shop['id']}: platform {platform!r} rejected; retrying without it", file=sys.stderr)
+        db.patch("shops", f"id=eq.{shop['id']}", {k: v for k, v in values.items() if k != "platform"})
     if rating[0] is not None:
         db.post("ratings", {"shop_id": shop["id"], "source": "website", "rating": rating[0], "review_count": rating[1], "observed_at": now})
     existing = get_all(db, "items", {"select": "*", "shop_id": f"eq.{shop['id']}"})
@@ -982,8 +1041,11 @@ def main() -> None:
     db = Supabase()
     all_discovered = [shop for metro in METROS for shop in discover(metro)]
     shops = sync_shops(db, all_discovered)
-    candidates = [shop for shop in shops if shop.get("website")]
-    print(f"Checking {len(candidates)} shop websites for supported direct menus")
+    # A shop with no website used to be skipped outright. Its ordering page can
+    # still be found in a platform's location directory, which is the only way
+    # the third of the metro that publishes nothing of its own gets priced.
+    candidates = [shop for shop in shops if shop.get("website") or (shop.get("lat") and shop.get("lng"))]
+    print(f"Checking {len(candidates)} shops for supported direct menus")
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         futures = [pool.submit(collect_source, shop) for shop in candidates]
         for index, future in enumerate(concurrent.futures.as_completed(futures), 1):

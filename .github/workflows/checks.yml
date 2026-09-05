@@ -33,3 +33,5 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Classifier regression cases
         run: python scripts/test_classify.py
+      - name: Platform menu reader cases
+        run: python scripts/test_menu_sources.py
