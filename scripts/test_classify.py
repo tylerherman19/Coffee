@@ -96,9 +96,11 @@ PLATFORM_CASES = [
     ("https://www.ubereats.com/store/ginkgo", None),
     ("https://www.grubhub.com/restaurant/cuppa-java", None),
     ("https://order.online/store/x", None),
-    ("https://www.clover.com/online-ordering/x", None),
     ("https://shop.square.site/s/order", "square"),
     ("https://order.toasttab.com/online/x", "toast"),
+    # Clover online ordering is white-label with the merchant's own prices:
+    # unblocked 2026-09-05 after retesting the public menu API.
+    ("https://www.clover.com/online-ordering/x", "clover"),
     ("https://order.spoton.com/x", "spoton"),
     ("https://example.com/menu", None),
 ]
