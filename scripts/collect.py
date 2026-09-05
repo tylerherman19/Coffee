@@ -1005,7 +1005,13 @@ def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: 
         print(f"shop {shop['id']}: platform {platform!r} rejected; retrying without it", file=sys.stderr)
         db.patch("shops", f"id=eq.{shop['id']}", {k: v for k, v in values.items() if k != "platform"})
     if rating[0] is not None:
-        db.post("ratings", {"shop_id": shop["id"], "source": "website", "rating": rating[0], "review_count": rating[1], "observed_at": now})
+        try:
+            db.post("ratings", {"shop_id": shop["id"], "source": "website", "rating": rating[0], "review_count": rating[1], "observed_at": now})
+        except requests.HTTPError as exc:
+            # A rejected rating row must not abort the shop's whole write -
+            # log the database's own reason and move on to the menu.
+            body = exc.response.text if exc.response is not None else str(exc)
+            print(f"shop {shop['id']}: rating post rejected ({exc.response.status_code if exc.response is not None else '?'}): {body}", file=sys.stderr)
     existing = get_all(db, "items", {"select": "*", "shop_id": f"eq.{shop['id']}"})
     by_platform = {item["platform_item_id"]: item for item in existing}
     seen: set[str] = set()
