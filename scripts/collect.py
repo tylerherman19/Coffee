@@ -1057,6 +1057,12 @@ def main() -> None:
     # still be found in a platform's location directory, which is the only way
     # the third of the metro that publishes nothing of its own gets priced.
     candidates = [shop for shop in shops if shop.get("website") or (shop.get("lat") and shop.get("lng"))]
+    if os.environ.get("MISSING_ONLY") == "1":
+        # Only shops with nothing priced yet. The nightly run stays a full
+        # re-check; this mode answers "what does a new platform add?" without
+        # re-reading every menu that is already on file.
+        priced = {row["shop_id"] for row in get_all(db, "items", {"select": "shop_id"})}
+        candidates = [shop for shop in candidates if shop["id"] not in priced]
     print(f"Checking {len(candidates)} shops for supported direct menus")
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         futures = [pool.submit(collect_source, shop) for shop in candidates]

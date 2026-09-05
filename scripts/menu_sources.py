@@ -526,6 +526,10 @@ def clover_slug(url: str) -> str | None:
 
 
 def extract_clover(slug: str) -> list[MenuItem]:
+    # Only an online-ordering slug resolves. Anything else the link scan
+    # surfaced - a checkout.clover.com SDK script tag, say - is not a menu.
+    if not slug or "/" in slug:
+        return []
     merchant = get(f"{CLOVER_API}/{slug}", params={"slug": "true"}).json()
     uuid = merchant.get("merchantUuid")
     if not uuid:
@@ -704,7 +708,7 @@ EXTRACTORS = {
     "spoton": lambda source, location, shop: extract_spoton(source),
     "incentivio": lambda source, location, shop: extract_incentivio(incentivio_slug(source) or source, location, shop),
     "kyoo": lambda source, location, shop: extract_kyoo(kyoo_merchant(source) or source, location, shop),
-    "clover": lambda source, location, shop: extract_clover(clover_slug(source) or source),
+    "clover": lambda source, location, shop: extract_clover(clover_slug(source) or ""),
 }
 
 
