@@ -1031,6 +1031,9 @@ def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: 
             db.patch("items", f"id=eq.{item['id']}", values)
         else:
             item = db.post("items", {**values, "shop_id": shop["id"], "platform_item_id": entry.platform_id})[0]
+            # Keep the map live: a menu that lists the same platform id twice
+            # must update the row just created, not insert a duplicate item.
+            by_platform[entry.platform_id] = item
         if item.get("current_price_cents") != entry.price_cents:
             db.post("observations", {"item_id": item["id"], "observed_at": now, "price_cents": entry.price_cents, "price_low_cents": entry.low_cents, "price_high_cents": entry.high_cents, "price_channel": "direct", "available": True, "source_url": source, "raw": entry.raw})
         else:
@@ -1039,11 +1042,29 @@ def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: 
         # the compare view's oat-milk maths needs these wherever they exist.
         choices = extract_modifiers(entry.raw)
         if choices:
-            prior = db.get("modifiers", {"select": "group_name,choice_name,price_delta_cents", "item_id": f"eq.{item['id']}", "order": "observed_at.desc", "limit": "500"})
+            # Read every stored row, not the first 500: a Toast menu can hang
+            # more choices than that off one item, and a truncated "latest"
+            # re-inserts rows the table already holds (409 Conflict).
+            prior = get_all(db, "modifiers", {"select": "group_name,choice_name,price_delta_cents", "item_id": f"eq.{item['id']}"})
             latest = {(row["group_name"], row["choice_name"], row["price_delta_cents"]) for row in prior}
             additions = [{"item_id": item["id"], "group_name": group, "choice_name": name, "price_delta_cents": cents, "observed_at": now} for group, name, cents in choices if (group, name, cents) not in latest]
             if additions:
-                db.post("modifiers", additions)
+                try:
+                    db.post("modifiers", additions)
+                except requests.HTTPError as exc:
+                    if exc.response is None or exc.response.status_code != 409:
+                        raise
+                    # One row the table's uniqueness rule already holds must
+                    # not sink the batch (or the run): retry row by row and
+                    # skip the conflicts. Same guard-and-continue idiom as the
+                    # shops patch above.
+                    for row in additions:
+                        try:
+                            db.post("modifiers", row)
+                        except requests.HTTPError as row_exc:
+                            if row_exc.response is None or row_exc.response.status_code != 409:
+                                raise
+                            print(f"shop {shop['id']}: modifier already on file, skipped: {row['group_name']} / {row['choice_name']}", file=sys.stderr)
     for item in existing:
         if item["platform_item_id"] not in seen and menu and not item.get("removed_at"):
             db.patch("items", f"id=eq.{item['id']}", {"removed_at": dt.date.today().isoformat()})
@@ -1068,7 +1089,13 @@ def main() -> None:
         futures = [pool.submit(collect_source, shop) for shop in candidates]
         for index, future in enumerate(concurrent.futures.as_completed(futures), 1):
             shop, platform, source, menu, rating = future.result()
-            save_menu(db, shop, platform, source, menu, rating)
+            try:
+                save_menu(db, shop, platform, source, menu, rating)
+            except Exception as exc:
+                # One shop's write failing must not abort the run: the other
+                # shops still get collected and the failure is visible in the log.
+                print(f"Saving failed for {shop['name']}: {exc}", file=sys.stderr)
+                continue
             if menu:
                 print(f"[{index}/{len(candidates)}] {shop['name']}: {len(menu)} items via {platform}")
     print("Collection complete")
