@@ -106,14 +106,23 @@ def discover(metro: str) -> list[dict[str, Any]]:
       nwr["shop"="coffee"]({south},{west},{north},{east});
       nwr["cuisine"="coffee_shop"]({south},{west},{north},{east});
     );out center tags;'''
+    # Mirrors fail in bursts (timeouts, 504s), so one pass over the list is
+    # not enough: a bad minute takes every mirror down with it. Three rounds
+    # with a pause between them rides out a transient blip instead of killing
+    # the whole run at discovery.
     payload = None
-    for endpoint in OVERPASS:
-        try:
-            payload = get(endpoint, params={"data": query}).json()
+    for attempt in range(3):
+        if attempt:
+            time.sleep(15)
+        for endpoint in OVERPASS:
+            try:
+                payload = get(endpoint, params={"data": query}).json()
+                break
+            except Exception as exc:
+                print(f"Overpass mirror failed: {endpoint}: {exc}", file=sys.stderr)
+                time.sleep(2)
+        if payload is not None:
             break
-        except Exception as exc:
-            print(f"Overpass mirror failed: {endpoint}: {exc}", file=sys.stderr)
-            time.sleep(2)
     if payload is None:
         raise RuntimeError(f"All Overpass mirrors failed for {metro}")
     shops: dict[str, dict[str, Any]] = {}
