@@ -34,3 +34,17 @@ test('optional ratings failure cannot take down the index; closed shops have no 
   };
   try { const data = await loadCoffeeData(); assert.equal(data.shops.length, 1); assert.equal(data.items.length, 1); } finally { globalThis.fetch = original; }
 });
+test('public data pagination includes rows past the API cap', async () => {
+  const original = globalThis.fetch;
+  globalThis.fetch = async (url, options) => {
+    if (String(url).includes('shops?')) {
+      const from = Number(options.headers.Range.split('-')[0]);
+      const shops = from === 0 ? Array.from({length: 1000}, (_, i) => ({id: i + 1, name: `Cafe ${i + 1}`})) : [{id: 1001, name: 'Last Cafe'}];
+      return Response.json(shops, {headers: {'content-range': `${from}-${from + shops.length - 1}/1001`}});
+    }
+    if (String(url).includes('items?')) return Response.json([{id: 1, shop_id: 1001}]);
+    if (String(url).includes('ratings?')) return Response.json([]);
+    return Response.json({subdistricts: {}});
+  };
+  try { const data = await loadCoffeeData(); assert.equal(data.shops.length, 1001); assert.equal(data.items[0].shop_id, 1001); } finally { globalThis.fetch = original; }
+});

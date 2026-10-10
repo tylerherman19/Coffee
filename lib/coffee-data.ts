@@ -29,8 +29,10 @@ async function fetchPage<T>(path: string, from: number): Promise<{ rows: T[]; to
       });
       if (!response.ok) throw new Error(`Coffee data request failed: ${response.status}`);
       const rows = (await response.json()) as T[];
+      if (!Array.isArray(rows)) throw new Error("Invalid coffee data response");
       const range = response.headers.get('content-range') || '';
-      const total = range.includes('/') && !range.endsWith('/*') ? Number(range.split('/')[1]) : null;
+      const count = range.includes('/') && !range.endsWith('/*') ? Number(range.split('/')[1]) : NaN;
+      const total = Number.isFinite(count) && count >= 0 ? count : null;
       return { rows, total };
     } catch (error) {
       lastError = error;
@@ -62,8 +64,8 @@ async function table<T>(path: string): Promise<T[]> {
 }
 export async function loadCoffeeData(): Promise<CoffeeData> {
   const [shopsRaw, items, ratings] = await Promise.all([
-    table<Omit<Shop, 'rating' | 'review_count'>>('shops?select=id,name,metro,address,neighborhood,lat,lng,website,platform,opening_hours&closed_at=is.null&order=name,id.asc'),
-    table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=name,id.asc'),
+    table<Omit<Shop, 'rating' | 'review_count'>>('shops?select=id,name,metro,address,neighborhood,lat,lng,website,platform,opening_hours&closed_at=is.null&order=id.asc'),
+    table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=id.asc'),
     table<{ shop_id: number; rating: number | null; review_count: number | null; observed_at: string }>('ratings?select=shop_id,rating,review_count,observed_at&order=observed_at.desc,shop_id.asc').catch(() => []),
   ]);
   // Fine-grained districts inside a neighborhood (e.g. Historic Third Ward
@@ -77,7 +79,7 @@ export async function loadCoffeeData(): Promise<CoffeeData> {
   const latestRating = new Map<number, { rating: number | null; review_count: number | null }>();
   for (const row of ratings) if (!latestRating.has(row.shop_id)) latestRating.set(row.shop_id, row);
   const hoodById = new Map(neighborhoodOverrides.updates.map(row => [row.id, row.neighborhood]));
-  const shops = shopsRaw.map((shop) => ({ ...shop, neighborhood: shop.neighborhood || hoodById.get(shop.id) || null, website: shop.website ? (/^https?:\/\//.test(shop.website) ? shop.website : `https://${shop.website}`) : null, subdistrict: subdistricts[String(shop.id)] ?? null, rating: latestRating.get(shop.id)?.rating ?? null, review_count: latestRating.get(shop.id)?.review_count ?? null }));
+  const shops = shopsRaw.sort((a, b) => a.name.localeCompare(b.name) || a.id - b.id).map((shop) => ({ ...shop, neighborhood: shop.neighborhood || hoodById.get(shop.id) || null, website: shop.website ? (/^https?:\/\//.test(shop.website) ? shop.website : `https://${shop.website}`) : null, subdistrict: subdistricts[String(shop.id)] ?? null, rating: latestRating.get(shop.id)?.rating ?? null, review_count: latestRating.get(shop.id)?.review_count ?? null }));
   const loadedAt = items.reduce<string | null>((latest, item) => !item.last_checked_at ? latest : !latest || item.last_checked_at > latest ? item.last_checked_at : latest, null);
   const openIds = new Set(shops.map(shop => shop.id));
   return { shops, items: items.filter(item => openIds.has(item.shop_id)), loadedAt, source: 'live' };
