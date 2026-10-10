@@ -67,7 +67,7 @@ function ShopDetail({ shop, items, onBack }: { shop: Shop; items: Item[]; onBack
     ratingStr(shop), neighborhood(shop), shop.address,
     checked ? `READ ${new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(new Date(checked)).toUpperCase()}${RENDERED_AT - new Date(checked).getTime() > STALE_AFTER_MS ? ' · STALE' : ''}` : null,
   ].filter(Boolean) as string[];
-  const groups = menu.reduce<Record<string, Item[]>>((acc, item) => { const key = item.category || (item.is_drink ? 'Coffee & drinks' : 'Food & bakery'); (acc[key] ??= []).push(item); return acc; }, {});
+  const groups = menu.reduce<Record<string, Item[]>>((acc, item) => { const key = item.category || (item.is_drink ? 'Coffee & drinks' : 'Other menu items'); (acc[key] ??= []).push(item); return acc; }, {});
   const drinkPrices = menu.filter((item) => item.is_drink && item.current_price_cents != null && item.current_price_cents > 0).map((item) => item.current_price_cents as number).sort((a, b) => a - b);
   const medianDrink = drinkPrices.length ? (drinkPrices.length % 2 ? drinkPrices[drinkPrices.length >> 1] : Math.round((drinkPrices[(drinkPrices.length >> 1) - 1] + drinkPrices[drinkPrices.length >> 1]) / 2)) : null;
   const foodCount = menu.filter((item) => !item.is_drink).length;
@@ -75,7 +75,7 @@ function ShopDetail({ shop, items, onBack }: { shop: Shop; items: Item[]; onBack
     { label: 'Cheapest drink', value: drinkPrices.length ? formatPrice(drinkPrices[0]) : '—' },
     { label: 'Median drink', value: medianDrink == null ? '—' : formatPrice(medianDrink) },
     { label: 'Drinks listed', value: String(menu.filter((item) => item.is_drink).length) },
-    { label: 'Food & bakery', value: String(foodCount) },
+    { label: 'Other menu items', value: String(foodCount) },
   ] : [];
   return <main className="detail-shell">
     <button className="back-button" onClick={onBack}>← Back to results</button>
