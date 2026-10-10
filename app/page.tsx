@@ -116,8 +116,8 @@ export default function Home() {
   const [plainOnly, setPlainOnly] = useState(true);
   const [includeStale, setIncludeStale] = useState(false);
   const [nearExpanded, setNearExpanded] = useState(false);
-  const [, setClock] = useState(0);
-  useEffect(() => { const timer = setInterval(() => setClock(value => value + 1), 60000); return () => clearInterval(timer); }, []);
+  const [now, setNow] = useState(() => new Date());
+  useEffect(() => { const timer = setInterval(() => setNow(new Date()), 60000); return () => clearInterval(timer); }, []);
   const [query, setQuery] = useState('');
   const [openOnly, setOpenOnly] = useState(false);
   const [pricedOnly, setPricedOnly] = useState(true);
@@ -199,11 +199,11 @@ export default function Home() {
   const rankingKey = `${metro}|${drink}|${activeHood}|${size}|${plainOnly}|${includeStale}|${query}|${openOnly}`;
   const showAll = showAllKey === rankingKey;
   const pricedShopIds = useMemo(() => { const set = new Set<number>(); for (const item of data.items) if (item.is_drink && item.current_price_cents != null && item.current_price_cents > 0) set.add(item.shop_id); return set; }, [data.items]);
-  const visibleShops = useMemo(() => metroShops.filter((shop) => { const haystack = fold(`${shop.name} ${shop.neighborhood || ''} ${shop.address || ''}`); return haystack.includes(fold(query)) && (!openOnly || isOpenNow(shop.opening_hours) === true) && (!pricedOnly || pricedShopIds.has(shop.id)) && (!activeHood || (activeHood.startsWith('sub:') ? shop.subdistrict === activeHood.slice(4) : shop.neighborhood === activeHood)); }), [metroShops, query, openOnly, pricedOnly, pricedShopIds, activeHood]);
+  const visibleShops = useMemo(() => metroShops.filter((shop) => { const haystack = fold(`${shop.name} ${shop.neighborhood || ''} ${shop.address || ''}`); return haystack.includes(fold(query)) && (!openOnly || isOpenNow(shop.opening_hours, now) === true) && (!pricedOnly || pricedShopIds.has(shop.id)) && (!activeHood || (activeHood.startsWith('sub:') ? shop.subdistrict === activeHood.slice(4) : shop.neighborhood === activeHood)); }), [metroShops, query, openOnly, pricedOnly, pricedShopIds, activeHood, now]);
   const nearBase = visibleShops;
   const nearShops = useMemo(() => {
     const rows = nearBase.map((shop) => {
-      const open = isOpenNow(shop.opening_hours);
+      const open = isOpenNow(shop.opening_hours, now);
       const miles = coords && shop.lat != null && shop.lng != null ? distanceMiles(coords.lat, coords.lng, shop.lat, shop.lng) : null;
       return { shop, open, miles };
     });
@@ -229,7 +229,7 @@ export default function Home() {
       kept[i].extra = coords ? hidden.filter((row) => row.miles != null && row.miles <= 15).length : hidden.length;
     }
     return kept;
-  }, [nearBase, coords]);
+  }, [nearBase, coords, now]);
   const drinkTypes = useMemo(() => Array.from(new Set(data.items.filter((item) => item.is_drink && item.drink_type).map((item) => item.drink_type as string))).sort((a, b) => { const ai = drinkOrder.indexOf(a); const bi = drinkOrder.indexOf(b); return (ai < 0 ? drinkOrder.length : ai) - (bi < 0 ? drinkOrder.length : bi) || a.localeCompare(b); }), [data.items]);
   const shopsById = useMemo(() => new Map(data.shops.map((shop) => [shop.id, shop])), [data.shops]);
   const visibleIds = useMemo(() => new Set(visibleShops.map(shop => shop.id)), [visibleShops]);
@@ -242,11 +242,13 @@ export default function Home() {
   // Chain fan-out: identical item at identically-named shops (Caribou x87,
   // Stone Creek x5, ...) collapses to one annotated row; source data is untouched.
   const ranked = useMemo(() => {
+    const locationIds = new Map<string, Set<number>>();
     const seen = new Map<string, { item: Item; shop: Shop; price: number; locations: number }>();
     for (const entry of comparisons) {
       const key = `${entry.shop.name}|${entry.item.name}|${entry.price}|${entry.item.size_oz ?? ''}`;
+      const ids = locationIds.get(key) || new Set<number>(); ids.add(entry.shop.id); locationIds.set(key, ids);
       const hit = seen.get(key);
-      if (hit) { hit.locations += 1; if ((entry.item.last_checked_at || '') > (hit.item.last_checked_at || '')) { hit.item = entry.item; hit.shop = entry.shop; } } else seen.set(key, { ...entry, locations: 1 });
+      if (hit) { hit.locations = ids.size; if ((entry.item.last_checked_at || '') > (hit.item.last_checked_at || '')) { hit.item = entry.item; hit.shop = entry.shop; } } else seen.set(key, { ...entry, locations: 1 });
     }
     return Array.from(seen.values());
   }, [comparisons]);
