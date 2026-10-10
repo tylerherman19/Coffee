@@ -176,18 +176,24 @@ def main() -> None:
     print(f"{len(targets)} of {len(shops)} shops to collect"
           f"{' (dry run)' if args.dry_run else ''}")
 
-    collected = items = 0
+    collected = items = failures = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = [pool.submit(collect_source, shop) for shop in targets]
+        futures = {pool.submit(collect_source, shop): shop for shop in targets}
         for future in concurrent.futures.as_completed(futures):
-            shop, platform, source, menu, rating = future.result()
-            print(report(shop, platform, source, menu))
-            if menu:
-                collected += 1
-                items += len(menu)
-            if not args.dry_run:
-                save_menu(db, shop, platform, source, menu, rating)
-    print(f"{collected} shops collected, {items} rows{' (nothing written)' if args.dry_run else ''}")
+            try:
+                shop, platform, source, menu, rating = future.result()
+                print(report(shop, platform, source, menu))
+                if not args.dry_run:
+                    save_menu(db, shop, platform, source, menu, rating)
+                if menu:
+                    collected += 1
+                    items += len(menu)
+            except Exception as exc:
+                failures += 1
+                print(f"::error::{futures[future]['name']}: {exc}", file=sys.stderr)
+    print(f"{collected} shops collected, {items} rows, {failures} failures{' (nothing written)' if args.dry_run else ''}")
+    if failures or (targets and not collected):
+        raise SystemExit("Collection incomplete; see errors above")
 
 
 if __name__ == "__main__":

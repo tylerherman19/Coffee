@@ -15,6 +15,11 @@ from collect import classify_name, platform_of, refine_classification  # noqa: E
 
 # (name, category, expected is_drink, expected drink_type)
 NAME_CASES = [
+    ("Matcha Latte", "Coffee", True, "tea"),
+    ("Chai Tea Latte", "Espresso", True, "chai"),
+    ("Cafe au Lait", "Coffee", True, "other"),
+    ("Maple Pecan Houjicha", "Houjicha", True, "tea"),
+    ("Apple Star Anise Tonic", "Specialty Coffee", True, "other"),
     # The item's own name outranks its section header.
     ("Latte", "Espresso", True, "latte"),
     ("Mocha", "Espresso", True, "mocha"),

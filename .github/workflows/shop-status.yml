@@ -28,6 +28,10 @@ on:
         required: false
         default: ''
 
+concurrency:
+  group: coffee-price-collection
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest

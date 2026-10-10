@@ -14,7 +14,7 @@ on:
           - add-shops
 
 concurrency:
-  group: coffee-maintenance
+  group: coffee-price-collection
   cancel-in-progress: false
 
 jobs:

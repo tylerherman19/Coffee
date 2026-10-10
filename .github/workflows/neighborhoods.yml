@@ -3,6 +3,10 @@ name: Backfill shop neighborhoods
 on:
   workflow_dispatch:
 
+concurrency:
+  group: coffee-price-collection
+  cancel-in-progress: false
+
 jobs:
   backfill:
     runs-on: ubuntu-latest
