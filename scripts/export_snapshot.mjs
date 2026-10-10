@@ -29,7 +29,7 @@ const [rawShops, rawItems, districts, neighborhoods] = await Promise.all([
 ]);
 if (!rawShops.length || !rawItems.length) throw new Error('Refusing to publish an empty saved index');
 const hoodById = new Map(neighborhoods.updates.map(row => [row.id, row.neighborhood]));
-const shops = rawShops.map(shop => ({...shop, website: shop.website ? (/^https?:\/\//.test(shop.website) ? shop.website : `https://${shop.website}`) : null, neighborhood: shop.neighborhood || hoodById.get(shop.id) || null, subdistrict: districts.subdistricts[String(shop.id)] || null, rating: null, review_count: null}));
+const shops = rawShops.sort((a, b) => a.name.localeCompare(b.name) || a.id - b.id).map(shop => ({...shop, website: shop.website ? (/^https?:\/\//.test(shop.website) ? shop.website : `https://${shop.website}`) : null, neighborhood: shop.neighborhood || hoodById.get(shop.id) || null, subdistrict: districts.subdistricts[String(shop.id)] || null, rating: null, review_count: null}));
 const ids = new Set(shops.map(shop => shop.id));
 const items = rawItems.filter(item => ids.has(item.shop_id));
 const loadedAt = items.reduce((latest, item) => item.last_checked_at && (!latest || item.last_checked_at > latest) ? item.last_checked_at : latest, null);

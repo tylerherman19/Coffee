@@ -15,6 +15,9 @@ from collect import classify_name, platform_of, refine_classification  # noqa: E
 
 # (name, category, expected is_drink, expected drink_type)
 NAME_CASES = [
+    ("London Fog", "Coffee", True, "tea"),
+    ("Caramel Matcha Latte", "Coffee", True, "tea"),
+    ("Caramel Chai Latte", "Coffee", True, "chai"),
     ("Matcha Latte", "Coffee", True, "tea"),
     ("Chai Tea Latte", "Espresso", True, "chai"),
     ("Cafe au Lait", "Coffee", True, "other"),
@@ -77,6 +80,8 @@ NAME_CASES = [
 
 # (name, category, price_cents, size_oz, expected is_drink, expected drink_type)
 PRICE_CASES = [
+    ("Costa Rica", "12oz Coffee", 1600, None, False, None),
+    ("Cafe Coffee", "Coffee", 350, None, True, "drip"),
     ("Vanilla", "Drinks", 75, None, False, None),            # syrup pump
     ("Extra Yogurt", "Fruit Smoothies", 75, None, False, None),
     ("Honest Kids Juice", "More Beverages/Juice", 100, None, True, "other"),

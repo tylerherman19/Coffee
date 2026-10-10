@@ -325,12 +325,12 @@ ADD_ON = re.compile(
     re.I,
 )
 DRINK_KINDS = [
+    ("chai", r"\bchai\b"),
+    ("tea", r"\btea\b|matcha|houjicha|hojicha|oolong|london fog"),
     # Caramel latte is its own bucket and must beat the generic "latte"
     # and "mocha" rules, which the same names also match.
     ("caramel_latte", r"(?:caramel|carmel)\W+(?:\w+\W+){0,3}?latte|"
                       r"latte\W+(?:\w+\W+){0,3}?(?:caramel|carmel)"),
-    ("chai", r"\bchai\b"),
-    ("tea", r"\btea\b|matcha|houjicha|hojicha|oolong"),
     ("other", r"caf[eé] au lait|\btonic\b"),
     ("cold_brew", r"cold brew|nitro"),
     ("cappuccino", r"cappuccino"),
@@ -449,6 +449,11 @@ def refine_classification(
     if price_cents < ADD_ON_CENTS or price_cents >= NOT_A_CUP_CENTS:
         return False, None
     if price_cents >= RETAIL_CENTS:
+        # A roaster's weight-labelled coffee category contains retail bags,
+        # not cup sizes inferred from an origin name (e.g. $16 "Costa Rica").
+        if category and re.fullmatch(r"\d+\s*oz\s+(?:coffee|beans)", category.strip(), re.I):
+            if not any(re.search(pattern, name, re.I) for kind, pattern in DRINK_KINDS if kind not in BROAD_KINDS):
+                return False, None
         if category and RETAIL_PRICE_GUARD.search(category):
             return False, None
         # "$18 ... 12 oz" is a retail bean bag's naming style.

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { isOpenNow } from '../lib/opening-hours.ts';
-import { isPlainLatte, shopDrink, loadCoffeeData } from '../lib/coffee-data.ts';
+import { isPlainLatte, shopDrink, loadCoffeeData, loadSnapshotData } from '../lib/coffee-data.ts';
 const saturday = new Date('2026-10-10T16:00:00Z');
 test('weekly hours and unsupported syntax', () => {
   assert.equal(isOpenNow('Mo-Fr 07:00-20:00; Sa-Su 08:00-20:00', saturday), true);
@@ -47,4 +47,10 @@ test('public data pagination includes rows past the API cap', async () => {
     return Response.json({subdistricts: {}});
   };
   try { const data = await loadCoffeeData(); assert.equal(data.shops.length, 1001); assert.equal(data.items[0].shop_id, 1001); } finally { globalThis.fetch = original; }
+});
+
+test('saved fallback index uses alphabetical shop order', async () => {
+  const original = globalThis.fetch;
+  globalThis.fetch = async () => Response.json({shops: [{id: 2, name: 'Zulu'}, {id: 1, name: 'Alpha'}], items: [], snapshotAt: '2026-10-10T16:00:00Z'});
+  try { const data = await loadSnapshotData(); assert.deepEqual(data.shops.map(shop => shop.name), ['Alpha', 'Zulu']); } finally { globalThis.fetch = original; }
 });

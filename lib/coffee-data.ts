@@ -96,7 +96,7 @@ export async function loadSnapshotData(): Promise<CoffeeData> {
   if (!response.ok) throw new Error('Saved index unavailable');
   const data = await response.json() as CoffeeData;
   if (!Array.isArray(data.shops) || !Array.isArray(data.items) || !data.snapshotAt) throw new Error('Invalid saved index');
-  return { ...data, source: 'snapshot' };
+  return { ...data, shops: data.shops.sort((a, b) => a.name.localeCompare(b.name) || a.id - b.id), source: 'snapshot' };
 }
 
 export async function loadMenuSource(shopId: number): Promise<string | null> {
