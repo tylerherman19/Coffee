@@ -225,3 +225,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+
+.data-status { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px 20px; padding: 12px var(--gutter); background: var(--wash); color: var(--muted); font-size: 12px; border-bottom: 1px solid var(--line); }
+.comparison-controls { background: var(--surface); }
+.source-note a { color: var(--ink); text-underline-offset: 3px; }
+.search button { background: transparent; border: 0; cursor: pointer; padding: 4px 8px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

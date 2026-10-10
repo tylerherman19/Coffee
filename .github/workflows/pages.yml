@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: [Collect coffee prices, Collect platform menus, Collect verified menus]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -16,6 +20,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,7 +33,9 @@ jobs:
         env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
-        run: npm run build
+        run: |
+          node scripts/export_snapshot.mjs
+          npm run build
       # vinext emits client assets under dist/client/Coffee/ (from assetPrefix),
       # but the Pages artifact root is already served at /Coffee/. Flatten so
       # /Coffee/_next/... URLs resolve to _next/... in the artifact.

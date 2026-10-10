@@ -9,7 +9,7 @@ on:
         default: 'imports/colectivo.json'
 
 concurrency:
-  group: coffee-menu-import
+  group: coffee-price-collection
   cancel-in-progress: false
 
 jobs:

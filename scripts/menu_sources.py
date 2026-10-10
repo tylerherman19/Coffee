@@ -167,6 +167,7 @@ def toast_directory(metro: str) -> list[dict[str, Any]]:
     found: dict[str, dict[str, Any]] = {}
     lats = [south + step * TOAST_GRID_LAT for step in range(int((north - south) / TOAST_GRID_LAT) + 2)]
     lngs = [west + step * TOAST_GRID_LNG for step in range(int((east - west) / TOAST_GRID_LNG) + 2)]
+    consecutive_failures = 0
     for lat, lng in itertools.product(lats, lngs):
         query = (
             '{nearbyRestaurants(input:{diningOption:TAKE_OUT,fulfillmentDateTime:"%s",'
@@ -175,8 +176,15 @@ def toast_directory(metro: str) -> list[dict[str, Any]]:
         )
         try:
             rows = toast_query(query).get("nearbyRestaurants") or []
+            consecutive_failures = 0
         except Exception as exc:
+            consecutive_failures += 1
+            response = getattr(exc, "response", None)
+            status = response.status_code if response is not None else None
             print(f"Toast directory {lat:.2f},{lng:.2f}: {exc}", file=sys.stderr)
+            if status in (401, 403) or consecutive_failures >= 3:
+                print(f"::warning::Toast directory unavailable for {metro}; stopping the sweep", file=sys.stderr)
+                break
             continue
         if len(rows) >= TOAST_PAGE_CAP:
             print(f"Toast directory truncated at {lat:.2f},{lng:.2f}", file=sys.stderr)

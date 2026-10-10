@@ -12,12 +12,15 @@ import re
 import statistics
 import sys
 import time
+from pathlib import Path
 from dataclasses import dataclass
 from typing import Any, Iterable
 from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 USER_AGENT = "CoffeePrices/1.0 (+https://github.com/tylerherman19/Coffee; public-menu research)"
 TIMEOUT = 18
@@ -74,27 +77,34 @@ class Supabase:
             "Content-Type": "application/json",
         }
 
+        # Reuse TLS connections. The old per-row client reopened a connection
+        # for every write and could run past the nightly workflow timeout.
+        self.session = requests.Session()
+        retries = Retry(total=3, backoff_factor=1, status_forcelist=(429, 500, 502, 503, 504),
+                        allowed_methods=frozenset(("GET", "PATCH")))
+        self.session.mount("https://", HTTPAdapter(max_retries=retries))
+
     def get(self, table: str, params: dict[str, str] | None = None) -> list[dict[str, Any]]:
-        response = requests.get(f"{self.url}/rest/v1/{table}", params=params, headers=self.headers, timeout=TIMEOUT)
+        response = self.session.get(f"{self.url}/rest/v1/{table}", params=params, headers=self.headers, timeout=TIMEOUT)
         response.raise_for_status()
         return response.json()
 
     def post(self, table: str, rows: dict[str, Any] | list[dict[str, Any]]) -> list[dict[str, Any]]:
         headers = {**self.headers, "Prefer": "return=representation"}
-        response = requests.post(f"{self.url}/rest/v1/{table}", headers=headers, json=rows, timeout=TIMEOUT)
+        response = self.session.post(f"{self.url}/rest/v1/{table}", headers=headers, json=rows, timeout=TIMEOUT)
         response.raise_for_status()
         return response.json()
 
     def patch(self, table: str, query: str, values: dict[str, Any]) -> None:
         headers = {**self.headers, "Prefer": "return=minimal"}
-        response = requests.patch(f"{self.url}/rest/v1/{table}?{query}", headers=headers, json=values, timeout=TIMEOUT)
+        response = self.session.patch(f"{self.url}/rest/v1/{table}?{query}", headers=headers, json=values, timeout=TIMEOUT)
         response.raise_for_status()
 
 
 def get(url: str, **kwargs: Any) -> requests.Response:
     headers = {"User-Agent": USER_AGENT, "Accept-Language": "en-US,en;q=0.8"}
     headers.update(kwargs.pop("headers", {}))
-    response = requests.get(url, headers=headers, timeout=TIMEOUT, allow_redirects=True, **kwargs)
+    response = requests.get(url, headers=headers, timeout=kwargs.pop("timeout", TIMEOUT), allow_redirects=True, **kwargs)
     response.raise_for_status()
     return response
 
@@ -116,7 +126,9 @@ def discover(metro: str) -> list[dict[str, Any]]:
             time.sleep(15)
         for endpoint in OVERPASS:
             try:
-                payload = get(endpoint, params={"data": query}).json()
+                payload = get(endpoint, params={"data": query}, timeout=60).json()
+                if "elements" not in payload or payload.get("remark"):
+                    raise RuntimeError("Overpass returned an incomplete discovery response")
                 break
             except Exception as exc:
                 print(f"Overpass mirror failed: {endpoint}: {exc}", file=sys.stderr)
@@ -317,12 +329,15 @@ DRINK_KINDS = [
     # and "mocha" rules, which the same names also match.
     ("caramel_latte", r"(?:caramel|carmel)\W+(?:\w+\W+){0,3}?latte|"
                       r"latte\W+(?:\w+\W+){0,3}?(?:caramel|carmel)"),
+    ("chai", r"\bchai\b"),
+    ("tea", r"\btea\b|matcha|houjicha|hojicha|oolong"),
+    ("other", r"caf[eé] au lait|\btonic\b"),
     ("cold_brew", r"cold brew|nitro"),
     ("cappuccino", r"cappuccino"),
     ("americano", r"americano"),
     ("espresso", r"espresso|cortado|\bristretto\b|\bdoppio\b"),
     ("mocha", r"mocha"),
-    ("latte", r"latte|cafe au lait|café au lait"),
+    ("latte", r"latte|flat white|caf[eé] con leche"),
     # A bare "Coffee", "Hot Coffee" or "Coffee of the Day" is the drip cup on
     # most menus. This rule is broad, so it is the one the bakery guard covers.
     ("drip", r"drip|pour.?over|brewed coffee|batch brew|\bcoffee\b"),
@@ -926,10 +941,26 @@ def sync_shops(db: Supabase, discovered: list[dict[str, Any]]) -> list[dict[str,
     for row in discovered:
         old = by_osm.get(row["osm_id"])
         if old:
-            db.patch("shops", f"id=eq.{old['id']}", row)
+            # Missing OSM tags must not erase a verified website or neighborhood.
+            updates = {k: v for k, v in row.items() if v is not None}
+            if old.get("data_source") == "manual":
+                updates = {k: v for k, v in updates.items() if k in ("osm_id", "last_seen")}
+            db.patch("shops", f"id=eq.{old['id']}", updates)
         else:
-            created = db.post("shops", row)[0]
-            by_osm[row["osm_id"]] = created
+            # Attach OSM identities to curated shops at the same address.
+            from menu_sources import metres_between, same_place
+            match = next((shop for shop in existing if not shop.get("closed_at")
+                          and shop.get("lat") is not None and shop.get("lng") is not None
+                          and same_place(shop["name"], row["name"],
+                              metres_between(shop["lat"], shop["lng"], row["lat"], row["lng"]),
+                              shop.get("address"), row.get("address"))), None)
+            if match:
+                db.patch("shops", f"id=eq.{match['id']}", {"osm_id": row["osm_id"], "last_seen": row["last_seen"]})
+                by_osm[row["osm_id"]] = match
+            else:
+                created = db.post("shops", row)[0]
+                existing.append(created)
+                by_osm[row["osm_id"]] = created
     return get_all(db, "shops", {"select": "*", "closed_at": "is.null"})
 
 
@@ -963,8 +994,11 @@ def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, st
     # menu_sources imports this module, so it is imported here rather than at
     # the top.
     import menu_sources
-    platform, source, cached = resolve_source(shop)
     website = normalize_url(shop.get("website"))
+    if website and urlparse(website).hostname in ("bluehourcoffee.com", "www.bluehourcoffee.com"):
+        source = "https://bluehourcoffee.com/menu"
+        return shop, None, source, extract_blue_hour(get(source).text, source), (None, None)
+    platform, source, cached = resolve_source(shop)
     if not platform or not source:
         # No ordering platform anywhere on the site or in the directories. A few
         # shops publish the menu itself as HTML, the only remaining way to
@@ -999,7 +1033,14 @@ def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, st
             menu = extract_html_menu(source, platform)
     except Exception as exc:
         print(f"Collection failed for {shop['name']}: {exc}", file=sys.stderr)
-        return shop, platform, source, [], (None, None)
+        menu = []
+    if not menu and website and urlparse(website).hostname != urlparse(source).hostname:
+        try:
+            menu = extract_site_menu(website)
+            if menu:
+                source = website
+        except Exception as exc:
+            print(f"Website fallback failed for {shop['name']}: {exc}", file=sys.stderr)
     # The rating is a bonus and its page is often the one that refuses a
     # datacenter IP, so it is fetched after the menu is safely in hand rather
     # than inside the same try, where it would throw a collected menu away.
@@ -1012,77 +1053,172 @@ def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, st
     return shop, platform, source, menu, rating
 
 
+def batches(rows, size=200):
+    for start in range(0, len(rows), size):
+        yield rows[start:start + size]
+
+
 def save_menu(db: Supabase, shop: dict[str, Any], platform: str | None, source: str | None, menu: list[MenuItem], rating: tuple[float | None, int | None]) -> None:
+    """Refresh a shop in bounded batches; publish success only after its writes finish."""
     now = dt.datetime.now(dt.timezone.utc).isoformat()
-    status = "collected" if menu else ("unsupported" if not platform else "empty")
-    values = {"platform": platform, "last_checked_at": now, "scrape_status": status}
-    try:
-        db.patch("shops", f"id=eq.{shop['id']}", values)
-    except requests.HTTPError:
-        # shops.platform only accepts the ordering platforms the column knows
-        # about, and an unguarded patch would abort this shop's whole write
-        # over a label. import_menu.py retries the same way.
-        print(f"shop {shop['id']}: platform {platform!r} rejected; retrying without it", file=sys.stderr)
-        db.patch("shops", f"id=eq.{shop['id']}", {k: v for k, v in values.items() if k != "platform"})
-    # Ratings are not collected right now: the ratings table rejects the
-    # write (never-before-hit rule), and the site does not need them. Menus
-    # only - drop the post entirely rather than skip-log around it.
-    existing = get_all(db, "items", {"select": "*", "shop_id": f"eq.{shop['id']}"})
+    today = now[:10]
+    if not menu:
+        # A blocked/empty response is not evidence that every old item disappeared.
+        db.patch("shops", f"id=eq.{shop['id']}", {"last_checked_at": now,
+                 "scrape_status": "empty" if platform else "unsupported"})
+        return
+    entries = {entry.platform_id: entry for entry in menu}
+    existing = get_all(db, "items", {"select": "*", "shop_id": f"eq.{shop['id']}", "order": "id.asc"})
     by_platform = {item["platform_item_id"]: item for item in existing}
-    seen: set[str] = set()
-    for entry in menu:
-        seen.add(entry.platform_id)
+    new_rows = []
+    observations = []
+    for pid, entry in entries.items():
         size_label, size_oz, confidence = parse_size(entry.name)
         is_drink, drink_type = refine_classification(entry.name, entry.category, entry.price_cents, size_oz)
-        values = {"name": entry.name, "category": entry.category, "is_drink": is_drink, "drink_type": drink_type, "size_label": size_label, "size_oz": size_oz, "size_confidence": confidence, "last_seen": dt.date.today().isoformat(), "removed_at": None}
-        item = by_platform.get(entry.platform_id)
+        values = {"name": entry.name, "category": entry.category, "is_drink": is_drink,
+                  "drink_type": drink_type, "size_label": size_label, "size_oz": size_oz,
+                  "size_confidence": confidence, "removed_at": None}
+        item = by_platform.get(pid)
         if item:
-            db.patch("items", f"id=eq.{item['id']}", values)
+            changes = {k: v for k, v in values.items() if item.get(k) != v}
+            if changes:
+                db.patch("items", f"id=eq.{item['id']}", changes)
         else:
-            item = db.post("items", {**values, "shop_id": shop["id"], "platform_item_id": entry.platform_id})[0]
-            # Keep the map live: a menu that lists the same platform id twice
-            # must update the row just created, not insert a duplicate item.
-            by_platform[entry.platform_id] = item
+            new_rows.append({**values, "shop_id": shop["id"], "platform_item_id": pid,
+                             "last_seen": today, "last_checked_at": now})
+    for batch in batches(new_rows):
+        for item in db.post("items", batch):
+            by_platform[item["platform_item_id"]] = item
+    for pid, entry in entries.items():
+        item = by_platform[pid]
         if item.get("current_price_cents") != entry.price_cents:
-            db.post("observations", {"item_id": item["id"], "observed_at": now, "price_cents": entry.price_cents, "price_low_cents": entry.low_cents, "price_high_cents": entry.high_cents, "price_channel": "direct", "available": True, "source_url": source, "raw": entry.raw})
-        else:
-            db.patch("items", f"id=eq.{item['id']}", {"last_checked_at": now, "last_seen": dt.date.today().isoformat()})
-        # Any platform whose payload carries modifier sets, not just Square:
-        # the compare view's oat-milk maths needs these wherever they exist.
-        choices = extract_modifiers(entry.raw)
-        if choices:
-            # Read every stored row, not the first 500: a Toast menu can hang
-            # more choices than that off one item, and a truncated "latest"
-            # re-inserts rows the table already holds (409 Conflict).
-            prior = get_all(db, "modifiers", {"select": "group_name,choice_name,price_delta_cents", "item_id": f"eq.{item['id']}"})
-            latest = {(row["group_name"], row["choice_name"], row["price_delta_cents"]) for row in prior}
-            additions = [{"item_id": item["id"], "group_name": group, "choice_name": name, "price_delta_cents": cents, "observed_at": now} for group, name, cents in choices if (group, name, cents) not in latest]
-            if additions:
+            observations.append({"item_id": item["id"], "observed_at": now,
+                "price_cents": entry.price_cents, "price_low_cents": entry.low_cents,
+                "price_high_cents": entry.high_cents, "price_channel": "direct",
+                "available": True, "source_url": source, "raw": entry.raw})
+    for batch in batches(observations):
+        db.post("observations", batch)
+    active_ids = [by_platform[pid]["id"] for pid in entries]
+    for batch in batches(active_ids):
+        db.patch("items", f"id=in.({','.join(map(str, batch))})", {"last_checked_at": now, "last_seen": today})
+    # Fetch modifier history once per batch, rather than once per menu item.
+    choices = {by_platform[pid]["id"]: extract_modifiers(entry.raw) for pid, entry in entries.items()}
+    modifier_ids = [item_id for item_id, mods in choices.items() if mods]
+    prior = set()
+    for batch in batches(modifier_ids):
+        for row in get_all(db, "modifiers", {"select": "item_id,group_name,choice_name,price_delta_cents",
+                    "item_id": f"in.({','.join(map(str, batch))})", "order": "id.asc"}):
+            prior.add((row["item_id"], row.get("group_name"), row["choice_name"], row["price_delta_cents"]))
+    additions = []
+    for item_id, mods in choices.items():
+        for group, name, cents in mods:
+            key = (item_id, group, name, cents)
+            if key not in prior:
+                prior.add(key)
+                additions.append({"item_id": item_id, "group_name": group, "choice_name": name,
+                                  "price_delta_cents": cents, "observed_at": now})
+    for batch in batches(additions):
+        try:
+            db.post("modifiers", batch)
+        except requests.HTTPError as exc:
+            if exc.response is None or exc.response.status_code != 409:
+                raise
+            for row in batch:
                 try:
-                    db.post("modifiers", additions)
-                except requests.HTTPError as exc:
-                    if exc.response is None or exc.response.status_code != 409:
+                    db.post("modifiers", row)
+                except requests.HTTPError as row_exc:
+                    if row_exc.response is None or row_exc.response.status_code != 409:
                         raise
-                    # One row the table's uniqueness rule already holds must
-                    # not sink the batch (or the run): retry row by row and
-                    # skip the conflicts. Same guard-and-continue idiom as the
-                    # shops patch above.
-                    for row in additions:
-                        try:
-                            db.post("modifiers", row)
-                        except requests.HTTPError as row_exc:
-                            if row_exc.response is None or row_exc.response.status_code != 409:
-                                raise
-                            print(f"shop {shop['id']}: modifier already on file, skipped: {row['group_name']} / {row['choice_name']}", file=sys.stderr)
-    for item in existing:
-        if item["platform_item_id"] not in seen and menu and not item.get("removed_at"):
-            db.patch("items", f"id=eq.{item['id']}", {"removed_at": dt.date.today().isoformat()})
+    removed = [item["id"] for item in existing if item["platform_item_id"] not in entries and not item.get("removed_at")]
+    for batch in batches(removed):
+        db.patch("items", f"id=in.({','.join(map(str, batch))})", {"removed_at": today})
+    values = {"last_checked_at": now, "scrape_status": "collected"}
+    if platform:
+        values["platform"] = platform
+    try:
+        db.patch("shops", f"id=eq.{shop['id']}", values)
+    except requests.HTTPError as exc:
+        if exc.response is None or exc.response.status_code != 400 or "platform" not in values:
+            raise
+        values.pop("platform")
+        db.patch("shops", f"id=eq.{shop['id']}", values)
+
+
+def extract_blue_hour(html: str, source: str = "https://bluehourcoffee.com/menu") -> list[MenuItem]:
+    """Blue Hour's published HTML menu, without descriptions or add-on prices."""
+    soup = BeautifulSoup(html, "html.parser")
+    found = []
+    for section in soup.select("main .cat"):
+        heading = section.select_one(".cat-head h2")
+        if not heading:
+            continue
+        category = heading.get_text(" ", strip=True)
+        if category == "Add-ons":
+            continue
+        for row in section.select(".item, .pl-row"):
+            title = row.select_one("h3") if "item" in row.get("class", []) else row.select_one("span")
+            price = row.select_one(".price, b")
+            if not title or not price:
+                continue
+            # Small text inside a plain-list name is size/description, not its name.
+            name = " ".join(str(t).strip() for t in title.find_all(string=True, recursive=False)).strip()
+            if not name:
+                name = title.get_text(" ", strip=True)
+            match = re.fullmatch(r"\$(\d+)\.(\d{2})", price.get_text(strip=True))
+            if not match:
+                continue
+            cents = int(match[1]) * 100 + int(match[2])
+            size = row.select_one("small")
+            stated_size = size.get_text(strip=True) if size else ""
+            if category == "Specialty Coffee":
+                # The section explicitly states 12oz hot / 16oz iced. Iced-only
+                # drinks do not get a fabricated hot variant.
+                variants = ["Iced 16oz"] if "Iced only" in row.get_text() else ["Hot 12oz", "Iced 16oz"]
+            else:
+                variants = [stated_size if re.fullmatch(r"\d+ oz", stated_size) else ""]
+            for variant in variants:
+                full = f"{name} {variant}".strip()
+                pid = "bluehour-" + hashlib.sha1(full.lower().encode()).hexdigest()[:20]
+                found.append(MenuItem(pid, full, category, cents, cents, cents, {"source": source}))
+    if len(found) < 15 or not any(item.name == "Latte" for item in found):
+        raise RuntimeError("Blue Hour menu changed or is incomplete; preserving existing prices")
+    return found
+
+
+def sync_verified_shops(db: Supabase) -> list[int]:
+    from menu_sources import metres_between
+    existing = get_all(db, "shops", {"select": "*", "order": "id.asc"})
+    ids = []
+    for candidate in json.loads((Path(__file__).resolve().parent.parent / "data/verified_shops.json").read_text()):
+        row = {k: v for k, v in candidate.items() if k != "source_url"}
+        match = next((shop for shop in existing if shop["name"].casefold() == row["name"].casefold()
+            and shop.get("metro") == row["metro"] and shop.get("lat") is not None and shop.get("lng") is not None
+            and metres_between(shop["lat"], shop["lng"], row["lat"], row["lng"]) < 150), None)
+        if match:
+            db.patch("shops", f"id=eq.{match['id']}", row)
+            ids.append(match["id"])
+        else:
+            created = db.post("shops", row)[0]
+            existing.append(created)
+            ids.append(created["id"])
+    return ids
 
 
 def main() -> None:
     db = Supabase()
-    all_discovered = [shop for metro in METROS for shop in discover(metro)]
+    verified_ids = sync_verified_shops(db)
+    all_discovered = []
+    discovery_errors = []
+    if os.environ.get("VERIFIED_ONLY") != "true":
+        for metro in METROS:
+            try:
+                all_discovered.extend(discover(metro))
+            except Exception as exc:
+                discovery_errors.append(metro)
+                print(f"::warning::Discovery unavailable for {metro}; refreshing known shops: {exc}", file=sys.stderr)
     shops = sync_shops(db, all_discovered)
+    if os.environ.get("VERIFIED_ONLY") == "true":
+        shops = [shop for shop in shops if shop["id"] in verified_ids]
     # A shop with no website used to be skipped outright. Its ordering page can
     # still be found in a platform's location directory, which is the only way
     # the third of the metro that publishes nothing of its own gets priced.
@@ -1091,23 +1227,34 @@ def main() -> None:
         # Only shops with nothing priced yet. The nightly run stays a full
         # re-check; this mode answers "what does a new platform add?" without
         # re-reading every menu that is already on file.
-        priced = {row["shop_id"] for row in get_all(db, "items", {"select": "shop_id"})}
+        priced = {row["shop_id"] for row in get_all(db, "items", {"select": "shop_id", "removed_at": "is.null", "current_price_cents": "gt.0"})}
         candidates = [shop for shop in candidates if shop["id"] not in priced]
     print(f"Checking {len(candidates)} shops for supported direct menus")
+    failures = collected = total_items = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
-        futures = [pool.submit(collect_source, shop) for shop in candidates]
+        futures = {pool.submit(collect_source, shop): shop for shop in candidates}
         for index, future in enumerate(concurrent.futures.as_completed(futures), 1):
-            shop, platform, source, menu, rating = future.result()
+            shop = futures[future]
             try:
+                shop, platform, source, menu, rating = future.result()
                 save_menu(db, shop, platform, source, menu, rating)
             except Exception as exc:
                 # One shop's write failing must not abort the run: the other
                 # shops still get collected and the failure is visible in the log.
-                print(f"Saving failed for {shop['name']}: {exc}", file=sys.stderr)
+                failures += 1
+                print(f"::error::Collection/write failed for {shop['name']}: {exc}", file=sys.stderr)
                 continue
             if menu:
+                collected += 1
+                total_items += len(menu)
                 print(f"[{index}/{len(candidates)}] {shop['name']}: {len(menu)} items via {platform}")
-    print("Collection complete")
+    summary = f"{collected}/{len(candidates)} shops refreshed, {total_items} menu items, {failures} failures; discovery unavailable: {', '.join(discovery_errors) or 'none'}"
+    print(summary)
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as handle:
+            handle.write(summary + "\n")
+    if failures or (candidates and not collected):
+        raise SystemExit("Collection incomplete; see errors above")
 
 
 if __name__ == "__main__":

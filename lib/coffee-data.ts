@@ -1,9 +1,10 @@
+import neighborhoodOverrides from '../data/neighborhoods.json' with { type: 'json' };
 export type Shop = { id: number; name: string; metro: 'milwaukee' | 'twin_cities'; address: string | null; neighborhood: string | null; subdistrict: string | null; lat: number | null; lng: number | null; website: string | null; platform: string | null; opening_hours: string | null; rating: number | null; review_count: number | null };
 // shops.platform holds the ordering platform's slug; these are its brand names.
 const platformNames: Record<string, string> = { square: 'Square', toast: 'Toast', spoton: 'SpotOn', chownow: 'ChowNow', clover: 'Clover' };
 export const platformLabel = (platform: string) => platformNames[platform] ?? platform;
 export type Item = { id: number; shop_id: number; name: string; category: string | null; is_drink: boolean; drink_type: string | null; size_label: string | null; size_oz: number | null; size_confidence: 'explicit' | 'inferred' | 'none' | null; current_price_cents: number | null; last_checked_at: string | null };
-export type CoffeeData = { shops: Shop[]; items: Item[]; loadedAt: string | null };
+export type CoffeeData = { shops: Shop[]; items: Item[]; loadedAt: string | null; snapshotAt?: string; source?: 'live' | 'snapshot' };
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://fptyiklgiagjegufexvq.supabase.co';
 const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_I4PlipLTVnuRS3DRmUyWzA_rB5rp0qJ';
 // PostgREST caps an unbounded response at 1000 rows and says so only in the
@@ -28,8 +29,10 @@ async function fetchPage<T>(path: string, from: number): Promise<{ rows: T[]; to
       });
       if (!response.ok) throw new Error(`Coffee data request failed: ${response.status}`);
       const rows = (await response.json()) as T[];
+      if (!Array.isArray(rows)) throw new Error("Invalid coffee data response");
       const range = response.headers.get('content-range') || '';
-      const total = range.includes('/') && !range.endsWith('/*') ? Number(range.split('/')[1]) : null;
+      const count = range.includes('/') && !range.endsWith('/*') ? Number(range.split('/')[1]) : NaN;
+      const total = Number.isFinite(count) && count >= 0 ? count : null;
       return { rows, total };
     } catch (error) {
       lastError = error;
@@ -61,9 +64,9 @@ async function table<T>(path: string): Promise<T[]> {
 }
 export async function loadCoffeeData(): Promise<CoffeeData> {
   const [shopsRaw, items, ratings] = await Promise.all([
-    table<Omit<Shop, 'rating' | 'review_count'>>('shops?select=id,name,metro,address,neighborhood,lat,lng,website,platform,opening_hours&closed_at=is.null&order=name,id.asc'),
-    table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=name,id.asc'),
-    table<{ shop_id: number; rating: number | null; review_count: number | null; observed_at: string }>('ratings?select=shop_id,rating,review_count,observed_at&order=observed_at.desc,shop_id.asc'),
+    table<Omit<Shop, 'rating' | 'review_count'>>('shops?select=id,name,metro,address,neighborhood,lat,lng,website,platform,opening_hours&closed_at=is.null&order=id.asc'),
+    table<Item>('items?select=id,shop_id,name,category,is_drink,drink_type,size_label,size_oz,size_confidence,current_price_cents,last_checked_at&removed_at=is.null&order=id.asc'),
+    table<{ shop_id: number; rating: number | null; review_count: number | null; observed_at: string }>('ratings?select=shop_id,rating,review_count,observed_at&order=observed_at.desc,shop_id.asc').catch(() => []),
   ]);
   // Fine-grained districts inside a neighborhood (e.g. Historic Third Ward
   // inside Downtown), staged as a static file so the split ships with the
@@ -75,9 +78,11 @@ export async function loadCoffeeData(): Promise<CoffeeData> {
   } catch { /* no split available */ }
   const latestRating = new Map<number, { rating: number | null; review_count: number | null }>();
   for (const row of ratings) if (!latestRating.has(row.shop_id)) latestRating.set(row.shop_id, row);
-  const shops = shopsRaw.map((shop) => ({ ...shop, subdistrict: subdistricts[String(shop.id)] ?? null, rating: latestRating.get(shop.id)?.rating ?? null, review_count: latestRating.get(shop.id)?.review_count ?? null }));
+  const hoodById = new Map(neighborhoodOverrides.updates.map(row => [row.id, row.neighborhood]));
+  const shops = shopsRaw.sort((a, b) => a.name.localeCompare(b.name) || a.id - b.id).map((shop) => ({ ...shop, neighborhood: shop.neighborhood || hoodById.get(shop.id) || null, website: shop.website ? (/^https?:\/\//.test(shop.website) ? shop.website : `https://${shop.website}`) : null, subdistrict: subdistricts[String(shop.id)] ?? null, rating: latestRating.get(shop.id)?.rating ?? null, review_count: latestRating.get(shop.id)?.review_count ?? null }));
   const loadedAt = items.reduce<string | null>((latest, item) => !item.last_checked_at ? latest : !latest || item.last_checked_at > latest ? item.last_checked_at : latest, null);
-  return { shops, items, loadedAt };
+  const openIds = new Set(shops.map(shop => shop.id));
+  return { shops, items: items.filter(item => openIds.has(item.shop_id)), loadedAt, source: 'live' };
 }
 
 // Keys are the drink_type values the items table allows (see the check
@@ -86,29 +91,47 @@ export async function loadCoffeeData(): Promise<CoffeeData> {
 // so it is labelled as drinks rather than as coffee.
 export const drinkLabels: Record<string, string> = { latte: 'Latte', caramel_latte: 'Caramel latte', cappuccino: 'Cappuccino', espresso: 'Espresso', americano: 'Americano', drip: 'Drip coffee', cold_brew: 'Cold brew', mocha: 'Mocha', chai: 'Chai', tea: 'Tea', other: 'Other drinks' };
 
+export async function loadSnapshotData(): Promise<CoffeeData> {
+  const response = await fetch('coffee-snapshot.json', { signal: AbortSignal.timeout(10000) });
+  if (!response.ok) throw new Error('Saved index unavailable');
+  const data = await response.json() as CoffeeData;
+  if (!Array.isArray(data.shops) || !Array.isArray(data.items) || !data.snapshotAt) throw new Error('Invalid saved index');
+  return { ...data, source: 'snapshot' };
+}
+
+export async function loadMenuSource(shopId: number): Promise<string | null> {
+  const response = await fetch(`${url}/rest/v1/observations?select=source_url,items!inner(shop_id)&items.shop_id=eq.${shopId}&source_url=not.is.null&order=observed_at.desc&limit=1`, {
+    signal: AbortSignal.timeout(10000), headers: { apikey: key, 'Accept-Profile': 'coffee' },
+  });
+  if (!response.ok) return null;
+  const rows = await response.json() as { source_url: string }[];
+  const source = rows[0]?.source_url;
+  return source && /^https?:\/\//.test(source) ? source : null;
+}
+
+export const isPlainLatte = (item: Item) => /^(?:hot\s+|iced\s+)?(?:(?:cafe|café|caffe|caffè|caffé)\s+)?latte(?:\s*[-–(]?\s*(?:\d+(?:\.\d+)?\s*(?:oz\.?|ounce[s]?)|small|medium|large|regular|hot|iced)\s*\)?)*$/i.test(item.name.trim());
 const espressoFallbackOrder = ['cappuccino', 'americano', 'espresso', 'mocha', 'cold_brew'];
 
-// Shop-level price: a regular latte, else drip, else the closest standard
-// espresso drink - median size, never the smallest or largest.
+// The representative price carries its actual serving size; flavored drinks
+// retain their names instead of being presented as a plain latte.
 export function shopDrink(menu: Item[]): { price: number | null; label: string; fallback: boolean } {
-  const drinks = menu.filter((item) => item.is_drink && item.current_price_cents != null && item.current_price_cents > 0);
+  const drinks = menu.filter(item => item.is_drink && item.current_price_cents != null && item.current_price_cents > 0);
   if (!drinks.length) return { price: null, label: menu.length ? 'No coffee price' : 'No menu yet', fallback: false };
-  const medianPick = (cands: Item[]): Item => {
-    const sized = cands.filter((c) => c.size_oz != null).sort((a, b) => (a.size_oz as number) - (b.size_oz as number) || (a.current_price_cents as number) - (b.current_price_cents as number));
-    const pool = sized.length ? sized : cands.slice().sort((a, b) => (a.current_price_cents as number) - (b.current_price_cents as number));
-    return pool[Math.ceil((pool.length - 1) / 2)];
+  const pick = (pool: Item[], label: string, fallback: boolean) => {
+    const sorted = pool.slice().sort((a, b) => (a.size_oz ?? Infinity) - (b.size_oz ?? Infinity) || (a.current_price_cents as number) - (b.current_price_cents as number));
+    const chosen = sorted[Math.floor((sorted.length - 1) / 2)];
+    const size = chosen.size_oz ? ` · ${chosen.size_confidence === 'inferred' ? '~' : ''}${chosen.size_oz}oz` : '';
+    return { price: chosen.current_price_cents, label: label + size, fallback };
   };
-  const named = (re: RegExp) => drinks.filter((item) => re.test(item.name));
-  const latteExact = named(/^caff?[eé]?\s+latte$/i).concat(named(/^latte$/i));
-  const lattePool = latteExact.length ? latteExact : drinks.filter((item) => item.drink_type === 'latte');
-  if (lattePool.length) { const pick = medianPick(lattePool); return { price: pick.current_price_cents, label: 'Latte', fallback: false }; }
-  const dripExact = named(/^(drip|brewed|filter|house)\b/i).concat(named(/^coffee$/i));
-  const dripPool = dripExact.length ? dripExact : drinks.filter((item) => item.drink_type === 'drip');
-  if (dripPool.length) { const pick = medianPick(dripPool); return { price: pick.current_price_cents, label: 'Drip', fallback: false }; }
+  const plain = drinks.filter(item => item.drink_type === 'latte' && isPlainLatte(item));
+  if (plain.length) return pick(plain, 'Latte', false);
+  const drip = drinks.filter(item => item.drink_type === 'drip');
+  if (drip.length) return pick(drip, 'Drip', true);
   for (const type of espressoFallbackOrder) {
-    const cands = drinks.filter((item) => item.drink_type === type);
-    if (cands.length) { const pick = medianPick(cands); return { price: pick.current_price_cents, label: drinkLabels[type] || type.replaceAll('_', ' '), fallback: true }; }
+    const pool = drinks.filter(item => item.drink_type === type);
+    if (pool.length) return pick(pool, drinkLabels[type], true);
   }
-  const pick = medianPick(drinks);
-  return { price: pick.current_price_cents, label: pick.name, fallback: true };
+  const flavored = drinks.filter(item => item.drink_type === 'latte' || item.drink_type === 'caramel_latte');
+  if (flavored.length) { const chosen = flavored.slice().sort((a, b) => (a.current_price_cents as number) - (b.current_price_cents as number))[0]; return { price: chosen.current_price_cents, label: chosen.name, fallback: true }; }
+  return { price: null, label: 'No coffee price', fallback: false };
 }

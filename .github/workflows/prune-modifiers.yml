@@ -13,6 +13,10 @@ on:
         description: 'Comma-separated choice_name values to delete'
         required: true
 
+concurrency:
+  group: coffee-price-collection
+  cancel-in-progress: false
+
 jobs:
   prune:
     runs-on: ubuntu-latest

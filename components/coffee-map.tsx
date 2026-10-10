@@ -42,12 +42,14 @@ function Clusters({ shops, drinkByShop, onOpen }: { shops: Shop[]; drinkByShop: 
       const drink = drinkByShop.get(shop.id);
       const priced = drink && drink.price != null;
       const m = L.marker([shop.lat, shop.lng], { icon: priced ? priceIcon(drink!.price as number) : unpricedIcon, zIndexOffset: priced ? 400 : 0 });
-      const price = priced ? `<span class="popup-price">${drink!.label} <strong>${money.format((drink!.price as number) / 100)}</strong></span>` : '';
+      const price = priced ? `<span class="popup-price"><span class="drink-label"></span> <strong>${money.format((drink!.price as number) / 100)}</strong></span>` : '';
       const el = document.createElement('div');
       el.className = 'map-popup';
       el.innerHTML = `<strong></strong><span></span>${price}<button type="button">See menu</button>`;
       (el.querySelector('strong') as HTMLElement).textContent = shop.name;
       (el.querySelector('span:not(.popup-price)') as HTMLElement).textContent = shop.neighborhood || shop.address || 'Location mapped';
+      const label = el.querySelector('.drink-label');
+      if (label) label.textContent = drink?.label || '';
       el.querySelector('button')!.addEventListener('click', () => onOpen(shop));
       m.bindPopup(el);
       layers.push(m);

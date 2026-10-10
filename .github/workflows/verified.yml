@@ -1,0 +1,35 @@
+name: Collect verified menus
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/verified_shops.json
+      - scripts/collect.py
+      - .github/workflows/verified.yml
+  workflow_dispatch:
+concurrency:
+  group: coffee-price-collection
+  cancel-in-progress: false
+jobs:
+  verified:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Sync verified shops and collect their live menus
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          VERIFIED_ONLY: 'true'
+          PYTHONUNBUFFERED: '1'
+        run: python scripts/collect.py
+      - name: Correct existing drink classifications
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: python scripts/remediate_classifications.py

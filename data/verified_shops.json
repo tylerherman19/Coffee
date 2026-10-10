@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Blue Hour Coffee",
+    "metro": "milwaukee",
+    "address": "2410 N Murray Ave, Milwaukee, WI 53211",
+    "neighborhood": "East Side",
+    "lat": 43.0617291,
+    "lng": -87.8852301,
+    "website": "https://bluehourcoffee.com/",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa-Su 08:00-20:00",
+    "is_chain": false,
+    "data_source": "manual",
+    "source_url": "https://bluehourcoffee.com/menu"
+  }
+]
