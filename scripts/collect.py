@@ -1033,7 +1033,14 @@ def collect_source(shop: dict[str, Any]) -> tuple[dict[str, Any], str | None, st
             menu = extract_html_menu(source, platform)
     except Exception as exc:
         print(f"Collection failed for {shop['name']}: {exc}", file=sys.stderr)
-        return shop, platform, source, [], (None, None)
+        menu = []
+    if not menu and website and urlparse(website).hostname != urlparse(source).hostname:
+        try:
+            menu = extract_site_menu(website)
+            if menu:
+                source = website
+        except Exception as exc:
+            print(f"Website fallback failed for {shop['name']}: {exc}", file=sys.stderr)
     # The rating is a bonus and its page is often the one that refuses a
     # datacenter IP, so it is fetched after the menu is safely in hand rather
     # than inside the same try, where it would throw a collected menu away.

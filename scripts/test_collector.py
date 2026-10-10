@@ -30,6 +30,22 @@ class CollectorTests(unittest.TestCase):
         self.assertFalse(any('Extra Shot' in item.name for item in menu))
         self.assertEqual(len({item.platform_id for item in menu}), len(menu))
         with self.assertRaises(RuntimeError): collect.extract_blue_hour('<main>Temporarily unavailable</main>')
+    def test_blocked_directory_stops_after_one_request(self):
+        import menu_sources, requests
+        response = requests.Response(); response.status_code = 403
+        with patch.object(menu_sources, 'toast_query', side_effect=requests.HTTPError(response=response)) as query:
+            self.assertEqual(menu_sources.toast_directory('milwaukee'), [])
+            self.assertEqual(query.call_count, 1)
+    def test_platform_failure_uses_published_website_menu(self):
+        import menu_sources
+        shop = {'id': 7, 'name': 'Cafe', 'website': 'https://cafe.example', 'metro': 'milwaukee'}
+        menu = [collect.MenuItem('latte', 'Latte', None, 600)]
+        with patch.object(collect, 'resolve_source', return_value=('toast', 'https://order.toasttab.com/online/cafe', None)), \
+             patch.object(menu_sources, 'extract', side_effect=RuntimeError('platform unavailable')), \
+             patch.object(collect, 'extract_site_menu', return_value=menu), patch.object(collect, 'get', side_effect=RuntimeError('no rating')):
+            result = collect.collect_source(shop)
+            self.assertEqual(result[2], shop['website'])
+            self.assertEqual(result[3], menu)
     def test_no_menu_preserves_prior_prices(self):
         db = FakeDB([{'id': 1, 'platform_item_id': 'old'}])
         collect.save_menu(db, {'id': 7}, None, None, [], (None, None))
